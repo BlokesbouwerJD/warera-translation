@@ -30,8 +30,8 @@ msgid " - Gear merging schemes *"
 msgstr "* سامان ملانے کی اسکیمیں - "
 
 #: src/components/_common/GameRules.tsx:117
-msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
-msgstr "کم-اجرت کی مزدوری (عام تنخواہ سے 0.7 گنہ کم یا 1.3 گنہ زیادہ) - "
+msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
+msgstr "کم-اجرت کی مزدوری (عام تنخواہ سے 0.7 گنا کم یا 1.3 گنا زیادہ) - "
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:422
@@ -50,7 +50,7 @@ msgstr "بار بار مضامین کو ٹپ کرنا  - "
 msgid " - Using outside market standards or manipulated trade prices"
 msgstr "منڈی کے باہر کے معیارات کا استعمال کرنا یا تجارتی قیمتوں میں ہیرا پھیری کرنا - "
 
-#: src/components/_user/premium/PremiumActions.tsx:71
+#: src/components/_user/premium/PremiumActions.tsx:74
 msgid " Gift a sub"
 msgstr ""
 
@@ -70,7 +70,7 @@ msgid "{0} & allies"
 msgstr "{0} اور اتحادی"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:120
+#: src/components/_political/law/Law.tsx:148
 msgid "{0} active citizens required"
 msgstr "{0} فعال شہریوں کی ضرورت"
 
@@ -91,8 +91,8 @@ msgstr "{0} مفت"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:111
-#: src/components/_political/partyMotion/PartyMotion.tsx:109
+#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/partyMotion/PartyMotion.tsx:130
 msgid "{0} hours"
 msgstr "{0} گھنٹے"
 
@@ -688,24 +688,24 @@ msgstr ""
 msgid "<0>{0}</0> Storage capacity"
 msgstr ""
 
-#. placeholder {0}: -lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:99
+#. placeholder {0}: lawConfig.maintenanceCost
+#: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:89
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
 msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr ""
 
@@ -1222,8 +1222,9 @@ msgstr "تصدیقی زمرہ اس {phoneNumber} کو بھیج دیا گیا ہ�
 msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:170
-#: src/components/_political/partyMotion/PartyMotion.tsx:169
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:142
+#: src/components/_political/law/Law.tsx:199
+#: src/components/_political/partyMotion/PartyMotion.tsx:190
 msgid "Abstain"
 msgstr "اجتناب کریں"
 
@@ -1235,8 +1236,9 @@ msgstr "اطلاعی نظام کو ہرزہ نام بھیجنا یا اس کا �
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "کسی دوسرے ملک کو فائدہ پہنچانے کے لیے اس سکت کا ناجائذ استعمال <0>پابندی</0> کا باعث بنے گا۔"
 
-#: src/components/_political/law/Law.tsx:159
-#: src/components/_political/partyMotion/PartyMotion.tsx:158
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:131
+#: src/components/_political/law/Law.tsx:188
+#: src/components/_political/partyMotion/PartyMotion.tsx:179
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "قبول کریں"
@@ -1268,8 +1270,7 @@ msgstr "امن کو قبول کریں"
 msgid "Accept to make peace with the other country"
 msgstr ""
 
-#: src/components/_political/law/LawStatus.tsx:43
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
+#: src/components/_political/law/GenericLawStatus.tsx:40
 msgid "Accepted"
 msgstr "قبول شدہ"
 
@@ -1332,9 +1333,9 @@ msgstr "سرگرمی"
 msgid "Add User"
 msgstr "اس صارف کو ڈالیں"
 
-#: src/components/_political/law/Law.tsx:87
-#: src/components/_political/law/LawFormModal.tsx:302
-#: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/law/Law.tsx:110
+#: src/components/_political/law/LawFormModal.tsx:328
+#: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "اضافی لاگت"
@@ -1549,7 +1550,7 @@ msgstr ""
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:242
+#: src/components/_layout/LayoutOptions.tsx:262
 msgid "App pattern"
 msgstr ""
 
@@ -1707,8 +1708,8 @@ msgstr ""
 msgid "Auto approval"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:175
-#: src/components/_user/kits/KitsPopover.tsx:228
+#: src/components/_layout/LayoutOptions.tsx:195
+#: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
 
@@ -1874,8 +1875,8 @@ msgstr ""
 msgid "Become a Candidate"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:195
-#: src/components/_user/kits/KitsPopover.tsx:251
+#: src/components/_layout/LayoutOptions.tsx:215
+#: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr ""
 
@@ -1899,7 +1900,7 @@ msgstr ""
 msgid "Blue Staff"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:149
+#: src/components/_layout/LayoutOptions.tsx:156
 msgid "Blur"
 msgstr ""
 
@@ -2349,6 +2350,10 @@ msgstr ""
 msgid "Color scheme"
 msgstr ""
 
+#: src/components/_layout/LayoutOptions.tsx:172
+msgid "Colorblind mode"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:327
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:155
 msgid "Commander"
@@ -2399,7 +2404,7 @@ msgstr "کمپنی مطعل!"
 msgid "Company enabled!"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:54
+#: src/components/_economy/company/MoveCompanyForm.tsx:58
 msgid "Company moved"
 msgstr ""
 
@@ -2576,8 +2581,8 @@ msgstr ""
 msgid "Cooked Fish"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:108
-#: src/components/_political/partyMotion/PartyMotion.tsx:106
+#: src/components/_political/law/Law.tsx:136
+#: src/components/_political/partyMotion/PartyMotion.tsx:127
 msgid "Cool down"
 msgstr ""
 
@@ -2816,7 +2821,7 @@ msgstr ""
 msgid "Dark Era Pack"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:140
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Dark map"
 msgstr ""
 
@@ -3240,9 +3245,12 @@ msgstr ""
 msgid "Enable company"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:79
-#: src/components/_political/law/LawTypeSelect.tsx:162
-#: src/components/_political/partyMotion/PartyMotion.tsx:89
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:87
+#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
+#: src/components/_political/law/Law.tsx:92
+#: src/components/_political/law/Law.tsx:95
+#: src/components/_political/law/LawTypeSelect.tsx:176
+#: src/components/_political/partyMotion/PartyMotion.tsx:106
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
 msgstr ""
@@ -3290,8 +3298,9 @@ msgid "Entrepreneurship"
 msgstr "کارجوئی"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:172
-#: src/components/_user/user/WealthPanel.tsx:56 src/pages/market/index.tsx:71
+#: src/components/_layout/LayoutOptions.tsx:192
+#: src/components/_user/user/WealthPanel.tsx:56
+#: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:92
 #: src/pages/user/[userId]/inventory.tsx:58
 msgid "Equipment"
@@ -3305,8 +3314,7 @@ msgstr ""
 msgid "Equipments"
 msgstr ""
 
-#: src/components/_political/law/LawStatus.tsx:47
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
+#: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
 msgstr ""
 
@@ -3600,11 +3608,11 @@ msgstr ""
 msgid "Flail"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:212
+#: src/components/_layout/LayoutOptions.tsx:232
 msgid "Font"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:224
+#: src/components/_layout/LayoutOptions.tsx:244
 msgid "Font size"
 msgstr ""
 
@@ -4231,8 +4239,8 @@ msgstr "چھروں میں گولہ بارود نہیں ڈلتا"
 msgid "Land <0>{count}</0> critical hits"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:134
+#: src/components/_layout/LayoutOptions.tsx:185
+#: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "زبان"
 
@@ -4278,7 +4286,8 @@ msgstr ""
 msgid "Launch primary election"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:57
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:66
+#: src/components/_political/law/Law.tsx:70
 msgid "Law failed"
 msgstr "قانون ناکامیاب ہو گیا"
 
@@ -4409,7 +4418,7 @@ msgstr ""
 msgid "Limited:"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:254
+#: src/components/_layout/LayoutOptions.tsx:274
 msgid "Line"
 msgstr ""
 
@@ -4494,7 +4503,7 @@ msgstr "قسمت آخرکار چھا گئی"
 msgid "Mage Robe"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:96
+#: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "استقراری لاگت"
 
@@ -4502,7 +4511,11 @@ msgstr "استقراری لاگت"
 msgid "Major"
 msgstr "میجر"
 
-#: src/components/_user/premium/PremiumActions.tsx:81
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:110
+msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
+msgstr ""
+
+#: src/components/_user/premium/PremiumActions.tsx:84
 msgid "Manage Subscription"
 msgstr ""
 
@@ -4524,8 +4537,12 @@ msgstr ""
 msgid "Map Accent"
 msgstr ""
 
-#: src/components/_economy/market/MarketHeader.tsx:44
-#: src/components/_layout/LayoutMenu.tsx:165
+#: src/components/_layout/LayoutOptions.tsx:142
+msgid "Map icons"
+msgstr ""
+
+#: src/components/_economy/market/MarketHeader.tsx:37
+#: src/components/_layout/LayoutMenu.tsx:189
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -4726,7 +4743,7 @@ msgstr ""
 msgid "Min reached"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:118
+#: src/components/_political/law/Law.tsx:146
 msgid "Min. active citizens"
 msgstr ""
 
@@ -4742,9 +4759,13 @@ msgstr ""
 msgid "Minister of Foreign Affairs"
 msgstr ""
 
-#: src/components/_layout/LayoutRightIcons.tsx:254
-#: src/components/_layout/MoreButtonNav.tsx:103
-#: src/components/_user/mission/MissionsList.tsx:169
+#: src/components/_layout/LayoutOptions.tsx:180
+msgid "Mission tags"
+msgstr ""
+
+#: src/components/_layout/LayoutRightIcons.tsx:173
+#: src/components/_layout/MoreButtonNav.tsx:105
+#: src/components/_user/mission/MissionsList.tsx:159
 msgid "Missions"
 msgstr "مشن"
 
@@ -4797,7 +4818,7 @@ msgstr ""
 msgid "More premium features coming soon!"
 msgstr ""
 
-#: src/components/_political/partyMotion/PartyMotion.tsx:74
+#: src/components/_political/partyMotion/PartyMotion.tsx:91
 msgid "Motion failed"
 msgstr ""
 
@@ -4814,8 +4835,8 @@ msgstr ""
 msgid "Move a company to another region"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:144
-#: src/components/_economy/company/MoveCompanyForm.tsx:63
+#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr ""
 
@@ -4823,7 +4844,7 @@ msgstr ""
 msgid "Move Company"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:88
+#: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr ""
 
@@ -4930,6 +4951,10 @@ msgstr "قومی فیض"
 msgid "Need a job?"
 msgstr "نوکری چاہیے؟"
 
+#: src/components/_economy/inventory/ItemRecipe.tsx:59
+msgid "Needs more <0/> to produce"
+msgstr ""
+
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:47
 msgid "Negative mercenary reputation"
 msgstr ""
@@ -4982,7 +5007,11 @@ msgstr ""
 msgid "New job offer"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:77
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:161
+msgid "New leader"
+msgstr ""
+
+#: src/components/_economy/company/MoveCompanyForm.tsx:81
 msgid "New location"
 msgstr "نئی جگہ"
 
@@ -5401,8 +5430,9 @@ msgstr "فرمائشیں منسوخ ہو گئیں"
 msgid "Other"
 msgstr "دوسرا"
 
-#: src/components/_political/law/Law.tsx:64
-#: src/components/_political/partyMotion/PartyMotion.tsx:81
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:72
+#: src/components/_political/law/Law.tsx:77
+#: src/components/_political/partyMotion/PartyMotion.tsx:98
 msgid "Outcome"
 msgstr "نتیجہ"
 
@@ -5715,6 +5745,10 @@ msgstr ""
 msgid "Presidential elections"
 msgstr "صدارتی انتخابات"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
+msgid "Price auto-matches existing orders"
+msgstr ""
+
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
 msgstr ""
@@ -5772,8 +5806,8 @@ msgstr ""
 msgid "Production"
 msgstr "پیداوار"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:116
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr ""
@@ -5986,8 +6020,10 @@ msgstr ""
 msgid "Rear Admiral"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:178
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:79
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
+#: src/components/_political/law/Law.tsx:84
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr ""
 
@@ -6112,14 +6148,14 @@ msgstr "پیش مضبوط خود"
 msgid "Reinforced Pants"
 msgstr "پیش مضبوط راگ"
 
-#: src/components/_political/law/Law.tsx:181
-#: src/components/_political/partyMotion/PartyMotion.tsx:180
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:153
+#: src/components/_political/law/Law.tsx:210
+#: src/components/_political/partyMotion/PartyMotion.tsx:201
 msgid "Reject"
 msgstr "مسترد کریں"
 
-#: src/components/_political/law/LawStatus.tsx:45
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:260
+#: src/components/_political/law/GenericLawStatus.tsx:42
+#: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "مسترد کردہ"
 
@@ -6548,7 +6584,7 @@ msgstr "فرمائشیں بیچ دیں"
 msgid "Sell price:"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "sells"
 msgstr ""
 
@@ -6790,7 +6826,7 @@ msgstr ""
 msgid "Some of your companies are disabled."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:157
+#: src/components/_layout/LayoutOptions.tsx:164
 msgid "Sound effects"
 msgstr ""
 
@@ -6957,7 +6993,7 @@ msgstr ""
 msgid "Sugar Daddy"
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:57
+#: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr ""
 
@@ -7069,7 +7105,7 @@ msgstr ""
 msgid "Terms of Service"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:265
+#: src/components/_layout/LayoutOptions.tsx:285
 msgid "Texture"
 msgstr ""
 
@@ -7395,6 +7431,14 @@ msgstr ""
 msgid "Total Donated:"
 msgstr "کل عطیہ دیا ہوا"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
+msgid "Total of <0/>"
+msgstr ""
+
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:399
+msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
+msgstr ""
+
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"
 msgstr "کل انعام"
@@ -7510,7 +7554,7 @@ msgstr "Tutorials have been reset"
 msgid "Tyrannosaurus Rex"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:146
+#: src/components/_layout/LayoutOptions.tsx:153
 msgid "UI"
 msgstr ""
 
@@ -7901,7 +7945,7 @@ msgstr "لیول {0} کا انتظار"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "مزدوری میں گھٹائی کا کارکن کا قبول یا مسترد کرنے کا انتظار۔ آپ مزدوری تب تک نہیں بدل سکتے جب تک وہ جواب نہیں دیتے۔"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:152
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "wants"
 msgstr "چاہتا ہے"
 
@@ -8064,8 +8108,12 @@ msgstr "کارکن"
 msgid "Working for others is a great way to earn money when starting out."
 msgstr "دوسروں کے لیے کام کرنا شروع میں پیسے کمانے کا بڑھیا طریقہ ہے۔"
 
-#: src/components/_layout/LayoutOptions.tsx:207
-#: src/components/_user/kits/KitsPopover.tsx:265
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:64
+msgid "World <0/>"
+msgstr ""
+
+#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "بدترین"
 
@@ -8284,11 +8332,12 @@ msgstr "آپ نے اپنی نوکری چھوڑ دی!"
 msgid "You must be at least level {0} to contribute."
 msgstr ""
 
-#: src/components/_user/premium/PremiumActions.tsx:42
-msgid "You must be on web to subscribe"
+#. placeholder {0}: gameConfig.election.voteMinLevel
+#: src/components/_political/election/Election.tsx:226
+msgid "You must be at least level {0} to vote."
 msgstr ""
 
-#: src/components/_political/government/PoliticalEthicsSelect.tsx:92
+#: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr ""
 
@@ -8501,7 +8550,7 @@ msgstr ""
 msgid "Your current job"
 msgstr "آپ کی حالی نوکری"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:143
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
 msgid "Your current order"
 msgstr "آپ کی حالی فرمائش"
 

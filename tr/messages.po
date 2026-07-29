@@ -50,7 +50,7 @@ msgstr " - Makalelere tekrar tekrar bahşiş vermek"
 msgid " - Using outside market standards or manipulated trade prices"
 msgstr " - Dış piyasa standartlarını veya manipüle edilmiş ticaret fiyatlarını kullanmak"
 
-#: src/components/_user/premium/PremiumActions.tsx:71
+#: src/components/_user/premium/PremiumActions.tsx:74
 msgid " Gift a sub"
 msgstr "Premium Abonelik Hediye Et"
 
@@ -83,7 +83,7 @@ msgid "{0} & allies"
 msgstr "{0} ve müttefikleri"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/law/Law.tsx:148
 msgid "{0} active citizens required"
 msgstr "{0} aktif vatandaş gerekli"
 
@@ -104,8 +104,8 @@ msgstr "{0} Ücretsiz"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:130
-#: src/components/_political/partyMotion/PartyMotion.tsx:113
+#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/partyMotion/PartyMotion.tsx:130
 msgid "{0} hours"
 msgstr "{0} saat"
 
@@ -728,23 +728,23 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Depolama kapasitesi"
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:115
+#: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/gün"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<1/>'daki yatırım kaynaklarından <0>{depositBonus}</0>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:89
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
 msgstr "Tarımcı İlke kaynak yatağı bonusundan <0>{ethicDepositBonus}</0>"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "Sanayici İlke uzmanlık bonusundan <0>{ethicSpecializationBonus}</0>"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<1/> stratejik kaynaklar üretim bonusundan <0>{strategicBonus}</0>."
 
@@ -1273,9 +1273,9 @@ msgstr "{phoneNumber} numarasına bir doğrulama kodu gönderildi"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr "a. Hakaretler, aşağılamalar ve hedef alınmış taciz"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:190
-#: src/components/_political/partyMotion/PartyMotion.tsx:173
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:142
+#: src/components/_political/law/Law.tsx:199
+#: src/components/_political/partyMotion/PartyMotion.tsx:190
 msgid "Abstain"
 msgstr "Çekimser"
 
@@ -1287,9 +1287,9 @@ msgstr "Şikayet sistemini kötüye kullanmak veya spam yapmak yaptırımlara yo
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Bu yetkinin başka bir ülkeye çıkar sağlamak amacıyla kullanılması <0>yasaklama</0> ile sonuçlanır."
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:179
-#: src/components/_political/partyMotion/PartyMotion.tsx:162
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:131
+#: src/components/_political/law/Law.tsx:188
+#: src/components/_political/partyMotion/PartyMotion.tsx:179
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "Kabul Et"
@@ -1316,9 +1316,7 @@ msgstr "Barış yapmayı kabul et"
 msgid "Accept to make peace with the other country"
 msgstr "Başka bir ülkeyle barış yapmayı kabul et"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:43
-#: src/components/_political/law/LawStatus.tsx:43
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
+#: src/components/_political/law/GenericLawStatus.tsx:40
 msgid "Accepted"
 msgstr "Kabul Edildi"
 
@@ -1383,9 +1381,9 @@ msgstr "Aktivite"
 msgid "Add User"
 msgstr "Kullanıcı Ekle"
 
-#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/Law.tsx:110
 #: src/components/_political/law/LawFormModal.tsx:328
-#: src/components/_political/partyMotion/PartyMotion.tsx:99
+#: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Ek maliyet"
@@ -1640,7 +1638,7 @@ msgstr "API Token'ları"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API tokenleri harici uygulamaların sizin adınıza API'ye erişmesine izin verir. Tokenı <0>X-API-Key</0> başlığında kullanın. Her jetonun dakikada 200 istek limiti vardır."
 
-#: src/components/_layout/LayoutOptions.tsx:257
+#: src/components/_layout/LayoutOptions.tsx:262
 msgid "App pattern"
 msgstr "Uygulama deseni"
 
@@ -1858,7 +1856,7 @@ msgstr "Kimlik doğrulama başarısız. Lütfen tekrar deneyin."
 msgid "Auto approval"
 msgstr "Otomatik onay"
 
-#: src/components/_layout/LayoutOptions.tsx:190
+#: src/components/_layout/LayoutOptions.tsx:195
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Eşya kırıldığında otomatik donat"
@@ -2062,7 +2060,7 @@ msgstr "Galip Gelinen Cepheler"
 msgid "Become a Candidate"
 msgstr "Aday Ol"
 
-#: src/components/_layout/LayoutOptions.tsx:210
+#: src/components/_layout/LayoutOptions.tsx:215
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "En iyi"
@@ -2087,7 +2085,7 @@ msgstr "Engelle (yazdığı herşeyi gizle)"
 msgid "Blue Staff"
 msgstr "Mavi Asa"
 
-#: src/components/_layout/LayoutOptions.tsx:151
+#: src/components/_layout/LayoutOptions.tsx:156
 msgid "Blur"
 msgstr "Bulanık"
 
@@ -2536,7 +2534,7 @@ msgstr "Albay"
 msgid "Color scheme"
 msgstr "Renk şeması"
 
-#: src/components/_layout/LayoutOptions.tsx:167
+#: src/components/_layout/LayoutOptions.tsx:172
 msgid "Colorblind mode"
 msgstr "Renk körü modu"
 
@@ -2591,7 +2589,7 @@ msgstr "Şirket devre dışı bırakıldı!"
 msgid "Company enabled!"
 msgstr "Şirket etkinleştirildi!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:55
+#: src/components/_economy/company/MoveCompanyForm.tsx:58
 msgid "Company moved"
 msgstr "Şirket taşındı"
 
@@ -2767,8 +2765,8 @@ msgstr "Sözleşmeler ve Açık Artırmalar"
 msgid "Cooked Fish"
 msgstr "Pişmiş Balık"
 
-#: src/components/_political/law/Law.tsx:127
-#: src/components/_political/partyMotion/PartyMotion.tsx:110
+#: src/components/_political/law/Law.tsx:136
+#: src/components/_political/partyMotion/PartyMotion.tsx:127
 msgid "Cool down"
 msgstr "Bekleme süresi"
 
@@ -3063,7 +3061,7 @@ msgstr "Karanlık Çağ"
 msgid "Dark Era Pack"
 msgstr "Karanlık Çağ Paketi"
 
-#: src/components/_layout/LayoutOptions.tsx:142
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Dark map"
 msgstr "Koyu harita modu"
 
@@ -3530,12 +3528,12 @@ msgstr "Boş"
 msgid "Enable company"
 msgstr "Şirketi etkinleştir"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:78
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:87
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:83
-#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/Law.tsx:92
+#: src/components/_political/law/Law.tsx:95
 #: src/components/_political/law/LawTypeSelect.tsx:176
-#: src/components/_political/partyMotion/PartyMotion.tsx:89
+#: src/components/_political/partyMotion/PartyMotion.tsx:106
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
 msgstr "Yürürlüğe koyma maliyeti"
@@ -3591,7 +3589,7 @@ msgid "Entrepreneurship"
 msgstr "Girişimcilik"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:192
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:92
@@ -3607,9 +3605,7 @@ msgstr "Ekipman:"
 msgid "Equipments"
 msgstr "Ekipmanlar"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:47
-#: src/components/_political/law/LawStatus.tsx:47
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
+#: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
 msgstr "Hata"
 
@@ -3936,11 +3932,11 @@ msgstr "Bayraklar"
 msgid "Flail"
 msgstr "Topuzlu Gürz"
 
-#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_layout/LayoutOptions.tsx:232
 msgid "Font"
 msgstr "Yazı tipi"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:244
 msgid "Font size"
 msgstr "Yazı boyutu"
 
@@ -4672,7 +4668,7 @@ msgstr "Bıçaklar ile mermi kullanılamaz"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "<0>{count}</0> kritik vuruş yap"
 
-#: src/components/_layout/LayoutOptions.tsx:180
+#: src/components/_layout/LayoutOptions.tsx:185
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Dil"
@@ -4719,8 +4715,8 @@ msgstr "Lider seçimi başlat"
 msgid "Launch primary election"
 msgstr "Aday seçimi başlat"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:61
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:66
+#: src/components/_political/law/Law.tsx:70
 msgid "Law failed"
 msgstr "Yasa arızalandı"
 
@@ -4879,7 +4875,7 @@ msgstr "Yiyecek tüketim limiti"
 msgid "Limited:"
 msgstr "Sınırlı:"
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:274
 msgid "Line"
 msgstr "Çizgi"
 
@@ -4964,7 +4960,7 @@ msgstr "Şans sonunda maaş bordrosunda"
 msgid "Mage Robe"
 msgstr "Büyücü Cübbesi"
 
-#: src/components/_political/law/Law.tsx:112
+#: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "Bakım maliyeti"
 
@@ -4976,7 +4972,7 @@ msgstr "Binbaşı"
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr "<0/> kişisini yeni ittifak lideri yapın. Lider, ittifak avatarını ve renk şemasını doğrudan düzenleyebilir."
 
-#: src/components/_user/premium/PremiumActions.tsx:81
+#: src/components/_user/premium/PremiumActions.tsx:84
 msgid "Manage Subscription"
 msgstr "Aboneliği Yönet"
 
@@ -4998,6 +4994,10 @@ msgstr "Harita"
 #: src/components/_political/law/LawFormModal.tsx:292
 msgid "Map Accent"
 msgstr "Harita Aksanı"
+
+#: src/components/_layout/LayoutOptions.tsx:142
+msgid "Map icons"
+msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
@@ -5221,7 +5221,7 @@ msgstr "Askeri Birlikler"
 msgid "Min reached"
 msgstr "Minimuma ulaşıldı"
 
-#: src/components/_political/law/Law.tsx:137
+#: src/components/_political/law/Law.tsx:146
 msgid "Min. active citizens"
 msgstr "Min. aktif vatandaş"
 
@@ -5240,7 +5240,7 @@ msgstr "Ekonomi Bakanı"
 msgid "Minister of Foreign Affairs"
 msgstr "Dışişleri Bakanı"
 
-#: src/components/_layout/LayoutOptions.tsx:175
+#: src/components/_layout/LayoutOptions.tsx:180
 msgid "Mission tags"
 msgstr "Görev etiketleri"
 
@@ -5299,7 +5299,7 @@ msgstr "Daha fazla"
 msgid "More premium features coming soon!"
 msgstr "Daha fazla premium özellik yakında!"
 
-#: src/components/_political/partyMotion/PartyMotion.tsx:74
+#: src/components/_political/partyMotion/PartyMotion.tsx:91
 msgid "Motion failed"
 msgstr "Önerge reddedildi"
 
@@ -5317,7 +5317,7 @@ msgid "Move a company to another region"
 msgstr "Şirketi başka bir bölgeye taşı"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:186
-#: src/components/_economy/company/MoveCompanyForm.tsx:64
+#: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Şirketi taşı"
 
@@ -5325,7 +5325,7 @@ msgstr "Şirketi taşı"
 msgid "Move Company"
 msgstr "Şirketi Taşı"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:89
+#: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "Şirketi taşı"
 
@@ -5444,6 +5444,10 @@ msgstr "Milliyet güncellendi"
 msgid "Need a job?"
 msgstr "İş mi arıyorsun?"
 
+#: src/components/_economy/inventory/ItemRecipe.tsx:59
+msgid "Needs more <0/> to produce"
+msgstr ""
+
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:47
 msgid "Negative mercenary reputation"
 msgstr "Negatif paralı asker itibarı"
@@ -5504,7 +5508,7 @@ msgstr "Yeni iş teklifi"
 msgid "New leader"
 msgstr "Yeni lider"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:78
+#: src/components/_economy/company/MoveCompanyForm.tsx:81
 msgid "New location"
 msgstr "Yeni konum"
 
@@ -5982,9 +5986,9 @@ msgstr "Emirler iptal edildi"
 msgid "Other"
 msgstr "Diğer"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:68
-#: src/components/_political/partyMotion/PartyMotion.tsx:81
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:72
+#: src/components/_political/law/Law.tsx:77
+#: src/components/_political/partyMotion/PartyMotion.tsx:98
 msgid "Outcome"
 msgstr "Sonuç"
 
@@ -6320,6 +6324,10 @@ msgstr "<0/>'da başkanlık seçimi oylaması açıldı"
 msgid "Presidential elections"
 msgstr "Başkanlık seçimleri"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
+msgid "Price auto-matches existing orders"
+msgstr ""
+
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
 msgstr "Adaylık seçimi"
@@ -6377,7 +6385,7 @@ msgstr "Üretilen eşya değiştirildi!"
 msgid "Production"
 msgstr "Üretim"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
@@ -6597,9 +6605,9 @@ msgstr "Savaşa hazır!"
 msgid "Rear Admiral"
 msgstr "Tuğamiral"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:70
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:79
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/Law.tsx:84
 #: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Sebep"
@@ -6735,15 +6743,13 @@ msgstr "Güçlendirilmiş Miğfer"
 msgid "Reinforced Pants"
 msgstr "Güçlendirilmiş Pantolon"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:201
-#: src/components/_political/partyMotion/PartyMotion.tsx:184
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:153
+#: src/components/_political/law/Law.tsx:210
+#: src/components/_political/partyMotion/PartyMotion.tsx:201
 msgid "Reject"
 msgstr "Reddet"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
-#: src/components/_political/law/LawStatus.tsx:45
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
+#: src/components/_political/law/GenericLawStatus.tsx:42
 #: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Reddedildi"
@@ -7204,7 +7210,7 @@ msgstr "Satış emirleri"
 msgid "Sell price:"
 msgstr "Satış fiyatı:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "sells"
 msgstr "satıyor"
 
@@ -7453,7 +7459,7 @@ msgstr "Sosyal ve Mesajlar"
 msgid "Some of your companies are disabled."
 msgstr "Bazı şirketlerin devre dışı."
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:164
 msgid "Sound effects"
 msgstr "Ses efektleri"
 
@@ -7629,7 +7635,7 @@ msgstr "Başarıyla giriş yapıldı!"
 msgid "Sugar Daddy"
 msgstr "Sugar Daddy"
 
-#: src/components/_user/premium/PremiumActions.tsx:57
+#: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "Oyunu destekle"
 
@@ -7761,7 +7767,7 @@ msgstr "Şartlar"
 msgid "Terms of Service"
 msgstr "Hizmet Şartları"
 
-#: src/components/_layout/LayoutOptions.tsx:280
+#: src/components/_layout/LayoutOptions.tsx:285
 msgid "Texture"
 msgstr "Doku"
 
@@ -8106,7 +8112,7 @@ msgstr "Toplam hasar"
 msgid "Total Donated:"
 msgstr "Toplam bağış:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:469
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
 msgstr "<0/>'in Toplamı"
 
@@ -8226,7 +8232,7 @@ msgstr "Eğitimler sıfırlandı"
 msgid "Tyrannosaurus Rex"
 msgstr "Tyrannosaurus Rex"
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:153
 msgid "UI"
 msgstr "UI"
 
@@ -8644,7 +8650,7 @@ msgstr "{0}. seviye bekleniyor"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "Çalışanın maaş indirimini kabul veya reddetmesi bekleniyor. Yanıt verene kadar maaşı değiştiremezsiniz."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "wants"
 msgstr "istiyor"
 
@@ -8825,7 +8831,7 @@ msgstr "Başlarken başkaları için çalışmak para kazanmanın harika bir yol
 msgid "World <0/>"
 msgstr "Dünya <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:227
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "En kötü"
@@ -9056,10 +9062,6 @@ msgstr "Katkıda bulunabilmek için en az {0} seviyesinde olmalısınız."
 msgid "You must be at least level {0} to vote."
 msgstr "Oy kullanmak için en az {0} seviyesinde olmalısınız."
 
-#: src/components/_user/premium/PremiumActions.tsx:42
-msgid "You must be on web to subscribe"
-msgstr "Abone olmak için web'de olmalısınız"
-
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "3 ilke puanınızın tamamını harcamanız gerekiyor ({pointsRemaining} remaining)"
@@ -9276,7 +9278,7 @@ msgstr "Ülken <1/>'a karşı <0/>'da isyan başlattı"
 msgid "Your current job"
 msgstr "Şuanki işin"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:146
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
 msgid "Your current order"
 msgstr "Mevcut market emrin"
 

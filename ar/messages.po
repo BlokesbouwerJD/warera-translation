@@ -50,7 +50,7 @@ msgstr " - إعطاء مكافآت للمقالات بشكل متكرر"
 msgid " - Using outside market standards or manipulated trade prices"
 msgstr " - استخدام اساليب للسوق خارجة عن المألوف أو أسعار تداول يتلاعب بها"
 
-#: src/components/_user/premium/PremiumActions.tsx:71
+#: src/components/_user/premium/PremiumActions.tsx:74
 msgid " Gift a sub"
 msgstr " إهداء اشتراك"
 
@@ -83,7 +83,7 @@ msgid "{0} & allies"
 msgstr "{0} والحلفاء"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/law/Law.tsx:148
 msgid "{0} active citizens required"
 msgstr "مطلوب {0} مواطنين نشطين"
 
@@ -104,8 +104,8 @@ msgstr "{0} مجاني"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:130
-#: src/components/_political/partyMotion/PartyMotion.tsx:113
+#: src/components/_political/law/Law.tsx:139
+#: src/components/_political/partyMotion/PartyMotion.tsx:130
 msgid "{0} hours"
 msgstr "{0} ساعات"
 
@@ -178,7 +178,7 @@ msgstr "*إذا كان المستخدم يمتلك بالفعل بعض القط�
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:155
 msgid "*May burn"
-msgstr "*قد يحترق"
+msgstr "*قد تحترق"
 
 #: src/components/_political/government/Government.tsx:222
 msgid "/day"
@@ -577,7 +577,7 @@ msgstr "ينتهي تأثير <0/><1>التعزيز</1> في <2/>"
 
 #: src/components/_user/user/UserHeader.tsx:298
 msgid "<0/><1>Debuff</1> ends <2/>"
-msgstr "ينتهي تأثير <0/><1>العقوبة</1> في <2/>"
+msgstr "ينتهي تأثير <0/><1>الإضعاف</1> في <2/>"
 
 #: src/components/_user/user/UserHeader.tsx:361
 msgid "<0/>Last connection was <1><2/></1>"
@@ -728,23 +728,23 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> سعة التخزين"
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:115
+#: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/يوم"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:75
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> من موارد الإيداع في <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:86
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:89
 msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
 msgstr "<0>{ethicDepositBonus}</0> من مكافأة إيداع الأخلاقيات الزراعية الخاصة بـ <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<0>{ethicSpecializationBonus}</0> من مكافأة تخصص الأخلاقيات الصناعية الخاصة بـ <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> من مكافأة إنتاج الموارد الاستراتيجية الخاصة بـ <1/>."
 
@@ -771,7 +771,7 @@ msgstr "<0>التطور الحالي</0> هو إجمالي تطور <1>المن�
 
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "<0>Debuff</0> ends <1/>"
-msgstr "ينتهي تأثير <0>العقوبة</0> في <1/>"
+msgstr "ينتهي تأثير <0>الإضعاف</0> في <1/>"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:120
 msgid "<0>Emotes</0> in chat"
@@ -814,7 +814,7 @@ msgstr "<0>يتطلب حسابك إجراء تحقق إضافي. يرجى الت
 
 #: src/components/_layout/LayoutOptions.tsx:97
 msgid "= consumes more power"
-msgstr "= يستهلك طاقة أكثر"
+msgstr "= يستهلك طاقة أكثر من جهازك"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
@@ -1273,9 +1273,9 @@ msgstr "تم إرسال رمز التحقق إلى {phoneNumber}"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr "أ. الإهانات، والألفاظ الخارجة، والمضايقات المستهدفة لاشخاص او فئة محددة"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:190
-#: src/components/_political/partyMotion/PartyMotion.tsx:173
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:142
+#: src/components/_political/law/Law.tsx:199
+#: src/components/_political/partyMotion/PartyMotion.tsx:190
 msgid "Abstain"
 msgstr "امتناع عن التصويت"
 
@@ -1287,9 +1287,9 @@ msgstr "إن إساءة استخدام نظام البلاغات أو إرسال
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "إساءة استخدام هذه السلطة لإفادة دولة أخرى سيؤدي إلى <0>الحظر.</0>"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:179
-#: src/components/_political/partyMotion/PartyMotion.tsx:162
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:131
+#: src/components/_political/law/Law.tsx:188
+#: src/components/_political/partyMotion/PartyMotion.tsx:179
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "قبول"
@@ -1316,9 +1316,7 @@ msgstr "قبول السلام"
 msgid "Accept to make peace with the other country"
 msgstr "الموافقة على عقد سلام مع الدولة الأخرى"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:43
-#: src/components/_political/law/LawStatus.tsx:43
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
+#: src/components/_political/law/GenericLawStatus.tsx:40
 msgid "Accepted"
 msgstr "مقبول"
 
@@ -1383,9 +1381,9 @@ msgstr "النشاط"
 msgid "Add User"
 msgstr "إضافة مستخدم"
 
-#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/Law.tsx:110
 #: src/components/_political/law/LawFormModal.tsx:328
-#: src/components/_political/partyMotion/PartyMotion.tsx:99
+#: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "تكلفة إضافية"
@@ -1602,7 +1600,7 @@ msgstr "تم إرسال بريد إلكتروني يحتوي على رمز ال�
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:112
 msgid "Animated <0>GIF</0> as avatar"
-msgstr "<0>GIF</0> متحرك كصورة رمزية"
+msgstr "<0>GIF</0> وضع صورة متحركة رمزية"
 
 #: src/pages/country/[countryId]/government.tsx:148
 msgid "Announcement"
@@ -1640,7 +1638,7 @@ msgstr "رموز API"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "تسمح رموز API للتطبيقات الخارجية بالوصول إلى الـ API نيابة عنك. استخدم الرمز في ترويسة <0>X-API-Key</0>. كل رمز لديه حد أقصى قدره 200 طلب في الدقيقة."
 
-#: src/components/_layout/LayoutOptions.tsx:257
+#: src/components/_layout/LayoutOptions.tsx:262
 msgid "App pattern"
 msgstr "نمط التطبيق"
 
@@ -1858,7 +1856,7 @@ msgstr "فشلت عملية المصادقة. يرجى المحاولة مرة �
 msgid "Auto approval"
 msgstr "موافقة تلقائية"
 
-#: src/components/_layout/LayoutOptions.tsx:190
+#: src/components/_layout/LayoutOptions.tsx:195
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "تجهيز تلقائي عند انكسار العتاد"
@@ -2039,7 +2037,7 @@ msgstr "تكلفة أوامر المعركة للدفاع عن مناطقك ال
 #: src/pages/region/[regionId]/index.tsx:132
 #: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
-msgstr "معارك"
+msgstr "المعارك"
 
 #: src/components/_layout/LayoutOptions.tsx:120
 msgid "Battles on layout"
@@ -2062,7 +2060,7 @@ msgstr "معارك تم ربحها"
 msgid "Become a Candidate"
 msgstr "كن مرشحاً"
 
-#: src/components/_layout/LayoutOptions.tsx:210
+#: src/components/_layout/LayoutOptions.tsx:215
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "الافضل"
@@ -2087,7 +2085,7 @@ msgstr "حظر (إخفاء المحتوى)"
 msgid "Blue Staff"
 msgstr "عصا زرقاء"
 
-#: src/components/_layout/LayoutOptions.tsx:151
+#: src/components/_layout/LayoutOptions.tsx:156
 msgid "Blur"
 msgstr "اخفاء"
 
@@ -2337,7 +2335,7 @@ msgstr "فرصة الغنائم الفورية لكل ضربة:<0/>كل <1>1%</1
 
 #: src/components/_user/user/skills.frontConfig.tsx:138
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."
-msgstr "فرصة لتفادي جميع الأضرار القادمة عند القتال في المعارك.<0/>التفادي يمنع أيضاً استهلاك متانة المعدات."
+msgstr "فرصة لتفادي جميع الأضرار القادمة عند القتال في المعارك.<0/>التفادي يمنع أيضاً استهلاك المعدات."
 
 #: src/components/_user/user/skills.frontConfig.tsx:124
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
@@ -2536,7 +2534,7 @@ msgstr "عقيد"
 msgid "Color scheme"
 msgstr "نظام الألوان"
 
-#: src/components/_layout/LayoutOptions.tsx:167
+#: src/components/_layout/LayoutOptions.tsx:172
 msgid "Colorblind mode"
 msgstr "وضع عمى الالوان"
 
@@ -2564,7 +2562,7 @@ msgstr "مجتمع"
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
-msgstr "شركات"
+msgstr "الشركات"
 
 #: src/components/_user/user/skills.frontConfig.tsx:110
 #: src/components/_user/user/skills.frontConfig.tsx:111
@@ -2591,7 +2589,7 @@ msgstr "تم تعطيل الشركة!"
 msgid "Company enabled!"
 msgstr "تم تفعيل الشركة!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:55
+#: src/components/_economy/company/MoveCompanyForm.tsx:58
 msgid "Company moved"
 msgstr "تم نقل الشركة"
 
@@ -2715,7 +2713,7 @@ msgstr "الفاتح"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:69
 msgid "Consider giving it to your local moderator"
-msgstr "فكر في إعطائها للمشرف المحلي"
+msgstr "فكر في إعطائها للمشرف"
 
 #: src/components/_economy/inventory/ConsumeItems.tsx:177
 msgid "Consume items"
@@ -2767,8 +2765,8 @@ msgstr "العقود والمزادات"
 msgid "Cooked Fish"
 msgstr "سمك مطبوخ"
 
-#: src/components/_political/law/Law.tsx:127
-#: src/components/_political/partyMotion/PartyMotion.tsx:110
+#: src/components/_political/law/Law.tsx:136
+#: src/components/_political/partyMotion/PartyMotion.tsx:127
 msgid "Cool down"
 msgstr "فترة التهدئة"
 
@@ -2881,7 +2879,7 @@ msgstr "حروب الدولة"
 #: src/components/_user/mission/mission.frontConfig.tsx:197
 #: src/pages/user/[userId]/inventory.tsx:41
 msgid "Craft"
-msgstr "صناعة"
+msgstr "تصنيع"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:199
 msgid "Craft <0>{count}</0> items"
@@ -3063,7 +3061,7 @@ msgstr "العصر الاسود"
 msgid "Dark Era Pack"
 msgstr "حزمة العصر الاسود"
 
-#: src/components/_layout/LayoutOptions.tsx:142
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Dark map"
 msgstr "خريطة داكنة"
 
@@ -3330,7 +3328,7 @@ msgstr "تم حلّه <0/>"
 #: src/components/_user/mission/mission.frontConfig.tsx:187
 #: src/pages/user/[userId]/inventory.tsx:52
 msgid "Dismantle"
-msgstr "تفكيك"
+msgstr "تفكيك متعدد"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:189
 msgid "Dismantle <0>{count}</0> items"
@@ -3530,12 +3528,12 @@ msgstr "فارغ"
 msgid "Enable company"
 msgstr "تفعيل الشركة"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:78
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:87
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:83
-#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/Law.tsx:92
+#: src/components/_political/law/Law.tsx:95
 #: src/components/_political/law/LawTypeSelect.tsx:176
-#: src/components/_political/partyMotion/PartyMotion.tsx:89
+#: src/components/_political/partyMotion/PartyMotion.tsx:106
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
 msgstr "تكلفة التشريع"
@@ -3591,7 +3589,7 @@ msgid "Entrepreneurship"
 msgstr "ريادة الأعمال"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:192
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:92
@@ -3607,9 +3605,7 @@ msgstr "المعدات:"
 msgid "Equipments"
 msgstr "معدات"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:47
-#: src/components/_political/law/LawStatus.tsx:47
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
+#: src/components/_political/law/GenericLawStatus.tsx:44
 msgid "Error"
 msgstr "خطأ"
 
@@ -3930,17 +3926,17 @@ msgstr "سمك"
 
 #: src/components/_layout/LayoutOptions.tsx:137
 msgid "Flags"
-msgstr "أعلام"
+msgstr "الأعلام"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:158
 msgid "Flail"
 msgstr "مخباط"
 
-#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_layout/LayoutOptions.tsx:232
 msgid "Font"
 msgstr "الخط"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:244
 msgid "Font size"
 msgstr "حجم الخط"
 
@@ -3967,7 +3963,7 @@ msgstr "مكافأة يومية مجانية"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:27
 msgid "Fun fact: The house always wins"
-msgstr "حقيقة طريفة: الكازينو يفوز دائمًا"
+msgstr "حقيقة طريفة: صاحب الكازينو يفوز دائمًا"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:275
 msgid "Fur Boots"
@@ -4353,7 +4349,7 @@ msgstr "يمكنني الشعور بذلك، القادم سيكون أسطور�
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:28
 msgid "I heard buying premium boost your chances :3"
-msgstr "سمعت أن شراء العضوية المميزة يعزز فرصك :3"
+msgstr "سمعت أن شراء خطة الداعم يعزز من فرصك :3"
 
 #: src/components/_common/GameRules.tsx:249
 msgid "i. Promotion of other games, products, or services"
@@ -4617,7 +4613,7 @@ msgstr "الانضمام إلى وظيفة جديدة سيجعلك تترك وظ
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:22
 msgid "Just 1 more..."
-msgstr "فقط 1 أخرى..."
+msgstr "فقط مرة أخرى..."
 
 #: src/components/_common/GameRules.tsx:274
 msgid "Just because something isn't explicitly stated in the rules does not mean you can abuse it. Attempts to bypass rules or exploit loopholes will still be punished."
@@ -4629,7 +4625,7 @@ msgstr "فقط واحدة أخرى... ماذا يمكن أن يحدث؟"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:63
 msgid "Keep chasing that Mythic"
-msgstr "استمر في مطاردة ذلك الأسطوري"
+msgstr "استمر في مطاردة ذلك العتاد االأسطوري"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Keep fighting!"
@@ -4672,7 +4668,7 @@ msgstr "السكاكين لا تقبل الذخيرة"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "حقق <0>{count}</0> ضربات حرجة"
 
-#: src/components/_layout/LayoutOptions.tsx:180
+#: src/components/_layout/LayoutOptions.tsx:185
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "اللغة"
@@ -4719,8 +4715,8 @@ msgstr "إطلاق انتخابات الزعيم"
 msgid "Launch primary election"
 msgstr "إطلاق الانتخابات التمهيدية"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:61
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:66
+#: src/components/_political/law/Law.tsx:70
 msgid "Law failed"
 msgstr "فشل القانون"
 
@@ -4869,7 +4865,7 @@ msgstr "الإعجاب برسالة"
 
 #: src/utils/translations.tsx:30
 msgid "Limestone"
-msgstr "حجر جيري"
+msgstr "حجر"
 
 #: src/components/_user/user/skills.frontConfig.tsx:116
 msgid "Limit of food consumption"
@@ -4879,7 +4875,7 @@ msgstr "حد استهلاك الطعام"
 msgid "Limited:"
 msgstr "محدود"
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:274
 msgid "Line"
 msgstr "خط"
 
@@ -4964,7 +4960,7 @@ msgstr "الحظ أخيراً يعمل لصالحك"
 msgid "Mage Robe"
 msgstr "رداء الساحر"
 
-#: src/components/_political/law/Law.tsx:112
+#: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "تكلفة الصيانة"
 
@@ -4976,7 +4972,7 @@ msgstr "رائد"
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr "جعل <0/> القائد الجديد للتحالف, يمكن للقائد تعديل صورة التحالف ونظام الألوان مباشرة."
 
-#: src/components/_user/premium/PremiumActions.tsx:81
+#: src/components/_user/premium/PremiumActions.tsx:84
 msgid "Manage Subscription"
 msgstr "إدارة الاشتراك"
 
@@ -4998,6 +4994,10 @@ msgstr "خريطة"
 #: src/components/_political/law/LawFormModal.tsx:292
 msgid "Map Accent"
 msgstr "إبراز الخريطة"
+
+#: src/components/_layout/LayoutOptions.tsx:142
+msgid "Map icons"
+msgstr "ايقونات الخريطة"
 
 #: src/components/_economy/market/MarketHeader.tsx:37
 #: src/components/_layout/LayoutMenu.tsx:189
@@ -5038,7 +5038,7 @@ msgstr "حد أقصى <0>{0}</0> من العمال.{1}"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
-msgstr "ربما تساعد الموسيقى الملحمية؟"
+msgstr "ربما تساعد الموسيقى؟"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:15
 msgid "Maybe next time ^^"
@@ -5221,7 +5221,7 @@ msgstr "الوحدات العسكرية"
 msgid "Min reached"
 msgstr "تم الوصول للحد الأدنى"
 
-#: src/components/_political/law/Law.tsx:137
+#: src/components/_political/law/Law.tsx:146
 msgid "Min. active citizens"
 msgstr "الحد الأدنى للمواطنين النشطين"
 
@@ -5240,7 +5240,7 @@ msgstr "وزير الاقتصاد"
 msgid "Minister of Foreign Affairs"
 msgstr "وزير الخارجية"
 
-#: src/components/_layout/LayoutOptions.tsx:175
+#: src/components/_layout/LayoutOptions.tsx:180
 msgid "Mission tags"
 msgstr "علامات المهمة"
 
@@ -5299,7 +5299,7 @@ msgstr "المزيد"
 msgid "More premium features coming soon!"
 msgstr "المزيد من الميزات المميزة قادمة قريباً!"
 
-#: src/components/_political/partyMotion/PartyMotion.tsx:74
+#: src/components/_political/partyMotion/PartyMotion.tsx:91
 msgid "Motion failed"
 msgstr "فشل الاقتراح"
 
@@ -5317,7 +5317,7 @@ msgid "Move a company to another region"
 msgstr "نقل شركة إلى منطقة أخرى"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:186
-#: src/components/_economy/company/MoveCompanyForm.tsx:64
+#: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "نقل الشركة"
 
@@ -5325,7 +5325,7 @@ msgstr "نقل الشركة"
 msgid "Move Company"
 msgstr "نقل الشركة"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:89
+#: src/components/_economy/company/MoveCompanyForm.tsx:92
 msgid "Move the company"
 msgstr "انقل الشركة"
 
@@ -5444,6 +5444,10 @@ msgstr "تم تحديث الجنسية"
 msgid "Need a job?"
 msgstr "تحتاج وظيفة؟"
 
+#: src/components/_economy/inventory/ItemRecipe.tsx:59
+msgid "Needs more <0/> to produce"
+msgstr "يتطلب المزيد من <0/> للإنتاج"
+
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:47
 msgid "Negative mercenary reputation"
 msgstr "شهرة مرتزقة سلبية"
@@ -5504,7 +5508,7 @@ msgstr "عرض عمل جديد"
 msgid "New leader"
 msgstr "القائد الجديد"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:78
+#: src/components/_economy/company/MoveCompanyForm.tsx:81
 msgid "New location"
 msgstr "موقع جديد"
 
@@ -5959,7 +5963,7 @@ msgstr "عميل"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:159
 msgid "Options"
-msgstr "خيارات"
+msgstr "الإعدادات"
 
 #: src/components/_military/order/BattleOrderTags.tsx:25
 msgid "Order"
@@ -5982,9 +5986,9 @@ msgstr "تم إلغاء الأوامر"
 msgid "Other"
 msgstr "أخرى"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:68
-#: src/components/_political/partyMotion/PartyMotion.tsx:81
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:72
+#: src/components/_political/law/Law.tsx:77
+#: src/components/_political/partyMotion/PartyMotion.tsx:98
 msgid "Outcome"
 msgstr "النتيجة"
 
@@ -6068,7 +6072,7 @@ msgstr "أحزاب"
 #: src/components/_user/notification/notificationPrefs.categories.ts:157
 #: src/pages/user/[userId]/index.tsx:176
 msgid "Party"
-msgstr "حزب"
+msgstr "الحزب"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2014
 msgid "Party Application Accepted"
@@ -6320,6 +6324,10 @@ msgstr "التصويت في الانتخابات الرئاسية مفتوح ا�
 msgid "Presidential elections"
 msgstr "انتخابات رئاسية"
 
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
+msgid "Price auto-matches existing orders"
+msgstr "تتم مطابقة الأسعار تلقائيًا مع الطلبات الحالية للعنصر"
+
 #: src/components/_political/election/election.frontConfig.tsx:43
 msgid "Primary election"
 msgstr "الانتخابات التمهيدية"
@@ -6377,7 +6385,7 @@ msgstr "تم تغيير العنصر المنتج!"
 msgid "Production"
 msgstr "الإنتاج"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
@@ -6530,7 +6538,7 @@ msgstr "التصنيفات"
 
 #: src/components/_layout/LayoutRightIcons.tsx:233
 msgid "Ranks"
-msgstr "الرتب"
+msgstr "الترتيب"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:175
 msgid "Rate"
@@ -6583,7 +6591,7 @@ msgstr "الوصول للمستوى {0} سيمنحك <0>{nextLevelSkillPoints} �
 
 #: src/components/_user/mission/mission.frontConfig.tsx:354
 msgid "Read <0>{count}</0> articles"
-msgstr "اقرأ <0>{count}</0> مقالات"
+msgstr "اقرأ <0>{count}</0> من مقالات"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:352
 msgid "Read Article"
@@ -6597,9 +6605,9 @@ msgstr "مستعد للمعركة!"
 msgid "Rear Admiral"
 msgstr "لواء بحري"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:70
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:79
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/Law.tsx:84
 #: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "السبب"
@@ -6735,15 +6743,13 @@ msgstr "خوذة معززة"
 msgid "Reinforced Pants"
 msgstr "سراويل معززة"
 
-#: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:201
-#: src/components/_political/partyMotion/PartyMotion.tsx:184
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:153
+#: src/components/_political/law/Law.tsx:210
+#: src/components/_political/partyMotion/PartyMotion.tsx:201
 msgid "Reject"
 msgstr "رفض"
 
-#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
-#: src/components/_political/law/LawStatus.tsx:45
-#: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
+#: src/components/_political/law/GenericLawStatus.tsx:42
 #: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "مرفوض"
@@ -6899,7 +6905,7 @@ msgstr "إعادة سحب المهمة"
 
 #: src/pages/user/[userId]/skills.tsx:167
 msgid "Reset"
-msgstr "إعادة تعيين"
+msgstr "إعادة تعيين المهارات"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:290
 msgid "Reset CAPTCHA"
@@ -7204,7 +7210,7 @@ msgstr "طلبات البيع"
 msgid "Sell price:"
 msgstr "سعر البيع:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "sells"
 msgstr "يبيع"
 
@@ -7453,7 +7459,7 @@ msgstr "التواصل والرسائل"
 msgid "Some of your companies are disabled."
 msgstr "بعض شركاتك معطلة."
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:164
 msgid "Sound effects"
 msgstr "المؤثرات الصوتية"
 
@@ -7629,7 +7635,7 @@ msgstr "تم تسجيل الدخول بنجاح"
 msgid "Sugar Daddy"
 msgstr "شوغار دادي"
 
-#: src/components/_user/premium/PremiumActions.tsx:57
+#: src/components/_user/premium/PremiumActions.tsx:60
 msgid "Support the game"
 msgstr "ادعم اللعبة"
 
@@ -7761,7 +7767,7 @@ msgstr "الشروط"
 msgid "Terms of Service"
 msgstr "شروط الاستخدام"
 
-#: src/components/_layout/LayoutOptions.tsx:280
+#: src/components/_layout/LayoutOptions.tsx:285
 msgid "Texture"
 msgstr "النسيج"
 
@@ -8106,7 +8112,7 @@ msgstr "إجمالي الأضرار"
 msgid "Total Donated:"
 msgstr "إجمالي التبرعات:"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:469
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:484
 msgid "Total of <0/>"
 msgstr "إجمالي من <0/> "
 
@@ -8226,7 +8232,7 @@ msgstr "تم إعادة تعيين الدروس التعليمية"
 msgid "Tyrannosaurus Rex"
 msgstr "تيرانوصور ريكس"
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:153
 msgid "UI"
 msgstr "واجهة الاستخدام"
 
@@ -8644,7 +8650,7 @@ msgstr "بانتظار المستوى {0}"
 msgid "Waiting for the worker to accept or reject the wage reduction. You cannot change the wage until they respond."
 msgstr "بانتظار قبول العامل أو رفضه لتخفيض الأجر. لا يمكنك تغيير الأجر حتى يرد."
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:155
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:158
 msgid "wants"
 msgstr "يريد"
 
@@ -8658,7 +8664,7 @@ msgstr "انتهت الحرب"
 
 #: src/components/_user/modals/PremiumModal.tsx:39
 msgid "War Era is 100% free to play and has no <0>ads</0> or <1>pay-to-win</1>, If you enjoy the game, you can support its development by subscribing to the Supporter Plan <3"
-msgstr "لعبة War Era مجانية للعب بنسبة 100% ولا تحتوي على <0>إعلانات</0> أو <1>دفع للفوز</1>، إذا استمتعت باللعبة، يمكنك دعم تطويرها من خلال الاشتراك في خطة الداعم <3"
+msgstr "لعبة عصر الحرب مجانية للعب بنسبة 100% ولا تحتوي على <0>إعلانات</0> أو <1>دفع للفوز</1>، إذا استمتعت باللعبة، يمكنك دعم تطويرها من خلال الاشتراك في خطة الداعم <3"
 
 #: src/components/_user/userReports/ReportFormModal.tsx:83
 msgid "Warning"
@@ -8819,13 +8825,13 @@ msgstr "العمال"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:58
 msgid "Working for others is a great way to earn money when starting out."
-msgstr "العمل لدى الآخرين طريقة رائعة لكسب المال في البداية."
+msgstr "العمل لدى الآخرين طريقة رائعة لكسب المال في بدايتك للعبة."
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:64
 msgid "World <0/>"
 msgstr "العالم <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:227
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "الاسوء"
@@ -9056,10 +9062,6 @@ msgstr "يجب أن تكون في المستوى {0} على الأقل للمس�
 msgid "You must be at least level {0} to vote."
 msgstr "يجب أن تكون على الأقل بالمستوى {0} للتصويت"
 
-#: src/components/_user/premium/PremiumActions.tsx:42
-msgid "You must be on web to subscribe"
-msgstr "يجب أن تكون على الويب للاشتراك"
-
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "يجب عليك إنفاق جميع نقاط الأخلاق الثلاث ({pointsRemaining} متبقية)"
@@ -9276,7 +9278,7 @@ msgstr "بدأت دولتك ثورة في <0/> ضد <1/>"
 msgid "Your current job"
 msgstr "وظيفتك الحالية"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:146
+#: src/components/_economy/itemTrading/ItemTradingOrderItem.tsx:149
 msgid "Your current order"
 msgstr "طلبك الحالي"
 
@@ -9310,7 +9312,7 @@ msgstr "تم حفظ معلوماتك."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:85
 msgid "Your inventory holds all your items. Let's see what you've got!"
-msgstr "مخزونك يحتوي على جميع عناصرك. لنرى ما لديك!"
+msgstr "مخزونك يحتوي على جميع عناصرك, لنرى ما لديك!"
 
 #: src/components/_military/battle/LootSummaryCard.tsx:62
 #: src/components/_military/battle/LootSummaryCard.tsx:66
