@@ -132,7 +132,7 @@ msgstr "شركات {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:260
+#: src/components/_economy/company/CompanyDropdown.tsx:261
 msgid "{0}/{1} active"
 msgstr "{0}/{1} نشط"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "سيتم خصم {0}% ضريبة دخل من أجور عمالك."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:322
 msgid "{0}% of invested"
 msgstr "{0}% من المُستثمر"
 
@@ -608,15 +608,9 @@ msgstr "تنتهي أولوية <0/> في <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> نمو المقاومة في الساعة"
 
-#. placeholder {0}: companiesIds?.length ?? 0
-#. placeholder {1}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:102
-msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> شركات"
-
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:134
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> عمال"
@@ -747,6 +741,11 @@ msgstr "<0>{0}</0> سعة التخزين"
 #: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/يوم"
+
+#. placeholder {0}: companiesLimit ?? 99
+#: src/components/_economy/company/CompanyList.tsx:118
+msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1336,7 +1335,7 @@ msgstr "الموافقة على عقد سلام مع الدولة الأخرى"
 msgid "Accepted"
 msgstr "مقبول"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:301
+#: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
 msgstr ""
 
@@ -2201,7 +2200,7 @@ msgstr "التعزيزات:"
 msgid "Bug finder"
 msgstr "مكتشف الثغرات"
 
-#: src/components/_economy/company/CompanyList.tsx:153
+#: src/components/_economy/company/CompanyList.tsx:175
 msgid "Build a company"
 msgstr "بناء شركة"
 
@@ -2240,7 +2239,7 @@ msgstr "شراء عناصر"
 msgid "Buy orders"
 msgstr "أوامر الشراء"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:391
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "من خلال الاستمرار، فإنك توافق على <0>شروط الخدمة</0> الخاصة بنا."
 
@@ -2330,7 +2329,7 @@ msgstr "لا يمكن اختيار سلعة تخصص / لا فائدة من ال
 msgid "Captain"
 msgstr "نقيب"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:280
+#: src/components/_user/auth/ConnectFromModal.tsx:281
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "انتهت صلاحية تحدي CAPTCHA. يرجى المحاولة مرة أخرى."
 
@@ -2338,7 +2337,7 @@ msgstr "انتهت صلاحية تحدي CAPTCHA. يرجى المحاولة مر
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "فشل تحدي CAPTCHA. جاري إعادة التعيين..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:284
+#: src/components/_user/auth/ConnectFromModal.tsx:286
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "انتهت مهلة CAPTCHA. جاري إعادة التعيين..."
 
@@ -2402,7 +2401,7 @@ msgstr "تغيير الجنسية"
 msgid "Change produced item"
 msgstr "تغيير العنصر المُنتج"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:201
+#: src/components/_economy/company/CompanyDropdown.tsx:202
 msgid "Change production"
 msgstr "تغيير الإنتاج"
 
@@ -2602,11 +2601,11 @@ msgstr "الشركات"
 msgid "Companies limit"
 msgstr "حد الشركات"
 
-#: src/components/_economy/company/CompanyList.tsx:75
+#: src/components/_economy/company/CompanyList.tsx:91
 msgid "Companies limit reached"
 msgstr "تم الوصول إلى حد الشركات"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:98
+#: src/components/_economy/company/CompanyDropdown.tsx:99
 msgid "Company destroyed!"
 msgstr "تم تدمير الشركة!"
 
@@ -2614,11 +2613,11 @@ msgstr "تم تدمير الشركة!"
 msgid "Company disabled"
 msgstr "الشركة معطلة"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:125
+#: src/components/_economy/company/CompanyDropdown.tsx:126
 msgid "Company disabled!"
 msgstr "تم تعطيل الشركة!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:124
+#: src/components/_economy/company/CompanyDropdown.tsx:125
 msgid "Company enabled!"
 msgstr "تم تفعيل الشركة!"
 
@@ -2634,7 +2633,7 @@ msgstr "مخزون إنتاج الشركة"
 msgid "Company renamed!"
 msgstr "تم إعادة تسمية الشركة!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:148
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company upgraded!"
 msgstr "تم تطوير الشركة"
 
@@ -2724,15 +2723,15 @@ msgstr "عضو الكونغرس"
 msgid "Congress members"
 msgstr "أعضاء الكونغرس"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:356
+#: src/components/_user/auth/ConnectFromModal.tsx:358
 msgid "Connect with Discord"
 msgstr "الاتصال عبر Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:337
+#: src/components/_user/auth/ConnectFromModal.tsx:339
 msgid "Connect with email code"
 msgstr "تسجيل الدخول عبر رمز البريد الإلكتروني"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:375
+#: src/components/_user/auth/ConnectFromModal.tsx:377
 msgid "Connect with Google"
 msgstr "تسجيل الدخول بواسطة جوجل"
 
@@ -2961,7 +2960,7 @@ msgstr "إنشاء التحالف {0}"
 msgid "Create API Token"
 msgstr "إنشاء رمز API"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:106
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:158
 msgid "Create auction"
 msgstr "إنشاء مزاد"
 
@@ -3223,7 +3222,7 @@ msgid "Defensive pact signed"
 msgstr "تم توقيع ميثاق الدفاع المشترك"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:526
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "ميثاق الدفاع المشترك: أوامر دعم شريك الميثاق تكون تكلفتها أقل بنسبة {orderDiscountPercent}% <0>{0}</0>"
 
@@ -3321,7 +3320,7 @@ msgstr "تمت إزالة الوصف"
 msgid "Description updated!"
 msgstr "تم تحديث الوصف!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "تدمير"
 
@@ -3351,7 +3350,7 @@ msgstr "دبلوماسي"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "دبلوماسي: تكاليف صيانة ميثاق المشترك أقل بنسبة {less}% <0>{0}</0>."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:267
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "Disable company"
 msgstr "تعطيل الشركة"
 
@@ -3503,6 +3502,10 @@ msgstr "المهارات الاقتصادية"
 msgid "Economy & Companies"
 msgstr "الإقتصاد والشركات"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
+msgid "Edit country order"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
 msgstr "تعديل الوصف"
@@ -3511,15 +3514,19 @@ msgstr "تعديل الوصف"
 msgid "Edit Description"
 msgstr "تعديل الوصف"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
+msgid "Edit MU order"
+msgstr ""
+
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "تعديل العامل"
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:487
+#: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:485
+#: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
 msgstr ""
 
@@ -3582,7 +3589,7 @@ msgstr "إنتاج الموظف"
 msgid "Empty"
 msgstr "فارغ"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:257
+#: src/components/_economy/company/CompanyDropdown.tsx:258
 msgid "Enable company"
 msgstr "تفعيل الشركة"
 
@@ -3698,6 +3705,10 @@ msgstr "نقاط الأخلاقيات:"
 msgid "Events"
 msgstr "الأحداث"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr ""
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "يشارك الجميع تلقائياً"
@@ -3706,6 +3717,12 @@ msgstr "يشارك الجميع تلقائياً"
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
 msgstr "ـوسعي"
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:56
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:82
+msgid "Expected loot"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4148,7 +4165,7 @@ msgstr "اذهب للعب اليانصيب الآن"
 msgid "Go to job market"
 msgstr "الذهاب إلى سوق العمل"
 
-#: src/components/_economy/company/CompanyList.tsx:89
+#: src/components/_economy/company/CompanyList.tsx:105
 msgid "Go to skills"
 msgstr "الذهاب إلى المهارات"
 
@@ -4475,6 +4492,11 @@ msgstr "إمبريالي"
 msgid "Impressive"
 msgstr "مثير للإعجاب"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
+msgid "in {0} battles"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "غير نشط"
@@ -4617,7 +4639,7 @@ msgstr "ي. الرسائل المزعجة (سبام) والرسائل المتك
 msgid "Job"
 msgstr "وظيفة"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:280
+#: src/components/_economy/company/CompanyDropdown.tsx:281
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "سوق العمل"
@@ -4749,9 +4771,9 @@ msgstr "آخر حصول: <0/>"
 msgid "Last gifts"
 msgstr "آخر الهدايا"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:340
-#: src/components/_user/auth/ConnectFromModal.tsx:359
-#: src/components/_user/auth/ConnectFromModal.tsx:378
+#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:361
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Last used"
 msgstr "آخر استخدام"
 
@@ -4804,7 +4826,7 @@ msgstr "رصاص"
 msgid "Leather Sling"
 msgstr "مقلاع جلدي"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/company/CompanyDropdown.tsx:300
 msgid "Leave"
 msgstr "مغادرة"
 
@@ -4934,6 +4956,10 @@ msgstr "حجر"
 #: src/components/_user/user/skills.frontConfig.tsx:116
 msgid "Limit of food consumption"
 msgstr "حد استهلاك الطعام"
+
+#: src/components/_economy/company/CompanyList.tsx:178
+msgid "Limit reached"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5090,8 +5116,8 @@ msgstr "مشير"
 msgid "Max level reached!"
 msgstr "تم الوصول إلى المستوى الأقصى!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
-#: src/components/_economy/company/CompanyDropdown.tsx:239
+#: src/components/_economy/company/CompanyDropdown.tsx:222
+#: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr "اقصى شيء"
 
@@ -5394,7 +5420,7 @@ msgstr "الاقتراحات"
 msgid "Move a company to another region"
 msgstr "نقل شركة إلى منطقة أخرى"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/CompanyDropdown.tsx:187
 #: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "نقل الشركة"
@@ -5407,7 +5433,7 @@ msgstr "نقل الشركة"
 msgid "Move the company"
 msgstr "انقل الشركة"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:248
+#: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
 msgstr "نقل إلى الأعلى"
 
@@ -5580,7 +5606,7 @@ msgstr "تكوين أخلاقيات جديد"
 msgid "New item offer"
 msgstr "عرض سلعة جديد"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:193
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -6075,7 +6101,7 @@ msgstr "ترتيب"
 msgid "Orders"
 msgstr "أوامر"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:142
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:194
 msgid "Orders & actions"
 msgstr "الأوامر والإجراءات"
 
@@ -6145,7 +6171,7 @@ msgid "Pacifist"
 msgstr "مسالم"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:538
+#: src/components/_military/battle/SetOrderFormModal.tsx:545
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "مسالم: أوامر الدفاع عن مناطقك الأساسية أو التمردات تكلف أقل بنسبة {orderDiscountPercent}% <0>{0}</0>"
 
@@ -6936,7 +6962,7 @@ msgstr "إزالة الإعلان"
 msgid "Remove Avatar"
 msgstr "إزالة الصورة الرمزية"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:116
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:168
 msgid "Remove bounty"
 msgstr "إزالة المكافأة"
 
@@ -6962,7 +6988,7 @@ msgstr "إزالة رئيس الحزب الحالي من منصبه"
 msgid "Removed from Military Unit"
 msgstr "تمت الإزالة من الوحدة العسكرية"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:289
+#: src/components/_economy/company/CompanyDropdown.tsx:290
 msgid "Rename"
 msgstr "إعادة تسمية"
 
@@ -7043,7 +7069,7 @@ msgstr "إعادة سحب المهمة"
 msgid "Reset"
 msgstr "إعادة تعيين المهارات"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:314
+#: src/components/_user/auth/ConnectFromModal.tsx:316
 msgid "Reset CAPTCHA"
 msgstr "إعادة تعيين الـ CAPTCHA"
 
@@ -7322,7 +7348,7 @@ msgstr "عمل ذاتي"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "اعمل ذاتياً <0>{count}</0> مرات في شركاتك"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:331
+#: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
 msgstr "بيع الشركة؟"
 
@@ -7405,7 +7431,7 @@ msgstr "تعيين مقال ترحيبي لدولتك"
 msgid "Set a welcome article for your country<0/>"
 msgstr "تعيين مقال ترحيبي لدولتك<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:129
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
 msgstr "تعيين مكافأة"
 
@@ -7423,7 +7449,7 @@ msgstr "تعيين لون الدولة إلى <0>{0}</0>"
 msgid "Set new party ethics configuration:"
 msgstr "تعيين تكوين جديد لأخلاقيات الحزب:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:97
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:131
 msgid "Set order"
 msgstr "تعيين أمر"
 
@@ -7488,10 +7514,10 @@ msgid "Show all {0} bids"
 msgstr "إظهار كافة المزايدات الـ {0}"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:265
-#: src/components/_social/ArticleTags.tsx:312
-#: src/components/_social/ArticleTags.tsx:370
-#: src/components/_social/ArticleTags.tsx:420
+#: src/components/_social/ArticleTags.tsx:263
+#: src/components/_social/ArticleTags.tsx:310
+#: src/components/_social/ArticleTags.tsx:368
+#: src/components/_social/ArticleTags.tsx:418
 msgid "Show more"
 msgstr "عرض المزيد"
 
@@ -7596,7 +7622,7 @@ msgstr "قناص"
 msgid "Social & Messages"
 msgstr "التواصل والرسائل"
 
-#: src/components/_economy/company/CompanyList.tsx:80
+#: src/components/_economy/company/CompanyList.tsx:96
 msgid "Some of your companies are disabled."
 msgstr "بعض شركاتك معطلة."
 
@@ -7852,7 +7878,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr "تبدأ معاهدات العدو اللدود عند <0>{0} ولاء</0> وتزداد <1>{1}</1> كل يوم"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:532
+#: src/components/_military/battle/SetOrderFormModal.tsx:539
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "العدو اللدود: أوامر القتال ضد عدوك اللدود تكلف أقل بنسبة {orderDiscountPercent}% <0>{0}</0>"
 
@@ -7908,7 +7934,7 @@ msgstr "مُنهى"
 msgid "Terms"
 msgstr "الشروط"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:418
+#: src/components/_user/auth/ConnectFromModal.tsx:420
 msgid "Terms of Service"
 msgstr "شروط الاستخدام"
 
@@ -8394,12 +8420,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr "الدول غير الأخلاقية لا يمكنها عقد أي معاهدة — لا يمكن اقتراح هذا القانون."
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:556
+#: src/components/_military/battle/SetOrderFormModal.tsx:563
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr "غير أخلاقي: عند احتلال العاصمة, تمنح الأوامر الوطنية المكافأة العادية فقط لكنها لا تزال تكلف ×2 <0>{0}</0>"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:551
+#: src/components/_military/battle/SetOrderFormModal.tsx:558
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr "غير أخلاقي: الأوامر الوطنية تسبب ×2 ضرر لكنها تكلف ×2 <0>{0}</0>"
 
@@ -8482,7 +8508,7 @@ msgstr "تحديث العامل"
 msgid "Upgrade a company"
 msgstr "ترقية شركة"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:207
+#: src/components/_economy/company/CompanyDropdown.tsx:208
 msgid "Upgrade automated engine"
 msgstr "تطوير المحرك التلقائي"
 
@@ -8494,7 +8520,7 @@ msgstr "ترقية الشركة"
 msgid "Upgrade Skills"
 msgstr "ترقية المهارات"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:226
 msgid "Upgrade storage"
 msgstr "تطوير المخزن"
 
@@ -8722,7 +8748,7 @@ msgstr "تم إرسال رمز التحقق!"
 msgid "Verify"
 msgstr "تحقق"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:293
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
 msgstr ""
 
@@ -9007,7 +9033,7 @@ msgid "XP"
 msgstr "نقاط خبرة"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:275
+#: src/components/_economy/company/CompanyDropdown.tsx:276
 msgid "You already have {0} active companies. Disable one first."
 msgstr "لديك بالفعل {0} شركات نشطة. قم بتعطيل واحدة أولاً."
 
@@ -9559,7 +9585,7 @@ msgstr "تغير أجرك في <0/> من <1>{0}</1> إلى <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "تم إعادة تعيين مهامك الأسبوعية! أكملها لكسب المكافآت."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:326
 msgid "your@email.com"
 msgstr "your@email.com"
 

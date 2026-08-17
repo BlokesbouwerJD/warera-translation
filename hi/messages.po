@@ -132,7 +132,7 @@ msgstr "{0} की कंपनियाँ"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:260
+#: src/components/_economy/company/CompanyDropdown.tsx:261
 msgid "{0}/{1} active"
 msgstr "{0}/{1} सक्रिय"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "आपके कर्मचारियों के वेतन से {0}% आयकर काटा जाएगा।"
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:322
 msgid "{0}% of invested"
 msgstr "निवेशित राशि का {0}%"
 
@@ -608,15 +608,9 @@ msgstr "<0/> की प्राथमिकता <1/> में समाप�
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "प्रति घंटा प्रतिरोध वृद्धि <0>-{0}%</0>"
 
-#. placeholder {0}: companiesIds?.length ?? 0
-#. placeholder {1}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:102
-msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> कंपनियाँ"
-
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:134
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> कर्मचारी"
@@ -747,6 +741,11 @@ msgstr "<0>{0}</0> भंडारण क्षमता"
 #: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/दिन"
+
+#. placeholder {0}: companiesLimit ?? 99
+#: src/components/_economy/company/CompanyList.tsx:118
+msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1336,7 +1335,7 @@ msgstr "दूसरे देश के साथ शांति स्था�
 msgid "Accepted"
 msgstr "स्वीकृत"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:301
+#: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
 msgstr ""
 
@@ -2201,7 +2200,7 @@ msgstr "बफ़्स:"
 msgid "Bug finder"
 msgstr "बग खोजकर्ता"
 
-#: src/components/_economy/company/CompanyList.tsx:153
+#: src/components/_economy/company/CompanyList.tsx:175
 msgid "Build a company"
 msgstr "कंपनी बनाएँ"
 
@@ -2240,7 +2239,7 @@ msgstr "वस्तुएँ खरीदें"
 msgid "Buy orders"
 msgstr "खरीद आदेश"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:391
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "आगे बढ़कर, आप हमारी <0>सेवा की शर्तों</0> से सहमत होते हैं।"
 
@@ -2330,7 +2329,7 @@ msgstr "विशेषज्ञता उत्पाद नहीं चुन
 msgid "Captain"
 msgstr "कप्तान"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:280
+#: src/components/_user/auth/ConnectFromModal.tsx:281
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA चुनौती की समय-सीमा समाप्त हो गई। कृपया पुनः प्रयास करें।"
 
@@ -2338,7 +2337,7 @@ msgstr "CAPTCHA चुनौती की समय-सीमा समाप्
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA चुनौती विफल रही। पुनः सेट किया जा रहा है..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:284
+#: src/components/_user/auth/ConnectFromModal.tsx:286
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA का समय समाप्त हो गया। पुनः सेट किया जा रहा है..."
 
@@ -2402,7 +2401,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr "उत्पादित वस्तु बदलें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:201
+#: src/components/_economy/company/CompanyDropdown.tsx:202
 msgid "Change production"
 msgstr "उत्पादन बदलें"
 
@@ -2602,11 +2601,11 @@ msgstr "कंपनियाँ"
 msgid "Companies limit"
 msgstr "कंपनियों की सीमा"
 
-#: src/components/_economy/company/CompanyList.tsx:75
+#: src/components/_economy/company/CompanyList.tsx:91
 msgid "Companies limit reached"
 msgstr "कंपनियों की सीमा पूरी हो गई"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:98
+#: src/components/_economy/company/CompanyDropdown.tsx:99
 msgid "Company destroyed!"
 msgstr "कंपनी नष्ट कर दी गई!"
 
@@ -2614,11 +2613,11 @@ msgstr "कंपनी नष्ट कर दी गई!"
 msgid "Company disabled"
 msgstr "कंपनी निष्क्रिय"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:125
+#: src/components/_economy/company/CompanyDropdown.tsx:126
 msgid "Company disabled!"
 msgstr "कंपनी निष्क्रिय कर दी गई!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:124
+#: src/components/_economy/company/CompanyDropdown.tsx:125
 msgid "Company enabled!"
 msgstr "कंपनी सक्रिय कर दी गई!"
 
@@ -2634,7 +2633,7 @@ msgstr "कंपनी उत्पादन भंडारण"
 msgid "Company renamed!"
 msgstr "कंपनी का नाम बदल दिया गया!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:148
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company upgraded!"
 msgstr ""
 
@@ -2724,15 +2723,15 @@ msgstr "कांग्रेस सदस्य"
 msgid "Congress members"
 msgstr "कांग्रेस सदस्य"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:356
+#: src/components/_user/auth/ConnectFromModal.tsx:358
 msgid "Connect with Discord"
 msgstr "Discord से जुड़ें"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:337
+#: src/components/_user/auth/ConnectFromModal.tsx:339
 msgid "Connect with email code"
 msgstr "ईमेल कोड से जुड़ें"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:375
+#: src/components/_user/auth/ConnectFromModal.tsx:377
 msgid "Connect with Google"
 msgstr "Google से जुड़ें"
 
@@ -2961,7 +2960,7 @@ msgstr ""
 msgid "Create API Token"
 msgstr "API टोकन बनाएँ"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:106
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:158
 msgid "Create auction"
 msgstr "नीलामी बनाएँ"
 
@@ -3223,7 +3222,7 @@ msgid "Defensive pact signed"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:526
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -3321,7 +3320,7 @@ msgstr "विवरण हटा दिया गया"
 msgid "Description updated!"
 msgstr "विवरण अपडेट कर दिया गया!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "नष्ट करें"
 
@@ -3351,7 +3350,7 @@ msgstr "कूटनीतिक"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:267
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "Disable company"
 msgstr "कंपनी निष्क्रिय करें"
 
@@ -3503,6 +3502,10 @@ msgstr "आर्थिक कौशल"
 msgid "Economy & Companies"
 msgstr "अर्थव्यवस्था और कंपनियाँ"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
+msgid "Edit country order"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
 msgstr "विवरण संपादित करें"
@@ -3511,15 +3514,19 @@ msgstr "विवरण संपादित करें"
 msgid "Edit Description"
 msgstr "विवरण संपादित करें"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
+msgid "Edit MU order"
+msgstr ""
+
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "कर्मचारी संपादित करें"
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:487
+#: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:485
+#: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
 msgstr ""
 
@@ -3582,7 +3589,7 @@ msgstr "कर्मचारी उत्पादन"
 msgid "Empty"
 msgstr "खाली"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:257
+#: src/components/_economy/company/CompanyDropdown.tsx:258
 msgid "Enable company"
 msgstr "कंपनी सक्रिय करें"
 
@@ -3698,6 +3705,10 @@ msgstr "विचारधारा अंक:"
 msgid "Events"
 msgstr "घटनाएँ"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr ""
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "सभी स्वचालित रूप से भाग लेते हैं"
@@ -3705,6 +3716,12 @@ msgstr "सभी स्वचालित रूप से भाग लेत�
 #: src/components/_political/party/party.frontConfig.tsx:91
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
+msgstr ""
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:56
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:82
+msgid "Expected loot"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
@@ -4148,7 +4165,7 @@ msgstr "अभी जाकर लॉटरी खेलो"
 msgid "Go to job market"
 msgstr "नौकरी बाज़ार में जाएँ"
 
-#: src/components/_economy/company/CompanyList.tsx:89
+#: src/components/_economy/company/CompanyList.tsx:105
 msgid "Go to skills"
 msgstr "कौशल अनुभाग में जाएँ"
 
@@ -4475,6 +4492,11 @@ msgstr "साम्राज्यवादी"
 msgid "Impressive"
 msgstr "प्रभावशाली"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
+msgid "in {0} battles"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "निष्क्रिय"
@@ -4617,7 +4639,7 @@ msgstr "j. स्पैम और बार-बार दोहराए गए 
 msgid "Job"
 msgstr "नौकरी"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:280
+#: src/components/_economy/company/CompanyDropdown.tsx:281
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "नौकरी बाज़ार"
@@ -4749,9 +4771,9 @@ msgstr "अंतिम बार प्राप्त: <0/>"
 msgid "Last gifts"
 msgstr "हाल के उपहार"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:340
-#: src/components/_user/auth/ConnectFromModal.tsx:359
-#: src/components/_user/auth/ConnectFromModal.tsx:378
+#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:361
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Last used"
 msgstr "अंतिम उपयोग"
 
@@ -4804,7 +4826,7 @@ msgstr "सीसा"
 msgid "Leather Sling"
 msgstr "चमड़े की गुलेल"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/company/CompanyDropdown.tsx:300
 msgid "Leave"
 msgstr "छोड़ें"
 
@@ -4934,6 +4956,10 @@ msgstr "चूना पत्थर"
 #: src/components/_user/user/skills.frontConfig.tsx:116
 msgid "Limit of food consumption"
 msgstr "भोजन उपभोग की सीमा"
+
+#: src/components/_economy/company/CompanyList.tsx:178
+msgid "Limit reached"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5090,8 +5116,8 @@ msgstr "मार्शल"
 msgid "Max level reached!"
 msgstr "अधिकतम स्तर प्राप्त हो गया!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
-#: src/components/_economy/company/CompanyDropdown.tsx:239
+#: src/components/_economy/company/CompanyDropdown.tsx:222
+#: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr ""
 
@@ -5394,7 +5420,7 @@ msgstr "प्रस्ताव"
 msgid "Move a company to another region"
 msgstr "किसी कंपनी को दूसरे क्षेत्र में स्थानांतरित करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/CompanyDropdown.tsx:187
 #: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "कंपनी स्थानांतरित करें"
@@ -5407,7 +5433,7 @@ msgstr "कंपनी स्थानांतरित करें"
 msgid "Move the company"
 msgstr "कंपनी को स्थानांतरित करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:248
+#: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
 msgstr "शीर्ष पर ले जाएँ"
 
@@ -5580,7 +5606,7 @@ msgstr "नई नैतिकता संरचना"
 msgid "New item offer"
 msgstr "नया वस्तु प्रस्ताव"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:193
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -6075,7 +6101,7 @@ msgstr "आदेश"
 msgid "Orders"
 msgstr "आदेश"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:142
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:194
 msgid "Orders & actions"
 msgstr "आदेश और कार्यवाहियाँ"
 
@@ -6145,7 +6171,7 @@ msgid "Pacifist"
 msgstr "शांतिवादी"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:538
+#: src/components/_military/battle/SetOrderFormModal.tsx:545
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -6936,7 +6962,7 @@ msgstr ""
 msgid "Remove Avatar"
 msgstr "अवतार हटाएँ"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:116
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:168
 msgid "Remove bounty"
 msgstr "इनाम हटाएँ"
 
@@ -6962,7 +6988,7 @@ msgstr "वर्तमान पार्टी नेता को उनक�
 msgid "Removed from Military Unit"
 msgstr "सैन्य इकाई से हटाया गया"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:289
+#: src/components/_economy/company/CompanyDropdown.tsx:290
 msgid "Rename"
 msgstr "नाम बदलें"
 
@@ -7043,7 +7069,7 @@ msgstr "मिशन पुनः रोल करें"
 msgid "Reset"
 msgstr "रीसेट"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:314
+#: src/components/_user/auth/ConnectFromModal.tsx:316
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA रीसेट करें"
 
@@ -7322,7 +7348,7 @@ msgstr "स्वयं कार्य"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "अपनी कंपनियों में <0>{count}</0> बार स्वयं कार्य करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:331
+#: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
 msgstr "कंपनी बेचें?"
 
@@ -7405,7 +7431,7 @@ msgstr "अपने देश के लिए स्वागत लेख स
 msgid "Set a welcome article for your country<0/>"
 msgstr "अपने देश के लिए स्वागत लेख सेट करें<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:129
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
 msgstr "इनाम निर्धारित करें"
 
@@ -7423,7 +7449,7 @@ msgstr "देश का रंग <0>{0}</0> पर सेट करें"
 msgid "Set new party ethics configuration:"
 msgstr "नई पार्टी नैतिकता कॉन्फ़िगरेशन सेट करें:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:97
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:131
 msgid "Set order"
 msgstr "आदेश निर्धारित करें"
 
@@ -7488,10 +7514,10 @@ msgid "Show all {0} bids"
 msgstr "सभी {0} बोलियाँ दिखाएँ"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:265
-#: src/components/_social/ArticleTags.tsx:312
-#: src/components/_social/ArticleTags.tsx:370
-#: src/components/_social/ArticleTags.tsx:420
+#: src/components/_social/ArticleTags.tsx:263
+#: src/components/_social/ArticleTags.tsx:310
+#: src/components/_social/ArticleTags.tsx:368
+#: src/components/_social/ArticleTags.tsx:418
 msgid "Show more"
 msgstr "और दिखाएँ"
 
@@ -7596,7 +7622,7 @@ msgstr "स्नाइपर"
 msgid "Social & Messages"
 msgstr "सामाजिक और संदेश"
 
-#: src/components/_economy/company/CompanyList.tsx:80
+#: src/components/_economy/company/CompanyList.tsx:96
 msgid "Some of your companies are disabled."
 msgstr "आपकी कुछ कंपनियाँ निष्क्रिय हैं।"
 
@@ -7852,7 +7878,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:532
+#: src/components/_military/battle/SetOrderFormModal.tsx:539
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -7908,7 +7934,7 @@ msgstr "समाप्त"
 msgid "Terms"
 msgstr "शर्तें"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:418
+#: src/components/_user/auth/ConnectFromModal.tsx:420
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
 
@@ -8394,12 +8420,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:556
+#: src/components/_military/battle/SetOrderFormModal.tsx:563
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:551
+#: src/components/_military/battle/SetOrderFormModal.tsx:558
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
@@ -8482,7 +8508,7 @@ msgstr "कर्मचारी अपडेट करें"
 msgid "Upgrade a company"
 msgstr "कंपनी अपग्रेड करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:207
+#: src/components/_economy/company/CompanyDropdown.tsx:208
 msgid "Upgrade automated engine"
 msgstr ""
 
@@ -8494,7 +8520,7 @@ msgstr "कंपनी अपग्रेड करें"
 msgid "Upgrade Skills"
 msgstr "कौशल अपग्रेड करें"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:226
 msgid "Upgrade storage"
 msgstr ""
 
@@ -8722,7 +8748,7 @@ msgstr "सत्यापन कोड भेज दिया गया!"
 msgid "Verify"
 msgstr "सत्यापित करें"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:293
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
 msgstr ""
 
@@ -9007,7 +9033,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:275
+#: src/components/_economy/company/CompanyDropdown.tsx:276
 msgid "You already have {0} active companies. Disable one first."
 msgstr "आपके पास पहले से {0} सक्रिय कंपनियाँ हैं। पहले एक को निष्क्रिय करें।"
 
@@ -9559,7 +9585,7 @@ msgstr "<0/> में आपका वेतन <1>{0}</1> से बदलक�
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "आपके साप्ताहिक मिशन रीसेट कर दिए गए हैं! पुरस्कार प्राप्त करने के लिए उन्हें पूरा करें।"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:326
 msgid "your@email.com"
 msgstr "your@email.com"
 

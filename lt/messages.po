@@ -132,7 +132,7 @@ msgstr "{0} įmonės"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:260
+#: src/components/_economy/company/CompanyDropdown.tsx:261
 msgid "{0}/{1} active"
 msgstr "{0}/{1} aktyvios"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "Iš tavo darbuotojų atlyginimų bus išskaičiuotas {0}% pajamų mokestis."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:322
 msgid "{0}% of invested"
 msgstr "{0}% investuotos sumos"
 
@@ -608,15 +608,9 @@ msgstr "<0/>Prioritetas baigsis po <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> pasipriešinimo augimas per valandą"
 
-#. placeholder {0}: companiesIds?.length ?? 0
-#. placeholder {1}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:102
-msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> įmonės"
-
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:134
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> darbuotojų"
@@ -747,6 +741,11 @@ msgstr "<0>{0}</0> sandėlio talpa"
 #: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/dieną"
+
+#. placeholder {0}: companiesLimit ?? 99
+#: src/components/_economy/company/CompanyList.tsx:118
+msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1336,7 +1335,7 @@ msgstr "Sutik sudaryti taiką su kita šalimi"
 msgid "Accepted"
 msgstr "Priimtas"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:301
+#: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
 msgstr ""
 
@@ -2201,7 +2200,7 @@ msgstr "Buff'ai:"
 msgid "Bug finder"
 msgstr "Klaidų medžiotojas"
 
-#: src/components/_economy/company/CompanyList.tsx:153
+#: src/components/_economy/company/CompanyList.tsx:175
 msgid "Build a company"
 msgstr "Kurti įmonę"
 
@@ -2240,7 +2239,7 @@ msgstr "Pirkti daiktus"
 msgid "Buy orders"
 msgstr "Pirkimo užsakymai"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:391
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Tęsdamas sutinki su mūsų <0>Paslaugų teikimo sąlygomis</0>."
 
@@ -2330,7 +2329,7 @@ msgstr "Negali pasirinkti specializacijos prekės / iš specializacijos negauni 
 msgid "Captain"
 msgstr "Kapitonas"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:280
+#: src/components/_user/auth/ConnectFromModal.tsx:281
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA patikros laikas baigėsi. Bandyk dar kartą."
 
@@ -2338,7 +2337,7 @@ msgstr "CAPTCHA patikros laikas baigėsi. Bandyk dar kartą."
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA patikra nepavyko. Nustatoma iš naujo..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:284
+#: src/components/_user/auth/ConnectFromModal.tsx:286
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA laikas baigėsi. Nustatoma iš naujo..."
 
@@ -2402,7 +2401,7 @@ msgstr "Pakeisti pilietybę"
 msgid "Change produced item"
 msgstr "Keisti gaminamą prekę"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:201
+#: src/components/_economy/company/CompanyDropdown.tsx:202
 msgid "Change production"
 msgstr "Keisti produkciją"
 
@@ -2602,11 +2601,11 @@ msgstr "Įmonės"
 msgid "Companies limit"
 msgstr "Įmonių skaičiaus riba"
 
-#: src/components/_economy/company/CompanyList.tsx:75
+#: src/components/_economy/company/CompanyList.tsx:91
 msgid "Companies limit reached"
 msgstr "Pasiektas įmonių limitas"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:98
+#: src/components/_economy/company/CompanyDropdown.tsx:99
 msgid "Company destroyed!"
 msgstr "Įmonė sunaikinta!"
 
@@ -2614,11 +2613,11 @@ msgstr "Įmonė sunaikinta!"
 msgid "Company disabled"
 msgstr "Įmonė išjungta"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:125
+#: src/components/_economy/company/CompanyDropdown.tsx:126
 msgid "Company disabled!"
 msgstr "Įmonė išjungta!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:124
+#: src/components/_economy/company/CompanyDropdown.tsx:125
 msgid "Company enabled!"
 msgstr "Įmonė aktyvuota!"
 
@@ -2634,7 +2633,7 @@ msgstr "Įmonės gamybos sandėlis"
 msgid "Company renamed!"
 msgstr "Įmonės pavadinimas pakeistas!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:148
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company upgraded!"
 msgstr "Įmonė patobulinta!"
 
@@ -2724,15 +2723,15 @@ msgstr "Kongreso narys"
 msgid "Congress members"
 msgstr "Kongreso nariai"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:356
+#: src/components/_user/auth/ConnectFromModal.tsx:358
 msgid "Connect with Discord"
 msgstr "Prisijungti per Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:337
+#: src/components/_user/auth/ConnectFromModal.tsx:339
 msgid "Connect with email code"
 msgstr "Prisijungti su kodu iš el. pašto"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:375
+#: src/components/_user/auth/ConnectFromModal.tsx:377
 msgid "Connect with Google"
 msgstr "Prisijungti per Google"
 
@@ -2961,7 +2960,7 @@ msgstr "Sukurti aljansą {0}"
 msgid "Create API Token"
 msgstr "Sukurti API raktą"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:106
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:158
 msgid "Create auction"
 msgstr "Sukurti aukcioną"
 
@@ -3223,7 +3222,7 @@ msgid "Defensive pact signed"
 msgstr "Pasirašytas gynybinis paktas"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:526
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Gynybinis paktas: įsakymai, remiantys tavo pakto partnerį, kainuoja {orderDiscountPercent}% mažiau <0>{0}</0>"
 
@@ -3321,7 +3320,7 @@ msgstr "Aprašymas pašalintas"
 msgid "Description updated!"
 msgstr "Aprašymas atnaujintas!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "Likviduoti"
 
@@ -3351,7 +3350,7 @@ msgstr "Diplomatinė"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Diplomatija: gynybinio pakto išlaikymas kainuoja {less}% mažiau <0>{0}</0>."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:267
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "Disable company"
 msgstr "Išjungti įmonę"
 
@@ -3503,6 +3502,10 @@ msgstr "Ekonominiai įgūdžiai"
 msgid "Economy & Companies"
 msgstr "Ekonomika ir įmonės"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
+msgid "Edit country order"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
 msgstr "Redaguoti aprašymą"
@@ -3511,15 +3514,19 @@ msgstr "Redaguoti aprašymą"
 msgid "Edit Description"
 msgstr "Redaguoti aprašymą"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
+msgid "Edit MU order"
+msgstr ""
+
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "Redaguoti darbuotoją"
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:487
+#: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:485
+#: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
 msgstr ""
 
@@ -3582,7 +3589,7 @@ msgstr "Darbuotojo gamyba"
 msgid "Empty"
 msgstr "Tuščia"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:257
+#: src/components/_economy/company/CompanyDropdown.tsx:258
 msgid "Enable company"
 msgstr "Aktyvuoti įmonę"
 
@@ -3698,6 +3705,10 @@ msgstr "Etikos taškai:"
 msgid "Events"
 msgstr "Įvykiai"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr ""
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Visi dalyvauja automatiškai"
@@ -3706,6 +3717,12 @@ msgstr "Visi dalyvauja automatiškai"
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
 msgstr "Ekspansionistas"
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:56
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:82
+msgid "Expected loot"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4148,7 +4165,7 @@ msgstr "Bėk pirkti loterijos bilieto dabar pat"
 msgid "Go to job market"
 msgstr "Eiti į darbo rinką"
 
-#: src/components/_economy/company/CompanyList.tsx:89
+#: src/components/_economy/company/CompanyList.tsx:105
 msgid "Go to skills"
 msgstr "Eiti į įgūdžius"
 
@@ -4475,6 +4492,11 @@ msgstr "Imperialistas"
 msgid "Impressive"
 msgstr "Įspūdinga"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
+msgid "in {0} battles"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Neaktyvus"
@@ -4617,7 +4639,7 @@ msgstr "j. Šlamštas (spam) ir pasikartojančios žinutės"
 msgid "Job"
 msgstr "Darbas"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:280
+#: src/components/_economy/company/CompanyDropdown.tsx:281
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "Darbo rinka"
@@ -4749,9 +4771,9 @@ msgstr "Paskutinį kartą gauta: <0/>"
 msgid "Last gifts"
 msgstr "Naujausios dovanos"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:340
-#: src/components/_user/auth/ConnectFromModal.tsx:359
-#: src/components/_user/auth/ConnectFromModal.tsx:378
+#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:361
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Last used"
 msgstr "Paskutinį kartą naudota"
 
@@ -4804,7 +4826,7 @@ msgstr "Švinas"
 msgid "Leather Sling"
 msgstr "Odinė laidyklė"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/company/CompanyDropdown.tsx:300
 msgid "Leave"
 msgstr "Palikti"
 
@@ -4934,6 +4956,10 @@ msgstr "Kalkakmenis"
 #: src/components/_user/user/skills.frontConfig.tsx:116
 msgid "Limit of food consumption"
 msgstr "Maisto suvartojimo limitas"
+
+#: src/components/_economy/company/CompanyList.tsx:178
+msgid "Limit reached"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5090,8 +5116,8 @@ msgstr "Maršalas"
 msgid "Max level reached!"
 msgstr "Pasiektas didžiausias lygis!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
-#: src/components/_economy/company/CompanyDropdown.tsx:239
+#: src/components/_economy/company/CompanyDropdown.tsx:222
+#: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr "Maksimumas!"
 
@@ -5394,7 +5420,7 @@ msgstr "Siūlymai"
 msgid "Move a company to another region"
 msgstr "Perkelti įmonę į kitą regioną"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/CompanyDropdown.tsx:187
 #: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Perkelti įmonę"
@@ -5407,7 +5433,7 @@ msgstr "Perkelti įmonę"
 msgid "Move the company"
 msgstr "Perkelti įmonę"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:248
+#: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
 msgstr "Perkelti į viršų"
 
@@ -5580,7 +5606,7 @@ msgstr "Nauja etikos konfigūracija"
 msgid "New item offer"
 msgstr "Naujas prekės pasiūlymas"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:193
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -6075,7 +6101,7 @@ msgstr "Įsakymas"
 msgid "Orders"
 msgstr "Įsakymai"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:142
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:194
 msgid "Orders & actions"
 msgstr "Įsakymai ir veiksmai"
 
@@ -6145,7 +6171,7 @@ msgid "Pacifist"
 msgstr "Pacifistas"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:538
+#: src/components/_military/battle/SetOrderFormModal.tsx:545
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Pacifistas: įsakymai ginti tavo pagrindinius regionus ar sukilimus kainuoja {orderDiscountPercent}% mažiau <0>{0}</0>"
 
@@ -6936,7 +6962,7 @@ msgstr "Pašalinti skelbimą"
 msgid "Remove Avatar"
 msgstr "Pašalinti avatarą"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:116
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:168
 msgid "Remove bounty"
 msgstr "Pašalinti premiją"
 
@@ -6962,7 +6988,7 @@ msgstr "Atleisti dabartinį partijos lyderį iš pareigų"
 msgid "Removed from Military Unit"
 msgstr "Pašalintas iš karinio dalinio"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:289
+#: src/components/_economy/company/CompanyDropdown.tsx:290
 msgid "Rename"
 msgstr "Pervadinti"
 
@@ -7043,7 +7069,7 @@ msgstr "Pakeisti misiją"
 msgid "Reset"
 msgstr "Atstatyti"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:314
+#: src/components/_user/auth/ConnectFromModal.tsx:316
 msgid "Reset CAPTCHA"
 msgstr "Atkurti CAPTCHA"
 
@@ -7322,7 +7348,7 @@ msgstr "Savarankiškas darbas"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Dirbk savo įmonėse <0>{count}</0> kartų"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:331
+#: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
 msgstr "Parduoti įmonę?"
 
@@ -7405,7 +7431,7 @@ msgstr "Nustatyk savo šalies pasveikinimo straipsnį"
 msgid "Set a welcome article for your country<0/>"
 msgstr "Nustatyk savo šalies pasveikinimo straipsnį<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:129
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
 msgstr "Skirti premiją"
 
@@ -7423,7 +7449,7 @@ msgstr "Nustatyti šalies spalvą į <0>{0}</0> "
 msgid "Set new party ethics configuration:"
 msgstr "Nustatyti naują partijos etikos konfigūraciją:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:97
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:131
 msgid "Set order"
 msgstr "Nustatyti įsakymą"
 
@@ -7488,10 +7514,10 @@ msgid "Show all {0} bids"
 msgstr "Rodyti visus {0} statymus"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:265
-#: src/components/_social/ArticleTags.tsx:312
-#: src/components/_social/ArticleTags.tsx:370
-#: src/components/_social/ArticleTags.tsx:420
+#: src/components/_social/ArticleTags.tsx:263
+#: src/components/_social/ArticleTags.tsx:310
+#: src/components/_social/ArticleTags.tsx:368
+#: src/components/_social/ArticleTags.tsx:418
 msgid "Show more"
 msgstr "Rodyti daugiau"
 
@@ -7596,7 +7622,7 @@ msgstr "Snaiperis"
 msgid "Social & Messages"
 msgstr "Bendravimas ir žinutės"
 
-#: src/components/_economy/company/CompanyList.tsx:80
+#: src/components/_economy/company/CompanyList.tsx:96
 msgid "Some of your companies are disabled."
 msgstr "Kai kurios tavo įmonės yra išjungtos."
 
@@ -7852,7 +7878,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr "Prisiekusio priešo sutartys prasideda nuo <0>{0} lojalumo</0> ir gauna <1>{1}</1> kiekvieną dieną."
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:532
+#: src/components/_military/battle/SetOrderFormModal.tsx:539
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Prisiekęs priešas: įsakymai prieš tavo prisiekusį priešą kainuoja {orderDiscountPercent}% mažiau <0>{0}</0>"
 
@@ -7908,7 +7934,7 @@ msgstr "Nutraukta"
 msgid "Terms"
 msgstr "Sąlygos"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:418
+#: src/components/_user/auth/ConnectFromModal.tsx:420
 msgid "Terms of Service"
 msgstr "Paslaugų teikimo sąlygos"
 
@@ -8394,12 +8420,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr "Neetiškos šalys negali turėti jokių sutarčių — šis įstatymas negali būti priimtas."
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:556
+#: src/components/_military/battle/SetOrderFormModal.tsx:563
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr "Neetiškas: sostinė okupuota, nacionaliniai įsakymai suteikia tik įprastą bonusą, bet vis tiek kainuoja ×2 <0>{0}</0>"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:551
+#: src/components/_military/battle/SetOrderFormModal.tsx:558
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr "Neetiškas: nacionaliniai įsakymai daro ×2 žalą, bet kainuoja ×2 <0>{0}</0>"
 
@@ -8482,7 +8508,7 @@ msgstr "Atnaujinti darbuotoją"
 msgid "Upgrade a company"
 msgstr "Patobulinti įmonę"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:207
+#: src/components/_economy/company/CompanyDropdown.tsx:208
 msgid "Upgrade automated engine"
 msgstr "Patobulinti automatinį variklį"
 
@@ -8494,7 +8520,7 @@ msgstr "Patobulinti įmonę"
 msgid "Upgrade Skills"
 msgstr "Tobulinti įgūdžius"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:226
 msgid "Upgrade storage"
 msgstr "Patobulinti saugyklą"
 
@@ -8722,7 +8748,7 @@ msgstr "Patvirtinimo kodas išsiųstas!"
 msgid "Verify"
 msgstr "Patvirtinti"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:293
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
 msgstr ""
 
@@ -9007,7 +9033,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:275
+#: src/components/_economy/company/CompanyDropdown.tsx:276
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Aktyvių įmonių jau turi: {0}. Pirmiausia išjunk vieną."
 
@@ -9559,7 +9585,7 @@ msgstr "<0/> tavo atlyginimas pasikeitė nuo <1>{0}</1> į <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Tavo savaitinės misijos buvo atnaujintos! Įvykdyk jas ir gauk apdovanojimų."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:326
 msgid "your@email.com"
 msgstr "tavo@email.com"
 

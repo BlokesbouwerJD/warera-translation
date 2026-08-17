@@ -132,7 +132,7 @@ msgstr "Unternehmen von {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:260
+#: src/components/_economy/company/CompanyDropdown.tsx:261
 msgid "{0}/{1} active"
 msgstr "{0}/{1} aktiv"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% Einkommensteuer wird vom Lohn deiner Arbeiter abgezogen."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:322
 msgid "{0}% of invested"
 msgstr "{0}% des Investierten"
 
@@ -608,15 +608,9 @@ msgstr "<0/>Priorität endet in <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Widerstandswachstum pro Stunde"
 
-#. placeholder {0}: companiesIds?.length ?? 0
-#. placeholder {1}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:102
-msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> Unternehmen"
-
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:134
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Arbeiter"
@@ -747,6 +741,11 @@ msgstr "<0>{0}</0> Lagerkapazität"
 #: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/Tag"
+
+#. placeholder {0}: companiesLimit ?? 99
+#: src/components/_economy/company/CompanyList.tsx:118
+msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1336,7 +1335,7 @@ msgstr "Zustimmen, mit dem anderen Land Frieden zu schließen"
 msgid "Accepted"
 msgstr "Angenommen"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:301
+#: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
 msgstr ""
 
@@ -2201,7 +2200,7 @@ msgstr "Buffs:"
 msgid "Bug finder"
 msgstr "Bugfinder"
 
-#: src/components/_economy/company/CompanyList.tsx:153
+#: src/components/_economy/company/CompanyList.tsx:175
 msgid "Build a company"
 msgstr "Unternehmen gründen"
 
@@ -2240,7 +2239,7 @@ msgstr "Gegenstände kaufen"
 msgid "Buy orders"
 msgstr "Kaufaufträge"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:391
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Indem du fortfährst, stimmst du unseren <0>Nutzungsbedingungen</0> zu."
 
@@ -2330,7 +2329,7 @@ msgstr "Kann kein Spezialisierungsgut wählen / kein Vorteil durch Spezialisieru
 msgid "Captain"
 msgstr "Kapitän"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:280
+#: src/components/_user/auth/ConnectFromModal.tsx:281
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA-Herausforderung abgelaufen. Bitte erneut versuchen."
 
@@ -2338,7 +2337,7 @@ msgstr "CAPTCHA-Herausforderung abgelaufen. Bitte erneut versuchen."
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA-Herausforderung fehlgeschlagen. Zurücksetzen..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:284
+#: src/components/_user/auth/ConnectFromModal.tsx:286
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA Zeitüberschreitung. Zurücksetzen..."
 
@@ -2402,7 +2401,7 @@ msgstr "Staatsbürgerschaft ändern"
 msgid "Change produced item"
 msgstr "Produzierten Gegenstand ändern"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:201
+#: src/components/_economy/company/CompanyDropdown.tsx:202
 msgid "Change production"
 msgstr "Produktion ändern"
 
@@ -2602,11 +2601,11 @@ msgstr "Firmen"
 msgid "Companies limit"
 msgstr "Unternehmenslimit"
 
-#: src/components/_economy/company/CompanyList.tsx:75
+#: src/components/_economy/company/CompanyList.tsx:91
 msgid "Companies limit reached"
 msgstr "Unternehmenslimit erreicht"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:98
+#: src/components/_economy/company/CompanyDropdown.tsx:99
 msgid "Company destroyed!"
 msgstr "Unternehmen zerstört!"
 
@@ -2614,11 +2613,11 @@ msgstr "Unternehmen zerstört!"
 msgid "Company disabled"
 msgstr "Unternehmen deaktiviert"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:125
+#: src/components/_economy/company/CompanyDropdown.tsx:126
 msgid "Company disabled!"
 msgstr "Unternehmen deaktiviert!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:124
+#: src/components/_economy/company/CompanyDropdown.tsx:125
 msgid "Company enabled!"
 msgstr "Unternehmen aktiviert!"
 
@@ -2634,7 +2633,7 @@ msgstr "Produktionslager des Unternehmens"
 msgid "Company renamed!"
 msgstr "Unternehmen umbenannt!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:148
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company upgraded!"
 msgstr "Unternehmen verbessert!"
 
@@ -2724,15 +2723,15 @@ msgstr "Kongressmitglied"
 msgid "Congress members"
 msgstr "Kongressmitglieder"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:356
+#: src/components/_user/auth/ConnectFromModal.tsx:358
 msgid "Connect with Discord"
 msgstr "Mit Discord verbinden"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:337
+#: src/components/_user/auth/ConnectFromModal.tsx:339
 msgid "Connect with email code"
 msgstr "Mit E-Mail-Code verbinden"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:375
+#: src/components/_user/auth/ConnectFromModal.tsx:377
 msgid "Connect with Google"
 msgstr "Mit Google verbinden"
 
@@ -2961,7 +2960,7 @@ msgstr "Erstelle Allianz {0}"
 msgid "Create API Token"
 msgstr "API-Token erstellen"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:106
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:158
 msgid "Create auction"
 msgstr "Ausschreibung erstellen"
 
@@ -3223,7 +3222,7 @@ msgid "Defensive pact signed"
 msgstr "Verteidigungspakt unterzeichnet"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:526
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Verteidigungsbündnis: Befehle zur Unterstützung eines Partners kosten {orderDiscountPercent}% weniger <0>{0}</0>"
 
@@ -3321,7 +3320,7 @@ msgstr "Beschreibung entfernt"
 msgid "Description updated!"
 msgstr "Beschreibung aktualisiert!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "Zerstören"
 
@@ -3351,7 +3350,7 @@ msgstr "Diplomat"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Diplomatisch: Wartungskosten des Verteidigungsbündnis werden um {less}% reduziert <0>{0}</0>."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:267
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "Disable company"
 msgstr "Unternehmen deaktivieren"
 
@@ -3503,6 +3502,10 @@ msgstr "Wirtschaftsfertigkeiten"
 msgid "Economy & Companies"
 msgstr "Wirtschaft & Unternehmen"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
+msgid "Edit country order"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
 msgstr "Beschreibung bearbeiten"
@@ -3511,15 +3514,19 @@ msgstr "Beschreibung bearbeiten"
 msgid "Edit Description"
 msgstr "Beschreibung bearbeiten"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
+msgid "Edit MU order"
+msgstr ""
+
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "Arbeiter bearbeiten"
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:487
+#: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:485
+#: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
 msgstr ""
 
@@ -3582,7 +3589,7 @@ msgstr "Mitarbeiter-Produktion"
 msgid "Empty"
 msgstr "Leer"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:257
+#: src/components/_economy/company/CompanyDropdown.tsx:258
 msgid "Enable company"
 msgstr "Unternehmen aktivieren"
 
@@ -3698,6 +3705,10 @@ msgstr "Ethik-Punkte:"
 msgid "Events"
 msgstr "Events"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr ""
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Jeder nimmt automatisch teil"
@@ -3706,6 +3717,12 @@ msgstr "Jeder nimmt automatisch teil"
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
 msgstr "Expansionist"
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:56
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:82
+msgid "Expected loot"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4148,7 +4165,7 @@ msgstr "Geh sofort Lotto spielen"
 msgid "Go to job market"
 msgstr "Zum Arbeitsmarkt gehen"
 
-#: src/components/_economy/company/CompanyList.tsx:89
+#: src/components/_economy/company/CompanyList.tsx:105
 msgid "Go to skills"
 msgstr "Zu den Fertigkeiten gehen"
 
@@ -4475,6 +4492,11 @@ msgstr "Imperialist"
 msgid "Impressive"
 msgstr "Beeindruckend"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
+msgid "in {0} battles"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Inaktiv"
@@ -4617,7 +4639,7 @@ msgstr "j. Spam und wiederholte Nachrichten"
 msgid "Job"
 msgstr "Job"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:280
+#: src/components/_economy/company/CompanyDropdown.tsx:281
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "Arbeitsmarkt"
@@ -4749,9 +4771,9 @@ msgstr "Zuletzt verdient: <0/>"
 msgid "Last gifts"
 msgstr "Letzte Geschenke"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:340
-#: src/components/_user/auth/ConnectFromModal.tsx:359
-#: src/components/_user/auth/ConnectFromModal.tsx:378
+#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:361
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Last used"
 msgstr "Zuletzt verwendet"
 
@@ -4804,7 +4826,7 @@ msgstr "Blei"
 msgid "Leather Sling"
 msgstr "Leder-Steinschleuder"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/company/CompanyDropdown.tsx:300
 msgid "Leave"
 msgstr "Verlassen"
 
@@ -4934,6 +4956,10 @@ msgstr "Kalkstein"
 #: src/components/_user/user/skills.frontConfig.tsx:116
 msgid "Limit of food consumption"
 msgstr "Limit für Nahrungsverbrauch"
+
+#: src/components/_economy/company/CompanyList.tsx:178
+msgid "Limit reached"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5090,8 +5116,8 @@ msgstr "Marschall"
 msgid "Max level reached!"
 msgstr "Maximales Level erreicht!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
-#: src/components/_economy/company/CompanyDropdown.tsx:239
+#: src/components/_economy/company/CompanyDropdown.tsx:222
+#: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr "Maximiert!"
 
@@ -5394,7 +5420,7 @@ msgstr "Anträge"
 msgid "Move a company to another region"
 msgstr "Verschiebe ein Unternehmen in eine andere Region"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/CompanyDropdown.tsx:187
 #: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Unternehmen verschieben"
@@ -5407,7 +5433,7 @@ msgstr "Unternehmen verschieben"
 msgid "Move the company"
 msgstr "Unternehmen verschieben"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:248
+#: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
 msgstr "Nach oben verschieben"
 
@@ -5580,7 +5606,7 @@ msgstr "Neue Ethik-Konfiguration"
 msgid "New item offer"
 msgstr "Neues Gegenstandsangebot"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:193
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -6075,7 +6101,7 @@ msgstr "Befehl"
 msgid "Orders"
 msgstr "Befehle"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:142
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:194
 msgid "Orders & actions"
 msgstr "Befehle & Aktionen"
 
@@ -6145,7 +6171,7 @@ msgid "Pacifist"
 msgstr "Pazifist"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:538
+#: src/components/_military/battle/SetOrderFormModal.tsx:545
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Pazifist: Befehle zur Verteidigung deiner Kernregionen sowie Aufstände kosten {orderDiscountPercent} % weniger <0>{0}</0>"
 
@@ -6936,7 +6962,7 @@ msgstr "Anzeige entfernen"
 msgid "Remove Avatar"
 msgstr "Avatar entfernen"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:116
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:168
 msgid "Remove bounty"
 msgstr "Kopfgeld entfernen"
 
@@ -6962,7 +6988,7 @@ msgstr "Den aktuellen Parteivorsitzenden von seiner Position entfernen"
 msgid "Removed from Military Unit"
 msgstr "Aus der Militäreinheit entfernt"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:289
+#: src/components/_economy/company/CompanyDropdown.tsx:290
 msgid "Rename"
 msgstr "Umbenennen"
 
@@ -7043,7 +7069,7 @@ msgstr "Mission neu würfeln"
 msgid "Reset"
 msgstr "Zurücksetzen"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:314
+#: src/components/_user/auth/ConnectFromModal.tsx:316
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA zurücksetzen"
 
@@ -7322,7 +7348,7 @@ msgstr "Selbst arbeitend"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "<0>{count}</0> Mal in deinen Unternehmen selbst arbeiten"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:331
+#: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
 msgstr "Unternehmen verkaufen?"
 
@@ -7405,7 +7431,7 @@ msgstr "Einen Willkommensartikel für dein Land festlegen"
 msgid "Set a welcome article for your country<0/>"
 msgstr "Einen Willkommensartikel für dein Land festlegen <0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:129
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
 msgstr "Kopfgeld festlegen"
 
@@ -7423,7 +7449,7 @@ msgstr "Landesfarbe auf <0>{0}</0> setzen "
 msgid "Set new party ethics configuration:"
 msgstr "Neue Parteiethik-Konfiguration festlegen:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:97
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:131
 msgid "Set order"
 msgstr "Befehl festlegen"
 
@@ -7488,10 +7514,10 @@ msgid "Show all {0} bids"
 msgstr "Alle {0} Gebote anzeigen"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:265
-#: src/components/_social/ArticleTags.tsx:312
-#: src/components/_social/ArticleTags.tsx:370
-#: src/components/_social/ArticleTags.tsx:420
+#: src/components/_social/ArticleTags.tsx:263
+#: src/components/_social/ArticleTags.tsx:310
+#: src/components/_social/ArticleTags.tsx:368
+#: src/components/_social/ArticleTags.tsx:418
 msgid "Show more"
 msgstr "Mehr anzeigen"
 
@@ -7596,7 +7622,7 @@ msgstr "Scharfschütze"
 msgid "Social & Messages"
 msgstr "Soziales & Nachrichten"
 
-#: src/components/_economy/company/CompanyList.tsx:80
+#: src/components/_economy/company/CompanyList.tsx:96
 msgid "Some of your companies are disabled."
 msgstr "Einige deiner Unternehmen sind deaktiviert."
 
@@ -7852,7 +7878,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr "Boni gegen Erzfeinde beginnen bei <0>{0} Treue</0> und steigen täglich um <1>{1}</1>.“"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:532
+#: src/components/_military/battle/SetOrderFormModal.tsx:539
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Erzfeind: Befehle gegen Erzfeinde kosten {orderDiscountPercent}% weniger<0>{0}</0>."
 
@@ -7908,7 +7934,7 @@ msgstr "Beendet"
 msgid "Terms"
 msgstr "Bedingungen"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:418
+#: src/components/_user/auth/ConnectFromModal.tsx:420
 msgid "Terms of Service"
 msgstr "Nutzungsbedingungen"
 
@@ -8394,12 +8420,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr "Unethische Länder können keinen Vertrag einhalten - dieses Gesetz kann nicht verabschiedet werden."
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:556
+#: src/components/_military/battle/SetOrderFormModal.tsx:563
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr "Unethisch: Bei besetzter Hauptstadt geben nationale Aufträge nur den regulären Bonus, kosten aber ×2 <0>{0}</0>"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:551
+#: src/components/_military/battle/SetOrderFormModal.tsx:558
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr "Unethisch: Nationale Befehle verursachen doppelten Schaden, kosten aber ×2 <0>{0}</0>"
 
@@ -8482,7 +8508,7 @@ msgstr "Arbeiter aktualisieren"
 msgid "Upgrade a company"
 msgstr "Ein Unternehmen verbessern"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:207
+#: src/components/_economy/company/CompanyDropdown.tsx:208
 msgid "Upgrade automated engine"
 msgstr "Verbessere Automatisierte Engine"
 
@@ -8494,7 +8520,7 @@ msgstr "Unternehmen verbessern"
 msgid "Upgrade Skills"
 msgstr "Fähigkeiten verbessern"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:226
 msgid "Upgrade storage"
 msgstr "Lager verbessern"
 
@@ -8722,7 +8748,7 @@ msgstr "Verifizierungscode gesendet!"
 msgid "Verify"
 msgstr "Verifizieren"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:293
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
 msgstr ""
 
@@ -9007,7 +9033,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:275
+#: src/components/_economy/company/CompanyDropdown.tsx:276
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Du hast bereits {0} aktive Unternehmen. Deaktiviere zuerst eines."
 
@@ -9559,7 +9585,7 @@ msgstr "Dein Lohn in <0/> wurde von <1>{0}</1> auf <2>{1}</2> geändert."
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Deine wöchentlichen Missionen wurden zurückgesetzt! Schließe sie ab, um Belohnungen zu verdienen."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:326
 msgid "your@email.com"
 msgstr "deine@email.de"
 

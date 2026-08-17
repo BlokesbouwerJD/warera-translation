@@ -132,7 +132,7 @@ msgstr "{0} Şirketleri"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:260
+#: src/components/_economy/company/CompanyDropdown.tsx:261
 msgid "{0}/{1} active"
 msgstr "{0}/{1} aktif"
 
@@ -147,7 +147,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "İşçilerinizin maaşlarından %{0} gelir vergisi kesilecektir."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:322
 msgid "{0}% of invested"
 msgstr "Yatırımın %{0} kadarı"
 
@@ -608,15 +608,9 @@ msgstr "<0/> öncelik hakkı <1/> içinde sona erecek"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Saatlik direniş artışı"
 
-#. placeholder {0}: companiesIds?.length ?? 0
-#. placeholder {1}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:102
-msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> Şirket"
-
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:134
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> İşçi"
@@ -747,6 +741,11 @@ msgstr "<0>{0}</0> Depolama kapasitesi"
 #: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/gün"
+
+#. placeholder {0}: companiesLimit ?? 99
+#: src/components/_economy/company/CompanyList.tsx:118
+msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1336,7 +1335,7 @@ msgstr "Başka bir ülkeyle barış yapmayı kabul et"
 msgid "Accepted"
 msgstr "Kabul Edildi"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:301
+#: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
 msgstr ""
 
@@ -2201,7 +2200,7 @@ msgstr "Güçlendirmeler:"
 msgid "Bug finder"
 msgstr "Hata Bulucu"
 
-#: src/components/_economy/company/CompanyList.tsx:153
+#: src/components/_economy/company/CompanyList.tsx:175
 msgid "Build a company"
 msgstr "Şirket kur"
 
@@ -2240,7 +2239,7 @@ msgstr "Eşya Satın Al"
 msgid "Buy orders"
 msgstr "Alım market emirleri"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:391
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Devam ederek <0>Hizmet Şartlarımızı</0> kabul etmiş olursunuz."
 
@@ -2330,7 +2329,7 @@ msgstr "Uzmanlaşacak emtia seçemez / uzmanlık işe yaramaz"
 msgid "Captain"
 msgstr "Yüzbaşı"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:280
+#: src/components/_user/auth/ConnectFromModal.tsx:281
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA süresi doldu. Lütfen tekrar deneyin."
 
@@ -2338,7 +2337,7 @@ msgstr "CAPTCHA süresi doldu. Lütfen tekrar deneyin."
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA başarısız. Sıfırlanıyor..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:284
+#: src/components/_user/auth/ConnectFromModal.tsx:286
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA zaman aşımına uğradı. Sıfırlanıyor..."
 
@@ -2402,7 +2401,7 @@ msgstr "Milliyeti değiştir"
 msgid "Change produced item"
 msgstr "Üretilen eşyayı değiştir"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:201
+#: src/components/_economy/company/CompanyDropdown.tsx:202
 msgid "Change production"
 msgstr "Üretimi değiştir"
 
@@ -2602,11 +2601,11 @@ msgstr "Şirketler"
 msgid "Companies limit"
 msgstr "Şirket limiti"
 
-#: src/components/_economy/company/CompanyList.tsx:75
+#: src/components/_economy/company/CompanyList.tsx:91
 msgid "Companies limit reached"
 msgstr "Şirket limitine ulaşıldı"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:98
+#: src/components/_economy/company/CompanyDropdown.tsx:99
 msgid "Company destroyed!"
 msgstr "Şirket yok edildi!"
 
@@ -2614,11 +2613,11 @@ msgstr "Şirket yok edildi!"
 msgid "Company disabled"
 msgstr "Şirket devre dışı"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:125
+#: src/components/_economy/company/CompanyDropdown.tsx:126
 msgid "Company disabled!"
 msgstr "Şirket devre dışı bırakıldı!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:124
+#: src/components/_economy/company/CompanyDropdown.tsx:125
 msgid "Company enabled!"
 msgstr "Şirket etkinleştirildi!"
 
@@ -2634,7 +2633,7 @@ msgstr "Şirket üretim deposu"
 msgid "Company renamed!"
 msgstr "Şirket yeniden adlandırıldı!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:148
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company upgraded!"
 msgstr "Şirket yükseltildi!"
 
@@ -2724,15 +2723,15 @@ msgstr "Kongre Üyesi"
 msgid "Congress members"
 msgstr "Meclis üyeleri"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:356
+#: src/components/_user/auth/ConnectFromModal.tsx:358
 msgid "Connect with Discord"
 msgstr "Discord ile bağlan"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:337
+#: src/components/_user/auth/ConnectFromModal.tsx:339
 msgid "Connect with email code"
 msgstr "E-posta kodu ile bağlan"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:375
+#: src/components/_user/auth/ConnectFromModal.tsx:377
 msgid "Connect with Google"
 msgstr "Google ile bağlan"
 
@@ -2961,7 +2960,7 @@ msgstr "{0} ittifakını oluştur"
 msgid "Create API Token"
 msgstr "API Token'ı Oluştur"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:106
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:158
 msgid "Create auction"
 msgstr "Açık artırma oluştur"
 
@@ -3223,7 +3222,7 @@ msgid "Defensive pact signed"
 msgstr "Savunma paktı imzalandı"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:526
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Savunma paktı: pakt ortağınızı destekleyen emirler {orderDiscountPercent}% daha az <0>{0}</0> maliyetlidir"
 
@@ -3321,7 +3320,7 @@ msgstr "Açıklama kaldırıldı"
 msgid "Description updated!"
 msgstr "Açıklama güncellendi!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "İmha Et"
 
@@ -3351,7 +3350,7 @@ msgstr "Diplomatik"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Diplomatik: savunma paktı bakım maliyetleri {less}% daha az <0>{0}</0>."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:267
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "Disable company"
 msgstr "Şirketi devre dışı bırak"
 
@@ -3503,6 +3502,10 @@ msgstr "Ekonomik beceriler"
 msgid "Economy & Companies"
 msgstr " Ekonomi ve Şirketler"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
+msgid "Edit country order"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
 msgstr "Açıklamayı düzenle"
@@ -3511,15 +3514,19 @@ msgstr "Açıklamayı düzenle"
 msgid "Edit Description"
 msgstr "Açıklamayı Düzenle"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
+msgid "Edit MU order"
+msgstr ""
+
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "İşçiyi yönet"
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:487
+#: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:485
+#: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
 msgstr ""
 
@@ -3582,7 +3589,7 @@ msgstr "Çalışan Üretimi"
 msgid "Empty"
 msgstr "Boş"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:257
+#: src/components/_economy/company/CompanyDropdown.tsx:258
 msgid "Enable company"
 msgstr "Şirketi etkinleştir"
 
@@ -3698,6 +3705,10 @@ msgstr "Etik Puanları"
 msgid "Events"
 msgstr "Etkinlik"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr ""
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Herkes otomatik olarak katılır"
@@ -3706,6 +3717,12 @@ msgstr "Herkes otomatik olarak katılır"
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
 msgstr "Genişlemeci"
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:56
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:82
+msgid "Expected loot"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4148,7 +4165,7 @@ msgstr "Hemen piyango oyna"
 msgid "Go to job market"
 msgstr "İş piyasasına git"
 
-#: src/components/_economy/company/CompanyList.tsx:89
+#: src/components/_economy/company/CompanyList.tsx:105
 msgid "Go to skills"
 msgstr "Becerilere git"
 
@@ -4475,6 +4492,11 @@ msgstr "Emperyalist"
 msgid "Impressive"
 msgstr "Etkileyici"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
+msgid "in {0} battles"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "İnaktif"
@@ -4617,7 +4639,7 @@ msgstr "j. Spam ve tekrarlanan mesajlar"
 msgid "Job"
 msgstr "İş"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:280
+#: src/components/_economy/company/CompanyDropdown.tsx:281
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "İş piyasası"
@@ -4749,9 +4771,9 @@ msgstr "Son kazanılan: <0/>"
 msgid "Last gifts"
 msgstr "Verilen son hediyeler"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:340
-#: src/components/_user/auth/ConnectFromModal.tsx:359
-#: src/components/_user/auth/ConnectFromModal.tsx:378
+#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:361
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Last used"
 msgstr "Son kullanım"
 
@@ -4804,7 +4826,7 @@ msgstr "Kurşun"
 msgid "Leather Sling"
 msgstr "Deri Sapan"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/company/CompanyDropdown.tsx:300
 msgid "Leave"
 msgstr "Ayrıl"
 
@@ -4934,6 +4956,10 @@ msgstr "Kireçtaşı"
 #: src/components/_user/user/skills.frontConfig.tsx:116
 msgid "Limit of food consumption"
 msgstr "Yiyecek tüketim limiti"
+
+#: src/components/_economy/company/CompanyList.tsx:178
+msgid "Limit reached"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5090,8 +5116,8 @@ msgstr "Mareşal"
 msgid "Max level reached!"
 msgstr "Maksimum seviyeye ulaşıldı!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
-#: src/components/_economy/company/CompanyDropdown.tsx:239
+#: src/components/_economy/company/CompanyDropdown.tsx:222
+#: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr "Maksimum!"
 
@@ -5394,7 +5420,7 @@ msgstr "Önergeler"
 msgid "Move a company to another region"
 msgstr "Şirketi başka bir bölgeye taşı"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/CompanyDropdown.tsx:187
 #: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Şirketi taşı"
@@ -5407,7 +5433,7 @@ msgstr "Şirketi Taşı"
 msgid "Move the company"
 msgstr "Şirketi taşı"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:248
+#: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
 msgstr "En üste taşı"
 
@@ -5580,7 +5606,7 @@ msgstr "Yeni ilke yapılandırması"
 msgid "New item offer"
 msgstr "Yeni eşya teklifi"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:193
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -6075,7 +6101,7 @@ msgstr "Emir"
 msgid "Orders"
 msgstr "Emirler"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:142
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:194
 msgid "Orders & actions"
 msgstr "Emirler ve eylemler"
 
@@ -6145,7 +6171,7 @@ msgid "Pacifist"
 msgstr "Pasifist"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:538
+#: src/components/_military/battle/SetOrderFormModal.tsx:545
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Pasifist: çekirdek bölgelerinizi veya isyanları savunan emirler {orderDiscountPercent}% daha az <0>{0}</0> maliyetlidir"
 
@@ -6936,7 +6962,7 @@ msgstr "Duyuruyu kaldır"
 msgid "Remove Avatar"
 msgstr "Avatarı Kaldır"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:116
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:168
 msgid "Remove bounty"
 msgstr "Ödülü kaldır"
 
@@ -6962,7 +6988,7 @@ msgstr "Mevcut parti liderini görevinden uzaklaştırın"
 msgid "Removed from Military Unit"
 msgstr "Askeri Birlikten Çıkarıldı"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:289
+#: src/components/_economy/company/CompanyDropdown.tsx:290
 msgid "Rename"
 msgstr "Yeniden adlandır"
 
@@ -7043,7 +7069,7 @@ msgstr "Görevi Yenile"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:314
+#: src/components/_user/auth/ConnectFromModal.tsx:316
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA'yı Sıfırla"
 
@@ -7322,7 +7348,7 @@ msgstr "Kendi İşin"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Şirketlerinde <0>{count}</0> kez kendi işini yap"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:331
+#: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
 msgstr "Şirketi sat?"
 
@@ -7405,7 +7431,7 @@ msgstr "Ülken için bir karşılama makalesi ayarla"
 msgid "Set a welcome article for your country<0/>"
 msgstr "Ülken için bir karşılama makalesi ayarla<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:129
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
 msgstr "Ödül belirle"
 
@@ -7423,7 +7449,7 @@ msgstr "Ülke rengini <0>{0}</0> olarak ayarla "
 msgid "Set new party ethics configuration:"
 msgstr "Yeni parti ilke yapılandırmasını ayarlayın:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:97
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:131
 msgid "Set order"
 msgstr "Emir ver"
 
@@ -7488,10 +7514,10 @@ msgid "Show all {0} bids"
 msgstr "{0} teklifin tamamını göster"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:265
-#: src/components/_social/ArticleTags.tsx:312
-#: src/components/_social/ArticleTags.tsx:370
-#: src/components/_social/ArticleTags.tsx:420
+#: src/components/_social/ArticleTags.tsx:263
+#: src/components/_social/ArticleTags.tsx:310
+#: src/components/_social/ArticleTags.tsx:368
+#: src/components/_social/ArticleTags.tsx:418
 msgid "Show more"
 msgstr "Daha fazla göster"
 
@@ -7596,7 +7622,7 @@ msgstr "Keskin Nişancı"
 msgid "Social & Messages"
 msgstr "Sosyal ve Mesajlar"
 
-#: src/components/_economy/company/CompanyList.tsx:80
+#: src/components/_economy/company/CompanyList.tsx:96
 msgid "Some of your companies are disabled."
 msgstr "Bazı şirketlerin devre dışı."
 
@@ -7852,7 +7878,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr "Baş düşman antlaşmaları <0>{0} sadakat</0> ile başlar ve her gün <1>{1}</1> kazanır."
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:532
+#: src/components/_military/battle/SetOrderFormModal.tsx:539
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Baş düşman: baş düşmanınıza karşı emirler {orderDiscountPercent}% daha az <0>{0}</0> maliyetlidir"
 
@@ -7908,7 +7934,7 @@ msgstr "Sonlandırıldı"
 msgid "Terms"
 msgstr "Şartlar"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:418
+#: src/components/_user/auth/ConnectFromModal.tsx:420
 msgid "Terms of Service"
 msgstr "Hizmet Şartları"
 
@@ -8394,12 +8420,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr "Etik dışı ülkeler herhangi bir antlaşma yapamaz — bu yasa yürürlüğe konulamaz."
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:556
+#: src/components/_military/battle/SetOrderFormModal.tsx:563
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr "Etik dışı: başkent işgal edildi, ulusal emirler yalnızca normal bonusu verir ancak yine de ×2 <0>{0}</0> maliyetlidir"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:551
+#: src/components/_military/battle/SetOrderFormModal.tsx:558
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr "Etik dışı: ulusal emirler ×2 hasar verir ancak ×2 <0>{0}</0> maliyetlidir"
 
@@ -8482,7 +8508,7 @@ msgstr "İşçiyi yönet"
 msgid "Upgrade a company"
 msgstr "Şirketi yükselt"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:207
+#: src/components/_economy/company/CompanyDropdown.tsx:208
 msgid "Upgrade automated engine"
 msgstr "Otomatik motoru yükselt"
 
@@ -8494,7 +8520,7 @@ msgstr "Şirketi Yükselt"
 msgid "Upgrade Skills"
 msgstr "Becerileri Yükselt"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:226
 msgid "Upgrade storage"
 msgstr "Depolamayı yükselt"
 
@@ -8722,7 +8748,7 @@ msgstr "Doğrulama kodu gönderildi!"
 msgid "Verify"
 msgstr "Doğrula"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:293
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
 msgstr ""
 
@@ -9007,7 +9033,7 @@ msgid "XP"
 msgstr "DP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:275
+#: src/components/_economy/company/CompanyDropdown.tsx:276
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Zaten {0} aktif şirketin var. Önce birini devre dışı bırak."
 
@@ -9559,7 +9585,7 @@ msgstr "<0/> şirketindeki maaşın <1>{0}</1> tutarından <2>{1}</2> tutarına 
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Haftalık görevleriniz sıfırlandı! Ödüller almak için onları tamamlayın."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:326
 msgid "your@email.com"
 msgstr "senin@email.com"
 

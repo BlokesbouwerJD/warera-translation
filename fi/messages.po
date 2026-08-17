@@ -133,7 +133,7 @@ msgstr "{0}n yritykset"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:260
+#: src/components/_economy/company/CompanyDropdown.tsx:261
 msgid "{0}/{1} active"
 msgstr "{0}/{1} aktiivista"
 
@@ -148,7 +148,7 @@ msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% tulovero vähennetään työntekijöidesi palkoista."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:322
 msgid "{0}% of invested"
 msgstr "{0}% sijoitetusta"
 
@@ -609,15 +609,9 @@ msgstr "<0/>Prioriteetti päättyy <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Resistanssin kasvu tunnissa"
 
-#. placeholder {0}: companiesIds?.length ?? 0
-#. placeholder {1}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:102
-msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> Yritykset"
-
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:134
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Työntekijät"
@@ -748,6 +742,11 @@ msgstr "<0>{0}</0> Varastointikapasiteetti"
 #: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/päivä"
+
+#. placeholder {0}: companiesLimit ?? 99
+#: src/components/_economy/company/CompanyList.tsx:118
+msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1337,7 +1336,7 @@ msgstr "Hyväksy rauhan tekeminen toisen maan kanssa"
 msgid "Accepted"
 msgstr "Hyväksytty"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:301
+#: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
 msgstr ""
 
@@ -2202,7 +2201,7 @@ msgstr "Buffit:"
 msgid "Bug finder"
 msgstr "Virheiden etsijä"
 
-#: src/components/_economy/company/CompanyList.tsx:153
+#: src/components/_economy/company/CompanyList.tsx:175
 msgid "Build a company"
 msgstr "Rakenna yritys"
 
@@ -2241,7 +2240,7 @@ msgstr "Osta kohteita"
 msgid "Buy orders"
 msgstr "Osta tilauksia"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:391
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Jatkamalla hyväksyt <0>Käyttöehdot</0>."
 
@@ -2331,7 +2330,7 @@ msgstr "Ei voi valita erikoisalaa hyvää / ei hyötyä erikoistumisesta."
 msgid "Captain"
 msgstr "Kapteeni"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:280
+#: src/components/_user/auth/ConnectFromModal.tsx:281
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA-haaste vanhentunut. Yritä uudelleen."
 
@@ -2339,7 +2338,7 @@ msgstr "CAPTCHA-haaste vanhentunut. Yritä uudelleen."
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA-haaste epäonnistui. Nollataan..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:284
+#: src/components/_user/auth/ConnectFromModal.tsx:286
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA aikakatkaistiin. Nollataan..."
 
@@ -2403,7 +2402,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr "Muuta tuotettua tuotetta"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:201
+#: src/components/_economy/company/CompanyDropdown.tsx:202
 msgid "Change production"
 msgstr "Muuta tuotantoa"
 
@@ -2603,11 +2602,11 @@ msgstr "Yritykset"
 msgid "Companies limit"
 msgstr "Yritysten raja"
 
-#: src/components/_economy/company/CompanyList.tsx:75
+#: src/components/_economy/company/CompanyList.tsx:91
 msgid "Companies limit reached"
 msgstr "Yritysraja saavutettu"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:98
+#: src/components/_economy/company/CompanyDropdown.tsx:99
 msgid "Company destroyed!"
 msgstr "Yritys tuhottu!"
 
@@ -2615,11 +2614,11 @@ msgstr "Yritys tuhottu!"
 msgid "Company disabled"
 msgstr "Yritys pois käytöstä"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:125
+#: src/components/_economy/company/CompanyDropdown.tsx:126
 msgid "Company disabled!"
 msgstr "Yritys pois käytöstä!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:124
+#: src/components/_economy/company/CompanyDropdown.tsx:125
 msgid "Company enabled!"
 msgstr "Yritys käytössä!"
 
@@ -2635,7 +2634,7 @@ msgstr "Yrityksen tuotannon varastointi"
 msgid "Company renamed!"
 msgstr "Yritys nimetty uudelleen!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:148
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company upgraded!"
 msgstr ""
 
@@ -2725,15 +2724,15 @@ msgstr "Kongressin jäsen"
 msgid "Congress members"
 msgstr "kongressin jäseniä"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:356
+#: src/components/_user/auth/ConnectFromModal.tsx:358
 msgid "Connect with Discord"
 msgstr "Yhdistä Discordiin"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:337
+#: src/components/_user/auth/ConnectFromModal.tsx:339
 msgid "Connect with email code"
 msgstr "Yhdistä sähköpostikoodilla"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:375
+#: src/components/_user/auth/ConnectFromModal.tsx:377
 msgid "Connect with Google"
 msgstr "Kirjaudu Googlella"
 
@@ -2962,7 +2961,7 @@ msgstr ""
 msgid "Create API Token"
 msgstr "Luo API-tunnus"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:106
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:158
 msgid "Create auction"
 msgstr ""
 
@@ -3224,7 +3223,7 @@ msgid "Defensive pact signed"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:526
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -3322,7 +3321,7 @@ msgstr "Kuvaus poistettu"
 msgid "Description updated!"
 msgstr "Kuvaus päivitetty!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "Tuhota"
 
@@ -3352,7 +3351,7 @@ msgstr "Diplomaattinen"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:267
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "Disable company"
 msgstr "Poista yritys käytöstä"
 
@@ -3504,6 +3503,10 @@ msgstr "Taloudelliset taidot"
 msgid "Economy & Companies"
 msgstr "Talous & Yritykset"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
+msgid "Edit country order"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
 msgstr "Muokkaa kuvausta"
@@ -3512,15 +3515,19 @@ msgstr "Muokkaa kuvausta"
 msgid "Edit Description"
 msgstr "Muokkaa kuvausta"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
+msgid "Edit MU order"
+msgstr ""
+
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "Muokkaa työntekijää"
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:487
+#: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:485
+#: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
 msgstr ""
 
@@ -3583,7 +3590,7 @@ msgstr "Työntekijöiden tuotanto"
 msgid "Empty"
 msgstr "Tyhjä"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:257
+#: src/components/_economy/company/CompanyDropdown.tsx:258
 msgid "Enable company"
 msgstr "Ota yritys käyttöön"
 
@@ -3699,6 +3706,10 @@ msgstr "Eettiset kohdat:"
 msgid "Events"
 msgstr "Tapahtumat"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr ""
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Kaikki osallistuvat automaattisesti"
@@ -3706,6 +3717,12 @@ msgstr "Kaikki osallistuvat automaattisesti"
 #: src/components/_political/party/party.frontConfig.tsx:91
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
+msgstr ""
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:56
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:82
+msgid "Expected loot"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
@@ -4149,7 +4166,7 @@ msgstr "Mene nyt lottoon"
 msgid "Go to job market"
 msgstr "Mene työmarkkinoille"
 
-#: src/components/_economy/company/CompanyList.tsx:89
+#: src/components/_economy/company/CompanyList.tsx:105
 msgid "Go to skills"
 msgstr "Siirry taitoihin"
 
@@ -4476,6 +4493,11 @@ msgstr "Imperialisti"
 msgid "Impressive"
 msgstr "Vaikuttava"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
+msgid "in {0} battles"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Ei-aktiivinen"
@@ -4618,7 +4640,7 @@ msgstr ""
 msgid "Job"
 msgstr "Työpaikka"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:280
+#: src/components/_economy/company/CompanyDropdown.tsx:281
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "Työmarkkinat"
@@ -4750,9 +4772,9 @@ msgstr "Viimeksi ansaittu: <0/>"
 msgid "Last gifts"
 msgstr "Viimeiset lahjat"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:340
-#: src/components/_user/auth/ConnectFromModal.tsx:359
-#: src/components/_user/auth/ConnectFromModal.tsx:378
+#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:361
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Last used"
 msgstr "Viimeksi käytetty"
 
@@ -4805,7 +4827,7 @@ msgstr "Lyijy"
 msgid "Leather Sling"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/company/CompanyDropdown.tsx:300
 msgid "Leave"
 msgstr "Lähde"
 
@@ -4935,6 +4957,10 @@ msgstr "Kalkkikivi"
 #: src/components/_user/user/skills.frontConfig.tsx:116
 msgid "Limit of food consumption"
 msgstr "Ruoan kulutuksen raja"
+
+#: src/components/_economy/company/CompanyList.tsx:178
+msgid "Limit reached"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5091,8 +5117,8 @@ msgstr "Marsalkka"
 msgid "Max level reached!"
 msgstr "Maksimitaso saavutettu!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
-#: src/components/_economy/company/CompanyDropdown.tsx:239
+#: src/components/_economy/company/CompanyDropdown.tsx:222
+#: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr ""
 
@@ -5395,7 +5421,7 @@ msgstr "Liikkeet"
 msgid "Move a company to another region"
 msgstr "Siirrä yritys toiselle alueelle"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/CompanyDropdown.tsx:187
 #: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Siirrä yritys"
@@ -5408,7 +5434,7 @@ msgstr "Siirrä yritys"
 msgid "Move the company"
 msgstr "Siirrä yritys"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:248
+#: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
 msgstr "Siirrä ylös"
 
@@ -5581,7 +5607,7 @@ msgstr "Uusi eettinen konfiguraatio"
 msgid "New item offer"
 msgstr "Uuden tuotteen tarjous"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:193
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -6076,7 +6102,7 @@ msgstr "Tilata"
 msgid "Orders"
 msgstr "Tilaukset"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:142
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:194
 msgid "Orders & actions"
 msgstr "Tilaukset ja toimet"
 
@@ -6146,7 +6172,7 @@ msgid "Pacifist"
 msgstr "Pasifisti"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:538
+#: src/components/_military/battle/SetOrderFormModal.tsx:545
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -6937,7 +6963,7 @@ msgstr ""
 msgid "Remove Avatar"
 msgstr "Poista Avatar"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:116
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:168
 msgid "Remove bounty"
 msgstr "Poista palkkio"
 
@@ -6963,7 +6989,7 @@ msgstr "Poista puolueen nykyinen johtaja asemastaan"
 msgid "Removed from Military Unit"
 msgstr "Poistettu sotilasyksiköstä"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:289
+#: src/components/_economy/company/CompanyDropdown.tsx:290
 msgid "Rename"
 msgstr "Nimeä uudelleen"
 
@@ -7044,7 +7070,7 @@ msgstr "Uusintatehtävä"
 msgid "Reset"
 msgstr "Nollaa"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:314
+#: src/components/_user/auth/ConnectFromModal.tsx:316
 msgid "Reset CAPTCHA"
 msgstr "Nollaa CAPTCHA"
 
@@ -7323,7 +7349,7 @@ msgstr "Itsetyö"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Työskentele itse <0>{count}</0> kertaa yrityksissäsi"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:331
+#: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
 msgstr "Myydä yritystä?"
 
@@ -7406,7 +7432,7 @@ msgstr "Aseta tervetuloartikkeli maallesi"
 msgid "Set a welcome article for your country<0/>"
 msgstr "Aseta tervetuliaisartikkeli maallesi<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:129
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
 msgstr "Aseta palkkio"
 
@@ -7424,7 +7450,7 @@ msgstr ""
 msgid "Set new party ethics configuration:"
 msgstr "Aseta uusi puolueetiikan määritys:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:97
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:131
 msgid "Set order"
 msgstr "Aseta järjestys"
 
@@ -7489,10 +7515,10 @@ msgid "Show all {0} bids"
 msgstr ""
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:265
-#: src/components/_social/ArticleTags.tsx:312
-#: src/components/_social/ArticleTags.tsx:370
-#: src/components/_social/ArticleTags.tsx:420
+#: src/components/_social/ArticleTags.tsx:263
+#: src/components/_social/ArticleTags.tsx:310
+#: src/components/_social/ArticleTags.tsx:368
+#: src/components/_social/ArticleTags.tsx:418
 msgid "Show more"
 msgstr "Näytä lisää"
 
@@ -7597,7 +7623,7 @@ msgstr "Tarkka-ampuja"
 msgid "Social & Messages"
 msgstr "Sosiaaliset viestit ja viestit"
 
-#: src/components/_economy/company/CompanyList.tsx:80
+#: src/components/_economy/company/CompanyList.tsx:96
 msgid "Some of your companies are disabled."
 msgstr "Osa yrityksistäsi on poistettu käytöstä."
 
@@ -7853,7 +7879,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:532
+#: src/components/_military/battle/SetOrderFormModal.tsx:539
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -7909,7 +7935,7 @@ msgstr ""
 msgid "Terms"
 msgstr "Ehdot"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:418
+#: src/components/_user/auth/ConnectFromModal.tsx:420
 msgid "Terms of Service"
 msgstr "Palveluehdot"
 
@@ -8395,12 +8421,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:556
+#: src/components/_military/battle/SetOrderFormModal.tsx:563
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:551
+#: src/components/_military/battle/SetOrderFormModal.tsx:558
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
@@ -8483,7 +8509,7 @@ msgstr "Päivitä työntekijä"
 msgid "Upgrade a company"
 msgstr "Päivitä yritys"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:207
+#: src/components/_economy/company/CompanyDropdown.tsx:208
 msgid "Upgrade automated engine"
 msgstr ""
 
@@ -8495,7 +8521,7 @@ msgstr "Päivitä yritys"
 msgid "Upgrade Skills"
 msgstr "Päivitä taitoja"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:226
 msgid "Upgrade storage"
 msgstr ""
 
@@ -8723,7 +8749,7 @@ msgstr "Vahvistuskoodi lähetetty!"
 msgid "Verify"
 msgstr "Vahvista"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:293
+#: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
 msgstr ""
 
@@ -9008,7 +9034,7 @@ msgid "XP"
 msgstr "Kokemuspisteet"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:275
+#: src/components/_economy/company/CompanyDropdown.tsx:276
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Sinulla on jo {0} aktiivista yritystä. Poista ensin yksi käytöstä."
 
@@ -9560,7 +9586,7 @@ msgstr "Palkkasi yrityksessä <0/> muuttui arvosta <1>{0}</1> arvoon <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Viikoittaiset tehtäväsi on nollattu! Täytä ne ansaitaksesi palkintoja."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:326
 msgid "your@email.com"
 msgstr "sinun@sähköposti.fi"
 
