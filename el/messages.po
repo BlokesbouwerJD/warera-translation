@@ -88,7 +88,7 @@ msgid "{0} active citizens required"
 msgstr "{0} ενεργοί πολίτες απαιτούνται"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:487
+#: src/components/_user/notification/notification.frontConfig.tsx:488
 msgid "{0} bought your item offer"
 msgstr "{0} αγόρασε την προσφορά αντικειμένου σου"
 
@@ -98,7 +98,7 @@ msgid "{0} days cooldown"
 msgstr "{0} ημέρες αναμονή"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:175
+#: src/pages/user/[userId]/skills.tsx:213
 msgid "{0} Free"
 msgstr "{0} Δωρεάν"
 
@@ -111,12 +111,12 @@ msgstr "{0} ώρες"
 
 #. placeholder {0}: data.outbidByMuName
 #. placeholder {1}: data.newPerK
-#: src/components/_user/notification/notification.frontConfig.tsx:1674
+#: src/components/_user/notification/notification.frontConfig.tsx:1675
 msgid "{0} outbid you at ${1}/K"
 msgstr ""
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:510
+#: src/components/_user/notification/notification.frontConfig.tsx:511
 msgid "{0} proposed a new law <0/>"
 msgstr ""
 
@@ -132,7 +132,7 @@ msgstr "Εταιρείες του {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:260
+#: src/components/_economy/company/CompanyDropdown.tsx:261
 msgid "{0}/{1} active"
 msgstr "{0}/{1} ενεργά"
 
@@ -142,12 +142,12 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% φόρος εισοδήματος θα αφαιρεθεί από τα κέρδη κατά εργασία σε αυτή την εταιρεία."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:152
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% φόρος εισοδήματος θα αφαιρεθεί από τους μισθούς των εργαζομένων σου."
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:321
+#: src/components/_economy/company/CompanyDropdown.tsx:322
 msgid "{0}% of invested"
 msgstr "{0}% του επενδεδυμένου"
 
@@ -155,12 +155,24 @@ msgstr "{0}% του επενδεδυμένου"
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} ολοκληρωμένα"
 
+#: src/components/_user/user/SkillUpgrade.tsx:267
+msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
+msgstr ""
+
+#: src/components/_user/user/Level.tsx:143
+msgid "{prestigeLevel} Prestige Points"
+msgstr ""
+
 #: src/components/_military/tournament/TournamentRegisteredTag.tsx:43
 msgid "{registeredCount} {entityLabel} registered"
 msgstr "{registeredCount} {entityLabel} εγγεγραμμένα"
 
 #: src/components/_military/battle/BattleTimeline.tsx:79
 msgid "{roundsToWin} Rounds to win "
+msgstr ""
+
+#: src/components/_user/user/SkillUpgrade.tsx:373
+msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
@@ -184,8 +196,12 @@ msgstr "*Μπορεί να καεί"
 msgid "/day"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:380
-#: src/components/_user/notification/notification.frontConfig.tsx:1094
+#: src/components/_user/user/Level.tsx:152
+msgid "+{xpBonusPercent}% XP"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:381
+#: src/components/_user/notification/notification.frontConfig.tsx:1095
 msgid "<0/> applied to join <1/>"
 msgstr "<0/> υπέβαλε αίτηση συμμετοχής <1/>"
 
@@ -199,21 +215,21 @@ msgstr "<0/> με <1>{0}</1> μισθό.{1}"
 msgid "<0/> banned <1/> from the conversation"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1863
+#: src/components/_user/notification/notification.frontConfig.tsx:1877
 msgid "<0/> bought your {assetLabel} as a gift for <1/>!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1870
+#: src/components/_user/notification/notification.frontConfig.tsx:1884
 msgid "<0/> bought your {assetLabel}!"
 msgstr ""
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
-#: src/components/_user/notification/notification.frontConfig.tsx:1509
+#: src/components/_user/notification/notification.frontConfig.tsx:1510
 msgid "<0/> bought your banner{0} as a gift for <1/>!"
 msgstr ""
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
-#: src/components/_user/notification/notification.frontConfig.tsx:1517
+#: src/components/_user/notification/notification.frontConfig.tsx:1518
 msgid "<0/> bought your banner{0}!"
 msgstr ""
 
@@ -227,19 +243,19 @@ msgstr ""
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> αγοράζει την περιοχή σου <1/> για <2>{0}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1594
+#: src/components/_user/notification/notification.frontConfig.tsx:1595
 msgid "<0/> cancelled the contract."
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:773
+#: src/components/_user/notification/notification.frontConfig.tsx:774
 msgid "<0/> commented on your article <1/>"
 msgstr "<0/> σχολίασε το άρθρο σου <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1569
+#: src/components/_user/notification/notification.frontConfig.tsx:1570
 msgid "<0/> completed a contract, you earned <1/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:666
+#: src/components/_user/notification/notification.frontConfig.tsx:667
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/> κατέκτησε την περιοχή στο <1/>"
 
@@ -251,12 +267,12 @@ msgstr "<0/> δημιούργησε τη συνομιλία"
 msgid "<0/> declared war on <1/>"
 msgstr "<0/> κήρυξε πόλεμο στο <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:661
+#: src/components/_user/notification/notification.frontConfig.tsx:662
 msgid "<0/> defended in <1/>"
 msgstr "<0/> υπεράσπισε στο <1/>"
 
 #. placeholder {0}: data.amount
-#: src/components/_user/notification/notification.frontConfig.tsx:1168
+#: src/components/_user/notification/notification.frontConfig.tsx:1169
 msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> δώρισε <1>{0}</1> στο <2/>"
 
@@ -285,20 +301,20 @@ msgstr "<0/> χρηματοδότησε εξέγερση στο <1/> για το
 msgid "<0/> gifted a sub to <1/>"
 msgstr "<0/> χάρισε συνδρομή στο <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1031
+#: src/components/_user/notification/notification.frontConfig.tsx:1032
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> σου χάρισε premium συνδρομή!"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1478
+#: src/components/_user/notification/notification.frontConfig.tsx:1479
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> σου χάρισε το banner \"{0}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1745
+#: src/components/_user/notification/notification.frontConfig.tsx:1759
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr "<0/> σου χάρισε το skin \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1816
+#: src/components/_user/notification/notification.frontConfig.tsx:1830
 msgid "<0/> gifted you the skin pack \"{skinPackTitle}\"!"
 msgstr ""
 
@@ -306,11 +322,11 @@ msgstr ""
 msgid "<0/> got fee back"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1331
+#: src/components/_user/notification/notification.frontConfig.tsx:1332
 msgid "<0/> has been created, it gonna start soon!"
 msgstr "<0/> δημιουργήθηκε, θα ξεκινήσει σύντομα!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:213
+#: src/components/_user/notification/notification.frontConfig.tsx:214
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> εκλέχτηκε πρόεδρος του <1/>"
 
@@ -371,11 +387,11 @@ msgstr "<0/> απελευθέρωσε το <1/> και το επέστρεψε �
 msgid "<0/> has signed a defensive pact with <1/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:952
+#: src/components/_user/notification/notification.frontConfig.tsx:953
 msgid "<0/> has started a revolution in <1/>"
 msgstr "<0/> ξεκίνησε επανάσταση στο <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1344
+#: src/components/_user/notification/notification.frontConfig.tsx:1345
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> ξεκίνησε! Ας ξεκινήσουν οι μάχες!"
 
@@ -388,7 +404,7 @@ msgstr "<0/> κατέστειλε την αντίσταση στο <1/>"
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
 msgstr "<0/> μετέφερε <1>{0}</1> στο <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:908
+#: src/components/_user/notification/notification.frontConfig.tsx:909
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/> επιτίθεται στο <1/> στο <2/>"
 
@@ -396,7 +412,7 @@ msgstr "<0/> επιτίθεται στο <1/> στο <2/>"
 msgid "<0/> is attacking in <1/>"
 msgstr "<0/> κάνει επίθεση στο <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:894
+#: src/components/_user/notification/notification.frontConfig.tsx:895
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> επιτίθεται στη χώρα σου στο <1/>"
 
@@ -408,7 +424,7 @@ msgstr "<0/> είναι σε χρεοκοπία. Αφαιρούνται όλες
 msgid "<0/> is revolting in <1/>"
 msgstr "<0/> κάνει επανάσταση στο <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:923
+#: src/components/_user/notification/notification.frontConfig.tsx:924
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> εξεγείρεται στο <1/> εναντίον της χώρας σου"
 
@@ -416,12 +432,12 @@ msgstr "<0/> εξεγείρεται στο <1/> εναντίον της χώρα
 msgid "<0/> joined the conversation"
 msgstr "<0/> εντάχθηκε στη συνομιλία"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:549
+#: src/components/_user/notification/notification.frontConfig.tsx:550
 msgid "<0/> joined the game with your referral link!"
 msgstr "<0/> εντάχθηκε στο παιχνίδι με τον σύνδεσμο παραπομπής σου!"
 
 #. placeholder {0}: data.wage
-#: src/components/_user/notification/notification.frontConfig.tsx:411
+#: src/components/_user/notification/notification.frontConfig.tsx:412
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> εντάχθηκε στην εταιρεία σου <1/> με <2>{0}</2> μισθό"
 
@@ -430,7 +446,7 @@ msgid "<0/> kicked <1/> from the conversation"
 msgstr "<0/> έδιωξε το <1/> από τη συνομιλία"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
-#: src/components/_user/notification/notification.frontConfig.tsx:427
+#: src/components/_user/notification/notification.frontConfig.tsx:428
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> έφυγε από τη δουλειά στην εταιρεία σου {0}"
 
@@ -438,15 +454,15 @@ msgstr "<0/> έφυγε από τη δουλειά στην εταιρεία σ�
 msgid "<0/> left the conversation"
 msgstr "<0/> έφυγε από τη συνομιλία"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:758
+#: src/components/_user/notification/notification.frontConfig.tsx:759
 msgid "<0/> liked your article <1/>"
 msgstr "<0/> άρεσε το άρθρο σου <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:830
+#: src/components/_user/notification/notification.frontConfig.tsx:831
 msgid "<0/> liked your message <1/>"
 msgstr "<0/> άρεσε το μήνυμά σου <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:821
+#: src/components/_user/notification/notification.frontConfig.tsx:822
 msgid "<0/> liked your message in <1/><2/>"
 msgstr ""
 
@@ -454,11 +470,11 @@ msgstr ""
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> έκανε ειρήνη με το <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1219
+#: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1210
+#: src/components/_user/notification/notification.frontConfig.tsx:1211
 msgid "<0/> mentioned you in <1/><2/>"
 msgstr ""
 
@@ -482,26 +498,26 @@ msgstr ""
 msgid "<0/> proposed a new law: <1/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:742
+#: src/components/_user/notification/notification.frontConfig.tsx:743
 msgid "<0/> published a new article"
 msgstr "<0/> δημοσίευσε νέο άρθρο"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:1195
+#: src/components/_user/notification/notification.frontConfig.tsx:1196
 msgid "<0/> reached level {0}!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:560
+#: src/components/_user/notification/notification.frontConfig.tsx:561
 msgid "<0/> referred you to the game."
 msgstr "<0/> σε παρέπεμψε στο παιχνίδι."
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:866
+#: src/components/_user/notification/notification.frontConfig.tsx:867
 msgid "<0/> responded to your message {0}"
 msgstr "<0/> απάντησε στο μήνυμά σου {0}"
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:857
+#: src/components/_user/notification/notification.frontConfig.tsx:858
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr ""
 
@@ -509,11 +525,11 @@ msgstr ""
 msgid "<0/> started, vote for your favorite candidate"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:807
+#: src/components/_user/notification/notification.frontConfig.tsx:808
 msgid "<0/> subscribed to you on your article <1/>"
 msgstr "<0/> εγγράφηκε σε εσένα στο άρθρο <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:788
+#: src/components/_user/notification/notification.frontConfig.tsx:789
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> έδωσε φιλοδώρημα στο άρθρο σου <1/>"
 
@@ -538,7 +554,7 @@ msgid "<0/> was elected president of <1/>"
 msgstr "<0/> εκλέχτηκε πρόεδρος του <1/>"
 
 #. placeholder {0}: ts[data.governmentRole]
-#: src/components/_user/notification/notification.frontConfig.tsx:526
+#: src/components/_user/notification/notification.frontConfig.tsx:527
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> ορίστηκε ως <1>{0}</1>"
 
@@ -547,7 +563,7 @@ msgstr "<0/> ορίστηκε ως <1>{0}</1>"
 msgid "<0/> won round {0}"
 msgstr "<0/> κέρδισε τον γύρο {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1552
+#: src/components/_user/notification/notification.frontConfig.tsx:1553
 msgid "<0/> won the auction on a contract with <1/>"
 msgstr ""
 
@@ -557,17 +573,17 @@ msgstr ""
 msgid "<0/> won the battle ({0}-{1})"
 msgstr "<0/> κέρδισε τη μάχη ({0}-{1})"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:337
+#: src/components/_user/notification/notification.frontConfig.tsx:338
 msgid "<0/> won the primary election in <1/> and can now run for president!"
 msgstr "<0/> κέρδισε τις προκριματικές εκλογές στο <1/> και μπορεί τώρα να είναι υποψήφιος πρόεδρος!"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:625
+#: src/components/_user/notification/notification.frontConfig.tsx:626
 msgid "<0/> won the round <1>#{0}</1> in <2/>"
 msgstr "<0/> κέρδισε τον γύρο <1>#{0}</1> στο <2/>"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:631
+#: src/components/_user/notification/notification.frontConfig.tsx:632
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> κέρδισε τον γύρο <1>#{0}</1> στο <2/>!"
 
@@ -592,15 +608,9 @@ msgstr "<0/>Η προτεραιότητα λήγει σε <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Ανάπτυξη αντίστασης ανά ώρα"
 
-#. placeholder {0}: companiesIds?.length ?? 0
-#. placeholder {1}: companiesLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:102
-msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> Εταιρείες"
-
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
-#: src/components/_economy/company/CompanyList.tsx:118
+#: src/components/_economy/company/CompanyList.tsx:134
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Εργαζόμενοι"
@@ -646,7 +656,7 @@ msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the 
 msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
-#: src/components/_user/notification/notification.frontConfig.tsx:1615
+#: src/components/_user/notification/notification.frontConfig.tsx:1616
 msgid "<0>{0}</0> fee returned to MU."
 msgstr ""
 
@@ -673,12 +683,12 @@ msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr ""
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:134
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:135
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> από μπόνους κατάθεσης αγροτικής ηθικής."
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> από πόρους κοιτάσματος."
 
@@ -698,7 +708,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> από μάχη για τη χώρα σου"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:114
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:115
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> από μπόνους εξειδίκευσης βιομηχανικής ηθικής."
 
@@ -708,7 +718,7 @@ msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> από εντολές του <1/>"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:105
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> από μπόνους παραγωγής στρατηγικών πόρων."
 
@@ -718,7 +728,7 @@ msgid "<0>{0}</0> ground are required to win a round, points are gained every ti
 msgstr "<0>{0}</0> έδαφος απαιτείται για να κερδίσεις έναν γύρο, οι πόντοι κερδίζονται σε κάθε tick"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1607
+#: src/components/_user/notification/notification.frontConfig.tsx:1608
 msgid "<0>{0}</0> returned to <1/>."
 msgstr ""
 
@@ -731,6 +741,11 @@ msgstr "<0>{0}</0> Χωρητικότητα αποθήκης"
 #: src/components/_political/law/Law.tsx:124
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/ημέρα"
+
+#. placeholder {0}: companiesLimit ?? 99
+#: src/components/_economy/company/CompanyList.tsx:118
+msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -757,7 +772,7 @@ msgstr "<0>#{key}</0> πόρος κάθε τύπου = <1>{value}</1>"
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
 msgstr ""
 
-#: src/components/_user/user/UserTooltip.tsx:131
+#: src/components/_user/user/UserTooltip.tsx:149
 msgid "<0>Buff</0> ends <1/>"
 msgstr "<0>Buff</0> λήγει <1/>"
 
@@ -769,7 +784,7 @@ msgstr ""
 msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
 msgstr ""
 
-#: src/components/_user/user/UserTooltip.tsx:140
+#: src/components/_user/user/UserTooltip.tsx:158
 msgid "<0>Debuff</0> ends <1/>"
 msgstr "<0>Debuff</0> λήγει <1/>"
 
@@ -812,7 +827,7 @@ msgstr "<0>Αναταραχή</0> αντιπροσωπεύει εσωτερικ�
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:97
+#: src/components/_layout/LayoutOptions.tsx:99
 msgid "= consumes more power"
 msgstr ""
 
@@ -1320,7 +1335,11 @@ msgstr "Αποδοχή ειρήνης με την άλλη χώρα"
 msgid "Accepted"
 msgstr "Αποδεκτό"
 
-#: src/components/_military/battle/BattleHeader.tsx:119
+#: src/components/_user/auth/ConnectFromModal.tsx:303
+msgid "Access granted"
+msgstr ""
+
+#: src/components/_military/battle/BattleHeader.tsx:118
 msgid "Access war"
 msgstr "Πρόσβαση πολέμου"
 
@@ -1329,7 +1348,7 @@ msgstr "Πρόσβαση πολέμου"
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
-#: src/pages/user/[userId]/index.tsx:150
+#: src/pages/user/[userId]/index.tsx:166
 msgid "Account"
 msgstr "Λογαριασμός"
 
@@ -1337,9 +1356,13 @@ msgstr "Λογαριασμός"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:84
+#: src/pages/country/[countryId]/government.tsx:83
 msgid "Actions"
 msgstr "Ενέργειες"
+
+#: src/components/_user/user/Level.tsx:160
+msgid "activated"
+msgstr ""
 
 #: src/components/_military/battle/BattlesHeader.tsx:27
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
@@ -1393,7 +1416,7 @@ msgstr "Επιπλέον κόστος"
 msgid "Admin"
 msgstr "Διαχειριστής"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2117
+#: src/components/_user/notification/notification.frontConfig.tsx:2131
 msgid "Admin notification"
 msgstr "Ειδοποίηση διαχειριστή"
 
@@ -1547,12 +1570,12 @@ msgstr "Σχεδόν έτοιμο..."
 msgid "Alpha Tester"
 msgstr "Alpha Tester"
 
-#: src/components/_user/UserEquipments.tsx:144
+#: src/components/_user/UserEquipments.tsx:148
 #: src/utils/translations.tsx:35
 msgid "Ammo"
 msgstr "Πυρομαχικά"
 
-#: src/components/_user/user/SkillValue.tsx:136
+#: src/components/_user/user/SkillValue.tsx:166
 msgid "Ammo:"
 msgstr "Πυρομαχικά:"
 
@@ -1574,7 +1597,7 @@ msgid "Amount of companies you can own"
 msgstr "Αριθμός εταιρειών που μπορείς να κατέχεις"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1587
+#: src/components/_user/notification/notification.frontConfig.tsx:1588
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr ""
 
@@ -1602,8 +1625,8 @@ msgstr "Εστάλη email με τον κωδικό επαλήθευσης στ�
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Κινούμενο <0>GIF</0> ως avatar"
 
-#: src/pages/country/[countryId]/government.tsx:148
-msgid "Announcement"
+#: src/pages/country/[countryId]/government.tsx:158
+msgid "Announcements"
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:282
@@ -1638,7 +1661,7 @@ msgstr "API Tokens"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "Τα API tokens επιτρέπουν σε εξωτερικές εφαρμογές πρόσβαση στο API εκ μέρους σου. Χρησιμοποίησε το token στην επικεφαλίδα <0>X-API-Key</0>. Κάθε token έχει όριο 200 αιτημάτων ανά λεπτό."
 
-#: src/components/_layout/LayoutOptions.tsx:262
+#: src/components/_layout/LayoutOptions.tsx:269
 msgid "App pattern"
 msgstr "Μοτίβο εφαρμογής"
 
@@ -1675,11 +1698,11 @@ msgstr "Είσαι σίγουρος ότι θέλεις να απολύσεις 
 msgid "Are you sure you want to kick this member?"
 msgstr "Είσαι σίγουρος ότι θέλεις να διώξεις αυτό το μέλος;"
 
-#: src/pages/country/[countryId]/government.tsx:112
+#: src/pages/country/[countryId]/government.tsx:111
 msgid "Are you sure you want to leave the congress?"
 msgstr "Είσαι σίγουρος ότι θέλεις να αποχωρήσεις από το Κοινοβούλιο;"
 
-#: src/pages/country/[countryId]/government.tsx:96
+#: src/pages/country/[countryId]/government.tsx:95
 msgid "Are you sure you want to leave the government?"
 msgstr "Είσαι σίγουρος ότι θέλεις να αποχωρήσεις από την κυβέρνηση;"
 
@@ -1699,8 +1722,8 @@ msgstr "Είσαι σίγουρος ότι θέλεις να αφαιρέσει�
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Είσαι σίγουρος ότι θέλεις να αφαιρέσεις όλες τις εντολές πώλησης;"
 
-#: src/pages/country/[countryId]/government.tsx:165
-msgid "Are you sure you want to remove this announcement?"
+#: src/components/_social/announcement/Announcement.tsx:133
+msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:105
@@ -1729,7 +1752,7 @@ msgstr "Πανοπλία"
 msgid "Article ID"
 msgstr "ID Άρθρου"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1978
+#: src/components/_user/notification/notification.frontConfig.tsx:1992
 msgid "Article liked"
 msgstr "Άρθρο αρέσει"
 
@@ -1737,13 +1760,13 @@ msgstr "Άρθρο αρέσει"
 msgid "Article Tip"
 msgstr "Φιλοδώρημα Άρθρου"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1980
-#: src/components/_user/notification/notification.frontConfig.tsx:1981
+#: src/components/_user/notification/notification.frontConfig.tsx:1994
+#: src/components/_user/notification/notification.frontConfig.tsx:1995
 msgid "Article tipped"
 msgstr "Φιλοδώρημα στο άρθρο"
 
 #: src/components/_user/user/UserHeader.tsx:214
-#: src/pages/user/[userId]/index.tsx:208
+#: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Άρθρα"
 
@@ -1815,11 +1838,15 @@ msgstr ""
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Στο τέλος του χρονοδιακόπτη <0>{actualTickPoints}</0> θα αποδοθούν στην πλευρά με τις περισσότερες ζημιές."
 
-#: src/components/_military/hit/HitButton.tsx:467
+#: src/components/_military/hit/HitButton.tsx:468
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
 msgstr "Επίθεση"
+
+#: src/components/_user/user/MilitaryRank.tsx:111
+msgid "Attack bonus:"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -1834,7 +1861,7 @@ msgstr "Επιτιθέμενοι"
 msgid "Auction Duration (minutes)"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2101
+#: src/components/_user/notification/notification.frontConfig.tsx:2115
 msgid "Auction Outbid"
 msgstr ""
 
@@ -1842,13 +1869,13 @@ msgstr ""
 msgid "Auction Won"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:305
+#: src/components/_military/battle/BattleHeader.tsx:301
 #: src/components/_military/battle/BattlesHeader.tsx:39
 #: src/components/_military/battle/BattleSideContractsModal.tsx:37
 msgid "Auctions"
 msgstr ""
 
-#: src/components/_user/auth/ConnectFromModal.tsx:141
+#: src/components/_user/auth/ConnectFromModal.tsx:152
 msgid "Authentication failed. Please try again."
 msgstr ""
 
@@ -1856,7 +1883,7 @@ msgstr ""
 msgid "Auto approval"
 msgstr "Αυτόματη έγκριση"
 
-#: src/components/_layout/LayoutOptions.tsx:195
+#: src/components/_layout/LayoutOptions.tsx:202
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
@@ -1891,7 +1918,7 @@ msgstr ""
 msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:170
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:176
 msgid "Baby Boomer"
 msgstr "Baby Boomer"
 
@@ -1899,12 +1926,12 @@ msgstr "Baby Boomer"
 msgid "Badge won"
 msgstr "Κέρδισες σήμα"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1929
+#: src/components/_user/notification/notification.frontConfig.tsx:1943
 msgid "Badge Won"
 msgstr "Κέρδιδες Σήμα"
 
 #: src/pages/country/[countryId]/index.tsx:260
-#: src/pages/user/[userId]/index.tsx:135
+#: src/pages/user/[userId]/index.tsx:143
 msgid "Badges"
 msgstr "Σήματα"
 
@@ -1928,15 +1955,15 @@ msgstr "Χρεοκοπία"
 msgid "Banned"
 msgstr "Αποκλεισμένος"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1945
+#: src/components/_user/notification/notification.frontConfig.tsx:1959
 msgid "Banner Accepted!"
 msgstr "Το Banner έγινε αποδεκτό!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1942
+#: src/components/_user/notification/notification.frontConfig.tsx:1956
 msgid "Banner gift received"
 msgstr "Λήψη δώρου banner"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1940
+#: src/components/_user/notification/notification.frontConfig.tsx:1954
 msgid "Banner gift sent"
 msgstr "Αποστολή δώρου banner"
 
@@ -1984,11 +2011,11 @@ msgid "Battle damage bonus"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:65
-#: src/components/_user/notification/notification.frontConfig.tsx:2026
+#: src/components/_user/notification/notification.frontConfig.tsx:2040
 msgid "Battle ended"
 msgstr "Η μάχη τέλειωσε"
 
-#: src/components/_military/battle/BattleName.tsx:147
+#: src/components/_military/battle/BattleName.tsx:150
 msgid "Battle for {regionName} {score}"
 msgstr ""
 
@@ -2008,7 +2035,11 @@ msgstr ""
 msgid "Battle opened"
 msgstr "Η μάχη άνοιξε"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:103
+#: src/pages/country/[countryId]/government.tsx:137
+msgid "Battle orders"
+msgstr ""
+
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
 msgstr "Διαταγές μάχης"
 
@@ -2039,11 +2070,11 @@ msgstr ""
 msgid "Battles"
 msgstr "Μάχες"
 
-#: src/components/_layout/LayoutOptions.tsx:120
+#: src/components/_layout/LayoutOptions.tsx:122
 msgid "Battles on layout"
 msgstr "Μάχες στη διάταξη"
 
-#: src/components/_layout/LayoutOptions.tsx:115
+#: src/components/_layout/LayoutOptions.tsx:117
 msgid "Battles on map"
 msgstr "Μάχες στο χάρτη"
 
@@ -2060,7 +2091,7 @@ msgstr "Μάχες που Κερδήθηκαν"
 msgid "Become a Candidate"
 msgstr "Γίνε Υποψήφιος"
 
-#: src/components/_layout/LayoutOptions.tsx:215
+#: src/components/_layout/LayoutOptions.tsx:222
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr ""
@@ -2085,7 +2116,7 @@ msgstr "Μπλοκάρισμα (απόκρυψη περιεχομένου)"
 msgid "Blue Staff"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:156
+#: src/components/_layout/LayoutOptions.tsx:158
 msgid "Blur"
 msgstr ""
 
@@ -2102,12 +2133,12 @@ msgstr "Μπόνους ζημιές"
 msgid "Boost your production!"
 msgstr "Ενίσχυσε την παραγωγή σου!"
 
-#: src/components/_user/UserEquipments.tsx:215
+#: src/components/_user/UserEquipments.tsx:219
 #: src/utils/translations.tsx:202
 msgid "Boots"
 msgstr "Μπότες"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:103
+#: src/components/_military/battle/LootSummaryCard.tsx:116
 msgid "Bounty"
 msgstr ""
 
@@ -2149,19 +2180,19 @@ msgstr "Περιήγηση Πακέτων"
 msgid "Budget"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2106
+#: src/components/_user/notification/notification.frontConfig.tsx:2120
 msgid "Buff ended"
 msgstr "Το Buff τέλειωσε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2104
+#: src/components/_user/notification/notification.frontConfig.tsx:2118
 msgid "Buff expiring soon"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2102
+#: src/components/_user/notification/notification.frontConfig.tsx:2116
 msgid "Buff started"
 msgstr "Το Buff ξεκίνησε"
 
-#: src/components/_user/user/SkillValue.tsx:168
+#: src/components/_user/user/SkillValue.tsx:198
 msgid "Buffs:"
 msgstr "Buffs:"
 
@@ -2169,7 +2200,7 @@ msgstr "Buffs:"
 msgid "Bug finder"
 msgstr "Εντοπιστής σφαλμάτων"
 
-#: src/components/_economy/company/CompanyList.tsx:153
+#: src/components/_economy/company/CompanyList.tsx:175
 msgid "Build a company"
 msgstr "Χτίσε μια εταιρεία"
 
@@ -2208,7 +2239,7 @@ msgstr "Αγορά Αντικειμένων"
 msgid "Buy orders"
 msgstr "Εντολές αγοράς"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:359
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Συνεχίζοντας, αποδέχεσαι τους <0>Όρους Χρήσης</0>."
 
@@ -2233,6 +2264,7 @@ msgstr "Δόκιμος"
 msgid "Campaign Article Link (optional)"
 msgstr "Σύνδεσμος Άρθρου Καμπάνιας (προαιρετικό)"
 
+#: src/components/_military/order/BattleOrderList.tsx:207
 #: src/components/_political/election/CandidateFormModal.tsx:83
 msgid "Cancel"
 msgstr "Ακύρωση"
@@ -2297,19 +2329,19 @@ msgstr "Δεν μπορεί να επιλεγεί αγαθό εξειδίκευ�
 msgid "Captain"
 msgstr "Λοχαγός"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:262
+#: src/components/_user/auth/ConnectFromModal.tsx:281
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "Το CAPTCHA έληξε. Παρακαλώ δοκίμασε ξανά."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:276
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "Αποτυχία CAPTCHA. Επαναφορά..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:266
+#: src/components/_user/auth/ConnectFromModal.tsx:286
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "Το CAPTCHA εξέπνευσε. Επαναφορά..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:76
+#: src/components/_user/auth/ConnectFromModal.tsx:89
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "Η επαλήθευση CAPTCHA εξέπνευσε. Επαναφορά..."
 
@@ -2369,7 +2401,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr "Αλλαγή παραγόμενου αντικειμένου"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:201
+#: src/components/_economy/company/CompanyDropdown.tsx:202
 msgid "Change production"
 msgstr "Αλλαγή παραγωγής"
 
@@ -2410,7 +2442,7 @@ msgstr "Αλλαγή φόρου {0} σε"
 msgid "Check your loot!"
 msgstr "Έλεγξε τη λεία σου!"
 
-#: src/components/_user/UserEquipments.tsx:181
+#: src/components/_user/UserEquipments.tsx:185
 #: src/utils/translations.tsx:193
 msgid "Chest"
 msgstr "Θώρακας"
@@ -2534,7 +2566,7 @@ msgstr "Συνταγματάρχης"
 msgid "Color scheme"
 msgstr "Χρωματική παλέτα"
 
-#: src/components/_layout/LayoutOptions.tsx:172
+#: src/components/_layout/LayoutOptions.tsx:174
 msgid "Colorblind mode"
 msgstr ""
 
@@ -2543,8 +2575,8 @@ msgstr ""
 msgid "Commander"
 msgstr "Διοικητής"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1948
-#: src/components/_user/notification/notification.frontConfig.tsx:1961
+#: src/components/_user/notification/notification.frontConfig.tsx:1962
+#: src/components/_user/notification/notification.frontConfig.tsx:1975
 msgid "Commission earned"
 msgstr "Προμήθεια κερδήθηκε"
 
@@ -2552,7 +2584,7 @@ msgstr "Προμήθεια κερδήθηκε"
 msgid "Commodore"
 msgstr "Πλοίαρχος"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:141
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:147
 msgid "Community"
 msgstr "Κοινότητα"
 
@@ -2569,11 +2601,11 @@ msgstr "Εταιρείες"
 msgid "Companies limit"
 msgstr "Όριο εταιρειών"
 
-#: src/components/_economy/company/CompanyList.tsx:75
+#: src/components/_economy/company/CompanyList.tsx:91
 msgid "Companies limit reached"
 msgstr "Το όριο εταιρειών επετεύχθη"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:98
+#: src/components/_economy/company/CompanyDropdown.tsx:99
 msgid "Company destroyed!"
 msgstr "Η εταιρεία καταστράφηκε!"
 
@@ -2581,11 +2613,11 @@ msgstr "Η εταιρεία καταστράφηκε!"
 msgid "Company disabled"
 msgstr "Εταιρεία απενεργοποιήθηκε"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:125
+#: src/components/_economy/company/CompanyDropdown.tsx:126
 msgid "Company disabled!"
 msgstr "Η εταιρεία απενεργοποιήθηκε!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:124
+#: src/components/_economy/company/CompanyDropdown.tsx:125
 msgid "Company enabled!"
 msgstr "Η εταιρεία ενεργοποιήθηκε!"
 
@@ -2601,7 +2633,7 @@ msgstr "Αποθήκη παραγωγής εταιρείας"
 msgid "Company renamed!"
 msgstr "Η εταιρεία μετονομάστηκε!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:148
+#: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company upgraded!"
 msgstr ""
 
@@ -2623,43 +2655,43 @@ msgid "Congrats"
 msgstr "Συγχαρητήρια"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:396
+#: src/components/_user/notification/notification.frontConfig.tsx:397
 msgid "Congratulations, you leveled up to level {0}!"
 msgstr "Συγχαρητήρια, ανέβηκες στο επίπεδο {0}!"
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:200
+#: src/components/_user/notification/notification.frontConfig.tsx:201
 msgid "Congratulations! You have been elected as the new congress member of {0}"
 msgstr "Συγχαρητήρια! Εκλέχτηκες ως νέο μέλος Κοινοβουλίου του {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:304
+#: src/components/_user/notification/notification.frontConfig.tsx:305
 msgid "Congratulations! You have been elected as the new leader of <0/>"
 msgstr "Συγχαρητήρια! Εκλέχτηκες ως νέος αρχηγός του <0/>"
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:195
+#: src/components/_user/notification/notification.frontConfig.tsx:196
 msgid "Congratulations! You have been elected as the new president of {0}"
 msgstr "Συγχαρητήρια! Εκλέχτηκες ως νέος πρόεδρος του {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:309
+#: src/components/_user/notification/notification.frontConfig.tsx:310
 msgid "Congratulations! You have been elected to the council of <0/>"
 msgstr "Συγχαρητήρια! Εκλέχτηκες στο συμβούλιο του <0/>"
 
 #. placeholder {0}: militaryRankingConfig[data.rank].percentDamages
-#: src/components/_user/notification/notification.frontConfig.tsx:1244
+#: src/components/_user/notification/notification.frontConfig.tsx:1245
 msgid "Congratulations! You have been promoted to <0/> with an attack bonus of <1>{0}</1>"
 msgstr "Συγχαρητήρια! Προήχθης σε <0/> με μπόνους επίθεσης <1>{0}</1>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1433
+#: src/components/_user/notification/notification.frontConfig.tsx:1434
 msgid "Congratulations! You won the giveaway and received cases!"
 msgstr "Συγχαρητήρια! Κέρδισες το giveaway και έλαβες κουτιά!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:353
-#: src/components/_user/notification/notification.frontConfig.tsx:1080
+#: src/components/_user/notification/notification.frontConfig.tsx:354
+#: src/components/_user/notification/notification.frontConfig.tsx:1081
 msgid "Congratulations! Your application to <0/> has been accepted"
 msgstr "Συγχαρητήρια! Η αίτησή σου στο <0/> έγινε αποδεκτή"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1312
+#: src/components/_user/notification/notification.frontConfig.tsx:1313
 msgid "Congratulations! Your team <0/> won the tournament <1/>!"
 msgstr "Συγχαρητήρια! Η ομάδα σου <0/> κέρδισε το τουρνουά <1/>!"
 
@@ -2667,15 +2699,15 @@ msgstr "Συγχαρητήρια! Η ομάδα σου <0/> κέρδισε το 
 msgid "Congress election"
 msgstr "Εκλογές Κοινοβουλίου"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:140
+#: src/components/_user/notification/notification.frontConfig.tsx:141
 msgid "Congress election candidacy is now open in <0/>"
 msgstr "Η υποψηφιότητα για εκλογές Κοινοβουλίου είναι τώρα ανοιχτή στο <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:180
+#: src/components/_user/notification/notification.frontConfig.tsx:181
 msgid "Congress election has ended in <0/>. Check the results!"
 msgstr "Οι εκλογές Κοινοβουλίου τελείωσαν στο <0/>. Δες τα αποτελέσματα!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:160
+#: src/components/_user/notification/notification.frontConfig.tsx:161
 msgid "Congress election voting is now open in <0/>"
 msgstr "Η ψηφοφορία για εκλογές Κοινοβουλίου είναι τώρα ανοιχτή στο <0/>"
 
@@ -2687,19 +2719,19 @@ msgstr "Εκλογές Κοινοβουλίου"
 msgid "Congress Member"
 msgstr "Μέλος του Κογκρέσου"
 
-#: src/pages/country/[countryId]/government.tsx:75
+#: src/pages/country/[countryId]/government.tsx:72
 msgid "Congress members"
 msgstr "Μέλη Κοινοβουλίου"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:358
 msgid "Connect with Discord"
 msgstr "Σύνδεση με Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:305
+#: src/components/_user/auth/ConnectFromModal.tsx:339
 msgid "Connect with email code"
 msgstr "Σύνδεση με κωδικό email"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:343
+#: src/components/_user/auth/ConnectFromModal.tsx:377
 msgid "Connect with Google"
 msgstr "Σύνδεση με Google"
 
@@ -2729,30 +2761,30 @@ msgstr "Καταναλώνεται κατά τη μάχη"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Η κατανάλωσή του αυξάνει την <0>Επίθεση</0> σου για {0}ω.<1/> Στη συνέχεια μειώνεται κατά το ίδιο ποσό για {1}ω"
 
-#: src/components/_layout/LayoutOptions.tsx:125
+#: src/components/_layout/LayoutOptions.tsx:127
 msgid "Contextual borders"
 msgstr "Περιεκτικά σύνορα"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2093
+#: src/components/_user/notification/notification.frontConfig.tsx:2107
 msgid "Contract cancelled"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2090
+#: src/components/_user/notification/notification.frontConfig.tsx:2104
 msgid "Contract completed"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2096
+#: src/components/_user/notification/notification.frontConfig.tsx:2110
 msgid "Contract expired"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2099
+#: src/components/_user/notification/notification.frontConfig.tsx:2113
 msgid "Contract rolled back"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:312
+#: src/components/_military/battle/BattleHeader.tsx:308
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/battle/LootSummaryCard.tsx:95
+#: src/components/_military/battle/LootSummaryCard.tsx:108
 #: src/components/_political/country/CountryHeader.tsx:135
 msgid "Contracts"
 msgstr ""
@@ -2800,7 +2832,7 @@ msgstr "Κύριες περιοχές"
 msgid "Corporal"
 msgstr "Δεκανέας"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:223
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
 msgid "Council Member"
 msgstr "Μέλος του συμβουλίου"
 
@@ -2848,12 +2880,12 @@ msgstr ""
 msgid "Country Money Transfer"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:62
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:64
 msgid "Country Orders"
 msgstr "Διαταγές Χώρας"
 
 #. placeholder {0}: data.partialPayout
-#: src/components/_user/notification/notification.frontConfig.tsx:1601
+#: src/components/_user/notification/notification.frontConfig.tsx:1602
 msgid "Country paid <0>{0}</0> for damages done."
 msgstr ""
 
@@ -2869,7 +2901,7 @@ msgstr "Μπόνους παραγωγής χώρας"
 msgid "Country to invite"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:181
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:187
 msgid "Country Tournament Winner"
 msgstr "Νικητής τουρνουά χωρών"
 
@@ -2928,7 +2960,7 @@ msgstr ""
 msgid "Create API Token"
 msgstr "Δημιουργία API Token"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:106
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:158
 msgid "Create auction"
 msgstr ""
 
@@ -2978,7 +3010,7 @@ msgstr ""
 msgid "Current development"
 msgstr ""
 
-#: src/pages/user/[userId]/index.tsx:163
+#: src/pages/user/[userId]/index.tsx:179
 msgid "Current Military Unit"
 msgstr "Τρέχουσα Στρατιωτική Μονάδα"
 
@@ -3011,7 +3043,7 @@ msgstr "Ημερήσιο"
 msgid "Daily maintenance"
 msgstr "Ημερήσια συντήρηση"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2121
+#: src/components/_user/notification/notification.frontConfig.tsx:2135
 msgid "Daily Missions Reset"
 msgstr "Επαναφορά Ημερήσιων Αποστολών"
 
@@ -3062,7 +3094,7 @@ msgstr ""
 msgid "Dark Era Pack"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:147
+#: src/components/_layout/LayoutOptions.tsx:149
 msgid "Dark map"
 msgstr "Σκοτεινός χάρτης"
 
@@ -3077,6 +3109,10 @@ msgstr "Κάνε <0>{count}</0> σε μάχες"
 #: src/components/_user/mission/mission.frontConfig.tsx:123
 msgid "Deal <0>{count}</0> on country/mu orders"
 msgstr "Κάνε <0>{count}</0> σε εντολές χώρας/ΣΜ"
+
+#: src/components/_user/user/MilitaryRank.tsx:85
+msgid "Deal <0>damages</0> in battles to climb the ranks!"
+msgstr ""
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
@@ -3118,11 +3154,11 @@ msgstr "Κάνει περισσότερες ζημιές"
 msgid "Deals some damages"
 msgstr "Κάνει κάποιες ζημιές"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2107
+#: src/components/_user/notification/notification.frontConfig.tsx:2121
 msgid "Debuff ended"
 msgstr "Το Debuff τέλειωσε"
 
-#: src/components/_user/user/SkillValue.tsx:200
+#: src/components/_user/user/SkillValue.tsx:230
 msgid "Debuffs:"
 msgstr "Debuffs:"
 
@@ -3153,7 +3189,7 @@ msgstr "Μείωση"
 msgid "Decrease unrest"
 msgstr "Μείωση αναταραχής"
 
-#: src/components/_military/hit/HitButton.tsx:470
+#: src/components/_military/hit/HitButton.tsx:471
 msgid "Defend"
 msgstr "Υπεράσπιση"
 
@@ -3186,7 +3222,7 @@ msgid "Defensive pact signed"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:427
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -3215,7 +3251,7 @@ msgstr "Διαγραφή λογαριασμού"
 msgid "Delete contract"
 msgstr ""
 
-#: src/pages/index.tsx:146
+#: src/pages/index.tsx:79
 #: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Διαγραφή του λογαριασμού σου"
@@ -3228,7 +3264,7 @@ msgstr ""
 msgid "Demote from Commander"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2078
+#: src/components/_user/notification/notification.frontConfig.tsx:2092
 msgid "Demoted from Commander"
 msgstr "Υποβαθμίστηκε από Διοικητής"
 
@@ -3257,7 +3293,7 @@ msgstr "Πόρος κοιτάσματος"
 msgid "Deposit resources"
 msgstr "Πόροι κοιτάσματος"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:86
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:87
 msgid "Deposit will be depleted in"
 msgstr "Το κοίτασμα θα εξαντληθεί σε"
 
@@ -3284,7 +3320,7 @@ msgstr "Η περιγραφή αφαιρέθηκε"
 msgid "Description updated!"
 msgstr "Η περιγραφή ενημερώθηκε!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:311
+#: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "Καταστροφή"
 
@@ -3314,7 +3350,7 @@ msgstr "Διπλωματικός"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:267
+#: src/components/_economy/company/CompanyDropdown.tsx:268
 msgid "Disable company"
 msgstr "Απενεργοποίηση εταιρείας"
 
@@ -3409,12 +3445,24 @@ msgstr "Δωρεές"
 msgid "Dormitories"
 msgstr "Κοιτώνες"
 
+#: src/components/_military/order/BattleOrderList.tsx:225
+msgid "Drag the new order to choose its number."
+msgstr ""
+
+#: src/components/_military/order/BattleOrderList.tsx:227
+msgid "Drag the orders to change their priority number."
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
 msgstr "Δράκος"
 
 #: src/components/_common/GameRules.tsx:218
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
+msgstr ""
+
+#: src/components/_user/user/SkillUpgrade.tsx:293
+msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:141
@@ -3450,8 +3498,12 @@ msgstr "Οικονομικοί νόμοι"
 msgid "Economic skills"
 msgstr "Οικονομικές ικανότητες"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:154
+#: src/components/_user/notification/notificationPrefs.categories.ts:155
 msgid "Economy & Companies"
+msgstr ""
+
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
+msgid "Edit country order"
 msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:231
@@ -3462,23 +3514,35 @@ msgstr "Επεξεργασία περιγραφής"
 msgid "Edit Description"
 msgstr "Επεξεργασία Περιγραφής"
 
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
+msgid "Edit MU order"
+msgstr ""
+
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "Επεξεργασία εργαζόμενου"
 
-#: src/components/_user/user/SkillValue.tsx:230
+#: src/components/_military/battle/SetOrderFormModal.tsx:494
+msgid "Editing an existing order"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:492
+msgid "Editing another order"
+msgstr ""
+
+#: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
 msgstr "Αποτελεσματικό:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1985
+#: src/components/_user/notification/notification.frontConfig.tsx:1999
 msgid "Election candidacy open"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1990
+#: src/components/_user/notification/notification.frontConfig.tsx:2004
 msgid "Election ended"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1988
+#: src/components/_user/notification/notification.frontConfig.tsx:2002
 msgid "Election vote open"
 msgstr ""
 
@@ -3525,7 +3589,7 @@ msgstr "Παραγωγή Εργαζομένου"
 msgid "Empty"
 msgstr "Κενό"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:257
+#: src/components/_economy/company/CompanyDropdown.tsx:258
 msgid "Enable company"
 msgstr "Ενεργοποίηση εταιρείας"
 
@@ -3579,8 +3643,8 @@ msgstr "Σημαιοφόρος"
 msgid "Enter article ID"
 msgstr "Εισήγαγε το ID του άρθρου"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:163
-#: src/components/_user/auth/ConnectFromModal.tsx:168
+#: src/components/_user/auth/ConnectFromModal.tsx:174
+#: src/components/_user/auth/ConnectFromModal.tsx:179
 msgid "Enter the code we sent to your email."
 msgstr "Εισήγαγε τον κωδικό που στείλαμε στο email σου."
 
@@ -3590,15 +3654,15 @@ msgid "Entrepreneurship"
 msgstr "Επιχειρηματικότητα"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:192
+#: src/components/_layout/LayoutOptions.tsx:199
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
-#: src/pages/user/[userId]/index.tsx:92
+#: src/pages/user/[userId]/index.tsx:100
 #: src/pages/user/[userId]/inventory.tsx:62
 msgid "Equipment"
 msgstr "Εξοπλισμός"
 
-#: src/components/_user/user/SkillValue.tsx:73
+#: src/components/_user/user/SkillValue.tsx:103
 msgid "Equipment:"
 msgstr "Εξοπλισμός:"
 
@@ -3641,6 +3705,10 @@ msgstr "Πόντοι Ηθικής:"
 msgid "Events"
 msgstr "Εκδηλώσεις"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr ""
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Όλοι συμμετέχουν αυτόματα"
@@ -3648,6 +3716,12 @@ msgstr "Όλοι συμμετέχουν αυτόματα"
 #: src/components/_political/party/party.frontConfig.tsx:91
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
+msgstr ""
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:59
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:63
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:95
+msgid "Expected loot"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
@@ -3668,11 +3742,12 @@ msgstr ""
 msgid "Expired: round ended"
 msgstr ""
 
+#: src/components/_social/announcement/Announcement.tsx:68
 #: src/pages/region/[regionId]/index.tsx:79
 msgid "Expires in"
 msgstr "Λήγει σε"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:217
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:223
 msgid "Exploit Finder"
 msgstr "Ανιχνευτής exploits"
 
@@ -3697,19 +3772,19 @@ msgstr "Αποτυχία αντιγραφής"
 msgid "Failed to copy text: "
 msgstr "Αποτυχία αντιγραφής κειμένου: "
 
-#: src/components/_user/auth/ConnectFromModal.tsx:106
+#: src/components/_user/auth/ConnectFromModal.tsx:117
 msgid "Failed to start Discord login."
 msgstr "Αποτυχία εκκίνησης σύνδεσης Discord."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:104
+#: src/components/_user/auth/ConnectFromModal.tsx:115
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "Αποτυχία εκκίνησης σύνδεσης Discord. Παρακαλώ δοκιμάστε ξανά το CAPTCHA."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:126
+#: src/components/_user/auth/ConnectFromModal.tsx:137
 msgid "Failed to start Google login."
 msgstr "Αποτυχία εκκίνησης σύνδεσης Google."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:124
+#: src/components/_user/auth/ConnectFromModal.tsx:135
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "Αποτυχία εκκίνησης σύνδεσης Google. Παρακαλώ δοκιμάστε ξανά το CAPTCHA."
 
@@ -3918,7 +3993,7 @@ msgstr "Απόλυση μέλους κυβέρνησης"
 msgid "Fire worker?"
 msgstr "Απόλυση εργαζόμενου;"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1997
+#: src/components/_user/notification/notification.frontConfig.tsx:2011
 msgid "Fired from government"
 msgstr "Απολύθηκε από κυβέρνηση"
 
@@ -3926,7 +4001,7 @@ msgstr "Απολύθηκε από κυβέρνηση"
 msgid "Fish"
 msgstr "Ψάρι"
 
-#: src/components/_layout/LayoutOptions.tsx:137
+#: src/components/_layout/LayoutOptions.tsx:139
 msgid "Flags"
 msgstr "Σημαίες"
 
@@ -3934,11 +4009,11 @@ msgstr "Σημαίες"
 msgid "Flail"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:232
+#: src/components/_layout/LayoutOptions.tsx:239
 msgid "Font"
 msgstr "Γραμματοσειρά"
 
-#: src/components/_layout/LayoutOptions.tsx:244
+#: src/components/_layout/LayoutOptions.tsx:251
 msgid "Font size"
 msgstr "Μέγεθος γραμματοσειράς"
 
@@ -3987,7 +4062,7 @@ msgstr ""
 msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:91
+#: src/components/_user/user/Level.tsx:97
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "Κέρδισε <0>Xp</0> ολοκληρώνοντας τις αποστολές σου!"
 
@@ -4060,11 +4135,11 @@ msgstr "Μεταβίβασε την ιδιοκτησία"
 msgid "Give your token a descriptive name so you can identify it later."
 msgstr "Δώσε στο token σου ένα περιγραφικό όνομα για να το αναγνωρίζεις αργότερα."
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:193
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:199
 msgid "Giveaway Winner"
 msgstr "Νικητής του Giveaway"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2119
+#: src/components/_user/notification/notification.frontConfig.tsx:2133
 msgid "Giveaway Won!"
 msgstr "Κερδήθηκε το Giveaway!"
 
@@ -4073,11 +4148,11 @@ msgstr "Κερδήθηκε το Giveaway!"
 msgid "Gives <0>{0}</0>"
 msgstr "Δίνει <0>{0}</0>"
 
-#: src/components/_layout/LayoutOptions.tsx:103
+#: src/components/_layout/LayoutOptions.tsx:105
 msgid "Globe (experimental)"
 msgstr "Σφαίρα (πειραματικό)"
 
-#: src/components/_user/UserEquipments.tsx:232
+#: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:211
 msgid "Gloves"
 msgstr "Γάντια"
@@ -4090,7 +4165,7 @@ msgstr "Πήγαινε να παίξεις λοταρία τώρα"
 msgid "Go to job market"
 msgstr "Πήγαινε στην αγορά εργασίας"
 
-#: src/components/_economy/company/CompanyList.tsx:89
+#: src/components/_economy/company/CompanyList.tsx:105
 msgid "Go to skills"
 msgstr "Πήγαινε στις ικανότητες"
 
@@ -4103,11 +4178,11 @@ msgstr "Χρυσός"
 msgid "Government"
 msgstr "Κυβέρνηση"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/components/_social/announcement/AnnouncementModal.tsx:46
 msgid "Government announcement"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:240
 msgid "Government Member"
 msgstr ""
 
@@ -4123,7 +4198,7 @@ msgstr ""
 msgid "Grain"
 msgstr "Σιτηρά"
 
-#: src/components/_layout/LayoutOptions.tsx:110
+#: src/components/_layout/LayoutOptions.tsx:112
 msgid "Graticule"
 msgstr "Πλέγμα"
 
@@ -4288,7 +4363,7 @@ msgstr "Υγεία"
 msgid "Heavy Ammo"
 msgstr "Βαριά Πυρομαχικά"
 
-#: src/components/_user/UserEquipments.tsx:166
+#: src/components/_user/UserEquipments.tsx:170
 #: src/utils/translations.tsx:184
 msgid "Helmet"
 msgstr "Κράνος"
@@ -4417,6 +4492,11 @@ msgstr "Ιμπεριαλιστής"
 msgid "Impressive"
 msgstr "Εντυπωσιακό"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:86
+msgid "in {0} battles"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Ανενεργό"
@@ -4449,7 +4529,7 @@ msgid "Income tax"
 msgstr "Φόρος εισοδήματος"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:150
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "Income Tax"
 msgstr "Φόρος Εισοδήματος"
 
@@ -4487,7 +4567,7 @@ msgstr ""
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
 #: src/pages/user/[userId]/companies.tsx:46
-#: src/pages/user/[userId]/index.tsx:201
+#: src/pages/user/[userId]/index.tsx:217
 #: src/pages/user/[userId]/inventory.tsx:31
 msgid "Inventory"
 msgstr "Απόθεμα"
@@ -4538,7 +4618,7 @@ msgstr "Γίνεται μόνο καλύτερο… ίσως"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Δεν θα κερδίζει καμία παραγωγή και οι εργαζόμενοί του δεν θα μπορούν να δουλέψουν."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1970
+#: src/components/_user/notification/notification.frontConfig.tsx:1984
 msgid "Item bought"
 msgstr "Αντικείμενο αγοράστηκε"
 
@@ -4559,7 +4639,7 @@ msgstr ""
 msgid "Job"
 msgstr "Δουλειά"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:280
+#: src/components/_economy/company/CompanyDropdown.tsx:281
 #: src/components/_economy/workOffer/WageInfoAlert.tsx:42
 msgid "Job market"
 msgstr "Αγορά εργασίας"
@@ -4592,6 +4672,10 @@ msgstr ""
 #: src/components/_user/mission/mission.frontConfig.tsx:378
 msgid "Join MU"
 msgstr "Ένταξη ΣΜ"
+
+#: src/pages/index.tsx:139
+msgid "Join the world"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
@@ -4662,7 +4746,7 @@ msgstr ""
 msgid "Knife"
 msgstr "Μαχαίρι"
 
-#: src/components/_user/UserEquipments.tsx:154
+#: src/components/_user/UserEquipments.tsx:158
 msgid "Knives do not accept ammo"
 msgstr "Τα μαχαίρια δεν δέχονται πυρομαχικά"
 
@@ -4670,7 +4754,7 @@ msgstr "Τα μαχαίρια δεν δέχονται πυρομαχικά"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Πέτυχε <0>{count}</0> κρίσιμα χτυπήματα"
 
-#: src/components/_layout/LayoutOptions.tsx:185
+#: src/components/_layout/LayoutOptions.tsx:192
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Γλώσσα"
@@ -4687,9 +4771,9 @@ msgstr ""
 msgid "Last gifts"
 msgstr "Τελευταία δώρα"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:308
-#: src/components/_user/auth/ConnectFromModal.tsx:327
-#: src/components/_user/auth/ConnectFromModal.tsx:346
+#: src/components/_user/auth/ConnectFromModal.tsx:342
+#: src/components/_user/auth/ConnectFromModal.tsx:361
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Last used"
 msgstr "Τελευταία χρήση"
 
@@ -4723,7 +4807,7 @@ msgid "Law failed"
 msgstr "Ο νόμος απέτυχε"
 
 #: src/components/_political/law/LawFormModal.tsx:76
-#: src/components/_user/notification/notification.frontConfig.tsx:1983
+#: src/components/_user/notification/notification.frontConfig.tsx:1997
 msgid "Law proposed"
 msgstr "Νόμος προτάθηκε"
 
@@ -4742,7 +4826,7 @@ msgstr "Μόλυβδος"
 msgid "Leather Sling"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:299
+#: src/components/_economy/company/CompanyDropdown.tsx:300
 msgid "Leave"
 msgstr "Αποχώρηση"
 
@@ -4763,13 +4847,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Αποχώρηση από εταιρεία;"
 
-#: src/pages/country/[countryId]/government.tsx:111
-#: src/pages/country/[countryId]/government.tsx:116
+#: src/pages/country/[countryId]/government.tsx:110
+#: src/pages/country/[countryId]/government.tsx:115
 msgid "Leave congress"
 msgstr "Αποχώρηση από Κοινοβούλιο"
 
-#: src/pages/country/[countryId]/government.tsx:95
-#: src/pages/country/[countryId]/government.tsx:100
+#: src/pages/country/[countryId]/government.tsx:94
+#: src/pages/country/[countryId]/government.tsx:99
 msgid "Leave government"
 msgstr "Αποχώρηση από κυβέρνηση"
 
@@ -4819,7 +4903,7 @@ msgstr ""
 msgid "Level up your skills!"
 msgstr "Αναβάθμισε τις ικανότητές σου!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1930
+#: src/components/_user/notification/notification.frontConfig.tsx:1944
 msgid "Level up!"
 msgstr "Ανέβηκες επίπεδο!"
 
@@ -4873,11 +4957,15 @@ msgstr "Ασβεστόλιθος"
 msgid "Limit of food consumption"
 msgstr "Όριο κατανάλωσης τροφίμων"
 
-#: src/components/_user/user/SkillValue.tsx:88
+#: src/components/_economy/company/CompanyList.tsx:178
+msgid "Limit reached"
+msgstr ""
+
+#: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:274
+#: src/components/_layout/LayoutOptions.tsx:281
 msgid "Line"
 msgstr "Γραμμή"
 
@@ -4890,6 +4978,8 @@ msgid "Livestock"
 msgstr "Κτηνοτροφία"
 
 #: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: src/components/_social/announcement/AnnouncementComments.tsx:43
+#: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
 msgstr "Φόρτωση περισσότερων"
 
@@ -4913,6 +5003,10 @@ msgstr "Φόρτωση..."
 msgid "Location"
 msgstr "Τοποθεσία"
 
+#: src/components/_user/user/SkillUpgrade.tsx:289
+msgid "Locked, reset your skills to reassign"
+msgstr ""
+
 #: src/components/_user/user/MyAvatar.tsx:60
 msgid "Logout"
 msgstr "Αποσύνδεση"
@@ -4934,7 +5028,7 @@ msgstr "Κουτιά Λείας"
 msgid "Loot chance"
 msgstr "Πιθανότητα λείας"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2046
+#: src/components/_user/notification/notification.frontConfig.tsx:2060
 msgid "Loot reward"
 msgstr ""
 
@@ -4988,7 +5082,7 @@ msgid "map"
 msgstr "χάρτης"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:108
-#: src/components/_layout/LayoutOptions.tsx:100
+#: src/components/_layout/LayoutOptions.tsx:102
 msgid "Map"
 msgstr ""
 
@@ -4997,7 +5091,7 @@ msgstr ""
 msgid "Map Accent"
 msgstr "Τόνος Χάρτη"
 
-#: src/components/_layout/LayoutOptions.tsx:142
+#: src/components/_layout/LayoutOptions.tsx:144
 msgid "Map icons"
 msgstr ""
 
@@ -5022,8 +5116,8 @@ msgstr "Στρατάρχης"
 msgid "Max level reached!"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:221
-#: src/components/_economy/company/CompanyDropdown.tsx:239
+#: src/components/_economy/company/CompanyDropdown.tsx:222
+#: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr ""
 
@@ -5037,6 +5131,10 @@ msgstr "Μέγιστο <0>{0}</0> μέλη."
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:122
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Μέγιστο <0>{0}</0> εργαζόμενοι.{1}"
+
+#: src/components/_user/user/MilitaryRank.tsx:93
+msgid "Maximum rank achieved!"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
@@ -5132,7 +5230,7 @@ msgstr "Μέλη"
 msgid "Membership suspended"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2114
+#: src/components/_user/notification/notification.frontConfig.tsx:2128
 msgid "Mentioned in message"
 msgstr "Αναφέρθηκε σε μήνυμα"
 
@@ -5151,7 +5249,7 @@ msgstr ""
 msgid "Mercenary contracts are currently disabled."
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:89
+#: src/components/_military/battle/LootSummaryCard.tsx:102
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -5163,11 +5261,11 @@ msgstr ""
 msgid "Message (Optional)"
 msgstr "Μήνυμα (Προαιρετικό)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2112
+#: src/components/_user/notification/notification.frontConfig.tsx:2126
 msgid "Message liked"
 msgstr "Μήνυμα αρέσει"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:158
+#: src/components/_user/notification/notificationPrefs.categories.ts:159
 msgid "Military & Battles"
 msgstr ""
 
@@ -5186,15 +5284,15 @@ msgstr ""
 msgid "Military laws"
 msgstr "Στρατιωτικοί νόμοι"
 
-#: src/pages/user/[userId]/index.tsx:142
+#: src/pages/user/[userId]/index.tsx:150
 msgid "Military Rank"
 msgstr "Στρατιωτικός Βαθμός"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2025
+#: src/components/_user/notification/notification.frontConfig.tsx:2039
 msgid "Military Rank Up!"
 msgstr "Ανέβηκες Στρατιωτικό Βαθμό!"
 
-#: src/components/_user/user/SkillValue.tsx:184
+#: src/components/_user/user/SkillValue.tsx:214
 msgid "Military rank:"
 msgstr "Στρατιωτικός βαθμός:"
 
@@ -5203,9 +5301,13 @@ msgid "Military Ranks"
 msgstr "Στρατιωτικοί Βαθμοί"
 
 #: src/components/_layout/MoreButtonNav.tsx:152
-#: src/components/_user/notification/notificationPrefs.categories.ts:159
+#: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Military Unit"
 msgstr "Στρατιωτική Μονάδα"
+
+#: src/components/_social/announcement/AnnouncementModal.tsx:49
+msgid "Military unit announcement"
+msgstr ""
 
 #: src/components/_military/mu/MuFormModal.tsx:46
 msgid "Military unit created"
@@ -5242,7 +5344,7 @@ msgstr "Υπουργός Οικονομίας"
 msgid "Minister of Foreign Affairs"
 msgstr "Υπουργός Εξωτερικών"
 
-#: src/components/_layout/LayoutOptions.tsx:180
+#: src/components/_layout/LayoutOptions.tsx:182
 msgid "Mission tags"
 msgstr ""
 
@@ -5318,7 +5420,7 @@ msgstr "Προτάσεις"
 msgid "Move a company to another region"
 msgstr "Μετακίνηση εταιρείας σε άλλη περιοχή"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:186
+#: src/components/_economy/company/CompanyDropdown.tsx:187
 #: src/components/_economy/company/MoveCompanyForm.tsx:67
 msgid "Move company"
 msgstr "Μετακίνηση εταιρείας"
@@ -5331,11 +5433,11 @@ msgstr "Μετακίνηση Εταιρείας"
 msgid "Move the company"
 msgstr "Μετακίνηση της εταιρείας"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:248
+#: src/components/_economy/company/CompanyDropdown.tsx:249
 msgid "Move to top"
 msgstr "Μετακίνηση στην κορυφή"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1966
+#: src/components/_user/notification/notification.frontConfig.tsx:1980
 msgid "Moved to a new company"
 msgstr "Μετακινήθηκε σε νέα εταιρεία"
 
@@ -5344,19 +5446,19 @@ msgstr "Μετακινήθηκε σε νέα εταιρεία"
 msgid "MU"
 msgstr "ΣΜ"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2065
+#: src/components/_user/notification/notification.frontConfig.tsx:2079
 msgid "MU Application Accepted"
 msgstr "Αίτηση ΣΜ Έγινε Αποδεκτή"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2062
+#: src/components/_user/notification/notification.frontConfig.tsx:2076
 msgid "MU Application Rejected"
 msgstr "Αίτηση ΣΜ Απορρίφθηκε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2084
+#: src/components/_user/notification/notification.frontConfig.tsx:2098
 msgid "MU Donation Received"
 msgstr "Λήψη Δωρεάς ΣΜ"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2070
+#: src/components/_user/notification/notification.frontConfig.tsx:2084
 msgid "MU Level Up!"
 msgstr ""
 
@@ -5364,11 +5466,11 @@ msgstr ""
 msgid "MU Monthly Levels"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:72
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:74
 msgid "MU Orders"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2081
+#: src/components/_user/notification/notification.frontConfig.tsx:2095
 msgid "MU Ownership Transferred"
 msgstr "Ιδιοκτησία ΣΜ Μεταφέρθηκε"
 
@@ -5377,11 +5479,11 @@ msgstr "Ιδιοκτησία ΣΜ Μεταφέρθηκε"
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:187
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:193
 msgid "MU Tournament Winner"
 msgstr "Νικητής τουρνουά ΣΜ"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:122
+#: src/components/_military/battle/LootSummaryCard.tsx:135
 msgid "My battle loot"
 msgstr ""
 
@@ -5425,6 +5527,10 @@ msgstr "Mythic?! Ο λογαριασμός σου είναι ευλογημέν�
 #: src/components/_political/party/PartyFormModal.tsx:99
 msgid "Name"
 msgstr "Όνομα"
+
+#: src/components/_user/auth/CountryWelcomeArticle.tsx:50
+msgid "National article of<0/>"
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
@@ -5480,15 +5586,15 @@ msgstr ""
 msgid "New API Token Created"
 msgstr "Νέο API Token Δημιουργήθηκε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1977
+#: src/components/_user/notification/notification.frontConfig.tsx:1991
 msgid "New article"
 msgstr "Νέο άρθρο"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1979
+#: src/components/_user/notification/notification.frontConfig.tsx:1993
 msgid "New comment"
 msgstr "Νέο σχόλιο"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2087
+#: src/components/_user/notification/notification.frontConfig.tsx:2101
 msgid "New contract accepted"
 msgstr ""
 
@@ -5500,7 +5606,7 @@ msgstr "Νέα διαμόρφωση ηθικής"
 msgid "New item offer"
 msgstr "Νέα προσφορά αντικειμένου"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:193
+#: src/components/_economy/company/CompanyDropdown.tsx:194
 #: src/components/_economy/workOffer/WorkOfferList.tsx:172
 #: src/pages/company/[companyId]/index.tsx:67
 msgid "New job offer"
@@ -5518,7 +5624,7 @@ msgstr "Νέα τοποθεσία"
 msgid "New Mercenary Auction"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2108
+#: src/components/_user/notification/notification.frontConfig.tsx:2122
 msgid "New message"
 msgstr ""
 
@@ -5526,7 +5632,7 @@ msgstr ""
 msgid "New military unit"
 msgstr "Νέα στρατιωτική μονάδα"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2068
+#: src/components/_user/notification/notification.frontConfig.tsx:2082
 msgid "New MU Application"
 msgstr "Νέα Αίτηση ΣΜ"
 
@@ -5538,28 +5644,32 @@ msgstr "Νέο όνομα"
 msgid "New nationality"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2020
+#: src/components/_military/order/OrderBattleItem.tsx:96
+msgid "New order"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
 msgstr "Νέα Αίτηση Κόμματος"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2009
+#: src/components/_user/notification/notification.frontConfig.tsx:2023
 msgid "New Party Leader"
 msgstr "Νέος Αρχηγός Κόμματος"
 
 #: src/components/_political/event/EventList.tsx:66
-#: src/components/_user/notification/notification.frontConfig.tsx:1992
+#: src/components/_user/notification/notification.frontConfig.tsx:2006
 msgid "New president"
 msgstr "Νέος πρόεδρος"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2023
+#: src/components/_user/notification/notification.frontConfig.tsx:2037
 msgid "New referred user"
 msgstr "Νέος παραπεμφθείς χρήστης"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2024
+#: src/components/_user/notification/notification.frontConfig.tsx:2038
 msgid "New referrer"
 msgstr "Νέος παραπέμπων"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1982
+#: src/components/_user/notification/notification.frontConfig.tsx:1996
 msgid "New subscriber"
 msgstr "Νέος συνδρομητής"
 
@@ -5567,7 +5677,7 @@ msgstr "Νέος συνδρομητής"
 msgid "New supporters"
 msgstr "Νέοι υποστηρικτές"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1963
+#: src/components/_user/notification/notification.frontConfig.tsx:1977
 msgid "New worker"
 msgstr "Νέος εργαζόμενος"
 
@@ -5587,6 +5697,10 @@ msgstr "Το επόμενο θα είναι άρμα μάχης"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:23
 msgid "Next one will be tank"
 msgstr "Το επόμενο θα είναι άρμα μάχης"
+
+#: src/components/_user/user/SkillUpgrade.tsx:272
+msgid "Next point costs"
+msgstr ""
 
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
@@ -5620,6 +5734,10 @@ msgstr "Δεν υπάρχει ενεργή ηθική - Ισορροπημένο
 msgid "No active job offer"
 msgstr "Δεν υπάρχει ενεργή προσφορά εργασίας"
 
+#: src/components/_military/order/BattleOrderList.tsx:155
+msgid "No active order"
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:267
 msgid "No active wars"
 msgstr "Δεν υπάρχουν ενεργοί πόλεμοι"
@@ -5636,11 +5754,15 @@ msgstr ""
 msgid "No alliance laws yet"
 msgstr ""
 
+#: src/components/_social/announcement/AnnouncementList.tsx:57
+msgid "No announcement yet"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
 msgstr "Δεν υπάρχουν ακόμα API tokens. Δημιούργησε ένα για να ξεκινήσεις."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:140
+#: src/components/_user/auth/ConnectFromModal.tsx:151
 msgid "No authorization code provided."
 msgstr ""
 
@@ -5656,7 +5778,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "Δεν υπάρχουν πολίτες"
 
-#: src/pages/country/[countryId]/government.tsx:200
+#: src/pages/country/[countryId]/government.tsx:178
 msgid "No congress members"
 msgstr "Δεν υπάρχουν μέλη Κοινοβουλίου"
 
@@ -5728,13 +5850,17 @@ msgstr "Δεν βρέθηκαν προσφορές"
 msgid "No one nominated yet"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:113
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:115
 msgid "No orders"
 msgstr ""
 
 #: src/components/_political/party/PartyList.tsx:95
 msgid "No parties found"
 msgstr "Δεν βρέθηκαν κόμματα"
+
+#: src/components/_user/user/SkillUpgrade.tsx:287
+msgid "No prestige points left, tap to reset staged points"
+msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:382
 msgid "No production bonus from resources. This country has no specialization."
@@ -5795,7 +5921,7 @@ msgstr ""
 msgid "Nominate leader"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1994
+#: src/components/_user/notification/notification.frontConfig.tsx:2008
 msgid "Nominated at government"
 msgstr "Ορίστηκε στην κυβέρνηση"
 
@@ -5826,6 +5952,10 @@ msgstr ""
 
 #: src/components/_military/mu/MuSettings.tsx:67
 msgid "Not set"
+msgstr ""
+
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:68
+msgid "Nothing yet. A loot pool only covers as many players as it holds items, so you need a top damage rank in an ongoing battle to claim a spot."
 msgstr ""
 
 #: src/pages/notifications.tsx:38
@@ -5975,7 +6105,7 @@ msgstr "Εντολή"
 msgid "Orders"
 msgstr "Εντολές"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:142
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:194
 msgid "Orders & actions"
 msgstr ""
 
@@ -5983,8 +6113,13 @@ msgstr ""
 msgid "Orders cancelled"
 msgstr "Οι εντολές ακυρώθηκαν"
 
+#: src/pages/orders.tsx:24
+#: src/pages/orders.tsx:35
+msgid "Orders of <0/>"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
-#: src/components/_user/notification/notificationPrefs.categories.ts:160
+#: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
 msgstr "Άλλο"
 
@@ -5998,7 +6133,7 @@ msgstr "Αποτέλεσμα"
 msgid "Overall"
 msgstr ""
 
-#: src/components/_user/user/SkillValue.tsx:152
+#: src/components/_user/user/SkillValue.tsx:182
 msgid "Overflow:"
 msgstr ""
 
@@ -6010,7 +6145,7 @@ msgstr "Επισκόπηση"
 msgid "Owned"
 msgstr "Κατέχεται"
 
-#: src/pages/user/[userId]/index.tsx:169
+#: src/pages/user/[userId]/index.tsx:185
 msgid "Owned Military Units"
 msgstr "Στρατιωτικές Μονάδες που Κατέχεται"
 
@@ -6018,7 +6153,7 @@ msgstr "Στρατιωτικές Μονάδες που Κατέχεται"
 msgid "Owner"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1150
+#: src/components/_user/notification/notification.frontConfig.tsx:1151
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "Η ιδιοκτησία του <0/> μεταφέρθηκε από <1/> σε <2/>"
 
@@ -6040,7 +6175,7 @@ msgid "Pacifist"
 msgstr "Ειρηνιστής"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:439
+#: src/components/_military/battle/SetOrderFormModal.tsx:545
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -6048,7 +6183,7 @@ msgstr ""
 msgid "Packs"
 msgstr "Πακέτα"
 
-#: src/components/_user/UserEquipments.tsx:198
+#: src/components/_user/UserEquipments.tsx:202
 #: src/utils/translations.tsx:220
 msgid "Pants"
 msgstr "Παντελόνι"
@@ -6071,16 +6206,16 @@ msgstr "Κόμματα"
 
 #: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:142
-#: src/components/_user/notification/notificationPrefs.categories.ts:157
-#: src/pages/user/[userId]/index.tsx:176
+#: src/components/_user/notification/notificationPrefs.categories.ts:158
+#: src/pages/user/[userId]/index.tsx:192
 msgid "Party"
 msgstr "Κόμμα"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2014
+#: src/components/_user/notification/notification.frontConfig.tsx:2028
 msgid "Party Application Accepted"
 msgstr "Αίτηση Κόμματος Έγινε Αποδεκτή"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2017
+#: src/components/_user/notification/notification.frontConfig.tsx:2031
 msgid "Party Application Rejected"
 msgstr "Αίτηση Κόμματος Απορρίφθηκε"
 
@@ -6088,15 +6223,15 @@ msgstr "Αίτηση Κόμματος Απορρίφθηκε"
 msgid "Party Council election"
 msgstr "Εκλογές Συμβουλίου Κόμματος"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:239
+#: src/components/_user/notification/notification.frontConfig.tsx:240
 msgid "Party Council election candidacy is now open in <0/>"
 msgstr "Η υποψηφιότητα για εκλογές Συμβουλίου Κόμματος είναι τώρα ανοιχτή στο <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:289
+#: src/components/_user/notification/notification.frontConfig.tsx:290
 msgid "Party Council election has ended in <0/>. Check the results!"
 msgstr "Οι εκλογές Συμβουλίου Κόμματος τελείωσαν στο <0/>. Δες τα αποτελέσματα!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:264
+#: src/components/_user/notification/notification.frontConfig.tsx:265
 msgid "Party Council election voting is now open in <0/>"
 msgstr "Η ψηφοφορία για εκλογές Συμβουλίου Κόμματος είναι τώρα ανοιχτή στο <0/>"
 
@@ -6104,15 +6239,15 @@ msgstr "Η ψηφοφορία για εκλογές Συμβουλίου Κόμ�
 msgid "Party created"
 msgstr "Κόμμα δημιουργήθηκε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2000
+#: src/components/_user/notification/notification.frontConfig.tsx:2014
 msgid "Party election candidacy open"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2006
+#: src/components/_user/notification/notification.frontConfig.tsx:2020
 msgid "Party election ended"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2003
+#: src/components/_user/notification/notification.frontConfig.tsx:2017
 msgid "Party election vote open"
 msgstr ""
 
@@ -6120,33 +6255,37 @@ msgstr ""
 msgid "Party Leader election"
 msgstr "Εκλογές Αρχηγού Κόμματος"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:229
+#: src/components/_user/notification/notification.frontConfig.tsx:230
 msgid "Party Leader election candidacy is now open in <0/>"
 msgstr "Η υποψηφιότητα για εκλογές Αρχηγού Κόμματος είναι τώρα ανοιχτή στο <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:279
+#: src/components/_user/notification/notification.frontConfig.tsx:280
 msgid "Party Leader election has ended in <0/>. Check the results!"
 msgstr "Οι εκλογές Αρχηγού Κόμματος τελείωσαν στο <0/>. Δες τα αποτελέσματα!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:254
+#: src/components/_user/notification/notification.frontConfig.tsx:255
 msgid "Party Leader election voting is now open in <0/>"
 msgstr "Η ψηφοφορία για εκλογές Αρχηγού Κόμματος είναι τώρα ανοιχτή στο <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:234
+#: src/components/_user/notification/notification.frontConfig.tsx:235
 msgid "Party Primary election candidacy is now open in <0/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:284
+#: src/components/_user/notification/notification.frontConfig.tsx:285
 msgid "Party Primary election has ended in <0/>. Check the results!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:259
+#: src/components/_user/notification/notification.frontConfig.tsx:260
 msgid "Party Primary election voting is now open in <0/>"
 msgstr ""
 
 #: src/components/_political/election/CandidateFormModal.tsx:71
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Επικόλλησε σύνδεσμο στο άρθρο καμπάνιας σου ή άφησε κενό."
+
+#: src/components/_user/user/Level.tsx:156
+msgid "Paused at max level"
+msgstr ""
 
 #: src/pages/shop/index.tsx:45
 msgid "Payment successful! Thanks for supporting the game <3"
@@ -6212,6 +6351,10 @@ msgstr "Χάπι"
 msgid "Plant a tree in the data center"
 msgstr "Φύτεψε ένα δέντρο στο κέντρο δεδομένων"
 
+#: src/pages/index.tsx:131
+msgid "Play now"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:31
 msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
 msgstr ""
@@ -6220,9 +6363,9 @@ msgstr ""
 msgid "Players can share an IP address if they have been registered as a \"Family Group\". This status must be requested in advance to an admin on our Discord. Group members are prohibited from:"
 msgstr ""
 
-#: src/components/_user/auth/ConnectFromModal.tsx:93
-#: src/components/_user/auth/ConnectFromModal.tsx:113
-#: src/components/_user/auth/ConnectFromModal.tsx:190
+#: src/components/_user/auth/ConnectFromModal.tsx:104
+#: src/components/_user/auth/ConnectFromModal.tsx:124
+#: src/components/_user/auth/ConnectFromModal.tsx:201
 msgid "Please complete the CAPTCHA."
 msgstr "Παρακαλώ συμπλήρωσε το CAPTCHA."
 
@@ -6247,16 +6390,16 @@ msgstr "Πολιτικές προτάσεις"
 msgid "Political Take Overs (PTOs) are permitted, but misusing it to extract a country's resources for personal/another country's gain, to damage the country or to intentionally distort market conditions is a punishable offense, which will include fines, bans, and removal from government roles. This goes for Military Units as well."
 msgstr ""
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:156
+#: src/components/_user/notification/notificationPrefs.categories.ts:157
 msgid "Politics & Government"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:199
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:205
 msgid "Popular Article"
 msgstr "Δημοφιλές άρθρο"
 
-#: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:177
+#: src/components/_social/announcement/AnnouncementFormModal.tsx:21
+#: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
 msgstr ""
 
@@ -6273,27 +6416,27 @@ msgstr ""
 msgid "Premium"
 msgstr "Premium"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:153
+#: src/components/_user/notification/notificationPrefs.categories.ts:154
 msgid "Premium & Gifts"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1931
+#: src/components/_user/notification/notification.frontConfig.tsx:1945
 msgid "Premium activated"
 msgstr "Premium ενεργοποιήθηκε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1932
+#: src/components/_user/notification/notification.frontConfig.tsx:1946
 msgid "Premium expired"
 msgstr "Το Premium έληξε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1938
+#: src/components/_user/notification/notification.frontConfig.tsx:1952
 msgid "Premium gift expired"
 msgstr "Το δώρο Premium έληξε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1935
+#: src/components/_user/notification/notification.frontConfig.tsx:1949
 msgid "Premium gift received"
 msgstr "Λήψη δώρου Premium"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1933
+#: src/components/_user/notification/notification.frontConfig.tsx:1947
 msgid "Premium gift sent"
 msgstr "Αποστολή δώρου Premium"
 
@@ -6310,21 +6453,38 @@ msgstr "Πρόεδρος"
 msgid "Presidential election"
 msgstr "Προεδρικές εκλογές"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:135
+#: src/components/_user/notification/notification.frontConfig.tsx:136
 msgid "Presidential election candidacy is now open in <0/>"
 msgstr "Η υποψηφιότητα για προεδρικές εκλογές είναι τώρα ανοιχτή στο <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:175
+#: src/components/_user/notification/notification.frontConfig.tsx:176
 msgid "Presidential election has ended in <0/>. Check the results!"
 msgstr "Οι προεδρικές εκλογές τελείωσαν στο <0/>. Δες τα αποτελέσματα!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:155
+#: src/components/_user/notification/notification.frontConfig.tsx:156
 msgid "Presidential election voting is now open in <0/>"
 msgstr "Η ψηφοφορία για προεδρικές εκλογές είναι τώρα ανοιχτή στο <0/>"
 
 #: src/pages/country/[countryId]/elections.tsx:56
 msgid "Presidential elections"
 msgstr "Προεδρικές εκλογές"
+
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
+#: src/pages/user/[userId]/skills.tsx:193
+msgid "Prestige"
+msgstr ""
+
+#: src/components/_user/user/Level.tsx:167
+msgid "Prestige to drop levels and re-activate your XP bonus."
+msgstr ""
+
+#: src/components/_user/user/SkillValue.tsx:72
+msgid "Prestige:"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:2140
+msgid "Prestige!"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
 msgid "Price auto-matches existing orders"
@@ -6334,11 +6494,11 @@ msgstr ""
 msgid "Primary election"
 msgstr "Προκριματικές εκλογές"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2011
+#: src/components/_user/notification/notification.frontConfig.tsx:2025
 msgid "Primary Election Ended"
 msgstr "Οι Προκριματικές Εκλογές Τελείωσαν"
 
-#: src/pages/index.tsx:142
+#: src/pages/index.tsx:75
 #: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Απόρρητο"
@@ -6388,7 +6548,7 @@ msgid "Production"
 msgstr "Παραγωγή"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:100
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Μπόνους παραγωγής"
@@ -6397,11 +6557,11 @@ msgstr "Μπόνους παραγωγής"
 msgid "Production bonus:"
 msgstr "Μπόνους παραγωγής:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:577
+#: src/components/_user/notification/notification.frontConfig.tsx:578
 msgid "Production in<0/> is full, you should start production!"
 msgstr "Η παραγωγή στο<0/> είναι γεμάτη, πρέπει να ξεκινήσεις παραγωγή!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1972
+#: src/components/_user/notification/notification.frontConfig.tsx:1986
 msgid "Production is full"
 msgstr "Η παραγωγή είναι γεμάτη"
 
@@ -6422,7 +6582,7 @@ msgstr "Προφίλ"
 msgid "Promote to Commander"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2075
+#: src/components/_user/notification/notification.frontConfig.tsx:2089
 msgid "Promoted to Commander"
 msgstr "Προήχθη σε Διοικητή"
 
@@ -6523,18 +6683,18 @@ msgstr ""
 msgid "Quickly dismantle items"
 msgstr "Γρήγορη αποσυναρμολόγηση αντικειμένων"
 
-#: src/components/_military/battle/BattleHeader.tsx:299
+#: src/components/_military/battle/BattleHeader.tsx:295
 msgid "Ranking"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2022
+#: src/components/_user/notification/notification.frontConfig.tsx:2036
 msgid "Ranking reward"
 msgstr ""
 
 #: src/components/_layout/MoreButtonNav.tsx:122
 #: src/pages/alliance/[allianceId]/index.tsx:48
 #: src/pages/country/[countryId]/index.tsx:167
-#: src/pages/user/[userId]/index.tsx:123
+#: src/pages/user/[userId]/index.tsx:131
 msgid "Rankings"
 msgstr "Κατατάξεις"
 
@@ -6587,7 +6747,7 @@ msgid "Reach Military Rank 5"
 msgstr "Φτάσε Στρατιωτικό Βαθμό 5"
 
 #. placeholder {0}: leveling.level + 1
-#: src/components/_user/user/Level.tsx:111
+#: src/components/_user/user/Level.tsx:117
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "Φτάνοντας στο επίπεδο {0} θα σου δώσει <0>{nextLevelSkillPoints} Πόντους Ικανοτήτων</0>."
 
@@ -6598,6 +6758,10 @@ msgstr "Διάβασε <0>{count}</0> άρθρα"
 #: src/components/_user/mission/mission.frontConfig.tsx:352
 msgid "Read Article"
 msgstr "Ανάγνωση Άρθρου"
+
+#: src/components/_user/auth/CountryWelcomeArticle.tsx:58
+msgid "Read the article"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Ready for battle!"
@@ -6648,7 +6812,7 @@ msgstr "Σύνδεσμος παραπομπής αντιγράφηκε στο π
 
 #: src/components/_user/user/UserHeader.tsx:220
 #: src/components/_user/user/UserRankingsPanel.tsx:50
-#: src/pages/user/[userId]/index.tsx:219
+#: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
 msgstr "Παραπομπές"
@@ -6666,7 +6830,7 @@ msgstr "Ο παραπέμπων ορίστηκε"
 msgid "Referrer username"
 msgstr "Όνομα χρήστη παραπέμποντος"
 
-#: src/pages/user/[userId]/index.tsx:122
+#: src/pages/user/[userId]/index.tsx:130
 msgid "Refresh every hour"
 msgstr "Ανανέωση κάθε ώρα"
 
@@ -6692,7 +6856,7 @@ msgstr "Περιοχή"
 msgid "Region buy offer"
 msgstr "Προσφορά αγοράς περιοχής"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2038
+#: src/components/_user/notification/notification.frontConfig.tsx:2052
 msgid "Region is revolting!"
 msgstr "Η περιοχή εξεγείρεται!"
 
@@ -6793,8 +6957,8 @@ msgstr "Αφαίρεση όλων"
 msgid "Remove an inactive congress member from its position"
 msgstr "Αφαίρεση ανενεργού μέλους Κοινοβουλίου από τη θέση του"
 
-#: src/pages/country/[countryId]/government.tsx:164
-#: src/pages/country/[countryId]/government.tsx:169
+#: src/components/_social/announcement/Announcement.tsx:125
+#: src/components/_social/announcement/Announcement.tsx:132
 msgid "Remove announcement"
 msgstr ""
 
@@ -6802,7 +6966,7 @@ msgstr ""
 msgid "Remove Avatar"
 msgstr "Αφαίρεση Avatar"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:116
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:168
 msgid "Remove bounty"
 msgstr ""
 
@@ -6824,11 +6988,11 @@ msgstr "Αφαίρεση εχθρού"
 msgid "Remove the current party leader from their position"
 msgstr "Αφαίρεση του τρέχοντος αρχηγού κόμματος από τη θέση του"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2072
+#: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Removed from Military Unit"
 msgstr "Αφαιρέθηκε από Στρατιωτική Μονάδα"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:289
+#: src/components/_economy/company/CompanyDropdown.tsx:290
 msgid "Rename"
 msgstr "Μετονομασία"
 
@@ -6905,11 +7069,11 @@ msgstr "Αιτήματα:"
 msgid "Reroll Mission"
 msgstr "Επαναδήλωση Αποστολής"
 
-#: src/pages/user/[userId]/skills.tsx:167
+#: src/pages/user/[userId]/skills.tsx:205
 msgid "Reset"
 msgstr "Επαναφορά"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:290
+#: src/components/_user/auth/ConnectFromModal.tsx:316
 msgid "Reset CAPTCHA"
 msgstr "Επαναφορά CAPTCHA"
 
@@ -6929,7 +7093,7 @@ msgstr "Επαναφορά Ονόματος Χρήστη"
 msgid "Reshuffle in"
 msgstr "Ανακατανομή σε"
 
-#: src/components/_military/hit/HitButton.tsx:465
+#: src/components/_military/hit/HitButton.tsx:466
 msgid "Resist"
 msgstr "Αντίσταση"
 
@@ -6941,7 +7105,7 @@ msgstr "Αντίσταση"
 msgid "Resistance Contributors"
 msgstr "Συνεισφέροντες Αντίστασης"
 
-#: src/components/_military/battle/BattleName.tsx:152
+#: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
@@ -6954,7 +7118,7 @@ msgstr "Πόροι"
 msgid "Resources reshuffled"
 msgstr "Οι πόροι ανακατανεμήθηκαν"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2110
+#: src/components/_user/notification/notification.frontConfig.tsx:2124
 msgid "Response to message"
 msgstr "Απάντηση σε μήνυμα"
 
@@ -6970,11 +7134,11 @@ msgstr "Επιστροφή περιοχής στην αρχική χώρα"
 msgid "Revoke API token?"
 msgstr "Ανάκληση API token;"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2041
+#: src/components/_user/notification/notification.frontConfig.tsx:2055
 msgid "Revolt started!"
 msgstr "Η εξέγερση ξεκίνησε!"
 
-#: src/components/_military/battle/BattleName.tsx:157
+#: src/components/_military/battle/BattleName.tsx:160
 msgid "Revolution {score}"
 msgstr ""
 
@@ -6986,7 +7150,7 @@ msgstr "Η επανάσταση τέλειωσε"
 msgid "Revolution started"
 msgstr "Η επανάσταση ξεκίνησε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2044
+#: src/components/_user/notification/notification.frontConfig.tsx:2058
 msgid "Revolution started!"
 msgstr "Η επανάσταση ξεκίνησε!"
 
@@ -7035,15 +7199,15 @@ msgid "Round #{0}"
 msgstr "Γύρος #{0}"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:646
+#: src/components/_user/notification/notification.frontConfig.tsx:647
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
 msgstr "Ο Γύρος <0>#{0}</0> στο <1/> πρόκειται να τελειώσει!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2029
+#: src/components/_user/notification/notification.frontConfig.tsx:2043
 msgid "Round about to end"
 msgstr "Ο γύρος πρόκειται να τελειώσει"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2027
+#: src/components/_user/notification/notification.frontConfig.tsx:2041
 msgid "Round ended"
 msgstr "Ο γύρος τέλειωσε"
 
@@ -7086,9 +7250,10 @@ msgstr "Κυβερνών Κόμμα"
 msgid "Running low on health?"
 msgstr "Χαμηλή υγεία;"
 
+#: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:249
 msgid "Save"
 msgstr "Αποθήκευση"
 
@@ -7187,7 +7352,7 @@ msgstr "Αυτοεργασία"
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Εργάσου μόνος <0>{count}</0> φορές στις εταιρείες σου"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:331
+#: src/components/_economy/company/CompanyDropdown.tsx:332
 msgid "Sell company?"
 msgstr "Πώληση εταιρείας;"
 
@@ -7270,7 +7435,7 @@ msgstr "Ορισμός άρθρου καλωσορίσματος για τη χ�
 msgid "Set a welcome article for your country<0/>"
 msgstr "Ορισμός άρθρου καλωσορίσματος για τη χώρα σου<0/>"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:129
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:181
 msgid "Set bounty"
 msgstr ""
 
@@ -7288,7 +7453,7 @@ msgstr ""
 msgid "Set new party ethics configuration:"
 msgstr "Ορισμός νέας διαμόρφωσης κομματικής ηθικής:"
 
-#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:97
+#: src/components/_military/battle/BattleOrderActionsDropdown.tsx:131
 msgid "Set order"
 msgstr ""
 
@@ -7353,10 +7518,10 @@ msgid "Show all {0} bids"
 msgstr ""
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:265
-#: src/components/_social/ArticleTags.tsx:312
-#: src/components/_social/ArticleTags.tsx:370
-#: src/components/_social/ArticleTags.tsx:420
+#: src/components/_social/ArticleTags.tsx:263
+#: src/components/_social/ArticleTags.tsx:310
+#: src/components/_social/ArticleTags.tsx:368
+#: src/components/_social/ArticleTags.tsx:418
 msgid "Show more"
 msgstr "Εμφάνιση περισσότερων"
 
@@ -7389,13 +7554,13 @@ msgstr ""
 msgid "Skill issue?"
 msgstr "Πρόβλημα ικανοτήτων;"
 
-#: src/components/_user/user/SkillValue.tsx:45
+#: src/components/_user/user/SkillValue.tsx:59
 msgid "Skill upgrade:"
 msgstr "Αναβάθμιση ικανότητας:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
 #: src/components/_user/user/UserHeader.tsx:174
-#: src/pages/user/[userId]/index.tsx:157
+#: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Ικανότητες"
 
@@ -7403,19 +7568,19 @@ msgstr "Ικανότητες"
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Οι ικανότητες σε κάνουν ισχυρότερο. Ας ενισχύσουμε τις δεξιότητές σου!"
 
-#: src/pages/user/[userId]/skills.tsx:56
+#: src/pages/user/[userId]/skills.tsx:59
 msgid "Skills saved!"
 msgstr "Οι ικανότητες αποθηκεύτηκαν!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1952
+#: src/components/_user/notification/notification.frontConfig.tsx:1966
 msgid "Skin gift received"
 msgstr "Λήψη δώρου skin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1950
+#: src/components/_user/notification/notification.frontConfig.tsx:1964
 msgid "Skin gift sent"
 msgstr "Αποστολή δώρου skin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1955
+#: src/components/_user/notification/notification.frontConfig.tsx:1969
 msgid "Skin pack gift sent"
 msgstr "Αποστολή δώρου πακέτου skin"
 
@@ -7427,13 +7592,13 @@ msgstr "Πακέτο skin ξεκλειδώθηκε! Όλα τα skins εξοπλ
 msgid "Skin Packs"
 msgstr "Πακέτα Skin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2126
+#: src/components/_user/notification/notification.frontConfig.tsx:2141
 msgid "Skin Reward"
 msgstr ""
 
 #: src/components/_other/shop/ShopHeader.tsx:23
 #: src/pages/shop/index.tsx:145
-#: src/pages/user/[userId]/index.tsx:93
+#: src/pages/user/[userId]/index.tsx:101
 msgid "Skins"
 msgstr "Skins"
 
@@ -7449,19 +7614,23 @@ msgstr "Παράλειψη Σεμιναρίου"
 msgid "Sling Stones"
 msgstr ""
 
+#: src/components/_layout/LayoutOptions.tsx:187
+msgid "Small GIFs"
+msgstr ""
+
 #: src/utils/translations.tsx:25
 msgid "Sniper"
 msgstr "Ελεύθερος Σκοπευτής"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:155
+#: src/components/_user/notification/notificationPrefs.categories.ts:156
 msgid "Social & Messages"
 msgstr ""
 
-#: src/components/_economy/company/CompanyList.tsx:80
+#: src/components/_economy/company/CompanyList.tsx:96
 msgid "Some of your companies are disabled."
 msgstr "Κάποιες εταιρείες σου είναι απενεργοποιημένες."
 
-#: src/components/_layout/LayoutOptions.tsx:164
+#: src/components/_layout/LayoutOptions.tsx:166
 msgid "Sound effects"
 msgstr "Ηχητικά εφέ"
 
@@ -7491,6 +7660,10 @@ msgstr "Έξοδα"
 
 #: src/components/_political/country/CountryHeader.tsx:187
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
+msgstr ""
+
+#: src/components/_user/user/SkillUpgrade.tsx:268
+msgid "Stage a prestige point on this skill (applied on save, reset on skill reset)"
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:169
@@ -7542,7 +7715,7 @@ msgstr "Έναρξη επανάστασης"
 msgid "Started <0/>"
 msgstr "Ξεκίνησε <0/>"
 
-#: src/components/_military/battle/BattleHeader.tsx:195
+#: src/components/_military/battle/BattleHeader.tsx:194
 msgid "Started<0/><1/>"
 msgstr ""
 
@@ -7621,7 +7794,7 @@ msgstr "Οι στρατηγικοί πόροι ανακατανεμήθηκαν 
 msgid "Subscribed"
 msgstr "Εγγεγραμμένος"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:142
 msgid "Subscribed and supported the game <3"
 msgstr "Έκανες εγγραφή και υποστήριξες το παιχνίδι <3"
 
@@ -7629,11 +7802,11 @@ msgstr "Έκανες εγγραφή και υποστήριξες το παιχ�
 msgid "Subscribers"
 msgstr "Συνδρομητές"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:147
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Successfully logged in!"
 msgstr "Επιτυχής σύνδεση!"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:165
 msgid "Sugar Daddy"
 msgstr "Sugar Daddy"
 
@@ -7651,7 +7824,7 @@ msgstr "Υποστήριξέ μας"
 
 #: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:141
 msgid "Supporter"
 msgstr "Υποστηρικτής"
 
@@ -7662,7 +7835,7 @@ msgstr "Υποστηρικτής"
 msgid "Supporter feature"
 msgstr "Χαρακτηριστικό υποστηρικτή"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:151
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:157
 msgid "Supporter Gift"
 msgstr "Δώρο Υποστηρικτή"
 
@@ -7709,7 +7882,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:433
+#: src/components/_military/battle/SetOrderFormModal.tsx:539
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -7760,16 +7933,16 @@ msgstr "Φόροι"
 msgid "Terminated"
 msgstr ""
 
-#: src/pages/index.tsx:138
+#: src/pages/index.tsx:71
 #: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Όροι"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:386
+#: src/components/_user/auth/ConnectFromModal.tsx:420
 msgid "Terms of Service"
 msgstr "Όροι Χρήσης"
 
-#: src/components/_layout/LayoutOptions.tsx:285
+#: src/components/_layout/LayoutOptions.tsx:292
 msgid "Texture"
 msgstr "Υφή"
 
@@ -7798,12 +7971,12 @@ msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the gover
 msgstr "Ο εμφύλιος πόλεμος που ξεκίνησε από το <0/> στο <1/> επικράτησε <2/> και η κυβέρνηση ανατράπηκε."
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1639
+#: src/components/_user/notification/notification.frontConfig.tsx:1640
 msgid "The contract for <0/> has expired. <1>{0}</1> returned to <2/>."
 msgstr ""
 
 #. placeholder {0}: data.moneyRolledBack
-#: src/components/_user/notification/notification.frontConfig.tsx:1657
+#: src/components/_user/notification/notification.frontConfig.tsx:1658
 msgid "The contract has been rolled back. <0>{0}</0> sent back to <1/>."
 msgstr ""
 
@@ -7823,7 +7996,7 @@ msgstr "Το κοίτασμα δίνει μπόνους παραγωγής τη�
 msgid "The deposit will expire in the following amount of time."
 msgstr "Το κοίτασμα θα λήξει στον ακόλουθο χρόνο."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:715
+#: src/components/_user/notification/notification.frontConfig.tsx:716
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Το αποτέλεσμα των buffs που κατανάλωσες τελείωσε. Η φάση debuff ξεκίνησε και θα διαρκέσει <0>{debuffDuration}ω</0>."
 
@@ -7849,7 +8022,7 @@ msgstr "Η επανάσταση στο <0/> επικράτησε! Η κυβέρ�
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Ο στρατηγικός πόρος θα ανακατανεμηθεί στον ακόλουθο χρόνο."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1357
+#: src/components/_user/notification/notification.frontConfig.tsx:1358
 msgid "The tournament has ended for your team <0/>. Check the results!"
 msgstr "Το τουρνουά τέλειωσε για την ομάδα σου <0/>. Δες τα αποτελέσματα!"
 
@@ -7889,7 +8062,7 @@ msgstr "Αυτός ο εξοπλισμός είναι πράσινος όπως 
 msgid "This feels good, huh?"
 msgstr "Αυτό νιώθεται καλά, έτσι;"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:63
+#: src/components/_military/battle/LootSummaryCard.tsx:76
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr ""
 
@@ -8063,10 +8236,6 @@ msgstr "Πρώτος σε πόντους εδάφους στο γύρο"
 msgid "Top 3 offers"
 msgstr "3 Κορυφαίες Προσφορές"
 
-#: src/pages/index.tsx:131
-msgid "Top countries"
-msgstr "Κορυφαίες χώρες"
-
 #: src/components/_economy/donation/DonationList.tsx:87
 msgid "Top Donors"
 msgstr "Κορυφαίοι Δωρητές"
@@ -8128,7 +8297,7 @@ msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
-#: src/components/_user/user/SkillValue.tsx:215
+#: src/components/_user/user/SkillValue.tsx:245
 msgid "Total:"
 msgstr "Σύνολο:"
 
@@ -8138,35 +8307,35 @@ msgstr "Σύνολο:"
 msgid "Tournament"
 msgstr "Τουρνουά"
 
-#: src/components/_military/battle/BattleName.tsx:160
+#: src/components/_military/battle/BattleName.tsx:163
 msgid "Tournament battle for {tournamentName} {score}"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2052
+#: src/components/_user/notification/notification.frontConfig.tsx:2066
 msgid "Tournament Created"
 msgstr "Τουρνουά Δημιουργήθηκε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2059
+#: src/components/_user/notification/notification.frontConfig.tsx:2073
 msgid "Tournament Eliminated"
 msgstr "Αποκλεισμός από Τουρνουά"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2057
+#: src/components/_user/notification/notification.frontConfig.tsx:2071
 msgid "Tournament Ended"
 msgstr "Τουρνουά Τέλειωσε"
 
-#: src/components/_user/user/SkillValue.tsx:116
+#: src/components/_user/user/SkillValue.tsx:146
 msgid "Tournament reward:"
 msgstr "Ανταμοιβή τουρνουά:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2048
+#: src/components/_user/notification/notification.frontConfig.tsx:2062
 msgid "Tournament round won!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2055
+#: src/components/_user/notification/notification.frontConfig.tsx:2069
 msgid "Tournament Started"
 msgstr "Τουρνουά Ξεκίνησε"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2050
+#: src/components/_user/notification/notification.frontConfig.tsx:2064
 msgid "Tournament Won!"
 msgstr "Τουρνουά Κερδήθηκε!"
 
@@ -8175,7 +8344,7 @@ msgstr "Τουρνουά Κερδήθηκε!"
 msgid "Trading"
 msgstr "Συναλλαγές"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1975
+#: src/components/_user/notification/notification.frontConfig.tsx:1989
 msgid "Trading transaction"
 msgstr ""
 
@@ -8189,7 +8358,7 @@ msgstr "Συναλλ."
 
 #: src/components/_political/country/CountryHeader.tsx:83
 #: src/pages/market/index.tsx:93
-#: src/pages/user/[userId]/index.tsx:230
+#: src/pages/user/[userId]/index.tsx:246
 msgid "Transactions"
 msgstr "Συναλλαγές"
 
@@ -8210,7 +8379,7 @@ msgstr ""
 msgid "Transfer to company (optional)"
 msgstr "Μεταφορά σε εταιρεία (προαιρετικό)"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:209
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:215
 msgid "Translator"
 msgstr "Μεταφραστής"
 
@@ -8234,7 +8403,7 @@ msgstr "Τα σεμινάρια επαναφέρθηκαν"
 msgid "Tyrannosaurus Rex"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:153
+#: src/components/_layout/LayoutOptions.tsx:155
 msgid "UI"
 msgstr ""
 
@@ -8242,7 +8411,7 @@ msgstr ""
 msgid "Unblock (show content)"
 msgstr "Ξεμπλοκάρισμα (εμφάνιση περιεχομένου)"
 
-#: src/components/_user/UserEquipments.tsx:117
+#: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
 msgstr "Αφαίρεση όλων"
 
@@ -8255,12 +8424,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:457
+#: src/components/_military/battle/SetOrderFormModal.tsx:563
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:452
+#: src/components/_military/battle/SetOrderFormModal.tsx:558
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
@@ -8290,7 +8459,7 @@ msgstr "Ξεκλείδωμα κουμπιού Βοήθεια όλων"
 msgid "Unlock Produce all button"
 msgstr "Ξεκλείδωμα κουμπιού Παραγωγή όλων"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1958
+#: src/components/_user/notification/notification.frontConfig.tsx:1972
 msgid "Unlocked pack"
 msgstr "Ξεκλειδωμένο πακέτο"
 
@@ -8343,7 +8512,7 @@ msgstr "Ενημέρωση εργαζόμενου"
 msgid "Upgrade a company"
 msgstr "Αναβάθμιση εταιρείας"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:207
+#: src/components/_economy/company/CompanyDropdown.tsx:208
 msgid "Upgrade automated engine"
 msgstr ""
 
@@ -8355,7 +8524,7 @@ msgstr "Αναβάθμιση Εταιρείας"
 msgid "Upgrade Skills"
 msgstr "Αναβάθμιση Ικανοτήτων"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:226
 msgid "Upgrade storage"
 msgstr ""
 
@@ -8367,7 +8536,7 @@ msgstr "Αναβάθμιση σε υποστηρικτή"
 msgid "Upgrade your skills <0>{count}</0> times"
 msgstr "Αναβάθμισε τις ικανότητές σου <0>{count}</0> φορές"
 
-#: src/pages/user/[userId]/skills.tsx:149
+#: src/pages/user/[userId]/skills.tsx:173
 msgid "Upgrade your skills!"
 msgstr "Αναβάθμισε τις ικανότητές σου!"
 
@@ -8450,7 +8619,7 @@ msgstr "Χρησιμοποιείται για αναβάθμιση εταιρε�
 msgid "user"
 msgstr "χρήστης"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:152
+#: src/components/_user/notification/notificationPrefs.categories.ts:153
 msgid "User & Progression"
 msgstr ""
 
@@ -8583,9 +8752,9 @@ msgstr "Κωδικός επαλήθευσης στάλθηκε!"
 msgid "Verify"
 msgstr "Επαλήθευση"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:278
-msgid "Verifying CAPTCHA..."
-msgstr "Επαλήθευση CAPTCHA..."
+#: src/components/_user/auth/ConnectFromModal.tsx:295
+msgid "Verifying you're human..."
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:131
 msgid "Vice Admiral"
@@ -8601,9 +8770,13 @@ msgstr "Αντιπρόεδρος"
 msgid "View details"
 msgstr "Δες λεπτομέρειες"
 
-#: src/components/_military/battle/BattleHeader.tsx:126
+#: src/components/_military/battle/BattleHeader.tsx:125
 msgid "View on map"
 msgstr "Προβολή στο χάρτη"
+
+#: src/components/_social/announcement/Announcement.tsx:59
+msgid "Views"
+msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
@@ -8618,7 +8791,7 @@ msgstr "VS"
 msgid "Wage"
 msgstr "Μισθός"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1968
+#: src/components/_user/notification/notification.frontConfig.tsx:1982
 msgid "Wage changed"
 msgstr "Ο μισθός άλλαξε"
 
@@ -8634,7 +8807,7 @@ msgstr "Μισθός ανά παραγωγή"
 msgid "Wage reduction accepted."
 msgstr "Μείωση μισθού αποδεκτή."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1969
+#: src/components/_user/notification/notification.frontConfig.tsx:1983
 #: src/components/_user/worker/WageReductionAlert.tsx:66
 msgid "Wage reduction proposed"
 msgstr "Πρόταση μείωσης μισθού"
@@ -8681,16 +8854,16 @@ msgid "Wars"
 msgstr "Πόλεμοι"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:38
-#: src/pages/user/[userId]/index.tsx:129
+#: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Πλούτος"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:49
-#: src/components/_user/UserEquipments.tsx:134
+#: src/components/_user/UserEquipments.tsx:138
 msgid "Weapon"
 msgstr "Όπλο"
 
-#: src/components/_user/user/SkillValue.tsx:58
+#: src/components/_user/user/SkillValue.tsx:88
 msgid "Weapon:"
 msgstr "Όπλο:"
 
@@ -8711,7 +8884,7 @@ msgstr "Εβδομαδιαίο υπόλοιπο"
 msgid "Weekly damages"
 msgstr "Εβδομαδιαίες ζημιές"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2124
+#: src/components/_user/notification/notification.frontConfig.tsx:2138
 msgid "Weekly Missions Reset"
 msgstr "Επαναφορά Εβδομαδιαίων Αποστολών"
 
@@ -8812,7 +8985,7 @@ msgstr "Εργάσου και κέρδισε!"
 msgid "Worker fired!"
 msgstr "Εργαζόμενος απολύθηκε!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1964
+#: src/components/_user/notification/notification.frontConfig.tsx:1978
 msgid "Worker left"
 msgstr "Εργαζόμενος έφυγε"
 
@@ -8833,7 +9006,7 @@ msgstr "Η εργασία για άλλους είναι καλός τρόπος
 msgid "World <0/>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_layout/LayoutOptions.tsx:234
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr ""
@@ -8864,7 +9037,7 @@ msgid "XP"
 msgstr "XP"
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:275
+#: src/components/_economy/company/CompanyDropdown.tsx:276
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Έχεις ήδη {0} ενεργές εταιρείες. Απενεργοποίησε πρώτα μία."
 
@@ -8905,11 +9078,11 @@ msgstr "Δεν συμμετέχεις"
 msgid "You are very skilled!"
 msgstr "Είσαι πολύ ικανός!"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:225
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "You are/were a council member, sharing ideas and feedback to improve the game <3"
 msgstr "Είσαι/Ήσουν μέλος του συμβουλίου, μοιράζοντας ιδέες και σχόλια για τη βελτίωση του παιχνιδιού <3"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:143
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:149
 msgid "You are/were a part of the staff and helped the game to grow <3"
 msgstr "Είσαι/Ήσουν μέλος της ομάδας και συνέβαλες στην ανάπτυξη και βελτίωση του παιχνιδιού <3"
 
@@ -8917,7 +9090,7 @@ msgstr "Είσαι/Ήσουν μέλος της ομάδας και συνέβα
 msgid "You bought a coffee for the dev <3"
 msgstr "Αγόρασες έναν καφέ για τον dev <3"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:593
+#: src/components/_user/notification/notification.frontConfig.tsx:594
 msgid "You bought items."
 msgstr "Αγόρασες αντικείμενα."
 
@@ -8926,8 +9099,12 @@ msgid "You broke the rng"
 msgstr "Έσπασες το τυχαίο"
 
 #. placeholder {0}: staticGameConfig.referral.levelNeededForBadge
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:172
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:178
 msgid "You brought 10 babies to the world (>= lvl {0})"
+msgstr ""
+
+#: src/pages/index.tsx:126
+msgid "You can change it later."
 msgstr ""
 
 #: src/components/_economy/inventory/DismantleModal.tsx:211
@@ -8938,7 +9115,7 @@ msgstr "Μπορείς να αποσυναρμολογήσεις αντικεί�
 msgid "You can optionally link a campaign article to your candidacy."
 msgstr "Μπορείς προαιρετικά να συνδέσεις άρθρο καμπάνιας με την υποψηφιότητά σου."
 
-#: src/components/_user/user/Level.tsx:85
+#: src/components/_user/user/Level.tsx:91
 msgid "You can upgrade your skills!"
 msgstr "Μπορείς να αναβαθμίσεις τις ικανότητές σου!"
 
@@ -8950,23 +9127,23 @@ msgstr "Δεν μπορείς να υποβάλεις αίτηση υπηκοό�
 msgid "You don't have permission to view applications."
 msgstr "Δεν έχεις άδεια να δεις αιτήσεις."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1524
+#: src/components/_user/notification/notification.frontConfig.tsx:1525
 msgid "You earned gems from a banner sale!"
 msgstr "Κέρδισες πολύτιμους λίθους από πώληση banner!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1876
+#: src/components/_user/notification/notification.frontConfig.tsx:1890
 msgid "You earned gems from a sale of \"{skinTitle}\"!"
 msgstr "Κέρδισες πολύτιμους λίθους από πώληση \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1878
+#: src/components/_user/notification/notification.frontConfig.tsx:1892
 msgid "You earned gems from a skin pack sale!"
 msgstr "Κέρδισες πολύτιμους λίθους από πώληση πακέτου skin!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:729
+#: src/components/_user/notification/notification.frontConfig.tsx:730
 msgid "You feel healthy, the debuff effect no longer affects you."
 msgstr "Νιώθεις υγιής, το αποτέλεσμα debuff δεν σε επηρεάζει πλέον."
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:153
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
 msgid "You gifted a supporter plan subscription to someone <3"
 msgstr "Έκανες δώρο μια συνδρομή Υποστηρικτή σε κάποιον <3"
 
@@ -8978,36 +9155,40 @@ msgstr "Θα εγκριθείς αυτόματα γιατί ο πληθυσμό�
 msgid "You have a case!"
 msgstr "Έχεις ένα κουτί!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1136
+#: src/components/_user/notification/notification.frontConfig.tsx:1137
 msgid "You have been demoted from commander in <0/> by <1/>"
 msgstr "Υποβαθμίστηκες από διοικητής στο <0/> από <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:323
+#: src/components/_user/notification/notification.frontConfig.tsx:324
 msgid "You have been elected as the new leader of <0/>"
 msgstr "Εκλέχτηκες ως νέος αρχηγός του <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1122
+#: src/components/_user/notification/notification.frontConfig.tsx:1123
 msgid "You have been promoted to commander in <0/> by <1/>"
 msgstr "Προήχθης σε διοικητή στο <0/> από <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1108
+#: src/components/_user/notification/notification.frontConfig.tsx:1109
 msgid "You have been removed from <0/> by <1/>"
 msgstr "Αφαιρέθηκες από <0/> από <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:442
+#: src/components/_user/notification/notification.frontConfig.tsx:443
 msgid "You have been transferred from <0/> to <1/>"
 msgstr "Μεταφέρθηκες από <0/> σε <1/>"
 
 #. placeholder {0}: 1
-#: src/components/_user/notification/notification.frontConfig.tsx:683
+#: src/components/_user/notification/notification.frontConfig.tsx:684
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Κατανάλωσες <0>{0}</0>, το αποτέλεσμά του ξεκινά τώρα και τελειώνει σε <1>{buffDuration}ω</1>."
 
-#: src/pages/country/[countryId]/government.tsx:46
+#: src/components/_user/notification/notification.frontConfig.tsx:1712
+msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
+msgstr ""
+
+#: src/pages/country/[countryId]/government.tsx:43
 msgid "You have resigned from the congress"
 msgstr "Παραιτήθηκες από το Κοινοβούλιο"
 
-#: src/pages/country/[countryId]/government.tsx:38
+#: src/pages/country/[countryId]/government.tsx:35
 msgid "You have resigned from the government"
 msgstr "Παραιτήθηκες από την κυβέρνηση"
 
@@ -9025,11 +9206,11 @@ msgstr "Πρέπει να περιμένεις {0} ημέρες πριν ανα�
 msgid "You helped the dev find a bug, ty <3"
 msgstr "Βοήθησες τον dev να βρει ένα σφάλμα, ευχαριστούμε <3"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:218
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:224
 msgid "You helped the dev find an exploit, ty <3"
 msgstr "Βοήθησες τον dev να εντοπίσει ένα exploit, ευχαριστούμε <3"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:211
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:217
 msgid "You helped translate the game into another language"
 msgstr "Βοήθησες να μεταφραστεί το παιχνίδι σε άλλη γλώσσα"
 
@@ -9068,51 +9249,55 @@ msgstr ""
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Πρέπει να ξοδέψεις και τους 3 πόντους ηθικής ({pointsRemaining} απομένουν)"
 
-#: src/components/_user/UserEquipments.tsx:156
+#: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "Πρέπει να εξοπλίσεις όπλο πρώτα"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:161
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:167
 msgid "You paid the dev's bills <3 (top 3 in monthly supporter gifts ranking)"
 msgstr "Πλήρωσες το λογαριασμό του dev <3 (top 3 στη μηνιαία κατάταξη δωρεών υποστηρικτών)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1052
+#: src/components/_user/notification/notification.frontConfig.tsx:1053
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
 msgstr "Το premium δώρο σου από <0/> έληξε! Θα σκεφτόσουν να εγγραφείς και να υποστηρίξεις το παιχνίδι; 👉👈"
 
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
+msgid "You prestiged and lost your levels"
+msgstr ""
+
 #. placeholder {0}: data.rank
-#: src/components/_user/notification/notification.frontConfig.tsx:1266
+#: src/components/_user/notification/notification.frontConfig.tsx:1267
 msgid "You received a loot item for rank <0>#{0}</0> in <1/>"
 msgstr ""
 
 #. placeholder {0}: data.muId ? ( <MuName muId={data.muId} /> ) : data.countryId ? ( <CountryName countryId={data.countryId} /> ) : ( 'your' )
 #. placeholder {1}: data.rank && ( <> position{' '} <Typo fw='bold' color='text1'> #{data.rank} </Typo> </> )
-#: src/components/_user/notification/notification.frontConfig.tsx:1392
+#: src/components/_user/notification/notification.frontConfig.tsx:1393
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "Έλαβες ανταμοιβή για {0} {1} στη βαθμίδα<0/> στην κατάταξη <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1896
+#: src/components/_user/notification/notification.frontConfig.tsx:1910
 msgid "You received the skin \"{skinTitle}\"!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:595
+#: src/components/_user/notification/notification.frontConfig.tsx:596
 msgid "You sold items."
 msgstr "Πούλησες αντικείμενα."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1447
+#: src/components/_user/notification/notification.frontConfig.tsx:1448
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr "Έδωσες επιτυχώς το \"{0}\" στο <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1713
+#: src/components/_user/notification/notification.frontConfig.tsx:1727
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "Έδωσες επιτυχώς το \"{skinTitle}\" στο <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1017
+#: src/components/_user/notification/notification.frontConfig.tsx:1018
 msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "Έδωσες επιτυχώς premium συνδρομή στο <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1781
+#: src/components/_user/notification/notification.frontConfig.tsx:1795
 msgid "You successfully gifted the skin pack \"{skinPackTitle}\" to <0/>!"
 msgstr ""
 
@@ -9128,7 +9313,7 @@ msgstr "Είσαι πολύ τυχερός"
 msgid "You voted in a major election"
 msgstr "Ψήφισες σε μια σημαντική εκλογή"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:538
+#: src/components/_user/notification/notification.frontConfig.tsx:539
 msgid "You was fired from the government by <0/>"
 msgstr "Απολύθηκες από την κυβέρνηση από <0/>"
 
@@ -9136,8 +9321,8 @@ msgstr "Απολύθηκες από την κυβέρνηση από <0/>"
 msgid "You were an alpha tester (user before 20 march 2025)"
 msgstr "Ήσουν alpha tester (χρήστης πριν τις 20 Μαρτίου 2025)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1991
-#: src/components/_user/notification/notification.frontConfig.tsx:2008
+#: src/components/_user/notification/notification.frontConfig.tsx:2005
+#: src/components/_user/notification/notification.frontConfig.tsx:2022
 msgid "You were elected"
 msgstr "Εκλέχτηκες"
 
@@ -9153,7 +9338,7 @@ msgstr "Εκλέχθηκες πρόεδρος της χώρας σου"
 msgid "You were here at the beginning of War Era"
 msgstr "Ήσουν εδώ στην αρχή του WarEra"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:236
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:242
 msgid "You were nominated as a government member of a country"
 msgstr ""
 
@@ -9165,20 +9350,24 @@ msgstr "Προτάθηκες για τη θέση του αντιπροέδρο�
 msgid "You were so close"
 msgstr "Ήσουν τόσο κοντά"
 
+#: src/pages/user/[userId]/skills.tsx:124
+msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
+msgstr ""
+
 #. placeholder {0}: gameConfig?.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/referral/ReferralList.tsx:117
 msgid "You win money for the badge + {0}% of the badge income of all your referrals"
 msgstr "Κερδίζεις χρήματα για το σήμα + {0}% του εισοδήματος σήματος όλων των παραπομπών σου"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:182
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:188
 msgid "You won a country tournament"
 msgstr "Κέρδισες ένα τουρνουά χωρών"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:194
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:200
 msgid "You won a giveaway"
 msgstr "Κέρδισες ένα giveaway"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:188
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:194
 msgid "You won a MU tournament"
 msgstr "Κέρδισες ένα τουρνουά ΣΜ"
 
@@ -9218,7 +9407,7 @@ msgstr "Είσαι στην κορυφή σου"
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Ολοκλήρωσες μερικές αποστολές! Ας μαζέψουμε τις ανταμοιβές XP."
 
-#: src/components/_user/user/Level.tsx:125
+#: src/components/_user/user/Level.tsx:131
 msgid "You've reached max level!"
 msgstr "Έφτασες στο μέγιστο επίπεδο!"
 
@@ -9234,25 +9423,29 @@ msgstr "Ο λογαριασμός σου αναφέρθηκε αυτόματα �
 msgid "Your ancestors are proud"
 msgstr "Οι πρόγονοί σου είναι περήφανοι"
 
-#: src/components/_political/government/AnnouncementForm.tsx:23
+#: src/components/_social/announcement/AnnouncementFormModal.tsx:29
 msgid "Your announcement to the country..."
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:367
-#: src/components/_user/notification/notification.frontConfig.tsx:1067
+#: src/components/_social/announcement/AnnouncementFormModal.tsx:30
+msgid "Your announcement to the unit..."
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:368
+#: src/components/_user/notification/notification.frontConfig.tsx:1068
 msgid "Your application to <0/> has been rejected"
 msgstr "Η αίτησή σου στο <0/> απορρίφθηκε"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:201
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:207
 msgid "Your article reached 2% of the active population in score (min 10)"
 msgstr "Το άρθρο σου έφτασε το 2% του ενεργού πληθυσμού σε σκορ (ελάχιστο 10)"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1538
+#: src/components/_user/notification/notification.frontConfig.tsx:1539
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "Το banner σου \"{0}\" έγινε αποδεκτό και είναι τώρα διαθέσιμο στο κατάστημα! Ξεκλειδώθηκε αυτόματα για σένα."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:698
+#: src/components/_user/notification/notification.frontConfig.tsx:699
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr ""
 
@@ -9261,18 +9454,19 @@ msgid "Your citizenship is going to change"
 msgstr "Η υπηκοότητά σου πρόκειται να αλλάξει"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:140
+#: src/pages/index.tsx:122
 msgid "Your country"
 msgstr "Η χώρα σου"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2032
+#: src/components/_user/notification/notification.frontConfig.tsx:2046
 msgid "Your country is under attack!"
 msgstr "Η χώρα σου δέχεται επίθεση!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2035
+#: src/components/_user/notification/notification.frontConfig.tsx:2049
 msgid "Your country launched an attack!"
 msgstr "Η χώρα σου εξαπέλυσε επίθεση!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:937
+#: src/components/_user/notification/notification.frontConfig.tsx:938
 msgid "Your country started a revolt in <0/> against <1/>"
 msgstr "Η χώρα σου ξεκίνησε εξέγερση στο <0/> εναντίον του <1/>"
 
@@ -9284,7 +9478,7 @@ msgstr "Η τρέχουσα δουλειά σου"
 msgid "Your current order"
 msgstr "Η τρέχουσα εντολή σου"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1687
+#: src/components/_user/notification/notification.frontConfig.tsx:1688
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Οι ημερήσιες αποστολές σου επαναφέρθηκαν! Ολοκλήρωσέ τες για να κερδίσεις ανταμοιβές."
 
@@ -9300,7 +9494,7 @@ msgstr "Ο εργοδότης σου θέλει να μειώσει τον μι�
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:472
+#: src/components/_user/notification/notification.frontConfig.tsx:473
 msgid "Your employer wants to reduce your wage in <0/> from <1>{0}</1> to <2>{1}</2>. Accept or reject this change."
 msgstr "Ο εργοδότης σου θέλει να μειώσει τον μισθό σου στο <0/> από <1>{0}</1> σε <2>{1}</2>. Αποδέξου ή απόρριψε αυτή την αλλαγή."
 
@@ -9316,8 +9510,8 @@ msgstr "Οι πληροφορίες σου αποθηκεύτηκαν."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Το απόθεμά σου περιέχει όλα τα αντικείμενά σου. Ας δούμε τι έχεις!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:62
-#: src/components/_military/battle/LootSummaryCard.tsx:66
+#: src/components/_military/battle/LootSummaryCard.tsx:75
+#: src/components/_military/battle/LootSummaryCard.tsx:79
 msgid "Your loot"
 msgstr ""
 
@@ -9353,11 +9547,11 @@ msgstr "Οι προσφορές σου"
 msgid "Your party name"
 msgstr "Το όνομα κόμματός σου"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:999
+#: src/components/_user/notification/notification.frontConfig.tsx:1000
 msgid "Your premium subscription has been activated!"
 msgstr "Η premium συνδρομή σου ενεργοποιήθηκε!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1008
+#: src/components/_user/notification/notification.frontConfig.tsx:1009
 msgid "Your premium subscription has expired!"
 msgstr "Η premium συνδρομή σου έληξε!"
 
@@ -9373,11 +9567,11 @@ msgstr "Ο σύνδεσμος παραπομπής σου"
 msgid "Your team"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1371
+#: src/components/_user/notification/notification.frontConfig.tsx:1372
 msgid "Your team <0/> has been eliminated from the <1/>"
 msgstr "Η ομάδα σου <0/> αποκλείστηκε από το <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1282
+#: src/components/_user/notification/notification.frontConfig.tsx:1283
 msgid "Your team <0/> won a round in <1/>!"
 msgstr "Η ομάδα σου <0/> κέρδισε έναν γύρο στο <1/>!"
 
@@ -9387,15 +9581,15 @@ msgstr "Η ομάδα σου:"
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:457
+#: src/components/_user/notification/notification.frontConfig.tsx:458
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "Ο μισθός σου στο <0/> άλλαξε από <1>{0}</1> σε <2>{1}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1699
+#: src/components/_user/notification/notification.frontConfig.tsx:1700
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Οι εβδομαδιαίες αποστολές σου επαναφέρθηκαν! Ολοκλήρωσέ τες για να κερδίσεις ανταμοιβές."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:227
+#: src/components/_user/auth/ConnectFromModal.tsx:326
 msgid "your@email.com"
 msgstr "email@σου.com"
 
