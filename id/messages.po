@@ -88,7 +88,7 @@ msgid "{0} active citizens required"
 msgstr "Diperlukan {0} warga aktif"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:487
+#: src/components/_user/notification/notification.frontConfig.tsx:488
 msgid "{0} bought your item offer"
 msgstr "{0} membeli penawaran itemmu"
 
@@ -98,7 +98,7 @@ msgid "{0} days cooldown"
 msgstr "Cooldown {0} hari"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:175
+#: src/pages/user/[userId]/skills.tsx:213
 msgid "{0} Free"
 msgstr "{0} Gratis"
 
@@ -111,12 +111,12 @@ msgstr "{0} jam"
 
 #. placeholder {0}: data.outbidByMuName
 #. placeholder {1}: data.newPerK
-#: src/components/_user/notification/notification.frontConfig.tsx:1674
+#: src/components/_user/notification/notification.frontConfig.tsx:1675
 msgid "{0} outbid you at ${1}/K"
 msgstr "{0} mengalahkan penawaran Anda pada ${1}/K"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
-#: src/components/_user/notification/notification.frontConfig.tsx:510
+#: src/components/_user/notification/notification.frontConfig.tsx:511
 msgid "{0} proposed a new law <0/>"
 msgstr "{0} mengusulkan undang-undang baru <0/>"
 
@@ -155,6 +155,14 @@ msgstr "{0}% dari yang diinvestasikan"
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} selesai"
 
+#: src/components/_user/user/SkillUpgrade.tsx:267
+msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
+msgstr ""
+
+#: src/components/_user/user/Level.tsx:155
+msgid "{prestigeLevel} Prestige Points"
+msgstr ""
+
 #: src/components/_military/tournament/TournamentRegisteredTag.tsx:43
 msgid "{registeredCount} {entityLabel} registered"
 msgstr "{registeredCount} {entityLabel} terdaftar"
@@ -162,6 +170,10 @@ msgstr "{registeredCount} {entityLabel} terdaftar"
 #: src/components/_military/battle/BattleTimeline.tsx:79
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} ronde untuk menang"
+
+#: src/components/_user/user/SkillUpgrade.tsx:373
+msgid "{savedPrestigeCount} prestige point(s) active on this skill"
+msgstr ""
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:50
@@ -184,8 +196,12 @@ msgstr "*Bisa terbakar"
 msgid "/day"
 msgstr "/hari"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:380
-#: src/components/_user/notification/notification.frontConfig.tsx:1094
+#: src/components/_user/user/Level.tsx:164
+msgid "+{xpBonusPercent}% XP"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:381
+#: src/components/_user/notification/notification.frontConfig.tsx:1095
 msgid "<0/> applied to join <1/>"
 msgstr "<0/> mengajukan permohonan untuk bergabung dengan <1/>"
 
@@ -199,21 +215,21 @@ msgstr "<0/> dengan upah <1>{0}</1>.{1}"
 msgid "<0/> banned <1/> from the conversation"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1863
+#: src/components/_user/notification/notification.frontConfig.tsx:1877
 msgid "<0/> bought your {assetLabel} as a gift for <1/>!"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1870
+#: src/components/_user/notification/notification.frontConfig.tsx:1884
 msgid "<0/> bought your {assetLabel}!"
 msgstr ""
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
-#: src/components/_user/notification/notification.frontConfig.tsx:1509
+#: src/components/_user/notification/notification.frontConfig.tsx:1510
 msgid "<0/> bought your banner{0} as a gift for <1/>!"
 msgstr ""
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
-#: src/components/_user/notification/notification.frontConfig.tsx:1517
+#: src/components/_user/notification/notification.frontConfig.tsx:1518
 msgid "<0/> bought your banner{0}!"
 msgstr ""
 
@@ -227,19 +243,19 @@ msgstr "<0/> membeli <1/> seharga <2>{0}</2>"
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> membeli wilayah Anda <1/> seharga <2>{0}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1594
+#: src/components/_user/notification/notification.frontConfig.tsx:1595
 msgid "<0/> cancelled the contract."
 msgstr "<0/> membatalkan kontrak."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:773
+#: src/components/_user/notification/notification.frontConfig.tsx:774
 msgid "<0/> commented on your article <1/>"
 msgstr "<0/> mengomentari artikel Anda <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1569
+#: src/components/_user/notification/notification.frontConfig.tsx:1570
 msgid "<0/> completed a contract, you earned <1/>"
 msgstr "<0/> menyelesaikan kontrak, Anda memperoleh <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:666
+#: src/components/_user/notification/notification.frontConfig.tsx:667
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/> menaklukkan wilayah di <1/>"
 
@@ -251,12 +267,12 @@ msgstr "<0/> membuat percakapan"
 msgid "<0/> declared war on <1/>"
 msgstr "<0/> menyatakan perang terhadap <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:661
+#: src/components/_user/notification/notification.frontConfig.tsx:662
 msgid "<0/> defended in <1/>"
 msgstr "<0/> bertahan di <1/>"
 
 #. placeholder {0}: data.amount
-#: src/components/_user/notification/notification.frontConfig.tsx:1168
+#: src/components/_user/notification/notification.frontConfig.tsx:1169
 msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> menyumbang <1>{0}</1> kepada <2/>"
 
@@ -285,20 +301,20 @@ msgstr "<0/> mendanai pemberontakan di <1/> untuk <2/> melawan <3/>"
 msgid "<0/> gifted a sub to <1/>"
 msgstr "<0/> menghadiahkan langganan kepada <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1031
+#: src/components/_user/notification/notification.frontConfig.tsx:1032
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> menghadiahkanmu langganan premium!"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1478
+#: src/components/_user/notification/notification.frontConfig.tsx:1479
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "<0/> menghadiahkanmu banner \"{0}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1745
+#: src/components/_user/notification/notification.frontConfig.tsx:1759
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr "<0/> menghadiahkanmu skin \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1816
+#: src/components/_user/notification/notification.frontConfig.tsx:1830
 msgid "<0/> gifted you the skin pack \"{skinPackTitle}\"!"
 msgstr ""
 
@@ -306,11 +322,11 @@ msgstr ""
 msgid "<0/> got fee back"
 msgstr "<0/> menerima kembali biaya"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1331
+#: src/components/_user/notification/notification.frontConfig.tsx:1332
 msgid "<0/> has been created, it gonna start soon!"
 msgstr "<0/> sudah dibuat, akan segera dimulai!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:213
+#: src/components/_user/notification/notification.frontConfig.tsx:214
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> terpilih menjadi presiden <1/>"
 
@@ -371,11 +387,11 @@ msgstr "<0/> membebaskan <1/> dan mengembalikannya ke <2/>"
 msgid "<0/> has signed a defensive pact with <1/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:952
+#: src/components/_user/notification/notification.frontConfig.tsx:953
 msgid "<0/> has started a revolution in <1/>"
 msgstr "<0/> memulai revolusi di <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1344
+#: src/components/_user/notification/notification.frontConfig.tsx:1345
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> sudah dimulai! Saatnya pertempuran dimulai!"
 
@@ -388,7 +404,7 @@ msgstr "<0/> menumpas perlawanan di <1/>"
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
 msgstr "<0/> mentransfer <1>{0}</1> ke <2/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:908
+#: src/components/_user/notification/notification.frontConfig.tsx:909
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/> menyerang <1/> di <2/>"
 
@@ -396,7 +412,7 @@ msgstr "<0/> menyerang <1/> di <2/>"
 msgid "<0/> is attacking in <1/>"
 msgstr "<0/> menyerang di <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:894
+#: src/components/_user/notification/notification.frontConfig.tsx:895
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> menyerang negaramu di <1/>"
 
@@ -408,7 +424,7 @@ msgstr "<0/> bangkrut. Menghapus semua aliansi dan menonaktifkan semua peningkat
 msgid "<0/> is revolting in <1/>"
 msgstr "<0/> sedang memberontak di <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:923
+#: src/components/_user/notification/notification.frontConfig.tsx:924
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> sedang memberontak di <1/> melawan negaramu"
 
@@ -416,12 +432,12 @@ msgstr "<0/> sedang memberontak di <1/> melawan negaramu"
 msgid "<0/> joined the conversation"
 msgstr "<0/> bergabung ke percakapan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:549
+#: src/components/_user/notification/notification.frontConfig.tsx:550
 msgid "<0/> joined the game with your referral link!"
 msgstr "<0/> bergabung ke game lewat tautan referralmu!"
 
 #. placeholder {0}: data.wage
-#: src/components/_user/notification/notification.frontConfig.tsx:411
+#: src/components/_user/notification/notification.frontConfig.tsx:412
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> bergabung ke perusahaanmu <1/> dengan upah <2>{0}</2>"
 
@@ -430,7 +446,7 @@ msgid "<0/> kicked <1/> from the conversation"
 msgstr "<0/> mengeluarkan <1/> dari percakapan"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
-#: src/components/_user/notification/notification.frontConfig.tsx:427
+#: src/components/_user/notification/notification.frontConfig.tsx:428
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> meninggalkan pekerjaannya di perusahaan Anda {0}"
 
@@ -438,15 +454,15 @@ msgstr "<0/> meninggalkan pekerjaannya di perusahaan Anda {0}"
 msgid "<0/> left the conversation"
 msgstr "<0/> keluar dari percakapan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:758
+#: src/components/_user/notification/notification.frontConfig.tsx:759
 msgid "<0/> liked your article <1/>"
 msgstr "<0/> menyukai artikelmu <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:830
+#: src/components/_user/notification/notification.frontConfig.tsx:831
 msgid "<0/> liked your message <1/>"
 msgstr "<0/> menyukai pesanmu <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:821
+#: src/components/_user/notification/notification.frontConfig.tsx:822
 msgid "<0/> liked your message in <1/><2/>"
 msgstr ""
 
@@ -454,11 +470,11 @@ msgstr ""
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> berdamai dengan <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1219
+#: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1210
+#: src/components/_user/notification/notification.frontConfig.tsx:1211
 msgid "<0/> mentioned you in <1/><2/>"
 msgstr ""
 
@@ -482,26 +498,26 @@ msgstr ""
 msgid "<0/> proposed a new law: <1/>"
 msgstr "<0/> mengusulkan undang-undang baru: <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:742
+#: src/components/_user/notification/notification.frontConfig.tsx:743
 msgid "<0/> published a new article"
 msgstr "<0/> menerbitkan artikel baru"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:1195
+#: src/components/_user/notification/notification.frontConfig.tsx:1196
 msgid "<0/> reached level {0}!"
 msgstr "<0/> mencapai level {0}!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:560
+#: src/components/_user/notification/notification.frontConfig.tsx:561
 msgid "<0/> referred you to the game."
 msgstr "<0/> mengajakmu ke game."
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:866
+#: src/components/_user/notification/notification.frontConfig.tsx:867
 msgid "<0/> responded to your message {0}"
 msgstr "<0/> membalas pesanmu {0}"
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
-#: src/components/_user/notification/notification.frontConfig.tsx:857
+#: src/components/_user/notification/notification.frontConfig.tsx:858
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr ""
 
@@ -509,11 +525,11 @@ msgstr ""
 msgid "<0/> started, vote for your favorite candidate"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:807
+#: src/components/_user/notification/notification.frontConfig.tsx:808
 msgid "<0/> subscribed to you on your article <1/>"
 msgstr "<0/> berlangganan artikelmu <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:788
+#: src/components/_user/notification/notification.frontConfig.tsx:789
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> memberi tip untuk artikelmu <1/>"
 
@@ -538,7 +554,7 @@ msgid "<0/> was elected president of <1/>"
 msgstr "<0/> terpilih menjadi presiden <1/>"
 
 #. placeholder {0}: ts[data.governmentRole]
-#: src/components/_user/notification/notification.frontConfig.tsx:526
+#: src/components/_user/notification/notification.frontConfig.tsx:527
 msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> dinominasikan sebagai <1>{0}</1>"
 
@@ -547,7 +563,7 @@ msgstr "<0/> dinominasikan sebagai <1>{0}</1>"
 msgid "<0/> won round {0}"
 msgstr "<0/> memenangkan ronde {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1552
+#: src/components/_user/notification/notification.frontConfig.tsx:1553
 msgid "<0/> won the auction on a contract with <1/>"
 msgstr "<0/> memenangkan lelang kontrak dengan <1/>"
 
@@ -557,17 +573,17 @@ msgstr "<0/> memenangkan lelang kontrak dengan <1/>"
 msgid "<0/> won the battle ({0}-{1})"
 msgstr "<0/> memenangkan pertempuran ({0}-{1})"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:337
+#: src/components/_user/notification/notification.frontConfig.tsx:338
 msgid "<0/> won the primary election in <1/> and can now run for president!"
 msgstr "<0/> memenangkan pemilihan pendahuluan di <1/> dan sekarang bisa maju sebagai presiden!"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:625
+#: src/components/_user/notification/notification.frontConfig.tsx:626
 msgid "<0/> won the round <1>#{0}</1> in <2/>"
 msgstr "<0/> memenangkan ronde <1>#{0}</1> di <2/>"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:631
+#: src/components/_user/notification/notification.frontConfig.tsx:632
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> memenangkan ronde <1>#{0}</1> di <2/>!"
 
@@ -646,7 +662,7 @@ msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the 
 msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
-#: src/components/_user/notification/notification.frontConfig.tsx:1615
+#: src/components/_user/notification/notification.frontConfig.tsx:1616
 msgid "<0>{0}</0> fee returned to MU."
 msgstr "Biaya <0>{0}</0> dikembalikan ke MU."
 
@@ -718,7 +734,7 @@ msgid "<0>{0}</0> ground are required to win a round, points are gained every ti
 msgstr "Dibutuhkan <0>{0}</0> wilayah untuk memenangkan ronde; poin diperoleh setiap tick"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1607
+#: src/components/_user/notification/notification.frontConfig.tsx:1608
 msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> dikembalikan ke <1/>."
 
@@ -812,7 +828,7 @@ msgstr "<0>Ketidakstabilan</0> mewakili ketegangan internal di negara.<1/><2/>Wa
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
 msgstr "<0>Akunmu memerlukan verifikasi tambahan. Silakan verifikasi nomor teleponmu secepatnya agar kamu bisa terus menggunakan akun secara normal. Akun yang belum diverifikasi akan dibatasi aksesnya setelah 48 jam dan bisa ditangguhkan permanen setelah 5 hari.</0><1>Nomor telepon dienkripsi dan tidak terlihat oleh administrator mana pun.</1>"
 
-#: src/components/_layout/LayoutOptions.tsx:97
+#: src/components/_layout/LayoutOptions.tsx:99
 msgid "= consumes more power"
 msgstr ""
 
@@ -1337,9 +1353,13 @@ msgstr "Akun"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:84
+#: src/pages/country/[countryId]/government.tsx:79
 msgid "Actions"
 msgstr "Aksi"
+
+#: src/components/_user/user/Level.tsx:172
+msgid "activated"
+msgstr ""
 
 #: src/components/_military/battle/BattlesHeader.tsx:27
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
@@ -1393,7 +1413,7 @@ msgstr "Biaya tambahan"
 msgid "Admin"
 msgstr "Administrator"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2117
+#: src/components/_user/notification/notification.frontConfig.tsx:2131
 msgid "Admin notification"
 msgstr "Notifikasi admin"
 
@@ -1552,7 +1572,7 @@ msgstr "Penguji Alpha"
 msgid "Ammo"
 msgstr "Peluru"
 
-#: src/components/_user/user/SkillValue.tsx:136
+#: src/components/_user/user/SkillValue.tsx:166
 msgid "Ammo:"
 msgstr "Peluru:"
 
@@ -1574,7 +1594,7 @@ msgid "Amount of companies you can own"
 msgstr "Jumlah perusahaan yang bisa kamu miliki"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1587
+#: src/components/_user/notification/notification.frontConfig.tsx:1588
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr "Admin membatalkan kontrak. <0>{0}</0> dikembalikan ke <1/>."
 
@@ -1602,8 +1622,8 @@ msgstr "Email berisi kode verifikasi telah dikirim ke {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Avatar <0>GIF</0> animasi"
 
-#: src/pages/country/[countryId]/government.tsx:148
-msgid "Announcement"
+#: src/pages/country/[countryId]/government.tsx:136
+msgid "Announcements"
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:282
@@ -1638,7 +1658,7 @@ msgstr "Token API"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "Token API memungkinkan aplikasi eksternal mengakses API atas nama kamu. Gunakan token di header <0>X-API-Key</0>. Setiap token memiliki batas 200 request per menit."
 
-#: src/components/_layout/LayoutOptions.tsx:262
+#: src/components/_layout/LayoutOptions.tsx:269
 msgid "App pattern"
 msgstr "Pola aplikasi"
 
@@ -1675,11 +1695,11 @@ msgstr "Yakin ingin memecat pekerja ini?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Yakin ingin mengeluarkan anggota ini?"
 
-#: src/pages/country/[countryId]/government.tsx:112
+#: src/pages/country/[countryId]/government.tsx:107
 msgid "Are you sure you want to leave the congress?"
 msgstr "Yakin ingin keluar dari kongres?"
 
-#: src/pages/country/[countryId]/government.tsx:96
+#: src/pages/country/[countryId]/government.tsx:91
 msgid "Are you sure you want to leave the government?"
 msgstr "Yakin ingin keluar dari pemerintahan?"
 
@@ -1699,8 +1719,8 @@ msgstr "Yakin ingin menghapus semua order beli?"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Yakin ingin menghapus semua order jual?"
 
-#: src/pages/country/[countryId]/government.tsx:165
-msgid "Are you sure you want to remove this announcement?"
+#: src/components/_social/announcement/Announcement.tsx:133
+msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:105
@@ -1729,7 +1749,7 @@ msgstr "Zirah"
 msgid "Article ID"
 msgstr "ID artikel"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1978
+#: src/components/_user/notification/notification.frontConfig.tsx:1992
 msgid "Article liked"
 msgstr "Artikel disukai"
 
@@ -1737,8 +1757,8 @@ msgstr "Artikel disukai"
 msgid "Article Tip"
 msgstr "Tip artikel"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1980
-#: src/components/_user/notification/notification.frontConfig.tsx:1981
+#: src/components/_user/notification/notification.frontConfig.tsx:1994
+#: src/components/_user/notification/notification.frontConfig.tsx:1995
 msgid "Article tipped"
 msgstr "Artikel diberi tip"
 
@@ -1834,7 +1854,7 @@ msgstr "Penyerang"
 msgid "Auction Duration (minutes)"
 msgstr "Durasi lelang (menit)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2101
+#: src/components/_user/notification/notification.frontConfig.tsx:2115
 msgid "Auction Outbid"
 msgstr "Penawaran Anda dikalahkan"
 
@@ -1856,7 +1876,7 @@ msgstr "Autentikasi gagal. Silakan coba lagi."
 msgid "Auto approval"
 msgstr "Persetujuan otomatis"
 
-#: src/components/_layout/LayoutOptions.tsx:195
+#: src/components/_layout/LayoutOptions.tsx:202
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
@@ -1891,7 +1911,7 @@ msgstr ""
 msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:170
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:176
 msgid "Baby Boomer"
 msgstr "Generasi Baby Boomer"
 
@@ -1899,7 +1919,7 @@ msgstr "Generasi Baby Boomer"
 msgid "Badge won"
 msgstr "Lencana didapat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1929
+#: src/components/_user/notification/notification.frontConfig.tsx:1943
 msgid "Badge Won"
 msgstr "Lencana didapat"
 
@@ -1928,15 +1948,15 @@ msgstr "Bangkrut"
 msgid "Banned"
 msgstr "Diban"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1945
+#: src/components/_user/notification/notification.frontConfig.tsx:1959
 msgid "Banner Accepted!"
 msgstr "Banner diterima!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1942
+#: src/components/_user/notification/notification.frontConfig.tsx:1956
 msgid "Banner gift received"
 msgstr "Hadiah banner diterima"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1940
+#: src/components/_user/notification/notification.frontConfig.tsx:1954
 msgid "Banner gift sent"
 msgstr "Hadiah banner terkirim"
 
@@ -1984,7 +2004,7 @@ msgid "Battle damage bonus"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:65
-#: src/components/_user/notification/notification.frontConfig.tsx:2026
+#: src/components/_user/notification/notification.frontConfig.tsx:2040
 msgid "Battle ended"
 msgstr "Pertempuran selesai"
 
@@ -2039,11 +2059,11 @@ msgstr ""
 msgid "Battles"
 msgstr "Pertempuran"
 
-#: src/components/_layout/LayoutOptions.tsx:120
+#: src/components/_layout/LayoutOptions.tsx:122
 msgid "Battles on layout"
 msgstr "Pertempuran di tampilan"
 
-#: src/components/_layout/LayoutOptions.tsx:115
+#: src/components/_layout/LayoutOptions.tsx:117
 msgid "Battles on map"
 msgstr "Pertempuran di peta"
 
@@ -2060,7 +2080,7 @@ msgstr "Pertempuran dimenangkan"
 msgid "Become a Candidate"
 msgstr "Jadi kandidat"
 
-#: src/components/_layout/LayoutOptions.tsx:215
+#: src/components/_layout/LayoutOptions.tsx:222
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr ""
@@ -2085,7 +2105,7 @@ msgstr "Blokir (sembunyikan konten)"
 msgid "Blue Staff"
 msgstr "Tongkat Biru"
 
-#: src/components/_layout/LayoutOptions.tsx:156
+#: src/components/_layout/LayoutOptions.tsx:158
 msgid "Blur"
 msgstr ""
 
@@ -2149,19 +2169,19 @@ msgstr "Jelajahi paket"
 msgid "Budget"
 msgstr "Anggaran"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2106
+#: src/components/_user/notification/notification.frontConfig.tsx:2120
 msgid "Buff ended"
 msgstr "Buff berakhir"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2104
+#: src/components/_user/notification/notification.frontConfig.tsx:2118
 msgid "Buff expiring soon"
 msgstr "Buff akan segera berakhir"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2102
+#: src/components/_user/notification/notification.frontConfig.tsx:2116
 msgid "Buff started"
 msgstr "Buff dimulai"
 
-#: src/components/_user/user/SkillValue.tsx:168
+#: src/components/_user/user/SkillValue.tsx:198
 msgid "Buffs:"
 msgstr "Buff:"
 
@@ -2534,7 +2554,7 @@ msgstr "Colonel"
 msgid "Color scheme"
 msgstr "Skema warna"
 
-#: src/components/_layout/LayoutOptions.tsx:172
+#: src/components/_layout/LayoutOptions.tsx:174
 msgid "Colorblind mode"
 msgstr ""
 
@@ -2543,8 +2563,8 @@ msgstr ""
 msgid "Commander"
 msgstr "Commander"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1948
-#: src/components/_user/notification/notification.frontConfig.tsx:1961
+#: src/components/_user/notification/notification.frontConfig.tsx:1962
+#: src/components/_user/notification/notification.frontConfig.tsx:1975
 msgid "Commission earned"
 msgstr "Komisi didapat"
 
@@ -2552,7 +2572,7 @@ msgstr "Komisi didapat"
 msgid "Commodore"
 msgstr "Commodore"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:141
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:147
 msgid "Community"
 msgstr "Komunitas"
 
@@ -2623,43 +2643,43 @@ msgid "Congrats"
 msgstr "Selamat"
 
 #. placeholder {0}: data.level
-#: src/components/_user/notification/notification.frontConfig.tsx:396
+#: src/components/_user/notification/notification.frontConfig.tsx:397
 msgid "Congratulations, you leveled up to level {0}!"
 msgstr "Selamat, kamu naik ke level {0}!"
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:200
+#: src/components/_user/notification/notification.frontConfig.tsx:201
 msgid "Congratulations! You have been elected as the new congress member of {0}"
 msgstr "Selamat! Kamu terpilih sebagai anggota kongres baru {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:304
+#: src/components/_user/notification/notification.frontConfig.tsx:305
 msgid "Congratulations! You have been elected as the new leader of <0/>"
 msgstr "Selamat! Kamu terpilih sebagai pemimpin baru <0/>"
 
 #. placeholder {0}: data.countryName
-#: src/components/_user/notification/notification.frontConfig.tsx:195
+#: src/components/_user/notification/notification.frontConfig.tsx:196
 msgid "Congratulations! You have been elected as the new president of {0}"
 msgstr "Selamat! Kamu terpilih sebagai presiden baru {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:309
+#: src/components/_user/notification/notification.frontConfig.tsx:310
 msgid "Congratulations! You have been elected to the council of <0/>"
 msgstr "Selamat! Kamu terpilih menjadi anggota dewan <0/>"
 
 #. placeholder {0}: militaryRankingConfig[data.rank].percentDamages
-#: src/components/_user/notification/notification.frontConfig.tsx:1244
+#: src/components/_user/notification/notification.frontConfig.tsx:1245
 msgid "Congratulations! You have been promoted to <0/> with an attack bonus of <1>{0}</1>"
 msgstr "Selamat! Kamu dipromosikan menjadi <0/> dengan bonus serangan <1>{0}</1>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1433
+#: src/components/_user/notification/notification.frontConfig.tsx:1434
 msgid "Congratulations! You won the giveaway and received cases!"
 msgstr "Selamat! Kamu memenangkan giveaway dan menerima peti!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:353
-#: src/components/_user/notification/notification.frontConfig.tsx:1080
+#: src/components/_user/notification/notification.frontConfig.tsx:354
+#: src/components/_user/notification/notification.frontConfig.tsx:1081
 msgid "Congratulations! Your application to <0/> has been accepted"
 msgstr "Selamat! Permohonanmu ke <0/> telah diterima"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1312
+#: src/components/_user/notification/notification.frontConfig.tsx:1313
 msgid "Congratulations! Your team <0/> won the tournament <1/>!"
 msgstr "Selamat! Tim kamu <0/> memenangkan turnamen <1/>!"
 
@@ -2667,15 +2687,15 @@ msgstr "Selamat! Tim kamu <0/> memenangkan turnamen <1/>!"
 msgid "Congress election"
 msgstr "Pemilu kongres"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:140
+#: src/components/_user/notification/notification.frontConfig.tsx:141
 msgid "Congress election candidacy is now open in <0/>"
 msgstr "Pencalonan pemilu kongres kini dibuka di <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:180
+#: src/components/_user/notification/notification.frontConfig.tsx:181
 msgid "Congress election has ended in <0/>. Check the results!"
 msgstr "Pemilu kongres di <0/> telah berakhir. Cek hasilnya!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:160
+#: src/components/_user/notification/notification.frontConfig.tsx:161
 msgid "Congress election voting is now open in <0/>"
 msgstr "Voting pemilu kongres kini dibuka di <0/>"
 
@@ -2687,7 +2707,7 @@ msgstr "Pemilu kongres"
 msgid "Congress Member"
 msgstr "Anggota kongres"
 
-#: src/pages/country/[countryId]/government.tsx:75
+#: src/pages/country/[countryId]/government.tsx:70
 msgid "Congress members"
 msgstr "Anggota kongres"
 
@@ -2729,23 +2749,23 @@ msgstr "Dikonsumsi saat bertarung di pertempuran"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Mengonsumsinya meningkatkan <0>Serangan</0> kamu selama {0}j.<1/> Lalu menurunkan jumlah yang sama selama {1}j"
 
-#: src/components/_layout/LayoutOptions.tsx:125
+#: src/components/_layout/LayoutOptions.tsx:127
 msgid "Contextual borders"
 msgstr "Batas kontekstual"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2093
+#: src/components/_user/notification/notification.frontConfig.tsx:2107
 msgid "Contract cancelled"
 msgstr "Kontrak dibatalkan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2090
+#: src/components/_user/notification/notification.frontConfig.tsx:2104
 msgid "Contract completed"
 msgstr "Kontrak selesai"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2096
+#: src/components/_user/notification/notification.frontConfig.tsx:2110
 msgid "Contract expired"
 msgstr "Kontrak kedaluwarsa"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2099
+#: src/components/_user/notification/notification.frontConfig.tsx:2113
 msgid "Contract rolled back"
 msgstr "Kontrak dikembalikan"
 
@@ -2800,7 +2820,7 @@ msgstr "Wilayah inti"
 msgid "Corporal"
 msgstr "Corporal"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:223
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
 msgid "Council Member"
 msgstr "Anggota dewan"
 
@@ -2853,7 +2873,7 @@ msgid "Country Orders"
 msgstr "Perintah negara"
 
 #. placeholder {0}: data.partialPayout
-#: src/components/_user/notification/notification.frontConfig.tsx:1601
+#: src/components/_user/notification/notification.frontConfig.tsx:1602
 msgid "Country paid <0>{0}</0> for damages done."
 msgstr "Negara membayar <0>{0}</0> atas kerusakan yang ditimbulkan."
 
@@ -2869,7 +2889,7 @@ msgstr "Bonus produksi negara"
 msgid "Country to invite"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:181
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:187
 msgid "Country Tournament Winner"
 msgstr "Pemenang turnamen negara"
 
@@ -3011,7 +3031,7 @@ msgstr "Harian"
 msgid "Daily maintenance"
 msgstr "Perawatan harian"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2121
+#: src/components/_user/notification/notification.frontConfig.tsx:2135
 msgid "Daily Missions Reset"
 msgstr "Misi Harian Direset"
 
@@ -3062,7 +3082,7 @@ msgstr "Era Gelap"
 msgid "Dark Era Pack"
 msgstr "Paket Era Gelap"
 
-#: src/components/_layout/LayoutOptions.tsx:147
+#: src/components/_layout/LayoutOptions.tsx:149
 msgid "Dark map"
 msgstr "Peta gelap"
 
@@ -3118,11 +3138,11 @@ msgstr "Memberi lebih banyak damage"
 msgid "Deals some damages"
 msgstr "Memberi sedikit damage"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2107
+#: src/components/_user/notification/notification.frontConfig.tsx:2121
 msgid "Debuff ended"
 msgstr "Debuff berakhir"
 
-#: src/components/_user/user/SkillValue.tsx:200
+#: src/components/_user/user/SkillValue.tsx:230
 msgid "Debuffs:"
 msgstr "Debuff:"
 
@@ -3228,7 +3248,7 @@ msgstr "Turunkan jabatan komandan"
 msgid "Demote from Commander"
 msgstr "Turunkan dari komandan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2078
+#: src/components/_user/notification/notification.frontConfig.tsx:2092
 msgid "Demoted from Commander"
 msgstr "Diturunkan dari komandan"
 
@@ -3417,6 +3437,10 @@ msgstr "Naga"
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr ""
 
+#: src/components/_user/user/SkillUpgrade.tsx:293
+msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Eat"
 msgstr "Makan"
@@ -3450,7 +3474,7 @@ msgstr "UU ekonomi"
 msgid "Economic skills"
 msgstr "Skill ekonomi"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:154
+#: src/components/_user/notification/notificationPrefs.categories.ts:155
 msgid "Economy & Companies"
 msgstr "Ekonomi & Perusahaan"
 
@@ -3466,19 +3490,19 @@ msgstr "Edit deskripsi"
 msgid "Edit worker"
 msgstr "Edit pekerja"
 
-#: src/components/_user/user/SkillValue.tsx:230
+#: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
 msgstr "Efektif:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1985
+#: src/components/_user/notification/notification.frontConfig.tsx:1999
 msgid "Election candidacy open"
 msgstr "Pendaftaran kandidat pemilu dibuka"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1990
+#: src/components/_user/notification/notification.frontConfig.tsx:2004
 msgid "Election ended"
 msgstr "Pemilu berakhir"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1988
+#: src/components/_user/notification/notification.frontConfig.tsx:2002
 msgid "Election vote open"
 msgstr "Pemungutan suara dibuka"
 
@@ -3590,7 +3614,7 @@ msgid "Entrepreneurship"
 msgstr "Kewirausahaan"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:192
+#: src/components/_layout/LayoutOptions.tsx:199
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:92
@@ -3598,7 +3622,7 @@ msgstr "Kewirausahaan"
 msgid "Equipment"
 msgstr "Perlengkapan"
 
-#: src/components/_user/user/SkillValue.tsx:73
+#: src/components/_user/user/SkillValue.tsx:103
 msgid "Equipment:"
 msgstr "Perlengkapan:"
 
@@ -3668,11 +3692,12 @@ msgstr "Kedaluwarsa: tidak ada penawaran"
 msgid "Expired: round ended"
 msgstr "Kedaluwarsa: ronde telah berakhir"
 
+#: src/components/_social/announcement/Announcement.tsx:68
 #: src/pages/region/[regionId]/index.tsx:79
 msgid "Expires in"
 msgstr "Berakhir dalam"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:217
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:223
 msgid "Exploit Finder"
 msgstr "Pencari Eksploit"
 
@@ -3918,7 +3943,7 @@ msgstr "Pecat anggota pemerintahan"
 msgid "Fire worker?"
 msgstr "Pecat pekerja?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1997
+#: src/components/_user/notification/notification.frontConfig.tsx:2011
 msgid "Fired from government"
 msgstr "Dipecat dari pemerintahan"
 
@@ -3926,7 +3951,7 @@ msgstr "Dipecat dari pemerintahan"
 msgid "Fish"
 msgstr "Ikan"
 
-#: src/components/_layout/LayoutOptions.tsx:137
+#: src/components/_layout/LayoutOptions.tsx:139
 msgid "Flags"
 msgstr "Bendera"
 
@@ -3934,11 +3959,11 @@ msgstr "Bendera"
 msgid "Flail"
 msgstr "Gada Rantai"
 
-#: src/components/_layout/LayoutOptions.tsx:232
+#: src/components/_layout/LayoutOptions.tsx:239
 msgid "Font"
 msgstr "Jenis huruf"
 
-#: src/components/_layout/LayoutOptions.tsx:244
+#: src/components/_layout/LayoutOptions.tsx:251
 msgid "Font size"
 msgstr "Ukuran huruf"
 
@@ -3987,7 +4012,7 @@ msgstr ""
 msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:91
+#: src/components/_user/user/Level.tsx:109
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "Dapatkan <0>XP</0> dengan menyelesaikan misimu!"
 
@@ -4060,11 +4085,11 @@ msgstr "Serahkan kepemilikan"
 msgid "Give your token a descriptive name so you can identify it later."
 msgstr "Beri tokenmu nama yang jelas agar mudah dikenali nanti."
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:193
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:199
 msgid "Giveaway Winner"
 msgstr "Pemenang Giveaway"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2119
+#: src/components/_user/notification/notification.frontConfig.tsx:2133
 msgid "Giveaway Won!"
 msgstr "Giveaway Dimenangkan!"
 
@@ -4073,7 +4098,7 @@ msgstr "Giveaway Dimenangkan!"
 msgid "Gives <0>{0}</0>"
 msgstr "Memberi <0>{0}</0>"
 
-#: src/components/_layout/LayoutOptions.tsx:103
+#: src/components/_layout/LayoutOptions.tsx:105
 msgid "Globe (experimental)"
 msgstr "Globe (eksperimental)"
 
@@ -4103,11 +4128,11 @@ msgstr "Emas"
 msgid "Government"
 msgstr "Pemerintahan"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/components/_social/announcement/AnnouncementModal.tsx:46
 msgid "Government announcement"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:240
 msgid "Government Member"
 msgstr "Anggota pemerintahan"
 
@@ -4123,7 +4148,7 @@ msgstr "Gaji pemerintahan"
 msgid "Grain"
 msgstr "Gandum"
 
-#: src/components/_layout/LayoutOptions.tsx:110
+#: src/components/_layout/LayoutOptions.tsx:112
 msgid "Graticule"
 msgstr "Garis kisi"
 
@@ -4538,7 +4563,7 @@ msgstr "Makin lama makin baik… mungkin"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "Tidak akan menghasilkan produksi apa pun dan pekerjanya tidak bisa bekerja."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1970
+#: src/components/_user/notification/notification.frontConfig.tsx:1984
 msgid "Item bought"
 msgstr "Item dibeli"
 
@@ -4670,7 +4695,7 @@ msgstr "Pisau tidak memakai peluru"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Dapatkan <0>{count}</0> serangan kritikal"
 
-#: src/components/_layout/LayoutOptions.tsx:185
+#: src/components/_layout/LayoutOptions.tsx:192
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Bahasa"
@@ -4723,7 +4748,7 @@ msgid "Law failed"
 msgstr "UU gagal"
 
 #: src/components/_political/law/LawFormModal.tsx:76
-#: src/components/_user/notification/notification.frontConfig.tsx:1983
+#: src/components/_user/notification/notification.frontConfig.tsx:1997
 msgid "Law proposed"
 msgstr "UU diusulkan"
 
@@ -4763,13 +4788,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Keluar dari perusahaan?"
 
+#: src/pages/country/[countryId]/government.tsx:106
 #: src/pages/country/[countryId]/government.tsx:111
-#: src/pages/country/[countryId]/government.tsx:116
 msgid "Leave congress"
 msgstr "Keluar dari kongres"
 
+#: src/pages/country/[countryId]/government.tsx:90
 #: src/pages/country/[countryId]/government.tsx:95
-#: src/pages/country/[countryId]/government.tsx:100
 msgid "Leave government"
 msgstr "Keluar dari pemerintahan"
 
@@ -4819,7 +4844,7 @@ msgstr ""
 msgid "Level up your skills!"
 msgstr "Naikkan level skill-mu!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1930
+#: src/components/_user/notification/notification.frontConfig.tsx:1944
 msgid "Level up!"
 msgstr "Naik level!"
 
@@ -4873,11 +4898,11 @@ msgstr "Batu kapur"
 msgid "Limit of food consumption"
 msgstr "Batas konsumsi makanan"
 
-#: src/components/_user/user/SkillValue.tsx:88
+#: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
 msgstr "Terbatas:"
 
-#: src/components/_layout/LayoutOptions.tsx:274
+#: src/components/_layout/LayoutOptions.tsx:281
 msgid "Line"
 msgstr "Garis"
 
@@ -4890,6 +4915,8 @@ msgid "Livestock"
 msgstr "Ternak"
 
 #: ../__ui/src/components/LoadMoreButton/LoadMoreButton.tsx:29
+#: src/components/_social/announcement/AnnouncementComments.tsx:43
+#: src/components/_social/announcement/AnnouncementList.tsx:76
 msgid "Load more"
 msgstr "Muat lebih banyak"
 
@@ -4913,6 +4940,10 @@ msgstr "Memuat..."
 msgid "Location"
 msgstr "Lokasi"
 
+#: src/components/_user/user/SkillUpgrade.tsx:289
+msgid "Locked, reset your skills to reassign"
+msgstr ""
+
 #: src/components/_user/user/MyAvatar.tsx:60
 msgid "Logout"
 msgstr "Keluar"
@@ -4934,7 +4965,7 @@ msgstr "Jarahi peti"
 msgid "Loot chance"
 msgstr "Peluang jarahan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2046
+#: src/components/_user/notification/notification.frontConfig.tsx:2060
 msgid "Loot reward"
 msgstr "Hadiah jarahan"
 
@@ -4988,7 +5019,7 @@ msgid "map"
 msgstr "peta"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:108
-#: src/components/_layout/LayoutOptions.tsx:100
+#: src/components/_layout/LayoutOptions.tsx:102
 msgid "Map"
 msgstr ""
 
@@ -4997,7 +5028,7 @@ msgstr ""
 msgid "Map Accent"
 msgstr "Aksen Peta"
 
-#: src/components/_layout/LayoutOptions.tsx:142
+#: src/components/_layout/LayoutOptions.tsx:144
 msgid "Map icons"
 msgstr ""
 
@@ -5132,7 +5163,7 @@ msgstr "Anggota"
 msgid "Membership suspended"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2114
+#: src/components/_user/notification/notification.frontConfig.tsx:2128
 msgid "Mentioned in message"
 msgstr "Disebut dalam pesan"
 
@@ -5163,11 +5194,11 @@ msgstr "Reputasi tentara bayaran"
 msgid "Message (Optional)"
 msgstr "Pesan (Opsional)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2112
+#: src/components/_user/notification/notification.frontConfig.tsx:2126
 msgid "Message liked"
 msgstr "Pesan disukai"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:158
+#: src/components/_user/notification/notificationPrefs.categories.ts:159
 msgid "Military & Battles"
 msgstr "Militer & Pertempuran"
 
@@ -5190,11 +5221,11 @@ msgstr "UU militer"
 msgid "Military Rank"
 msgstr "Pangkat militer"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2025
+#: src/components/_user/notification/notification.frontConfig.tsx:2039
 msgid "Military Rank Up!"
 msgstr "Naik pangkat militer!"
 
-#: src/components/_user/user/SkillValue.tsx:184
+#: src/components/_user/user/SkillValue.tsx:214
 msgid "Military rank:"
 msgstr "Pangkat militer:"
 
@@ -5203,9 +5234,13 @@ msgid "Military Ranks"
 msgstr "Pangkat militer"
 
 #: src/components/_layout/MoreButtonNav.tsx:152
-#: src/components/_user/notification/notificationPrefs.categories.ts:159
+#: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Military Unit"
 msgstr "Unit militer"
+
+#: src/components/_social/announcement/AnnouncementModal.tsx:49
+msgid "Military unit announcement"
+msgstr ""
 
 #: src/components/_military/mu/MuFormModal.tsx:46
 msgid "Military unit created"
@@ -5242,7 +5277,7 @@ msgstr "Menteri Ekonomi"
 msgid "Minister of Foreign Affairs"
 msgstr "Menteri Luar Negeri"
 
-#: src/components/_layout/LayoutOptions.tsx:180
+#: src/components/_layout/LayoutOptions.tsx:182
 msgid "Mission tags"
 msgstr ""
 
@@ -5335,7 +5370,7 @@ msgstr "Pindahkan perusahaan"
 msgid "Move to top"
 msgstr "Pindahkan ke atas"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1966
+#: src/components/_user/notification/notification.frontConfig.tsx:1980
 msgid "Moved to a new company"
 msgstr "Dipindahkan ke perusahaan baru"
 
@@ -5344,19 +5379,19 @@ msgstr "Dipindahkan ke perusahaan baru"
 msgid "MU"
 msgstr "MU (Unit Militer)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2065
+#: src/components/_user/notification/notification.frontConfig.tsx:2079
 msgid "MU Application Accepted"
 msgstr "Lamaran MU diterima"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2062
+#: src/components/_user/notification/notification.frontConfig.tsx:2076
 msgid "MU Application Rejected"
 msgstr "Lamaran MU ditolak"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2084
+#: src/components/_user/notification/notification.frontConfig.tsx:2098
 msgid "MU Donation Received"
 msgstr "Donasi MU diterima"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2070
+#: src/components/_user/notification/notification.frontConfig.tsx:2084
 msgid "MU Level Up!"
 msgstr "MU naik level!"
 
@@ -5368,7 +5403,7 @@ msgstr "Level bulanan MU"
 msgid "MU Orders"
 msgstr "Perintah MU"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2081
+#: src/components/_user/notification/notification.frontConfig.tsx:2095
 msgid "MU Ownership Transferred"
 msgstr "Kepemilikan MU dipindahkan"
 
@@ -5377,7 +5412,7 @@ msgstr "Kepemilikan MU dipindahkan"
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "MU mencapai level {0}! Hadiah: {rewardDisplay}"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:187
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:193
 msgid "MU Tournament Winner"
 msgstr "Pemenang turnamen MU"
 
@@ -5480,15 +5515,15 @@ msgstr ""
 msgid "New API Token Created"
 msgstr "Token API baru dibuat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1977
+#: src/components/_user/notification/notification.frontConfig.tsx:1991
 msgid "New article"
 msgstr "Artikel baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1979
+#: src/components/_user/notification/notification.frontConfig.tsx:1993
 msgid "New comment"
 msgstr "Komentar baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2087
+#: src/components/_user/notification/notification.frontConfig.tsx:2101
 msgid "New contract accepted"
 msgstr "Kontrak baru diterima"
 
@@ -5518,7 +5553,7 @@ msgstr "Lokasi baru"
 msgid "New Mercenary Auction"
 msgstr "Lelang Tentara Bayaran Baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2108
+#: src/components/_user/notification/notification.frontConfig.tsx:2122
 msgid "New message"
 msgstr "Pesan baru"
 
@@ -5526,7 +5561,7 @@ msgstr "Pesan baru"
 msgid "New military unit"
 msgstr "Unit militer baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2068
+#: src/components/_user/notification/notification.frontConfig.tsx:2082
 msgid "New MU Application"
 msgstr "Lamaran MU baru"
 
@@ -5538,28 +5573,28 @@ msgstr "Nama baru"
 msgid "New nationality"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2020
+#: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
 msgstr "Pendaftaran Partai Baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2009
+#: src/components/_user/notification/notification.frontConfig.tsx:2023
 msgid "New Party Leader"
 msgstr "Ketua partai baru"
 
 #: src/components/_political/event/EventList.tsx:66
-#: src/components/_user/notification/notification.frontConfig.tsx:1992
+#: src/components/_user/notification/notification.frontConfig.tsx:2006
 msgid "New president"
 msgstr "Presiden baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2023
+#: src/components/_user/notification/notification.frontConfig.tsx:2037
 msgid "New referred user"
 msgstr "Pengguna referral baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2024
+#: src/components/_user/notification/notification.frontConfig.tsx:2038
 msgid "New referrer"
 msgstr "Referrer Baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1982
+#: src/components/_user/notification/notification.frontConfig.tsx:1996
 msgid "New subscriber"
 msgstr "Pelanggan baru"
 
@@ -5567,7 +5602,7 @@ msgstr "Pelanggan baru"
 msgid "New supporters"
 msgstr "Supporter baru"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1963
+#: src/components/_user/notification/notification.frontConfig.tsx:1977
 msgid "New worker"
 msgstr "Pekerja baru"
 
@@ -5587,6 +5622,10 @@ msgstr "Yang berikutnya pasti tank"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:23
 msgid "Next one will be tank"
 msgstr "Yang berikutnya pasti tank"
+
+#: src/components/_user/user/SkillUpgrade.tsx:272
+msgid "Next point costs"
+msgstr ""
 
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
@@ -5636,6 +5675,10 @@ msgstr ""
 msgid "No alliance laws yet"
 msgstr ""
 
+#: src/components/_social/announcement/AnnouncementList.tsx:57
+msgid "No announcement yet"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
 msgstr "Belum ada token API. Buat satu untuk mulai."
@@ -5656,7 +5699,7 @@ msgstr "Tidak ada tawaran saat ini"
 msgid "No citizens"
 msgstr "Tidak ada warga"
 
-#: src/pages/country/[countryId]/government.tsx:200
+#: src/pages/country/[countryId]/government.tsx:156
 msgid "No congress members"
 msgstr "Tidak ada anggota kongres"
 
@@ -5736,6 +5779,10 @@ msgstr "Tidak ada order"
 msgid "No parties found"
 msgstr "Partai tidak ditemukan"
 
+#: src/components/_user/user/SkillUpgrade.tsx:287
+msgid "No prestige points left, tap to reset staged points"
+msgstr ""
+
 #: src/pages/country/[countryId]/index.tsx:382
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Tidak ada bonus produksi dari sumber daya. Negara ini tidak punya spesialisasi."
@@ -5795,7 +5842,7 @@ msgstr ""
 msgid "Nominate leader"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1994
+#: src/components/_user/notification/notification.frontConfig.tsx:2008
 msgid "Nominated at government"
 msgstr "Dinominasikan di pemerintahan"
 
@@ -5984,7 +6031,7 @@ msgid "Orders cancelled"
 msgstr "Order dibatalkan"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
-#: src/components/_user/notification/notificationPrefs.categories.ts:160
+#: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
 msgstr "Lainnya"
 
@@ -5998,7 +6045,7 @@ msgstr "Hasil"
 msgid "Overall"
 msgstr "Keseluruhan"
 
-#: src/components/_user/user/SkillValue.tsx:152
+#: src/components/_user/user/SkillValue.tsx:182
 msgid "Overflow:"
 msgstr "Kelebihan:"
 
@@ -6018,7 +6065,7 @@ msgstr "Unit militer yang dimiliki"
 msgid "Owner"
 msgstr "Pemilik"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1150
+#: src/components/_user/notification/notification.frontConfig.tsx:1151
 msgid "Ownership of <0/> has been transferred from <1/> to <2/>"
 msgstr "Kepemilikan <0/> telah dipindahkan dari <1/> ke <2/>"
 
@@ -6071,16 +6118,16 @@ msgstr "Partai"
 
 #: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:142
-#: src/components/_user/notification/notificationPrefs.categories.ts:157
+#: src/components/_user/notification/notificationPrefs.categories.ts:158
 #: src/pages/user/[userId]/index.tsx:176
 msgid "Party"
 msgstr "Partai"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2014
+#: src/components/_user/notification/notification.frontConfig.tsx:2028
 msgid "Party Application Accepted"
 msgstr "Lamaran partai diterima"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2017
+#: src/components/_user/notification/notification.frontConfig.tsx:2031
 msgid "Party Application Rejected"
 msgstr "Lamaran partai ditolak"
 
@@ -6088,15 +6135,15 @@ msgstr "Lamaran partai ditolak"
 msgid "Party Council election"
 msgstr "Pemilu Dewan Partai"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:239
+#: src/components/_user/notification/notification.frontConfig.tsx:240
 msgid "Party Council election candidacy is now open in <0/>"
 msgstr "Pencalonan Pemilu Dewan Partai kini dibuka di <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:289
+#: src/components/_user/notification/notification.frontConfig.tsx:290
 msgid "Party Council election has ended in <0/>. Check the results!"
 msgstr "Pemilu Dewan Partai berakhir di <0/>. Cek hasilnya!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:264
+#: src/components/_user/notification/notification.frontConfig.tsx:265
 msgid "Party Council election voting is now open in <0/>"
 msgstr "Pemungutan suara Pemilu Dewan Partai kini dibuka di <0/>"
 
@@ -6104,15 +6151,15 @@ msgstr "Pemungutan suara Pemilu Dewan Partai kini dibuka di <0/>"
 msgid "Party created"
 msgstr "Partai dibuat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2000
+#: src/components/_user/notification/notification.frontConfig.tsx:2014
 msgid "Party election candidacy open"
 msgstr "Pendaftaran kandidat pemilu partai dibuka"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2006
+#: src/components/_user/notification/notification.frontConfig.tsx:2020
 msgid "Party election ended"
 msgstr "Pemilu partai berakhir"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2003
+#: src/components/_user/notification/notification.frontConfig.tsx:2017
 msgid "Party election vote open"
 msgstr "Pemungutan suara pemilu partai dibuka"
 
@@ -6120,33 +6167,37 @@ msgstr "Pemungutan suara pemilu partai dibuka"
 msgid "Party Leader election"
 msgstr "Pemilu Ketua Partai"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:229
+#: src/components/_user/notification/notification.frontConfig.tsx:230
 msgid "Party Leader election candidacy is now open in <0/>"
 msgstr "Pencalonan Pemilu Ketua Partai kini dibuka di <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:279
+#: src/components/_user/notification/notification.frontConfig.tsx:280
 msgid "Party Leader election has ended in <0/>. Check the results!"
 msgstr "Pemilu Ketua Partai berakhir di <0/>. Cek hasilnya!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:254
+#: src/components/_user/notification/notification.frontConfig.tsx:255
 msgid "Party Leader election voting is now open in <0/>"
 msgstr "Pemungutan suara Pemilu Ketua Partai kini dibuka di <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:234
+#: src/components/_user/notification/notification.frontConfig.tsx:235
 msgid "Party Primary election candidacy is now open in <0/>"
 msgstr "Pencalonan Pemilu Pendahuluan Partai kini dibuka di <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:284
+#: src/components/_user/notification/notification.frontConfig.tsx:285
 msgid "Party Primary election has ended in <0/>. Check the results!"
 msgstr "Pemilu Pendahuluan Partai berakhir di <0/>. Cek hasilnya!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:259
+#: src/components/_user/notification/notification.frontConfig.tsx:260
 msgid "Party Primary election voting is now open in <0/>"
 msgstr "Pemungutan suara Pemilu Pendahuluan Partai kini dibuka di <0/>"
 
 #: src/components/_political/election/CandidateFormModal.tsx:71
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Tempelkan tautan artikel kampanyemu, atau biarkan kosong."
+
+#: src/components/_user/user/Level.tsx:168
+msgid "Paused at max level"
+msgstr ""
 
 #: src/pages/shop/index.tsx:45
 msgid "Payment successful! Thanks for supporting the game <3"
@@ -6247,16 +6298,16 @@ msgstr "Mosi politik"
 msgid "Political Take Overs (PTOs) are permitted, but misusing it to extract a country's resources for personal/another country's gain, to damage the country or to intentionally distort market conditions is a punishable offense, which will include fines, bans, and removal from government roles. This goes for Military Units as well."
 msgstr ""
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:156
+#: src/components/_user/notification/notificationPrefs.categories.ts:157
 msgid "Politics & Government"
 msgstr "Politik & Pemerintahan"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:199
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:205
 msgid "Popular Article"
 msgstr "Artikel Populer"
 
-#: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:177
+#: src/components/_social/announcement/AnnouncementFormModal.tsx:21
+#: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
 msgstr ""
 
@@ -6273,27 +6324,27 @@ msgstr ""
 msgid "Premium"
 msgstr "Fitur Premium"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:153
+#: src/components/_user/notification/notificationPrefs.categories.ts:154
 msgid "Premium & Gifts"
 msgstr "Premium & Hadiah"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1931
+#: src/components/_user/notification/notification.frontConfig.tsx:1945
 msgid "Premium activated"
 msgstr "Premium diaktifkan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1932
+#: src/components/_user/notification/notification.frontConfig.tsx:1946
 msgid "Premium expired"
 msgstr "Premium kedaluwarsa"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1938
+#: src/components/_user/notification/notification.frontConfig.tsx:1952
 msgid "Premium gift expired"
 msgstr "Hadiah premium kedaluwarsa"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1935
+#: src/components/_user/notification/notification.frontConfig.tsx:1949
 msgid "Premium gift received"
 msgstr "Hadiah premium diterima"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1933
+#: src/components/_user/notification/notification.frontConfig.tsx:1947
 msgid "Premium gift sent"
 msgstr "Hadiah premium dikirim"
 
@@ -6310,21 +6361,38 @@ msgstr "Presiden"
 msgid "Presidential election"
 msgstr "Pemilu Presiden"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:135
+#: src/components/_user/notification/notification.frontConfig.tsx:136
 msgid "Presidential election candidacy is now open in <0/>"
 msgstr "Pencalonan Pemilu Presiden kini dibuka di <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:175
+#: src/components/_user/notification/notification.frontConfig.tsx:176
 msgid "Presidential election has ended in <0/>. Check the results!"
 msgstr "Pemilu Presiden berakhir di <0/>. Cek hasilnya!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:155
+#: src/components/_user/notification/notification.frontConfig.tsx:156
 msgid "Presidential election voting is now open in <0/>"
 msgstr "Pemungutan suara Pemilu Presiden kini dibuka di <0/>"
 
 #: src/pages/country/[countryId]/elections.tsx:56
 msgid "Presidential elections"
 msgstr "Pemilu Presiden"
+
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
+#: src/pages/user/[userId]/skills.tsx:193
+msgid "Prestige"
+msgstr ""
+
+#: src/components/_user/user/Level.tsx:179
+msgid "Prestige to drop levels and re-activate your XP bonus."
+msgstr ""
+
+#: src/components/_user/user/SkillValue.tsx:72
+msgid "Prestige:"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:2140
+msgid "Prestige!"
+msgstr ""
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
 msgid "Price auto-matches existing orders"
@@ -6334,7 +6402,7 @@ msgstr ""
 msgid "Primary election"
 msgstr "Pemilu Pendahuluan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2011
+#: src/components/_user/notification/notification.frontConfig.tsx:2025
 msgid "Primary Election Ended"
 msgstr "Pemilu Pendahuluan Berakhir"
 
@@ -6397,11 +6465,11 @@ msgstr "Bonus produksi"
 msgid "Production bonus:"
 msgstr "Bonus produksi:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:577
+#: src/components/_user/notification/notification.frontConfig.tsx:578
 msgid "Production in<0/> is full, you should start production!"
 msgstr "Produksi di<0/> sudah penuh, kamu harus mulai produksi!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1972
+#: src/components/_user/notification/notification.frontConfig.tsx:1986
 msgid "Production is full"
 msgstr "Produksi sudah penuh"
 
@@ -6422,7 +6490,7 @@ msgstr "Profil"
 msgid "Promote to Commander"
 msgstr "Promosikan jadi komandan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2075
+#: src/components/_user/notification/notification.frontConfig.tsx:2089
 msgid "Promoted to Commander"
 msgstr "Dipromosikan jadi komandan"
 
@@ -6527,7 +6595,7 @@ msgstr "Bongkar item dengan cepat"
 msgid "Ranking"
 msgstr "Peringkat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2022
+#: src/components/_user/notification/notification.frontConfig.tsx:2036
 msgid "Ranking reward"
 msgstr "Hadiah peringkat"
 
@@ -6587,7 +6655,7 @@ msgid "Reach Military Rank 5"
 msgstr "Capai pangkat militer 5"
 
 #. placeholder {0}: leveling.level + 1
-#: src/components/_user/user/Level.tsx:111
+#: src/components/_user/user/Level.tsx:129
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "Mencapai level {0} akan memberimu <0>{nextLevelSkillPoints} Poin Skill</0>."
 
@@ -6692,7 +6760,7 @@ msgstr "Wilayah"
 msgid "Region buy offer"
 msgstr "Penawaran pembelian wilayah"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2038
+#: src/components/_user/notification/notification.frontConfig.tsx:2052
 msgid "Region is revolting!"
 msgstr "Wilayah sedang memberontak!"
 
@@ -6793,8 +6861,8 @@ msgstr "Hapus semua"
 msgid "Remove an inactive congress member from its position"
 msgstr "Copot anggota kongres yang tidak aktif dari jabatannya"
 
-#: src/pages/country/[countryId]/government.tsx:164
-#: src/pages/country/[countryId]/government.tsx:169
+#: src/components/_social/announcement/Announcement.tsx:125
+#: src/components/_social/announcement/Announcement.tsx:132
 msgid "Remove announcement"
 msgstr ""
 
@@ -6824,7 +6892,7 @@ msgstr "Hapus musuh"
 msgid "Remove the current party leader from their position"
 msgstr "Copot ketua partai saat ini dari jabatannya"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2072
+#: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Removed from Military Unit"
 msgstr "Dikeluarkan dari Unit Militer"
 
@@ -6905,7 +6973,7 @@ msgstr "Permintaan:"
 msgid "Reroll Mission"
 msgstr "Acak ulang misi"
 
-#: src/pages/user/[userId]/skills.tsx:167
+#: src/pages/user/[userId]/skills.tsx:205
 msgid "Reset"
 msgstr "Atur ulang"
 
@@ -6954,7 +7022,7 @@ msgstr "Sumber daya"
 msgid "Resources reshuffled"
 msgstr "Sumber daya diacak ulang"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2110
+#: src/components/_user/notification/notification.frontConfig.tsx:2124
 msgid "Response to message"
 msgstr "Balasan pesan"
 
@@ -6970,7 +7038,7 @@ msgstr "Kembalikan wilayah ke negara asalnya"
 msgid "Revoke API token?"
 msgstr "Cabut token API?"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2041
+#: src/components/_user/notification/notification.frontConfig.tsx:2055
 msgid "Revolt started!"
 msgstr "Pemberontakan dimulai!"
 
@@ -6986,7 +7054,7 @@ msgstr "Revolusi berakhir"
 msgid "Revolution started"
 msgstr "Revolusi dimulai"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2044
+#: src/components/_user/notification/notification.frontConfig.tsx:2058
 msgid "Revolution started!"
 msgstr "Revolusi dimulai!"
 
@@ -7035,15 +7103,15 @@ msgid "Round #{0}"
 msgstr "Ronde #{0}"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_user/notification/notification.frontConfig.tsx:646
+#: src/components/_user/notification/notification.frontConfig.tsx:647
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
 msgstr "Ronde <0>#{0}</0> di <1/> akan segera berakhir!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2029
+#: src/components/_user/notification/notification.frontConfig.tsx:2043
 msgid "Round about to end"
 msgstr "Ronde akan berakhir"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2027
+#: src/components/_user/notification/notification.frontConfig.tsx:2041
 msgid "Round ended"
 msgstr "Ronde berakhir"
 
@@ -7088,7 +7156,7 @@ msgstr "Nyawa mulai menipis?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:249
 msgid "Save"
 msgstr "Simpan"
 
@@ -7389,7 +7457,7 @@ msgstr "Pihak"
 msgid "Skill issue?"
 msgstr "Kurang skill?"
 
-#: src/components/_user/user/SkillValue.tsx:45
+#: src/components/_user/user/SkillValue.tsx:59
 msgid "Skill upgrade:"
 msgstr "Peningkatan skill:"
 
@@ -7403,19 +7471,19 @@ msgstr "Keterampilan"
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Skill membuatmu lebih kuat. Ayo tingkatkan kemampuanmu!"
 
-#: src/pages/user/[userId]/skills.tsx:56
+#: src/pages/user/[userId]/skills.tsx:59
 msgid "Skills saved!"
 msgstr "Skill tersimpan!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1952
+#: src/components/_user/notification/notification.frontConfig.tsx:1966
 msgid "Skin gift received"
 msgstr "Hadiah skin diterima"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1950
+#: src/components/_user/notification/notification.frontConfig.tsx:1964
 msgid "Skin gift sent"
 msgstr "Hadiah skin terkirim"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1955
+#: src/components/_user/notification/notification.frontConfig.tsx:1969
 msgid "Skin pack gift sent"
 msgstr "Hadiah paket skin terkirim"
 
@@ -7427,7 +7495,7 @@ msgstr "Paket skin terbuka! Semua skin dipakai!"
 msgid "Skin Packs"
 msgstr "Paket Skin"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2126
+#: src/components/_user/notification/notification.frontConfig.tsx:2141
 msgid "Skin Reward"
 msgstr "Hadiah Skin"
 
@@ -7449,11 +7517,15 @@ msgstr "Lewati Tutorial"
 msgid "Sling Stones"
 msgstr ""
 
+#: src/components/_layout/LayoutOptions.tsx:187
+msgid "Small GIFs"
+msgstr ""
+
 #: src/utils/translations.tsx:25
 msgid "Sniper"
 msgstr "Penembak jitu"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:155
+#: src/components/_user/notification/notificationPrefs.categories.ts:156
 msgid "Social & Messages"
 msgstr "Sosial & Pesan"
 
@@ -7461,7 +7533,7 @@ msgstr "Sosial & Pesan"
 msgid "Some of your companies are disabled."
 msgstr "Beberapa perusahaanmu dinonaktifkan."
 
-#: src/components/_layout/LayoutOptions.tsx:164
+#: src/components/_layout/LayoutOptions.tsx:166
 msgid "Sound effects"
 msgstr "Efek suara"
 
@@ -7491,6 +7563,10 @@ msgstr "Pengeluaran"
 
 #: src/components/_political/country/CountryHeader.tsx:187
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
+msgstr ""
+
+#: src/components/_user/user/SkillUpgrade.tsx:268
+msgid "Stage a prestige point on this skill (applied on save, reset on skill reset)"
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:169
@@ -7621,7 +7697,7 @@ msgstr "Sumber daya strategis telah diacak ulang di seluruh peta."
 msgid "Subscribed"
 msgstr "Berlangganan"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:142
 msgid "Subscribed and supported the game <3"
 msgstr "Berlangganan dan mendukung game <3"
 
@@ -7633,7 +7709,7 @@ msgstr "Pelanggan"
 msgid "Successfully logged in!"
 msgstr "Berhasil masuk!"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:165
 msgid "Sugar Daddy"
 msgstr "Sultan Dermawan"
 
@@ -7651,7 +7727,7 @@ msgstr "Dukung kami"
 
 #: src/components/_economy/work/WorkChart.tsx:291
 #: src/components/_ui/PremiumButtonTag.tsx:22
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:141
 msgid "Supporter"
 msgstr "Supporter"
 
@@ -7662,7 +7738,7 @@ msgstr "Supporter"
 msgid "Supporter feature"
 msgstr "Fitur supporter"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:151
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:157
 msgid "Supporter Gift"
 msgstr "Hadiah Supporter"
 
@@ -7769,7 +7845,7 @@ msgstr "Ketentuan"
 msgid "Terms of Service"
 msgstr "Ketentuan Layanan"
 
-#: src/components/_layout/LayoutOptions.tsx:285
+#: src/components/_layout/LayoutOptions.tsx:292
 msgid "Texture"
 msgstr "Tekstur"
 
@@ -7798,12 +7874,12 @@ msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the gover
 msgstr "Perang saudara yang dimulai oleh <0/> di <1/> berhasil melawan <2/> dan pemerintahannya telah digulingkan."
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1639
+#: src/components/_user/notification/notification.frontConfig.tsx:1640
 msgid "The contract for <0/> has expired. <1>{0}</1> returned to <2/>."
 msgstr "Kontrak untuk <0/> telah berakhir. <1>{0}</1> dikembalikan ke <2/>."
 
 #. placeholder {0}: data.moneyRolledBack
-#: src/components/_user/notification/notification.frontConfig.tsx:1657
+#: src/components/_user/notification/notification.frontConfig.tsx:1658
 msgid "The contract has been rolled back. <0>{0}</0> sent back to <1/>."
 msgstr "Kontrak telah dibatalkan. <0>{0}</0> dikirim kembali ke <1/>."
 
@@ -7823,7 +7899,7 @@ msgstr "Deposit memberi bonus produksi dengan persentase berikut."
 msgid "The deposit will expire in the following amount of time."
 msgstr "Deposit akan kedaluwarsa dalam waktu berikut."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:715
+#: src/components/_user/notification/notification.frontConfig.tsx:716
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Efek buff yang kamu konsumsi sudah berakhir. Fase debuff telah dimulai dan akan berlangsung <0>{debuffDuration}h</0>."
 
@@ -7849,7 +7925,7 @@ msgstr "Revolusi di <0/> berhasil! Pemerintahan telah digulingkan."
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Sumber daya strategis akan diacak ulang dalam waktu berikut."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1357
+#: src/components/_user/notification/notification.frontConfig.tsx:1358
 msgid "The tournament has ended for your team <0/>. Check the results!"
 msgstr "Turnamen untuk timmu <0/> telah berakhir. Cek hasilnya!"
 
@@ -8128,7 +8204,7 @@ msgstr "Total hadiah"
 
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
-#: src/components/_user/user/SkillValue.tsx:215
+#: src/components/_user/user/SkillValue.tsx:245
 msgid "Total:"
 msgstr "Total:"
 
@@ -8142,31 +8218,31 @@ msgstr "Turnamen"
 msgid "Tournament battle for {tournamentName} {score}"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2052
+#: src/components/_user/notification/notification.frontConfig.tsx:2066
 msgid "Tournament Created"
 msgstr "Turnamen Dibuat"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2059
+#: src/components/_user/notification/notification.frontConfig.tsx:2073
 msgid "Tournament Eliminated"
 msgstr "Tersingkir dari Turnamen"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2057
+#: src/components/_user/notification/notification.frontConfig.tsx:2071
 msgid "Tournament Ended"
 msgstr "Turnamen Berakhir"
 
-#: src/components/_user/user/SkillValue.tsx:116
+#: src/components/_user/user/SkillValue.tsx:146
 msgid "Tournament reward:"
 msgstr "Hadiah turnamen:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2048
+#: src/components/_user/notification/notification.frontConfig.tsx:2062
 msgid "Tournament round won!"
 msgstr "Anda memenangkan ronde turnamen!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2055
+#: src/components/_user/notification/notification.frontConfig.tsx:2069
 msgid "Tournament Started"
 msgstr "Turnamen Dimulai"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2050
+#: src/components/_user/notification/notification.frontConfig.tsx:2064
 msgid "Tournament Won!"
 msgstr "Menang Turnamen!"
 
@@ -8175,7 +8251,7 @@ msgstr "Menang Turnamen!"
 msgid "Trading"
 msgstr "Perdagangan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1975
+#: src/components/_user/notification/notification.frontConfig.tsx:1989
 msgid "Trading transaction"
 msgstr "Transaksi perdagangan"
 
@@ -8210,7 +8286,7 @@ msgstr "Alihkan kepemilikan"
 msgid "Transfer to company (optional)"
 msgstr "Transfer ke perusahaan (opsional)"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:209
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:215
 msgid "Translator"
 msgstr "Penerjemah"
 
@@ -8234,7 +8310,7 @@ msgstr "Tutorials have been reset"
 msgid "Tyrannosaurus Rex"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:153
+#: src/components/_layout/LayoutOptions.tsx:155
 msgid "UI"
 msgstr ""
 
@@ -8290,7 +8366,7 @@ msgstr "Buka tombol \"Bantu semua\""
 msgid "Unlock Produce all button"
 msgstr "Buka tombol \"Produksi semua\""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1958
+#: src/components/_user/notification/notification.frontConfig.tsx:1972
 msgid "Unlocked pack"
 msgstr "Paket sudah dibuka"
 
@@ -8367,7 +8443,7 @@ msgstr "Upgrade ke Supporter"
 msgid "Upgrade your skills <0>{count}</0> times"
 msgstr "Tingkatkan skillmu <0>{count}</0> kali"
 
-#: src/pages/user/[userId]/skills.tsx:149
+#: src/pages/user/[userId]/skills.tsx:173
 msgid "Upgrade your skills!"
 msgstr "Tingkatkan skillmu!"
 
@@ -8450,7 +8526,7 @@ msgstr "Digunakan untuk meng-upgrade perusahaan, MU, dan benteng"
 msgid "user"
 msgstr "pengguna"
 
-#: src/components/_user/notification/notificationPrefs.categories.ts:152
+#: src/components/_user/notification/notificationPrefs.categories.ts:153
 msgid "User & Progression"
 msgstr "Pengguna & Progres"
 
@@ -8605,6 +8681,10 @@ msgstr "Lihat detail"
 msgid "View on map"
 msgstr "Lihat di peta"
 
+#: src/components/_social/announcement/Announcement.tsx:59
+msgid "Views"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
 msgstr "Pemilih"
@@ -8618,7 +8698,7 @@ msgstr "VS"
 msgid "Wage"
 msgstr "Upah"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1968
+#: src/components/_user/notification/notification.frontConfig.tsx:1982
 msgid "Wage changed"
 msgstr "Upah berubah"
 
@@ -8634,7 +8714,7 @@ msgstr "Upah per produksi"
 msgid "Wage reduction accepted."
 msgstr "Pengurangan upah diterima."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1969
+#: src/components/_user/notification/notification.frontConfig.tsx:1983
 #: src/components/_user/worker/WageReductionAlert.tsx:66
 msgid "Wage reduction proposed"
 msgstr "Pengurangan upah diusulkan"
@@ -8690,7 +8770,7 @@ msgstr "Kekayaan"
 msgid "Weapon"
 msgstr "Senjata"
 
-#: src/components/_user/user/SkillValue.tsx:58
+#: src/components/_user/user/SkillValue.tsx:88
 msgid "Weapon:"
 msgstr "Senjata:"
 
@@ -8711,7 +8791,7 @@ msgstr "Saldo mingguan"
 msgid "Weekly damages"
 msgstr "Damage mingguan"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2124
+#: src/components/_user/notification/notification.frontConfig.tsx:2138
 msgid "Weekly Missions Reset"
 msgstr "Misi mingguan direset"
 
@@ -8812,7 +8892,7 @@ msgstr "Kerja dan dapatkan uang!"
 msgid "Worker fired!"
 msgstr "Pekerja dipecat!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1964
+#: src/components/_user/notification/notification.frontConfig.tsx:1978
 msgid "Worker left"
 msgstr "Pekerja keluar"
 
@@ -8833,7 +8913,7 @@ msgstr "Bekerja untuk orang lain adalah cara yang bagus untuk dapat uang saat ba
 msgid "World <0/>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:227
+#: src/components/_layout/LayoutOptions.tsx:234
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr ""
@@ -8905,11 +8985,11 @@ msgstr "Kamu tidak berpartisipasi"
 msgid "You are very skilled!"
 msgstr "Kamu jago banget!"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:225
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "You are/were a council member, sharing ideas and feedback to improve the game <3"
 msgstr "Kamu adalah/pernah menjadi anggota dewan, berbagi ide dan masukan untuk meningkatkan game <3"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:143
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:149
 msgid "You are/were a part of the staff and helped the game to grow <3"
 msgstr "Kamu adalah/pernah menjadi bagian dari staf dan membantu game ini berkembang <3"
 
@@ -8917,7 +8997,7 @@ msgstr "Kamu adalah/pernah menjadi bagian dari staf dan membantu game ini berkem
 msgid "You bought a coffee for the dev <3"
 msgstr "Kamu membelikan kopi untuk dev <3"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:593
+#: src/components/_user/notification/notification.frontConfig.tsx:594
 msgid "You bought items."
 msgstr "Kamu membeli item."
 
@@ -8926,7 +9006,7 @@ msgid "You broke the rng"
 msgstr "Kamu merusak RNG"
 
 #. placeholder {0}: staticGameConfig.referral.levelNeededForBadge
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:172
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:178
 msgid "You brought 10 babies to the world (>= lvl {0})"
 msgstr "Anda telah merekrut 10 pemain baru (>= lvl {0})"
 
@@ -8938,7 +9018,7 @@ msgstr "Kamu bisa membongkar item dari inventarismu dengan memilih sebuah item."
 msgid "You can optionally link a campaign article to your candidacy."
 msgstr "Kamu bisa (opsional) menautkan artikel kampanye ke pencalonanmu."
 
-#: src/components/_user/user/Level.tsx:85
+#: src/components/_user/user/Level.tsx:103
 msgid "You can upgrade your skills!"
 msgstr "Kamu bisa meningkatkan skillmu!"
 
@@ -8950,23 +9030,23 @@ msgstr "Kamu tidak bisa mengajukan kewarganegaraan jika punya jabatan pemerintah
 msgid "You don't have permission to view applications."
 msgstr "Kamu tidak punya izin untuk melihat pengajuan."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1524
+#: src/components/_user/notification/notification.frontConfig.tsx:1525
 msgid "You earned gems from a banner sale!"
 msgstr "Kamu mendapatkan permata dari penjualan banner!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1876
+#: src/components/_user/notification/notification.frontConfig.tsx:1890
 msgid "You earned gems from a sale of \"{skinTitle}\"!"
 msgstr "Kamu mendapatkan permata dari penjualan \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1878
+#: src/components/_user/notification/notification.frontConfig.tsx:1892
 msgid "You earned gems from a skin pack sale!"
 msgstr "Kamu mendapatkan permata dari penjualan paket skin!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:729
+#: src/components/_user/notification/notification.frontConfig.tsx:730
 msgid "You feel healthy, the debuff effect no longer affects you."
 msgstr "Kamu merasa sehat, efek debuff tidak lagi memengaruhimu."
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:153
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:159
 msgid "You gifted a supporter plan subscription to someone <3"
 msgstr "Kamu menghadiahkan langganan Paket Supporter ke seseorang <3"
 
@@ -8978,36 +9058,40 @@ msgstr "Kamu akan otomatis disetujui karena populasi negara ini di bawah"
 msgid "You have a case!"
 msgstr "Kamu punya peti!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1136
+#: src/components/_user/notification/notification.frontConfig.tsx:1137
 msgid "You have been demoted from commander in <0/> by <1/>"
 msgstr "Kamu diturunkan dari komandan di <0/> oleh <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:323
+#: src/components/_user/notification/notification.frontConfig.tsx:324
 msgid "You have been elected as the new leader of <0/>"
 msgstr "Kamu terpilih sebagai pemimpin baru <0/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1122
+#: src/components/_user/notification/notification.frontConfig.tsx:1123
 msgid "You have been promoted to commander in <0/> by <1/>"
 msgstr "Kamu dipromosikan menjadi komandan di <0/> oleh <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1108
+#: src/components/_user/notification/notification.frontConfig.tsx:1109
 msgid "You have been removed from <0/> by <1/>"
 msgstr "Kamu dikeluarkan dari <0/> oleh <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:442
+#: src/components/_user/notification/notification.frontConfig.tsx:443
 msgid "You have been transferred from <0/> to <1/>"
 msgstr "Kamu dipindahkan dari <0/> ke <1/>"
 
 #. placeholder {0}: 1
-#: src/components/_user/notification/notification.frontConfig.tsx:683
+#: src/components/_user/notification/notification.frontConfig.tsx:684
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Kamu mengonsumsi <0>{0}</0>, efeknya mulai sekarang dan berakhir dalam <1>{buffDuration}h</1>."
 
-#: src/pages/country/[countryId]/government.tsx:46
+#: src/components/_user/notification/notification.frontConfig.tsx:1712
+msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
+msgstr ""
+
+#: src/pages/country/[countryId]/government.tsx:41
 msgid "You have resigned from the congress"
 msgstr "Kamu mengundurkan diri dari kongres"
 
-#: src/pages/country/[countryId]/government.tsx:38
+#: src/pages/country/[countryId]/government.tsx:33
 msgid "You have resigned from the government"
 msgstr "Kamu mengundurkan diri dari pemerintahan"
 
@@ -9025,11 +9109,11 @@ msgstr "Kamu harus menunggu {0} hari sebelum bisa mengambil alih negara lagi."
 msgid "You helped the dev find a bug, ty <3"
 msgstr "Kamu membantu dev menemukan bug, makasih <3"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:218
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:224
 msgid "You helped the dev find an exploit, ty <3"
 msgstr "Kamu membantu dev menemukan exploit, makasih <3"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:211
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:217
 msgid "You helped translate the game into another language"
 msgstr "Kamu membantu menerjemahkan game ke bahasa lain"
 
@@ -9072,47 +9156,51 @@ msgstr "Kamu harus menghabiskan semua 3 poin etika ({pointsRemaining} tersisa)"
 msgid "You need to equip a weapon first"
 msgstr "Kamu harus memasang senjata dulu"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:161
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:167
 msgid "You paid the dev's bills <3 (top 3 in monthly supporter gifts ranking)"
 msgstr "Kamu membayarkan tagihan dev <3 (top 3 di peringkat hadiah supporter bulanan)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1052
+#: src/components/_user/notification/notification.frontConfig.tsx:1053
 msgid "You premium gift from <0/> has expired! Would you consider subscribing and supporting the game? 👉👈"
 msgstr "Hadiah premium-mu dari <0/> sudah kedaluwarsa! Mau pertimbangkan berlangganan dan mendukung game ini? 👉👈"
 
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
+msgid "You prestiged and lost your levels"
+msgstr ""
+
 #. placeholder {0}: data.rank
-#: src/components/_user/notification/notification.frontConfig.tsx:1266
+#: src/components/_user/notification/notification.frontConfig.tsx:1267
 msgid "You received a loot item for rank <0>#{0}</0> in <1/>"
 msgstr "Kamu menerima item loot untuk peringkat <0>#{0}</0> di <1/>"
 
 #. placeholder {0}: data.muId ? ( <MuName muId={data.muId} /> ) : data.countryId ? ( <CountryName countryId={data.countryId} /> ) : ( 'your' )
 #. placeholder {1}: data.rank && ( <> position{' '} <Typo fw='bold' color='text1'> #{data.rank} </Typo> </> )
-#: src/components/_user/notification/notification.frontConfig.tsx:1392
+#: src/components/_user/notification/notification.frontConfig.tsx:1393
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "Kamu menerima hadiah untuk {0} {1} di tier<0/> pada peringkat <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1896
+#: src/components/_user/notification/notification.frontConfig.tsx:1910
 msgid "You received the skin \"{skinTitle}\"!"
 msgstr "Anda menerima skin \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:595
+#: src/components/_user/notification/notification.frontConfig.tsx:596
 msgid "You sold items."
 msgstr "Kamu menjual item."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1447
+#: src/components/_user/notification/notification.frontConfig.tsx:1448
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr "Kamu berhasil menghadiahkan \"{0}\" kepada <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1713
+#: src/components/_user/notification/notification.frontConfig.tsx:1727
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "Kamu berhasil menghadiahkan \"{skinTitle}\" kepada <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1017
+#: src/components/_user/notification/notification.frontConfig.tsx:1018
 msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "Kamu berhasil menghadiahkan langganan premium kepada <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1781
+#: src/components/_user/notification/notification.frontConfig.tsx:1795
 msgid "You successfully gifted the skin pack \"{skinPackTitle}\" to <0/>!"
 msgstr ""
 
@@ -9128,7 +9216,7 @@ msgstr "Kamu sangat beruntung"
 msgid "You voted in a major election"
 msgstr "Kamu memilih dalam pemilu besar"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:538
+#: src/components/_user/notification/notification.frontConfig.tsx:539
 msgid "You was fired from the government by <0/>"
 msgstr "Kamu dipecat dari pemerintahan oleh <0/>"
 
@@ -9136,8 +9224,8 @@ msgstr "Kamu dipecat dari pemerintahan oleh <0/>"
 msgid "You were an alpha tester (user before 20 march 2025)"
 msgstr "Kamu adalah alpha tester (pengguna sebelum 20 Maret 2025)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1991
-#: src/components/_user/notification/notification.frontConfig.tsx:2008
+#: src/components/_user/notification/notification.frontConfig.tsx:2005
+#: src/components/_user/notification/notification.frontConfig.tsx:2022
 msgid "You were elected"
 msgstr "Kamu terpilih"
 
@@ -9153,7 +9241,7 @@ msgstr "Kamu terpilih sebagai presiden negaramu"
 msgid "You were here at the beginning of War Era"
 msgstr "Kamu ada sejak awal War Era"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:236
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:242
 msgid "You were nominated as a government member of a country"
 msgstr "Kamu ditunjuk sebagai anggota pemerintahan suatu negara"
 
@@ -9165,20 +9253,24 @@ msgstr "Kamu ditunjuk sebagai wakil presiden negaramu"
 msgid "You were so close"
 msgstr "Hampir saja"
 
+#: src/pages/user/[userId]/skills.tsx:124
+msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
+msgstr ""
+
 #. placeholder {0}: gameConfig?.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/referral/ReferralList.tsx:117
 msgid "You win money for the badge + {0}% of the badge income of all your referrals"
 msgstr "Kamu mendapatkan uang untuk badge + {0}% dari pendapatan badge semua referralmu"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:182
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:188
 msgid "You won a country tournament"
 msgstr "Kamu memenangkan turnamen negara"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:194
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:200
 msgid "You won a giveaway"
 msgstr "Kamu memenangkan giveaway"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:188
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:194
 msgid "You won a MU tournament"
 msgstr "Kamu memenangkan turnamen MU"
 
@@ -9218,7 +9310,7 @@ msgstr "Kamu lagi di puncak"
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Kamu sudah menyelesaikan beberapa misi! Ayo ambil hadiah XP-mu."
 
-#: src/components/_user/user/Level.tsx:125
+#: src/components/_user/user/Level.tsx:143
 msgid "You've reached max level!"
 msgstr "Kamu sudah mencapai level maksimum!"
 
@@ -9234,25 +9326,29 @@ msgstr "Akunmu otomatis dilaporkan karena kecurangan"
 msgid "Your ancestors are proud"
 msgstr "Leluhurmu bangga"
 
-#: src/components/_political/government/AnnouncementForm.tsx:23
+#: src/components/_social/announcement/AnnouncementFormModal.tsx:29
 msgid "Your announcement to the country..."
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:367
-#: src/components/_user/notification/notification.frontConfig.tsx:1067
+#: src/components/_social/announcement/AnnouncementFormModal.tsx:30
+msgid "Your announcement to the unit..."
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:368
+#: src/components/_user/notification/notification.frontConfig.tsx:1068
 msgid "Your application to <0/> has been rejected"
 msgstr "Pengajuanmu ke <0/> ditolak"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:201
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:207
 msgid "Your article reached 2% of the active population in score (min 10)"
 msgstr "Artikelmu mencapai skor 2% dari populasi aktif (min 10)"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1538
+#: src/components/_user/notification/notification.frontConfig.tsx:1539
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "Banner \"{0}\"-mu diterima dan sekarang tersedia di toko! Banner itu otomatis terbuka untukmu."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:698
+#: src/components/_user/notification/notification.frontConfig.tsx:699
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Buff kamu akan berakhir dalam kurang dari 1 jam. Fase debuff akan segera dimulai."
 
@@ -9264,15 +9360,15 @@ msgstr "Kewarganegaraanmu akan berubah"
 msgid "Your country"
 msgstr "Negaramu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2032
+#: src/components/_user/notification/notification.frontConfig.tsx:2046
 msgid "Your country is under attack!"
 msgstr "Negaramu sedang diserang!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2035
+#: src/components/_user/notification/notification.frontConfig.tsx:2049
 msgid "Your country launched an attack!"
 msgstr "Negaramu melancarkan serangan!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:937
+#: src/components/_user/notification/notification.frontConfig.tsx:938
 msgid "Your country started a revolt in <0/> against <1/>"
 msgstr "Negaramu memulai pemberontakan di <0/> melawan <1/>"
 
@@ -9284,7 +9380,7 @@ msgstr "Pekerjaanmu saat ini"
 msgid "Your current order"
 msgstr "Pesananmu saat ini"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1687
+#: src/components/_user/notification/notification.frontConfig.tsx:1688
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Misi harianmu sudah direset! Selesaikan untuk mendapatkan hadiah."
 
@@ -9300,7 +9396,7 @@ msgstr "Pemberi kerjamu ingin menurunkan upahmu dari <0>{0}</0> menjadi <1>{1}</
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:472
+#: src/components/_user/notification/notification.frontConfig.tsx:473
 msgid "Your employer wants to reduce your wage in <0/> from <1>{0}</1> to <2>{1}</2>. Accept or reject this change."
 msgstr "Pemberi kerjamu ingin menurunkan upahmu di <0/> dari <1>{0}</1> menjadi <2>{1}</2>. Terima atau tolak perubahan ini."
 
@@ -9353,11 +9449,11 @@ msgstr "Penawaranmu"
 msgid "Your party name"
 msgstr "Nama partaimu"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:999
+#: src/components/_user/notification/notification.frontConfig.tsx:1000
 msgid "Your premium subscription has been activated!"
 msgstr "Langganan premium-mu telah diaktifkan!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1008
+#: src/components/_user/notification/notification.frontConfig.tsx:1009
 msgid "Your premium subscription has expired!"
 msgstr "Langganan premium-mu telah kedaluwarsa!"
 
@@ -9373,11 +9469,11 @@ msgstr "Tautan referralmu"
 msgid "Your team"
 msgstr ""
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1371
+#: src/components/_user/notification/notification.frontConfig.tsx:1372
 msgid "Your team <0/> has been eliminated from the <1/>"
 msgstr "Timmu <0/> telah tersingkir dari <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1282
+#: src/components/_user/notification/notification.frontConfig.tsx:1283
 msgid "Your team <0/> won a round in <1/>!"
 msgstr "Timmu <0/> memenangkan satu ronde di <1/>!"
 
@@ -9387,11 +9483,11 @@ msgstr "Timmu:"
 
 #. placeholder {0}: data.oldWage
 #. placeholder {1}: data.newWage
-#: src/components/_user/notification/notification.frontConfig.tsx:457
+#: src/components/_user/notification/notification.frontConfig.tsx:458
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "Upahmu di <0/> berubah dari <1>{0}</1> menjadi <2>{1}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1699
+#: src/components/_user/notification/notification.frontConfig.tsx:1700
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Misi mingguanmu sudah direset! Selesaikan untuk mendapatkan hadiah."
 
