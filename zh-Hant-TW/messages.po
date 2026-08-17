@@ -142,7 +142,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "在本公司工作會被扣除 {0}% 所得稅"
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:152
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "會從你給員工的薪資中扣除 {0}% 所得稅"
 
@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} 已完成"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:155
+#: src/components/_user/user/Level.tsx:143
 msgid "{prestigeLevel} Prestige Points"
 msgstr ""
 
@@ -196,7 +196,7 @@ msgstr "*可能會燒起來"
 msgid "/day"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:164
+#: src/components/_user/user/Level.tsx:152
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
 
@@ -689,12 +689,12 @@ msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr ""
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:134
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:135
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> 來自於農業主義礦藏加成。"
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> 來自於礦藏。"
 
@@ -714,7 +714,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> 來自於為你的國家戰鬥"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:114
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:115
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> 來自於工業主義特產加成。"
 
@@ -724,7 +724,7 @@ msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> 來自於 <1/> 的命令"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:105
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> 來自於戰略資源生產加成。"
 
@@ -773,7 +773,7 @@ msgstr "各類資源第 <0>{key}</0> 種 = <1>{value}</1>"
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
 msgstr ""
 
-#: src/components/_user/user/UserTooltip.tsx:131
+#: src/components/_user/user/UserTooltip.tsx:149
 msgid "<0>Buff</0> ends <1/>"
 msgstr "<0>加成</0> 結束於 <1/>"
 
@@ -785,7 +785,7 @@ msgstr ""
 msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
 msgstr ""
 
-#: src/components/_user/user/UserTooltip.tsx:140
+#: src/components/_user/user/UserTooltip.tsx:158
 msgid "<0>Debuff</0> ends <1/>"
 msgstr "<0>減益</0> 結束於 <1/>"
 
@@ -1336,7 +1336,11 @@ msgstr "接受以與其他國家達成和平"
 msgid "Accepted"
 msgstr "已通過"
 
-#: src/components/_military/battle/BattleHeader.tsx:119
+#: src/components/_user/auth/ConnectFromModal.tsx:301
+msgid "Access granted"
+msgstr ""
+
+#: src/components/_military/battle/BattleHeader.tsx:118
 msgid "Access war"
 msgstr "訪問戰爭"
 
@@ -1345,7 +1349,7 @@ msgstr "訪問戰爭"
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
-#: src/pages/user/[userId]/index.tsx:150
+#: src/pages/user/[userId]/index.tsx:166
 msgid "Account"
 msgstr "帳號"
 
@@ -1353,11 +1357,11 @@ msgstr "帳號"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:79
+#: src/pages/country/[countryId]/government.tsx:83
 msgid "Actions"
 msgstr "行動"
 
-#: src/components/_user/user/Level.tsx:172
+#: src/components/_user/user/Level.tsx:160
 msgid "activated"
 msgstr ""
 
@@ -1567,7 +1571,7 @@ msgstr "快準備好了..."
 msgid "Alpha Tester"
 msgstr ""
 
-#: src/components/_user/UserEquipments.tsx:144
+#: src/components/_user/UserEquipments.tsx:148
 #: src/utils/translations.tsx:35
 msgid "Ammo"
 msgstr "子彈"
@@ -1622,7 +1626,7 @@ msgstr "一封包含認證密碼的 email 已經送至 {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "把會動的 <0>GIF</0> 當作頭像"
 
-#: src/pages/country/[countryId]/government.tsx:136
+#: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
 msgstr ""
 
@@ -1695,11 +1699,11 @@ msgstr "你確定要開除這位員工嗎？"
 msgid "Are you sure you want to kick this member?"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:107
+#: src/pages/country/[countryId]/government.tsx:111
 msgid "Are you sure you want to leave the congress?"
 msgstr "你確定要離開國會嗎？"
 
-#: src/pages/country/[countryId]/government.tsx:91
+#: src/pages/country/[countryId]/government.tsx:95
 msgid "Are you sure you want to leave the government?"
 msgstr "你確定要離開政府嗎？"
 
@@ -1763,7 +1767,7 @@ msgid "Article tipped"
 msgstr "文章已給小費"
 
 #: src/components/_user/user/UserHeader.tsx:214
-#: src/pages/user/[userId]/index.tsx:208
+#: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "文章"
 
@@ -1835,11 +1839,15 @@ msgstr ""
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
-#: src/components/_military/hit/HitButton.tsx:467
+#: src/components/_military/hit/HitButton.tsx:468
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
 msgstr "攻擊"
+
+#: src/components/_user/user/MilitaryRank.tsx:111
+msgid "Attack bonus:"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -1862,13 +1870,13 @@ msgstr ""
 msgid "Auction Won"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:305
+#: src/components/_military/battle/BattleHeader.tsx:301
 #: src/components/_military/battle/BattlesHeader.tsx:39
 #: src/components/_military/battle/BattleSideContractsModal.tsx:37
 msgid "Auctions"
 msgstr ""
 
-#: src/components/_user/auth/ConnectFromModal.tsx:141
+#: src/components/_user/auth/ConnectFromModal.tsx:152
 msgid "Authentication failed. Please try again."
 msgstr ""
 
@@ -1924,7 +1932,7 @@ msgid "Badge Won"
 msgstr "獲取了徽章"
 
 #: src/pages/country/[countryId]/index.tsx:260
-#: src/pages/user/[userId]/index.tsx:135
+#: src/pages/user/[userId]/index.tsx:143
 msgid "Badges"
 msgstr "徽章"
 
@@ -2008,7 +2016,7 @@ msgstr ""
 msgid "Battle ended"
 msgstr "戰鬥已結束"
 
-#: src/components/_military/battle/BattleName.tsx:147
+#: src/components/_military/battle/BattleName.tsx:150
 msgid "Battle for {regionName} {score}"
 msgstr ""
 
@@ -2028,7 +2036,11 @@ msgstr ""
 msgid "Battle opened"
 msgstr "戰鬥已開始"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:103
+#: src/pages/country/[countryId]/government.tsx:137
+msgid "Battle orders"
+msgstr ""
+
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
 msgstr ""
 
@@ -2122,12 +2134,12 @@ msgstr "傷害加成"
 msgid "Boost your production!"
 msgstr "增加你的產量！"
 
-#: src/components/_user/UserEquipments.tsx:215
+#: src/components/_user/UserEquipments.tsx:219
 #: src/utils/translations.tsx:202
 msgid "Boots"
 msgstr "靴子"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:103
+#: src/components/_military/battle/LootSummaryCard.tsx:116
 msgid "Bounty"
 msgstr ""
 
@@ -2228,7 +2240,7 @@ msgstr "購買物品"
 msgid "Buy orders"
 msgstr "買單"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:359
+#: src/components/_user/auth/ConnectFromModal.tsx:391
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "欲繼續，將視為你同意我們的<0>服務條款</0>。"
 
@@ -2253,6 +2265,7 @@ msgstr "軍校學員"
 msgid "Campaign Article Link (optional)"
 msgstr "參選文章連結 (選填)"
 
+#: src/components/_military/order/BattleOrderList.tsx:207
 #: src/components/_political/election/CandidateFormModal.tsx:83
 msgid "Cancel"
 msgstr "取消"
@@ -2317,19 +2330,19 @@ msgstr "無法挑選一個特產 / 沒有來自於特產的優勢"
 msgid "Captain"
 msgstr "將軍"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:262
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA 過期，請再試一次。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:276
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA 失敗，重置中..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:266
+#: src/components/_user/auth/ConnectFromModal.tsx:284
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA 已逾時，重置中..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:76
+#: src/components/_user/auth/ConnectFromModal.tsx:89
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "CAPTCHA 驗證已逾時，重置中..."
 
@@ -2430,7 +2443,7 @@ msgstr "將 {0} 的稅率更改為"
 msgid "Check your loot!"
 msgstr "來看看你的戰利品！"
 
-#: src/components/_user/UserEquipments.tsx:181
+#: src/components/_user/UserEquipments.tsx:185
 #: src/utils/translations.tsx:193
 msgid "Chest"
 msgstr "胸甲"
@@ -2707,19 +2720,19 @@ msgstr "國會選舉"
 msgid "Congress Member"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:70
+#: src/pages/country/[countryId]/government.tsx:72
 msgid "Congress members"
 msgstr "國會議員"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:356
 msgid "Connect with Discord"
 msgstr "使用 Discord 登入"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:305
+#: src/components/_user/auth/ConnectFromModal.tsx:337
 msgid "Connect with email code"
 msgstr "使用電子郵件驗證碼登入"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:343
+#: src/components/_user/auth/ConnectFromModal.tsx:375
 msgid "Connect with Google"
 msgstr "使用 Google 登入"
 
@@ -2769,10 +2782,10 @@ msgstr ""
 msgid "Contract rolled back"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:312
+#: src/components/_military/battle/BattleHeader.tsx:308
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/battle/LootSummaryCard.tsx:95
+#: src/components/_military/battle/LootSummaryCard.tsx:108
 #: src/components/_political/country/CountryHeader.tsx:135
 msgid "Contracts"
 msgstr ""
@@ -2868,7 +2881,7 @@ msgstr ""
 msgid "Country Money Transfer"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:62
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:64
 msgid "Country Orders"
 msgstr ""
 
@@ -2998,7 +3011,7 @@ msgstr ""
 msgid "Current development"
 msgstr ""
 
-#: src/pages/user/[userId]/index.tsx:163
+#: src/pages/user/[userId]/index.tsx:179
 msgid "Current Military Unit"
 msgstr "目前所處的軍團"
 
@@ -3098,6 +3111,10 @@ msgstr "在戰鬥中造成 <0>{count}</0> 傷害"
 msgid "Deal <0>{count}</0> on country/mu orders"
 msgstr "在國家/軍團命令中造成 <0>{count}</0> 傷害"
 
+#: src/components/_user/user/MilitaryRank.tsx:85
+msgid "Deal <0>damages</0> in battles to climb the ranks!"
+msgstr ""
+
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
 msgstr "在戰鬥中造成傷害來提升你的軍階以解鎖攻擊加成。"
@@ -3173,7 +3190,7 @@ msgstr "減少"
 msgid "Decrease unrest"
 msgstr "減少動盪值"
 
-#: src/components/_military/hit/HitButton.tsx:470
+#: src/components/_military/hit/HitButton.tsx:471
 msgid "Defend"
 msgstr "防禦"
 
@@ -3206,7 +3223,7 @@ msgid "Defensive pact signed"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:427
+#: src/components/_military/battle/SetOrderFormModal.tsx:526
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -3235,7 +3252,7 @@ msgstr "刪除帳號"
 msgid "Delete contract"
 msgstr ""
 
-#: src/pages/index.tsx:146
+#: src/pages/index.tsx:79
 #: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "刪除你的帳號"
@@ -3277,7 +3294,7 @@ msgstr "礦藏資源"
 msgid "Deposit resources"
 msgstr "礦藏資源"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:86
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:87
 msgid "Deposit will be depleted in"
 msgstr "礦藏將會耗盡於"
 
@@ -3429,6 +3446,14 @@ msgstr "捐款"
 msgid "Dormitories"
 msgstr "宿舍"
 
+#: src/components/_military/order/BattleOrderList.tsx:225
+msgid "Drag the new order to choose its number."
+msgstr ""
+
+#: src/components/_military/order/BattleOrderList.tsx:227
+msgid "Drag the orders to change their priority number."
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
 msgstr ""
@@ -3489,6 +3514,14 @@ msgstr "編輯描述"
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "編輯員工"
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:487
+msgid "Editing an existing order"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:485
+msgid "Editing another order"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
@@ -3603,8 +3636,8 @@ msgstr "少尉"
 msgid "Enter article ID"
 msgstr "輸入文章ID"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:163
-#: src/components/_user/auth/ConnectFromModal.tsx:168
+#: src/components/_user/auth/ConnectFromModal.tsx:174
+#: src/components/_user/auth/ConnectFromModal.tsx:179
 msgid "Enter the code we sent to your email."
 msgstr "輸入我們傳送至你電子郵件的驗證碼"
 
@@ -3617,7 +3650,7 @@ msgstr "創業能力"
 #: src/components/_layout/LayoutOptions.tsx:199
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
-#: src/pages/user/[userId]/index.tsx:92
+#: src/pages/user/[userId]/index.tsx:100
 #: src/pages/user/[userId]/inventory.tsx:62
 msgid "Equipment"
 msgstr "裝備"
@@ -3722,19 +3755,19 @@ msgstr "複製失敗"
 msgid "Failed to copy text: "
 msgstr "無法複製文字："
 
-#: src/components/_user/auth/ConnectFromModal.tsx:106
+#: src/components/_user/auth/ConnectFromModal.tsx:117
 msgid "Failed to start Discord login."
 msgstr "無法開始 Discord 登入。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:104
+#: src/components/_user/auth/ConnectFromModal.tsx:115
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "無法開始 Discord 登入，請重試 CAPTCHA。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:126
+#: src/components/_user/auth/ConnectFromModal.tsx:137
 msgid "Failed to start Google login."
 msgstr "無法開始 Google 登入。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:124
+#: src/components/_user/auth/ConnectFromModal.tsx:135
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "無法開始 Google 登入。請重試 CAPTCHA"
 
@@ -4012,7 +4045,7 @@ msgstr ""
 msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:109
+#: src/components/_user/user/Level.tsx:97
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "透過完成你的任務來獲得<0>Xp</0>！"
 
@@ -4102,7 +4135,7 @@ msgstr "給予 <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "球體 (試驗性)"
 
-#: src/components/_user/UserEquipments.tsx:232
+#: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:211
 msgid "Gloves"
 msgstr "手套"
@@ -4313,7 +4346,7 @@ msgstr "生命值"
 msgid "Heavy Ammo"
 msgstr "重型子彈"
 
-#: src/components/_user/UserEquipments.tsx:166
+#: src/components/_user/UserEquipments.tsx:170
 #: src/utils/translations.tsx:184
 msgid "Helmet"
 msgstr "頭盔"
@@ -4474,7 +4507,7 @@ msgid "Income tax"
 msgstr "所得稅"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:150
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "Income Tax"
 msgstr "所得稅"
 
@@ -4512,7 +4545,7 @@ msgstr ""
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
 #: src/pages/user/[userId]/companies.tsx:46
-#: src/pages/user/[userId]/index.tsx:201
+#: src/pages/user/[userId]/index.tsx:217
 #: src/pages/user/[userId]/inventory.tsx:31
 msgid "Inventory"
 msgstr "倉庫"
@@ -4618,6 +4651,10 @@ msgstr ""
 msgid "Join MU"
 msgstr "加入軍團"
 
+#: src/pages/index.tsx:139
+msgid "Join the world"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
 msgstr "加入這個公司！"
@@ -4687,7 +4724,7 @@ msgstr ""
 msgid "Knife"
 msgstr "小刀"
 
-#: src/components/_user/UserEquipments.tsx:154
+#: src/components/_user/UserEquipments.tsx:158
 msgid "Knives do not accept ammo"
 msgstr "小刀不使用子彈"
 
@@ -4712,9 +4749,9 @@ msgstr ""
 msgid "Last gifts"
 msgstr "最近的禮物"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:308
-#: src/components/_user/auth/ConnectFromModal.tsx:327
-#: src/components/_user/auth/ConnectFromModal.tsx:346
+#: src/components/_user/auth/ConnectFromModal.tsx:340
+#: src/components/_user/auth/ConnectFromModal.tsx:359
+#: src/components/_user/auth/ConnectFromModal.tsx:378
 msgid "Last used"
 msgstr "最近使用"
 
@@ -4788,13 +4825,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "離開公司？"
 
-#: src/pages/country/[countryId]/government.tsx:106
-#: src/pages/country/[countryId]/government.tsx:111
+#: src/pages/country/[countryId]/government.tsx:110
+#: src/pages/country/[countryId]/government.tsx:115
 msgid "Leave congress"
 msgstr "離開國會"
 
-#: src/pages/country/[countryId]/government.tsx:90
-#: src/pages/country/[countryId]/government.tsx:95
+#: src/pages/country/[countryId]/government.tsx:94
+#: src/pages/country/[countryId]/government.tsx:99
 msgid "Leave government"
 msgstr "離開政府"
 
@@ -5069,6 +5106,10 @@ msgstr "最大可容納 <0>{0}</0> 位成員。"
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "最大可容納 <0>{0}</0> 位員工。{1}"
 
+#: src/components/_user/user/MilitaryRank.tsx:93
+msgid "Maximum rank achieved!"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
 msgstr "或許史詩般的音樂可以幫得上忙？"
@@ -5182,7 +5223,7 @@ msgstr ""
 msgid "Mercenary contracts are currently disabled."
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:89
+#: src/components/_military/battle/LootSummaryCard.tsx:102
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -5217,7 +5258,7 @@ msgstr ""
 msgid "Military laws"
 msgstr "軍事法案"
 
-#: src/pages/user/[userId]/index.tsx:142
+#: src/pages/user/[userId]/index.tsx:150
 msgid "Military Rank"
 msgstr "軍階"
 
@@ -5399,7 +5440,7 @@ msgstr ""
 msgid "MU Monthly Levels"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:72
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:74
 msgid "MU Orders"
 msgstr ""
 
@@ -5416,7 +5457,7 @@ msgstr ""
 msgid "MU Tournament Winner"
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:122
+#: src/components/_military/battle/LootSummaryCard.tsx:135
 msgid "My battle loot"
 msgstr ""
 
@@ -5460,6 +5501,10 @@ msgstr "神話裝備？！你的帳號一定有被保佑"
 #: src/components/_political/party/PartyFormModal.tsx:99
 msgid "Name"
 msgstr "名稱"
+
+#: src/components/_user/auth/CountryWelcomeArticle.tsx:50
+msgid "National article of<0/>"
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
@@ -5573,6 +5618,10 @@ msgstr "新名字"
 msgid "New nationality"
 msgstr ""
 
+#: src/components/_military/order/OrderBattleItem.tsx:96
+msgid "New order"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
 msgstr "新政黨申請"
@@ -5659,6 +5708,10 @@ msgstr "無生效中傳統 - 平衡"
 msgid "No active job offer"
 msgstr "沒有可用職缺"
 
+#: src/components/_military/order/BattleOrderList.tsx:155
+msgid "No active order"
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:267
 msgid "No active wars"
 msgstr "沒有進行中戰爭"
@@ -5683,7 +5736,7 @@ msgstr ""
 msgid "No API tokens yet. Create one to get started."
 msgstr "還沒有 API token。建立一個以開始。"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:140
+#: src/components/_user/auth/ConnectFromModal.tsx:151
 msgid "No authorization code provided."
 msgstr ""
 
@@ -5699,7 +5752,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "沒有公民"
 
-#: src/pages/country/[countryId]/government.tsx:156
+#: src/pages/country/[countryId]/government.tsx:178
 msgid "No congress members"
 msgstr "沒有國會議員"
 
@@ -5771,7 +5824,7 @@ msgstr "沒有找到賣單"
 msgid "No one nominated yet"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:113
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:115
 msgid "No orders"
 msgstr ""
 
@@ -6030,6 +6083,11 @@ msgstr ""
 msgid "Orders cancelled"
 msgstr "訂單取消"
 
+#: src/pages/orders.tsx:24
+#: src/pages/orders.tsx:35
+msgid "Orders of <0/>"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
@@ -6057,7 +6115,7 @@ msgstr "總覽"
 msgid "Owned"
 msgstr "擁有的"
 
-#: src/pages/user/[userId]/index.tsx:169
+#: src/pages/user/[userId]/index.tsx:185
 msgid "Owned Military Units"
 msgstr "擁有的軍團"
 
@@ -6087,7 +6145,7 @@ msgid "Pacifist"
 msgstr "和平主義"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:439
+#: src/components/_military/battle/SetOrderFormModal.tsx:538
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -6095,7 +6153,7 @@ msgstr ""
 msgid "Packs"
 msgstr "組合包"
 
-#: src/components/_user/UserEquipments.tsx:198
+#: src/components/_user/UserEquipments.tsx:202
 #: src/utils/translations.tsx:220
 msgid "Pants"
 msgstr "褲子"
@@ -6119,7 +6177,7 @@ msgstr "政黨"
 #: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:142
 #: src/components/_user/notification/notificationPrefs.categories.ts:158
-#: src/pages/user/[userId]/index.tsx:176
+#: src/pages/user/[userId]/index.tsx:192
 msgid "Party"
 msgstr "政黨"
 
@@ -6195,7 +6253,7 @@ msgstr ""
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "貼上一個連結至你的宣傳文章或留空。"
 
-#: src/components/_user/user/Level.tsx:168
+#: src/components/_user/user/Level.tsx:156
 msgid "Paused at max level"
 msgstr ""
 
@@ -6263,6 +6321,10 @@ msgstr "藥丸"
 msgid "Plant a tree in the data center"
 msgstr "在資料中心種一棵樹"
 
+#: src/pages/index.tsx:131
+msgid "Play now"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:31
 msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
 msgstr ""
@@ -6271,9 +6333,9 @@ msgstr ""
 msgid "Players can share an IP address if they have been registered as a \"Family Group\". This status must be requested in advance to an admin on our Discord. Group members are prohibited from:"
 msgstr ""
 
-#: src/components/_user/auth/ConnectFromModal.tsx:93
-#: src/components/_user/auth/ConnectFromModal.tsx:113
-#: src/components/_user/auth/ConnectFromModal.tsx:190
+#: src/components/_user/auth/ConnectFromModal.tsx:104
+#: src/components/_user/auth/ConnectFromModal.tsx:124
+#: src/components/_user/auth/ConnectFromModal.tsx:201
 msgid "Please complete the CAPTCHA."
 msgstr "請完成 CAPTCHA"
 
@@ -6382,7 +6444,7 @@ msgstr "總統選舉"
 msgid "Prestige"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:179
+#: src/components/_user/user/Level.tsx:167
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr ""
 
@@ -6406,7 +6468,7 @@ msgstr "初選"
 msgid "Primary Election Ended"
 msgstr "初選已結束"
 
-#: src/pages/index.tsx:142
+#: src/pages/index.tsx:75
 #: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "隱私權"
@@ -6456,7 +6518,7 @@ msgid "Production"
 msgstr "生產"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:100
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "生產加成"
@@ -6591,7 +6653,7 @@ msgstr ""
 msgid "Quickly dismantle items"
 msgstr "快速拆解物品"
 
-#: src/components/_military/battle/BattleHeader.tsx:299
+#: src/components/_military/battle/BattleHeader.tsx:295
 msgid "Ranking"
 msgstr ""
 
@@ -6602,7 +6664,7 @@ msgstr ""
 #: src/components/_layout/MoreButtonNav.tsx:122
 #: src/pages/alliance/[allianceId]/index.tsx:48
 #: src/pages/country/[countryId]/index.tsx:167
-#: src/pages/user/[userId]/index.tsx:123
+#: src/pages/user/[userId]/index.tsx:131
 msgid "Rankings"
 msgstr "排名"
 
@@ -6655,7 +6717,7 @@ msgid "Reach Military Rank 5"
 msgstr "達到軍階 5"
 
 #. placeholder {0}: leveling.level + 1
-#: src/components/_user/user/Level.tsx:129
+#: src/components/_user/user/Level.tsx:117
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "達到等級 {0} 將會給你 <0>{nextLevelSkillPoints} 技能點</0>。"
 
@@ -6666,6 +6728,10 @@ msgstr "閱讀 <0>{count}</0> 篇文章"
 #: src/components/_user/mission/mission.frontConfig.tsx:352
 msgid "Read Article"
 msgstr "閱讀文章"
+
+#: src/components/_user/auth/CountryWelcomeArticle.tsx:58
+msgid "Read the article"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Ready for battle!"
@@ -6716,7 +6782,7 @@ msgstr "邀請連結已複製到剪貼簿"
 
 #: src/components/_user/user/UserHeader.tsx:220
 #: src/components/_user/user/UserRankingsPanel.tsx:50
-#: src/pages/user/[userId]/index.tsx:219
+#: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
 msgstr "被推薦人"
@@ -6734,7 +6800,7 @@ msgstr "已設定推薦人"
 msgid "Referrer username"
 msgstr "推薦人用戶名稱"
 
-#: src/pages/user/[userId]/index.tsx:122
+#: src/pages/user/[userId]/index.tsx:130
 msgid "Refresh every hour"
 msgstr "每小時更新"
 
@@ -6977,7 +7043,7 @@ msgstr "重骰任務"
 msgid "Reset"
 msgstr "重置"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:290
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Reset CAPTCHA"
 msgstr "重置 CAPTCHA"
 
@@ -6997,7 +7063,7 @@ msgstr "重置用戶名稱"
 msgid "Reshuffle in"
 msgstr "重置於"
 
-#: src/components/_military/hit/HitButton.tsx:465
+#: src/components/_military/hit/HitButton.tsx:466
 msgid "Resist"
 msgstr "抵抗"
 
@@ -7009,7 +7075,7 @@ msgstr "抵抗度"
 msgid "Resistance Contributors"
 msgstr "抵抗度貢獻者"
 
-#: src/components/_military/battle/BattleName.tsx:152
+#: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
@@ -7042,7 +7108,7 @@ msgstr "廢除 API token?"
 msgid "Revolt started!"
 msgstr "叛亂開始！"
 
-#: src/components/_military/battle/BattleName.tsx:157
+#: src/components/_military/battle/BattleName.tsx:160
 msgid "Revolution {score}"
 msgstr ""
 
@@ -7154,6 +7220,7 @@ msgstr "執政黨"
 msgid "Running low on health?"
 msgstr "生命值要用完了嗎？"
 
+#: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:249
@@ -7463,7 +7530,7 @@ msgstr "技能升級："
 
 #: src/components/_user/user/MyAvatar.tsx:41
 #: src/components/_user/user/UserHeader.tsx:174
-#: src/pages/user/[userId]/index.tsx:157
+#: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "技能"
 
@@ -7501,7 +7568,7 @@ msgstr ""
 
 #: src/components/_other/shop/ShopHeader.tsx:23
 #: src/pages/shop/index.tsx:145
-#: src/pages/user/[userId]/index.tsx:93
+#: src/pages/user/[userId]/index.tsx:101
 msgid "Skins"
 msgstr "造型"
 
@@ -7618,7 +7685,7 @@ msgstr "開始革命"
 msgid "Started <0/>"
 msgstr "開始於 <0/>"
 
-#: src/components/_military/battle/BattleHeader.tsx:195
+#: src/components/_military/battle/BattleHeader.tsx:194
 msgid "Started<0/><1/>"
 msgstr ""
 
@@ -7705,7 +7772,7 @@ msgstr ""
 msgid "Subscribers"
 msgstr "訂閱者"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:147
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Successfully logged in!"
 msgstr "成功登入！"
 
@@ -7785,7 +7852,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:433
+#: src/components/_military/battle/SetOrderFormModal.tsx:532
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -7836,12 +7903,12 @@ msgstr "稅金"
 msgid "Terminated"
 msgstr ""
 
-#: src/pages/index.tsx:138
+#: src/pages/index.tsx:71
 #: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "期限"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:386
+#: src/components/_user/auth/ConnectFromModal.tsx:418
 msgid "Terms of Service"
 msgstr "服務條款"
 
@@ -7965,7 +8032,7 @@ msgstr "這件裝備跟草一樣綠"
 msgid "This feels good, huh?"
 msgstr "感覺不賴，對吧？"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:63
+#: src/components/_military/battle/LootSummaryCard.tsx:76
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr ""
 
@@ -8139,10 +8206,6 @@ msgstr ""
 msgid "Top 3 offers"
 msgstr "前三名職缺"
 
-#: src/pages/index.tsx:131
-msgid "Top countries"
-msgstr "最強國家"
-
 #: src/components/_economy/donation/DonationList.tsx:87
 msgid "Top Donors"
 msgstr "捐獻榜首"
@@ -8214,7 +8277,7 @@ msgstr "總和："
 msgid "Tournament"
 msgstr "錦標賽"
 
-#: src/components/_military/battle/BattleName.tsx:160
+#: src/components/_military/battle/BattleName.tsx:163
 msgid "Tournament battle for {tournamentName} {score}"
 msgstr ""
 
@@ -8265,7 +8328,7 @@ msgstr "交易紀錄"
 
 #: src/components/_political/country/CountryHeader.tsx:83
 #: src/pages/market/index.tsx:93
-#: src/pages/user/[userId]/index.tsx:230
+#: src/pages/user/[userId]/index.tsx:246
 msgid "Transactions"
 msgstr "交易紀錄"
 
@@ -8318,7 +8381,7 @@ msgstr ""
 msgid "Unblock (show content)"
 msgstr "解除黑名單（顯示內容）"
 
-#: src/components/_user/UserEquipments.tsx:117
+#: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
 msgstr "脫下全部"
 
@@ -8331,12 +8394,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:457
+#: src/components/_military/battle/SetOrderFormModal.tsx:556
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:452
+#: src/components/_military/battle/SetOrderFormModal.tsx:551
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
@@ -8659,9 +8722,9 @@ msgstr ""
 msgid "Verify"
 msgstr "驗證"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:278
-msgid "Verifying CAPTCHA..."
-msgstr "正在驗證 CAPTCHA 中..."
+#: src/components/_user/auth/ConnectFromModal.tsx:293
+msgid "Verifying you're human..."
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:131
 msgid "Vice Admiral"
@@ -8677,7 +8740,7 @@ msgstr "副總統"
 msgid "View details"
 msgstr ""
 
-#: src/components/_military/battle/BattleHeader.tsx:126
+#: src/components/_military/battle/BattleHeader.tsx:125
 msgid "View on map"
 msgstr "在地圖上查看"
 
@@ -8761,12 +8824,12 @@ msgid "Wars"
 msgstr "戰爭"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:38
-#: src/pages/user/[userId]/index.tsx:129
+#: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "資產"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:49
-#: src/components/_user/UserEquipments.tsx:134
+#: src/components/_user/UserEquipments.tsx:138
 msgid "Weapon"
 msgstr "武器"
 
@@ -9010,6 +9073,10 @@ msgstr "隨機數生成器都被你玩壞了"
 msgid "You brought 10 babies to the world (>= lvl {0})"
 msgstr ""
 
+#: src/pages/index.tsx:126
+msgid "You can change it later."
+msgstr ""
+
 #: src/components/_economy/inventory/DismantleModal.tsx:211
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "你可以在倉庫中透過選取裝備來拆解裝備。"
@@ -9018,7 +9085,7 @@ msgstr "你可以在倉庫中透過選取裝備來拆解裝備。"
 msgid "You can optionally link a campaign article to your candidacy."
 msgstr "你可以在參選時填上宣傳文章連結"
 
-#: src/components/_user/user/Level.tsx:103
+#: src/components/_user/user/Level.tsx:91
 msgid "You can upgrade your skills!"
 msgstr "你可以升級技能了！"
 
@@ -9087,11 +9154,11 @@ msgstr "你已經使用 <0>{0}</0>，它的效果現在開始，且結束於 <1>
 msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:41
+#: src/pages/country/[countryId]/government.tsx:43
 msgid "You have resigned from the congress"
 msgstr "你已從國會中辭職"
 
-#: src/pages/country/[countryId]/government.tsx:33
+#: src/pages/country/[countryId]/government.tsx:35
 msgid "You have resigned from the government"
 msgstr "你已從政府中辭職"
 
@@ -9152,7 +9219,7 @@ msgstr ""
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "你必須花費所有 3 點傳統點數 (剩餘 {pointsRemaining})"
 
-#: src/components/_user/UserEquipments.tsx:156
+#: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "你需要先裝備一件武器"
 
@@ -9310,7 +9377,7 @@ msgstr "你太強了"
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "你已完成了任務，去領取經驗值獎勵吧！"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:131
 msgid "You've reached max level!"
 msgstr "你已達到等級上限"
 
@@ -9357,6 +9424,7 @@ msgid "Your citizenship is going to change"
 msgstr "你將改變國籍"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:140
+#: src/pages/index.tsx:122
 msgid "Your country"
 msgstr "你的國家"
 
@@ -9412,8 +9480,8 @@ msgstr "你的資訊已儲存"
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "倉庫中存放著你的所有物品，來看看都有什麼！"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:62
-#: src/components/_military/battle/LootSummaryCard.tsx:66
+#: src/components/_military/battle/LootSummaryCard.tsx:75
+#: src/components/_military/battle/LootSummaryCard.tsx:79
 msgid "Your loot"
 msgstr ""
 
@@ -9491,7 +9559,7 @@ msgstr "你在 <0/> 的薪資已從 <1>{0}</1> 改變為 <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "你的每週任務已重置，完成它們以賺取獎勵！"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:227
+#: src/components/_user/auth/ConnectFromModal.tsx:324
 msgid "your@email.com"
 msgstr "your@email.com"
 

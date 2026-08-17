@@ -142,7 +142,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% inkomstskatt dras från förtjänsten vid arbete i detta företag."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:152
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% inkomstskatt dras från anställdas löner."
 
@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} slutförda"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:155
+#: src/components/_user/user/Level.tsx:143
 msgid "{prestigeLevel} Prestige Points"
 msgstr ""
 
@@ -196,7 +196,7 @@ msgstr "*Kan brinna upp"
 msgid "/day"
 msgstr "/dag"
 
-#: src/components/_user/user/Level.tsx:164
+#: src/components/_user/user/Level.tsx:152
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
 
@@ -689,12 +689,12 @@ msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr ""
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:134
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:135
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> från bonus för jordbruksideologi fyndigheter."
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:125
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> från fyndighetsresurser."
 
@@ -714,7 +714,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> från strid för fosterlandet"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:114
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:115
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> från bonus för industriell ideologispecialisering."
 
@@ -724,7 +724,7 @@ msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> från order av <1/>"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:105
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> från produktionsbonus för strategiska resurser."
 
@@ -773,7 +773,7 @@ msgstr "<0>#{key}</0> resurs av varje typ = <1>{value}</1>"
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
 msgstr ""
 
-#: src/components/_user/user/UserTooltip.tsx:131
+#: src/components/_user/user/UserTooltip.tsx:149
 msgid "<0>Buff</0> ends <1/>"
 msgstr "<0>Förstärkning</0> upphör <1/>"
 
@@ -785,7 +785,7 @@ msgstr ""
 msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
 msgstr ""
 
-#: src/components/_user/user/UserTooltip.tsx:140
+#: src/components/_user/user/UserTooltip.tsx:158
 msgid "<0>Debuff</0> ends <1/>"
 msgstr "<0>Försvagning</0> upphör <1/>"
 
@@ -1336,7 +1336,11 @@ msgstr "Godkänn fredsfördrag med det andra landet"
 msgid "Accepted"
 msgstr "Godkänd"
 
-#: src/components/_military/battle/BattleHeader.tsx:119
+#: src/components/_user/auth/ConnectFromModal.tsx:301
+msgid "Access granted"
+msgstr ""
+
+#: src/components/_military/battle/BattleHeader.tsx:118
 msgid "Access war"
 msgstr "Visa krig"
 
@@ -1345,7 +1349,7 @@ msgstr "Visa krig"
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
-#: src/pages/user/[userId]/index.tsx:150
+#: src/pages/user/[userId]/index.tsx:166
 msgid "Account"
 msgstr "Konto"
 
@@ -1353,11 +1357,11 @@ msgstr "Konto"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr "Konton som skapats uteslutande i syfte att gynna en enskild spelare, grupp, ett militärt förband eller en stat är ej tillåtna. Otillbörligt utnyttjande av konton kan anta många former. Detta inkluderar, men är inte begränsat till:"
 
-#: src/pages/country/[countryId]/government.tsx:79
+#: src/pages/country/[countryId]/government.tsx:83
 msgid "Actions"
 msgstr "Åtgärder"
 
-#: src/components/_user/user/Level.tsx:172
+#: src/components/_user/user/Level.tsx:160
 msgid "activated"
 msgstr ""
 
@@ -1567,7 +1571,7 @@ msgstr "Nästan klar..."
 msgid "Alpha Tester"
 msgstr "Alfatestare"
 
-#: src/components/_user/UserEquipments.tsx:144
+#: src/components/_user/UserEquipments.tsx:148
 #: src/utils/translations.tsx:35
 msgid "Ammo"
 msgstr "Ammunition"
@@ -1622,7 +1626,7 @@ msgstr "Ett e-postmeddelande med verifieringskod har skickats till {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animerad <0>GIF</0> som profilbild"
 
-#: src/pages/country/[countryId]/government.tsx:136
+#: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
 msgstr ""
 
@@ -1695,11 +1699,11 @@ msgstr "Är du säker på att du vill säga upp denna anställde?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Är du säker på att du vill slänga ut denna medlem?"
 
-#: src/pages/country/[countryId]/government.tsx:107
+#: src/pages/country/[countryId]/government.tsx:111
 msgid "Are you sure you want to leave the congress?"
 msgstr "Är du säker på att du vill lämna Riksdagen?"
 
-#: src/pages/country/[countryId]/government.tsx:91
+#: src/pages/country/[countryId]/government.tsx:95
 msgid "Are you sure you want to leave the government?"
 msgstr "Är du säker på att du vill avgå ur regeringen?"
 
@@ -1763,7 +1767,7 @@ msgid "Article tipped"
 msgstr "Artikel fick dricks"
 
 #: src/components/_user/user/UserHeader.tsx:214
-#: src/pages/user/[userId]/index.tsx:208
+#: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Artiklar"
 
@@ -1835,11 +1839,15 @@ msgstr ""
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "När tiden löper ut tilldelas <0>{actualTickPoints}</0> den sida som orsakat mest skada."
 
-#: src/components/_military/hit/HitButton.tsx:467
+#: src/components/_military/hit/HitButton.tsx:468
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
 msgstr "Anfall"
+
+#: src/components/_user/user/MilitaryRank.tsx:111
+msgid "Attack bonus:"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -1862,13 +1870,13 @@ msgstr "Överbjuden i auktion"
 msgid "Auction Won"
 msgstr "Auktion vunnen"
 
-#: src/components/_military/battle/BattleHeader.tsx:305
+#: src/components/_military/battle/BattleHeader.tsx:301
 #: src/components/_military/battle/BattlesHeader.tsx:39
 #: src/components/_military/battle/BattleSideContractsModal.tsx:37
 msgid "Auctions"
 msgstr "Auktioner"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:141
+#: src/components/_user/auth/ConnectFromModal.tsx:152
 msgid "Authentication failed. Please try again."
 msgstr "Autentiseringen misslyckades. Försök igen."
 
@@ -1924,7 +1932,7 @@ msgid "Badge Won"
 msgstr "Emblem erhållet"
 
 #: src/pages/country/[countryId]/index.tsx:260
-#: src/pages/user/[userId]/index.tsx:135
+#: src/pages/user/[userId]/index.tsx:143
 msgid "Badges"
 msgstr "Emblem"
 
@@ -2008,7 +2016,7 @@ msgstr ""
 msgid "Battle ended"
 msgstr "Strid avslutad"
 
-#: src/components/_military/battle/BattleName.tsx:147
+#: src/components/_military/battle/BattleName.tsx:150
 msgid "Battle for {regionName} {score}"
 msgstr ""
 
@@ -2028,7 +2036,11 @@ msgstr "Gemensam bytespool"
 msgid "Battle opened"
 msgstr "Strid inledd"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:103
+#: src/pages/country/[countryId]/government.tsx:137
+msgid "Battle orders"
+msgstr ""
+
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
 msgstr "Stridsorder"
 
@@ -2122,12 +2134,12 @@ msgstr "Bonusskada"
 msgid "Boost your production!"
 msgstr "Öka din produktion!"
 
-#: src/components/_user/UserEquipments.tsx:215
+#: src/components/_user/UserEquipments.tsx:219
 #: src/utils/translations.tsx:202
 msgid "Boots"
 msgstr "Kängor"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:103
+#: src/components/_military/battle/LootSummaryCard.tsx:116
 msgid "Bounty"
 msgstr "Prissumma"
 
@@ -2228,7 +2240,7 @@ msgstr "Köp föremål"
 msgid "Buy orders"
 msgstr "Köpordrar"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:359
+#: src/components/_user/auth/ConnectFromModal.tsx:391
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Genom att fortsätta godkänner du våra <0>användarvillkor</0>."
 
@@ -2253,6 +2265,7 @@ msgstr "Kadett"
 msgid "Campaign Article Link (optional)"
 msgstr "Länk till kampanjartikel (valfritt)"
 
+#: src/components/_military/order/BattleOrderList.tsx:207
 #: src/components/_political/election/CandidateFormModal.tsx:83
 msgid "Cancel"
 msgstr "Avbryt"
@@ -2317,19 +2330,19 @@ msgstr "Kan ej välja specialisering / får ingen nytta av specialisering."
 msgid "Captain"
 msgstr "Kapten"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:262
+#: src/components/_user/auth/ConnectFromModal.tsx:280
 msgid "CAPTCHA challenge expired. Please try again."
 msgstr "CAPTCHA-verifieringen har löpt ut. Försök igen."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:258
+#: src/components/_user/auth/ConnectFromModal.tsx:276
 msgid "CAPTCHA challenge failed. Resetting..."
 msgstr "CAPTCHA-verifieringen misslyckades. Återställer..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:266
+#: src/components/_user/auth/ConnectFromModal.tsx:284
 msgid "CAPTCHA timed out. Resetting..."
 msgstr "CAPTCHA-verifieringen tog för lång tid. Återställer..."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:76
+#: src/components/_user/auth/ConnectFromModal.tsx:89
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "CAPTCHA-verifieringen tog för lång tid. Återställer..."
 
@@ -2430,7 +2443,7 @@ msgstr "Ändra skatten för {0} till"
 msgid "Check your loot!"
 msgstr "Inventera krigsbytet!"
 
-#: src/components/_user/UserEquipments.tsx:181
+#: src/components/_user/UserEquipments.tsx:185
 #: src/utils/translations.tsx:193
 msgid "Chest"
 msgstr "Kroppsskydd"
@@ -2707,19 +2720,19 @@ msgstr "Riksdagsval"
 msgid "Congress Member"
 msgstr "Riksdagsledamot"
 
-#: src/pages/country/[countryId]/government.tsx:70
+#: src/pages/country/[countryId]/government.tsx:72
 msgid "Congress members"
 msgstr "Riksdagsledamöter"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:324
+#: src/components/_user/auth/ConnectFromModal.tsx:356
 msgid "Connect with Discord"
 msgstr "Anslut via Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:305
+#: src/components/_user/auth/ConnectFromModal.tsx:337
 msgid "Connect with email code"
 msgstr "Anslut med e-post"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:343
+#: src/components/_user/auth/ConnectFromModal.tsx:375
 msgid "Connect with Google"
 msgstr "Anslut via Google"
 
@@ -2769,10 +2782,10 @@ msgstr "Kontrakt har löpt ut"
 msgid "Contract rolled back"
 msgstr "Kontrakt återställt"
 
-#: src/components/_military/battle/BattleHeader.tsx:312
+#: src/components/_military/battle/BattleHeader.tsx:308
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/battle/LootSummaryCard.tsx:95
+#: src/components/_military/battle/LootSummaryCard.tsx:108
 #: src/components/_political/country/CountryHeader.tsx:135
 msgid "Contracts"
 msgstr "Kontrakt"
@@ -2868,7 +2881,7 @@ msgstr ""
 msgid "Country Money Transfer"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:62
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:64
 msgid "Country Orders"
 msgstr "Nationella ordrar"
 
@@ -2998,7 +3011,7 @@ msgstr ""
 msgid "Current development"
 msgstr ""
 
-#: src/pages/user/[userId]/index.tsx:163
+#: src/pages/user/[userId]/index.tsx:179
 msgid "Current Military Unit"
 msgstr "Nuvarande militärt förband"
 
@@ -3098,6 +3111,10 @@ msgstr "Åsamka <0>{count}</0> skada i strider"
 msgid "Deal <0>{count}</0> on country/mu orders"
 msgstr "Åsamka <0>{count}</0> skada på nationel/förbandets order"
 
+#: src/components/_user/user/MilitaryRank.tsx:85
+msgid "Deal <0>damages</0> in battles to climb the ranks!"
+msgstr ""
+
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
 msgstr "Åsamka skada i strider för att höja din militära grad och låsa upp anfallsbonusar."
@@ -3173,7 +3190,7 @@ msgstr "Minska"
 msgid "Decrease unrest"
 msgstr "Minska oroligheterna"
 
-#: src/components/_military/hit/HitButton.tsx:470
+#: src/components/_military/hit/HitButton.tsx:471
 msgid "Defend"
 msgstr "Försvara"
 
@@ -3206,7 +3223,7 @@ msgid "Defensive pact signed"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:427
+#: src/components/_military/battle/SetOrderFormModal.tsx:526
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -3235,7 +3252,7 @@ msgstr "Radera konto"
 msgid "Delete contract"
 msgstr "Radera kontrakt"
 
-#: src/pages/index.tsx:146
+#: src/pages/index.tsx:79
 #: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Radera ditt konto"
@@ -3277,7 +3294,7 @@ msgstr "Fyndighetsresurs"
 msgid "Deposit resources"
 msgstr "Fyndigheter"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:86
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:87
 msgid "Deposit will be depleted in"
 msgstr "Fyndigheten töms om"
 
@@ -3429,6 +3446,14 @@ msgstr "Donationer"
 msgid "Dormitories"
 msgstr "Logement"
 
+#: src/components/_military/order/BattleOrderList.tsx:225
+msgid "Drag the new order to choose its number."
+msgstr ""
+
+#: src/components/_military/order/BattleOrderList.tsx:227
+msgid "Drag the orders to change their priority number."
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
 msgstr "Drake"
@@ -3489,6 +3514,14 @@ msgstr "Redigera beskrivning"
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
 msgstr "Redigera anställd"
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:487
+msgid "Editing an existing order"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:485
+msgid "Editing another order"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
@@ -3603,8 +3636,8 @@ msgstr "Fänrik"
 msgid "Enter article ID"
 msgstr "Ange artikel-ID"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:163
-#: src/components/_user/auth/ConnectFromModal.tsx:168
+#: src/components/_user/auth/ConnectFromModal.tsx:174
+#: src/components/_user/auth/ConnectFromModal.tsx:179
 msgid "Enter the code we sent to your email."
 msgstr "Ange koden vi skickade till din e-post."
 
@@ -3617,7 +3650,7 @@ msgstr "Entreprenörskap"
 #: src/components/_layout/LayoutOptions.tsx:199
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
-#: src/pages/user/[userId]/index.tsx:92
+#: src/pages/user/[userId]/index.tsx:100
 #: src/pages/user/[userId]/inventory.tsx:62
 msgid "Equipment"
 msgstr "Utrustning"
@@ -3722,19 +3755,19 @@ msgstr "Misslyckades att kopiera"
 msgid "Failed to copy text: "
 msgstr "Misslyckades att kopiera text: "
 
-#: src/components/_user/auth/ConnectFromModal.tsx:106
+#: src/components/_user/auth/ConnectFromModal.tsx:117
 msgid "Failed to start Discord login."
 msgstr "Kunde inte starta Discord-inloggning."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:104
+#: src/components/_user/auth/ConnectFromModal.tsx:115
 msgid "Failed to start Discord login. Please retry the CAPTCHA."
 msgstr "Kunde inte starta Discord-inloggning. Försök med CAPTCHA igen."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:126
+#: src/components/_user/auth/ConnectFromModal.tsx:137
 msgid "Failed to start Google login."
 msgstr "Kunde inte starta Google-inloggning."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:124
+#: src/components/_user/auth/ConnectFromModal.tsx:135
 msgid "Failed to start Google login. Please retry the CAPTCHA."
 msgstr "Kunde inte starta Google-inloggning. Försök med CAPTCHA igen."
 
@@ -4012,7 +4045,7 @@ msgstr ""
 msgid "g. The use of profiles (picture, description, name) related to aforementioned ideologies and movements as well as political figures linked to ongoing real-world wars and armed conflicts. Humoristic names, descriptions and pictures are tolerated, with the exception of any content related to nazism and neo-nazism."
 msgstr "g. Användning av profiler (bild, beskrivning, namn) kopplade till ovannämnda ideologier och rörelser, liksom till politiska figurer med anknytning till pågående krig och väpnade konflikter i den verkliga världen. Humoristiska namn, beskrivningar och bilder tolereras, med undantag för allt innehåll kopplat till nazism och neonazism."
 
-#: src/components/_user/user/Level.tsx:109
+#: src/components/_user/user/Level.tsx:97
 msgid "Gain <0>Xp</0> by finishing your missions!"
 msgstr "Erhåll <0>XP</0> genom att slutföra dina uppdrag!"
 
@@ -4102,7 +4135,7 @@ msgstr "Ger <0>{0}</0>"
 msgid "Globe (experimental)"
 msgstr "Jordglobskarta (experimentell)"
 
-#: src/components/_user/UserEquipments.tsx:232
+#: src/components/_user/UserEquipments.tsx:236
 #: src/utils/translations.tsx:211
 msgid "Gloves"
 msgstr "Handskar"
@@ -4313,7 +4346,7 @@ msgstr "Hälsa"
 msgid "Heavy Ammo"
 msgstr "Tung ammunition"
 
-#: src/components/_user/UserEquipments.tsx:166
+#: src/components/_user/UserEquipments.tsx:170
 #: src/utils/translations.tsx:184
 msgid "Helmet"
 msgstr "Hjälm"
@@ -4474,7 +4507,7 @@ msgid "Income tax"
 msgstr "Inkomstskatt"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:150
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "Income Tax"
 msgstr "Inkomstskatt"
 
@@ -4512,7 +4545,7 @@ msgstr "Uppsåtliga eller upprepade överträdelser av denna policy leder till p
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
 #: src/pages/user/[userId]/companies.tsx:46
-#: src/pages/user/[userId]/index.tsx:201
+#: src/pages/user/[userId]/index.tsx:217
 #: src/pages/user/[userId]/inventory.tsx:31
 msgid "Inventory"
 msgstr "Förråd"
@@ -4618,6 +4651,10 @@ msgstr ""
 msgid "Join MU"
 msgstr "Gå med i förband"
 
+#: src/pages/index.tsx:139
+msgid "Join the world"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
 msgstr "Börja vid detta företag!"
@@ -4687,7 +4724,7 @@ msgstr ""
 msgid "Knife"
 msgstr "Morakniv 2000"
 
-#: src/components/_user/UserEquipments.tsx:154
+#: src/components/_user/UserEquipments.tsx:158
 msgid "Knives do not accept ammo"
 msgstr "Knivar kan inte laddas med ammunition"
 
@@ -4712,9 +4749,9 @@ msgstr "Senast erhållen: <0/>"
 msgid "Last gifts"
 msgstr "Senaste gåvorna"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:308
-#: src/components/_user/auth/ConnectFromModal.tsx:327
-#: src/components/_user/auth/ConnectFromModal.tsx:346
+#: src/components/_user/auth/ConnectFromModal.tsx:340
+#: src/components/_user/auth/ConnectFromModal.tsx:359
+#: src/components/_user/auth/ConnectFromModal.tsx:378
 msgid "Last used"
 msgstr "Senast använd"
 
@@ -4788,13 +4825,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Lämna företaget?"
 
-#: src/pages/country/[countryId]/government.tsx:106
-#: src/pages/country/[countryId]/government.tsx:111
+#: src/pages/country/[countryId]/government.tsx:110
+#: src/pages/country/[countryId]/government.tsx:115
 msgid "Leave congress"
 msgstr "Lämna riksdagen"
 
-#: src/pages/country/[countryId]/government.tsx:90
-#: src/pages/country/[countryId]/government.tsx:95
+#: src/pages/country/[countryId]/government.tsx:94
+#: src/pages/country/[countryId]/government.tsx:99
 msgid "Leave government"
 msgstr "Lämna regeringen"
 
@@ -5069,6 +5106,10 @@ msgstr "Maximalt <0>{0}</0> medlemmar."
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Maximalt <0>{0}</0> anställda.{1}"
 
+#: src/components/_user/user/MilitaryRank.tsx:93
+msgid "Maximum rank achieved!"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
 msgstr "Kanske episk musik skulle hjälpa?"
@@ -5182,7 +5223,7 @@ msgstr "Legoknektskontrakt"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Legoknektskontrakt är för närvarande deaktiverade."
 
-#: src/components/_military/battle/LootSummaryCard.tsx:89
+#: src/components/_military/battle/LootSummaryCard.tsx:102
 msgid "Mercenary earnings"
 msgstr "Legoknektsintäkter"
 
@@ -5217,7 +5258,7 @@ msgstr ""
 msgid "Military laws"
 msgstr "Militära lagar"
 
-#: src/pages/user/[userId]/index.tsx:142
+#: src/pages/user/[userId]/index.tsx:150
 msgid "Military Rank"
 msgstr "Militär grad"
 
@@ -5399,7 +5440,7 @@ msgstr "Förbandet har stigit i nivå!"
 msgid "MU Monthly Levels"
 msgstr "Förbandets månadsnivåer"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:72
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:74
 msgid "MU Orders"
 msgstr "Förbandsorder"
 
@@ -5416,7 +5457,7 @@ msgstr "Förbandet nådde nivå {0}! Belöning: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "Vinnare av förbandsturnering"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:122
+#: src/components/_military/battle/LootSummaryCard.tsx:135
 msgid "My battle loot"
 msgstr "Mitt stridsbyte"
 
@@ -5460,6 +5501,10 @@ msgstr "Mytomspunnen?! Ditt konto är välsignat"
 #: src/components/_political/party/PartyFormModal.tsx:99
 msgid "Name"
 msgstr "Namn"
+
+#: src/components/_user/auth/CountryWelcomeArticle.tsx:50
+msgid "National article of<0/>"
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
@@ -5573,6 +5618,10 @@ msgstr "Nytt namn"
 msgid "New nationality"
 msgstr ""
 
+#: src/components/_military/order/OrderBattleItem.tsx:96
+msgid "New order"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
 msgstr "Ny partiansökan"
@@ -5659,6 +5708,10 @@ msgstr "Ingen aktiv ideologi - Balanserad"
 msgid "No active job offer"
 msgstr "Inget aktivt jobberbjudande"
 
+#: src/components/_military/order/BattleOrderList.tsx:155
+msgid "No active order"
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:267
 msgid "No active wars"
 msgstr "Inga pågående krig"
@@ -5683,7 +5736,7 @@ msgstr ""
 msgid "No API tokens yet. Create one to get started."
 msgstr "Inga API-tokens ännu. Skapa en för att komma igång."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:140
+#: src/components/_user/auth/ConnectFromModal.tsx:151
 msgid "No authorization code provided."
 msgstr "Ingen auktoriseringskod angavs."
 
@@ -5699,7 +5752,7 @@ msgstr "Inga bud ännu"
 msgid "No citizens"
 msgstr "Inga medborgare"
 
-#: src/pages/country/[countryId]/government.tsx:156
+#: src/pages/country/[countryId]/government.tsx:178
 msgid "No congress members"
 msgstr "Inga riksdagsledamöter"
 
@@ -5771,7 +5824,7 @@ msgstr "Inga erbjudanden hittades"
 msgid "No one nominated yet"
 msgstr "Ingen nominerad ännu"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:113
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:115
 msgid "No orders"
 msgstr "Inga order"
 
@@ -6030,6 +6083,11 @@ msgstr "Order och åtgärder"
 msgid "Orders cancelled"
 msgstr "Order makulerade"
 
+#: src/pages/orders.tsx:24
+#: src/pages/orders.tsx:35
+msgid "Orders of <0/>"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
@@ -6057,7 +6115,7 @@ msgstr "Översikt"
 msgid "Owned"
 msgstr "Ägs"
 
-#: src/pages/user/[userId]/index.tsx:169
+#: src/pages/user/[userId]/index.tsx:185
 msgid "Owned Military Units"
 msgstr "Ägda militära förband"
 
@@ -6087,7 +6145,7 @@ msgid "Pacifist"
 msgstr "Pacifist"
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:439
+#: src/components/_military/battle/SetOrderFormModal.tsx:538
 msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -6095,7 +6153,7 @@ msgstr ""
 msgid "Packs"
 msgstr "Paket"
 
-#: src/components/_user/UserEquipments.tsx:198
+#: src/components/_user/UserEquipments.tsx:202
 #: src/utils/translations.tsx:220
 msgid "Pants"
 msgstr "Byxor"
@@ -6119,7 +6177,7 @@ msgstr "Partier"
 #: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:142
 #: src/components/_user/notification/notificationPrefs.categories.ts:158
-#: src/pages/user/[userId]/index.tsx:176
+#: src/pages/user/[userId]/index.tsx:192
 msgid "Party"
 msgstr "Parti"
 
@@ -6195,7 +6253,7 @@ msgstr "Röstning i partiets primärval är nu öppen i <0/>"
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Klistra in en länk till din kampanjartikel eller lämna tomt."
 
-#: src/components/_user/user/Level.tsx:168
+#: src/components/_user/user/Level.tsx:156
 msgid "Paused at max level"
 msgstr ""
 
@@ -6263,6 +6321,10 @@ msgstr "Piller"
 msgid "Plant a tree in the data center"
 msgstr "Plantera ett träd i datacentret"
 
+#: src/pages/index.tsx:131
+msgid "Play now"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:31
 msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
 msgstr "Spelare är begränsade till ett enda konto. Det är strängt förbjudet att skapa flera konton eller att använda någon annans konto, oavsett anledning."
@@ -6271,9 +6333,9 @@ msgstr "Spelare är begränsade till ett enda konto. Det är strängt förbjudet
 msgid "Players can share an IP address if they have been registered as a \"Family Group\". This status must be requested in advance to an admin on our Discord. Group members are prohibited from:"
 msgstr "Spelare kan dela IP-adress om de har registrerats som en ”familjegrupp”. Denna status måste begäras i förväg hos en administratör på vår Discord. Gruppmedlemmar är förbjudna från att:"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:93
-#: src/components/_user/auth/ConnectFromModal.tsx:113
-#: src/components/_user/auth/ConnectFromModal.tsx:190
+#: src/components/_user/auth/ConnectFromModal.tsx:104
+#: src/components/_user/auth/ConnectFromModal.tsx:124
+#: src/components/_user/auth/ConnectFromModal.tsx:201
 msgid "Please complete the CAPTCHA."
 msgstr "Vänligen slutför CAPTCHA-verifieringen."
 
@@ -6382,7 +6444,7 @@ msgstr "Statsministerval"
 msgid "Prestige"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:179
+#: src/components/_user/user/Level.tsx:167
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr ""
 
@@ -6406,7 +6468,7 @@ msgstr "Primärval"
 msgid "Primary Election Ended"
 msgstr "Primärvalet avslutat"
 
-#: src/pages/index.tsx:142
+#: src/pages/index.tsx:75
 #: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Sekretess"
@@ -6456,7 +6518,7 @@ msgid "Production"
 msgstr "Produktion"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:100
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Produktionsbonus"
@@ -6591,7 +6653,7 @@ msgstr "Snabbutrusta de bästa föremålen oavsett nivå"
 msgid "Quickly dismantle items"
 msgstr "Skrota föremål snabbt"
 
-#: src/components/_military/battle/BattleHeader.tsx:299
+#: src/components/_military/battle/BattleHeader.tsx:295
 msgid "Ranking"
 msgstr "Rankning"
 
@@ -6602,7 +6664,7 @@ msgstr "Rankningbelöning"
 #: src/components/_layout/MoreButtonNav.tsx:122
 #: src/pages/alliance/[allianceId]/index.tsx:48
 #: src/pages/country/[countryId]/index.tsx:167
-#: src/pages/user/[userId]/index.tsx:123
+#: src/pages/user/[userId]/index.tsx:131
 msgid "Rankings"
 msgstr "Ranking"
 
@@ -6655,7 +6717,7 @@ msgid "Reach Military Rank 5"
 msgstr "Nå militär grad 5"
 
 #. placeholder {0}: leveling.level + 1
-#: src/components/_user/user/Level.tsx:129
+#: src/components/_user/user/Level.tsx:117
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "Att nå nivå {0} ger dig <0>{nextLevelSkillPoints} färdighetspoäng</0>."
 
@@ -6666,6 +6728,10 @@ msgstr "Läs <0>{count}</0> artiklar"
 #: src/components/_user/mission/mission.frontConfig.tsx:352
 msgid "Read Article"
 msgstr "Läs artikel"
+
+#: src/components/_user/auth/CountryWelcomeArticle.tsx:58
+msgid "Read the article"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Ready for battle!"
@@ -6716,7 +6782,7 @@ msgstr "Värvningslänk kopierad till urklipp"
 
 #: src/components/_user/user/UserHeader.tsx:220
 #: src/components/_user/user/UserRankingsPanel.tsx:50
-#: src/pages/user/[userId]/index.tsx:219
+#: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
 msgstr "Värvningar"
@@ -6734,7 +6800,7 @@ msgstr "Värvare har angetts"
 msgid "Referrer username"
 msgstr "Värvarens användarnamn"
 
-#: src/pages/user/[userId]/index.tsx:122
+#: src/pages/user/[userId]/index.tsx:130
 msgid "Refresh every hour"
 msgstr "Uppdateras varje timme"
 
@@ -6977,7 +7043,7 @@ msgstr "Generera nytt uppdrag"
 msgid "Reset"
 msgstr "Återställ"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:290
+#: src/components/_user/auth/ConnectFromModal.tsx:314
 msgid "Reset CAPTCHA"
 msgstr "Återställ CAPTCHA"
 
@@ -6997,7 +7063,7 @@ msgstr "Återställ användarnamn"
 msgid "Reshuffle in"
 msgstr "Omfördelning om"
 
-#: src/components/_military/hit/HitButton.tsx:465
+#: src/components/_military/hit/HitButton.tsx:466
 msgid "Resist"
 msgstr "Motstånd"
 
@@ -7009,7 +7075,7 @@ msgstr "Motstånd"
 msgid "Resistance Contributors"
 msgstr "Motståndets stöttepelare"
 
-#: src/components/_military/battle/BattleName.tsx:152
+#: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
@@ -7042,7 +7108,7 @@ msgstr "Återkalla API-token?"
 msgid "Revolt started!"
 msgstr "Revolt startad!"
 
-#: src/components/_military/battle/BattleName.tsx:157
+#: src/components/_military/battle/BattleName.tsx:160
 msgid "Revolution {score}"
 msgstr ""
 
@@ -7154,6 +7220,7 @@ msgstr "Regeringsparti"
 msgid "Running low on health?"
 msgstr "Börjar hälsan ta slut?"
 
+#: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:249
@@ -7463,7 +7530,7 @@ msgstr "Färdighetsuppgradering:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
 #: src/components/_user/user/UserHeader.tsx:174
-#: src/pages/user/[userId]/index.tsx:157
+#: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Färdigheter"
 
@@ -7501,7 +7568,7 @@ msgstr "Utseendebelöning"
 
 #: src/components/_other/shop/ShopHeader.tsx:23
 #: src/pages/shop/index.tsx:145
-#: src/pages/user/[userId]/index.tsx:93
+#: src/pages/user/[userId]/index.tsx:101
 msgid "Skins"
 msgstr "Utseenden"
 
@@ -7618,7 +7685,7 @@ msgstr "Starta revolution"
 msgid "Started <0/>"
 msgstr "Startade <0/>"
 
-#: src/components/_military/battle/BattleHeader.tsx:195
+#: src/components/_military/battle/BattleHeader.tsx:194
 msgid "Started<0/><1/>"
 msgstr "Startade<0/><1/>"
 
@@ -7705,7 +7772,7 @@ msgstr "Prenumererade och stöttade spelet <3"
 msgid "Subscribers"
 msgstr "Prenumeranter"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:147
+#: src/components/_user/auth/ConnectFromModal.tsx:158
 msgid "Successfully logged in!"
 msgstr "Inloggningen lyckades!"
 
@@ -7785,7 +7852,7 @@ msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> eac
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:433
+#: src/components/_military/battle/SetOrderFormModal.tsx:532
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
@@ -7836,12 +7903,12 @@ msgstr "Skatter"
 msgid "Terminated"
 msgstr "Avslutat"
 
-#: src/pages/index.tsx:138
+#: src/pages/index.tsx:71
 #: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Villkor"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:386
+#: src/components/_user/auth/ConnectFromModal.tsx:418
 msgid "Terms of Service"
 msgstr "Användarvillkor"
 
@@ -7965,7 +8032,7 @@ msgstr "Denna utrustning är grön, precis som gräset"
 msgid "This feels good, huh?"
 msgstr "Det här känns bra, eller hur?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:63
+#: src/components/_military/battle/LootSummaryCard.tsx:76
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Detta är en sammanfattning av det byte du erhållit från striden. Det inkluderar lådor samt de mest värdefulla föremålen från den gemensamma bytespoolen."
 
@@ -8139,10 +8206,6 @@ msgstr "Flest terrängpoäng i en rond"
 msgid "Top 3 offers"
 msgstr "Topp 3-erbjudanden"
 
-#: src/pages/index.tsx:131
-msgid "Top countries"
-msgstr "Toppländer"
-
 #: src/components/_economy/donation/DonationList.tsx:87
 msgid "Top Donors"
 msgstr "Främsta donatorer"
@@ -8214,7 +8277,7 @@ msgstr "Totalt:"
 msgid "Tournament"
 msgstr "Turnering"
 
-#: src/components/_military/battle/BattleName.tsx:160
+#: src/components/_military/battle/BattleName.tsx:163
 msgid "Tournament battle for {tournamentName} {score}"
 msgstr ""
 
@@ -8265,7 +8328,7 @@ msgstr "Transakt."
 
 #: src/components/_political/country/CountryHeader.tsx:83
 #: src/pages/market/index.tsx:93
-#: src/pages/user/[userId]/index.tsx:230
+#: src/pages/user/[userId]/index.tsx:246
 msgid "Transactions"
 msgstr "Transaktioner"
 
@@ -8318,7 +8381,7 @@ msgstr ""
 msgid "Unblock (show content)"
 msgstr "Avblockera (visa innehåll)"
 
-#: src/components/_user/UserEquipments.tsx:117
+#: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
 msgstr "Ta av allt"
 
@@ -8331,12 +8394,12 @@ msgid "Unethical countries cannot hold any treaty — this law cannot be enacted
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:457
+#: src/components/_military/battle/SetOrderFormModal.tsx:556
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:452
+#: src/components/_military/battle/SetOrderFormModal.tsx:551
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
@@ -8659,9 +8722,9 @@ msgstr "Verifieringskod skickad!"
 msgid "Verify"
 msgstr "Verifiera"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:278
-msgid "Verifying CAPTCHA..."
-msgstr "Verifierar CAPTCHA..."
+#: src/components/_user/auth/ConnectFromModal.tsx:293
+msgid "Verifying you're human..."
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:131
 msgid "Vice Admiral"
@@ -8677,7 +8740,7 @@ msgstr "Vice Statsminister"
 msgid "View details"
 msgstr "Visa detaljer"
 
-#: src/components/_military/battle/BattleHeader.tsx:126
+#: src/components/_military/battle/BattleHeader.tsx:125
 msgid "View on map"
 msgstr "Visa på kartan"
 
@@ -8761,12 +8824,12 @@ msgid "Wars"
 msgstr "Krig"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:38
-#: src/pages/user/[userId]/index.tsx:129
+#: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Förmögenhet"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:49
-#: src/components/_user/UserEquipments.tsx:134
+#: src/components/_user/UserEquipments.tsx:138
 msgid "Weapon"
 msgstr "Vapen"
 
@@ -9010,6 +9073,10 @@ msgstr "Du knäckte slumpgeneratorn"
 msgid "You brought 10 babies to the world (>= lvl {0})"
 msgstr "Du tog 10 bebisar till världen (>= lvl {0})"
 
+#: src/pages/index.tsx:126
+msgid "You can change it later."
+msgstr ""
+
 #: src/components/_economy/inventory/DismantleModal.tsx:211
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Du kan skrota föremål från ditt förråd genom att välja ett föremål."
@@ -9018,7 +9085,7 @@ msgstr "Du kan skrota föremål från ditt förråd genom att välja ett förem�
 msgid "You can optionally link a campaign article to your candidacy."
 msgstr "Du kan valfritt länka en kampanjartikel till din kandidatur."
 
-#: src/components/_user/user/Level.tsx:103
+#: src/components/_user/user/Level.tsx:91
 msgid "You can upgrade your skills!"
 msgstr "Du kan uppgradera dina färdigheter!"
 
@@ -9087,11 +9154,11 @@ msgstr "Du har konsumerat <0>{0}</0>, dess effekt börjar nu och upphör om <1>{
 msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:41
+#: src/pages/country/[countryId]/government.tsx:43
 msgid "You have resigned from the congress"
 msgstr "Du har avgått från riksdagen"
 
-#: src/pages/country/[countryId]/government.tsx:33
+#: src/pages/country/[countryId]/government.tsx:35
 msgid "You have resigned from the government"
 msgstr "Du har avgått från regeringen"
 
@@ -9152,7 +9219,7 @@ msgstr ""
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Du måste spendera alla 3 ideologipoäng ({pointsRemaining} återstår)."
 
-#: src/components/_user/UserEquipments.tsx:156
+#: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "Du måste utrusta ett vapen först"
 
@@ -9310,7 +9377,7 @@ msgstr "Du är på topp"
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Du har slutför några uppdrag! Låt oss hämta dina XP-belöningar."
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:131
 msgid "You've reached max level!"
 msgstr "Du har nått maxnivån!"
 
@@ -9357,6 +9424,7 @@ msgid "Your citizenship is going to change"
 msgstr "Ditt medborgarskap kommer att ändras"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:140
+#: src/pages/index.tsx:122
 msgid "Your country"
 msgstr "Ditt land"
 
@@ -9412,8 +9480,8 @@ msgstr "Dina uppgifter har sparats."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ditt förråd rymmer alla dina föremål. Låt oss se vad du har!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:62
-#: src/components/_military/battle/LootSummaryCard.tsx:66
+#: src/components/_military/battle/LootSummaryCard.tsx:75
+#: src/components/_military/battle/LootSummaryCard.tsx:79
 msgid "Your loot"
 msgstr "Ditt byte"
 
@@ -9491,7 +9559,7 @@ msgstr "Din lön i <0/> ändrades från <1>{0}</1> till <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Dina veckouppdrag har återställts! Slutför dem för att tjäna belöningar."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:227
+#: src/components/_user/auth/ConnectFromModal.tsx:324
 msgid "your@email.com"
 msgstr "du@e-post.se"
 
