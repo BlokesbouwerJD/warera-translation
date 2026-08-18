@@ -157,11 +157,11 @@ msgstr "{completedCount}/{totalCount} įvykdyta"
 
 #: src/components/_user/user/SkillUpgrade.tsx:267
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
-msgstr ""
+msgstr "Šiam įgūdžiui skirta prestižo taškų: {draftPrestigeCount} (išsaugota: {savedPrestigeCount}, užrakinta iki atstatymo)"
 
 #: src/components/_user/user/Level.tsx:143
 msgid "{prestigeLevel} Prestige Points"
-msgstr ""
+msgstr "Prestižo Taškai: {prestigeLevel}"
 
 #: src/components/_military/tournament/TournamentRegisteredTag.tsx:43
 msgid "{registeredCount} {entityLabel} registered"
@@ -173,7 +173,7 @@ msgstr "Reikia {roundsToWin} raundų pergalei "
 
 #: src/components/_user/user/SkillUpgrade.tsx:373
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
-msgstr ""
+msgstr "Šiam įgūdžiui aktyvių prestižo taškų: {savedPrestigeCount}"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:50
@@ -198,11 +198,11 @@ msgstr "/dieną"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:178
 msgid "+{hiddenBattles} more battles"
-msgstr ""
+msgstr "+{hiddenBattles} mūšių"
 
 #: src/components/_user/user/Level.tsx:152
 msgid "+{xpBonusPercent}% XP"
-msgstr ""
+msgstr "+{xpBonusPercent}% XP"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:381
 #: src/components/_user/notification/notification.frontConfig.tsx:1095
@@ -749,7 +749,7 @@ msgstr "<0>{0}</0>/dieną"
 #. placeholder {0}: companiesLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:118
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
-msgstr ""
+msgstr "<0>{activeCompaniesCount}/{0}</0> Įmonės"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1341,7 +1341,7 @@ msgstr "Priimtas"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
-msgstr ""
+msgstr "Prieiga suteikta"
 
 #: src/components/_military/battle/BattleHeader.tsx:118
 msgid "Access war"
@@ -1366,7 +1366,7 @@ msgstr "Veiksmai"
 
 #: src/components/_user/user/Level.tsx:160
 msgid "activated"
-msgstr ""
+msgstr "įjungta"
 
 #: src/components/_military/battle/BattlesHeader.tsx:27
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
@@ -1631,7 +1631,7 @@ msgstr "Animuotas <0>GIF</0> avataras"
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
-msgstr ""
+msgstr "Skelbimai"
 
 #: src/components/_political/law/law.frontConfig.tsx:282
 msgid "Another country proposed a defensive pact to yours"
@@ -1728,7 +1728,7 @@ msgstr "Ar tikrai nori pašalinti visus pardavimo pasiūlymus?"
 
 #: src/components/_social/announcement/Announcement.tsx:133
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
-msgstr ""
+msgstr "Ar tikrai nori pašalinti šį skelbimą? Jo komentarai taip pat bus ištrinti."
 
 #: src/components/_user/mission/MissionItem.tsx:105
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1850,7 +1850,7 @@ msgstr "Ataka"
 
 #: src/components/_user/user/MilitaryRank.tsx:111
 msgid "Attack bonus:"
-msgstr ""
+msgstr "Atakos bonusas:"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -2012,7 +2012,7 @@ msgstr "Mūšis"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:166
 msgid "Battle by battle"
-msgstr ""
+msgstr "Mūšis po mūšio"
 
 #: src/pages/alliance/[allianceId]/index.tsx:41
 msgid "Battle damage bonus"
@@ -2045,7 +2045,7 @@ msgstr "Prasidėjo mūšis"
 
 #: src/pages/country/[countryId]/government.tsx:137
 msgid "Battle orders"
-msgstr ""
+msgstr "Mūšio įsakymai"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
@@ -3120,7 +3120,7 @@ msgstr "Padaryk <0>{count}</0> žalos vykdant šalies / karinio vieneto įsakymu
 
 #: src/components/_user/user/MilitaryRank.tsx:85
 msgid "Deal <0>damages</0> in battles to climb the ranks!"
-msgstr ""
+msgstr "Daryk <0>žalos</0> mūšiuose, kad keltum karinį laipsnį!"
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
@@ -3455,11 +3455,11 @@ msgstr "Bendrabučiai"
 
 #: src/components/_military/order/BattleOrderList.tsx:225
 msgid "Drag the new order to choose its number."
-msgstr ""
+msgstr "Nutempk naują įsakymą, kad pasirinktum jo numerį."
 
 #: src/components/_military/order/BattleOrderList.tsx:227
 msgid "Drag the orders to change their priority number."
-msgstr ""
+msgstr "Nutempk įsakymus, kad pakeistum jų prioriteto numerį."
 
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
@@ -3471,7 +3471,7 @@ msgstr "e. Turinys apie vykstančius realaus pasaulio karus ir ginkluotus konfli
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
-msgstr ""
+msgstr "Kiekvienas prestižo taškas prilygsta pasirinkto įgūdžio lygiams: {skillBonusLevels}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Eat"
@@ -3512,7 +3512,7 @@ msgstr "Ekonomika ir įmonės"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
-msgstr ""
+msgstr "Redaguoti šalies įsakymą"
 
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
@@ -3524,7 +3524,7 @@ msgstr "Redaguoti aprašymą"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
-msgstr ""
+msgstr "Redaguoti MU įsakymą"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -3532,11 +3532,11 @@ msgstr "Redaguoti darbuotoją"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
-msgstr ""
+msgstr "Redaguojamas esamas įsakymas"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
-msgstr ""
+msgstr "Redaguojamas kitas įsakymas"
 
 #: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
@@ -3724,7 +3724,7 @@ msgstr "Ekspansionistas"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:221
 msgid "Expected loot"
-msgstr ""
+msgstr "Numatomas grobis"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4672,7 +4672,7 @@ msgstr "Prisijungti prie MU"
 
 #: src/pages/index.tsx:139
 msgid "Join the world"
-msgstr ""
+msgstr "Prisijunk prie pasaulio"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
@@ -4956,7 +4956,7 @@ msgstr "Maisto suvartojimo limitas"
 
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Limit reached"
-msgstr ""
+msgstr "Pasiektas limitas"
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5002,7 +5002,7 @@ msgstr "Vieta"
 
 #: src/components/_user/user/SkillUpgrade.tsx:289
 msgid "Locked, reset your skills to reassign"
-msgstr ""
+msgstr "Užrakinta – atstatyk įgūdžius, kad perskirstytum"
 
 #: src/components/_user/user/MyAvatar.tsx:60
 msgid "Logout"
@@ -5131,7 +5131,7 @@ msgstr "Daugiausia <0>{0}</0> darbuotojų.{1}"
 
 #: src/components/_user/user/MilitaryRank.tsx:93
 msgid "Maximum rank achieved!"
-msgstr ""
+msgstr "Pasiektas aukščiausias laipsnis!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
@@ -5304,7 +5304,7 @@ msgstr "Karinis dalinys"
 
 #: src/components/_social/announcement/AnnouncementModal.tsx:49
 msgid "Military unit announcement"
-msgstr ""
+msgstr "Karinio dalinio skelbimas"
 
 #: src/components/_military/mu/MuFormModal.tsx:46
 msgid "Military unit created"
@@ -5527,7 +5527,7 @@ msgstr "Pavadinimas"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:50
 msgid "National article of<0/>"
-msgstr ""
+msgstr "<0/> nacionalinis straipsnis"
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
@@ -5643,7 +5643,7 @@ msgstr "Nauja pilietybė"
 
 #: src/components/_military/order/OrderBattleItem.tsx:96
 msgid "New order"
-msgstr ""
+msgstr "Naujas įsakymas"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
@@ -5697,7 +5697,7 @@ msgstr "Kitas bus tankas"
 
 #: src/components/_user/user/SkillUpgrade.tsx:272
 msgid "Next point costs"
-msgstr ""
+msgstr "Kito taško kaina"
 
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
@@ -5733,7 +5733,7 @@ msgstr "Nėra aktyvaus darbo pasiūlymo"
 
 #: src/components/_military/order/BattleOrderList.tsx:155
 msgid "No active order"
-msgstr ""
+msgstr "Nėra aktyvaus įsakymo"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:267
 msgid "No active wars"
@@ -5753,7 +5753,7 @@ msgstr "Aljanso įstatymų dar nėra"
 
 #: src/components/_social/announcement/AnnouncementList.tsx:57
 msgid "No announcement yet"
-msgstr ""
+msgstr "Skelbimų dar nėra"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
@@ -5857,7 +5857,7 @@ msgstr "Partijų nerasta"
 
 #: src/components/_user/user/SkillUpgrade.tsx:287
 msgid "No prestige points left, tap to reset staged points"
-msgstr ""
+msgstr "Prestižo taškų nebeliko – bakstelėk, kad atstatytum paskirtus taškus"
 
 #: src/pages/country/[countryId]/index.tsx:382
 msgid "No production bonus from resources. This country has no specialization."
@@ -5953,7 +5953,7 @@ msgstr "Nenustatyta"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:158
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
-msgstr ""
+msgstr "Kol kas nieko nelaimėta. Suduok vykstančiame mūšyje, kad pradėtum uždirbti, ir pakilk į žalos reitingo viršų, kad užsitikrintum vietą jo grobio fonde."
 
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:79
@@ -6011,7 +6011,7 @@ msgstr "Vos vienas žingsnis iki legendinio..."
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:149
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:153
 msgid "Ongoing battles"
-msgstr ""
+msgstr "Vykstantys mūšiai"
 
 #: src/components/_political/party/party.frontConfig.tsx:345
 #: src/components/_political/party/party.frontConfig.tsx:366
@@ -6118,7 +6118,7 @@ msgstr "Užsakymai atšaukti"
 #: src/pages/orders.tsx:24
 #: src/pages/orders.tsx:35
 msgid "Orders of <0/>"
-msgstr ""
+msgstr "<0/> įsakymai"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
@@ -6287,7 +6287,7 @@ msgstr "Įklijuok savo rinkimų kampanijos straipsnio nuorodą arba palik tušč
 
 #: src/components/_user/user/Level.tsx:156
 msgid "Paused at max level"
-msgstr ""
+msgstr "Pristabdyta pasiekus didžiausią lygį"
 
 #: src/pages/shop/index.tsx:45
 msgid "Payment successful! Thanks for supporting the game <3"
@@ -6355,7 +6355,7 @@ msgstr "Pasodinti medį duomenų centre"
 
 #: src/pages/index.tsx:131
 msgid "Play now"
-msgstr ""
+msgstr "Žaisk dabar"
 
 #: src/components/_common/GameRules.tsx:31
 msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
@@ -6474,19 +6474,19 @@ msgstr "Prezidento rinkimai"
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 #: src/pages/user/[userId]/skills.tsx:193
 msgid "Prestige"
-msgstr ""
+msgstr "Prestižas"
 
 #: src/components/_user/user/Level.tsx:167
 msgid "Prestige to drop levels and re-activate your XP bonus."
-msgstr ""
+msgstr "Atlik prestižą, kad numestum lygius ir vėl įjungtum XP bonusą."
 
 #: src/components/_user/user/SkillValue.tsx:72
 msgid "Prestige:"
-msgstr ""
+msgstr "Prestižas:"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2140
 msgid "Prestige!"
-msgstr ""
+msgstr "Prestižas!"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
 msgid "Price auto-matches existing orders"
@@ -6763,7 +6763,7 @@ msgstr "Skaityti straipsnį"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:58
 msgid "Read the article"
-msgstr ""
+msgstr "Skaityti straipsnį"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Ready for battle!"
@@ -7618,7 +7618,7 @@ msgstr "Laidyklės akmenys"
 
 #: src/components/_layout/LayoutOptions.tsx:187
 msgid "Small GIFs"
-msgstr ""
+msgstr "Maži GIF"
 
 #: src/utils/translations.tsx:25
 msgid "Sniper"
@@ -7666,7 +7666,7 @@ msgstr "Stabili, užkariavimams atspari jėga. Vis dar naudojama neramumams, vyr
 
 #: src/components/_user/user/SkillUpgrade.tsx:268
 msgid "Stage a prestige point on this skill (applied on save, reset on skill reset)"
-msgstr ""
+msgstr "Skirk prestižo tašką šiam įgūdžiui (įsigalioja išsaugojus, atšaukiama atstatant įgūdžius)"
 
 #: src/components/_political/law/law.frontConfig.tsx:169
 #: src/components/_political/law/law.frontConfig.tsx:171
@@ -8756,7 +8756,7 @@ msgstr "Patvirtinti"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
-msgstr ""
+msgstr "Tikrinama, ar tu žmogus..."
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:131
 msgid "Vice Admiral"
@@ -8778,7 +8778,7 @@ msgstr "Rodyti žemėlapyje"
 
 #: src/components/_social/announcement/Announcement.tsx:59
 msgid "Views"
-msgstr ""
+msgstr "Peržiūros"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
@@ -8909,7 +8909,7 @@ msgstr "Sveiki atvykę į savo ekonomiką!"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:150
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
-msgstr ""
+msgstr "Kiek tau iki šiol atnešė mūšiai, kuriuose kovoji (smūgiai, žala, dėžės, premijos ir sutarčių pinigai), taip pat grobio fondo daiktai, kuriuos pagal esamą eilę turėtum gauti. Fondo daiktai dar nelaimėti: jie skiriami pagal žalos reitingus ir tavo taps tik tada, kai fondas bus išdalytas."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
@@ -9111,7 +9111,7 @@ msgstr "Į pasaulį atvedei 10 kūdikių (>= {0} lygis)"
 
 #: src/pages/index.tsx:126
 msgid "You can change it later."
-msgstr ""
+msgstr "Vėliau galėsi pakeisti."
 
 #: src/components/_economy/inventory/DismantleModal.tsx:211
 msgid "You can dismantle items from your inventory by selecting an item."
@@ -9188,7 +9188,7 @@ msgstr "Suvartojai <0>{0}</0>, jo poveikis prasideda dabar ir baigsis po <1>{buf
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1712
 msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
-msgstr ""
+msgstr "Atlikai prestižą! Mėgaukis nuolatiniu XP bonusu ir prestižo tašku."
 
 #: src/pages/country/[countryId]/government.tsx:43
 msgid "You have resigned from the congress"
@@ -9269,7 +9269,7 @@ msgstr "Baigėsi tavo \"Premium\" dovanos iš <0/> galiojimas! Ar apsvarstytum p
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "You prestiged and lost your levels"
-msgstr ""
+msgstr "Atlikai prestižą ir praradai lygius"
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
@@ -9358,7 +9358,7 @@ msgstr "Buvai taip arti"
 
 #: src/pages/user/[userId]/skills.tsx:124
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
-msgstr ""
+msgstr "Nukrisi iki 25 lygio (prarasi 65 000 XP), gausi nuolatinį +50% XP bonusą (+10% už kiekvieną papildomą prestižo lygį) ir prestižo tašką, o įgūdžiai bus atstatyti nemokamai."
 
 #. placeholder {0}: gameConfig?.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/referral/ReferralList.tsx:117
@@ -9435,7 +9435,7 @@ msgstr "Tavo skelbimas šaliai..."
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:30
 msgid "Your announcement to the unit..."
-msgstr ""
+msgstr "Tavo skelbimas daliniui..."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:368
 #: src/components/_user/notification/notification.frontConfig.tsx:1068
