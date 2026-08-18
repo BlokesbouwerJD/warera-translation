@@ -196,6 +196,10 @@ msgstr "*Può bruciare"
 msgid "/day"
 msgstr "/giorno"
 
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
+msgid "+{hiddenBattles} more battles"
+msgstr "Altre {hiddenBattles} battaglie"
+
 #: src/components/_user/user/Level.tsx:152
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent}% XP"
@@ -745,7 +749,7 @@ msgstr "<0>{0}</0>/giorno"
 #. placeholder {0}: companiesLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:118
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
-msgstr ""
+msgstr "<0>{activeCompaniesCount}/{0}</0> aziende"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1337,7 +1341,7 @@ msgstr "Accettato"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
-msgstr ""
+msgstr "Accesso garantito"
 
 #: src/components/_military/battle/BattleHeader.tsx:118
 msgid "Access war"
@@ -1846,7 +1850,7 @@ msgstr "Attacca"
 
 #: src/components/_user/user/MilitaryRank.tsx:111
 msgid "Attack bonus:"
-msgstr ""
+msgstr "Bonus in attacco:"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -2006,6 +2010,10 @@ msgstr "Pantaloni base"
 msgid "Battle"
 msgstr "Battaglia"
 
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:166
+msgid "Battle by battle"
+msgstr "Battaglia per battaglia"
+
 #: src/pages/alliance/[allianceId]/index.tsx:41
 msgid "Battle damage bonus"
 msgstr "Bonus danno in battaglia"
@@ -2037,7 +2045,7 @@ msgstr "Battaglia aperta"
 
 #: src/pages/country/[countryId]/government.tsx:137
 msgid "Battle orders"
-msgstr ""
+msgstr "Ordini battaglia"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
@@ -3112,7 +3120,7 @@ msgstr "Infliggi <0>{count}</0> sugli ordini del paese/UM"
 
 #: src/components/_user/user/MilitaryRank.tsx:85
 msgid "Deal <0>damages</0> in battles to climb the ranks!"
-msgstr ""
+msgstr "Infliggi <0>danni</0> in battaglia per salire i ranghi!"
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
@@ -3447,11 +3455,11 @@ msgstr "Dormitori"
 
 #: src/components/_military/order/BattleOrderList.tsx:225
 msgid "Drag the new order to choose its number."
-msgstr ""
+msgstr "Trascina il nuovo ordine per sceglierne il numero"
 
 #: src/components/_military/order/BattleOrderList.tsx:227
 msgid "Drag the orders to change their priority number."
-msgstr ""
+msgstr "Trascina gli ordini per cambiare il loro numero di priorità"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
@@ -3504,7 +3512,7 @@ msgstr "Economia e aziende"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
-msgstr ""
+msgstr "Modifica ordine nazionale"
 
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
@@ -3516,7 +3524,7 @@ msgstr "Modifica descrizione"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
-msgstr ""
+msgstr "Modifica ordine di UM"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -3524,11 +3532,11 @@ msgstr "Modifica lavoratore"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
-msgstr ""
+msgstr "Modifica un ordine esistente"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
-msgstr ""
+msgstr "Modifica un altro ordine"
 
 #: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
@@ -3705,10 +3713,6 @@ msgstr "Punti etica:"
 msgid "Events"
 msgstr "Eventi"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
-msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
-msgstr ""
-
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Tutti partecipano automaticamente"
@@ -3718,11 +3722,9 @@ msgstr "Tutti partecipano automaticamente"
 msgid "Expansionist"
 msgstr "Espansionista"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:56
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:82
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:221
 msgid "Expected loot"
-msgstr ""
+msgstr "Ricompense attese"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4492,11 +4494,6 @@ msgstr "Imperialista"
 msgid "Impressive"
 msgstr "Impressionante"
 
-#. placeholder {0}: data.battleCount
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
-msgid "in {0} battles"
-msgstr ""
-
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Inattivo"
@@ -4675,7 +4672,7 @@ msgstr "Unisciti all'UM"
 
 #: src/pages/index.tsx:139
 msgid "Join the world"
-msgstr ""
+msgstr "Unisciti al mondo"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
@@ -4959,7 +4956,7 @@ msgstr "Limite di consumo di cibo"
 
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Limit reached"
-msgstr ""
+msgstr "Limite raggiunto"
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5134,7 +5131,7 @@ msgstr "Massimo di <0>{0}</0> lavoratori.{1}"
 
 #: src/components/_user/user/MilitaryRank.tsx:93
 msgid "Maximum rank achieved!"
-msgstr ""
+msgstr "Massimo rango raggiunto!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
@@ -5530,7 +5527,7 @@ msgstr "Nome"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:50
 msgid "National article of<0/>"
-msgstr ""
+msgstr "Articolo nazionale di <0/>"
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
@@ -5646,7 +5643,7 @@ msgstr "Nuova nazionalità"
 
 #: src/components/_military/order/OrderBattleItem.tsx:96
 msgid "New order"
-msgstr ""
+msgstr "Nuovo ordine"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
@@ -5736,7 +5733,7 @@ msgstr "Nessuna offerta di lavoro attiva"
 
 #: src/components/_military/order/BattleOrderList.tsx:155
 msgid "No active order"
-msgstr ""
+msgstr "Nessun ordine attivo"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:267
 msgid "No active wars"
@@ -5954,6 +5951,10 @@ msgstr "In nessuna alleanza"
 msgid "Not set"
 msgstr "Non impostato"
 
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:158
+msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
+msgstr "Non hai nulla in ballo. Colpisci in una battaglia in corso per iniziare a guadagnare, e fai tanti danni per guadagnare una ricompensa."
+
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:79
 msgid "Notification preferences"
@@ -6006,6 +6007,11 @@ msgstr "Al fallimento del contratto: -1 rep per ogni <0/> nel budget, e -1 rep p
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:70
 msgid "One step away from legendary..."
 msgstr "A un passo dal leggendario..."
+
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:149
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:153
+msgid "Ongoing battles"
+msgstr "Battaglie in corso"
 
 #: src/components/_political/party/party.frontConfig.tsx:345
 #: src/components/_political/party/party.frontConfig.tsx:366
@@ -6112,7 +6118,7 @@ msgstr "Ordini annullati"
 #: src/pages/orders.tsx:24
 #: src/pages/orders.tsx:35
 msgid "Orders of <0/>"
-msgstr ""
+msgstr "Ordini di <0/>"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
@@ -6349,7 +6355,7 @@ msgstr "Pianta un albero nel data center"
 
 #: src/pages/index.tsx:131
 msgid "Play now"
-msgstr ""
+msgstr "Gioca ora"
 
 #: src/components/_common/GameRules.tsx:31
 msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
@@ -6757,7 +6763,7 @@ msgstr "Leggi articolo"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:58
 msgid "Read the article"
-msgstr ""
+msgstr "Leggi l'articolo"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Ready for battle!"
@@ -8750,7 +8756,7 @@ msgstr "Verifica"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
-msgstr ""
+msgstr "Verifichaimo tu sia umano..."
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:131
 msgid "Vice Admiral"
@@ -8900,6 +8906,10 @@ msgstr "Benvenuto su War Era!"
 #: src/components/_other/tour/tuto.frontConfig.tsx:25
 msgid "Welcome to your economy!"
 msgstr "Benvenuto nella tua economia!"
+
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:150
+msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
+msgstr "Ciò che hai guadagnato nelle battaglie combattute fin ora (colpi, danni, casse, monete da taglie e contratti), più le ricompense che potresti ancora ricevere. Queste ricompense non sono ancoratue: seguono la classifica dei danni e le otterrai solo quando saranno distribuite."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
@@ -9101,7 +9111,7 @@ msgstr "Hai portato 10 nuovi giocatori nel mondo (>= lvl {0})"
 
 #: src/pages/index.tsx:126
 msgid "You can change it later."
-msgstr ""
+msgstr "Potrai cambiarlo più tardi."
 
 #: src/components/_economy/inventory/DismantleModal.tsx:211
 msgid "You can dismantle items from your inventory by selecting an item."
