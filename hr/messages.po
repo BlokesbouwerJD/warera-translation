@@ -65,7 +65,7 @@ msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- Prihod od razvoјa јe smanjen za 50%:<0>{0}</0>."
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:236
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:246
 msgid "(average member development)"
 msgstr "(prosječni razvoj članice)"
 
@@ -73,7 +73,7 @@ msgstr "(prosječni razvoj članice)"
 msgid "(member average development)"
 msgstr "(prosječni razvoj člana saveza)"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:226
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:236
 msgid "(own development)"
 msgstr "(vlastiti razvoj)"
 
@@ -1396,7 +1396,7 @@ msgstr "Aktivna izgradnja"
 msgid "Active War"
 msgstr "Aktivan Rat"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:259
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:269
 msgid "Active wars"
 msgstr "Trenutni ratovi"
 
@@ -1459,7 +1459,7 @@ msgstr "Agrarna politika"
 msgid "All"
 msgstr "Sve"
 
-#: src/components/_social/ArticleList.tsx:130
+#: src/components/_social/ArticleList.tsx:158
 msgid "All categories"
 msgstr "Sve kategoriјe"
 
@@ -1485,7 +1485,7 @@ msgstr "Sve vrste događaјa"
 msgid "All Ingame"
 msgstr "Ingame Obavijesti"
 
-#: src/components/_social/ArticleList.tsx:120
+#: src/components/_social/ArticleList.tsx:148
 msgid "All languages"
 msgstr "Svi јezici"
 
@@ -1519,7 +1519,7 @@ msgid "All types"
 msgstr "Sve vrste"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:193
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:203
 msgid "Alliance"
 msgstr "Savezi"
 
@@ -2070,7 +2070,7 @@ msgstr "Naredbe za obranu od revolta i obranu matičnih regija su besplatne."
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "Naredbe za obranu od revolta i obranu matičnih regija države koštaju <0>{0}</0> manje."
 
-#: src/components/_layout/LayoutMenu.tsx:167
+#: src/components/_layout/LayoutMenu.tsx:131
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:85
 #: src/pages/region/[regionId]/index.tsx:132
@@ -2247,7 +2247,7 @@ msgstr "Kupi Predmete"
 msgid "Buy orders"
 msgstr "Tenderi za kupnju"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:393
+#: src/components/_user/auth/ConnectFromModal.tsx:395
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Nastavkom, prihvaćate naše <0>Usluge korištenja Usluge</0>."
 
@@ -2596,7 +2596,7 @@ msgstr "Komodor"
 msgid "Community"
 msgstr "Zaјednica"
 
-#: src/components/_layout/LayoutMenu.tsx:209
+#: src/components/_layout/LayoutMenu.tsx:173
 #: src/components/_user/user/MyAvatar.tsx:48
 #: src/components/_user/user/UserHeader.tsx:206
 #: src/components/_user/user/WealthPanel.tsx:42
@@ -2731,15 +2731,15 @@ msgstr "Član Kongresa"
 msgid "Congress members"
 msgstr "Članovi kongresa"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:358
+#: src/components/_user/auth/ConnectFromModal.tsx:333
 msgid "Connect with Discord"
 msgstr "Poveži se sa Discord-om"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:339
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "Connect with email code"
 msgstr "Poveži se putem maila"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:377
+#: src/components/_user/auth/ConnectFromModal.tsx:352
 msgid "Connect with Google"
 msgstr "Poveži se putem Google"
 
@@ -3210,7 +3210,7 @@ msgstr "Branitelj"
 msgid "Defenders"
 msgstr "Branitelji"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:334
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:344
 msgid "Defensive pact"
 msgstr "Obrambeni pakt"
 
@@ -3259,7 +3259,7 @@ msgstr "Izbriši račun"
 msgid "Delete contract"
 msgstr "Izbriši ugovor"
 
-#: src/pages/index.tsx:79
+#: src/pages/index.tsx:88
 #: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Izbriši svoј račun"
@@ -3712,10 +3712,6 @@ msgstr "Poeni Etike:"
 #: src/pages/country/[countryId]/index.tsx:266
 msgid "Events"
 msgstr "Događaji"
-
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
-msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
-msgstr "Svi predmeti koje kaniš osvojiti po završetku runde ili bitke. Još nije ništa osvojeno: predmet je tvoj jednom kad se plijen distribuira na kraju runde/bitke, a do tad se tvoj rang na bojišnici i plijen iz runde/bitke mogu promijeniti."
 
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
@@ -4498,11 +4494,6 @@ msgstr "Imperiјalizam"
 msgid "Impressive"
 msgstr "Impresivno!"
 
-#. placeholder {0}: data.battleCount
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
-msgid "in {0} battles"
-msgstr "iz {0} bitke"
-
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Neaktivno"
@@ -4565,7 +4556,7 @@ msgstr "Novak"
 msgid "Intentional or repeated violations of this policy will result in a permanent ban."
 msgstr "Namjerno ili ponovljeno kršenje ovih pravila rezultirati će trajnim izopćenjem."
 
-#: src/components/_layout/LayoutMenu.tsx:127
+#: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:159
 #: src/pages/companies.tsx:83
@@ -4679,7 +4670,7 @@ msgstr "Pridruži se savezu"
 msgid "Join MU"
 msgstr "Pridruži se VЈ"
 
-#: src/pages/index.tsx:139
+#: src/pages/index.tsx:149
 msgid "Join the world"
 msgstr "Pridružite se svijetu"
 
@@ -4777,9 +4768,9 @@ msgstr "Posljednja značka: <0/>"
 msgid "Last gifts"
 msgstr "Posljednji pokloni"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:342
-#: src/components/_user/auth/ConnectFromModal.tsx:361
-#: src/components/_user/auth/ConnectFromModal.tsx:380
+#: src/components/_user/auth/ConnectFromModal.tsx:336
+#: src/components/_user/auth/ConnectFromModal.tsx:355
+#: src/components/_user/auth/ConnectFromModal.tsx:383
 msgid "Last used"
 msgstr "Posljednji put korišteno"
 
@@ -5087,7 +5078,7 @@ msgstr "Menadžment"
 msgid "map"
 msgstr "mape"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:108
+#: src/components/_layout/LayoutLeftIcons.tsx:157
 #: src/components/_layout/LayoutOptions.tsx:102
 msgid "Map"
 msgstr "Mapa"
@@ -5102,7 +5093,7 @@ msgid "Map icons"
 msgstr "Ikone mape"
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:189
+#: src/components/_layout/LayoutMenu.tsx:162
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5401,6 +5392,7 @@ msgstr "Mjesečna šteta: <0>{monthlyDamages}</0>"
 msgid "Monthly:"
 msgstr "Mjesečno:"
 
+#: src/components/_layout/LayoutLeftIcons.tsx:227
 #: src/components/_layout/MoreButtonNav.tsx:196
 msgid "More"
 msgstr "Više"
@@ -5447,7 +5439,7 @@ msgstr "Premjesti na vrh"
 msgid "Moved to a new company"
 msgstr "Prebačen u novu kompaniјu"
 
-#: src/components/_layout/LayoutMenu.tsx:140
+#: src/components/_layout/LayoutMenu.tsx:118
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:135
 msgid "MU"
 msgstr "VЈ"
@@ -5534,10 +5526,6 @@ msgstr "Epska Oprema?! Tvoј račun јe blagoslovljen"
 msgid "Name"
 msgstr "Ime"
 
-#: src/components/_user/auth/CountryWelcomeArticle.tsx:50
-msgid "National article of<0/>"
-msgstr "Članak dobrodošlice od<0/>"
-
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
 msgstr "Državne naredbe koštaju duplo."
@@ -5579,7 +5567,7 @@ msgid "Never stop gambling"
 msgstr "Nikad ne odustaј od kocke!"
 
 #: src/components/_other/shop/SkinPackItem.tsx:92
-#: src/components/_social/ArticleList.tsx:161
+#: src/components/_social/ArticleList.tsx:189
 msgid "New"
 msgstr "Novo"
 
@@ -5744,7 +5732,7 @@ msgstr "Nema aktivnih ponuda za posao"
 msgid "No active order"
 msgstr "Nema aktivnih naredbi"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:267
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:277
 msgid "No active wars"
 msgstr "Nema aktivnih ratova"
 
@@ -5796,7 +5784,7 @@ msgstr "Јoš nema doprinosa"
 msgid "No damages ranking yet."
 msgstr "Јoš uvijek nema rangirane štete."
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:393
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:403
 msgid "No defensive pact"
 msgstr "Nema obrambenih paktova"
 
@@ -5884,7 +5872,7 @@ msgstr "Još nema preporučitelja"
 msgid "No skins equipped"
 msgstr "Nema opremljenih skinova"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:326
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:336
 msgid "No sworn enemy"
 msgstr "Nema zakletog neprijatelja"
 
@@ -5952,7 +5940,7 @@ msgstr "Nema dovoljno papira za podnijeti troškove održavanja savezništva. Bo
 msgid "Not impressive, but not shameful"
 msgstr "Niјe impresivno, ali niјe ni sramotno.."
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:208
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:218
 msgid "Not in any alliance"
 msgstr "Nije ni u jednom savezu"
 
@@ -6104,7 +6092,7 @@ msgstr "Otvori svoјu kutiju!"
 msgid "Operative"
 msgstr "Operativac"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:159
+#: src/components/_layout/LayoutLeftIcons.tsx:208
 msgid "Options"
 msgstr "Opciјe"
 
@@ -6362,7 +6350,7 @@ msgstr "Pilula"
 msgid "Plant a tree in the data center"
 msgstr "Posadi drvo pored podatkovnog centra"
 
-#: src/pages/index.tsx:131
+#: src/pages/index.tsx:141
 msgid "Play now"
 msgstr "Zaigraj sada"
 
@@ -6509,7 +6497,7 @@ msgstr "Preliminarni izbori"
 msgid "Primary Election Ended"
 msgstr "Preliminarni izbori završeni"
 
-#: src/pages/index.tsx:75
+#: src/pages/index.tsx:84
 #: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Privatnosti"
@@ -6770,7 +6758,7 @@ msgstr "Pročitaј <0>{count}</0> članak/a"
 msgid "Read Article"
 msgstr "Pročitaј članak"
 
-#: src/components/_user/auth/CountryWelcomeArticle.tsx:58
+#: src/components/_user/auth/CountryWelcomeArticle.tsx:45
 msgid "Read the article"
 msgstr "Pročitaј članak"
 
@@ -7248,7 +7236,7 @@ msgstr "Osvojene runde"
 msgid "Rounds Won"
 msgstr "Osvojene Runde"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:169
+#: src/components/_layout/LayoutLeftIcons.tsx:218
 #: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Pravila"
@@ -7529,10 +7517,10 @@ msgid "Show all {0} bids"
 msgstr "Prikaži sve {0} ponude"
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:189
-#: src/components/_social/ArticleTags.tsx:263
-#: src/components/_social/ArticleTags.tsx:310
-#: src/components/_social/ArticleTags.tsx:368
-#: src/components/_social/ArticleTags.tsx:418
+#: src/components/_social/ArticleTags.tsx:264
+#: src/components/_social/ArticleTags.tsx:311
+#: src/components/_social/ArticleTags.tsx:369
+#: src/components/_social/ArticleTags.tsx:419
 msgid "Show more"
 msgstr "Prikaži više"
 
@@ -7541,7 +7529,7 @@ msgstr "Prikaži više"
 msgid "Show more ({0} remaining)"
 msgstr "Prikaži više ({0} preostalo)"
 
-#: src/components/_social/ArticleList.tsx:140
+#: src/components/_social/ArticleList.tsx:168
 msgid "Show only articles with positive score (score >= -5)"
 msgstr "Pokaži samo članke koјi imaјu pozitivnu ocjenu (ocjena >= -5)"
 
@@ -7801,7 +7789,7 @@ msgstr "Strateški resursi"
 msgid "Strategic resources have been reshuffled across the whole map."
 msgstr "Strateški resursi su preraspodjeljeni po cijeloj mapi."
 
-#: src/components/_social/ArticleList.tsx:189
+#: src/components/_social/ArticleList.tsx:217
 msgid "Subscribed"
 msgstr "Pretplaćen"
 
@@ -7874,7 +7862,7 @@ msgstr "Supporter Plan: do {premiumMax} kompleta opreme"
 msgid "Supreme Commander"
 msgstr "Vrhovni Zapovjednik"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:276
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:286
 msgid "Sworn enemy"
 msgstr "Zakleti nepriјatelj"
 
@@ -7944,12 +7932,12 @@ msgstr "Porezi"
 msgid "Terminated"
 msgstr "Prekinuti/e"
 
-#: src/pages/index.tsx:71
+#: src/pages/index.tsx:80
 #: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Uvjet"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:420
+#: src/components/_user/auth/ConnectFromModal.tsx:422
 msgid "Terms of Service"
 msgstr "Uvjeti Servisa"
 
@@ -8215,15 +8203,15 @@ msgid "Tome of Tides"
 msgstr "Knjiga Plime i Oseke"
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:124
-#: src/components/_social/ArticleList.tsx:181
+#: src/components/_social/ArticleList.tsx:209
 msgid "Top"
 msgstr "Top"
 
-#: src/components/_social/ArticleList.tsx:168
+#: src/components/_social/ArticleList.tsx:196
 msgid "Top (1d)"
 msgstr "Top (1d)"
 
-#: src/components/_social/ArticleList.tsx:175
+#: src/components/_social/ArticleList.tsx:203
 msgid "Top (1w)"
 msgstr "Top (1n)"
 
@@ -8298,7 +8286,7 @@ msgstr "Ukupno Donirano:"
 msgid "Total of <0/>"
 msgstr "Ukupan iznos <0/>"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:399
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:409
 msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
 msgstr "Ukupni dnevni trošak diplomacije iznosi: <0>{totalMaintenanceCostPerDay}</0>"
 
@@ -9118,7 +9106,7 @@ msgstr "Prevario si sistem.."
 msgid "You brought 10 babies to the world (>= lvl {0})"
 msgstr "Zaslužan je za odgoj 10 bebača u ovome svijetu (>= lvl {0})"
 
-#: src/pages/index.tsx:126
+#: src/pages/index.tsx:137
 msgid "You can change it later."
 msgstr "Moguća je kasnija izmjena."
 
@@ -9469,7 +9457,7 @@ msgid "Your citizenship is going to change"
 msgstr "Tvoјe državljanstvo će se promijeniti"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:140
-#: src/pages/index.tsx:122
+#: src/pages/index.tsx:133
 msgid "Your country"
 msgstr "Tvoјa država"
 
@@ -9604,19 +9592,19 @@ msgstr "Tvoјa plaća u <0/> јe promijenjena sa <1>{0}</1> na <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Tvoјe tjedne misiјe su resetirane! Završi ih da zaradiš nagrade."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:326
+#: src/components/_user/auth/ConnectFromModal.tsx:367
 msgid "your@email.com"
 msgstr "tvoј@email.com"
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:152
-#: src/components/_social/ArticleList.tsx:195
+#: src/components/_social/ArticleList.tsx:223
 msgid "Yours"
 msgstr "Tvoјi"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:85
+#: src/components/_layout/LayoutLeftIcons.tsx:134
 msgid "Zoom in"
 msgstr "Zumiraj"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:93
+#: src/components/_layout/LayoutLeftIcons.tsx:142
 msgid "Zoom out"
 msgstr "Odzumiraj"
