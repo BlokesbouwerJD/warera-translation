@@ -196,6 +196,10 @@ msgstr "*Kann brennen"
 msgid "/day"
 msgstr "/Tag"
 
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
+msgid "+{hiddenBattles} more battles"
+msgstr ""
+
 #: src/components/_user/user/Level.tsx:152
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
@@ -2006,6 +2010,10 @@ msgstr "Einfache Hose"
 msgid "Battle"
 msgstr "Schlacht"
 
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:166
+msgid "Battle by battle"
+msgstr ""
+
 #: src/pages/alliance/[allianceId]/index.tsx:41
 msgid "Battle damage bonus"
 msgstr "Bonusschaden bei Kämpfen"
@@ -3705,10 +3713,6 @@ msgstr "Ethik-Punkte:"
 msgid "Events"
 msgstr "Events"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
-msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
-msgstr ""
-
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Jeder nimmt automatisch teil"
@@ -3718,9 +3722,7 @@ msgstr "Jeder nimmt automatisch teil"
 msgid "Expansionist"
 msgstr "Expansionist"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:59
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:63
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:95
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:221
 msgid "Expected loot"
 msgstr ""
 
@@ -4491,11 +4493,6 @@ msgstr "Imperialist"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:52
 msgid "Impressive"
 msgstr "Beeindruckend"
-
-#. placeholder {0}: data.battleCount
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:86
-msgid "in {0} battles"
-msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
@@ -5954,8 +5951,8 @@ msgstr "Nicht in einer Allianz"
 msgid "Not set"
 msgstr "Nicht gesetzt"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:68
-msgid "Nothing yet. A loot pool only covers as many players as it holds items, so you need a top damage rank in an ongoing battle to claim a spot."
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:158
+msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
 msgstr ""
 
 #: src/pages/notifications.tsx:38
@@ -6010,6 +6007,11 @@ msgstr "Bei Vertragsfehlschlag: -1 Ruf pro <0/> Budget und -1 Ruf pro fehlende <
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:70
 msgid "One step away from legendary..."
 msgstr "Nur noch einen Schritt von legendär entfernt..."
+
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:149
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:153
+msgid "Ongoing battles"
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:345
 #: src/components/_political/party/party.frontConfig.tsx:366
@@ -8904,6 +8906,10 @@ msgstr "Willkommen bei War Era!"
 #: src/components/_other/tour/tuto.frontConfig.tsx:25
 msgid "Welcome to your economy!"
 msgstr "Willkommen in deiner Wirtschaft!"
+
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:150
+msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
+msgstr ""
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116

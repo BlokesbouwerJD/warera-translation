@@ -157,11 +157,11 @@ msgstr "تم إكمال {completedCount}/{totalCount}"
 
 #: src/components/_user/user/SkillUpgrade.tsx:267
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
-msgstr ""
+msgstr "{draftPrestigeCount} نقطة (نقاط) هيبة على هذه المهارة ({savedPrestigeCount} محفوظة، ومقفلة حتى إعادة التعيين)"
 
 #: src/components/_user/user/Level.tsx:143
 msgid "{prestigeLevel} Prestige Points"
-msgstr ""
+msgstr "{prestigeLevel} نقطة هيبة"
 
 #: src/components/_military/tournament/TournamentRegisteredTag.tsx:43
 msgid "{registeredCount} {entityLabel} registered"
@@ -173,7 +173,7 @@ msgstr "{roundsToWin} جولة للفوز "
 
 #: src/components/_user/user/SkillUpgrade.tsx:373
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
-msgstr ""
+msgstr "{savedPrestigeCount} نقطة (نقاط) هيبة مفعلة على هذه المهارة"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:50
@@ -196,9 +196,13 @@ msgstr "*قد تحترق"
 msgid "/day"
 msgstr "/يوم"
 
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
+msgid "+{hiddenBattles} more battles"
+msgstr "معارك أكثر"
+
 #: src/components/_user/user/Level.tsx:152
 msgid "+{xpBonusPercent}% XP"
-msgstr ""
+msgstr "+{xpBonusPercent}% خبرة"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:381
 #: src/components/_user/notification/notification.frontConfig.tsx:1095
@@ -745,7 +749,7 @@ msgstr "<0>{0}</0>/يوم"
 #. placeholder {0}: companiesLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:118
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
-msgstr ""
+msgstr "<0>{activeCompaniesCount}/{0} شركات"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1337,7 +1341,7 @@ msgstr "مقبول"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
-msgstr ""
+msgstr "تم منح الوصول"
 
 #: src/components/_military/battle/BattleHeader.tsx:118
 msgid "Access war"
@@ -1362,7 +1366,7 @@ msgstr "الإجراءات"
 
 #: src/components/_user/user/Level.tsx:160
 msgid "activated"
-msgstr ""
+msgstr "مُفعّل"
 
 #: src/components/_military/battle/BattlesHeader.tsx:27
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
@@ -1627,7 +1631,7 @@ msgstr "<0>GIF</0> وضع صورة متحركة رمزية"
 
 #: src/pages/country/[countryId]/government.tsx:158
 msgid "Announcements"
-msgstr ""
+msgstr "التصريحات"
 
 #: src/components/_political/law/law.frontConfig.tsx:282
 msgid "Another country proposed a defensive pact to yours"
@@ -1724,7 +1728,7 @@ msgstr "هل أنت متأكد أنك تريد إزالة جميع أوامر ا
 
 #: src/components/_social/announcement/Announcement.tsx:133
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
-msgstr ""
+msgstr "هل أنت تأكد من أنك تريد إزالة هذا الإعلان؟ ستُحذف تعليقاته أيضاً."
 
 #: src/components/_user/mission/MissionItem.tsx:105
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1846,7 +1850,7 @@ msgstr "هجوم"
 
 #: src/components/_user/user/MilitaryRank.tsx:111
 msgid "Attack bonus:"
-msgstr ""
+msgstr "مكافأة الهجوم:"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -2006,6 +2010,10 @@ msgstr "سراويل أساسية"
 msgid "Battle"
 msgstr "معركة"
 
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:166
+msgid "Battle by battle"
+msgstr "معركة تلو الأخرى"
+
 #: src/pages/alliance/[allianceId]/index.tsx:41
 msgid "Battle damage bonus"
 msgstr "الاضرار الاضافية للمعركة"
@@ -2037,7 +2045,7 @@ msgstr "بدأت المعركة"
 
 #: src/pages/country/[countryId]/government.tsx:137
 msgid "Battle orders"
-msgstr ""
+msgstr "أوامر المعركة"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
@@ -3112,7 +3120,7 @@ msgstr "ألحق <0>{count}</0> ضرراً بناءً على أوامر الدو
 
 #: src/components/_user/user/MilitaryRank.tsx:85
 msgid "Deal <0>damages</0> in battles to climb the ranks!"
-msgstr ""
+msgstr "الحق <0> من الضرر في المعارك للارتقاء في التصنيف!"
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
@@ -3447,11 +3455,11 @@ msgstr "مساكن"
 
 #: src/components/_military/order/BattleOrderList.tsx:225
 msgid "Drag the new order to choose its number."
-msgstr ""
+msgstr "اسحب الأمر الجديد لاختيار رقمه."
 
 #: src/components/_military/order/BattleOrderList.tsx:227
 msgid "Drag the orders to change their priority number."
-msgstr ""
+msgstr "اسحب الأوامر لتغيير رقم أولويتها."
 
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
@@ -3463,7 +3471,7 @@ msgstr "هـ. المحتوى المتعلق بالحروب والنزاعات ا
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
-msgstr ""
+msgstr "كل نقطة هيبة تمنح ما يعادل {skillBonusLevels} مستوى من المهارة المحددة"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Eat"
@@ -3504,7 +3512,7 @@ msgstr "الإقتصاد والشركات"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
-msgstr ""
+msgstr "تعديل أمر الدولة"
 
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
@@ -3516,7 +3524,7 @@ msgstr "تعديل الوصف"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
-msgstr ""
+msgstr "تعديل أمر الوحدة العسكرية"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -3524,11 +3532,11 @@ msgstr "تعديل العامل"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
-msgstr ""
+msgstr "تعديل أمر حالي"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
-msgstr ""
+msgstr "تعديل أمر آخر"
 
 #: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
@@ -3705,10 +3713,6 @@ msgstr "نقاط الأخلاقيات:"
 msgid "Events"
 msgstr "الأحداث"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:60
-msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
-msgstr ""
-
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "يشارك الجميع تلقائياً"
@@ -3718,11 +3722,9 @@ msgstr "يشارك الجميع تلقائياً"
 msgid "Expansionist"
 msgstr "ـوسعي"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:59
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:63
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:95
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:221
 msgid "Expected loot"
-msgstr ""
+msgstr "الغنيمة المتوقعة"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4492,11 +4494,6 @@ msgstr "إمبريالي"
 msgid "Impressive"
 msgstr "مثير للإعجاب"
 
-#. placeholder {0}: data.battleCount
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:86
-msgid "in {0} battles"
-msgstr ""
-
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "غير نشط"
@@ -4675,7 +4672,7 @@ msgstr "انضم للوحدة العسكرية (MU)"
 
 #: src/pages/index.tsx:139
 msgid "Join the world"
-msgstr ""
+msgstr "الانضمام إلى العالم"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
@@ -4959,7 +4956,7 @@ msgstr "حد استهلاك الطعام"
 
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Limit reached"
-msgstr ""
+msgstr "تم الوصول إلى الحد الأقصى"
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5005,7 +5002,7 @@ msgstr "الموقع"
 
 #: src/components/_user/user/SkillUpgrade.tsx:289
 msgid "Locked, reset your skills to reassign"
-msgstr ""
+msgstr "مقفل، أعد تعيين مهاراتك لإعادة توزيعها"
 
 #: src/components/_user/user/MyAvatar.tsx:60
 msgid "Logout"
@@ -5134,7 +5131,7 @@ msgstr "حد أقصى <0>{0}</0> من العمال.{1}"
 
 #: src/components/_user/user/MilitaryRank.tsx:93
 msgid "Maximum rank achieved!"
-msgstr ""
+msgstr "تم تحقيق أعلى رتبة!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
@@ -5307,7 +5304,7 @@ msgstr "الوحدة العسكرية"
 
 #: src/components/_social/announcement/AnnouncementModal.tsx:49
 msgid "Military unit announcement"
-msgstr ""
+msgstr "إعلان الوحدة العسكرية"
 
 #: src/components/_military/mu/MuFormModal.tsx:46
 msgid "Military unit created"
@@ -5530,7 +5527,7 @@ msgstr "الاسم"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:50
 msgid "National article of<0/>"
-msgstr ""
+msgstr "مقال وطني لـ <0/>"
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
@@ -5646,7 +5643,7 @@ msgstr "الجنسية الجديدة"
 
 #: src/components/_military/order/OrderBattleItem.tsx:96
 msgid "New order"
-msgstr ""
+msgstr "أمر جديد"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
@@ -5700,7 +5697,7 @@ msgstr "التالي سيكون دبابة"
 
 #: src/components/_user/user/SkillUpgrade.tsx:272
 msgid "Next point costs"
-msgstr ""
+msgstr "تكلفة النقطة التالية"
 
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
@@ -5736,7 +5733,7 @@ msgstr "لا يوجد عرض عمل نشط"
 
 #: src/components/_military/order/BattleOrderList.tsx:155
 msgid "No active order"
-msgstr ""
+msgstr "لا يوجد أمر نشط"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:267
 msgid "No active wars"
@@ -5756,7 +5753,7 @@ msgstr "لا توجد قوانين تحالف بعد"
 
 #: src/components/_social/announcement/AnnouncementList.tsx:57
 msgid "No announcement yet"
-msgstr ""
+msgstr "لا يوجد إعلان بعد"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
@@ -5860,7 +5857,7 @@ msgstr "لم يتم العثور على أحزاب"
 
 #: src/components/_user/user/SkillUpgrade.tsx:287
 msgid "No prestige points left, tap to reset staged points"
-msgstr ""
+msgstr "لم تتبقَّ أي نقاط هيبة، اضغط لإعادة تعيين النقاط المجهزة"
 
 #: src/pages/country/[countryId]/index.tsx:382
 msgid "No production bonus from resources. This country has no specialization."
@@ -5954,9 +5951,9 @@ msgstr "ليس في أي تحالف"
 msgid "Not set"
 msgstr "لم يتم اختياره"
 
-#: src/components/_military/battle/MyExpectedLootsCard.tsx:68
-msgid "Nothing yet. A loot pool only covers as many players as it holds items, so you need a top damage rank in an ongoing battle to claim a spot."
-msgstr ""
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:158
+msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
+msgstr "لا يوجد أي اشتباك نشط. شارك في معركة قائمة لبدء جني الأرباح، واحصل على مرتبة متقدمة في الضرر لتأمين مكانك في قائمة الغنائم."
 
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:79
@@ -6010,6 +6007,11 @@ msgstr "عند فشل العقد: -1 شهرة لكل <0/> في الميزاني�
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:70
 msgid "One step away from legendary..."
 msgstr "خطوة واحدة عن الأسطوري..."
+
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:149
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:153
+msgid "Ongoing battles"
+msgstr "المعارك الجارية"
 
 #: src/components/_political/party/party.frontConfig.tsx:345
 #: src/components/_political/party/party.frontConfig.tsx:366
@@ -6116,7 +6118,7 @@ msgstr "تم إلغاء الأوامر"
 #: src/pages/orders.tsx:24
 #: src/pages/orders.tsx:35
 msgid "Orders of <0/>"
-msgstr ""
+msgstr "أوامر <0/>"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
@@ -6285,7 +6287,7 @@ msgstr "ألصق رابطاً لمقال حملتك الانتخابية، أو 
 
 #: src/components/_user/user/Level.tsx:156
 msgid "Paused at max level"
-msgstr ""
+msgstr "متوقف عند المستوى الأقصى"
 
 #: src/pages/shop/index.tsx:45
 msgid "Payment successful! Thanks for supporting the game <3"
@@ -6353,7 +6355,7 @@ msgstr "ازرع شجرة في مركز البيانات"
 
 #: src/pages/index.tsx:131
 msgid "Play now"
-msgstr ""
+msgstr "العَب الآن"
 
 #: src/components/_common/GameRules.tsx:31
 msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
@@ -6472,19 +6474,19 @@ msgstr "انتخابات رئاسية"
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 #: src/pages/user/[userId]/skills.tsx:193
 msgid "Prestige"
-msgstr ""
+msgstr "الهيبة"
 
 #: src/components/_user/user/Level.tsx:167
 msgid "Prestige to drop levels and re-activate your XP bonus."
-msgstr ""
+msgstr "نفّذ الهيبة لإنقاص مستواك وإعادة تفعيل مكافأة الخبرة."
 
 #: src/components/_user/user/SkillValue.tsx:72
 msgid "Prestige:"
-msgstr ""
+msgstr "الهيبة:"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2140
 msgid "Prestige!"
-msgstr ""
+msgstr "هيبة!"
 
 #: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:430
 msgid "Price auto-matches existing orders"
@@ -6761,7 +6763,7 @@ msgstr "اقرأ المقال"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:58
 msgid "Read the article"
-msgstr ""
+msgstr "اقرأ المقال"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Ready for battle!"
@@ -7616,7 +7618,7 @@ msgstr "مقلاع حجارة"
 
 #: src/components/_layout/LayoutOptions.tsx:187
 msgid "Small GIFs"
-msgstr ""
+msgstr "صور GIF صغيرة"
 
 #: src/utils/translations.tsx:25
 msgid "Sniper"
@@ -7664,7 +7666,7 @@ msgstr "قوة مستقرة لا تتأثر بالغزو, تُستخدم أيض�
 
 #: src/components/_user/user/SkillUpgrade.tsx:268
 msgid "Stage a prestige point on this skill (applied on save, reset on skill reset)"
-msgstr ""
+msgstr "جهّز نقطة هيبة على هذه المهارة (تُطبّق عند الحفظ، وتُلغى عند إعادة تعيين المهارات)"
 
 #: src/components/_political/law/law.frontConfig.tsx:169
 #: src/components/_political/law/law.frontConfig.tsx:171
@@ -8754,7 +8756,7 @@ msgstr "تحقق"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
-msgstr ""
+msgstr "جاري التحقق من أنك إنسان..."
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:131
 msgid "Vice Admiral"
@@ -8776,7 +8778,7 @@ msgstr "عرض على الخريطة"
 
 #: src/components/_social/announcement/Announcement.tsx:59
 msgid "Views"
-msgstr ""
+msgstr "المشاهدات"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:103
 msgid "Voter"
@@ -8904,6 +8906,10 @@ msgstr "أهلاً بك في War Era!"
 #: src/components/_other/tour/tuto.frontConfig.tsx:25
 msgid "Welcome to your economy!"
 msgstr "أهلاً بك في اقتصادك!"
+
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:150
+msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
+msgstr "ما دفعته لك المعارك التي تخوضها حتى الآن (الضربات، الضرر، الصناديق، ومكافآت الأموال والعقود)، بالإضافة إلى عناصر غنائم المجموعات التي أنت في طابور انتظارها حالياً. عناصر المجموعات لم تُربح بعد: فهي تتبع تصنيفات الضرر ولن تصبح ملكاً لك إلا بعد توزيع المجموعات."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
@@ -9105,7 +9111,7 @@ msgstr "لقد جلبت 10 لاعبين جدد للعالم (مستوى {0} او
 
 #: src/pages/index.tsx:126
 msgid "You can change it later."
-msgstr ""
+msgstr "يمكنك تغيير ذلك لاحقاً."
 
 #: src/components/_economy/inventory/DismantleModal.tsx:211
 msgid "You can dismantle items from your inventory by selecting an item."
@@ -9182,7 +9188,7 @@ msgstr "لقد استهلكت <0>{0}</0>، يبدأ تأثيره الآن وين
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1712
 msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
-msgstr ""
+msgstr "لقد نفّذت الهيبة بنجاح! استمتع بمكافأة الخبرة الدائمة ونقطة الهيبة."
 
 #: src/pages/country/[countryId]/government.tsx:43
 msgid "You have resigned from the congress"
@@ -9263,7 +9269,7 @@ msgstr "هديتك المميزة من <0/> قد انتهت! هل تفكر في 
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:136
 msgid "You prestiged and lost your levels"
-msgstr ""
+msgstr "لقد نفّذت الهيبة وفقدت مستوياتك"
 
 #. placeholder {0}: data.rank
 #: src/components/_user/notification/notification.frontConfig.tsx:1267
@@ -9352,7 +9358,7 @@ msgstr "كنت قريباً جداً"
 
 #: src/pages/user/[userId]/skills.tsx:124
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
-msgstr ""
+msgstr "ستنخفض إلى المستوى 25 (ستخسر 65,000 نقطة خبرة)، وستحصل على مكافأة خبرة دائمة بنسبة +50% (+10% لكل مستوى هيبة إضافي) ونقطة هيبة، وسيتِم إعادة تعيين مهاراتك مجاناً."
 
 #. placeholder {0}: gameConfig?.referral.lifeTimeBadgeMoneySharePercent
 #: src/components/_user/referral/ReferralList.tsx:117
@@ -9429,7 +9435,7 @@ msgstr "إعلانك إلى الدولة."
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:30
 msgid "Your announcement to the unit..."
-msgstr ""
+msgstr "إعلانك للوحدة..."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:368
 #: src/components/_user/notification/notification.frontConfig.tsx:1068
