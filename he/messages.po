@@ -311,6 +311,10 @@ msgstr "<0/> נוצר, זה יתחיל בקרוב!"
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> נבחר לנשיא <1/>"
 
+#: src/components/_political/event/event.frontConfig.tsx:379
+msgid "<0/> has been excluded from the alliance <1/>"
+msgstr "<0/> הוצא מהברית <1/>"
+
 #. placeholder {0}: data.amount
 #: src/components/_political/event/event.frontConfig.tsx:210
 msgid "<0/> has bought <1/> from <2/> for <3>{0}</3>"
@@ -319,6 +323,10 @@ msgstr "<0/> קנה <1/> מ<2/> עבור <3>{0}</3>"
 #: src/components/_political/event/event.frontConfig.tsx:326
 msgid "<0/> has broken their alliance with <1/>"
 msgstr "<0/> שברו את הברית שלהם עם <1/>"
+
+#: src/components/_political/event/event.frontConfig.tsx:407
+msgid "<0/> has broken their defensive pact with <1/>"
+msgstr "<0/> שברו את ברית ההגנה שלהם עם <1/>"
 
 #: src/components/_political/event/event.frontConfig.tsx:97
 msgid "<0/> has conquered <1/> against <2/>"
@@ -340,9 +348,21 @@ msgstr "<0/> מימנה התנגדות ב<1/>"
 msgid "<0/> has formed an alliance with <1/>"
 msgstr "<0/> יצר ברית עם <1/>"
 
+#: src/components/_political/event/event.frontConfig.tsx:349
+msgid "<0/> has joined the alliance <1/>"
+msgstr "<0/> הצטרף לברית <1/>"
+
+#: src/components/_political/event/event.frontConfig.tsx:364
+msgid "<0/> has left the alliance <1/>"
+msgstr "<0/> עזב את הברית <1/>"
+
 #: src/components/_political/event/event.frontConfig.tsx:226
 msgid "<0/> has liberated <1/> and returned it to <2/>"
 msgstr "<0/> שחרר את <1/> והחזיר אותו ל<2/>"
+
+#: src/components/_political/event/event.frontConfig.tsx:393
+msgid "<0/> has signed a defensive pact with <1/>"
+msgstr "<0/> חתם על ברית הגנה עם <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:951
 msgid "<0/> has started a revolution in <1/>"
@@ -441,6 +461,14 @@ msgstr "<0/> בתשלום"
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> העדיפות מסתיימת ב-<1/>"
+
+#: src/components/_political/law/law.frontConfig.tsx:296
+msgid "<0/> proposed a mutual defensive pact to your country."
+msgstr "<0/> הציע ברית הגנה הדדית למדינה שלך."
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:145
+msgid "<0/> proposed a new alliance law: <1/>"
+msgstr "<0/> הציע חוק ברית חדש: <1/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:124
 msgid "<0/> proposed a new law: <1/>"
@@ -608,6 +636,15 @@ msgstr "<0>{0}</0> כי <1/> תופס לפחות אחד מהאזורים <2/>"
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
+msgid ""
+"<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full "
+"bonus, allied countries get half. Defensive pact partners don't benefit."
+msgstr ""
+"<0>{0}</0> בונוס הגנה בעת הגנה על אזור זה.<1/>אזרחים מקבלים את הבונוס המלא, "
+"מדינות בעלות ברית מקבלות מחצית. שותפי ברית הגנה אינם נהנים ממנו."
+
+#. placeholder {0}: levelConfig.stats.defenseBonus || 0
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
 msgid "<0>{0}</0> Defense bonus"
 msgstr "<0>{0}</0> בונוס הגנה"
 
@@ -627,6 +664,11 @@ msgstr "<0>{0}</0> מ-<1/> ב-<2/>"
 #: src/components/_military/battle/BattleDamageBonuses.tsx:195
 msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> מ-<1>התנגדות</1>"
+
+#. placeholder {0}: sideBonus.defensivePactBonusPercent
+#: src/components/_military/battle/BattleDamageBonuses.tsx:122
+msgid "<0>{0}</0> from a defensive pact with <1/>"
+msgstr "<0>{0}</0> מברית הגנה עם <1/>"
 
 #. placeholder {0}: region.ethicDepositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
@@ -1304,6 +1346,15 @@ msgstr "ניצול לרעה של כוח זה לטובת מדינה אחרת יו
 msgid "Accept"
 msgstr "לקבל"
 
+#: src/components/_political/law/law.frontConfig.tsx:287
+msgid "Accept a defensive pact with <0/>"
+msgstr "קבל ברית הגנה עם <0/>"
+
+#: src/components/_political/law/law.frontConfig.tsx:281
+#: src/components/_political/law/lawNames.tsx:41
+msgid "Accept defensive pact"
+msgstr "קבל ברית הגנה"
+
 #: src/components/_political/law/law.frontConfig.tsx:284
 #: src/components/_political/law/lawNames.tsx:26
 msgid "Accept alliance"
@@ -1531,6 +1582,23 @@ msgstr "כל העסקאות חייבות להישאר הוגנות ומאוזנ�
 msgid "All types"
 msgstr "כל הסוגים"
 
+#: src/components/_layout/map.frontConfig.tsx:31
+#: src/components/_political/alliance/AllianceHeader.tsx:68
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:203
+#: src/components/_political/country/CountryHeader.tsx:333
+#: src/components/_political/country/CountryTooltip.tsx:109
+#: src/components/_political/map/MapMenu.tsx:336
+msgid "Alliance"
+msgstr "ברית"
+
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:69
+msgid "Alliance <0/> (<1/>)"
+msgstr "ברית <0/> (<1/>)"
+
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:92
+msgid "Alliance battle damage bonus"
+msgstr "בונוס נזק קרב מהברית"
+
 #: src/components/_political/event/EventList.tsx:75
 msgid "Alliance broken"
 msgstr "הברית נשברה"
@@ -1538,6 +1606,20 @@ msgstr "הברית נשברה"
 #: src/components/_political/event/EventList.tsx:74
 msgid "Alliance formed"
 msgstr "נוצרה ברית"
+
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:53
+msgid "Alliance law proposed"
+msgstr "חוק ברית הוצע"
+
+#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:57
+#: src/pages/alliance/[allianceId]/laws.tsx:16
+msgid "Alliance laws"
+msgstr "חוקי ברית"
+
+#: src/components/_political/law/LawFormModal.tsx:203
+#: src/components/_political/law/LawFormModal.tsx:204
+msgid "Alliance name"
+msgstr "שם הברית"
 
 #: src/pages/country/[countryId]/index.tsx:195
 msgid "Alliances"
@@ -1605,6 +1687,17 @@ msgstr "ברית נפרצה"
 msgid "An alliance has been formed"
 msgstr "נוצרה ברית"
 
+#: src/components/_political/law/law.frontConfig.tsx:379
+msgid "An alliance has invited your country to join"
+msgstr "ברית הזמינה את המדינה שלך להצטרף"
+
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:46
+msgid ""
+"An alliance's battle <0>damage</0> bonus depends on its share of the world's "
+"total <1>Development</1>."
+msgstr ""
+"בונוס <0>נזק</0> הקרב של ברית תלוי בחלקה מתוך סך ה<1>התפתחות</1> העולמית."
+
 #: src/components/_user/auth/LoginFormModal.tsx:94
 msgid "An email with the verification code has been sent to {email}"
 msgstr "דוא״ל עם קוד האימות נשלח אל {email}"
@@ -1612,6 +1705,10 @@ msgstr "דוא״ל עם קוד האימות נשלח אל {email}"
 #: src/components/_user/premium/PremiumFeatureList.tsx:112
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "מונפשת <0>GIF</0> כדמות"
+
+#: src/components/_political/law/law.frontConfig.tsx:282
+msgid "Another country proposed a defensive pact to yours"
+msgstr "מדינה אחרת הציעה ברית הגנה למדינה שלך"
 
 #: src/components/_common/GameRules.tsx:61
 msgid ""
@@ -1953,6 +2050,11 @@ msgstr "הקרב נפתח"
 msgid "Battle Orders"
 msgstr "פקודות קרב"
 
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].pactBattleOrderMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:224
+msgid "Battle orders supporting a defensive pact partner cost <0>{0}</0> less."
+msgstr "פקודות קרב התומכות בשותף ברית הגנה עולות <0>{0}</0> פחות."
+
 #: src/components/_layout/LayoutMenu.tsx:154
 #: src/components/_military/battle/BattlesHeader.tsx:21
 #: src/components/_military/war/WarHeader.tsx:84
@@ -2041,6 +2143,11 @@ msgstr "הבאונטי יהיה זמין ב"
 msgid "Bread"
 msgstr "לחם"
 
+#: src/components/_political/law/law.frontConfig.tsx:306
+#: src/components/_political/law/lawNames.tsx:42
+msgid "Break defensive pact"
+msgstr "שבור ברית הגנה"
+
 #: src/components/_political/law/law.frontConfig.tsx:315
 #: src/components/_political/law/lawNames.tsx:27
 msgid "Break alliance"
@@ -2057,6 +2164,10 @@ msgstr "לשבור ברית עם מדינה אחרת"
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
 msgid "Break room"
 msgstr "חדר הפסקה"
+
+#: src/components/_political/law/law.frontConfig.tsx:312
+msgid "Break the defensive pact with <0/>"
+msgstr "שבור את ברית ההגנה עם <0/>"
 
 #: src/components/_political/law/law.frontConfig.tsx:329
 msgid "Break the alliance with <0/>"
@@ -2208,6 +2319,10 @@ msgstr "מועמד"
 msgid "Cannot have a vice president or ministers."
 msgstr "לא יכול להיות סגן נשיא או שרים."
 
+#: src/components/_political/party/party.frontConfig.tsx:426
+msgid "Cannot have any treaty (sworn enemy, defensive pact or alliance)."
+msgstr "לא ניתן להחזיק בהסכם כלשהו (אויב מושבע, ברית הגנה או ברית)."
+
 #: src/components/_political/party/party.frontConfig.tsx:134
 msgid "Cannot have allies."
 msgstr "לא יכול להיות בעלי ברית."
@@ -2295,6 +2410,16 @@ msgstr "שנה ייצור"
 msgid "Change tax"
 msgstr "שנה מס"
 
+#. placeholder {0}: data.newScheme
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:158
+msgid ""
+"Change the alliance color scheme to <0>{0}</0> immediately on acceptance."
+msgstr "שנה את ערכת הצבעים של הברית ל-<0>{0}</0> מיד עם האישור."
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:142
+msgid "Change the color scheme of the alliance."
+msgstr "שנה את ערכת הצבעים של הברית."
+
 #: src/components/_political/law/law.frontConfig.tsx:482
 msgid "Change the country color scheme"
 msgstr "שנה את ערכת הצבעים של המדינה"
@@ -2305,6 +2430,10 @@ msgstr "שנה את ערכת הצבעים של המדינה"
 msgid ""
 "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "שנה את ערכת הצבעים של המדינה ל-<0>{0}</0> עם מבטא מפה של <1>{1}</1>"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:121
+msgid "Change the name of the alliance."
+msgstr "שנה את שם הברית."
 
 #. placeholder {0}: law.data.taxType
 #: src/components/_political/law/law.frontConfig.tsx:73
@@ -2772,6 +2901,18 @@ msgstr "מדינה"
 msgid "Country development income bonus"
 msgstr "בונוס הכנסה לפיתוח מדינה"
 
+#: src/components/_political/event/EventList.tsx:129
+msgid "Country excluded from alliance"
+msgstr "מדינה הוצאה מהברית"
+
+#: src/components/_political/event/EventList.tsx:121
+msgid "Country joined alliance"
+msgstr "מדינה הצטרפה לברית"
+
+#: src/components/_political/event/EventList.tsx:125
+msgid "Country left alliance"
+msgstr "מדינה עזבה את הברית"
+
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:40
 msgid "Country Orders"
 msgstr "הזמנות מדינה"
@@ -2818,6 +2959,12 @@ msgstr "ליצור"
 msgid "Create a Company"
 msgstr "צור חברה"
 
+#. placeholder {0}: law.data.name
+#. placeholder {1}: law.data.scheme
+#: src/components/_political/law/law.frontConfig.tsx:342
+msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
+msgstr "צור ברית חדשה בשם <0>{0}</0> עם ערכת צבעים <1>{1}</1>."
+
 #: src/components/_user/mission/mission.frontConfig.tsx:356
 msgid "Create a new company"
 msgstr "צור חברה חדשה"
@@ -2826,6 +2973,16 @@ msgstr "צור חברה חדשה"
 #: src/components/_political/party/PartyList.tsx:88
 msgid "Create a party"
 msgstr "צור מפלגה"
+
+#: src/components/_political/law/law.frontConfig.tsx:331
+#: src/components/_political/law/lawNames.tsx:25
+msgid "Create alliance"
+msgstr "צור ברית"
+
+#. placeholder {0}: law.data.name
+#: src/components/_political/law/law.frontConfig.tsx:336
+msgid "Create alliance {0}"
+msgstr "צור ברית {0}"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:240
 msgid "Create API Token"
@@ -2872,6 +3029,10 @@ msgstr "מכה קריטית"
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
 msgstr "קשת צולבת"
+
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:75
+msgid "Current alliance battle damage bonus → <0/>"
+msgstr "בונוס נזק קרב נוכחי מהברית ← <0/>"
 
 #: src/pages/user/[userId]/index.tsx:163
 msgid "Current Military Unit"
@@ -3065,6 +3226,38 @@ msgstr "מגן"
 msgid "Defenders"
 msgstr "מגינים"
 
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:344
+msgid "Defensive pact"
+msgstr "ברית הגנה"
+
+#: src/components/_political/event/EventList.tsx:137
+msgid "Defensive pact broken"
+msgstr "ברית ההגנה נשברה"
+
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[1].pactMaintenanceMultiplier, )
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].pactMaintenanceMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:199
+#: src/components/_political/party/party.frontConfig.tsx:215
+msgid "Defensive pact maintenance costs are reduced by <0>{0}</0>."
+msgstr "עלויות אחזקת ברית ההגנה מופחתות ב-<0>{0}</0>."
+
+#: src/components/_political/event/EventList.tsx:133
+msgid "Defensive pact signed"
+msgstr "ברית הגנה נחתמה"
+
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:533
+msgid ""
+"Defensive pact: orders supporting your pact partner cost "
+"{orderDiscountPercent}% less <0>{0}</0>"
+msgstr ""
+"ברית הגנה: פקודות התומכות בשותף שלך עולות {orderDiscountPercent}% פחות "
+"<0>{0}</0>"
+
+#: src/components/_political/country/CountryTooltip.tsx:127
+msgid "Defensive pacts"
+msgstr "בריתות הגנה"
+
 #: src/components/_political/law/law.frontConfig.tsx:225
 msgid "Define <0/> as an enemy, increasing damages when fighting against them"
 msgstr "הגדר את <0/> כאויב, הגדלת הנזקים בעת הלחימה נגדם"
@@ -3183,6 +3376,11 @@ msgstr "דיפלומטיה"
 msgid "Diplomatic"
 msgstr "דיפלומטי"
 
+#. placeholder {0}: ts.paper
+#: src/components/_political/law/LawEthicEffects.tsx:173
+msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
+msgstr "דיפלומטי: עלויות אחזקת ברית הגנה נמוכות ב-{less}% <0>{0}</0>."
+
 #: src/components/_economy/company/CompanyDropdown.tsx:189
 msgid "Disable company"
 msgstr "השבת את החברה"
@@ -3207,6 +3405,15 @@ msgstr "לפרק פריט"
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "לפטר"
+
+#: src/components/_political/alliance/alliance.frontConfig.tsx:20
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:168
+msgid "Dissolve alliance"
+msgstr "פרק ברית"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:173
+msgid "Dissolve the alliance permanently, removing every member country."
+msgstr "פרק את הברית לצמיתות, תוך הסרת כל מדינות החברות."
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
@@ -3400,6 +3607,14 @@ msgstr "עלות חקיקה"
 msgid "Enchanted Trousers"
 msgstr "מכנסיים מכושפים"
 
+#: src/components/_political/law/law.frontConfig.tsx:307
+msgid "End an existing defensive pact with another country"
+msgstr "סיים ברית הגנה קיימת עם מדינה אחרת"
+
+#: src/components/_political/law/law.frontConfig.tsx:321
+msgid "End the defensive pact with <0/>."
+msgstr "סיים את ברית ההגנה עם <0/>."
+
 #: src/components/_military/battle/BattleSystem.tsx:743
 msgid "Ended"
 msgstr "הסתיים"
@@ -3588,6 +3803,12 @@ msgstr "חקלאי קנאי"
 #: src/components/_political/party/party.frontConfig.tsx:170
 msgid "Fanatic Diplomatic"
 msgstr "דיפלומטי קנאי"
+
+#. placeholder {0}: ts.paper
+#: src/components/_political/law/LawEthicEffects.tsx:160
+msgid ""
+"Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
+msgstr "דיפלומטי קנאי: עלויות אחזקת ברית הגנה נמוכות ב-{less}% <0>{0}</0>."
 
 #: src/components/_political/party/party.frontConfig.tsx:251
 msgid "Fanatic Imperialist"
@@ -3786,6 +4007,10 @@ msgstr "סגנון גופן"
 #: src/pages/country/[countryId]/index.tsx:457
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "עבור חברות המייצרות <0>{0}</0> הממוקמות ב<1/>."
+
+#: src/components/_political/law/law.frontConfig.tsx:333
+msgid "Found a new alliance with your country as founding member"
+msgstr "ייסד ברית חדשה עם המדינה שלך כחברה מייסדת"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:45
 msgid "Founding Father"
@@ -4278,6 +4503,20 @@ msgstr "הפרות מכוונות או חוזרות של מדיניות זו ת�
 msgid "Inventory"
 msgstr "מלאי"
 
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:55
+msgid ""
+"Invite <0/> to join the alliance. If accepted, the target country's "
+"government must also accept a system law before joining takes effect."
+msgstr ""
+"הזמן את <0/> להצטרף לברית. אם ההזמנה תתקבל, על ממשלת מדינת היעד לאשר גם היא "
+"חוק מערכת לפני שההצטרפות תיכנס לתוקף."
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:39
+msgid ""
+"Invite a country to join the alliance. A confirmation law is created in the "
+"target country."
+msgstr "הזמן מדינה להצטרף לברית. חוק אישור ייווצר במדינת היעד."
+
 #: src/utils/translations.tsx:53
 msgid "Iron"
 msgstr "ברזל"
@@ -4340,6 +4579,11 @@ msgstr "משרות"
 #: src/components/_user/mission/mission.frontConfig.tsx:368
 msgid "Join a Military Unit"
 msgstr "הצטרף ליחידה צבאית"
+
+#: src/components/_political/law/law.frontConfig.tsx:378
+#: src/components/_political/law/lawNames.tsx:27
+msgid "Join alliance"
+msgstr "הצטרף לברית"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:367
 msgid "Join MU"
@@ -4480,6 +4724,11 @@ msgstr "עופרת"
 msgid "Leave"
 msgstr "לעזוב"
 
+#: src/components/_political/law/law.frontConfig.tsx:353
+#: src/components/_political/law/lawNames.tsx:26
+msgid "Leave alliance"
+msgstr "עזוב ברית"
+
 #: src/components/_user/worker/WageReductionAlert.tsx:55
 msgid "Leave company?"
 msgstr "לעזוב חברה?"
@@ -4493,6 +4742,10 @@ msgstr "עזוב את הקונגרס"
 #: src/pages/country/[countryId]/government.tsx:82
 msgid "Leave government"
 msgstr "עזוב את הממשלה"
+
+#: src/components/_political/law/law.frontConfig.tsx:354
+msgid "Leave the alliance your country belongs to"
+msgstr "עזוב את הברית שהמדינה שלך שייכת אליה"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
@@ -4676,6 +4929,14 @@ msgstr "עלות תחזוקה"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:96
 msgid "Major"
 msgstr "רב סרן"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:110
+msgid ""
+"Make <0/> the new alliance leader. The leader can edit the alliance avatar "
+"and color scheme directly."
+msgstr ""
+"הפוך את <0/> למנהיג הברית החדש. המנהיג יכול לערוך ישירות את התמונה וערכת "
+"הצבעים של הברית."
 
 #: src/components/_user/premium/PremiumActions.tsx:81
 msgid "Manage Subscription"
@@ -5130,6 +5391,11 @@ msgstr "לעולם אל תפסיק להמר"
 msgid "New"
 msgstr "חדש"
 
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:172
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:173
+msgid "New alliance name"
+msgstr "שם ברית חדש"
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:122
 msgid "New API Token Created"
 msgstr "אסימון API חדש נוצר"
@@ -5270,6 +5536,25 @@ msgstr "אין הצעת עבודה פעילה"
 msgid "No active wars"
 msgstr "אין מלחמות פעילות"
 
+#: src/components/_military/battle/BattleDamageBonuses.tsx:101
+msgid ""
+"No alliance bonus: the allied country's membership is suspended for unpaid "
+"alliance maintenance."
+msgstr ""
+"אין בונוס ברית: החברות של המדינה בעלת הברית מושעית עקב אי-תשלום דמי אחזקת "
+"הברית."
+
+#: src/components/_military/battle/BattleDamageBonuses.tsx:96
+msgid ""
+"No alliance bonus: your country's membership is suspended for unpaid alliance "
+"maintenance."
+msgstr ""
+"אין בונוס ברית: החברות של המדינה שלך מושעית עקב אי-תשלום דמי אחזקת הברית."
+
+#: src/components/_political/allianceLaw/AllianceLawList.tsx:50
+msgid "No alliance laws yet"
+msgstr "עדיין אין חוקי ברית"
+
 #: src/pages/country/[countryId]/index.tsx:229
 msgid "No allies"
 msgstr "אין בעלי ברית"
@@ -5305,6 +5590,10 @@ msgstr "עדיין אין תרומות"
 #: src/components/_military/damageRanking/DamageRankingList.tsx:185
 msgid "No damages ranking yet."
 msgstr "עדיין אין דירוג נזקים."
+
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:403
+msgid "No defensive pact"
+msgstr "אין ברית הגנה"
 
 #: src/components/_economy/donation/DonationList.tsx:81
 msgid "No donations yet"
@@ -5409,6 +5698,10 @@ msgstr "למנות"
 msgid "Nominate a {title}"
 msgstr "מנה {title}"
 
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:93
+msgid "Nominate a citizen of a member country as the alliance leader."
+msgstr "מנה אזרח ממדינה חברה למנהיג הברית."
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1980
 msgid "Nominated at government"
 msgstr "מועמד בממשלה"
@@ -5429,9 +5722,21 @@ msgstr ""
 msgid "Not bad!"
 msgstr "לא נורא!"
 
+#: src/components/_political/alliance/AllianceMemberRow.tsx:47
+msgid ""
+"Not enough paper to pay the daily alliance maintenance. Alliance damage "
+"bonuses are disabled for this country until it pays."
+msgstr ""
+"אין מספיק נייר כדי לשלם את דמי אחזקת הברית היומיים. בונוסי הנזק מהברית "
+"מושבתים למדינה זו עד לתשלום."
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:36
 msgid "Not impressive, but not shameful"
 msgstr "לא מרשים, אבל לא מביש"
+
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:218
+msgid "Not in any alliance"
+msgstr "לא בברית כלשהי"
 
 #: src/pages/notifications.tsx:38 src/pages/user/[userId]/settings.tsx:79
 msgid "Notification preferences"
@@ -5646,6 +5951,10 @@ msgstr "חבילות"
 msgid "Pants"
 msgstr "מכנסיים"
 
+#: src/utils/translations.tsx:90
+msgid "Paper"
+msgstr "נייר"
+
 #: src/components/_user/mission/mission.frontConfig.tsx:222
 msgid "Participate in <0>{count}</0> battles"
 msgstr "השתתף בקרבות <0>{count}</0>"
@@ -5760,6 +6069,10 @@ msgstr "בהמתנה להפחתת שכר"
 #: src/components/_political/event/event.frontConfig.tsx:342
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "אנשים כועסים, החל מרד אוטומטי ב<0/>"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:169
+msgid "Permanently dissolve the alliance."
+msgstr "פרק את הברית לצמיתות."
 
 #: src/utils/translations.tsx:86
 msgid "Petroleum"
@@ -6017,10 +6330,38 @@ msgstr "קדם למפקד"
 msgid "Promoted to Commander"
 msgstr "הועלה למפקד"
 
+#: src/components/_political/law/law.frontConfig.tsx:259
+msgid "Propose a defensive pact with <0/>"
+msgstr "הצע ברית הגנה עם <0/>"
+
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "להציע הצעה"
+
+#: src/components/_political/law/law.frontConfig.tsx:268
+msgid ""
+"Propose a mutual defensive pact with <0/>. Once accepted, defenders of either "
+"country get a bonus that starts at 1% and grows +1% per day up to 10%."
+msgstr ""
+"הצע ברית הגנה הדדית עם <0/>. לאחר האישור, מגינים משתי המדינות יקבלו בונוס "
+"שמתחיל ב-1% וגדל ב-1% ליום עד ל-10%."
+
+#: src/components/_political/law/law.frontConfig.tsx:254
+msgid ""
+"Propose a mutual defensive pact with another country to get a growing "
+"defensive bonus"
+msgstr "הצע ברית הגנה הדדית עם מדינה אחרת כדי לקבל בונוס הגנה הולך וגדל"
+
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:125
+#: src/components/_political/allianceLaw/AllianceLawList.tsx:36
+msgid "Propose alliance law"
+msgstr "הצע חוק ברית"
+
+#: src/components/_political/law/law.frontConfig.tsx:252
+#: src/components/_political/law/lawNames.tsx:40
+msgid "Propose defensive pact"
+msgstr "הצע ברית הגנה"
 
 #: src/components/_political/law/law.frontConfig.tsx:255
 #: src/components/_political/law/lawNames.tsx:25
@@ -6354,9 +6695,17 @@ msgstr "משך הדיבאף שנותר"
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "הסר את <0/> מהקונגרס עקב חוסר פעילות"
 
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:82
+msgid "Remove <0/> from the alliance immediately on acceptance."
+msgstr "הסר את <0/> מהברית מיד עם האישור."
+
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:38
 msgid "Remove <0/> from the party council"
 msgstr "הסר את <0/> ממועצת המפלגה"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:66
+msgid "Remove a member country from the alliance."
+msgstr "הסר מדינה חברה מהברית."
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:32
 msgid "Remove a member from the party council"
@@ -6404,10 +6753,25 @@ msgstr "הוצא מהיחידה הצבאית"
 msgid "Rename"
 msgstr "שנה שם"
 
+#: src/components/_political/alliance/alliance.frontConfig.tsx:18
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:120
+msgid "Rename alliance"
+msgstr "שנה שם ברית"
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:127
+msgid "Rename alliance to \"{0}\""
+msgstr "שנה שם ברית ל-״{0}״"
+
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:66
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
 msgstr "שנה את שם החברה"
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:133
+msgid "Rename the alliance to \"{0}\" immediately on acceptance."
+msgstr "שנה את שם הברית ל-״{0}״ מיד עם האישור."
 
 #: src/components/_political/government/Government.tsx:219
 msgid "Replace"
@@ -6802,6 +7166,16 @@ msgstr "שלח מתנה"
 #: src/components/_user/mission/mission.frontConfig.tsx:373
 msgid "Send Message"
 msgstr "שלח הודעה"
+
+#. placeholder {0}: staticGameConfig.law[ELawType.SEND_MONEY_TO_COUNTRY].allianceTaxRate * 100
+#. placeholder {1}: staticGameConfig.law[ELawType.SEND_MONEY_TO_COUNTRY].externalTaxRate * 100
+#: src/components/_political/law/law.frontConfig.tsx:404
+msgid ""
+"Send money to another country. Paper tax on top: {0}% within your alliance, "
+"{1}% for external transfers."
+msgstr ""
+"שלח כסף למדינה אחרת. מס נייר נוסף: {0}% בתוך הברית שלך, {1}% להעברות "
+"חיצוניות."
 
 #: src/components/_political/law/law.frontConfig.tsx:340
 msgid "Send money to another country"
@@ -7434,6 +7808,14 @@ msgstr ""
 "זהו סיכום השלל שקיבלת מהקרב הזה. זה כולל את כל התיבות שקיבלת, כמו גם את "
 "הפריטים היקרים ביותר ממאגר השלל המשותף."
 
+#: src/components/_political/country/CountryHeader.tsx:236
+msgid ""
+"This is the value used to calculate most costs: battle orders, alliance, "
+"sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
+msgstr ""
+"זהו הערך המשמש לחישוב רוב העלויות: פקודות קרב, אחזקת ברית, אויב מושבע וברית "
+"הגנה, חוקים ואחזקת שדרוגים."
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid ""
 "This is your company hub. Here you can produce items and build your empire."
@@ -7941,6 +8323,10 @@ msgstr "משמש לייצור דגים מבושלים"
 #: src/utils/translations.tsx:85
 msgid "Used to produce Oil"
 msgstr "משמש ליצור נפט"
+
+#: src/utils/translations.tsx:89
+msgid "Used to produce Paper"
+msgstr "משמש לייצור נייר"
 
 #: src/utils/translations.tsx:111
 msgid "Used to produce Pills"
