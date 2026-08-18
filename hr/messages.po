@@ -198,7 +198,7 @@ msgstr "/dan"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:178
 msgid "+{hiddenBattles} more battles"
-msgstr ""
+msgstr "+{hiddenBattles} više bitki"
 
 #: src/components/_user/user/Level.tsx:152
 msgid "+{xpBonusPercent}% XP"
@@ -749,7 +749,7 @@ msgstr "<0>{0}</0>/dan"
 #. placeholder {0}: companiesLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:118
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
-msgstr ""
+msgstr "<0>{activeCompaniesCount}/{0}</0> Kompanija"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -1341,7 +1341,7 @@ msgstr "Prihvaćen"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:303
 msgid "Access granted"
-msgstr ""
+msgstr "Pristup odobren"
 
 #: src/components/_military/battle/BattleHeader.tsx:118
 msgid "Access war"
@@ -1850,7 +1850,7 @@ msgstr "Napad"
 
 #: src/components/_user/user/MilitaryRank.tsx:111
 msgid "Attack bonus:"
-msgstr ""
+msgstr "Napadački bonus:"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:195
 #: src/components/_military/war/WarComparison.tsx:41
@@ -2012,7 +2012,7 @@ msgstr "Bitka"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:166
 msgid "Battle by battle"
-msgstr ""
+msgstr "Prikaz po bitkama"
 
 #: src/pages/alliance/[allianceId]/index.tsx:41
 msgid "Battle damage bonus"
@@ -2045,7 +2045,7 @@ msgstr "Bitka započela"
 
 #: src/pages/country/[countryId]/government.tsx:137
 msgid "Battle orders"
-msgstr ""
+msgstr "Naredbe"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:105
 msgid "Battle Orders"
@@ -3120,7 +3120,7 @@ msgstr "Nanesi <0>{count}</0> po naredbama države/VJ"
 
 #: src/components/_user/user/MilitaryRank.tsx:85
 msgid "Deal <0>damages</0> in battles to climb the ranks!"
-msgstr ""
+msgstr "Nanesite <0>štete</0> u bitkama za promaknuće!"
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:94
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
@@ -3455,11 +3455,11 @@ msgstr "Barake"
 
 #: src/components/_military/order/BattleOrderList.tsx:225
 msgid "Drag the new order to choose its number."
-msgstr ""
+msgstr "Povucite novu naredbu kako bi promijenili njezin prioritetni broj."
 
 #: src/components/_military/order/BattleOrderList.tsx:227
 msgid "Drag the orders to change their priority number."
-msgstr ""
+msgstr "Povucite naredbu za promijenu njenog prioritetnog broja."
 
 #: src/components/_other/shop/skin.frontConfig.tsx:155
 msgid "Dragon"
@@ -3512,7 +3512,7 @@ msgstr "Ekonomija & Kompanije"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
-msgstr ""
+msgstr "Uredi državnu naredbu"
 
 #: src/components/_user/user/UserDropdown.tsx:231
 msgid "Edit description"
@@ -3524,7 +3524,7 @@ msgstr "Izmjeni opis"
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
-msgstr ""
+msgstr "Uredi VJ naredbu "
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -3532,11 +3532,11 @@ msgstr "Izmjeni radnika"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:494
 msgid "Editing an existing order"
-msgstr ""
+msgstr "Uređivanje postojeće naredbe"
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:492
 msgid "Editing another order"
-msgstr ""
+msgstr "Uređivanje druge naredbe"
 
 #: src/components/_user/user/SkillValue.tsx:260
 msgid "Effective:"
@@ -3713,6 +3713,10 @@ msgstr "Poeni Etike:"
 msgid "Events"
 msgstr "Događaji"
 
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:57
+msgid "Every item you are currently in line to get from the loot pools of the battles you are fighting in, round pools and battle pools combined. Nothing is won yet: an item is only yours once its pool is distributed, and your rank can still change until then."
+msgstr "Svi predmeti koje kaniš osvojiti po završetku runde ili bitke. Još nije ništa osvojeno: predmet je tvoj jednom kad se plijen distribuira na kraju runde/bitke, a do tad se tvoj rang na bojišnici i plijen iz runde/bitke mogu promijeniti."
+
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Svi automatski sudjeluju"
@@ -3724,7 +3728,7 @@ msgstr "Ekspanzionizam"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:221
 msgid "Expected loot"
-msgstr ""
+msgstr "Očekivani plijen"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -4494,6 +4498,11 @@ msgstr "Imperiјalizam"
 msgid "Impressive"
 msgstr "Impresivno!"
 
+#. placeholder {0}: data.battleCount
+#: src/components/_military/battle/MyExpectedLootsCard.tsx:73
+msgid "in {0} battles"
+msgstr "iz {0} bitke"
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
 msgstr "Neaktivno"
@@ -4672,7 +4681,7 @@ msgstr "Pridruži se VЈ"
 
 #: src/pages/index.tsx:139
 msgid "Join the world"
-msgstr ""
+msgstr "Pridružite se svijetu"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:65
 msgid "Join this company!"
@@ -4956,7 +4965,7 @@ msgstr "Ograničenje potrošnje hrane"
 
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Limit reached"
-msgstr ""
+msgstr "Ograničenje dostignuto"
 
 #: src/components/_user/user/SkillValue.tsx:118
 msgid "Limited:"
@@ -5131,7 +5140,7 @@ msgstr "Maksimum <0>{0}</0> radnika.{1}"
 
 #: src/components/_user/user/MilitaryRank.tsx:93
 msgid "Maximum rank achieved!"
-msgstr ""
+msgstr "Maksimalni vojni čin ostvaren!"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:32
 msgid "Maybe epic music would help?"
@@ -5527,7 +5536,7 @@ msgstr "Ime"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:50
 msgid "National article of<0/>"
-msgstr ""
+msgstr "Članak dobrodošlice od<0/>"
 
 #: src/components/_political/party/party.frontConfig.tsx:425
 msgid "National battle orders cost double."
@@ -5643,7 +5652,7 @@ msgstr "Nova nacionalnost"
 
 #: src/components/_military/order/OrderBattleItem.tsx:96
 msgid "New order"
-msgstr ""
+msgstr "Nova naredba"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2034
 msgid "New Party Application"
@@ -5733,7 +5742,7 @@ msgstr "Nema aktivnih ponuda za posao"
 
 #: src/components/_military/order/BattleOrderList.tsx:155
 msgid "No active order"
-msgstr ""
+msgstr "Nema aktivnih naredbi"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:267
 msgid "No active wars"
@@ -5953,7 +5962,7 @@ msgstr "Nije postavljeno"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:158
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
-msgstr ""
+msgstr "Ne sudjelujete u bitkama. Priključite se aktivnim bitkama i nanesite što više štete kako bi ostvarili najbolji rang za plijen u bitki/rundi."
 
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:79
@@ -6011,7 +6020,7 @@ msgstr "Kockar se krije i čuči u svakom od nas i čeka pravi čas..."
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:149
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:153
 msgid "Ongoing battles"
-msgstr ""
+msgstr "Aktivne bitke"
 
 #: src/components/_political/party/party.frontConfig.tsx:345
 #: src/components/_political/party/party.frontConfig.tsx:366
@@ -6118,7 +6127,7 @@ msgstr "Naredbe otkazane"
 #: src/pages/orders.tsx:24
 #: src/pages/orders.tsx:35
 msgid "Orders of <0/>"
-msgstr ""
+msgstr "Naredbe od <0/>"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
@@ -6355,7 +6364,7 @@ msgstr "Posadi drvo pored podatkovnog centra"
 
 #: src/pages/index.tsx:131
 msgid "Play now"
-msgstr ""
+msgstr "Zaigraj sada"
 
 #: src/components/_common/GameRules.tsx:31
 msgid "Players are limited to a single account. Creating multiple accounts or using someone else's account for any reason is strictly prohibited."
@@ -6763,7 +6772,7 @@ msgstr "Pročitaј članak"
 
 #: src/components/_user/auth/CountryWelcomeArticle.tsx:58
 msgid "Read the article"
-msgstr ""
+msgstr "Pročitaј članak"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Ready for battle!"
@@ -8756,7 +8765,7 @@ msgstr "Verificiraj"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:295
 msgid "Verifying you're human..."
-msgstr ""
+msgstr "Potvrđujemo da ste čovjek..."
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:131
 msgid "Vice Admiral"
@@ -8909,7 +8918,7 @@ msgstr "Dobrodošao u tvoјu ekonomiјu!"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:150
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
-msgstr ""
+msgstr "Prikazuje detalje tvojih postignuća na bojištu; udarci, šteta, ostvarene kutije, premije, novac od plaćeničkih ugovora kao i predmet/e od plijena runde/bitke za koje se trenutno kvalificiraš, a koji ovisi o tvome rangu prema nanesenoj šteti. Predmeti od plijena još nisu dodijeljeni: biti će tvoji tek kad se plijen raspodijeli na kraju bitke/runde."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
 #: src/components/_political/party/party.frontConfig.tsx:116
@@ -9111,7 +9120,7 @@ msgstr "Zaslužan je za odgoj 10 bebača u ovome svijetu (>= lvl {0})"
 
 #: src/pages/index.tsx:126
 msgid "You can change it later."
-msgstr ""
+msgstr "Moguća je kasnija izmjena."
 
 #: src/components/_economy/inventory/DismantleModal.tsx:211
 msgid "You can dismantle items from your inventory by selecting an item."
