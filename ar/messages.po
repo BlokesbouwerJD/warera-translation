@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - عمالة منخفضة الأجر (أقل من 0.8x وأعلى من 1.2x من الراتب الطبيعي)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:422
+#: src/components/_user/user/UserHeader.tsx:439
 msgid " - Reason: {0}"
 msgstr " - السبب: {0}"
 
@@ -111,7 +111,7 @@ msgstr "{0} ساعات"
 
 #. placeholder {0}: data.outbidByMuName
 #. placeholder {1}: data.newPerK
-#: src/components/_user/notification/notification.frontConfig.tsx:1675
+#: src/components/_user/notification/notification.frontConfig.tsx:1688
 msgid "{0} outbid you at ${1}/K"
 msgstr "لقد زايد عليك {0} بسعر {1}$ لكل ألف"
 
@@ -163,9 +163,13 @@ msgstr "{draftPrestigeCount} نقطة (نقاط) هيبة على هذه المه
 msgid "{prestigeLevel} Prestige Points"
 msgstr "{prestigeLevel} نقطة هيبة"
 
-#: src/components/_military/tournament/TournamentRegisteredTag.tsx:43
-msgid "{registeredCount} {entityLabel} registered"
-msgstr "تم تسجيل {registeredCount} {entityLabel}"
+#: src/pages/events/index.tsx:97
+msgid "{registeredCount} countries registered"
+msgstr ""
+
+#: src/pages/events/index.tsx:95
+msgid "{registeredCount} MUs registered"
+msgstr ""
 
 #: src/components/_military/battle/BattleTimeline.tsx:79
 msgid "{roundsToWin} Rounds to win "
@@ -219,21 +223,21 @@ msgstr "<0/> بأجر <1>{0}</1>.{1}"
 msgid "<0/> banned <1/> from the conversation"
 msgstr "قام <0/> بحظر <1/> من الدردشة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1877
+#: src/components/_user/notification/notification.frontConfig.tsx:1890
 msgid "<0/> bought your {assetLabel} as a gift for <1/>!"
 msgstr "اشترى <0/> {assetLabel} الخاص بك كهدية لـ <1/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1884
+#: src/components/_user/notification/notification.frontConfig.tsx:1897
 msgid "<0/> bought your {assetLabel}!"
 msgstr "اشترى <0/> {assetLabel} الخاص بك!"
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
-#: src/components/_user/notification/notification.frontConfig.tsx:1510
+#: src/components/_user/notification/notification.frontConfig.tsx:1523
 msgid "<0/> bought your banner{0} as a gift for <1/>!"
 msgstr "اشترى <0/> لافتتك{0} كهدية لـ <1/>!"
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
-#: src/components/_user/notification/notification.frontConfig.tsx:1518
+#: src/components/_user/notification/notification.frontConfig.tsx:1531
 msgid "<0/> bought your banner{0}!"
 msgstr "اشترى <0/> لافتتك{0}!"
 
@@ -247,7 +251,7 @@ msgstr "<0/> يشتري <1/> بـ <2>{0}</2>"
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> يشتري منطقتك <1/> مقابل <2>{0}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1595
+#: src/components/_user/notification/notification.frontConfig.tsx:1608
 msgid "<0/> cancelled the contract."
 msgstr "<0/> ألغى العقد."
 
@@ -255,7 +259,7 @@ msgstr "<0/> ألغى العقد."
 msgid "<0/> commented on your article <1/>"
 msgstr "علق <0/> على مقالك <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1570
+#: src/components/_user/notification/notification.frontConfig.tsx:1583
 msgid "<0/> completed a contract, you earned <1/>"
 msgstr "أكمل <0/> عقداً، لقد ربحت <1/>"
 
@@ -310,15 +314,15 @@ msgid "<0/> gifted you a premium subscription!"
 msgstr "أهداك <0/> اشتراكًا مميزًا!"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1479
+#: src/components/_user/notification/notification.frontConfig.tsx:1492
 msgid "<0/> gifted you the banner \"{0}\"!"
 msgstr "أهداك <0/> اللافتة \"{0}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1759
+#: src/components/_user/notification/notification.frontConfig.tsx:1772
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
 msgstr "أهداك <0/> المظهر \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1830
+#: src/components/_user/notification/notification.frontConfig.tsx:1843
 msgid "<0/> gifted you the skin pack \"{skinPackTitle}\"!"
 msgstr "<0/> أهداك حزمة المظهر \"{skinPackTitle}\"!"
 
@@ -553,6 +557,10 @@ msgstr "<0/> يريد السلام"
 msgid "<0/> wants to make peace with your country"
 msgstr "يريد <0/> عقد سلام مع بلدك"
 
+#: src/components/_user/notification/notification.frontConfig.tsx:1372
+msgid "<0/> was cancelled: not enough participants registered."
+msgstr ""
+
 #: src/components/_political/event/event.frontConfig.tsx:197
 msgid "<0/> was elected president of <1/>"
 msgstr "انتُخب <0/> رئيساً لـ <1/>"
@@ -567,7 +575,7 @@ msgstr "تم ترشيح <0/> كـ <1>{0}</1>"
 msgid "<0/> won round {0}"
 msgstr "فاز <0/> بالجولة {0}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1553
+#: src/components/_user/notification/notification.frontConfig.tsx:1566
 msgid "<0/> won the auction on a contract with <1/>"
 msgstr "فاز <0/> بالمزاد على عقد مع <1/>"
 
@@ -590,18 +598,6 @@ msgstr "فاز <0/> بالجولة <1>#{0}</1> في <2/>"
 #: src/components/_user/notification/notification.frontConfig.tsx:632
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "فاز <0/> بالجولة <1>#{0}</1> في <2/>!"
-
-#: src/components/_user/user/UserHeader.tsx:289
-msgid "<0/><1>Buff</1> ends <2/>"
-msgstr "ينتهي تأثير <0/><1>التعزيز</1> في <2/>"
-
-#: src/components/_user/user/UserHeader.tsx:298
-msgid "<0/><1>Debuff</1> ends <2/>"
-msgstr "ينتهي تأثير <0/><1>الإضعاف</1> في <2/>"
-
-#: src/components/_user/user/UserHeader.tsx:361
-msgid "<0/>Last connection was <1><2/></1>"
-msgstr "<0/>آخر اتصال كان في <1><2/></1>"
 
 #: src/pages/war/[warId]/index.tsx:55
 msgid "<0/>Priority ends in <1/>"
@@ -660,7 +656,7 @@ msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the 
 msgstr "اضرار اضافية عند الدفاع بنسبة <0>{0}</0> عند الدفاع عن هذه المنطقة,<1/>يحصل المواطنون على الاضرار الاضافية كاملة، بينما تحصل الدول المتحالفة على نصفها. ولا يستفيد شركاء ميثاق الدفاع منها"
 
 #. placeholder {0}: data.acceptanceFeeReturned
-#: src/components/_user/notification/notification.frontConfig.tsx:1616
+#: src/components/_user/notification/notification.frontConfig.tsx:1629
 msgid "<0>{0}</0> fee returned to MU."
 msgstr "تمت إعادة رسوم <0>{0}</0> إلى الوحدة العسكرية."
 
@@ -732,7 +728,7 @@ msgid "<0>{0}</0> ground are required to win a round, points are gained every ti
 msgstr "مطلوب <0>{0}</0> أرض للفوز بجولة، يتم اكتساب النقاط مع كل نبضة (tick)"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1608
+#: src/components/_user/notification/notification.frontConfig.tsx:1621
 msgid "<0>{0}</0> returned to <1/>."
 msgstr "تمت إعادة <0>{0}</0> إلى <1/>."
 
@@ -772,25 +768,17 @@ msgstr "<0>{strategicBonus}</0> من مكافأة إنتاج الموارد ال
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> مورد من كل نوع = <1>{value}</1>"
 
-#: src/components/_political/country/CountryHeader.tsx:208
+#: src/components/_political/country/CountryHeader.tsx:228
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
 msgstr "<0>متوسط التطور</0> هو متوسط <1>التطور الأساسي</1> و<2>التطور الحالي</2>."
 
-#: src/components/_user/user/UserTooltip.tsx:149
-msgid "<0>Buff</0> ends <1/>"
-msgstr "ينتهي تأثير <0>التعزيز</0> في <1/>"
-
-#: src/components/_political/country/CountryHeader.tsx:172
+#: src/components/_political/country/CountryHeader.tsx:192
 msgid "<0>Core development</0> is calculated depending on the country's <1>Population</1> and average <2>Level</2>. then distributed equally among the country's <3>Core regions</3>."
 msgstr "يتم حساب <0>التطور الأساسي</0> بناءً على <1>عدد السكان</1> ومتوسط <2>المستوى</2> للدولة، ثم يُوزَّع بالتساوي بين <3>المناطق الأساسية</3> التابعة لها"
 
-#: src/components/_political/country/CountryHeader.tsx:236
+#: src/components/_political/country/CountryHeader.tsx:256
 msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
 msgstr "<0>التطور الحالي</0> هو إجمالي تطور <1>المناطق</1> التي تسيطر عليها الدولة حاليًا، بما في ذلك الأراضي المحتلة"
-
-#: src/components/_user/user/UserTooltip.tsx:158
-msgid "<0>Debuff</0> ends <1/>"
-msgstr "ينتهي تأثير <0>الإضعاف</0> في <1/>"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:121
 msgid "<0>Emotes</0> in chat"
@@ -1347,8 +1335,10 @@ msgstr "تم منح الوصول"
 msgid "Access war"
 msgstr "الدخول إلى الحرب"
 
-#: src/components/_political/country/CountryHeader.tsx:77
-#: src/components/_user/user/UserHeader.tsx:167
+#: src/components/_military/mu/MuHeader.tsx:163
+#: src/components/_political/country/CountryHeader.tsx:94
+#: src/components/_political/party/PartyHeader.tsx:117
+#: src/components/_user/user/UserHeader.tsx:176
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1371,8 +1361,9 @@ msgstr "مُفعّل"
 #: src/components/_military/battle/BattlesHeader.tsx:27
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
-#: src/pages/events/index.tsx:95
-#: src/utils/translations.tsx:269
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:47
+#: src/pages/events/index.tsx:148
+#: src/utils/translations.tsx:272
 msgid "Active"
 msgstr "نشط"
 
@@ -1387,6 +1378,11 @@ msgstr "معارك نشطة"
 #: src/pages/country/[countryId]/citizens.tsx:35
 msgid "Active Citizens"
 msgstr "مواطنون نشطون"
+
+#. placeholder {0}: staticGameConfig.user.activeCitizenMinLevel
+#: src/components/_political/country/CountryHeader.tsx:294
+msgid "Active citizens (citizenship of this country, active and level {0}+)"
+msgstr ""
 
 #: src/pages/region/[regionId]/index.tsx:212
 msgid "Active construction"
@@ -1420,7 +1416,7 @@ msgstr "تكلفة إضافية"
 msgid "Admin"
 msgstr "مسؤول"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2131
+#: src/components/_user/notification/notification.frontConfig.tsx:2147
 msgid "Admin notification"
 msgstr "إشعار إداري"
 
@@ -1428,23 +1424,23 @@ msgstr "إشعار إداري"
 msgid "Admiral"
 msgstr "أدميرال"
 
-#: src/utils/translations.tsx:205
+#: src/utils/translations.tsx:206
 msgid "Advanced Boots"
 msgstr "أحذية متطورة"
 
-#: src/utils/translations.tsx:196
+#: src/utils/translations.tsx:197
 msgid "Advanced Chest"
 msgstr "درع صدر متطور"
 
-#: src/utils/translations.tsx:214
+#: src/utils/translations.tsx:215
 msgid "Advanced Gloves"
 msgstr "قفازات متطورة"
 
-#: src/utils/translations.tsx:187
+#: src/utils/translations.tsx:188
 msgid "Advanced Helmet"
 msgstr "خوذة متطورة"
 
-#: src/utils/translations.tsx:223
+#: src/utils/translations.tsx:224
 msgid "Advanced Pants"
 msgstr "سراويل متطورة"
 
@@ -1477,7 +1473,7 @@ msgstr "جميع رواسب الكوكا والحبوب والماشية وال�
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
 msgstr "جميع الشركات داخل حدودك تحصل على مكافأة <0>+{0}</0> تجاه تخصص سلع الذخيرة أو البناء."
 
-#: src/components/_political/event/EventList.tsx:154
+#: src/components/_political/event/EventList.tsx:197
 msgid "All event types"
 msgstr "جميع أنواع الأحداث"
 
@@ -1519,7 +1515,11 @@ msgid "All types"
 msgstr "جميع الأنواع"
 
 #: src/components/_layout/map.frontConfig.tsx:32
+#: src/components/_political/alliance/AllianceHeader.tsx:68
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:203
+#: src/components/_political/country/CountryHeader.tsx:333
+#: src/components/_political/country/CountryTooltip.tsx:109
+#: src/components/_political/map/MapMenu.tsx:336
 msgid "Alliance"
 msgstr "التحالف"
 
@@ -1531,11 +1531,11 @@ msgstr "التحالف <0/> (<1/>)"
 msgid "Alliance battle damage bonus"
 msgstr "اضرار اضافية لمعارك للتحالف"
 
-#: src/components/_political/event/EventList.tsx:75
+#: src/components/_political/event/EventList.tsx:118
 msgid "Alliance broken"
 msgstr "انهار التحالف"
 
-#: src/components/_political/event/EventList.tsx:74
+#: src/components/_political/event/EventList.tsx:117
 msgid "Alliance formed"
 msgstr "تأسس التحالف"
 
@@ -1601,7 +1601,7 @@ msgid "Amount of companies you can own"
 msgstr "عدد الشركات التي يمكنك امتلاكها"
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1588
+#: src/components/_user/notification/notification.frontConfig.tsx:1601
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr "قام المسؤول بإلغاء العقد, تمت إعادة <0>{0}</0> إلى <1/>."
 
@@ -1673,12 +1673,17 @@ msgstr "نمط التطبيق"
 msgid "Application fee"
 msgstr "رسوم الطلب"
 
+#: src/components/_military/mu/MuHeader.tsx:157
+#: src/components/_political/party/PartyHeader.tsx:137
+msgid "Applications"
+msgstr ""
+
 #: src/components/_political/citizenshipApplication/CitizenshipApplicationForm.tsx:56
 #: src/pages/country/[countryId]/citizenship.tsx:44
 msgid "Apply"
 msgstr "تقديم"
 
-#: src/utils/translations.tsx:272
+#: src/utils/translations.tsx:275
 msgid "Approved"
 msgstr "تمت الموافقة"
 
@@ -1756,7 +1761,7 @@ msgstr "درع"
 msgid "Article ID"
 msgstr "معرف المقال"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1992
+#: src/components/_user/notification/notification.frontConfig.tsx:2005
 msgid "Article liked"
 msgstr "تم الإعجاب بالمقال"
 
@@ -1764,12 +1769,12 @@ msgstr "تم الإعجاب بالمقال"
 msgid "Article Tip"
 msgstr "إكرامية المقال"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1994
-#: src/components/_user/notification/notification.frontConfig.tsx:1995
+#: src/components/_user/notification/notification.frontConfig.tsx:2007
+#: src/components/_user/notification/notification.frontConfig.tsx:2008
 msgid "Article tipped"
 msgstr "تم تلقي إكرامية للمقال"
 
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:223
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "مقالات"
@@ -1797,6 +1802,10 @@ msgstr "مروحية قتالية لمكافحة الإرهاب"
 #: src/components/_other/shop/skin.frontConfig.tsx:308
 msgid "AT Heavy Ammo"
 msgstr "ذخيرة ثقيلة لمكافحة الإرهاب"
+
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:144
+msgid "At least {MIN_REGISTRATIONS} are needed or the tournament is cancelled."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:8
 msgid "At least you tried"
@@ -1842,7 +1851,12 @@ msgstr "سترة تكتيكية لمكافحة الإرهاب"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "في نهاية المؤقت، سيتم تخصيص <0>{actualTickPoints}</0> للجانب الأكثر إحداثاً للأضرار."
 
+#: src/components/_political/country/CountryTooltip.tsx:141
+msgid "At war with"
+msgstr ""
+
 #: src/components/_military/hit/HitButton.tsx:468
+#: src/components/_political/map/MapMenu.tsx:344
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1865,7 +1879,7 @@ msgstr "المهاجمون"
 msgid "Auction Duration (minutes)"
 msgstr "مدة المزاد (بالدقائق)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2115
+#: src/components/_user/notification/notification.frontConfig.tsx:2131
 msgid "Auction Outbid"
 msgstr "تمت المزايدة عليك في المزاد"
 
@@ -1913,7 +1927,9 @@ msgstr "محرك آلي"
 msgid "Avatar removed"
 msgstr "تمت إزالة الصورة الرمزية"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:94
+#: src/components/_political/alliance/AllianceHeader.tsx:83
+#: src/components/_political/country/CountryHeader.tsx:219
+#: src/components/_political/country/CountryHeader.tsx:224
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr "متوسط التطور"
@@ -1930,7 +1946,7 @@ msgstr "طفرة الاعبين الجدد"
 msgid "Badge won"
 msgstr "شارة مُكتسبة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1943
+#: src/components/_user/notification/notification.frontConfig.tsx:1956
 msgid "Badge Won"
 msgstr "شارة مُكتسبة"
 
@@ -1951,23 +1967,23 @@ msgstr "متوازن - لا توجد معدلات"
 msgid "Ball"
 msgstr "كرة"
 
-#: src/components/_political/event/EventList.tsx:73
+#: src/components/_political/event/EventList.tsx:116
 msgid "Bankruptcy"
 msgstr "إفلاس"
 
-#: src/components/_user/user/UserHeader.tsx:410
+#: src/components/_user/user/UserHeader.tsx:428
 msgid "Banned"
 msgstr "محظور"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1959
+#: src/components/_user/notification/notification.frontConfig.tsx:1972
 msgid "Banner Accepted!"
 msgstr "تم قبول الشعار!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1956
+#: src/components/_user/notification/notification.frontConfig.tsx:1969
 msgid "Banner gift received"
 msgstr "تم استلام هدية الشعار"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1954
+#: src/components/_user/notification/notification.frontConfig.tsx:1967
 msgid "Banner gift sent"
 msgstr "تم إرسال هدية الشعار"
 
@@ -1975,8 +1991,8 @@ msgstr "تم إرسال هدية الشعار"
 msgid "Banners"
 msgstr "شعارات"
 
-#: src/components/_user/user/UserHeader.tsx:185
-#: src/components/_user/user/UserHeader.tsx:233
+#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:242
 msgid "Bans"
 msgstr "عمليات الحظر"
 
@@ -1984,29 +2000,28 @@ msgstr "عمليات الحظر"
 msgid "Base cost"
 msgstr "التكلفة الاساسية"
 
-#: src/utils/translations.tsx:203
+#: src/utils/translations.tsx:204
 msgid "Basic Boots"
 msgstr "أحذية أساسية"
 
-#: src/utils/translations.tsx:194
+#: src/utils/translations.tsx:195
 msgid "Basic Chest"
 msgstr "درع صدر أساسي"
 
-#: src/utils/translations.tsx:212
+#: src/utils/translations.tsx:213
 msgid "Basic Gloves"
 msgstr "قفازات أساسية"
 
-#: src/utils/translations.tsx:185
+#: src/utils/translations.tsx:186
 msgid "Basic Helmet"
 msgstr "خوذة أساسية"
 
-#: src/utils/translations.tsx:221
+#: src/utils/translations.tsx:222
 msgid "Basic Pants"
 msgstr "سراويل أساسية"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:86
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:187
-#: src/components/_military/war/WarHeader.tsx:57
 msgid "Battle"
 msgstr "معركة"
 
@@ -2018,8 +2033,8 @@ msgstr "معركة تلو الأخرى"
 msgid "Battle damage bonus"
 msgstr "الاضرار الاضافية للمعركة"
 
-#: src/components/_political/event/EventList.tsx:65
-#: src/components/_user/notification/notification.frontConfig.tsx:2040
+#: src/components/_political/event/EventList.tsx:108
+#: src/components/_user/notification/notification.frontConfig.tsx:2053
 msgid "Battle ended"
 msgstr "انتهت المعركة"
 
@@ -2039,7 +2054,7 @@ msgstr "غنائم المعركة"
 msgid "Battle loot pool"
 msgstr "مجموعة غنائم المعركة"
 
-#: src/components/_political/event/EventList.tsx:64
+#: src/components/_political/event/EventList.tsx:107
 msgid "Battle opened"
 msgstr "بدأت المعركة"
 
@@ -2072,7 +2087,9 @@ msgstr "تكلفة أوامر المعركة للدفاع عن مناطقك ال
 
 #: src/components/_layout/LayoutMenu.tsx:131
 #: src/components/_military/battle/BattlesHeader.tsx:22
+#: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
+#: src/components/_political/region/RegionHeader.tsx:69
 #: src/pages/region/[regionId]/index.tsx:132
 #: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
@@ -2112,6 +2129,10 @@ msgstr "أفضل من لا شيء، أليس كذلك؟"
 msgid "Bid"
 msgstr "مزايدة"
 
+#: src/components/_political/region/RegionHeader.tsx:132
+msgid "Biome"
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:8
 msgid "Birthday Hat for 1st year of Beta"
 msgstr "قبعة عيد الميلاد للذكرى السنوية الأولى للنسخة التجريبية (البيتا)"
@@ -2142,7 +2163,7 @@ msgid "Boost your production!"
 msgstr "عزز إنتاجك!"
 
 #: src/components/_user/UserEquipments.tsx:219
-#: src/utils/translations.tsx:202
+#: src/utils/translations.tsx:203
 msgid "Boots"
 msgstr "أحذية"
 
@@ -2188,15 +2209,20 @@ msgstr "تصفح الحزم"
 msgid "Budget"
 msgstr "الميزانية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2120
+#: src/components/_user/notification/notification.frontConfig.tsx:2136
 msgid "Buff ended"
 msgstr "انتهى تأثير التعزيز"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2118
+#: src/components/_user/user/UserHeader.tsx:311
+#: src/components/_user/user/UserTooltip.tsx:140
+msgid "Buff ends"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:2134
 msgid "Buff expiring soon"
 msgstr "سوف ينتهي التعزيز قريبا"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2116
+#: src/components/_user/notification/notification.frontConfig.tsx:2132
 msgid "Buff started"
 msgstr "بدأ تأثير التعزيز"
 
@@ -2297,11 +2323,12 @@ msgid "Cancel Mercenary Contract"
 msgstr "إلغاء عقد المرتزقة"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:264
+#: src/pages/events/index.tsx:156
+#: src/utils/translations.tsx:267
 msgid "Cancelled"
 msgstr "ملغى"
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:268
 msgid "Cancelled by admin"
 msgstr "أُلغي بواسطة المسؤول"
 
@@ -2332,6 +2359,14 @@ msgstr "لا يمكن أن يكون لديه أعداء لدودين."
 #: src/components/_political/party/party.frontConfig.tsx:349
 msgid "Cannot pick a specialization good / no benefit from specialization."
 msgstr "لا يمكن اختيار سلعة تخصص / لا فائدة من التخصص."
+
+#: src/components/_political/region/RegionTooltip.tsx:68
+msgid "Capital"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:124
+msgid "Capital of"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:91
 msgid "Captain"
@@ -2451,7 +2486,7 @@ msgid "Check your loot!"
 msgstr "تحقق من غنيمتك!"
 
 #: src/components/_user/UserEquipments.tsx:185
-#: src/utils/translations.tsx:193
+#: src/utils/translations.tsx:194
 msgid "Chest"
 msgstr "درع صدر"
 
@@ -2475,11 +2510,12 @@ msgstr "اختر جانبك واضغط لإلحاق <0>الأضرار</0>! اس�
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "اختيار عنصر محدد يكلف ضعف الكمية من الفولاذ:"
 
-#: src/components/_user/user/UserHeader.tsx:282
-msgid "Citizen since <0><1/></0>"
-msgstr "مواطن منذ <0><1/></0>"
+#: src/components/_user/user/UserHeader.tsx:292
+msgid "Citizen since"
+msgstr ""
 
-#: src/components/_political/country/CountryHeader.tsx:127
+#: src/components/_political/country/CountryHeader.tsx:144
+#: src/components/_political/country/CountryHeader.tsx:290
 msgid "Citizens"
 msgstr "مواطنون"
 
@@ -2487,7 +2523,7 @@ msgstr "مواطنون"
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "يحصل المواطنون على مكافأة عند القتال من أجل الحلفاء، أو ضد العدو اللدود"
 
-#: src/components/_political/country/CountryHeader.tsx:114
+#: src/components/_political/country/CountryHeader.tsx:131
 msgid "Citizenship"
 msgstr "الجنسية"
 
@@ -2583,8 +2619,12 @@ msgstr "وضع عمى الالوان"
 msgid "Commander"
 msgstr "قائد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1962
+#: src/components/_military/mu/MuHeader.tsx:98
+msgid "Commanders"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1975
+#: src/components/_user/notification/notification.frontConfig.tsx:1988
 msgid "Commission earned"
 msgstr "تم كسب عمولة"
 
@@ -2598,7 +2638,7 @@ msgstr "مجتمع"
 
 #: src/components/_layout/LayoutMenu.tsx:173
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:215
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2650,7 +2690,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "أكمل المهمات يومياً لكسب نقاط الخبرة ورفع المستوى بشكل أسرع, اضغط للمطالبة!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:270
 msgid "Completed"
 msgstr "مكتمل"
 
@@ -2690,7 +2730,7 @@ msgstr "تهانينا! تم انتخابك لمجلس <0/>"
 msgid "Congratulations! You have been promoted to <0/> with an attack bonus of <1>{0}</1>"
 msgstr "تهانينا! تمت ترقيتك إلى <0/> مع مكافأة هجوم قدرها <1>{0}</1>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1434
+#: src/components/_user/notification/notification.frontConfig.tsx:1447
 msgid "Congratulations! You won the giveaway and received cases!"
 msgstr "تهانينا! لقد فزت بالسحب وحصلت على صناديق!"
 
@@ -2773,19 +2813,19 @@ msgstr "استهلاكه يزيد من <0>هجومك</0> لمدة {0} ساعة.<
 msgid "Contextual borders"
 msgstr "حدود سياقية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2107
+#: src/components/_user/notification/notification.frontConfig.tsx:2123
 msgid "Contract cancelled"
 msgstr "تم إلغاء العقد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2104
+#: src/components/_user/notification/notification.frontConfig.tsx:2120
 msgid "Contract completed"
 msgstr "اكتمل العقد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2110
+#: src/components/_user/notification/notification.frontConfig.tsx:2126
 msgid "Contract expired"
 msgstr "انتهت صلاحية العقد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2113
+#: src/components/_user/notification/notification.frontConfig.tsx:2129
 msgid "Contract rolled back"
 msgstr "تم استرجاع العقد"
 
@@ -2793,7 +2833,8 @@ msgstr "تم استرجاع العقد"
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:108
-#: src/components/_political/country/CountryHeader.tsx:135
+#: src/components/_military/mu/MuHeader.tsx:183
+#: src/components/_political/country/CountryHeader.tsx:152
 msgid "Contracts"
 msgstr "العقود"
 
@@ -2827,10 +2868,16 @@ msgstr "نسخ"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "انسخ هذا الرمز الآن. لن تتمكن من رؤيته مرة أخرى! استخدمه في ترويسة <0>X-API-Key</0>."
 
-#: src/components/_political/alliance/AllianceHeader.tsx:91
+#: src/components/_political/alliance/AllianceHeader.tsx:78
+#: src/components/_political/country/CountryHeader.tsx:183
+#: src/components/_political/country/CountryHeader.tsx:188
 #: src/components/_political/government/Government.tsx:206
 msgid "Core development"
 msgstr "التطور الأساسي"
+
+#: src/components/_political/region/RegionHeader.tsx:124
+msgid "Core region of"
+msgstr ""
 
 #: src/pages/country/[countryId]/regions.tsx:28
 msgid "Core regions"
@@ -2857,14 +2904,18 @@ msgid "countries"
 msgstr "دول"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:97
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:31
 msgid "Countries"
 msgstr "الدول"
 
 #: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:133
 #: src/components/_military/battle/BattleCountrySide.tsx:73
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:133
-#: src/components/_political/country/CountryHeader.tsx:56
+#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentItem.tsx:54
+#: src/components/_political/country/CountryHeader.tsx:73
+#: src/components/_political/map/MapMenu.tsx:317
+#: src/components/_political/party/PartyHeader.tsx:84
 msgid "Country"
 msgstr "الدولة"
 
@@ -2872,15 +2923,15 @@ msgstr "الدولة"
 msgid "Country development income bonus"
 msgstr "مكافأة دخل تطوير الدولة"
 
-#: src/components/_political/event/EventList.tsx:86
+#: src/components/_political/event/EventList.tsx:129
 msgid "Country excluded from alliance"
 msgstr "تم استبعاد الدولة من التحالف"
 
-#: src/components/_political/event/EventList.tsx:78
+#: src/components/_political/event/EventList.tsx:121
 msgid "Country joined alliance"
 msgstr "انضمت الدولة إلى التحالف"
 
-#: src/components/_political/event/EventList.tsx:82
+#: src/components/_political/event/EventList.tsx:125
 msgid "Country left alliance"
 msgstr "غادرت الدولة التحالف"
 
@@ -2893,7 +2944,7 @@ msgid "Country Orders"
 msgstr "أوامر الدولة"
 
 #. placeholder {0}: data.partialPayout
-#: src/components/_user/notification/notification.frontConfig.tsx:1602
+#: src/components/_user/notification/notification.frontConfig.tsx:1615
 msgid "Country paid <0>{0}</0> for damages done."
 msgstr "دفعت الدولة <0>{0}</0> مقابل الأضرار الملحقة"
 
@@ -2908,6 +2959,10 @@ msgstr "مكافأة إنتاج الدولة"
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:141
 msgid "Country to invite"
 msgstr "الدولة المراد دعوتها"
+
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:46
+msgid "Country Tournament"
+msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:187
 msgid "Country Tournament Winner"
@@ -3014,7 +3069,9 @@ msgstr "نشاب"
 msgid "Current alliance battle damage bonus → <0/>"
 msgstr "مكافأة ضرر للمعارك الحالية للتحالف ← <0/>"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:97
+#: src/components/_political/alliance/AllianceHeader.tsx:88
+#: src/components/_political/country/CountryHeader.tsx:248
+#: src/components/_political/country/CountryHeader.tsx:253
 msgid "Current development"
 msgstr "التطور الحالي"
 
@@ -3051,7 +3108,7 @@ msgstr "يومي"
 msgid "Daily maintenance"
 msgstr "الصيانة اليومية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2135
+#: src/components/_user/notification/notification.frontConfig.tsx:2151
 msgid "Daily Missions Reset"
 msgstr "إعادة تعيين المهام اليومية"
 
@@ -3162,9 +3219,14 @@ msgstr "يسبب أضراراً أكثر"
 msgid "Deals some damages"
 msgstr "يسبب بعض الأضرار"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2121
+#: src/components/_user/notification/notification.frontConfig.tsx:2137
 msgid "Debuff ended"
 msgstr "انتهى تأثير الضعف"
+
+#: src/components/_user/user/UserHeader.tsx:319
+#: src/components/_user/user/UserTooltip.tsx:149
+msgid "Debuff ends"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:230
 msgid "Debuffs:"
@@ -3214,7 +3276,7 @@ msgstr "المدافعون"
 msgid "Defensive pact"
 msgstr "ميثاق دفاع مشترك"
 
-#: src/components/_political/event/EventList.tsx:94
+#: src/components/_political/event/EventList.tsx:137
 msgid "Defensive pact broken"
 msgstr "تم إنهاء ميثاق الدفاع المشترك"
 
@@ -3225,7 +3287,7 @@ msgstr "تم إنهاء ميثاق الدفاع المشترك"
 msgid "Defensive pact maintenance costs are reduced by <0>{0}</0>."
 msgstr "تُخفَّض تكاليف صيانة ميثاق الدفاع المشترك بنسبة <0>{0}</0>."
 
-#: src/components/_political/event/EventList.tsx:90
+#: src/components/_political/event/EventList.tsx:133
 msgid "Defensive pact signed"
 msgstr "تم توقيع ميثاق الدفاع المشترك"
 
@@ -3233,6 +3295,10 @@ msgstr "تم توقيع ميثاق الدفاع المشترك"
 #: src/components/_military/battle/SetOrderFormModal.tsx:533
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "ميثاق الدفاع المشترك: أوامر دعم شريك الميثاق تكون تكلفتها أقل بنسبة {orderDiscountPercent}% <0>{0}</0>"
+
+#: src/components/_political/country/CountryTooltip.tsx:127
+msgid "Defensive pacts"
+msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:228
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
@@ -3259,7 +3325,7 @@ msgstr "حذف الحساب"
 msgid "Delete contract"
 msgstr "حذف العقد"
 
-#: src/pages/index.tsx:88
+#: src/pages/index.tsx:89
 #: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "حذف حسابك"
@@ -3272,7 +3338,7 @@ msgstr "تنزيل رتبة القائد"
 msgid "Demote from Commander"
 msgstr "تنزيل من القائد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2092
+#: src/components/_user/notification/notification.frontConfig.tsx:2108
 msgid "Demoted from Commander"
 msgstr "تم تخفيض الرتبة من قائد"
 
@@ -3280,11 +3346,11 @@ msgstr "تم تخفيض الرتبة من قائد"
 msgid "Deposit"
 msgstr "المخزون"
 
-#: src/components/_political/event/EventList.tsx:71
+#: src/components/_political/event/EventList.tsx:114
 msgid "Deposit depleted"
 msgstr "نضب المخزون"
 
-#: src/components/_political/event/EventList.tsx:70
+#: src/components/_political/event/EventList.tsx:113
 msgid "Deposit discovered"
 msgstr "تم اكتشاف مخزون"
 
@@ -3333,6 +3399,8 @@ msgid "Destruct"
 msgstr "تدمير"
 
 #: src/components/_layout/map.frontConfig.tsx:38
+#: src/components/_political/region/RegionHeader.tsx:81
+#: src/components/_political/region/RegionTooltip.tsx:79
 msgid "Development"
 msgstr "تطوير"
 
@@ -3366,9 +3434,9 @@ msgstr "تعطيل الشركة"
 msgid "Disabled"
 msgstr "معطل"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:74
-msgid "Disbanded <0/>"
-msgstr "تم حلّه <0/>"
+#: src/components/_political/alliance/AllianceHeader.tsx:93
+msgid "Disbanded"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:187
 #: src/pages/user/[userId]/inventory.tsx:52
@@ -3442,7 +3510,9 @@ msgstr "تبرع"
 msgid "Donation Summary"
 msgstr "ملخص التبرعات"
 
-#: src/components/_political/country/CountryHeader.tsx:89
+#: src/components/_military/mu/MuHeader.tsx:175
+#: src/components/_political/country/CountryHeader.tsx:106
+#: src/components/_political/party/PartyHeader.tsx:123
 #: src/pages/country/[countryId]/donations.tsx:17
 #: src/pages/mu/[muId]/donations.tsx:17
 #: src/pages/party/[partyId]/donations.tsx:17
@@ -3542,26 +3612,31 @@ msgstr "تعديل أمر آخر"
 msgid "Effective:"
 msgstr "الفعلي:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1999
+#: src/components/_user/notification/notification.frontConfig.tsx:2012
 msgid "Election candidacy open"
 msgstr "فتح باب الترشح للانتخابات"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2004
+#: src/components/_user/notification/notification.frontConfig.tsx:2017
 msgid "Election ended"
 msgstr "انتهت الانتخابات"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2002
+#: src/components/_user/notification/notification.frontConfig.tsx:2015
 msgid "Election vote open"
 msgstr "فتح باب التصويت في الانتخابات"
 
-#: src/components/_political/country/CountryHeader.tsx:108
+#: src/components/_political/country/CountryHeader.tsx:125
 #: src/pages/country/[countryId]/elections.tsx:28
 #: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/events/index.tsx:398
 #: src/pages/party/[partyId]/index.tsx:101
 msgid "Elections"
 msgstr "الانتخابات"
 
-#: src/utils/translations.tsx:206
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:43
+msgid "Eliminated"
+msgstr ""
+
+#: src/utils/translations.tsx:207
 msgid "Elite Boots"
 msgstr "أحذية النخبة"
 
@@ -3569,7 +3644,7 @@ msgstr "أحذية النخبة"
 msgid "Elite Case"
 msgstr "صندوق النخبة"
 
-#: src/utils/translations.tsx:197
+#: src/utils/translations.tsx:198
 msgid "Elite Chest"
 msgstr "درع النخبة"
 
@@ -3577,15 +3652,15 @@ msgstr "درع النخبة"
 msgid "Elite counter-terrorism unit"
 msgstr "وحدة مكافحة الإرهاب النخبوية"
 
-#: src/utils/translations.tsx:215
+#: src/utils/translations.tsx:216
 msgid "Elite Gloves"
 msgstr "قفازات النخبة"
 
-#: src/utils/translations.tsx:188
+#: src/utils/translations.tsx:189
 msgid "Elite Helmet"
 msgstr "خوذة النخبة"
 
-#: src/utils/translations.tsx:224
+#: src/utils/translations.tsx:225
 msgid "Elite Pants"
 msgstr "بنطال النخبة"
 
@@ -3624,10 +3699,11 @@ msgid "End the defensive pact with <0/>."
 msgstr "إنهاء ميثاق الدفاع المشترك مع <0/>"
 
 #: src/components/_military/battle/BattleSystem.tsx:743
+#: src/components/_military/tournament/TournamentHeader.tsx:84
+#: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
 msgstr "انتهى"
 
-#: src/components/_military/war/WarHeader.tsx:68
 #: src/components/_military/war/WarItem.tsx:102
 msgid "Ended <0/>"
 msgstr "انتهى <0/>"
@@ -3691,6 +3767,10 @@ msgstr "الفائدة المقدرة لكل"
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "الحد الأدنى للوقت المقدر لهذا الطرف للفوز بالجولة الحالية في حال الفوز بجميع النقاط"
 
+#: src/components/_economy/company/CompanyHeader.tsx:41
+msgid "Estimated value"
+msgstr ""
+
 #: src/pages/party/[partyId]/index.tsx:57
 msgid "Ethics"
 msgstr "الأخلاقيات"
@@ -3713,10 +3793,6 @@ msgstr "نقاط الأخلاقيات:"
 msgid "Events"
 msgstr "الأحداث"
 
-#: src/pages/tournament/[tournamentId]/index.tsx:53
-msgid "Everyone participates automatically"
-msgstr "يشارك الجميع تلقائياً"
-
 #: src/components/_political/party/party.frontConfig.tsx:91
 #: src/components/_political/party/party.frontConfig.tsx:130
 msgid "Expansionist"
@@ -3728,7 +3804,7 @@ msgstr "الغنيمة المتوقعة"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:271
 msgid "Expired"
 msgstr "منتهي"
 
@@ -3995,7 +4071,7 @@ msgstr "إقالة عضو حكومة"
 msgid "Fire worker?"
 msgstr "طرد العامل؟"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2011
+#: src/components/_user/notification/notification.frontConfig.tsx:2024
 msgid "Fired from government"
 msgstr "أُقيل من الحكومة"
 
@@ -4141,7 +4217,7 @@ msgstr "أعطِ الرمز الخاص بك اسماً وصفياً لتتمكن
 msgid "Giveaway Winner"
 msgstr "فائز بالمسابقة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2133
+#: src/components/_user/notification/notification.frontConfig.tsx:2149
 msgid "Giveaway Won!"
 msgstr "فزت في السحب!"
 
@@ -4155,7 +4231,7 @@ msgid "Globe (experimental)"
 msgstr "الكرة الأرضية (تجريبي)"
 
 #: src/components/_user/UserEquipments.tsx:236
-#: src/utils/translations.tsx:211
+#: src/utils/translations.tsx:212
 msgid "Gloves"
 msgstr "قفازات"
 
@@ -4175,7 +4251,7 @@ msgstr "الذهاب إلى المهارات"
 msgid "Gold"
 msgstr "ذهب"
 
-#: src/components/_political/country/CountryHeader.tsx:95
+#: src/components/_political/country/CountryHeader.tsx:112
 #: src/pages/country/[countryId]/index.tsx:176
 msgid "Government"
 msgstr "الحكومة"
@@ -4366,7 +4442,7 @@ msgid "Heavy Ammo"
 msgstr "ذخيرة ثقيلة"
 
 #: src/components/_user/UserEquipments.tsx:170
-#: src/utils/translations.tsx:184
+#: src/utils/translations.tsx:185
 msgid "Helmet"
 msgstr "خوذة"
 
@@ -4407,9 +4483,16 @@ msgstr "اضرب <0>{count}</0> مرات في المعارك"
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "القتال لصالح بلدك أثناء وجودك في الحكومة يمنح {0}% من كفاءة المكافأة."
 
+#: src/components/_economy/company/CompanyHeader.tsx:69
+#: src/components/_military/mu/MuHeader.tsx:151
+#: src/components/_military/tournament/TournamentHeader.tsx:116
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:96
 #: src/components/_other/shop/ShopHeader.tsx:17
-#: src/components/_political/country/CountryHeader.tsx:64
-#: src/components/_user/user/UserHeader.tsx:153
+#: src/components/_political/alliance/AllianceHeader.tsx:109
+#: src/components/_political/country/CountryHeader.tsx:81
+#: src/components/_political/party/PartyHeader.tsx:99
+#: src/components/_political/region/RegionHeader.tsx:57
+#: src/components/_user/user/UserHeader.tsx:162
 msgid "Home"
 msgstr "الرئيسية"
 
@@ -4548,6 +4631,10 @@ msgstr "الصناعية ضد الزراعية"
 msgid "Industrialist"
 msgstr "صناعي"
 
+#: src/components/_political/map/MapMenu.tsx:324
+msgid "Initial country"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
 msgstr "مبتدئ"
@@ -4558,7 +4645,7 @@ msgstr "ستؤدي الانتهاكات المتعمدة أو المتكررة �
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:159
+#: src/components/_user/user/UserHeader.tsx:168
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -4615,7 +4702,7 @@ msgstr "الأمور تتحسن فقط... ربما"
 msgid "It will not gain any production and its workers will not be able to work."
 msgstr "لن يكتسب أي إنتاج ولن يتمكن عماله من العمل."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1984
+#: src/components/_user/notification/notification.frontConfig.tsx:1997
 msgid "Item bought"
 msgstr "تم شراء العنصر"
 
@@ -4650,6 +4737,7 @@ msgid "Job offers"
 msgstr "عروض العمل"
 
 #: src/components/_economy/market/MarketHeader.tsx:26
+#: src/components/_political/region/RegionHeader.tsx:63
 msgid "Jobs"
 msgstr "وظائف"
 
@@ -4661,6 +4749,10 @@ msgstr "الانضمام إلى <0/>"
 msgid "Join a Military Unit"
 msgstr "انضم إلى وحدة عسكرية"
 
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:152
+msgid "Join a military unit to take part"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:378
 #: src/components/_political/law/lawNames.tsx:27
 msgid "Join alliance"
@@ -4670,7 +4762,7 @@ msgstr "الانضمام إلى التحالف"
 msgid "Join MU"
 msgstr "انضم للوحدة العسكرية (MU)"
 
-#: src/pages/index.tsx:149
+#: src/pages/index.tsx:152
 msgid "Join the world"
 msgstr "الانضمام إلى العالم"
 
@@ -4760,6 +4852,10 @@ msgstr "اللغة"
 msgid "Last"
 msgstr "الأخير"
 
+#: src/components/_user/user/UserHeader.tsx:327
+msgid "Last connection"
+msgstr ""
+
 #: src/components/_user/badgeCollection/Badge.tsx:63
 msgid "Last earned: <0/>"
 msgstr "آخر حصول: <0/>"
@@ -4804,11 +4900,12 @@ msgid "Law failed"
 msgstr "فشل القانون"
 
 #: src/components/_political/law/LawFormModal.tsx:76
-#: src/components/_user/notification/notification.frontConfig.tsx:1997
+#: src/components/_user/notification/notification.frontConfig.tsx:2010
 msgid "Law proposed"
 msgstr "تم اقتراح القانون"
 
-#: src/components/_political/country/CountryHeader.tsx:70
+#: src/components/_political/alliance/AllianceHeader.tsx:115
+#: src/components/_political/country/CountryHeader.tsx:87
 #: src/pages/alliance/[allianceId]/index.tsx:95
 #: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
@@ -4818,6 +4915,10 @@ msgstr "القوانين"
 #: src/utils/translations.tsx:38
 msgid "Lead"
 msgstr "رصاص"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:100
+msgid "Leader"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:248
 msgid "Leather Sling"
@@ -4858,31 +4959,27 @@ msgstr "مغادرة الحكومة"
 msgid "Leave the alliance your country belongs to"
 msgstr "مغادرة التحالف الذي تنتمي إليه دولتك"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:81
-msgid "Led by <0/>."
-msgstr "يقوده <0/>"
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
 msgstr "تم رصد أسطورة!"
 
-#: src/utils/translations.tsx:207
+#: src/utils/translations.tsx:208
 msgid "Legendary Boots"
 msgstr "حذاء أسطوري"
 
-#: src/utils/translations.tsx:198
+#: src/utils/translations.tsx:199
 msgid "Legendary Chest"
 msgstr "درع صدر أسطوري"
 
-#: src/utils/translations.tsx:216
+#: src/utils/translations.tsx:217
 msgid "Legendary Gloves"
 msgstr "قفازات أسطورية"
 
-#: src/utils/translations.tsx:189
+#: src/utils/translations.tsx:190
 msgid "Legendary Helmet"
 msgstr "خوذة أسطورية"
 
-#: src/utils/translations.tsx:225
+#: src/utils/translations.tsx:226
 msgid "Legendary Pants"
 msgstr "سروال أسطوري"
 
@@ -4900,7 +4997,7 @@ msgstr "المستوى منخفض جدًا"
 msgid "Level up your skills!"
 msgstr "ارفع مستوى مهاراتك!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1944
+#: src/components/_user/notification/notification.frontConfig.tsx:1957
 msgid "Level up!"
 msgstr "ارتفع المستوى!"
 
@@ -5025,7 +5122,7 @@ msgstr "جمع صناديق الغنائم"
 msgid "Loot chance"
 msgstr "فرصة الغنيمة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2060
+#: src/components/_user/notification/notification.frontConfig.tsx:2073
 msgid "Loot reward"
 msgstr "مكافأة الغنيمة"
 
@@ -5048,6 +5145,10 @@ msgstr "فريق"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:59
 msgid "Luck is finally on payroll"
 msgstr "الحظ أخيراً يعمل لصالحك"
+
+#: src/components/_military/mu/MuTooltip.tsx:63
+msgid "Lvl"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:191
 msgid "Mage Robe"
@@ -5112,6 +5213,10 @@ msgstr "مشير"
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "تم الوصول إلى المستوى الأقصى!"
+
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:80
+msgid "Max rarity"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:222
 #: src/components/_economy/company/CompanyDropdown.tsx:240
@@ -5209,15 +5314,16 @@ msgstr "تم تنزيل رتبة العضو من قائد"
 msgid "Member kicked successfully"
 msgstr "تم طرد العضو بنجاح"
 
-#: src/components/_political/country/CountryHeader.tsx:255
-msgid "Member of <0/>"
-msgstr "عضو في <0/>"
-
 #: src/components/_military/mu/MuMemberList.tsx:112
 msgid "Member promoted to commander"
 msgstr "تمت ترقية العضو إلى قائد"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:88
+#: src/components/_military/mu/MuHeader.tsx:92
+#: src/components/_military/mu/MuTooltip.tsx:76
+#: src/components/_military/tournament/TournamentTeamTooltip.tsx:100
+#: src/components/_political/alliance/AllianceHeader.tsx:72
+#: src/components/_political/party/PartyHeader.tsx:78
+#: src/components/_political/party/PartyHeader.tsx:105
 #: src/pages/party/[partyId]/index.tsx:76
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
@@ -5227,7 +5333,7 @@ msgstr "الأعضاء"
 msgid "Membership suspended"
 msgstr "عضوية معلقة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2128
+#: src/components/_user/notification/notification.frontConfig.tsx:2144
 msgid "Mentioned in message"
 msgstr "تمت الإشارة إليك في رسالة"
 
@@ -5250,6 +5356,10 @@ msgstr "عقود المرتزقة معطلة حالياً."
 msgid "Mercenary earnings"
 msgstr "ارباح المرتزقة"
 
+#: src/components/_military/mu/MuHeader.tsx:117
+msgid "Mercenary reputation"
+msgstr ""
+
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:15
 msgid "Mercenary Reputation"
 msgstr "شهرة المرتزقة"
@@ -5258,7 +5368,7 @@ msgstr "شهرة المرتزقة"
 msgid "Message (Optional)"
 msgstr "الرسالة (اختياري)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2126
+#: src/components/_user/notification/notification.frontConfig.tsx:2142
 msgid "Message liked"
 msgstr "تم الإعجاب بالرسالة"
 
@@ -5285,7 +5395,7 @@ msgstr "القوانين العسكرية"
 msgid "Military Rank"
 msgstr "الرتبة العسكرية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2039
+#: src/components/_user/notification/notification.frontConfig.tsx:2052
 msgid "Military Rank Up!"
 msgstr "ترقية عسكرية!"
 
@@ -5298,6 +5408,7 @@ msgid "Military Ranks"
 msgstr "الرتب العسكرية"
 
 #: src/components/_layout/MoreButtonNav.tsx:152
+#: src/components/_military/mu/MuHeader.tsx:88
 #: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Military Unit"
 msgstr "الوحدة العسكرية"
@@ -5311,6 +5422,7 @@ msgid "Military unit created"
 msgstr "تم إنشاء الوحدة العسكرية"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:105
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:33
 msgid "Military units"
 msgstr "الوحدات العسكرية"
 
@@ -5367,7 +5479,7 @@ msgstr "الأموال المكتسبة من عقود المرتزقة."
 msgid "Money ranking"
 msgstr "ترتيب الأموال"
 
-#: src/components/_political/event/EventList.tsx:69
+#: src/components/_political/event/EventList.tsx:112
 msgid "Money transfer"
 msgstr "تحويل الأموال"
 
@@ -5409,6 +5521,7 @@ msgstr "فشل الاقتراح"
 msgid "Motion proposed"
 msgstr "تم تقديم الاقتراح"
 
+#: src/components/_political/party/PartyHeader.tsx:111
 #: src/pages/party/[partyId]/index.tsx:94
 #: src/pages/party/[partyId]/motions.tsx:19
 msgid "Motions"
@@ -5435,28 +5548,29 @@ msgstr "انقل الشركة"
 msgid "Move to top"
 msgstr "نقل إلى الأعلى"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1980
+#: src/components/_user/notification/notification.frontConfig.tsx:1993
 msgid "Moved to a new company"
 msgstr "انتقل إلى شركة جديدة"
 
 #: src/components/_layout/LayoutMenu.tsx:118
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:135
+#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
 msgstr "و.ع"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2079
+#: src/components/_user/notification/notification.frontConfig.tsx:2095
 msgid "MU Application Accepted"
 msgstr "تم قبول طلب الوحدة العسكرية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2076
+#: src/components/_user/notification/notification.frontConfig.tsx:2092
 msgid "MU Application Rejected"
 msgstr "تم رفض طلب الوحدة العسكرية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2098
+#: src/components/_user/notification/notification.frontConfig.tsx:2114
 msgid "MU Donation Received"
 msgstr "تم تلقي تبرع للوحدة العسكرية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2084
+#: src/components/_user/notification/notification.frontConfig.tsx:2100
 msgid "MU Level Up!"
 msgstr "ارتفع مستوى الوحدة العسكرية!"
 
@@ -5468,7 +5582,7 @@ msgstr "المستويات الشهرية للوحدة العسكرية"
 msgid "MU Orders"
 msgstr "أوامر الوحدة العسكرية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2095
+#: src/components/_user/notification/notification.frontConfig.tsx:2111
 msgid "MU Ownership Transferred"
 msgstr "تم نقل ملكية الوحدة العسكرية"
 
@@ -5476,6 +5590,10 @@ msgstr "تم نقل ملكية الوحدة العسكرية"
 #: src/components/_political/message/systemMessage.frontConfig.tsx:115
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "وصلت الوحدة العسكرية إلى المستوى {0}! المكافأة: {rewardDisplay}"
+
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:44
+msgid "MU Tournament"
+msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:193
 msgid "MU Tournament Winner"
@@ -5497,23 +5615,23 @@ msgstr "شركاتي"
 msgid "Mysterious Plant"
 msgstr "نبتة غامضة"
 
-#: src/utils/translations.tsx:208
+#: src/utils/translations.tsx:209
 msgid "Mythic Boots"
 msgstr "أحذية خرافية"
 
-#: src/utils/translations.tsx:199
+#: src/utils/translations.tsx:200
 msgid "Mythic Chest"
 msgstr "درع صدر خرافي"
 
-#: src/utils/translations.tsx:217
+#: src/utils/translations.tsx:218
 msgid "Mythic Gloves"
 msgstr "قفازات خرافية"
 
-#: src/utils/translations.tsx:190
+#: src/utils/translations.tsx:191
 msgid "Mythic Helmet"
 msgstr "خوذة خرافية"
 
-#: src/utils/translations.tsx:226
+#: src/utils/translations.tsx:227
 msgid "Mythic Pants"
 msgstr "سراويل خرافية"
 
@@ -5537,6 +5655,10 @@ msgstr "تمنح أوامر المعركة الوطنية <0>ضعف</0> مكاف
 #: src/components/_military/battle/BattleSystem.tsx:798
 msgid "National bounty"
 msgstr "مكافأة خاصة للدولة"
+
+#: src/components/_military/mu/MuHeader.tsx:105
+msgid "Nationality"
+msgstr ""
 
 #: src/components/_military/mu/MuSettings.tsx:30
 msgid "Nationality updated"
@@ -5580,15 +5702,15 @@ msgstr "اسم التحالف الجديد"
 msgid "New API Token Created"
 msgstr "تم إنشاء رمز API جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1991
+#: src/components/_user/notification/notification.frontConfig.tsx:2004
 msgid "New article"
 msgstr "مقال جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1993
+#: src/components/_user/notification/notification.frontConfig.tsx:2006
 msgid "New comment"
 msgstr "تعليق جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2101
+#: src/components/_user/notification/notification.frontConfig.tsx:2117
 msgid "New contract accepted"
 msgstr "تم قبول عقد جديد"
 
@@ -5618,7 +5740,7 @@ msgstr "موقع جديد"
 msgid "New Mercenary Auction"
 msgstr "مزاد مرتزقة جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2122
+#: src/components/_user/notification/notification.frontConfig.tsx:2138
 msgid "New message"
 msgstr "رسالة جديدة"
 
@@ -5626,7 +5748,7 @@ msgstr "رسالة جديدة"
 msgid "New military unit"
 msgstr "وحدة عسكرية جديدة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2082
+#: src/components/_user/notification/notification.frontConfig.tsx:2098
 msgid "New MU Application"
 msgstr "طلب انضمام جديد للوحدة العسكرية"
 
@@ -5642,28 +5764,28 @@ msgstr "الجنسية الجديدة"
 msgid "New order"
 msgstr "أمر جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2034
+#: src/components/_user/notification/notification.frontConfig.tsx:2047
 msgid "New Party Application"
 msgstr "طلب انضمام جديد للحزب"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2023
+#: src/components/_user/notification/notification.frontConfig.tsx:2036
 msgid "New Party Leader"
 msgstr "قائد حزب جديد"
 
-#: src/components/_political/event/EventList.tsx:66
-#: src/components/_user/notification/notification.frontConfig.tsx:2006
+#: src/components/_political/event/EventList.tsx:109
+#: src/components/_user/notification/notification.frontConfig.tsx:2019
 msgid "New president"
 msgstr "رئيس جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2037
+#: src/components/_user/notification/notification.frontConfig.tsx:2050
 msgid "New referred user"
 msgstr "مستخدم محال جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2038
+#: src/components/_user/notification/notification.frontConfig.tsx:2051
 msgid "New referrer"
 msgstr "مُحيل جديد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1996
+#: src/components/_user/notification/notification.frontConfig.tsx:2009
 msgid "New subscriber"
 msgstr "مشترك جديد"
 
@@ -5671,7 +5793,7 @@ msgstr "مشترك جديد"
 msgid "New supporters"
 msgstr "داعمون جدد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1977
+#: src/components/_user/notification/notification.frontConfig.tsx:1990
 msgid "New worker"
 msgstr "عامل جديد"
 
@@ -5780,6 +5902,10 @@ msgstr "لا يوجد أعضاء كونغرس"
 msgid "No contributions yet"
 msgstr "لا توجد مساهمات بعد"
 
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:123
+msgid "No country has registered yet. Be the first."
+msgstr ""
+
 #: src/components/_military/damageRanking/DamageRankingList.tsx:170
 msgid "No damages ranking yet."
 msgstr "لا يوجد تصنيف للأضرار بعد."
@@ -5803,6 +5929,10 @@ msgstr "لا معدات محفوظة للان - اضف  واحدة الان لت
 #: src/components/_political/law/LawList.tsx:66
 msgid "No laws yet"
 msgstr "لا توجد قوانين بعد"
+
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:93
+msgid "No limit"
+msgstr ""
 
 #: src/pages/alliance/[allianceId]/index.tsx:73
 msgid "No members"
@@ -5835,6 +5965,10 @@ msgstr "لا يوجد تصنيف للأموال بعد."
 #: src/components/_political/partyMotion/PartyMotionList.tsx:62
 msgid "No motions yet"
 msgstr "لا توجد اقتراحات بعد"
+
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:121
+msgid "No MU has registered yet. Be the first."
+msgstr ""
 
 #: src/components/_economy/itemOffer/ItemOfferList.tsx:76
 msgid "No offers found"
@@ -5915,7 +6049,7 @@ msgstr "ترشيح مواطن من دولة عضو ليكون قائد التح�
 msgid "Nominate leader"
 msgstr "ترشيح قائد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2008
+#: src/components/_user/notification/notification.frontConfig.tsx:2021
 msgid "Nominated at government"
 msgstr "تم ترشيحه في الحكومة"
 
@@ -5935,6 +6069,10 @@ msgstr "ليس سيئاً!"
 #: src/components/_political/alliance/AllianceMemberRow.tsx:47
 msgid "Not enough paper to pay the daily alliance maintenance. Alliance damage bonuses are disabled for this country until it pays."
 msgstr "لا يوجد ما يكفي من الورق لدفع تكاليف التحالف اليومية. يتم تعطيل مكافآت ضرر التحالف لهذه الدولة حتى تقوم بالدفع"
+
+#: src/pages/events/index.tsx:113
+msgid "Not enough participants"
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:36
 msgid "Not impressive, but not shameful"
@@ -5968,6 +6106,10 @@ msgstr "الآن نتحدث بجدية!"
 #: src/components/_economy/donation/DonationList.tsx:71
 msgid "Number of Donors:"
 msgstr "عدد المتبرعين:"
+
+#: src/components/_political/region/RegionHeader.tsx:117
+msgid "Occupied by"
+msgstr ""
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
@@ -6015,17 +6157,17 @@ msgstr "المعارك الجارية"
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
 msgstr "تظهر فقط التعزيزات ورواسب الطعام داخل حدودك (الكوكا، القمح، الماشية والأسماك)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:156
-msgid "Only MU owners/commanders can register their MU"
-msgstr "فقط مالكو/قادة الوحدات العسكرية يمكنهم تسجيل وحداتهم"
-
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:148
-msgid "Only presidents can register their country"
-msgstr "فقط الرؤساء يمكنهم تسجيل دولهم"
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:163
+msgid "Only MU owners and commanders can register the unit"
+msgstr ""
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:55
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "يمكن للداعمين فقط رؤية تفاصيل إنفاقهم ودخلهم."
+
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:165
+msgid "Only the government, or an owner/commander of an MU of this country, can register it"
+msgstr ""
 
 #: src/components/_military/mu/MuSettings.tsx:97
 msgid "Only the owner and commanders can change the nationality."
@@ -6117,6 +6259,10 @@ msgstr "تم إلغاء الأوامر"
 msgid "Orders of <0/>"
 msgstr "أوامر <0/>"
 
+#: src/components/_political/map/MapMenu.tsx:327
+msgid "Origin"
+msgstr ""
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
@@ -6148,7 +6294,11 @@ msgstr "مملوكة"
 msgid "Owned Military Units"
 msgstr "الوحدات العسكرية المملوكة"
 
+#: src/components/_economy/company/CompanyHeader.tsx:51
+#: src/components/_economy/company/CompanyTooltip.tsx:70
+#: src/components/_military/mu/MuHeader.tsx:140
 #: src/components/_military/mu/MuMemberList.tsx:321
+#: src/components/_military/mu/MuTooltip.tsx:84
 msgid "Owner"
 msgstr "المالك"
 
@@ -6183,13 +6333,17 @@ msgid "Packs"
 msgstr "حزم"
 
 #: src/components/_user/UserEquipments.tsx:202
-#: src/utils/translations.tsx:220
+#: src/utils/translations.tsx:221
 msgid "Pants"
 msgstr "سراويل"
 
 #: src/utils/translations.tsx:90
 msgid "Paper"
 msgstr "ورق"
+
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:77
+msgid "Participants"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:233
 msgid "Participate in <0>{count}</0> battles"
@@ -6205,16 +6359,17 @@ msgstr "أحزاب"
 
 #: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:142
+#: src/components/_political/party/PartyHeader.tsx:74
 #: src/components/_user/notification/notificationPrefs.categories.ts:158
 #: src/pages/user/[userId]/index.tsx:192
 msgid "Party"
 msgstr "الحزب"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2028
+#: src/components/_user/notification/notification.frontConfig.tsx:2041
 msgid "Party Application Accepted"
 msgstr "تم قبول طلب الانضمام للحزب"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2031
+#: src/components/_user/notification/notification.frontConfig.tsx:2044
 msgid "Party Application Rejected"
 msgstr "تم رفض طلب الانضمام للحزب"
 
@@ -6238,15 +6393,15 @@ msgstr "التصويت في انتخابات مجلس الحزب مفتوح ال
 msgid "Party created"
 msgstr "تم إنشاء الحزب"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2014
+#: src/components/_user/notification/notification.frontConfig.tsx:2027
 msgid "Party election candidacy open"
 msgstr "فتح باب الترشح لانتخابات الحزب"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2020
+#: src/components/_user/notification/notification.frontConfig.tsx:2033
 msgid "Party election ended"
 msgstr "انتهت انتخابات الحزب"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2017
+#: src/components/_user/notification/notification.frontConfig.tsx:2030
 msgid "Party election vote open"
 msgstr "فتح باب التصويت في انتخابات الحزب"
 
@@ -6294,11 +6449,11 @@ msgstr "تم الدفع بنجاح! شكراً لدعمك للعبة <3"
 msgid "Payout"
 msgstr "مبلغ الدفع"
 
-#: src/components/_political/event/EventList.tsx:63
+#: src/components/_political/event/EventList.tsx:106
 msgid "Peace made"
 msgstr "تم إحلال السلام"
 
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:273
 msgid "Pending"
 msgstr "قيد الانتظار"
 
@@ -6350,7 +6505,7 @@ msgstr "حبة دواء"
 msgid "Plant a tree in the data center"
 msgstr "ازرع شجرة في مركز البيانات"
 
-#: src/pages/index.tsx:141
+#: src/pages/index.tsx:144
 msgid "Play now"
 msgstr "العَب الآن"
 
@@ -6419,23 +6574,23 @@ msgstr "بريميوم"
 msgid "Premium & Gifts"
 msgstr "العضوية المميزة والهدايا"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1945
+#: src/components/_user/notification/notification.frontConfig.tsx:1958
 msgid "Premium activated"
 msgstr "تم تفعيل البريميوم"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1946
+#: src/components/_user/notification/notification.frontConfig.tsx:1959
 msgid "Premium expired"
 msgstr "انتهى البريميوم"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1952
+#: src/components/_user/notification/notification.frontConfig.tsx:1965
 msgid "Premium gift expired"
 msgstr "انتهت هدية البريميوم"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1949
+#: src/components/_user/notification/notification.frontConfig.tsx:1962
 msgid "Premium gift received"
 msgstr "تم استلام هدية بريميوم"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1947
+#: src/components/_user/notification/notification.frontConfig.tsx:1960
 msgid "Premium gift sent"
 msgstr "تم إرسال هدية بريميوم"
 
@@ -6481,7 +6636,7 @@ msgstr "نفّذ الهيبة لإنقاص مستواك وإعادة تفعيل 
 msgid "Prestige:"
 msgstr "الهيبة:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2140
+#: src/components/_user/notification/notification.frontConfig.tsx:2156
 msgid "Prestige!"
 msgstr "هيبة!"
 
@@ -6493,11 +6648,11 @@ msgstr "وضع مطابقة للاسعار تلقائية مع الطلبات ا
 msgid "Primary election"
 msgstr "الانتخابات التمهيدية"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2025
+#: src/components/_user/notification/notification.frontConfig.tsx:2038
 msgid "Primary Election Ended"
 msgstr "انتهت الانتخابات التمهيدية"
 
-#: src/pages/index.tsx:84
+#: src/pages/index.tsx:85
 #: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "الخصوصية"
@@ -6560,7 +6715,7 @@ msgstr "مكافأة الإنتاج:"
 msgid "Production in<0/> is full, you should start production!"
 msgstr "الإنتاج في <0/> ممتلئ، يجب أن تبدأ الإنتاج!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1986
+#: src/components/_user/notification/notification.frontConfig.tsx:1999
 msgid "Production is full"
 msgstr "الإنتاج ممتلئ"
 
@@ -6581,7 +6736,7 @@ msgstr "الملف الشخصي"
 msgid "Promote to Commander"
 msgstr "ترقية إلى قائد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2089
+#: src/components/_user/notification/notification.frontConfig.tsx:2105
 msgid "Promoted to Commander"
 msgstr "تمت الترقية إلى قائد"
 
@@ -6682,11 +6837,15 @@ msgstr "تجهيز سريع لأفضل العناصر من أي فئة"
 msgid "Quickly dismantle items"
 msgstr "تفكيك العناصر بسرعة"
 
+#: src/components/_user/user/UserTooltip.tsx:158
+msgid "Rank"
+msgstr ""
+
 #: src/components/_military/battle/BattleHeader.tsx:295
 msgid "Ranking"
 msgstr "ترتيب"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2036
+#: src/components/_user/notification/notification.frontConfig.tsx:2049
 msgid "Ranking reward"
 msgstr "مكافأة التصنيف"
 
@@ -6809,7 +6968,7 @@ msgstr "يقلل الصحة المفقودة عند القتال في المعا
 msgid "Referral link copied to clipboard"
 msgstr "تم نسخ رابط الإحالة إلى الحافظة"
 
-#: src/components/_user/user/UserHeader.tsx:220
+#: src/components/_user/user/UserHeader.tsx:229
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -6846,7 +7005,11 @@ msgstr "تجديد في..."
 msgid "Regens <0>{0}</0> when consumed"
 msgstr "يجدد <0>{0}</0> عند الاستهلاك"
 
+#: src/components/_economy/company/CompanyHeader.tsx:46
+#: src/components/_military/mu/MuHeader.tsx:111
+#: src/components/_political/map/MapMenu.tsx:311
 #: src/components/_political/party/PartyFormModal.tsx:109
+#: src/components/_political/party/PartyHeader.tsx:90
 msgid "Region"
 msgstr "منطقة"
 
@@ -6855,15 +7018,19 @@ msgstr "منطقة"
 msgid "Region buy offer"
 msgstr "عرض شراء منطقة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2052
+#: src/components/_user/notification/notification.frontConfig.tsx:2065
 msgid "Region is revolting!"
 msgstr "المنطقة تثور!"
 
-#: src/components/_political/event/EventList.tsx:68
+#: src/components/_political/event/EventList.tsx:111
 msgid "Region liberated"
 msgstr "تحررت المنطقة"
 
-#: src/components/_political/event/EventList.tsx:67
+#: src/components/_political/region/RegionHeader.tsx:45
+msgid "Region of"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:110
 msgid "Region transfer"
 msgstr "نقل المنطقة"
 
@@ -6876,7 +7043,7 @@ msgstr "تزداد تكاليف  ترقية المناطق بنسبة <0>{0}</0>
 msgid "regions"
 msgstr "مناطق"
 
-#: src/components/_political/country/CountryHeader.tsx:121
+#: src/components/_political/country/CountryHeader.tsx:138
 msgid "Regions"
 msgstr "المناطق"
 
@@ -6884,27 +7051,49 @@ msgstr "المناطق"
 msgid "Regions you occupy generate double the amount of resistance."
 msgstr "المناطق التي تحتلها تولّد ضعف مقدار المقاومة."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:131
-msgid "Register"
-msgstr "تسجيل"
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:123
+msgid "Register my country"
+msgstr ""
 
-#: src/utils/translations.tsx:204
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:121
+msgid "Register my MU"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:64
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:106
+msgid "Registered countries"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:64
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+msgid "Registered MUs"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:52
+msgid "Registration closes in"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentItem.tsx:58
+msgid "Registration open"
+msgstr ""
+
+#: src/utils/translations.tsx:205
 msgid "Reinforced Boots"
 msgstr "أحذية معززة"
 
-#: src/utils/translations.tsx:195
+#: src/utils/translations.tsx:196
 msgid "Reinforced Chest"
 msgstr "درع صدر معزز"
 
-#: src/utils/translations.tsx:213
+#: src/utils/translations.tsx:214
 msgid "Reinforced Gloves"
 msgstr "قفازات معززة"
 
-#: src/utils/translations.tsx:186
+#: src/utils/translations.tsx:187
 msgid "Reinforced Helmet"
 msgstr "خوذة معززة"
 
-#: src/utils/translations.tsx:222
+#: src/utils/translations.tsx:223
 msgid "Reinforced Pants"
 msgstr "سراويل معززة"
 
@@ -6915,7 +7104,7 @@ msgid "Reject"
 msgstr "رفض"
 
 #: src/components/_political/law/GenericLawStatus.tsx:42
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:274
 msgid "Rejected"
 msgstr "مرفوض"
 
@@ -6987,7 +7176,7 @@ msgstr "إزالة العدو"
 msgid "Remove the current party leader from their position"
 msgstr "إزالة رئيس الحزب الحالي من منصبه"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2086
+#: src/components/_user/notification/notification.frontConfig.tsx:2102
 msgid "Removed from Military Unit"
 msgstr "تمت الإزالة من الوحدة العسكرية"
 
@@ -7039,7 +7228,7 @@ msgstr "إبلاغ"
 msgid "Report user"
 msgstr "الإبلاغ عن مستخدم"
 
-#: src/components/_user/user/UserHeader.tsx:192
+#: src/components/_user/user/UserHeader.tsx:201
 msgid "Reports"
 msgstr "ابلاغات"
 
@@ -7108,16 +7297,21 @@ msgstr "المساهمون في المقاومة"
 msgid "Resistance for {regionName} {score}"
 msgstr "مقاومة من اجل {regionName} {score}"
 
+#: src/components/_political/region/RegionTooltip.tsx:101
+msgid "Resource"
+msgstr ""
+
+#: src/components/_political/country/CountryTooltip.tsx:160
 #: src/pages/country/[countryId]/index.tsx:226
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "الموارد"
 
-#: src/components/_political/event/EventList.tsx:100
+#: src/components/_political/event/EventList.tsx:143
 msgid "Resources reshuffled"
 msgstr "تم إعادة خلط الموارد"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2124
+#: src/components/_user/notification/notification.frontConfig.tsx:2140
 msgid "Response to message"
 msgstr "رد على رسالة"
 
@@ -7133,7 +7327,7 @@ msgstr "إعادة منطقة إلى دولتها الأصلية"
 msgid "Revoke API token?"
 msgstr "إبطال رمز الـ API؟"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2055
+#: src/components/_user/notification/notification.frontConfig.tsx:2068
 msgid "Revolt started!"
 msgstr "بدأ التمرد!"
 
@@ -7141,15 +7335,15 @@ msgstr "بدأ التمرد!"
 msgid "Revolution {score}"
 msgstr "ثورة {score}"
 
-#: src/components/_political/event/EventList.tsx:97
+#: src/components/_political/event/EventList.tsx:140
 msgid "Revolution ended"
 msgstr "انتهت الثورة"
 
-#: src/components/_political/event/EventList.tsx:96
+#: src/components/_political/event/EventList.tsx:139
 msgid "Revolution started"
 msgstr "بدأت الثورة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2058
+#: src/components/_user/notification/notification.frontConfig.tsx:2071
 msgid "Revolution started!"
 msgstr "بدأت الثورة!"
 
@@ -7169,7 +7363,7 @@ msgstr "حقوق"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "استرداد الأموال (سحب جميع المدفوعات من الوحدات العسكرية/المستخدمين وإعادة كامل المبلغ للدولة)"
 
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:269
 msgid "Rolled back by admin"
 msgstr "تم الاسترداد بواسطة المسؤول"
 
@@ -7202,11 +7396,11 @@ msgstr "جولة #{0}"
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
 msgstr "الجولة <0>#{0}</0> في <1/> على وشك الانتهاء!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2043
+#: src/components/_user/notification/notification.frontConfig.tsx:2056
 msgid "Round about to end"
 msgstr "الجولة على وشك الانتهاء"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2041
+#: src/components/_user/notification/notification.frontConfig.tsx:2054
 msgid "Round ended"
 msgstr "انتهت الجولة"
 
@@ -7495,8 +7689,9 @@ msgstr "تعيين صورة ملفك الشخصي"
 msgid "Set your username"
 msgstr "تعيين اسم المستخدم الخاص بك"
 
+#: src/components/_military/mu/MuHeader.tsx:193
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:226
+#: src/components/_user/user/UserHeader.tsx:235
 msgid "Settings"
 msgstr "الإعدادات"
 
@@ -7549,6 +7744,11 @@ msgstr "عرض الإحصائيات الأسبوعية"
 msgid "Side"
 msgstr "الجانب"
 
+#: src/components/_military/tournament/TournamentHeader.tsx:102
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:72
+msgid "Skill bonus"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
 msgstr "مشكلة في المهارة؟"
@@ -7558,7 +7758,7 @@ msgid "Skill upgrade:"
 msgstr "ترقية المهارة:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:174
+#: src/components/_user/user/UserHeader.tsx:183
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "المهارات"
@@ -7571,15 +7771,15 @@ msgstr "المهارات تجعلك أقوى. دعنا نعزز قدراتك!"
 msgid "Skills saved!"
 msgstr "تم حفظ المهارات!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1966
+#: src/components/_user/notification/notification.frontConfig.tsx:1979
 msgid "Skin gift received"
 msgstr "تم استلام هدية المظهر"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1964
+#: src/components/_user/notification/notification.frontConfig.tsx:1977
 msgid "Skin gift sent"
 msgstr "تم إرسال هدية المظهر"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1969
+#: src/components/_user/notification/notification.frontConfig.tsx:1982
 msgid "Skin pack gift sent"
 msgstr "تم إرسال هدية حزمة المظاهر"
 
@@ -7591,7 +7791,7 @@ msgstr "تم فتح حزمة المظاهر! تم تجهيز جميع المظا
 msgid "Skin Packs"
 msgstr "حزم المظاهر"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2141
+#: src/components/_user/notification/notification.frontConfig.tsx:2157
 msgid "Skin Reward"
 msgstr "مكافأة المظهر"
 
@@ -7645,6 +7845,10 @@ msgstr "التخصص"
 msgid "Specialization item"
 msgstr "عنصر التخصص"
 
+#: src/components/_political/country/CountryTooltip.tsx:177
+msgid "Specialty"
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:194
 msgid "Spellcaster Gloves"
 msgstr "قفازات المشعوذ"
@@ -7657,7 +7861,7 @@ msgstr "أنفق <0>طاقتك</0> في العمل هنا لكسب <1>المال
 msgid "Spendings"
 msgstr "النفقات"
 
-#: src/components/_political/country/CountryHeader.tsx:187
+#: src/components/_political/country/CountryHeader.tsx:207
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
 msgstr "قوة مستقرة لا تتأثر بالغزو, تُستخدم أيضًا في حساب الاضطرابات ورواتب الحكومة وتكلفة الثورة. أما التكاليف الأخرى فتستخدم <0>متوسط التطور</0>."
 
@@ -7709,7 +7913,11 @@ msgstr "بدء الانتخابات الرئاسية"
 msgid "Start revolution"
 msgstr "بدء الثورة"
 
-#: src/components/_military/war/WarHeader.tsx:62
+#: src/components/_military/tournament/TournamentHeader.tsx:78
+#: src/components/_military/war/WarHeader.tsx:65
+msgid "Started"
+msgstr ""
+
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
 msgstr "بدأ <0/>"
@@ -7726,14 +7934,14 @@ msgstr "جاري البدء"
 msgid "Starting from the bottom..."
 msgstr "البدء من القاع..."
 
+#: src/components/_military/tournament/TournamentHeader.tsx:58
+msgid "Starts"
+msgstr ""
+
 #. placeholder {0}: gameConfig?.battle.enemyDamagesBonusPercent
 #: src/components/_political/law/law.frontConfig.tsx:237
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0>"
 msgstr "يبدأ عند 1% ويزداد +1% يوميًا حتى يصل إلى <0>{0}</0>"
-
-#: src/pages/events/index.tsx:118
-msgid "Starts soon..."
-msgstr "يبدأ قريباً..."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:11
 msgid "Statistically impossible to stay this unlucky"
@@ -7752,6 +7960,7 @@ msgstr "الإحصائيات"
 msgid "Stats regenerate every hour"
 msgstr "تتجدد الإحصائيات كل ساعة"
 
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:82
 #: src/pages/war/[warId]/index.tsx:40
 msgid "Status"
 msgstr "الحالة"
@@ -7863,6 +8072,7 @@ msgid "Supreme Commander"
 msgstr "القائد الأعلى"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
+#: src/components/_political/country/CountryTooltip.tsx:118
 msgid "Sworn enemy"
 msgstr "عدو لدود"
 
@@ -7885,13 +8095,9 @@ msgstr "تبدأ معاهدات العدو اللدود عند <0>{0} ولاء</
 msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "العدو اللدود: أوامر القتال ضد عدوك اللدود تكلف أقل بنسبة {orderDiscountPercent}% <0>{0}</0>"
 
-#: src/components/_political/event/EventList.tsx:72
+#: src/components/_political/event/EventList.tsx:115
 msgid "System revolt"
 msgstr "ثورة النظام"
-
-#: src/pages/tournament/[tournamentId]/index.tsx:73
-msgid "Table"
-msgstr "جدول"
 
 #: src/pages/country/[countryId]/index.tsx:117
 #: src/pages/country/[countryId]/index.tsx:141
@@ -7927,12 +8133,22 @@ msgstr "نوع الضريبة"
 msgid "Taxes"
 msgstr "الضرائب"
 
+#. placeholder {0}: tournamentTeam.number
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:56
+msgid "Team {0}"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:71
+#: src/components/_military/tournament/TournamentHeader.tsx:122
+msgid "Teams"
+msgstr ""
+
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:91
 msgid "Terminated"
 msgstr "مُنهى"
 
-#: src/pages/index.tsx:80
+#: src/pages/index.tsx:81
 #: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "الشروط"
@@ -7970,12 +8186,12 @@ msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the gover
 msgstr "نجحت الحرب الأهلية التي بدأها <0/> في <1/> بواسطة <2/> وتمت الإطاحة بالحكومة."
 
 #. placeholder {0}: data.refund
-#: src/components/_user/notification/notification.frontConfig.tsx:1640
+#: src/components/_user/notification/notification.frontConfig.tsx:1653
 msgid "The contract for <0/> has expired. <1>{0}</1> returned to <2/>."
 msgstr "انتهت صلاحية العقد الخاص بـ <0/>, تمت إعادة <1>{0}</1> إلى <2/>."
 
 #. placeholder {0}: data.moneyRolledBack
-#: src/components/_user/notification/notification.frontConfig.tsx:1658
+#: src/components/_user/notification/notification.frontConfig.tsx:1671
 msgid "The contract has been rolled back. <0>{0}</0> sent back to <1/>."
 msgstr "تم التراجع عن العقد, تمت إعادة <0>{0}</0> إلى <1/>."
 
@@ -8065,13 +8281,17 @@ msgstr "هذا شعور جيد، هاه؟"
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "هذا ملخص للغنائم التي حصلت عليها من هذه المعركة. يتضمن أي صناديق حصلت عليها بالإضافة إلى العناصر الأكثر قيمة من مجموعة الغنائم المشتركة."
 
-#: src/components/_political/country/CountryHeader.tsx:216
+#: src/components/_political/country/CountryHeader.tsx:236
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
 msgstr "هذه هي القيمة المستخدمة لحساب معظم التكاليف: أوامر المعركة، وصيانة التحالف والعدو اللدود وميثاق الدفاع المشترك, إضافة إلى القوانين وتكاليف الترقية والصيانة"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
 msgstr "هذا هو مركز شركتك. هنا يمكنك إنتاج العناصر وبناء إمبراطوريتك."
+
+#: src/components/_military/tournament/TournamentTeamTooltip.tsx:88
+msgid "This is your team"
+msgstr ""
 
 #: src/components/_political/law/LawTypeSelect.tsx:200
 msgid "This law can be abusive and requires 5+ possible voters in the country."
@@ -8274,6 +8494,10 @@ msgstr "الإجمالي"
 msgid "Total cases opened"
 msgstr "إجمالي الصناديق المفتوحة"
 
+#: src/components/_military/tournament/TournamentTeamTooltip.tsx:92
+msgid "Total damage"
+msgstr ""
+
 #: src/components/_user/user/UserRankingsPanel.tsx:27
 msgid "Total damages"
 msgstr "إجمالي الأضرار"
@@ -8302,7 +8526,8 @@ msgstr "اجمالي:"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:76
 #: src/components/_military/battle/ActiveBattlesList.tsx:176
-#: src/pages/events/index.tsx:90
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:65
+#: src/pages/events/index.tsx:190
 msgid "Tournament"
 msgstr "البطولة"
 
@@ -8310,15 +8535,19 @@ msgstr "البطولة"
 msgid "Tournament battle for {tournamentName} {score}"
 msgstr "معركة بطولة لـ {tournamentName} {score}"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2066
+#: src/components/_user/notification/notification.frontConfig.tsx:2089
+msgid "Tournament Cancelled"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:2079
 msgid "Tournament Created"
 msgstr "تم إنشاء البطولة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2073
+#: src/components/_user/notification/notification.frontConfig.tsx:2086
 msgid "Tournament Eliminated"
 msgstr "تم الإقصاء من البطولة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2071
+#: src/components/_user/notification/notification.frontConfig.tsx:2084
 msgid "Tournament Ended"
 msgstr "انتهت البطولة"
 
@@ -8326,15 +8555,15 @@ msgstr "انتهت البطولة"
 msgid "Tournament reward:"
 msgstr "مكافأة البطولة:"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2062
+#: src/components/_user/notification/notification.frontConfig.tsx:2075
 msgid "Tournament round won!"
 msgstr "تم الفوز بجولة البطولة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2069
+#: src/components/_user/notification/notification.frontConfig.tsx:2082
 msgid "Tournament Started"
 msgstr "بدأت البطولة"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2064
+#: src/components/_user/notification/notification.frontConfig.tsx:2077
 msgid "Tournament Won!"
 msgstr "تم الفوز بالبطولة!"
 
@@ -8343,7 +8572,7 @@ msgstr "تم الفوز بالبطولة!"
 msgid "Trading"
 msgstr "تداول"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1989
+#: src/components/_user/notification/notification.frontConfig.tsx:2002
 msgid "Trading transaction"
 msgstr "عملية تداول"
 
@@ -8351,11 +8580,13 @@ msgstr "عملية تداول"
 msgid "Trainee"
 msgstr "متدرب"
 
-#: src/components/_user/user/UserHeader.tsx:200
+#: src/components/_user/user/UserHeader.tsx:209
 msgid "Transac."
 msgstr "معاملات"
 
-#: src/components/_political/country/CountryHeader.tsx:83
+#: src/components/_military/mu/MuHeader.tsx:169
+#: src/components/_political/country/CountryHeader.tsx:100
+#: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:93
 #: src/pages/user/[userId]/index.tsx:246
 msgid "Transactions"
@@ -8397,6 +8628,10 @@ msgstr "الدروس التعليمية"
 #: src/pages/user/[userId]/settings.tsx:33
 msgid "Tutorials reseted"
 msgstr "تم إعادة تعيين الدروس التعليمية"
+
+#: src/components/_military/tournament/TournamentHeader.tsx:52
+msgid "Type"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:257
 msgid "Tyrannosaurus Rex"
@@ -8458,21 +8693,17 @@ msgstr "فتح زر مساعدة الكل"
 msgid "Unlock Produce all button"
 msgstr "فتح زر إنتاج الكل"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1972
+#: src/components/_user/notification/notification.frontConfig.tsx:1985
 msgid "Unlocked pack"
 msgstr "حزمة مفتوحة"
 
-#: src/components/_user/user/UserHeader.tsx:418
+#: src/components/_user/user/UserHeader.tsx:435
 msgid "Unmuted <0/>"
 msgstr "إلغاء الكتم <0/>"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:93
 msgid "Unreal. This doesn't happen"
 msgstr "خيال. هذا لا يحدث"
-
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:122
-msgid "Unregister"
-msgstr "إلغاء التسجيل"
 
 #: src/pages/country/[countryId]/index.tsx:217
 msgid "Unrest"
@@ -8490,10 +8721,6 @@ msgstr "إلغاء تحديد الكل"
 #: src/components/_political/law/law.frontConfig.tsx:431
 msgid "Unset the sworn enemy country"
 msgstr "إلغاء تعيين الدولة العدوة اللدود"
-
-#: src/pages/tournament/[tournamentId]/index.tsx:42
-msgid "Upcoming Tournament"
-msgstr "البطولة القادمة"
 
 #: src/components/_user/user/UserForm.tsx:53
 msgid "Update"
@@ -8539,6 +8766,9 @@ msgstr "رقِّ مهاراتك <0>{count}</0> مرات"
 msgid "Upgrade your skills!"
 msgstr "رقِّ مهاراتك!"
 
+#: src/components/_economy/company/CompanyTooltip.tsx:98
+#: src/components/_military/mu/MuTooltip.tsx:96
+#: src/components/_political/region/RegionTooltip.tsx:117
 #: src/pages/company/[companyId]/index.tsx:94
 #: src/pages/region/[regionId]/index.tsx:144
 msgid "Upgrades"
@@ -8655,6 +8885,7 @@ msgid "Username removed"
 msgstr "تمت إزالة اسم المستخدم"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:90
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:34
 msgid "Users"
 msgstr "المستخدمون"
 
@@ -8790,7 +9021,7 @@ msgstr "ضد"
 msgid "Wage"
 msgstr "أجر"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1982
+#: src/components/_user/notification/notification.frontConfig.tsx:1995
 msgid "Wage changed"
 msgstr "تغير الأجر"
 
@@ -8806,7 +9037,7 @@ msgstr "الأجر لكل إنتاج"
 msgid "Wage reduction accepted."
 msgstr "تم قبول تخفيض الأجر."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1983
+#: src/components/_user/notification/notification.frontConfig.tsx:1996
 #: src/components/_user/worker/WageReductionAlert.tsx:66
 msgid "Wage reduction proposed"
 msgstr "تم اقتراح تخفيض الأجر"
@@ -8828,7 +9059,7 @@ msgstr "بانتظار قبول العامل أو رفضه لتخفيض الأج
 msgid "wants"
 msgstr "يريد"
 
-#: src/components/_political/event/EventList.tsx:62
+#: src/components/_political/event/EventList.tsx:105
 msgid "War declared"
 msgstr "أعلنت الحرب"
 
@@ -8848,7 +9079,7 @@ msgstr "تحذير"
 msgid "Warrant Officer"
 msgstr "مساعد أول"
 
-#: src/components/_political/country/CountryHeader.tsx:101
+#: src/components/_political/country/CountryHeader.tsx:118
 msgid "Wars"
 msgstr "حروب"
 
@@ -8883,7 +9114,7 @@ msgstr "الرصيد الأسبوعي"
 msgid "Weekly damages"
 msgstr "الضرر الأسبوعي"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2138
+#: src/components/_user/notification/notification.frontConfig.tsx:2154
 msgid "Weekly Missions Reset"
 msgstr "إعادة تعيين المهام الأسبوعية"
 
@@ -8934,6 +9165,10 @@ msgstr "كامل الإنتاج"
 msgid "Why do you want to propose this law?"
 msgstr "لماذا تريد اقتراح هذا القانون؟"
 
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:39
+msgid "Winner"
+msgstr ""
+
 #: src/components/_other/shop/skinPack.frontConfig.tsx:36
 msgid "Winter Soldier Pack"
 msgstr "حزمة الجندي الشتوي"
@@ -8951,11 +9186,16 @@ msgstr "مع مكافأة + ولاء"
 msgid "With bounty"
 msgstr "مع مكافأة"
 
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:102
+msgid "Withdraw"
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:185
 msgid "Wizard Hat"
 msgstr "قبعة ساحر"
 
-#: src/pages/events/index.tsx:139
+#: src/components/_military/tournament/TournamentHeader.tsx:90
+#: src/pages/events/index.tsx:116
 msgid "Won by"
 msgstr "فاز بها"
 
@@ -8988,7 +9228,7 @@ msgstr "اعمل واكسب!"
 msgid "Worker fired!"
 msgstr "طُرد العامل!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1978
+#: src/components/_user/notification/notification.frontConfig.tsx:1991
 msgid "Worker left"
 msgstr "غادر العامل"
 
@@ -8996,6 +9236,9 @@ msgstr "غادر العامل"
 msgid "Worker updated!"
 msgstr "تم تحديث العامل!"
 
+#: src/components/_economy/company/CompanyHeader.tsx:35
+#: src/components/_economy/company/CompanyHeader.tsx:75
+#: src/components/_economy/company/CompanyTooltip.tsx:85
 #: src/pages/company/[companyId]/index.tsx:87
 #: src/pages/company/[companyId]/workers.tsx:37
 msgid "Workers"
@@ -9073,7 +9316,7 @@ msgstr "أنت عاطل عن العمل"
 msgid "You are not a council member of this party"
 msgstr "أنت لست عضو مجلس في هذا الحزب"
 
-#: src/pages/events/index.tsx:133
+#: src/pages/events/index.tsx:110
 msgid "You are not participating"
 msgstr "أنت لا تشارك"
 
@@ -9106,7 +9349,7 @@ msgstr "لقد حطمت نظام الحظ (RNG)"
 msgid "You brought 10 babies to the world (>= lvl {0})"
 msgstr "لقد جلبت 10 لاعبين جدد للعالم (مستوى {0} او أعلى)"
 
-#: src/pages/index.tsx:137
+#: src/pages/index.tsx:140
 msgid "You can change it later."
 msgstr "يمكنك تغيير ذلك لاحقاً."
 
@@ -9130,15 +9373,15 @@ msgstr "لا يمكنك التقدم بطلب للحصول على الجنسية
 msgid "You don't have permission to view applications."
 msgstr "ليس لديك إذن لعرض الطلبات."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1525
+#: src/components/_user/notification/notification.frontConfig.tsx:1538
 msgid "You earned gems from a banner sale!"
 msgstr "لقد كسبت جواهر من بيع لافتة!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1890
+#: src/components/_user/notification/notification.frontConfig.tsx:1903
 msgid "You earned gems from a sale of \"{skinTitle}\"!"
 msgstr "لقد كسبت جواهر من بيع \"{skinTitle}\"!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1892
+#: src/components/_user/notification/notification.frontConfig.tsx:1905
 msgid "You earned gems from a skin pack sale!"
 msgstr "لقد كسبت جواهر من بيع حزمة مظاهر!"
 
@@ -9183,7 +9426,7 @@ msgstr "تم نقلك من <0/> إلى <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "لقد استهلكت <0>{0}</0>، يبدأ تأثيره الآن وينتهي خلال <1>{buffDuration} ساعة</1>."
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1712
+#: src/components/_user/notification/notification.frontConfig.tsx:1725
 msgid "You have prestiged! Enjoy your permanent XP bonus and prestige point."
 msgstr "لقد نفّذت الهيبة بنجاح! استمتع بمكافأة الخبرة الدائمة ونقطة الهيبة."
 
@@ -9252,6 +9495,10 @@ msgstr "يجب أن تكون على الأقل بالمستوى {0} للتصوي
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "يجب عليك إنفاق جميع نقاط الأخلاق الثلاث ({pointsRemaining} متبقية)"
 
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:154
+msgid "You need a country to take part"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:160
 msgid "You need to equip a weapon first"
 msgstr "تحتاج إلى تجهيز سلاح أولاً"
@@ -9275,11 +9522,11 @@ msgstr "لقد تلقيت عنصر غنيمة للمركز <0>#{0}</0> في <1/>
 
 #. placeholder {0}: data.muId ? ( <MuName muId={data.muId} /> ) : data.countryId ? ( <CountryName countryId={data.countryId} /> ) : ( 'your' )
 #. placeholder {1}: data.rank && ( <> position{' '} <Typo fw='bold' color='text1'> #{data.rank} </Typo> </> )
-#: src/components/_user/notification/notification.frontConfig.tsx:1393
+#: src/components/_user/notification/notification.frontConfig.tsx:1406
 msgid "You received a reward for {0} {1} in<0/> tier in the ranking <1/>"
 msgstr "تلقيت مكافأة لـ {0} {1} في فئة <0/> في التصنيف <1/>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1910
+#: src/components/_user/notification/notification.frontConfig.tsx:1923
 msgid "You received the skin \"{skinTitle}\"!"
 msgstr "لقد حصلت على المظهر \"{skinTitle}\"!"
 
@@ -9288,11 +9535,11 @@ msgid "You sold items."
 msgstr "قمت ببيع عناصر."
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1448
+#: src/components/_user/notification/notification.frontConfig.tsx:1461
 msgid "You successfully gifted \"{0}\" to <0/>!"
 msgstr "لقد أهديت \"{0}\" بنجاح إلى <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1727
+#: src/components/_user/notification/notification.frontConfig.tsx:1740
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "لقد أهديت \"{skinTitle}\" بنجاح إلى <0/>!"
 
@@ -9300,7 +9547,7 @@ msgstr "لقد أهديت \"{skinTitle}\" بنجاح إلى <0/>!"
 msgid "You successfully gifted a premium subscription to <0/>!"
 msgstr "لقد أهديت اشتراكاً مميزاً بنجاح إلى <0/>!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1795
+#: src/components/_user/notification/notification.frontConfig.tsx:1808
 msgid "You successfully gifted the skin pack \"{skinPackTitle}\" to <0/>!"
 msgstr "لقد قمت بإهداء حزمة المظهر \"{skinPackTitle}\" بنجاح إلى <0/>!"
 
@@ -9324,8 +9571,8 @@ msgstr "تم طردك من الحكومة بواسطة <0/>"
 msgid "You were an alpha tester (user before 20 march 2025)"
 msgstr "لقد كنت مختبراً لنسخة الألفا (مستخدم قبل 20 مارس 2025)"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2005
-#: src/components/_user/notification/notification.frontConfig.tsx:2022
+#: src/components/_user/notification/notification.frontConfig.tsx:2018
+#: src/components/_user/notification/notification.frontConfig.tsx:2035
 msgid "You were elected"
 msgstr "تم انتخابك"
 
@@ -9444,7 +9691,7 @@ msgid "Your article reached 2% of the active population in score (min 10)"
 msgstr "وصل مقالك إلى تقييم يعادل 2% من السكان النشطين (بحد أدنى 10)"
 
 #. placeholder {0}: data.bannerTitle
-#: src/components/_user/notification/notification.frontConfig.tsx:1539
+#: src/components/_user/notification/notification.frontConfig.tsx:1552
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "تم قبول رايتك \"{0}\" وهي متاحة الآن في المتجر! تم فتحها لك تلقائياً."
 
@@ -9457,15 +9704,23 @@ msgid "Your citizenship is going to change"
 msgstr "جنسيتك سوف تتغير"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:140
-#: src/pages/index.tsx:133
+#: src/pages/index.tsx:136
 msgid "Your country"
 msgstr "دولتك"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2046
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:108
+msgid "Your country is registered"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:142
+msgid "Your country is registered for this tournament"
+msgstr ""
+
+#: src/components/_user/notification/notification.frontConfig.tsx:2059
 msgid "Your country is under attack!"
 msgstr "دولتك تتعرض للهجوم!"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:2049
+#: src/components/_user/notification/notification.frontConfig.tsx:2062
 msgid "Your country launched an attack!"
 msgstr "شنت دولتك هجوماً!"
 
@@ -9481,7 +9736,7 @@ msgstr "وظيفتك الحالية"
 msgid "Your current order"
 msgstr "طلبك الحالي"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1688
+#: src/components/_user/notification/notification.frontConfig.tsx:1701
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "تم إعادة تعيين مهامك اليومية! أكملها لكسب المكافآت."
 
@@ -9538,6 +9793,14 @@ msgstr "جنسية وحدتك العسكرية هي الدولة التي تمث
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
 msgstr "لدى وحدتك العسكرية <0/> شهرة ولا يمكنها المزايدة على عقود المرتزقة. ادفع لاستعادة نقطة شهرة (مرة واحدة يوميًا)."
 
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:106
+msgid "Your MU is registered"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:140
+msgid "Your MU is registered for this tournament"
+msgstr ""
+
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:230
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
 msgstr "يجب أن تمتلك وحدتك العسكرية أموالاً كافية لتغطية رسوم القبول لتقديم مزايدة, يتم خصم المبلغ فقط في حال فوزك، ويتم استرداده عند إتمام العقد."
@@ -9566,11 +9829,7 @@ msgstr "رتبتك"
 msgid "Your referral link"
 msgstr "رابط الإحالة الخاص بك"
 
-#: src/pages/tournament/[tournamentId]/index.tsx:66
-msgid "Your team"
-msgstr "فريقك"
-
-#: src/components/_user/notification/notification.frontConfig.tsx:1372
+#: src/components/_user/notification/notification.frontConfig.tsx:1385
 msgid "Your team <0/> has been eliminated from the <1/>"
 msgstr "تم إقصاء فريقك <0/> من <1/>"
 
@@ -9578,7 +9837,7 @@ msgstr "تم إقصاء فريقك <0/> من <1/>"
 msgid "Your team <0/> won a round in <1/>!"
 msgstr "فاز فريقك <0/> بجولة في <1/>!"
 
-#: src/pages/events/index.tsx:125
+#: src/pages/events/index.tsx:102
 msgid "Your team:"
 msgstr "فريقك:"
 
@@ -9588,7 +9847,7 @@ msgstr "فريقك:"
 msgid "Your wage in <0/> changed from <1>{0}</1> to <2>{1}</2>"
 msgstr "تغير أجرك في <0/> من <1>{0}</1> إلى <2>{1}</2>"
 
-#: src/components/_user/notification/notification.frontConfig.tsx:1700
+#: src/components/_user/notification/notification.frontConfig.tsx:1713
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "تم إعادة تعيين مهامك الأسبوعية! أكملها لكسب المكافآت."
 
