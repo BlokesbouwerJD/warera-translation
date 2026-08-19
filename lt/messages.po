@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Mažo apmokėjimo darbas (mažiau nei 0.8x ir daugiau nei 1.2x normalaus atlyginimo)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:439
+#: src/components/_user/user/UserHeader.tsx:440
 msgid " - Reason: {0}"
 msgstr " - Priežastis: {0}"
 
@@ -200,7 +200,7 @@ msgstr "*Gali sudegti"
 msgid "/day"
 msgstr "/dieną"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} mūšių"
 
@@ -819,7 +819,7 @@ msgstr "<0>Neramumai</0> atspindi vidinę įtampą šalyje.<1/><2/>Piliečiai ga
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
 msgstr "<0>Tavo paskyrai reikalingas papildomas patvirtinimas. Kad galėtum toliau įprastai naudotis paskyra, kuo greičiau patvirtink savo telefono numerį. Nepatvirtintoms paskyroms po 48 valandų bus apribota prieiga, o po 5 dienų jos gali būti visam laikui sustabdytos.</0><1>Telefono numeriai yra šifruojami ir nėra matomi jokiam administratoriui.</1>"
 
-#: src/components/_layout/LayoutOptions.tsx:99
+#: src/components/_layout/LayoutOptions.tsx:101
 msgid "= consumes more power"
 msgstr "= suvartoja daugiau energijos"
 
@@ -1335,10 +1335,10 @@ msgstr "Prieiga suteikta"
 msgid "Access war"
 msgstr "Atverti karą"
 
-#: src/components/_military/mu/MuHeader.tsx:163
+#: src/components/_military/mu/MuHeader.tsx:162
 #: src/components/_political/country/CountryHeader.tsx:94
 #: src/components/_political/party/PartyHeader.tsx:117
-#: src/components/_user/user/UserHeader.tsx:176
+#: src/components/_user/user/UserHeader.tsx:177
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1449,7 +1449,7 @@ msgstr "Patobulintos Kelnės"
 msgid "Agrarian"
 msgstr "Agrarinė"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:132
+#: src/components/_military/battle/ActiveBattlesList.tsx:133
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
 msgid "All"
@@ -1665,7 +1665,7 @@ msgstr "API Raktai"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API raktai leidžia išorinėms programoms pasiekti API tavo vardu. Naudok žetoną <0>X-API-Key</0> antraštėje. Kiekvienam žetonui taikomas 200 užklausų per minutę limitas."
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:279
 msgid "App pattern"
 msgstr "Programėlės raštas"
 
@@ -1673,7 +1673,7 @@ msgstr "Programėlės raštas"
 msgid "Application fee"
 msgstr "Paraiškos mokestis"
 
-#: src/components/_military/mu/MuHeader.tsx:157
+#: src/components/_military/mu/MuHeader.tsx:156
 #: src/components/_political/party/PartyHeader.tsx:137
 msgid "Applications"
 msgstr "Paraiškos"
@@ -1774,7 +1774,7 @@ msgstr "Arbatpinigiai už straipsnį"
 msgid "Article tipped"
 msgstr "Straipsnis paremtas"
 
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/user/UserHeader.tsx:224
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Straipsniai"
@@ -1803,7 +1803,7 @@ msgstr "AT Kovinis sraigtasparnis"
 msgid "AT Heavy Ammo"
 msgstr "AT Sunkioji Amunicija"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:144
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:152
 msgid "At least {MIN_REGISTRATIONS} are needed or the tournament is cancelled."
 msgstr "Reikia bent {MIN_REGISTRATIONS}, kitaip turnyras bus atšauktas."
 
@@ -1871,7 +1871,7 @@ msgstr "Atakos bonusas:"
 msgid "Attacker"
 msgstr "Puolėjas"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:190
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:191
 msgid "Attackers"
 msgstr "Puolėjai"
 
@@ -1901,7 +1901,7 @@ msgstr "Nepavyko patvirtinti tapatybės. Bandyk dar kartą."
 msgid "Auto approval"
 msgstr "Automatinis patvirtinimas"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:212
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Automatiškai užsidėti, kai daiktas sulūžta"
@@ -1942,6 +1942,10 @@ msgstr "b. Asmeninės informacijos atskleidimas arba neteisėtas viešinimas (do
 msgid "Baby Boomer"
 msgstr "Kūdikių bumo karta"
 
+#: src/components/_layout/LayoutOptions.tsx:168
+msgid "Background pattern"
+msgstr ""
+
 #: src/components/_user/referral/ReferralList.tsx:111
 msgid "Badge won"
 msgstr "Pelnytas ženklelis"
@@ -1971,7 +1975,7 @@ msgstr "Kamuolys"
 msgid "Bankruptcy"
 msgstr "Bankrotas"
 
-#: src/components/_user/user/UserHeader.tsx:428
+#: src/components/_user/user/UserHeader.tsx:429
 msgid "Banned"
 msgstr "Užblokuotas"
 
@@ -1991,8 +1995,8 @@ msgstr "Banerio dovana išsiųsta"
 msgid "Banners"
 msgstr "Baneriai"
 
-#: src/components/_user/user/UserHeader.tsx:194
-#: src/components/_user/user/UserHeader.tsx:242
+#: src/components/_user/user/UserHeader.tsx:195
+#: src/components/_user/user/UserHeader.tsx:243
 msgid "Bans"
 msgstr "Blokavimai"
 
@@ -2020,12 +2024,12 @@ msgstr "Paprastas Šalmas"
 msgid "Basic Pants"
 msgstr "Paprastos Kelnės"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:86
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:85
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:187
 msgid "Battle"
 msgstr "Mūšis"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:166
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
 msgid "Battle by battle"
 msgstr "Mūšis po mūšio"
 
@@ -2095,11 +2099,11 @@ msgstr "Kovos įsakymai ginti pagrindinius regionus ir sukilimus kainuoja <0>{0}
 msgid "Battles"
 msgstr "Mūšiai"
 
-#: src/components/_layout/LayoutOptions.tsx:122
+#: src/components/_layout/LayoutOptions.tsx:124
 msgid "Battles on layout"
 msgstr "Mūšiai skydelyje"
 
-#: src/components/_layout/LayoutOptions.tsx:117
+#: src/components/_layout/LayoutOptions.tsx:119
 msgid "Battles on map"
 msgstr "Mūšiai žemėlapyje"
 
@@ -2116,7 +2120,7 @@ msgstr "Laimėti Mūšiai"
 msgid "Become a Candidate"
 msgstr "Tapti Kandidatu"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Geriausias"
@@ -2145,7 +2149,7 @@ msgstr "Blokuoti (slėpti turinį)"
 msgid "Blue Staff"
 msgstr "Mėlyna Lazda"
 
-#: src/components/_layout/LayoutOptions.tsx:158
+#: src/components/_layout/LayoutOptions.tsx:160
 msgid "Blur"
 msgstr "Suliejimas"
 
@@ -2213,7 +2217,7 @@ msgstr "Biudžetas"
 msgid "Buff ended"
 msgstr "Buff'as baigėsi"
 
-#: src/components/_user/user/UserHeader.tsx:311
+#: src/components/_user/user/UserHeader.tsx:312
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "Buff'as baigsis"
@@ -2282,7 +2286,7 @@ msgstr "Tęsdamas sutinki su mūsų <0>Paslaugų teikimo sąlygomis</0>."
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
 msgstr "Atmetęs atlyginimo sumažinimą, paliksi įmonę ir prarasi savo lojalumo premiją +{0}%."
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:150
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:151
 msgid "By side"
 msgstr "Pagal pusę"
 
@@ -2510,7 +2514,7 @@ msgstr "Pasirink savo pusę ir spausk, kad darytum <0>žalą</0>! Smūgiuok toli
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Konkretaus daikto pasirinkimas kainuoja ×2 plieno:"
 
-#: src/components/_user/user/UserHeader.tsx:292
+#: src/components/_user/user/UserHeader.tsx:293
 msgid "Citizen since"
 msgstr "Pilietis nuo"
 
@@ -2610,7 +2614,7 @@ msgstr "Pulkininkas"
 msgid "Color scheme"
 msgstr "Spalvų schema"
 
-#: src/components/_layout/LayoutOptions.tsx:174
+#: src/components/_layout/LayoutOptions.tsx:184
 msgid "Colorblind mode"
 msgstr "Spalvų aklumo režimas"
 
@@ -2638,7 +2642,7 @@ msgstr "Bendruomenė"
 
 #: src/components/_layout/LayoutMenu.tsx:173
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:215
+#: src/components/_user/user/UserHeader.tsx:216
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2813,7 +2817,7 @@ msgstr "Sunaudojama kovojant mūšiuose"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Pavartojus, tavo <0>ataka</0> padidėja {0}h.<1/> Vėliau tiek pat sumažėja {1}h"
 
-#: src/components/_layout/LayoutOptions.tsx:127
+#: src/components/_layout/LayoutOptions.tsx:129
 msgid "Contextual borders"
 msgstr "Kontekstinės ribos"
 
@@ -2837,7 +2841,7 @@ msgstr "Kontraktas grąžintas"
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:108
-#: src/components/_military/mu/MuHeader.tsx:183
+#: src/components/_military/mu/MuHeader.tsx:182
 #: src/components/_political/country/CountryHeader.tsx:152
 msgid "Contracts"
 msgstr "Kontraktai"
@@ -2919,7 +2923,7 @@ msgstr "Šalys"
 #: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:133
 #: src/components/_military/battle/BattleCountrySide.tsx:73
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
 #: src/components/_political/map/MapMenu.tsx:317
@@ -2968,7 +2972,7 @@ msgstr "Šalies gamybos bonusas"
 msgid "Country to invite"
 msgstr "Kviečiama šalis"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:46
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:51
 msgid "Country Tournament"
 msgstr "Šalių Turnyras"
 
@@ -3167,7 +3171,7 @@ msgstr "Tamsioji era"
 msgid "Dark Era Pack"
 msgstr "Tamsiosios Eros Rinkinys"
 
-#: src/components/_layout/LayoutOptions.tsx:149
+#: src/components/_layout/LayoutOptions.tsx:151
 msgid "Dark map"
 msgstr "Tamsus žemėlapis"
 
@@ -3231,7 +3235,7 @@ msgstr "Padaro šiek tiek žalos"
 msgid "Debuff ended"
 msgstr "Debuff'as baigėsi"
 
-#: src/components/_user/user/UserHeader.tsx:319
+#: src/components/_user/user/UserHeader.tsx:320
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "Debuff'as baigsis"
@@ -3276,7 +3280,7 @@ msgstr "Ginti"
 msgid "Defender"
 msgstr "Gynėjas"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:187
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:188
 msgid "Defenders"
 msgstr "Gynėjai"
 
@@ -3518,7 +3522,7 @@ msgstr "Auka"
 msgid "Donation Summary"
 msgstr "Paramos Suvestinė"
 
-#: src/components/_military/mu/MuHeader.tsx:175
+#: src/components/_military/mu/MuHeader.tsx:174
 #: src/components/_political/country/CountryHeader.tsx:106
 #: src/components/_political/party/PartyHeader.tsx:123
 #: src/pages/country/[countryId]/donations.tsx:17
@@ -3707,7 +3711,7 @@ msgid "End the defensive pact with <0/>."
 msgstr "Nutraukti gynybinį paktą su <0/>."
 
 #: src/components/_military/battle/BattleSystem.tsx:751
-#: src/components/_military/tournament/TournamentHeader.tsx:84
+#: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
 msgstr "Baigėsi"
@@ -3746,7 +3750,7 @@ msgid "Entrepreneurship"
 msgstr "Verslumas"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:199
+#: src/components/_layout/LayoutOptions.tsx:209
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -3806,7 +3810,7 @@ msgstr "Įvykiai"
 msgid "Expansionist"
 msgstr "Ekspansionistas"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:221
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:233
 msgid "Expected loot"
 msgstr "Numatomas grobis"
 
@@ -4087,7 +4091,7 @@ msgstr "Atleistas iš valdžios"
 msgid "Fish"
 msgstr "Žuvis"
 
-#: src/components/_layout/LayoutOptions.tsx:139
+#: src/components/_layout/LayoutOptions.tsx:141
 msgid "Flags"
 msgstr "Vėliavos"
 
@@ -4095,11 +4099,11 @@ msgstr "Vėliavos"
 msgid "Flail"
 msgstr "Spragilas"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:249
 msgid "Font"
 msgstr "Šriftas"
 
-#: src/components/_layout/LayoutOptions.tsx:251
+#: src/components/_layout/LayoutOptions.tsx:261
 msgid "Font size"
 msgstr "Šrifto dydis"
 
@@ -4234,7 +4238,7 @@ msgstr "Laimėjai Dalybas!"
 msgid "Gives <0>{0}</0>"
 msgstr "Suteikia <0>{0}</0>"
 
-#: src/components/_layout/LayoutOptions.tsx:105
+#: src/components/_layout/LayoutOptions.tsx:107
 msgid "Globe (experimental)"
 msgstr "Gaublys (eksperimentinis)"
 
@@ -4284,7 +4288,7 @@ msgstr "Vyriausybės atlyginimas"
 msgid "Grain"
 msgstr "Grūdai"
 
-#: src/components/_layout/LayoutOptions.tsx:112
+#: src/components/_layout/LayoutOptions.tsx:114
 msgid "Graticule"
 msgstr "Koordinačių tinklelis"
 
@@ -4491,16 +4495,16 @@ msgstr "Pataikyk <0>{count}</0> kartų mūšiuose"
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Kovodamas už savo šalį būdamas valdžioje gauni {0}% premijos efektyvumo."
 
-#: src/components/_economy/company/CompanyHeader.tsx:69
-#: src/components/_military/mu/MuHeader.tsx:151
-#: src/components/_military/tournament/TournamentHeader.tsx:116
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:96
+#: src/components/_economy/company/CompanyHeader.tsx:68
+#: src/components/_military/mu/MuHeader.tsx:150
+#: src/components/_military/tournament/TournamentHeader.tsx:145
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:95
 #: src/components/_other/shop/ShopHeader.tsx:17
-#: src/components/_political/alliance/AllianceHeader.tsx:109
+#: src/components/_political/alliance/AllianceHeader.tsx:108
 #: src/components/_political/country/CountryHeader.tsx:81
 #: src/components/_political/party/PartyHeader.tsx:99
 #: src/components/_political/region/RegionHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:163
 msgid "Home"
 msgstr "Pradžia"
 
@@ -4653,7 +4657,7 @@ msgstr "Tyčiniai arba pasikartojantys šios politikos pažeidimai užtrauks nuo
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:168
+#: src/components/_user/user/UserHeader.tsx:169
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -4757,7 +4761,7 @@ msgstr "Prisijungti prie <0/>"
 msgid "Join a Military Unit"
 msgstr "Įstok į Karinį Vienetą"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:152
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:153
 msgid "Join a military unit to take part"
 msgstr "Kad dalyvautum, įstok į karinį vienetą"
 
@@ -4851,7 +4855,7 @@ msgstr "Peiliams nereikia amunicijos"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Suduok <0>{count}</0> kritinių smūgių"
 
-#: src/components/_layout/LayoutOptions.tsx:192
+#: src/components/_layout/LayoutOptions.tsx:202
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Kalba"
@@ -4860,7 +4864,7 @@ msgstr "Kalba"
 msgid "Last"
 msgstr "Paskutinis"
 
-#: src/components/_user/user/UserHeader.tsx:327
+#: src/components/_user/user/UserHeader.tsx:328
 msgid "Last connection"
 msgstr "Paskutinis prisijungimas"
 
@@ -4912,7 +4916,7 @@ msgstr "Įstatymas nepriimtas"
 msgid "Law proposed"
 msgstr "Pasiūlytas įstatymas"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:115
+#: src/components/_political/alliance/AllianceHeader.tsx:114
 #: src/components/_political/country/CountryHeader.tsx:87
 #: src/pages/alliance/[allianceId]/index.tsx:95
 #: src/pages/country/[countryId]/index.tsx:182
@@ -5067,7 +5071,7 @@ msgstr "Pasiektas limitas"
 msgid "Limited:"
 msgstr "Ribota:"
 
-#: src/components/_layout/LayoutOptions.tsx:281
+#: src/components/_layout/LayoutOptions.tsx:291
 msgid "Line"
 msgstr "Linija"
 
@@ -5187,8 +5191,8 @@ msgstr "Vadyba"
 msgid "map"
 msgstr "žemėlapis"
 
-#: src/components/_layout/LayoutMapOptions.tsx:77
-#: src/components/_layout/LayoutOptions.tsx:102
+#: src/components/_layout/LayoutLeftIcons.tsx:157
+#: src/components/_layout/LayoutOptions.tsx:104
 msgid "Map"
 msgstr "Žemėlapis"
 
@@ -5197,7 +5201,7 @@ msgstr "Žemėlapis"
 msgid "Map Accent"
 msgstr "Žemėlapio Akcentas"
 
-#: src/components/_layout/LayoutOptions.tsx:144
+#: src/components/_layout/LayoutOptions.tsx:146
 msgid "Map icons"
 msgstr "Žemėlapio piktogramos"
 
@@ -5218,11 +5222,16 @@ msgstr "Rinkos mokestis"
 msgid "Marshal"
 msgstr "Maršalas"
 
+#: src/components/_military/tournament/TournamentHeader.tsx:118
+msgid "Max equipment rarity"
+msgstr ""
+
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "Pasiektas didžiausias lygis!"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:80
+#: src/components/_military/tournament/TournamentHeader.tsx:112
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:85
 msgid "Max rarity"
 msgstr "Maks. retumas"
 
@@ -5429,7 +5438,7 @@ msgstr "Karinio vieneto skelbimas"
 msgid "Military unit created"
 msgstr "Karinis vienetas sukurtas"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:105
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:104
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:33
 msgid "Military units"
 msgstr "Kariniai vienetai"
@@ -5461,7 +5470,7 @@ msgstr "Ekonomikos Ministras"
 msgid "Minister of Foreign Affairs"
 msgstr "Užsienio Reikalų Ministras"
 
-#: src/components/_layout/LayoutOptions.tsx:182
+#: src/components/_layout/LayoutOptions.tsx:192
 msgid "Mission tags"
 msgstr "Misijų žymos"
 
@@ -5512,7 +5521,7 @@ msgstr "Mėnesinė žala: <0>{monthlyDamages}</0>"
 msgid "Monthly:"
 msgstr "Per mėnesį:"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:168
+#: src/components/_layout/LayoutLeftIcons.tsx:227
 #: src/components/_layout/MoreButtonNav.tsx:196
 msgid "More"
 msgstr "Daugiau"
@@ -5561,7 +5570,7 @@ msgid "Moved to a new company"
 msgstr "Perėjo į naują įmonę"
 
 #: src/components/_layout/LayoutMenu.tsx:118
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
 msgstr "MU"
@@ -5599,7 +5608,7 @@ msgstr "Perduota MU Nuosavybė"
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "MU pasiekė {0} lygį! Apdovanojimas: {rewardDisplay}"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:44
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:49
 msgid "MU Tournament"
 msgstr "MU Turnyras"
 
@@ -5910,7 +5919,7 @@ msgstr "Nėra kongreso narių"
 msgid "No contributions yet"
 msgstr "Kol kas įnašų nėra"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:123
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:131
 msgid "No country has registered yet. Be the first."
 msgstr "Dar neužsiregistravo nė viena šalis. Būk pirmas."
 
@@ -5938,7 +5947,8 @@ msgstr "Dar nėra rinkinių – pridėk vieną, kad galėtum greitai užsidėti 
 msgid "No laws yet"
 msgstr "Įstatymų dar nėra"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:93
+#: src/components/_military/tournament/TournamentHeader.tsx:136
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:97
 msgid "No limit"
 msgstr "Be limito"
 
@@ -5974,7 +5984,7 @@ msgstr "Pinigų reitingo dar nėra."
 msgid "No motions yet"
 msgstr "Pasiūlymų dar nėra"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:121
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:129
 msgid "No MU has registered yet. Be the first."
 msgstr "Dar neužsiregistravo nė vienas MU. Būk pirmas."
 
@@ -6094,7 +6104,7 @@ msgstr "Nepriklauso jokiam aljansui"
 msgid "Not set"
 msgstr "Nenustatyta"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:158
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:170
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
 msgstr "Kol kas nieko nelaimėta. Suduok vykstančiame mūšyje, kad pradėtum uždirbti, ir pakilk į žalos reitingo viršų, kad užsitikrintum vietą jo grobio fonde."
 
@@ -6155,8 +6165,8 @@ msgstr "Neįvykdžius kontrakto: -1 rep. už kiekvieną <0/> biudžete ir -1 rep
 msgid "One step away from legendary..."
 msgstr "Vos vienas žingsnis iki legendinio..."
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:149
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:153
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:161
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:165
 msgid "Ongoing battles"
 msgstr "Vykstantys mūšiai"
 
@@ -6165,7 +6175,7 @@ msgstr "Vykstantys mūšiai"
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
 msgstr "Tavo teritorijoje atsiranda tik Buff'ai ir maisto telkiniai (koka, grūdai, gyvuliai ir žuvis)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:163
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:164
 msgid "Only MU owners and commanders can register the unit"
 msgstr "Tik MU savininkai ir vadai gali užregistruoti vienetą"
 
@@ -6173,7 +6183,7 @@ msgstr "Tik MU savininkai ir vadai gali užregistruoti vienetą"
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Tik rėmėjai gali matyti savo išlaidų ir pajamų išklotinę."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:165
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:166
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr "Užregistruoti gali tik vyriausybė arba šios šalies MU savininkas ar vadas"
 
@@ -6242,7 +6252,7 @@ msgstr "Atidaryk savo dėžę!"
 msgid "Operative"
 msgstr "Operatyvininkas"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:149
+#: src/components/_layout/LayoutLeftIcons.tsx:208
 msgid "Options"
 msgstr "Parinktys"
 
@@ -6349,7 +6359,7 @@ msgstr "Kelnės"
 msgid "Paper"
 msgstr "Popierius"
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:77
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:76
 msgid "Participants"
 msgstr "Dalyviai"
 
@@ -6976,7 +6986,7 @@ msgstr "Sumažina per mūšius prarandamą sveikatos kiekį"
 msgid "Referral link copied to clipboard"
 msgstr "Rekomendacijos nuoroda nukopijuota į iškarpinę"
 
-#: src/components/_user/user/UserHeader.tsx:229
+#: src/components/_user/user/UserHeader.tsx:230
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7059,25 +7069,25 @@ msgstr "Regionai"
 msgid "Regions you occupy generate double the amount of resistance."
 msgstr "Tavo okupuoti regionai generuoja dvigubai didesnį pasipriešinimą."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:123
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
 msgstr "Užregistruoti savo šalį"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:121
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:122
 msgid "Register my MU"
 msgstr "Užregistruoti savo MU"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:106
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:122
 msgid "Registered countries"
 msgstr "Užsiregistravusios šalys"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:120
 msgid "Registered MUs"
 msgstr "Užsiregistravę MU"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:52
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:57
 msgid "Registration closes in"
 msgstr "Registracija baigsis po"
 
@@ -7236,7 +7246,7 @@ msgstr "Pranešti"
 msgid "Report user"
 msgstr "Pranešti apie žaidėją"
 
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:202
 msgid "Reports"
 msgstr "Ataskaitos"
 
@@ -7395,7 +7405,7 @@ msgid "Round {roundNumber} loot pool"
 msgstr "{roundNumber} raundo grobio fondas"
 
 #. placeholder {0}: i + 1
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:76
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:75
 msgid "Round #{0}"
 msgstr "Raundas #{0}"
 
@@ -7438,7 +7448,7 @@ msgstr "Laimėti raundai"
 msgid "Rounds Won"
 msgstr "Laimėti Raundai"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:159
+#: src/components/_layout/LayoutLeftIcons.tsx:218
 #: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Taisyklės"
@@ -7697,9 +7707,9 @@ msgstr "Nustatyk profilio nuotrauką"
 msgid "Set your username"
 msgstr "Nustatyk savo naudotojo vardą"
 
-#: src/components/_military/mu/MuHeader.tsx:193
+#: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:235
+#: src/components/_user/user/UserHeader.tsx:236
 msgid "Settings"
 msgstr "Nustatymai"
 
@@ -7752,8 +7762,8 @@ msgstr "Rodoma kas savaitę"
 msgid "Side"
 msgstr "Pusė"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:102
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:103
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:77
 msgid "Skill bonus"
 msgstr "Įgūdžių bonusas"
 
@@ -7766,7 +7776,7 @@ msgid "Skill upgrade:"
 msgstr "Įgūdžio tobulinimas:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:183
+#: src/components/_user/user/UserHeader.tsx:184
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Įgūdžiai"
@@ -7821,7 +7831,7 @@ msgstr "Praleisti Pamoką"
 msgid "Sling Stones"
 msgstr "Laidyklės akmenys"
 
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:197
 msgid "Small GIFs"
 msgstr "Maži GIF"
 
@@ -7837,7 +7847,7 @@ msgstr "Bendravimas ir Žinutės"
 msgid "Some of your companies are disabled."
 msgstr "Kai kurios tavo įmonės yra išjungtos."
 
-#: src/components/_layout/LayoutOptions.tsx:166
+#: src/components/_layout/LayoutOptions.tsx:176
 msgid "Sound effects"
 msgstr "Garso efektai"
 
@@ -7921,7 +7931,7 @@ msgstr "Pradėti prezidento rinkimus"
 msgid "Start revolution"
 msgstr "Pradėti revoliuciją"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:78
+#: src/components/_military/tournament/TournamentHeader.tsx:79
 #: src/components/_military/war/WarHeader.tsx:65
 msgid "Started"
 msgstr "Prasidėjo"
@@ -7942,7 +7952,7 @@ msgstr "Pradinės"
 msgid "Starting from the bottom..."
 msgstr "Kylam nuo pat dugno..."
 
-#: src/components/_military/tournament/TournamentHeader.tsx:58
+#: src/components/_military/tournament/TournamentHeader.tsx:59
 msgid "Starts"
 msgstr "Prasideda"
 
@@ -7968,7 +7978,7 @@ msgstr "Statistika"
 msgid "Stats regenerate every hour"
 msgstr "Statistika atsikuria kas valandą"
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:82
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:81
 #: src/pages/war/[warId]/index.tsx:40
 msgid "Status"
 msgstr "Būsena"
@@ -8146,8 +8156,8 @@ msgstr "Mokesčiai"
 msgid "Team {0}"
 msgstr "Komanda {0}"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:71
-#: src/components/_military/tournament/TournamentHeader.tsx:122
+#: src/components/_military/tournament/TournamentHeader.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:151
 msgid "Teams"
 msgstr "Komandos"
 
@@ -8165,7 +8175,7 @@ msgstr "Sąlygos"
 msgid "Terms of Service"
 msgstr "Paslaugų teikimo sąlygos"
 
-#: src/components/_layout/LayoutOptions.tsx:292
+#: src/components/_layout/LayoutOptions.tsx:302
 msgid "Texture"
 msgstr "Tekstūra"
 
@@ -8325,6 +8335,10 @@ msgstr "Šis regionas nėra sujungtas su savininko sostine."
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:205
 msgid "This round only"
 msgstr "Tik šiam raundui"
+
+#: src/components/_military/tournament/TournamentHeader.tsx:125
+msgid "This tournament has no equipment rarity cap: any gear can be used."
+msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:64
 msgid "This user is not part of any family group"
@@ -8533,7 +8547,7 @@ msgid "Total:"
 msgstr "Iš viso:"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:176
+#: src/components/_military/battle/ActiveBattlesList.tsx:175
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -8588,11 +8602,11 @@ msgstr "Prekybos sandoris"
 msgid "Trainee"
 msgstr "Stažuotojas"
 
-#: src/components/_user/user/UserHeader.tsx:209
+#: src/components/_user/user/UserHeader.tsx:210
 msgid "Transac."
 msgstr "Oper."
 
-#: src/components/_military/mu/MuHeader.tsx:169
+#: src/components/_military/mu/MuHeader.tsx:168
 #: src/components/_political/country/CountryHeader.tsx:100
 #: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:93
@@ -8637,7 +8651,7 @@ msgstr "Pamokos"
 msgid "Tutorials reseted"
 msgstr "Pamokos nustatytos iš naujo"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:52
+#: src/components/_military/tournament/TournamentHeader.tsx:53
 msgid "Type"
 msgstr "Tipas"
 
@@ -8645,7 +8659,7 @@ msgstr "Tipas"
 msgid "Tyrannosaurus Rex"
 msgstr "Tiranozauras Reksas"
 
-#: src/components/_layout/LayoutOptions.tsx:155
+#: src/components/_layout/LayoutOptions.tsx:157
 msgid "UI"
 msgstr "UI"
 
@@ -8705,7 +8719,7 @@ msgstr "Atrakink mygtuką \"Gaminti viską\""
 msgid "Unlocked pack"
 msgstr "Atrakintas paketas"
 
-#: src/components/_user/user/UserHeader.tsx:435
+#: src/components/_user/user/UserHeader.tsx:436
 msgid "Unmuted <0/>"
 msgstr "Atitildytas <0/>"
 
@@ -9109,6 +9123,14 @@ msgstr "Ginklas:"
 msgid "Weapons"
 msgstr "Ginklai"
 
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+msgid "Weapons, ammo and gear above {maxRarityLabel} rarity cannot be used in this tournament's battles."
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:120
+msgid "Weapons, ammo and gear above this rarity cannot be used in this tournament's battles."
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:193
 msgid "Weekly"
@@ -9143,7 +9165,7 @@ msgstr "Sveiki atvykę į War Era!"
 msgid "Welcome to your economy!"
 msgstr "Sveiki atvykę į savo ekonomiką!"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:150
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr "Kiek tau iki šiol atnešė mūšiai, kuriuose kovoji (smūgiai, žala, dėžės, premijos ir sutarčių pinigai), taip pat grobio fondo daiktai, kuriuos pagal esamą eilę turėtum gauti. Fondo daiktai dar nelaimėti: jie skiriami pagal žalos reitingus ir tavo taps tik tada, kai fondas bus išdalytas."
 
@@ -9194,7 +9216,7 @@ msgstr "su priedu ir ištikimybe"
 msgid "With bounty"
 msgstr "Su atlygiu"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:102
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:103
 msgid "Withdraw"
 msgstr "Pasitraukti"
 
@@ -9202,7 +9224,7 @@ msgstr "Pasitraukti"
 msgid "Wizard Hat"
 msgstr "Burtininko Skrybėlė"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:90
+#: src/components/_military/tournament/TournamentHeader.tsx:91
 #: src/pages/events/index.tsx:116
 msgid "Won by"
 msgstr "Laimėjo"
@@ -9245,7 +9267,7 @@ msgid "Worker updated!"
 msgstr "Darbuotojas atnaujintas!"
 
 #: src/components/_economy/company/CompanyHeader.tsx:35
-#: src/components/_economy/company/CompanyHeader.tsx:75
+#: src/components/_economy/company/CompanyHeader.tsx:74
 #: src/components/_economy/company/CompanyTooltip.tsx:85
 #: src/pages/company/[companyId]/index.tsx:87
 #: src/pages/company/[companyId]/workers.tsx:37
@@ -9260,7 +9282,7 @@ msgstr "Dirbti kitiems yra puikus būdas užsidirbti pinigų pradžioje."
 msgid "World <0/>"
 msgstr "Pasaulio <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:234
+#: src/components/_layout/LayoutOptions.tsx:244
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "Blogiausias"
@@ -9503,7 +9525,7 @@ msgstr "Turi būti bent {0} lygio, kad galėtum balsuoti."
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Privalai išleisti visus 3 etikos taškus (liko {pointsRemaining})"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:154
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:155
 msgid "You need a country to take part"
 msgstr "Kad dalyvautum, turi turėti šalį"
 
@@ -9716,11 +9738,11 @@ msgstr "Tavo pilietybė netrukus pasikeis"
 msgid "Your country"
 msgstr "Tavo šalis"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:108
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
 msgstr "Tavo šalis užregistruota"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:142
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:143
 msgid "Your country is registered for this tournament"
 msgstr "Tavo šalis užregistruota šiam turnyrui"
 
@@ -9801,11 +9823,11 @@ msgstr "Tavo karinio vieneto pilietybė yra šalis, kuriai jis atstovauja. Jos p
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
 msgstr "Tavo MU turi <0/> reputacijos ir negali dalyvauti samdinių kontraktų aukcionuose. Sumokėk, kad išsipirktum reputaciją (kartą per dieną)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:106
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:107
 msgid "Your MU is registered"
 msgstr "Tavo MU užregistruotas"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:140
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:141
 msgid "Your MU is registered for this tournament"
 msgstr "Tavo MU užregistruotas šiam turnyrui"
 
@@ -9868,10 +9890,10 @@ msgstr "tavo@email.com"
 msgid "Yours"
 msgstr "Tavo"
 
-#: src/components/_layout/LayoutMapIcons.tsx:155
+#: src/components/_layout/LayoutLeftIcons.tsx:134
 msgid "Zoom in"
 msgstr "Priartinti"
 
-#: src/components/_layout/LayoutMapIcons.tsx:146
+#: src/components/_layout/LayoutLeftIcons.tsx:142
 msgid "Zoom out"
 msgstr "Nutolinti"

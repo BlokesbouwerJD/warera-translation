@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Niedriglohnarbeit (unter dem 0,8x und über 1,2x des Normallohns)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:439
+#: src/components/_user/user/UserHeader.tsx:440
 msgid " - Reason: {0}"
 msgstr " - Grund: {0}"
 
@@ -200,7 +200,7 @@ msgstr "*Kann brennen"
 msgid "/day"
 msgstr "/Tag"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
 msgstr ""
 
@@ -819,7 +819,7 @@ msgstr "<0>Unruhen</0> stellen interne Spannungen im Land dar.<1/><2/>Bürger k�
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
 msgstr "<0>Dein Konto erfordert eine zusätzliche Verifizierung. Bitte verifiziere deine Telefonnummer so schnell wie möglich, um dein Konto weiterhin normal nutzen zu können. Nicht verifizierte Konten haben nach 48 Stunden eingeschränkten Zugriff und können nach 5 Tagen dauerhaft gesperrt werden.</0><1>Telefonnummern sind verschlüsselt und für keinen Administrator sichtbar.</1>"
 
-#: src/components/_layout/LayoutOptions.tsx:99
+#: src/components/_layout/LayoutOptions.tsx:101
 msgid "= consumes more power"
 msgstr " = verbraucht mehr Energie"
 
@@ -1335,10 +1335,10 @@ msgstr ""
 msgid "Access war"
 msgstr "Krieg aufrufen"
 
-#: src/components/_military/mu/MuHeader.tsx:163
+#: src/components/_military/mu/MuHeader.tsx:162
 #: src/components/_political/country/CountryHeader.tsx:94
 #: src/components/_political/party/PartyHeader.tsx:117
-#: src/components/_user/user/UserHeader.tsx:176
+#: src/components/_user/user/UserHeader.tsx:177
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1449,7 +1449,7 @@ msgstr "Fortgeschrittene Hose"
 msgid "Agrarian"
 msgstr "Agrarier"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:132
+#: src/components/_military/battle/ActiveBattlesList.tsx:133
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
 msgid "All"
@@ -1665,7 +1665,7 @@ msgstr "API-Tokens"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API-Tokens ermöglichen es externen Anwendungen, in Ihrem Namen auf die API zuzugreifen. Verwenden Sie den Token im <0>X-API-Key</0>-Header. Jeder Token hat ein Ratelimit von 200 Anfragen pro Minute."
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:279
 msgid "App pattern"
 msgstr "App-Muster"
 
@@ -1673,7 +1673,7 @@ msgstr "App-Muster"
 msgid "Application fee"
 msgstr "Antragsgebühr"
 
-#: src/components/_military/mu/MuHeader.tsx:157
+#: src/components/_military/mu/MuHeader.tsx:156
 #: src/components/_political/party/PartyHeader.tsx:137
 msgid "Applications"
 msgstr ""
@@ -1774,7 +1774,7 @@ msgstr "Artikel-Trinkgeld"
 msgid "Article tipped"
 msgstr "Artikel mit Trinkgeld belohnt"
 
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/user/UserHeader.tsx:224
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Artikel"
@@ -1803,7 +1803,7 @@ msgstr "AT Kampfhubschrauber"
 msgid "AT Heavy Ammo"
 msgstr "AT Schwere Munition"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:144
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:152
 msgid "At least {MIN_REGISTRATIONS} are needed or the tournament is cancelled."
 msgstr ""
 
@@ -1871,7 +1871,7 @@ msgstr ""
 msgid "Attacker"
 msgstr "Angreifer"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:190
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:191
 msgid "Attackers"
 msgstr "Angreifer"
 
@@ -1901,7 +1901,7 @@ msgstr "Authentifizierung fehlgeschlagen. Bitte versuche es erneut."
 msgid "Auto approval"
 msgstr "Automatische Genehmigung"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:212
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Automatisch ausrüsten, wenn Gegenstand zerbricht"
@@ -1942,6 +1942,10 @@ msgstr "b. Veröffentlichung persönlicher Informationen oder Doxxing (z. B. Nam
 msgid "Baby Boomer"
 msgstr "Babyboomer"
 
+#: src/components/_layout/LayoutOptions.tsx:168
+msgid "Background pattern"
+msgstr ""
+
 #: src/components/_user/referral/ReferralList.tsx:111
 msgid "Badge won"
 msgstr "Abzeichen gewonnen"
@@ -1971,7 +1975,7 @@ msgstr "Ball"
 msgid "Bankruptcy"
 msgstr "Bankrott"
 
-#: src/components/_user/user/UserHeader.tsx:428
+#: src/components/_user/user/UserHeader.tsx:429
 msgid "Banned"
 msgstr "Gebannt"
 
@@ -1991,8 +1995,8 @@ msgstr "Banner-Geschenk gesendet"
 msgid "Banners"
 msgstr "Banner"
 
-#: src/components/_user/user/UserHeader.tsx:194
-#: src/components/_user/user/UserHeader.tsx:242
+#: src/components/_user/user/UserHeader.tsx:195
+#: src/components/_user/user/UserHeader.tsx:243
 msgid "Bans"
 msgstr "Banns"
 
@@ -2020,12 +2024,12 @@ msgstr "Einfacher Helm"
 msgid "Basic Pants"
 msgstr "Einfache Hose"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:86
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:85
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:187
 msgid "Battle"
 msgstr "Schlacht"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:166
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
 msgid "Battle by battle"
 msgstr ""
 
@@ -2095,11 +2099,11 @@ msgstr "Kampfbefehle zur Verteidigung deiner Kernregionen sowie Aufstände koste
 msgid "Battles"
 msgstr "Kämpfe"
 
-#: src/components/_layout/LayoutOptions.tsx:122
+#: src/components/_layout/LayoutOptions.tsx:124
 msgid "Battles on layout"
 msgstr "Schlachten im Layout"
 
-#: src/components/_layout/LayoutOptions.tsx:117
+#: src/components/_layout/LayoutOptions.tsx:119
 msgid "Battles on map"
 msgstr "Schlachten auf der Karte"
 
@@ -2116,7 +2120,7 @@ msgstr "Gewonnene Schlachten"
 msgid "Become a Candidate"
 msgstr "Kandidat werden"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Beste"
@@ -2145,7 +2149,7 @@ msgstr "Blockieren (Inhalt ausblenden)"
 msgid "Blue Staff"
 msgstr "Blauer Stab"
 
-#: src/components/_layout/LayoutOptions.tsx:158
+#: src/components/_layout/LayoutOptions.tsx:160
 msgid "Blur"
 msgstr "Unschärfe"
 
@@ -2213,7 +2217,7 @@ msgstr "Budget"
 msgid "Buff ended"
 msgstr "Buff beendet"
 
-#: src/components/_user/user/UserHeader.tsx:311
+#: src/components/_user/user/UserHeader.tsx:312
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2282,7 +2286,7 @@ msgstr "Indem du fortfährst, stimmst du unseren <0>Nutzungsbedingungen</0> zu."
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
 msgstr "Durch das Ablehnen der Lohnkürzung verlassen Sie das Unternehmen und verlieren Ihren Treuebonus von +{0}%."
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:150
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:151
 msgid "By side"
 msgstr "Nach Seite"
 
@@ -2510,7 +2514,7 @@ msgstr "Wähle deine Seite und klicke, um <0>Schaden</0> zu verursachen! Schlage
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Auswahl eines spezifischen Ausrüstung kostet ×2 Stahl:"
 
-#: src/components/_user/user/UserHeader.tsx:292
+#: src/components/_user/user/UserHeader.tsx:293
 msgid "Citizen since"
 msgstr ""
 
@@ -2610,7 +2614,7 @@ msgstr "Oberst"
 msgid "Color scheme"
 msgstr "Farbschema"
 
-#: src/components/_layout/LayoutOptions.tsx:174
+#: src/components/_layout/LayoutOptions.tsx:184
 msgid "Colorblind mode"
 msgstr "Modus für Farbenblinde"
 
@@ -2638,7 +2642,7 @@ msgstr "Community"
 
 #: src/components/_layout/LayoutMenu.tsx:173
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:215
+#: src/components/_user/user/UserHeader.tsx:216
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2813,7 +2817,7 @@ msgstr "Wird beim Kämpfen in Schlachten verbraucht"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Der Konsum erhöht deinen <0>Angriff</0> für {0}h.<1/> Danach verringert er ihn um den gleichen Betrag für {1}h"
 
-#: src/components/_layout/LayoutOptions.tsx:127
+#: src/components/_layout/LayoutOptions.tsx:129
 msgid "Contextual borders"
 msgstr "Kontextbezogene Grenzen"
 
@@ -2837,7 +2841,7 @@ msgstr "Vertrag rückgängig gemacht"
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:108
-#: src/components/_military/mu/MuHeader.tsx:183
+#: src/components/_military/mu/MuHeader.tsx:182
 #: src/components/_political/country/CountryHeader.tsx:152
 msgid "Contracts"
 msgstr "Verträge"
@@ -2919,7 +2923,7 @@ msgstr "Länder"
 #: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:133
 #: src/components/_military/battle/BattleCountrySide.tsx:73
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
 #: src/components/_political/map/MapMenu.tsx:317
@@ -2968,7 +2972,7 @@ msgstr "Landes-Produktionsbonus"
 msgid "Country to invite"
 msgstr "Einzuladendes Land"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:46
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:51
 msgid "Country Tournament"
 msgstr ""
 
@@ -3167,7 +3171,7 @@ msgstr "Dunkle Ära"
 msgid "Dark Era Pack"
 msgstr "Dunkle-Ära-Paket"
 
-#: src/components/_layout/LayoutOptions.tsx:149
+#: src/components/_layout/LayoutOptions.tsx:151
 msgid "Dark map"
 msgstr "Dunkle Karte"
 
@@ -3231,7 +3235,7 @@ msgstr "Verursacht etwas Schaden"
 msgid "Debuff ended"
 msgstr "Debuff beendet"
 
-#: src/components/_user/user/UserHeader.tsx:319
+#: src/components/_user/user/UserHeader.tsx:320
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3276,7 +3280,7 @@ msgstr "Verteidigen"
 msgid "Defender"
 msgstr "Verteidiger"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:187
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:188
 msgid "Defenders"
 msgstr "Verteidiger"
 
@@ -3518,7 +3522,7 @@ msgstr "Spende"
 msgid "Donation Summary"
 msgstr "Spendenübersicht"
 
-#: src/components/_military/mu/MuHeader.tsx:175
+#: src/components/_military/mu/MuHeader.tsx:174
 #: src/components/_political/country/CountryHeader.tsx:106
 #: src/components/_political/party/PartyHeader.tsx:123
 #: src/pages/country/[countryId]/donations.tsx:17
@@ -3707,7 +3711,7 @@ msgid "End the defensive pact with <0/>."
 msgstr "Verteidigungsbündnis mit <0/> auflösen."
 
 #: src/components/_military/battle/BattleSystem.tsx:751
-#: src/components/_military/tournament/TournamentHeader.tsx:84
+#: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
 msgstr "Beendet"
@@ -3746,7 +3750,7 @@ msgid "Entrepreneurship"
 msgstr "Unternehmertum"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:199
+#: src/components/_layout/LayoutOptions.tsx:209
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -3806,7 +3810,7 @@ msgstr "Events"
 msgid "Expansionist"
 msgstr "Expansionist"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:221
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:233
 msgid "Expected loot"
 msgstr ""
 
@@ -4087,7 +4091,7 @@ msgstr "Aus der Regierung entlassen"
 msgid "Fish"
 msgstr "Fisch"
 
-#: src/components/_layout/LayoutOptions.tsx:139
+#: src/components/_layout/LayoutOptions.tsx:141
 msgid "Flags"
 msgstr "Flaggen"
 
@@ -4095,11 +4099,11 @@ msgstr "Flaggen"
 msgid "Flail"
 msgstr "Flegel"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:249
 msgid "Font"
 msgstr "Schriftart"
 
-#: src/components/_layout/LayoutOptions.tsx:251
+#: src/components/_layout/LayoutOptions.tsx:261
 msgid "Font size"
 msgstr "Schriftgröße"
 
@@ -4234,7 +4238,7 @@ msgstr "Giveaway gewonnen!"
 msgid "Gives <0>{0}</0>"
 msgstr "Gibt <0>{0}</0>"
 
-#: src/components/_layout/LayoutOptions.tsx:105
+#: src/components/_layout/LayoutOptions.tsx:107
 msgid "Globe (experimental)"
 msgstr "Globus (experimentell)"
 
@@ -4284,7 +4288,7 @@ msgstr "Regierungsgehalt"
 msgid "Grain"
 msgstr "Getreide"
 
-#: src/components/_layout/LayoutOptions.tsx:112
+#: src/components/_layout/LayoutOptions.tsx:114
 msgid "Graticule"
 msgstr "Gradnetz"
 
@@ -4491,16 +4495,16 @@ msgstr "Triff <0>{count}</0> Mal in Schlachten"
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Das Kämpfen für das eigene Land, während man in der Regierung ist, gibt {0}% Kopfgeld-Effizienz."
 
-#: src/components/_economy/company/CompanyHeader.tsx:69
-#: src/components/_military/mu/MuHeader.tsx:151
-#: src/components/_military/tournament/TournamentHeader.tsx:116
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:96
+#: src/components/_economy/company/CompanyHeader.tsx:68
+#: src/components/_military/mu/MuHeader.tsx:150
+#: src/components/_military/tournament/TournamentHeader.tsx:145
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:95
 #: src/components/_other/shop/ShopHeader.tsx:17
-#: src/components/_political/alliance/AllianceHeader.tsx:109
+#: src/components/_political/alliance/AllianceHeader.tsx:108
 #: src/components/_political/country/CountryHeader.tsx:81
 #: src/components/_political/party/PartyHeader.tsx:99
 #: src/components/_political/region/RegionHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:163
 msgid "Home"
 msgstr "Startseite"
 
@@ -4653,7 +4657,7 @@ msgstr "Absichtliche oder wiederholte Verstöße gegen diese Regel führen zu ei
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:168
+#: src/components/_user/user/UserHeader.tsx:169
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -4757,7 +4761,7 @@ msgstr "Tritt <0/> bei"
 msgid "Join a Military Unit"
 msgstr "Tritt einer Militäreinheit bei"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:152
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:153
 msgid "Join a military unit to take part"
 msgstr ""
 
@@ -4851,7 +4855,7 @@ msgstr "Messer akzeptieren keine Munition"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Erziele <0>{count}</0> kritische Treffer"
 
-#: src/components/_layout/LayoutOptions.tsx:192
+#: src/components/_layout/LayoutOptions.tsx:202
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Sprache"
@@ -4860,7 +4864,7 @@ msgstr "Sprache"
 msgid "Last"
 msgstr "Letzte"
 
-#: src/components/_user/user/UserHeader.tsx:327
+#: src/components/_user/user/UserHeader.tsx:328
 msgid "Last connection"
 msgstr ""
 
@@ -4912,7 +4916,7 @@ msgstr "Gesetz abgelehnt"
 msgid "Law proposed"
 msgstr "Gesetz vorgeschlagen"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:115
+#: src/components/_political/alliance/AllianceHeader.tsx:114
 #: src/components/_political/country/CountryHeader.tsx:87
 #: src/pages/alliance/[allianceId]/index.tsx:95
 #: src/pages/country/[countryId]/index.tsx:182
@@ -5067,7 +5071,7 @@ msgstr ""
 msgid "Limited:"
 msgstr "Begrenzt:"
 
-#: src/components/_layout/LayoutOptions.tsx:281
+#: src/components/_layout/LayoutOptions.tsx:291
 msgid "Line"
 msgstr "Linie"
 
@@ -5187,8 +5191,8 @@ msgstr "Management"
 msgid "map"
 msgstr "Karte"
 
-#: src/components/_layout/LayoutMapOptions.tsx:77
-#: src/components/_layout/LayoutOptions.tsx:102
+#: src/components/_layout/LayoutLeftIcons.tsx:157
+#: src/components/_layout/LayoutOptions.tsx:104
 msgid "Map"
 msgstr "Karte"
 
@@ -5197,7 +5201,7 @@ msgstr "Karte"
 msgid "Map Accent"
 msgstr "Karten-Akzent"
 
-#: src/components/_layout/LayoutOptions.tsx:144
+#: src/components/_layout/LayoutOptions.tsx:146
 msgid "Map icons"
 msgstr "Kartensymbole"
 
@@ -5218,11 +5222,16 @@ msgstr "Marktsteuer"
 msgid "Marshal"
 msgstr "Marschall"
 
+#: src/components/_military/tournament/TournamentHeader.tsx:118
+msgid "Max equipment rarity"
+msgstr ""
+
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "Maximales Level erreicht!"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:80
+#: src/components/_military/tournament/TournamentHeader.tsx:112
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:85
 msgid "Max rarity"
 msgstr ""
 
@@ -5429,7 +5438,7 @@ msgstr ""
 msgid "Military unit created"
 msgstr "Militäreinheit erstellt"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:105
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:104
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:33
 msgid "Military units"
 msgstr "Militäreinheiten"
@@ -5461,7 +5470,7 @@ msgstr "Wirtschaftsminister"
 msgid "Minister of Foreign Affairs"
 msgstr "Außenminister"
 
-#: src/components/_layout/LayoutOptions.tsx:182
+#: src/components/_layout/LayoutOptions.tsx:192
 msgid "Mission tags"
 msgstr "Missionssymbole"
 
@@ -5512,7 +5521,7 @@ msgstr "Monatlicher Schaden: <0>{monthlyDamages}</0>"
 msgid "Monthly:"
 msgstr "Monatlich:"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:168
+#: src/components/_layout/LayoutLeftIcons.tsx:227
 #: src/components/_layout/MoreButtonNav.tsx:196
 msgid "More"
 msgstr "Mehr"
@@ -5561,7 +5570,7 @@ msgid "Moved to a new company"
 msgstr "In ein neues Unternehmen gewechselt"
 
 #: src/components/_layout/LayoutMenu.tsx:118
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
 msgstr "ME"
@@ -5599,7 +5608,7 @@ msgstr "ME-Besitz übertragen"
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "ME hat Level {0} erreicht! Belohnung: {rewardDisplay}"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:44
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:49
 msgid "MU Tournament"
 msgstr ""
 
@@ -5910,7 +5919,7 @@ msgstr "Keine Kongressmitglieder"
 msgid "No contributions yet"
 msgstr "Noch keine Beiträge"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:123
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:131
 msgid "No country has registered yet. Be the first."
 msgstr ""
 
@@ -5938,7 +5947,8 @@ msgstr "Keine Ausrüstungs-Sets - Füge eins hinzu um eine komplette Ausrüstung
 msgid "No laws yet"
 msgstr "Noch keine Gesetze"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:93
+#: src/components/_military/tournament/TournamentHeader.tsx:136
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:97
 msgid "No limit"
 msgstr ""
 
@@ -5974,7 +5984,7 @@ msgstr "Noch keine Geld-Rangliste."
 msgid "No motions yet"
 msgstr "Noch keine Anträge"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:121
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:129
 msgid "No MU has registered yet. Be the first."
 msgstr ""
 
@@ -6094,7 +6104,7 @@ msgstr "Nicht in einer Allianz"
 msgid "Not set"
 msgstr "Nicht gesetzt"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:158
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:170
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
 msgstr ""
 
@@ -6155,8 +6165,8 @@ msgstr "Bei Vertragsfehlschlag: -1 Ruf pro <0/> Budget und -1 Ruf pro fehlende <
 msgid "One step away from legendary..."
 msgstr "Nur noch einen Schritt von legendär entfernt..."
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:149
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:153
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:161
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:165
 msgid "Ongoing battles"
 msgstr ""
 
@@ -6165,7 +6175,7 @@ msgstr ""
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
 msgstr "Nur Buffs und Nahrungsvorkommen erscheinen in deinen Grenzen (Koka, Getreide, Vieh und Fisch)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:163
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:164
 msgid "Only MU owners and commanders can register the unit"
 msgstr ""
 
@@ -6173,7 +6183,7 @@ msgstr ""
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Nur Supporter können ihre Ausgaben- und Einnahmenaufschlüsselung sehen."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:165
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:166
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr ""
 
@@ -6242,7 +6252,7 @@ msgstr "Öffne deine Kiste!"
 msgid "Operative"
 msgstr "Agent"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:149
+#: src/components/_layout/LayoutLeftIcons.tsx:208
 msgid "Options"
 msgstr "Optionen"
 
@@ -6349,7 +6359,7 @@ msgstr "Hosen"
 msgid "Paper"
 msgstr "Papier"
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:77
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:76
 msgid "Participants"
 msgstr ""
 
@@ -6976,7 +6986,7 @@ msgstr "Reduziert den Gesundheitsverlust beim Kämpfen in Schlachten"
 msgid "Referral link copied to clipboard"
 msgstr "Empfehlungslink in die Zwischenablage kopiert"
 
-#: src/components/_user/user/UserHeader.tsx:229
+#: src/components/_user/user/UserHeader.tsx:230
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7059,25 +7069,25 @@ msgstr "Regionen"
 msgid "Regions you occupy generate double the amount of resistance."
 msgstr "Von dir besetzte Regionen erzeugen die doppelte Menge an Widerstand."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:123
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:121
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:122
 msgid "Register my MU"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:106
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:122
 msgid "Registered countries"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:120
 msgid "Registered MUs"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:52
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:57
 msgid "Registration closes in"
 msgstr ""
 
@@ -7236,7 +7246,7 @@ msgstr "Melden"
 msgid "Report user"
 msgstr "Benutzer melden"
 
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:202
 msgid "Reports"
 msgstr "Meldungen"
 
@@ -7395,7 +7405,7 @@ msgid "Round {roundNumber} loot pool"
 msgstr "Lootpool Runde {roundNumber}"
 
 #. placeholder {0}: i + 1
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:76
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:75
 msgid "Round #{0}"
 msgstr "Runde #{0}"
 
@@ -7438,7 +7448,7 @@ msgstr "Gewonnene Runden"
 msgid "Rounds Won"
 msgstr "Gewonnene Runden"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:159
+#: src/components/_layout/LayoutLeftIcons.tsx:218
 #: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Regeln"
@@ -7697,9 +7707,9 @@ msgstr "Lege dein Profilbild fest"
 msgid "Set your username"
 msgstr "Lege deinen Benutzernamen fest"
 
-#: src/components/_military/mu/MuHeader.tsx:193
+#: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:235
+#: src/components/_user/user/UserHeader.tsx:236
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -7752,8 +7762,8 @@ msgstr "Wochenwerte anzeigen"
 msgid "Side"
 msgstr "Kampfseite"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:102
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:103
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:77
 msgid "Skill bonus"
 msgstr ""
 
@@ -7766,7 +7776,7 @@ msgid "Skill upgrade:"
 msgstr "Skill-Upgrade:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:183
+#: src/components/_user/user/UserHeader.tsx:184
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Fähigkeiten"
@@ -7821,7 +7831,7 @@ msgstr "Tutorial überspringen"
 msgid "Sling Stones"
 msgstr "Steine für die Schleuder"
 
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:197
 msgid "Small GIFs"
 msgstr ""
 
@@ -7837,7 +7847,7 @@ msgstr "Soziales & Nachrichten"
 msgid "Some of your companies are disabled."
 msgstr "Einige deiner Unternehmen sind deaktiviert."
 
-#: src/components/_layout/LayoutOptions.tsx:166
+#: src/components/_layout/LayoutOptions.tsx:176
 msgid "Sound effects"
 msgstr "Soundeffekte"
 
@@ -7921,7 +7931,7 @@ msgstr "Präsidentschaftswahl starten"
 msgid "Start revolution"
 msgstr "Revolution starten"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:78
+#: src/components/_military/tournament/TournamentHeader.tsx:79
 #: src/components/_military/war/WarHeader.tsx:65
 msgid "Started"
 msgstr ""
@@ -7942,7 +7952,7 @@ msgstr "Startet"
 msgid "Starting from the bottom..."
 msgstr "Ganz von unten anfangen..."
 
-#: src/components/_military/tournament/TournamentHeader.tsx:58
+#: src/components/_military/tournament/TournamentHeader.tsx:59
 msgid "Starts"
 msgstr ""
 
@@ -7968,7 +7978,7 @@ msgstr "Statistiken"
 msgid "Stats regenerate every hour"
 msgstr "Statistiken regenerieren sich jede Stunde"
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:82
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:81
 #: src/pages/war/[warId]/index.tsx:40
 msgid "Status"
 msgstr "Status"
@@ -8146,8 +8156,8 @@ msgstr "Steuern"
 msgid "Team {0}"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentHeader.tsx:71
-#: src/components/_military/tournament/TournamentHeader.tsx:122
+#: src/components/_military/tournament/TournamentHeader.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:151
 msgid "Teams"
 msgstr ""
 
@@ -8165,7 +8175,7 @@ msgstr "Bedingungen"
 msgid "Terms of Service"
 msgstr "Nutzungsbedingungen"
 
-#: src/components/_layout/LayoutOptions.tsx:292
+#: src/components/_layout/LayoutOptions.tsx:302
 msgid "Texture"
 msgstr "Textur"
 
@@ -8325,6 +8335,10 @@ msgstr "Diese Region ist nicht mit der Hauptstadt ihres Besitzers verbunden."
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:205
 msgid "This round only"
 msgstr "Nur diese Runde"
+
+#: src/components/_military/tournament/TournamentHeader.tsx:125
+msgid "This tournament has no equipment rarity cap: any gear can be used."
+msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:64
 msgid "This user is not part of any family group"
@@ -8533,7 +8547,7 @@ msgid "Total:"
 msgstr "Gesamt:"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:176
+#: src/components/_military/battle/ActiveBattlesList.tsx:175
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -8588,11 +8602,11 @@ msgstr "Handelsaktion"
 msgid "Trainee"
 msgstr "Auszubildender"
 
-#: src/components/_user/user/UserHeader.tsx:209
+#: src/components/_user/user/UserHeader.tsx:210
 msgid "Transac."
 msgstr "Transak."
 
-#: src/components/_military/mu/MuHeader.tsx:169
+#: src/components/_military/mu/MuHeader.tsx:168
 #: src/components/_political/country/CountryHeader.tsx:100
 #: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:93
@@ -8637,7 +8651,7 @@ msgstr "Tutorials"
 msgid "Tutorials reseted"
 msgstr "Tutorials zurückgesetzt"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:52
+#: src/components/_military/tournament/TournamentHeader.tsx:53
 msgid "Type"
 msgstr ""
 
@@ -8645,7 +8659,7 @@ msgstr ""
 msgid "Tyrannosaurus Rex"
 msgstr "Tyrannosaurus Rex"
 
-#: src/components/_layout/LayoutOptions.tsx:155
+#: src/components/_layout/LayoutOptions.tsx:157
 msgid "UI"
 msgstr "Benutzeroberfläche"
 
@@ -8705,7 +8719,7 @@ msgstr "'Alle produzieren'-Button freischalten"
 msgid "Unlocked pack"
 msgstr "Paket freigeschaltet"
 
-#: src/components/_user/user/UserHeader.tsx:435
+#: src/components/_user/user/UserHeader.tsx:436
 msgid "Unmuted <0/>"
 msgstr "<0/> entstummt"
 
@@ -9109,6 +9123,14 @@ msgstr "Waffe:"
 msgid "Weapons"
 msgstr "Waffen"
 
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+msgid "Weapons, ammo and gear above {maxRarityLabel} rarity cannot be used in this tournament's battles."
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:120
+msgid "Weapons, ammo and gear above this rarity cannot be used in this tournament's battles."
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:193
 msgid "Weekly"
@@ -9143,7 +9165,7 @@ msgstr "Willkommen bei War Era!"
 msgid "Welcome to your economy!"
 msgstr "Willkommen in deiner Wirtschaft!"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:150
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr ""
 
@@ -9194,7 +9216,7 @@ msgstr "mit Bonus + Treue"
 msgid "With bounty"
 msgstr "Mit Kopfgeld"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:102
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:103
 msgid "Withdraw"
 msgstr ""
 
@@ -9202,7 +9224,7 @@ msgstr ""
 msgid "Wizard Hat"
 msgstr "Zaubererhut"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:90
+#: src/components/_military/tournament/TournamentHeader.tsx:91
 #: src/pages/events/index.tsx:116
 msgid "Won by"
 msgstr "Gewonnen von"
@@ -9245,7 +9267,7 @@ msgid "Worker updated!"
 msgstr "Arbeiter aktualisiert!"
 
 #: src/components/_economy/company/CompanyHeader.tsx:35
-#: src/components/_economy/company/CompanyHeader.tsx:75
+#: src/components/_economy/company/CompanyHeader.tsx:74
 #: src/components/_economy/company/CompanyTooltip.tsx:85
 #: src/pages/company/[companyId]/index.tsx:87
 #: src/pages/company/[companyId]/workers.tsx:37
@@ -9260,7 +9282,7 @@ msgstr "Für andere zu arbeiten ist ein guter Weg, um am Anfang Geld zu verdiene
 msgid "World <0/>"
 msgstr "Welt <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:234
+#: src/components/_layout/LayoutOptions.tsx:244
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "Schlechteste"
@@ -9503,7 +9525,7 @@ msgstr "Du musst mindestens Level {0} sein, um abzustimmen."
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Du musst alle 3 Ethikpunkte vergeben ({pointsRemaining} verbleibend)"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:154
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:155
 msgid "You need a country to take part"
 msgstr ""
 
@@ -9716,11 +9738,11 @@ msgstr "Deine Staatsbürgerschaft wird sich ändern"
 msgid "Your country"
 msgstr "Dein Land"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:108
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:142
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:143
 msgid "Your country is registered for this tournament"
 msgstr ""
 
@@ -9801,11 +9823,11 @@ msgstr "Die Nationalität deiner Militäreinheit ist das Land, das sie vertritt.
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
 msgstr "Deine ME hat <0/> Ruf und kann nicht auf Söldnerverträge bieten. Bezahle, um Ruf zurückzukaufen (einmal pro Tag)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:106
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:107
 msgid "Your MU is registered"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:140
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:141
 msgid "Your MU is registered for this tournament"
 msgstr ""
 
@@ -9868,10 +9890,10 @@ msgstr "deine@email.de"
 msgid "Yours"
 msgstr "Deine"
 
-#: src/components/_layout/LayoutMapIcons.tsx:155
+#: src/components/_layout/LayoutLeftIcons.tsx:134
 msgid "Zoom in"
 msgstr "Vergrößern"
 
-#: src/components/_layout/LayoutMapIcons.tsx:146
+#: src/components/_layout/LayoutLeftIcons.tsx:142
 msgid "Zoom out"
 msgstr "Verkleinern"

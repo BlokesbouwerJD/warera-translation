@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Потплаћени рад (испод 0.8x и изнад 1.2x нормалне плате)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:439
+#: src/components/_user/user/UserHeader.tsx:440
 msgid " - Reason: {0}"
 msgstr " - Разлог: {0}"
 
@@ -200,7 +200,7 @@ msgstr "*Може изгорети"
 msgid "/day"
 msgstr "/дан"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
 msgstr "+још {hiddenBattles} битака"
 
@@ -819,7 +819,7 @@ msgstr "<0>Немир</0> представља унутрашњу тензију
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
 msgstr "<0>Твој налог захтева додатну верификацију. Верификуј свој број телефона што пре како би наставио нормално да користиш налог. Неверификовани налози ће имати ограничен приступ након 48 часова и могу бити трајно угашени након 5 дана.</0><1>Бројеви телефона су шифровани и нису видљиви ниједном администратору.</1>"
 
-#: src/components/_layout/LayoutOptions.tsx:99
+#: src/components/_layout/LayoutOptions.tsx:101
 msgid "= consumes more power"
 msgstr "= троши више енергије"
 
@@ -1335,10 +1335,10 @@ msgstr "Приступ одобрен"
 msgid "Access war"
 msgstr "Погледај рат"
 
-#: src/components/_military/mu/MuHeader.tsx:163
+#: src/components/_military/mu/MuHeader.tsx:162
 #: src/components/_political/country/CountryHeader.tsx:94
 #: src/components/_political/party/PartyHeader.tsx:117
-#: src/components/_user/user/UserHeader.tsx:176
+#: src/components/_user/user/UserHeader.tsx:177
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1449,7 +1449,7 @@ msgstr "Напредне панталоне"
 msgid "Agrarian"
 msgstr "Аграризам"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:132
+#: src/components/_military/battle/ActiveBattlesList.tsx:133
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
 msgid "All"
@@ -1665,7 +1665,7 @@ msgstr "API токени"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API токени омогућавају спољним апликацијама приступ API-ју у твоје име. Користи токен у <0>X-API-Key</0> заглављу. Сваки токен има ограничење од 200 захтева у минути."
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:279
 msgid "App pattern"
 msgstr "Шаблон апликације"
 
@@ -1673,7 +1673,7 @@ msgstr "Шаблон апликације"
 msgid "Application fee"
 msgstr "Такса за пријаву"
 
-#: src/components/_military/mu/MuHeader.tsx:157
+#: src/components/_military/mu/MuHeader.tsx:156
 #: src/components/_political/party/PartyHeader.tsx:137
 msgid "Applications"
 msgstr "Пријаве"
@@ -1774,7 +1774,7 @@ msgstr "Напојница за чланак"
 msgid "Article tipped"
 msgstr "Напојница дата"
 
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/user/UserHeader.tsx:224
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Чланци"
@@ -1803,7 +1803,7 @@ msgstr "AT борбени хеликоптер"
 msgid "AT Heavy Ammo"
 msgstr "AT тешка муниција"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:144
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:152
 msgid "At least {MIN_REGISTRATIONS} are needed or the tournament is cancelled."
 msgstr "Потребно је најмање {MIN_REGISTRATIONS} пријава или ће турнир бити отказан."
 
@@ -1871,7 +1871,7 @@ msgstr "Бонус напада:"
 msgid "Attacker"
 msgstr "Нападач"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:190
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:191
 msgid "Attackers"
 msgstr "Нападачи"
 
@@ -1901,7 +1901,7 @@ msgstr "Аутентификација неуспела. Покушајте по
 msgid "Auto approval"
 msgstr "Аутоматско одобравање"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:212
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Аутоматски опреми када се предмет поломи"
@@ -1942,6 +1942,10 @@ msgstr "б. Откривање личних података или доксин
 msgid "Baby Boomer"
 msgstr "Бејби бумер"
 
+#: src/components/_layout/LayoutOptions.tsx:168
+msgid "Background pattern"
+msgstr ""
+
 #: src/components/_user/referral/ReferralList.tsx:111
 msgid "Badge won"
 msgstr "Значка освојена"
@@ -1971,7 +1975,7 @@ msgstr "Лопта"
 msgid "Bankruptcy"
 msgstr "Банкрот"
 
-#: src/components/_user/user/UserHeader.tsx:428
+#: src/components/_user/user/UserHeader.tsx:429
 msgid "Banned"
 msgstr "Банован"
 
@@ -1991,8 +1995,8 @@ msgstr "Поклон банер послат"
 msgid "Banners"
 msgstr "Банери"
 
-#: src/components/_user/user/UserHeader.tsx:194
-#: src/components/_user/user/UserHeader.tsx:242
+#: src/components/_user/user/UserHeader.tsx:195
+#: src/components/_user/user/UserHeader.tsx:243
 msgid "Bans"
 msgstr "Банови"
 
@@ -2020,12 +2024,12 @@ msgstr "Основна кацига"
 msgid "Basic Pants"
 msgstr "Основне панталоне"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:86
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:85
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:187
 msgid "Battle"
 msgstr "Битка"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:166
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
 msgid "Battle by battle"
 msgstr "Приказ по биткама"
 
@@ -2095,11 +2099,11 @@ msgstr "Наређења за одбрану твојих матичних ре�
 msgid "Battles"
 msgstr "Битке"
 
-#: src/components/_layout/LayoutOptions.tsx:122
+#: src/components/_layout/LayoutOptions.tsx:124
 msgid "Battles on layout"
 msgstr "Приказ битака"
 
-#: src/components/_layout/LayoutOptions.tsx:117
+#: src/components/_layout/LayoutOptions.tsx:119
 msgid "Battles on map"
 msgstr "Битке на мапи"
 
@@ -2116,7 +2120,7 @@ msgstr "Битке добијене"
 msgid "Become a Candidate"
 msgstr "Постани кандидат"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Најбоље"
@@ -2145,7 +2149,7 @@ msgstr "Блокирај (сакриј садржај)"
 msgid "Blue Staff"
 msgstr "Плаво жезло"
 
-#: src/components/_layout/LayoutOptions.tsx:158
+#: src/components/_layout/LayoutOptions.tsx:160
 msgid "Blur"
 msgstr "Замућење"
 
@@ -2213,7 +2217,7 @@ msgstr "Буџет"
 msgid "Buff ended"
 msgstr "Ојачање завршено"
 
-#: src/components/_user/user/UserHeader.tsx:311
+#: src/components/_user/user/UserHeader.tsx:312
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "Ојачање истиче"
@@ -2282,7 +2286,7 @@ msgstr "Наставком, прихватате наше <0>Услове кор
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
 msgstr "Одбијањем смањења плате напустићеш компанију и изгубити бонус лојалности од +{0}%."
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:150
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:151
 msgid "By side"
 msgstr "По страни"
 
@@ -2510,7 +2514,7 @@ msgstr "Изабери страну и кликни да нанесеш <0>шт�
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Бирање одређеног предмета кошта ×2 челика:"
 
-#: src/components/_user/user/UserHeader.tsx:292
+#: src/components/_user/user/UserHeader.tsx:293
 msgid "Citizen since"
 msgstr "Држављанин од"
 
@@ -2610,7 +2614,7 @@ msgstr "Пуковник"
 msgid "Color scheme"
 msgstr "Шема боја"
 
-#: src/components/_layout/LayoutOptions.tsx:174
+#: src/components/_layout/LayoutOptions.tsx:184
 msgid "Colorblind mode"
 msgstr "Режим за далтонисте"
 
@@ -2638,7 +2642,7 @@ msgstr "Заједница"
 
 #: src/components/_layout/LayoutMenu.tsx:173
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:215
+#: src/components/_user/user/UserHeader.tsx:216
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2813,7 +2817,7 @@ msgstr "Троши се током борбе у биткама"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Конзумирање повећава твој <0>напад</0> током {0}ч.<1/> Затим смањује за исти износ током {1}ч"
 
-#: src/components/_layout/LayoutOptions.tsx:127
+#: src/components/_layout/LayoutOptions.tsx:129
 msgid "Contextual borders"
 msgstr "Контекстуалне границе"
 
@@ -2837,7 +2841,7 @@ msgstr "Уговор поништен"
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:108
-#: src/components/_military/mu/MuHeader.tsx:183
+#: src/components/_military/mu/MuHeader.tsx:182
 #: src/components/_political/country/CountryHeader.tsx:152
 msgid "Contracts"
 msgstr "Уговори"
@@ -2919,7 +2923,7 @@ msgstr "Земље"
 #: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:133
 #: src/components/_military/battle/BattleCountrySide.tsx:73
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
 #: src/components/_political/map/MapMenu.tsx:317
@@ -2968,7 +2972,7 @@ msgstr "Бонус производње земље"
 msgid "Country to invite"
 msgstr "Земља за позивање"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:46
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:51
 msgid "Country Tournament"
 msgstr "Турнир земаља"
 
@@ -3167,7 +3171,7 @@ msgstr "Мрачно доба"
 msgid "Dark Era Pack"
 msgstr "Пакет „Мрачно доба“"
 
-#: src/components/_layout/LayoutOptions.tsx:149
+#: src/components/_layout/LayoutOptions.tsx:151
 msgid "Dark map"
 msgstr "Тамна мапа"
 
@@ -3231,7 +3235,7 @@ msgstr "Наноси нешто штете"
 msgid "Debuff ended"
 msgstr "Ослабљење завршено"
 
-#: src/components/_user/user/UserHeader.tsx:319
+#: src/components/_user/user/UserHeader.tsx:320
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "Ослабљење истиче"
@@ -3276,7 +3280,7 @@ msgstr "Одбрани"
 msgid "Defender"
 msgstr "Бранилац"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:187
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:188
 msgid "Defenders"
 msgstr "Браниоци"
 
@@ -3518,7 +3522,7 @@ msgstr "Донација"
 msgid "Donation Summary"
 msgstr "Резиме донација"
 
-#: src/components/_military/mu/MuHeader.tsx:175
+#: src/components/_military/mu/MuHeader.tsx:174
 #: src/components/_political/country/CountryHeader.tsx:106
 #: src/components/_political/party/PartyHeader.tsx:123
 #: src/pages/country/[countryId]/donations.tsx:17
@@ -3707,7 +3711,7 @@ msgid "End the defensive pact with <0/>."
 msgstr "Прекини одбрамбени пакт са <0/>."
 
 #: src/components/_military/battle/BattleSystem.tsx:751
-#: src/components/_military/tournament/TournamentHeader.tsx:84
+#: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
 msgstr "Завршено"
@@ -3746,7 +3750,7 @@ msgid "Entrepreneurship"
 msgstr "Предузетништво"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:199
+#: src/components/_layout/LayoutOptions.tsx:209
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -3806,7 +3810,7 @@ msgstr "Догађаји"
 msgid "Expansionist"
 msgstr "Експанзионизам"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:221
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:233
 msgid "Expected loot"
 msgstr "Очекивани плен"
 
@@ -4087,7 +4091,7 @@ msgstr "Отпуштен из владе"
 msgid "Fish"
 msgstr "Риба"
 
-#: src/components/_layout/LayoutOptions.tsx:139
+#: src/components/_layout/LayoutOptions.tsx:141
 msgid "Flags"
 msgstr "Заставе"
 
@@ -4095,11 +4099,11 @@ msgstr "Заставе"
 msgid "Flail"
 msgstr "Млатилица"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:249
 msgid "Font"
 msgstr "Фонт"
 
-#: src/components/_layout/LayoutOptions.tsx:251
+#: src/components/_layout/LayoutOptions.tsx:261
 msgid "Font size"
 msgstr "Величина фонта"
 
@@ -4234,7 +4238,7 @@ msgstr "Наградна игра освојена!"
 msgid "Gives <0>{0}</0>"
 msgstr "Даје <0>{0}</0>"
 
-#: src/components/_layout/LayoutOptions.tsx:105
+#: src/components/_layout/LayoutOptions.tsx:107
 msgid "Globe (experimental)"
 msgstr "Глобус (експериментално)"
 
@@ -4284,7 +4288,7 @@ msgstr "Плата чланова владе"
 msgid "Grain"
 msgstr "Жито"
 
-#: src/components/_layout/LayoutOptions.tsx:112
+#: src/components/_layout/LayoutOptions.tsx:114
 msgid "Graticule"
 msgstr "Координатна мрежа"
 
@@ -4491,16 +4495,16 @@ msgstr "Удари <0>{count}</0> пута у биткама"
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Ударање за своју земљу док си у влади даје {0}% ефикасности награде."
 
-#: src/components/_economy/company/CompanyHeader.tsx:69
-#: src/components/_military/mu/MuHeader.tsx:151
-#: src/components/_military/tournament/TournamentHeader.tsx:116
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:96
+#: src/components/_economy/company/CompanyHeader.tsx:68
+#: src/components/_military/mu/MuHeader.tsx:150
+#: src/components/_military/tournament/TournamentHeader.tsx:145
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:95
 #: src/components/_other/shop/ShopHeader.tsx:17
-#: src/components/_political/alliance/AllianceHeader.tsx:109
+#: src/components/_political/alliance/AllianceHeader.tsx:108
 #: src/components/_political/country/CountryHeader.tsx:81
 #: src/components/_political/party/PartyHeader.tsx:99
 #: src/components/_political/region/RegionHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:163
 msgid "Home"
 msgstr "Почетна"
 
@@ -4653,7 +4657,7 @@ msgstr "Намерно или поновљено кршење ове полит�
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:168
+#: src/components/_user/user/UserHeader.tsx:169
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -4757,7 +4761,7 @@ msgstr "Придружи се <0/>"
 msgid "Join a Military Unit"
 msgstr "Придружи се војној јединици"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:152
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:153
 msgid "Join a military unit to take part"
 msgstr "Придружи се војној јединици да би учествовао"
 
@@ -4851,7 +4855,7 @@ msgstr "Ножеви не користе муницију"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Задај <0>{count}</0> крит. ударца"
 
-#: src/components/_layout/LayoutOptions.tsx:192
+#: src/components/_layout/LayoutOptions.tsx:202
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Језик"
@@ -4860,7 +4864,7 @@ msgstr "Језик"
 msgid "Last"
 msgstr "Последње"
 
-#: src/components/_user/user/UserHeader.tsx:327
+#: src/components/_user/user/UserHeader.tsx:328
 msgid "Last connection"
 msgstr "Последња активност"
 
@@ -4912,7 +4916,7 @@ msgstr "Закон није прошао"
 msgid "Law proposed"
 msgstr "Закон је предложен"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:115
+#: src/components/_political/alliance/AllianceHeader.tsx:114
 #: src/components/_political/country/CountryHeader.tsx:87
 #: src/pages/alliance/[allianceId]/index.tsx:95
 #: src/pages/country/[countryId]/index.tsx:182
@@ -5067,7 +5071,7 @@ msgstr "Достигнуто ограничење"
 msgid "Limited:"
 msgstr "Ограничено:"
 
-#: src/components/_layout/LayoutOptions.tsx:281
+#: src/components/_layout/LayoutOptions.tsx:291
 msgid "Line"
 msgstr "Линија"
 
@@ -5187,8 +5191,8 @@ msgstr "Менаџмент"
 msgid "map"
 msgstr "мапа"
 
-#: src/components/_layout/LayoutMapOptions.tsx:77
-#: src/components/_layout/LayoutOptions.tsx:102
+#: src/components/_layout/LayoutLeftIcons.tsx:157
+#: src/components/_layout/LayoutOptions.tsx:104
 msgid "Map"
 msgstr "Мапа"
 
@@ -5197,7 +5201,7 @@ msgstr "Мапа"
 msgid "Map Accent"
 msgstr "Акцент мапе"
 
-#: src/components/_layout/LayoutOptions.tsx:144
+#: src/components/_layout/LayoutOptions.tsx:146
 msgid "Map icons"
 msgstr "Иконе мапе"
 
@@ -5218,11 +5222,16 @@ msgstr "Порез на тржиште"
 msgid "Marshal"
 msgstr "Маршал"
 
+#: src/components/_military/tournament/TournamentHeader.tsx:118
+msgid "Max equipment rarity"
+msgstr ""
+
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "Максимални ниво достигнут!"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:80
+#: src/components/_military/tournament/TournamentHeader.tsx:112
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:85
 msgid "Max rarity"
 msgstr "Највиша реткост"
 
@@ -5429,7 +5438,7 @@ msgstr "Обавештење војне јединице"
 msgid "Military unit created"
 msgstr "Војна јединица креирана"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:105
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:104
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:33
 msgid "Military units"
 msgstr "Војне јединице"
@@ -5461,7 +5470,7 @@ msgstr "Министар економије"
 msgid "Minister of Foreign Affairs"
 msgstr "Министар спољних послова"
 
-#: src/components/_layout/LayoutOptions.tsx:182
+#: src/components/_layout/LayoutOptions.tsx:192
 msgid "Mission tags"
 msgstr "Ознаке мисија"
 
@@ -5512,7 +5521,7 @@ msgstr "Месечна штета: <0>{monthlyDamages}</0>"
 msgid "Monthly:"
 msgstr "Месечно:"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:168
+#: src/components/_layout/LayoutLeftIcons.tsx:227
 #: src/components/_layout/MoreButtonNav.tsx:196
 msgid "More"
 msgstr "Више"
@@ -5561,7 +5570,7 @@ msgid "Moved to a new company"
 msgstr "Премештен у нову компанију"
 
 #: src/components/_layout/LayoutMenu.tsx:118
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
 msgstr "ВЈ"
@@ -5599,7 +5608,7 @@ msgstr "Власништво над ВЈ пренето"
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "ВЈ достигла ниво {0}!  Награда: {rewardDisplay}"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:44
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:49
 msgid "MU Tournament"
 msgstr "Турнир ВЈ"
 
@@ -5910,7 +5919,7 @@ msgstr "Нема чланова конгреса"
 msgid "No contributions yet"
 msgstr "Још нема доприноса"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:123
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:131
 msgid "No country has registered yet. Be the first."
 msgstr "Ниједна земља се још није пријавила. Буди први."
 
@@ -5938,7 +5947,8 @@ msgstr "Још увек нема комплета — додај један да
 msgid "No laws yet"
 msgstr "Још увек нема закона"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:93
+#: src/components/_military/tournament/TournamentHeader.tsx:136
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:97
 msgid "No limit"
 msgstr "Без ограничења"
 
@@ -5974,7 +5984,7 @@ msgstr "Још увек нема рангирања новца."
 msgid "No motions yet"
 msgstr "Још нема страначких предлога"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:121
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:129
 msgid "No MU has registered yet. Be the first."
 msgstr "Ниједна ВЈ се још није пријавила. Буди први."
 
@@ -6094,7 +6104,7 @@ msgstr "Није ни у једном савезу"
 msgid "Not set"
 msgstr "Није постављено"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:158
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:170
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
 msgstr "Тренутно ништа није у игри. Удари у текућој бици да почнеш да зарађујеш и заузми једно од водећих места по нанетој штети да уђеш у расподелу њеног фонда плена."
 
@@ -6155,8 +6165,8 @@ msgstr "По неуспеху уговора: -1 углед по <0/> у буџ�
 msgid "One step away from legendary..."
 msgstr "Мало је фалило за легендарно..."
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:149
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:153
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:161
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:165
 msgid "Ongoing battles"
 msgstr "Битке у току"
 
@@ -6165,7 +6175,7 @@ msgstr "Битке у току"
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
 msgstr "Само ојачања и налазишта хране се појављују у вашим границама (кока, жито, стока и риба)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:163
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:164
 msgid "Only MU owners and commanders can register the unit"
 msgstr "Само власник и команданти ВЈ могу да је пријаве"
 
@@ -6173,7 +6183,7 @@ msgstr "Само власник и команданти ВЈ могу да је 
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Само подржаваоци могу видети преглед своје зараде и потрошње."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:165
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:166
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr "Само влада или власник/командант ВЈ ове земље могу да је пријаве"
 
@@ -6242,7 +6252,7 @@ msgstr "Отвори своје сандуче!"
 msgid "Operative"
 msgstr "Оперативац"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:149
+#: src/components/_layout/LayoutLeftIcons.tsx:208
 msgid "Options"
 msgstr "Опције"
 
@@ -6349,7 +6359,7 @@ msgstr "Панталоне"
 msgid "Paper"
 msgstr "Папир"
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:77
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:76
 msgid "Participants"
 msgstr "Учесници"
 
@@ -6976,7 +6986,7 @@ msgstr "Смањује губитак здравља током борбе у б
 msgid "Referral link copied to clipboard"
 msgstr "Реферал линк копиран у клипборд"
 
-#: src/components/_user/user/UserHeader.tsx:229
+#: src/components/_user/user/UserHeader.tsx:230
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7059,25 +7069,25 @@ msgstr "Региони"
 msgid "Regions you occupy generate double the amount of resistance."
 msgstr "Региони које окупираш стварају дупло више отпора."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:123
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
 msgstr "Пријави моју земљу"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:121
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:122
 msgid "Register my MU"
 msgstr "Пријави моју ВЈ"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:106
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:122
 msgid "Registered countries"
 msgstr "Пријављене земље"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:120
 msgid "Registered MUs"
 msgstr "Пријављене ВЈ"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:52
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:57
 msgid "Registration closes in"
 msgstr "Пријаве се затварају за"
 
@@ -7236,7 +7246,7 @@ msgstr "Пријави"
 msgid "Report user"
 msgstr "Пријави корисника"
 
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:202
 msgid "Reports"
 msgstr "Пријаве"
 
@@ -7395,7 +7405,7 @@ msgid "Round {roundNumber} loot pool"
 msgstr "Плен у рунди {roundNumber}"
 
 #. placeholder {0}: i + 1
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:76
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:75
 msgid "Round #{0}"
 msgstr "Рунда #{0}"
 
@@ -7438,7 +7448,7 @@ msgstr "Добијене рунде"
 msgid "Rounds Won"
 msgstr "Добијене рунде"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:159
+#: src/components/_layout/LayoutLeftIcons.tsx:218
 #: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "Правила"
@@ -7697,9 +7707,9 @@ msgstr "Постави своју профилну слику"
 msgid "Set your username"
 msgstr "Постави своје корисничко име"
 
-#: src/components/_military/mu/MuHeader.tsx:193
+#: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:235
+#: src/components/_user/user/UserHeader.tsx:236
 msgid "Settings"
 msgstr "Подешавања"
 
@@ -7752,8 +7762,8 @@ msgstr "Приказује се недељно"
 msgid "Side"
 msgstr "Страна"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:102
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:103
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:77
 msgid "Skill bonus"
 msgstr "Бонус вештине"
 
@@ -7766,7 +7776,7 @@ msgid "Skill upgrade:"
 msgstr "Надоградња вештина:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:183
+#: src/components/_user/user/UserHeader.tsx:184
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Вештине"
@@ -7821,7 +7831,7 @@ msgstr "Прескочи водич"
 msgid "Sling Stones"
 msgstr "Камење за праћку"
 
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:197
 msgid "Small GIFs"
 msgstr "Мали GIF-ови"
 
@@ -7837,7 +7847,7 @@ msgstr "Друштво и поруке"
 msgid "Some of your companies are disabled."
 msgstr "Неке твоје компаније су онемогућене."
 
-#: src/components/_layout/LayoutOptions.tsx:166
+#: src/components/_layout/LayoutOptions.tsx:176
 msgid "Sound effects"
 msgstr "Звучни ефекти"
 
@@ -7921,7 +7931,7 @@ msgstr "Започни председничке изборе"
 msgid "Start revolution"
 msgstr "Започни револуцију"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:78
+#: src/components/_military/tournament/TournamentHeader.tsx:79
 #: src/components/_military/war/WarHeader.tsx:65
 msgid "Started"
 msgstr "Почео"
@@ -7942,7 +7952,7 @@ msgstr "Почетничке"
 msgid "Starting from the bottom..."
 msgstr "Почињем од дна..."
 
-#: src/components/_military/tournament/TournamentHeader.tsx:58
+#: src/components/_military/tournament/TournamentHeader.tsx:59
 msgid "Starts"
 msgstr "Почиње"
 
@@ -7968,7 +7978,7 @@ msgstr "Статистика"
 msgid "Stats regenerate every hour"
 msgstr "Статистика се регенерише сваког сата"
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:82
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:81
 #: src/pages/war/[warId]/index.tsx:40
 msgid "Status"
 msgstr "Статус"
@@ -8146,8 +8156,8 @@ msgstr "Порези"
 msgid "Team {0}"
 msgstr "Тим {0}"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:71
-#: src/components/_military/tournament/TournamentHeader.tsx:122
+#: src/components/_military/tournament/TournamentHeader.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:151
 msgid "Teams"
 msgstr "Тимови"
 
@@ -8165,7 +8175,7 @@ msgstr "Услови"
 msgid "Terms of Service"
 msgstr "Услови коришћења"
 
-#: src/components/_layout/LayoutOptions.tsx:292
+#: src/components/_layout/LayoutOptions.tsx:302
 msgid "Texture"
 msgstr "Текстуре"
 
@@ -8325,6 +8335,10 @@ msgstr "Овај регион није повезан са престоницо�
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:205
 msgid "This round only"
 msgstr "Само ова рунда"
+
+#: src/components/_military/tournament/TournamentHeader.tsx:125
+msgid "This tournament has no equipment rarity cap: any gear can be used."
+msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:64
 msgid "This user is not part of any family group"
@@ -8533,7 +8547,7 @@ msgid "Total:"
 msgstr "Укупно:"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:176
+#: src/components/_military/battle/ActiveBattlesList.tsx:175
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -8588,11 +8602,11 @@ msgstr "Трговинска трансакција"
 msgid "Trainee"
 msgstr "Обученик"
 
-#: src/components/_user/user/UserHeader.tsx:209
+#: src/components/_user/user/UserHeader.tsx:210
 msgid "Transac."
 msgstr "Трансак."
 
-#: src/components/_military/mu/MuHeader.tsx:169
+#: src/components/_military/mu/MuHeader.tsx:168
 #: src/components/_political/country/CountryHeader.tsx:100
 #: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:93
@@ -8637,7 +8651,7 @@ msgstr "Водичи"
 msgid "Tutorials reseted"
 msgstr "Водичи су ресетовани"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:52
+#: src/components/_military/tournament/TournamentHeader.tsx:53
 msgid "Type"
 msgstr "Врста"
 
@@ -8645,7 +8659,7 @@ msgstr "Врста"
 msgid "Tyrannosaurus Rex"
 msgstr "Тираносаурус Рекс"
 
-#: src/components/_layout/LayoutOptions.tsx:155
+#: src/components/_layout/LayoutOptions.tsx:157
 msgid "UI"
 msgstr "Интерфејс"
 
@@ -8705,7 +8719,7 @@ msgstr "Откључај дугме „Произведи све“"
 msgid "Unlocked pack"
 msgstr "Пакет откључан"
 
-#: src/components/_user/user/UserHeader.tsx:435
+#: src/components/_user/user/UserHeader.tsx:436
 msgid "Unmuted <0/>"
 msgstr "Укинуто утишавање <0/>"
 
@@ -9109,6 +9123,14 @@ msgstr "Оружје:"
 msgid "Weapons"
 msgstr "Оружје"
 
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+msgid "Weapons, ammo and gear above {maxRarityLabel} rarity cannot be used in this tournament's battles."
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:120
+msgid "Weapons, ammo and gear above this rarity cannot be used in this tournament's battles."
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:193
 msgid "Weekly"
@@ -9143,7 +9165,7 @@ msgstr "Добродошао у War Era!"
 msgid "Welcome to your economy!"
 msgstr "Добродошао у твоју економију!"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:150
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr "Оно што су ти битке у којима учествујеш до сада донеле (ударци, штета, сандучићи, награде и новац од уговора), уз предмете из фонда плена за које си тренутно у реду. Предмети из фонда још нису освојени: додељују се према ранг-листи штете и постају твоји тек када се фонд расподели."
 
@@ -9194,7 +9216,7 @@ msgstr "са бонусом + лојалност"
 msgid "With bounty"
 msgstr "Са наградом"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:102
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:103
 msgid "Withdraw"
 msgstr "Повуци пријаву"
 
@@ -9202,7 +9224,7 @@ msgstr "Повуци пријаву"
 msgid "Wizard Hat"
 msgstr "Чаробњачки шешир"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:90
+#: src/components/_military/tournament/TournamentHeader.tsx:91
 #: src/pages/events/index.tsx:116
 msgid "Won by"
 msgstr "Победио"
@@ -9245,7 +9267,7 @@ msgid "Worker updated!"
 msgstr "Радник ажуриран!"
 
 #: src/components/_economy/company/CompanyHeader.tsx:35
-#: src/components/_economy/company/CompanyHeader.tsx:75
+#: src/components/_economy/company/CompanyHeader.tsx:74
 #: src/components/_economy/company/CompanyTooltip.tsx:85
 #: src/pages/company/[companyId]/index.tsx:87
 #: src/pages/company/[companyId]/workers.tsx:37
@@ -9260,7 +9282,7 @@ msgstr "Рад за друге је одличан начин да заради�
 msgid "World <0/>"
 msgstr "Свет <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:234
+#: src/components/_layout/LayoutOptions.tsx:244
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "Најгоре"
@@ -9503,7 +9525,7 @@ msgstr "Мораш бити најмање ниво {0} да би гласао."
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Мораш потрошити сва 3 етичка поена (преостало {pointsRemaining})"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:154
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:155
 msgid "You need a country to take part"
 msgstr "Потребна ти је земља да би учествовао"
 
@@ -9716,11 +9738,11 @@ msgstr "Твоје држављанство ће се променити"
 msgid "Your country"
 msgstr "Твоја држава"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:108
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
 msgstr "Твоја земља је пријављена"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:142
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:143
 msgid "Your country is registered for this tournament"
 msgstr "Твоја земља је пријављена за овај турнир"
 
@@ -9801,11 +9823,11 @@ msgstr "Националност твоје војне јединице је з�
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
 msgstr "Ваша ВЈ има <0/> углед и не може давати понуде на плаћеничке уговоре. Платите да повратите углед (једном дневно)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:106
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:107
 msgid "Your MU is registered"
 msgstr "Твоја ВЈ је пријављена"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:140
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:141
 msgid "Your MU is registered for this tournament"
 msgstr "Твоја ВЈ је пријављена за овај турнир"
 
@@ -9868,10 +9890,10 @@ msgstr "твој@мејл.com"
 msgid "Yours"
 msgstr "Твоје"
 
-#: src/components/_layout/LayoutMapIcons.tsx:155
+#: src/components/_layout/LayoutLeftIcons.tsx:134
 msgid "Zoom in"
 msgstr "Увећај"
 
-#: src/components/_layout/LayoutMapIcons.tsx:146
+#: src/components/_layout/LayoutLeftIcons.tsx:142
 msgid "Zoom out"
 msgstr "Умањи"

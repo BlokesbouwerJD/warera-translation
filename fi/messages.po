@@ -35,7 +35,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:439
+#: src/components/_user/user/UserHeader.tsx:440
 msgid " - Reason: {0}"
 msgstr " - Syy: {0}"
 
@@ -201,7 +201,7 @@ msgstr "*Voidaan polttaa"
 msgid "/day"
 msgstr "/päivä"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
 msgstr ""
 
@@ -820,7 +820,7 @@ msgstr "<0>Levottomuus</0> kuvaa maan sisäistä jännitystä.<1/><2/>Kansalaise
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
 msgstr "<0>Tilisi vaatii lisävahvistuksen. Vahvista puhelinnumerosi mahdollisimman pian jatkaaksesi tilisi käyttöä normaalisti. Vahvistamattomien tilien käyttöoikeus on rajoitettu 48 tunnin kuluttua, ja ne voidaan jäädyttää pysyvästi 5 päivän kuluttua.</0><1>Puhelinnumerot ovat salattuja, eivätkä järjestelmänvalvojat näe niitä.</1>"
 
-#: src/components/_layout/LayoutOptions.tsx:99
+#: src/components/_layout/LayoutOptions.tsx:101
 msgid "= consumes more power"
 msgstr ""
 
@@ -1336,10 +1336,10 @@ msgstr ""
 msgid "Access war"
 msgstr "Siirry sotaan"
 
-#: src/components/_military/mu/MuHeader.tsx:163
+#: src/components/_military/mu/MuHeader.tsx:162
 #: src/components/_political/country/CountryHeader.tsx:94
 #: src/components/_political/party/PartyHeader.tsx:117
-#: src/components/_user/user/UserHeader.tsx:176
+#: src/components/_user/user/UserHeader.tsx:177
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1450,7 +1450,7 @@ msgstr "Edistyneet housut"
 msgid "Agrarian"
 msgstr "Maatalous"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:132
+#: src/components/_military/battle/ActiveBattlesList.tsx:133
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
 msgid "All"
@@ -1666,7 +1666,7 @@ msgstr "API-tunnukset"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API-tunnukset sallivat ulkoisten sovellusten käyttää API:ta puolestasi. Käytä merkkiä <0>X-API-Key</0>-otsikossa. Jokaisella tunnuksella on nopeusrajoitus 200 pyyntöä minuutissa."
 
-#: src/components/_layout/LayoutOptions.tsx:269
+#: src/components/_layout/LayoutOptions.tsx:279
 msgid "App pattern"
 msgstr "Sovellusmalli"
 
@@ -1674,7 +1674,7 @@ msgstr "Sovellusmalli"
 msgid "Application fee"
 msgstr "Hakemusmaksu"
 
-#: src/components/_military/mu/MuHeader.tsx:157
+#: src/components/_military/mu/MuHeader.tsx:156
 #: src/components/_political/party/PartyHeader.tsx:137
 msgid "Applications"
 msgstr ""
@@ -1775,7 +1775,7 @@ msgstr "Artikkelin vinkki"
 msgid "Article tipped"
 msgstr "Artikkeli sai tipin"
 
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/user/UserHeader.tsx:224
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Artikkelit"
@@ -1804,7 +1804,7 @@ msgstr ""
 msgid "AT Heavy Ammo"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:144
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:152
 msgid "At least {MIN_REGISTRATIONS} are needed or the tournament is cancelled."
 msgstr ""
 
@@ -1872,7 +1872,7 @@ msgstr ""
 msgid "Attacker"
 msgstr "Hyökkääjä"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:190
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:191
 msgid "Attackers"
 msgstr "Hyökkääjät"
 
@@ -1902,7 +1902,7 @@ msgstr "Todennus epäonnistui. Yritä uudelleen."
 msgid "Auto approval"
 msgstr "Automaattinen hyväksyntä"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:212
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr ""
@@ -1943,6 +1943,10 @@ msgstr ""
 msgid "Baby Boomer"
 msgstr "Babyboomeri"
 
+#: src/components/_layout/LayoutOptions.tsx:168
+msgid "Background pattern"
+msgstr ""
+
 #: src/components/_user/referral/ReferralList.tsx:111
 msgid "Badge won"
 msgstr "Merkki ansaittu"
@@ -1972,7 +1976,7 @@ msgstr ""
 msgid "Bankruptcy"
 msgstr "Konkurssi"
 
-#: src/components/_user/user/UserHeader.tsx:428
+#: src/components/_user/user/UserHeader.tsx:429
 msgid "Banned"
 msgstr "Kielletty"
 
@@ -1992,8 +1996,8 @@ msgstr "Bannerilahja lähetetty"
 msgid "Banners"
 msgstr "Bannerit"
 
-#: src/components/_user/user/UserHeader.tsx:194
-#: src/components/_user/user/UserHeader.tsx:242
+#: src/components/_user/user/UserHeader.tsx:195
+#: src/components/_user/user/UserHeader.tsx:243
 msgid "Bans"
 msgstr "Kiellot"
 
@@ -2021,12 +2025,12 @@ msgstr "Peruskypärä"
 msgid "Basic Pants"
 msgstr "Perushousut"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:86
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:85
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:187
 msgid "Battle"
 msgstr "Taistelu"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:166
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:178
 msgid "Battle by battle"
 msgstr ""
 
@@ -2096,11 +2100,11 @@ msgstr ""
 msgid "Battles"
 msgstr "Taistelut"
 
-#: src/components/_layout/LayoutOptions.tsx:122
+#: src/components/_layout/LayoutOptions.tsx:124
 msgid "Battles on layout"
 msgstr "Taistelut layoutissa"
 
-#: src/components/_layout/LayoutOptions.tsx:117
+#: src/components/_layout/LayoutOptions.tsx:119
 msgid "Battles on map"
 msgstr "Taistelut kartalla"
 
@@ -2117,7 +2121,7 @@ msgstr "Taistelut voitetut"
 msgid "Become a Candidate"
 msgstr "Ryhdy ehdokkaaksi"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr ""
@@ -2146,7 +2150,7 @@ msgstr "Estä (piilota sisältö)"
 msgid "Blue Staff"
 msgstr "Sininen henkilökunta"
 
-#: src/components/_layout/LayoutOptions.tsx:158
+#: src/components/_layout/LayoutOptions.tsx:160
 msgid "Blur"
 msgstr ""
 
@@ -2214,7 +2218,7 @@ msgstr ""
 msgid "Buff ended"
 msgstr "Buff loppui"
 
-#: src/components/_user/user/UserHeader.tsx:311
+#: src/components/_user/user/UserHeader.tsx:312
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2283,7 +2287,7 @@ msgstr "Jatkamalla hyväksyt <0>Käyttöehdot</0>."
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
 msgstr "Jos hylkäät palkan alennuksen, eroat yrityksestä ja menetät +{0}% uskollisuusbonuksesi."
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:150
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:151
 msgid "By side"
 msgstr "Puolittain"
 
@@ -2511,7 +2515,7 @@ msgstr "Valitse puolesi ja klikkaa käsitelläksesi <0>Vahingot</0>! Jatka lyöm
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:292
+#: src/components/_user/user/UserHeader.tsx:293
 msgid "Citizen since"
 msgstr ""
 
@@ -2611,7 +2615,7 @@ msgstr "Eversti"
 msgid "Color scheme"
 msgstr "Värimaailma"
 
-#: src/components/_layout/LayoutOptions.tsx:174
+#: src/components/_layout/LayoutOptions.tsx:184
 msgid "Colorblind mode"
 msgstr ""
 
@@ -2639,7 +2643,7 @@ msgstr "yhteisössä"
 
 #: src/components/_layout/LayoutMenu.tsx:173
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:215
+#: src/components/_user/user/UserHeader.tsx:216
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2814,7 +2818,7 @@ msgstr "Kulutetaan taisteluissa taistellessa"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Sen nauttiminen lisää <0>hyökkäystäsi</0> {0}h.<1/> ja vähennä sitten saman verran {1}h aikana"
 
-#: src/components/_layout/LayoutOptions.tsx:127
+#: src/components/_layout/LayoutOptions.tsx:129
 msgid "Contextual borders"
 msgstr "Kontekstuaaliset rajat"
 
@@ -2838,7 +2842,7 @@ msgstr "Sopimus peruutettu"
 #: src/components/_military/battle/BattlesHeader.tsx:45
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:108
-#: src/components/_military/mu/MuHeader.tsx:183
+#: src/components/_military/mu/MuHeader.tsx:182
 #: src/components/_political/country/CountryHeader.tsx:152
 msgid "Contracts"
 msgstr "Sopimukset"
@@ -2920,7 +2924,7 @@ msgstr "maat"
 #: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:133
 #: src/components/_military/battle/BattleCountrySide.tsx:73
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 #: src/components/_political/country/CountryHeader.tsx:73
 #: src/components/_political/map/MapMenu.tsx:317
@@ -2969,7 +2973,7 @@ msgstr "Maatuotannon bonus"
 msgid "Country to invite"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:46
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:51
 msgid "Country Tournament"
 msgstr ""
 
@@ -3168,7 +3172,7 @@ msgstr "Pimeä aikakausi"
 msgid "Dark Era Pack"
 msgstr "Dark Era -paketti"
 
-#: src/components/_layout/LayoutOptions.tsx:149
+#: src/components/_layout/LayoutOptions.tsx:151
 msgid "Dark map"
 msgstr "Tumma kartta"
 
@@ -3232,7 +3236,7 @@ msgstr "Aiheuttaa joitakin vahinkoja"
 msgid "Debuff ended"
 msgstr "Debuff päättyi"
 
-#: src/components/_user/user/UserHeader.tsx:319
+#: src/components/_user/user/UserHeader.tsx:320
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3277,7 +3281,7 @@ msgstr "Puolusta"
 msgid "Defender"
 msgstr "Puolustaja"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:187
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:188
 msgid "Defenders"
 msgstr "Puolustajat"
 
@@ -3519,7 +3523,7 @@ msgstr "Lahjoitus"
 msgid "Donation Summary"
 msgstr "Lahjoitusten yhteenveto"
 
-#: src/components/_military/mu/MuHeader.tsx:175
+#: src/components/_military/mu/MuHeader.tsx:174
 #: src/components/_political/country/CountryHeader.tsx:106
 #: src/components/_political/party/PartyHeader.tsx:123
 #: src/pages/country/[countryId]/donations.tsx:17
@@ -3708,7 +3712,7 @@ msgid "End the defensive pact with <0/>."
 msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:751
-#: src/components/_military/tournament/TournamentHeader.tsx:84
+#: src/components/_military/tournament/TournamentHeader.tsx:85
 #: src/components/_military/war/WarHeader.tsx:70
 msgid "Ended"
 msgstr "Päättyi"
@@ -3747,7 +3751,7 @@ msgid "Entrepreneurship"
 msgstr "Yrittäjyys"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:50
-#: src/components/_layout/LayoutOptions.tsx:199
+#: src/components/_layout/LayoutOptions.tsx:209
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -3807,7 +3811,7 @@ msgstr "Tapahtumat"
 msgid "Expansionist"
 msgstr ""
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:221
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:233
 msgid "Expected loot"
 msgstr ""
 
@@ -4088,7 +4092,7 @@ msgstr "Irtisanottu hallitukselta"
 msgid "Fish"
 msgstr "Kala"
 
-#: src/components/_layout/LayoutOptions.tsx:139
+#: src/components/_layout/LayoutOptions.tsx:141
 msgid "Flags"
 msgstr "Liput"
 
@@ -4096,11 +4100,11 @@ msgstr "Liput"
 msgid "Flail"
 msgstr "Nuijakeihäs"
 
-#: src/components/_layout/LayoutOptions.tsx:239
+#: src/components/_layout/LayoutOptions.tsx:249
 msgid "Font"
 msgstr "Fontti"
 
-#: src/components/_layout/LayoutOptions.tsx:251
+#: src/components/_layout/LayoutOptions.tsx:261
 msgid "Font size"
 msgstr "Fontin koko"
 
@@ -4235,7 +4239,7 @@ msgstr "Giveaway voitettu!"
 msgid "Gives <0>{0}</0>"
 msgstr "Antaa <0>{0}</0>"
 
-#: src/components/_layout/LayoutOptions.tsx:105
+#: src/components/_layout/LayoutOptions.tsx:107
 msgid "Globe (experimental)"
 msgstr "Maapallo (kokeellinen)"
 
@@ -4285,7 +4289,7 @@ msgstr "Valtion palkka"
 msgid "Grain"
 msgstr "Vilja"
 
-#: src/components/_layout/LayoutOptions.tsx:112
+#: src/components/_layout/LayoutOptions.tsx:114
 msgid "Graticule"
 msgstr "Ruudukko"
 
@@ -4492,16 +4496,16 @@ msgstr "Lyö <0>{count}</0> kertaa taisteluissa"
 msgid "Hitting for your own country while in government gives {0}% bounty efficiency."
 msgstr "Oman maasi puolesta lyöminen hallituksessa antaa {0}% palkkion tehokkuuden."
 
-#: src/components/_economy/company/CompanyHeader.tsx:69
-#: src/components/_military/mu/MuHeader.tsx:151
-#: src/components/_military/tournament/TournamentHeader.tsx:116
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:96
+#: src/components/_economy/company/CompanyHeader.tsx:68
+#: src/components/_military/mu/MuHeader.tsx:150
+#: src/components/_military/tournament/TournamentHeader.tsx:145
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:95
 #: src/components/_other/shop/ShopHeader.tsx:17
-#: src/components/_political/alliance/AllianceHeader.tsx:109
+#: src/components/_political/alliance/AllianceHeader.tsx:108
 #: src/components/_political/country/CountryHeader.tsx:81
 #: src/components/_political/party/PartyHeader.tsx:99
 #: src/components/_political/region/RegionHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:163
 msgid "Home"
 msgstr "Kotiin"
 
@@ -4654,7 +4658,7 @@ msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:168
+#: src/components/_user/user/UserHeader.tsx:169
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -4758,7 +4762,7 @@ msgstr ""
 msgid "Join a Military Unit"
 msgstr "Liity sotilasyksikköön"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:152
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:153
 msgid "Join a military unit to take part"
 msgstr ""
 
@@ -4852,7 +4856,7 @@ msgstr "Veitset eivät hyväksy ammuksia"
 msgid "Land <0>{count}</0> critical hits"
 msgstr "Laske <0>{count}</0> kriittisiä osumia"
 
-#: src/components/_layout/LayoutOptions.tsx:192
+#: src/components/_layout/LayoutOptions.tsx:202
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Kieli"
@@ -4861,7 +4865,7 @@ msgstr "Kieli"
 msgid "Last"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:327
+#: src/components/_user/user/UserHeader.tsx:328
 msgid "Last connection"
 msgstr ""
 
@@ -4913,7 +4917,7 @@ msgstr "Laki epäonnistui"
 msgid "Law proposed"
 msgstr "Lakiehdotus"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:115
+#: src/components/_political/alliance/AllianceHeader.tsx:114
 #: src/components/_political/country/CountryHeader.tsx:87
 #: src/pages/alliance/[allianceId]/index.tsx:95
 #: src/pages/country/[countryId]/index.tsx:182
@@ -5068,7 +5072,7 @@ msgstr ""
 msgid "Limited:"
 msgstr "Rajoitettu:"
 
-#: src/components/_layout/LayoutOptions.tsx:281
+#: src/components/_layout/LayoutOptions.tsx:291
 msgid "Line"
 msgstr "Linja"
 
@@ -5188,8 +5192,8 @@ msgstr "Hallinto"
 msgid "map"
 msgstr "kartta"
 
-#: src/components/_layout/LayoutMapOptions.tsx:77
-#: src/components/_layout/LayoutOptions.tsx:102
+#: src/components/_layout/LayoutLeftIcons.tsx:157
+#: src/components/_layout/LayoutOptions.tsx:104
 msgid "Map"
 msgstr ""
 
@@ -5198,7 +5202,7 @@ msgstr ""
 msgid "Map Accent"
 msgstr "Kartta Accent"
 
-#: src/components/_layout/LayoutOptions.tsx:144
+#: src/components/_layout/LayoutOptions.tsx:146
 msgid "Map icons"
 msgstr ""
 
@@ -5219,11 +5223,16 @@ msgstr "Markkinavero"
 msgid "Marshal"
 msgstr "Marsalkka"
 
+#: src/components/_military/tournament/TournamentHeader.tsx:118
+msgid "Max equipment rarity"
+msgstr ""
+
 #: src/components/_military/mu/MuLevel.tsx:81
 msgid "Max level reached!"
 msgstr "Maksimitaso saavutettu!"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:80
+#: src/components/_military/tournament/TournamentHeader.tsx:112
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:85
 msgid "Max rarity"
 msgstr ""
 
@@ -5430,7 +5439,7 @@ msgstr ""
 msgid "Military unit created"
 msgstr "Sotilasyksikkö perustettu"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:105
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:104
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:33
 msgid "Military units"
 msgstr "Sotilasyksiköt"
@@ -5462,7 +5471,7 @@ msgstr "talousministeri"
 msgid "Minister of Foreign Affairs"
 msgstr "ulkoministeri"
 
-#: src/components/_layout/LayoutOptions.tsx:182
+#: src/components/_layout/LayoutOptions.tsx:192
 msgid "Mission tags"
 msgstr ""
 
@@ -5513,7 +5522,7 @@ msgstr "Kuukausittaiset vahingot: <0>{monthlyDamages}</0>"
 msgid "Monthly:"
 msgstr "Kuukausittain:"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:168
+#: src/components/_layout/LayoutLeftIcons.tsx:227
 #: src/components/_layout/MoreButtonNav.tsx:196
 msgid "More"
 msgstr "Lisää"
@@ -5562,7 +5571,7 @@ msgid "Moved to a new company"
 msgstr "Muutti uuteen yritykseen"
 
 #: src/components/_layout/LayoutMenu.tsx:118
-#: src/components/_military/tournament/TournamentHeader.tsx:54
+#: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
 msgstr "MU-yksikkö"
@@ -5600,7 +5609,7 @@ msgstr "MU:n omistusoikeus siirretty"
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "MU saavutti tason {0}! Palkinto: {rewardDisplay}"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:44
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:49
 msgid "MU Tournament"
 msgstr ""
 
@@ -5911,7 +5920,7 @@ msgstr "Ei kongressin jäseniä"
 msgid "No contributions yet"
 msgstr "Ei vielä lahjoituksia"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:123
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:131
 msgid "No country has registered yet. Be the first."
 msgstr ""
 
@@ -5939,7 +5948,8 @@ msgstr ""
 msgid "No laws yet"
 msgstr "Ei vielä lakeja"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:93
+#: src/components/_military/tournament/TournamentHeader.tsx:136
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:97
 msgid "No limit"
 msgstr ""
 
@@ -5975,7 +5985,7 @@ msgstr "Ei vielä rahasijoitusta."
 msgid "No motions yet"
 msgstr "Ei vielä liikkeitä"
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:121
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:129
 msgid "No MU has registered yet. Be the first."
 msgstr ""
 
@@ -6095,7 +6105,7 @@ msgstr ""
 msgid "Not set"
 msgstr ""
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:158
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:170
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
 msgstr ""
 
@@ -6156,8 +6166,8 @@ msgstr ""
 msgid "One step away from legendary..."
 msgstr "Askeleen päässä legendaarisesta..."
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:149
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:153
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:161
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:165
 msgid "Ongoing battles"
 msgstr ""
 
@@ -6166,7 +6176,7 @@ msgstr ""
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
 msgstr "Vain buffeja ja ruokatalletuksia syntyy rajoillasi (kokaiini, vilja, karja ja kala)."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:163
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:164
 msgid "Only MU owners and commanders can register the unit"
 msgstr ""
 
@@ -6174,7 +6184,7 @@ msgstr ""
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Vain kannattajat näkevät meno- ja tulojakauman."
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:165
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:166
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr ""
 
@@ -6243,7 +6253,7 @@ msgstr "Avaa tapauksesi!"
 msgid "Operative"
 msgstr "Tiedustelija"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:149
+#: src/components/_layout/LayoutLeftIcons.tsx:208
 msgid "Options"
 msgstr "Vaihtoehdot"
 
@@ -6350,7 +6360,7 @@ msgstr "Housut"
 msgid "Paper"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:77
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:76
 msgid "Participants"
 msgstr ""
 
@@ -6977,7 +6987,7 @@ msgstr "Vähentää taisteluissa taistelemisen aikana menetettyä terveyttä"
 msgid "Referral link copied to clipboard"
 msgstr "Viittauslinkki kopioitu leikepöydälle"
 
-#: src/components/_user/user/UserHeader.tsx:229
+#: src/components/_user/user/UserHeader.tsx:230
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7060,25 +7070,25 @@ msgstr "Alueet"
 msgid "Regions you occupy generate double the amount of resistance."
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:123
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:124
 msgid "Register my country"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:121
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:122
 msgid "Register my MU"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:106
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:122
 msgid "Registered countries"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentHeader.tsx:64
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+#: src/components/_military/tournament/TournamentHeader.tsx:65
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:120
 msgid "Registered MUs"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:52
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:57
 msgid "Registration closes in"
 msgstr ""
 
@@ -7237,7 +7247,7 @@ msgstr "Raportoi"
 msgid "Report user"
 msgstr "Ilmoita käyttäjästä"
 
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:202
 msgid "Reports"
 msgstr ""
 
@@ -7396,7 +7406,7 @@ msgid "Round {roundNumber} loot pool"
 msgstr "Kierros {roundNumber} ryöstöallas"
 
 #. placeholder {0}: i + 1
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:76
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:75
 msgid "Round #{0}"
 msgstr "Kierros #{0}"
 
@@ -7439,7 +7449,7 @@ msgstr "Kierroksia voitettu"
 msgid "Rounds Won"
 msgstr "Voitetut kierrokset"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:159
+#: src/components/_layout/LayoutLeftIcons.tsx:218
 #: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "säännöt"
@@ -7698,9 +7708,9 @@ msgstr "Aseta profiilikuvasi"
 msgid "Set your username"
 msgstr "Aseta käyttäjätunnuksesi"
 
-#: src/components/_military/mu/MuHeader.tsx:193
+#: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:235
+#: src/components/_user/user/UserHeader.tsx:236
 msgid "Settings"
 msgstr "Asetukset"
 
@@ -7753,8 +7763,8 @@ msgstr "Näytetään viikoittain"
 msgid "Side"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentHeader.tsx:102
-#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:103
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:77
 msgid "Skill bonus"
 msgstr ""
 
@@ -7767,7 +7777,7 @@ msgid "Skill upgrade:"
 msgstr "Taitojen päivitys:"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:183
+#: src/components/_user/user/UserHeader.tsx:184
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Taidot"
@@ -7822,7 +7832,7 @@ msgstr "Ohita opetusohjelma"
 msgid "Sling Stones"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:187
+#: src/components/_layout/LayoutOptions.tsx:197
 msgid "Small GIFs"
 msgstr ""
 
@@ -7838,7 +7848,7 @@ msgstr "Sosiaaliset viestit ja viestit"
 msgid "Some of your companies are disabled."
 msgstr "Osa yrityksistäsi on poistettu käytöstä."
 
-#: src/components/_layout/LayoutOptions.tsx:166
+#: src/components/_layout/LayoutOptions.tsx:176
 msgid "Sound effects"
 msgstr "Äänitehosteet"
 
@@ -7922,7 +7932,7 @@ msgstr "Aloita presidentinvaalit"
 msgid "Start revolution"
 msgstr "Aloita vallankumous"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:78
+#: src/components/_military/tournament/TournamentHeader.tsx:79
 #: src/components/_military/war/WarHeader.tsx:65
 msgid "Started"
 msgstr ""
@@ -7943,7 +7953,7 @@ msgstr "Alkaa"
 msgid "Starting from the bottom..."
 msgstr "Alkaen alhaalta..."
 
-#: src/components/_military/tournament/TournamentHeader.tsx:58
+#: src/components/_military/tournament/TournamentHeader.tsx:59
 msgid "Starts"
 msgstr ""
 
@@ -7969,7 +7979,7 @@ msgstr "Tilastot"
 msgid "Stats regenerate every hour"
 msgstr "Tilastot uusiutuvat tunnin välein"
 
-#: src/components/_military/tournament/TournamentTeamHeader.tsx:82
+#: src/components/_military/tournament/TournamentTeamHeader.tsx:81
 #: src/pages/war/[warId]/index.tsx:40
 msgid "Status"
 msgstr "Tila"
@@ -8147,8 +8157,8 @@ msgstr "Verot"
 msgid "Team {0}"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentHeader.tsx:71
-#: src/components/_military/tournament/TournamentHeader.tsx:122
+#: src/components/_military/tournament/TournamentHeader.tsx:72
+#: src/components/_military/tournament/TournamentHeader.tsx:151
 msgid "Teams"
 msgstr ""
 
@@ -8166,7 +8176,7 @@ msgstr "Ehdot"
 msgid "Terms of Service"
 msgstr "Palveluehdot"
 
-#: src/components/_layout/LayoutOptions.tsx:292
+#: src/components/_layout/LayoutOptions.tsx:302
 msgid "Texture"
 msgstr "Rakenne"
 
@@ -8325,6 +8335,10 @@ msgstr "Tämä alue ei ole yhteydessä omistajamaan pääkaupunkiin."
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:205
 msgid "This round only"
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:125
+msgid "This tournament has no equipment rarity cap: any gear can be used."
 msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:64
@@ -8534,7 +8548,7 @@ msgid "Total:"
 msgstr "Kokonais:"
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:176
+#: src/components/_military/battle/ActiveBattlesList.tsx:175
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -8589,11 +8603,11 @@ msgstr "Kaupankäyntitapahtuma"
 msgid "Trainee"
 msgstr "Harjoittelija"
 
-#: src/components/_user/user/UserHeader.tsx:209
+#: src/components/_user/user/UserHeader.tsx:210
 msgid "Transac."
 msgstr "Tapaht."
 
-#: src/components/_military/mu/MuHeader.tsx:169
+#: src/components/_military/mu/MuHeader.tsx:168
 #: src/components/_political/country/CountryHeader.tsx:100
 #: src/components/_political/party/PartyHeader.tsx:129
 #: src/pages/market/index.tsx:93
@@ -8638,7 +8652,7 @@ msgstr "Oppaat"
 msgid "Tutorials reseted"
 msgstr "Oppaat palautettu"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:52
+#: src/components/_military/tournament/TournamentHeader.tsx:53
 msgid "Type"
 msgstr ""
 
@@ -8646,7 +8660,7 @@ msgstr ""
 msgid "Tyrannosaurus Rex"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:155
+#: src/components/_layout/LayoutOptions.tsx:157
 msgid "UI"
 msgstr ""
 
@@ -8706,7 +8720,7 @@ msgstr "Avaa Tuo kaikki -painike"
 msgid "Unlocked pack"
 msgstr "Avattu pakkaus"
 
-#: src/components/_user/user/UserHeader.tsx:435
+#: src/components/_user/user/UserHeader.tsx:436
 msgid "Unmuted <0/>"
 msgstr "Mykistetty <0/>"
 
@@ -9110,6 +9124,14 @@ msgstr "Ase:"
 msgid "Weapons"
 msgstr "Aseet"
 
+#: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
+msgid "Weapons, ammo and gear above {maxRarityLabel} rarity cannot be used in this tournament's battles."
+msgstr ""
+
+#: src/components/_military/tournament/TournamentHeader.tsx:120
+msgid "Weapons, ammo and gear above this rarity cannot be used in this tournament's battles."
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:193
 msgid "Weekly"
@@ -9144,7 +9166,7 @@ msgstr "Tervetuloa sota-aikaan!"
 msgid "Welcome to your economy!"
 msgstr "Tervetuloa talouteenne!"
 
-#: src/components/_military/battle/MyBattlesRecapCard.tsx:150
+#: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr ""
 
@@ -9195,7 +9217,7 @@ msgstr "bonus + uskollisuus"
 msgid "With bounty"
 msgstr "Palkinnon kanssa"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:102
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:103
 msgid "Withdraw"
 msgstr ""
 
@@ -9203,7 +9225,7 @@ msgstr ""
 msgid "Wizard Hat"
 msgstr "Velhon hattu"
 
-#: src/components/_military/tournament/TournamentHeader.tsx:90
+#: src/components/_military/tournament/TournamentHeader.tsx:91
 #: src/pages/events/index.tsx:116
 msgid "Won by"
 msgstr "Voitti"
@@ -9246,7 +9268,7 @@ msgid "Worker updated!"
 msgstr "Työntekijä päivitetty!"
 
 #: src/components/_economy/company/CompanyHeader.tsx:35
-#: src/components/_economy/company/CompanyHeader.tsx:75
+#: src/components/_economy/company/CompanyHeader.tsx:74
 #: src/components/_economy/company/CompanyTooltip.tsx:85
 #: src/pages/company/[companyId]/index.tsx:87
 #: src/pages/company/[companyId]/workers.tsx:37
@@ -9261,7 +9283,7 @@ msgstr "Työskentely muille on loistava tapa ansaita rahaa aloittaessasi."
 msgid "World <0/>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:234
+#: src/components/_layout/LayoutOptions.tsx:244
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr ""
@@ -9504,7 +9526,7 @@ msgstr ""
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Sinun on käytettävä kaikki 3 eettistä pistettä ({pointsRemaining} jäljellä)"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:154
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:155
 msgid "You need a country to take part"
 msgstr ""
 
@@ -9717,11 +9739,11 @@ msgstr "Kansalaisuutesi tulee muuttumaan"
 msgid "Your country"
 msgstr "Sinun maasi"
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:108
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:109
 msgid "Your country is registered"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:142
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:143
 msgid "Your country is registered for this tournament"
 msgstr ""
 
@@ -9802,11 +9824,11 @@ msgstr ""
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:106
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:107
 msgid "Your MU is registered"
 msgstr ""
 
-#: src/components/_military/tournament/TournamentRegisterButton.tsx:140
+#: src/components/_military/tournament/TournamentRegisterButton.tsx:141
 msgid "Your MU is registered for this tournament"
 msgstr ""
 
@@ -9869,10 +9891,10 @@ msgstr "sinun@sähköposti.fi"
 msgid "Yours"
 msgstr "Sinun"
 
-#: src/components/_layout/LayoutMapIcons.tsx:155
+#: src/components/_layout/LayoutLeftIcons.tsx:134
 msgid "Zoom in"
 msgstr ""
 
-#: src/components/_layout/LayoutMapIcons.tsx:146
+#: src/components/_layout/LayoutLeftIcons.tsx:142
 msgid "Zoom out"
 msgstr ""
