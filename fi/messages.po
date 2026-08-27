@@ -35,7 +35,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:468
+#: src/components/_user/user/UserHeader.tsx:469
 msgid " - Reason: {0}"
 msgstr " - Syy: {0}"
 
@@ -99,7 +99,7 @@ msgid "{0} days cooldown"
 msgstr "{0} päivän odotusaika"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:214
+#: src/pages/user/[userId]/skills.tsx:219
 msgid "{0} Free"
 msgstr "{0} ilmainen"
 
@@ -152,7 +152,7 @@ msgstr "{0}% tulovero vähennetään työntekijöidesi palkoista."
 msgid "{0}% of invested"
 msgstr "{0}% sijoitetusta"
 
-#: src/components/_user/mission/MissionsList.tsx:185
+#: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} suoritettu"
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "{roundsToWin} Rounds to win "
 msgstr ""
 
-#: src/components/_user/user/SkillUpgrade.tsx:373
+#: src/components/_user/user/SkillUpgrade.tsx:376
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr ""
 
@@ -1658,7 +1658,7 @@ msgstr "API-tunnus luotu uudelleen"
 msgid "API token revoked"
 msgstr "API-tunnus peruutettu"
 
-#: src/pages/user/[userId]/settings.tsx:128
+#: src/pages/user/[userId]/settings.tsx:134
 msgid "API Tokens"
 msgstr "API-tunnukset"
 
@@ -1670,11 +1670,11 @@ msgstr "API-tunnukset sallivat ulkoisten sovellusten käyttää API:ta puolestas
 msgid "App pattern"
 msgstr "Sovellusmalli"
 
-#: src/pages/user/[userId]/settings.tsx:102
+#: src/pages/user/[userId]/settings.tsx:108
 msgid "App settings"
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:75
+#: src/pages/user/[userId]/settings.tsx:81
 msgid "Appearance"
 msgstr ""
 
@@ -1744,7 +1744,7 @@ msgstr "Haluatko varmasti poistaa kaikki myyntitilaukset?"
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr ""
 
-#: src/components/_user/mission/MissionItem.tsx:118
+#: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
 msgstr "Oletko varma, että haluat suorittaa tämän tehtävän uudelleen? Nykyinen edistymisesi menetetään."
 
@@ -1783,7 +1783,7 @@ msgstr "Artikkelin vinkki"
 msgid "Article tipped"
 msgstr "Artikkeli sai tipin"
 
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:253
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Artikkelit"
@@ -1932,6 +1932,10 @@ msgstr "Automaattinen moottori"
 msgid "Automated Engine"
 msgstr "Automatisoitu Moottori"
 
+#: src/components/_user/mission/MissionsList.tsx:322
+msgid "Available now"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:148
 msgid "Avatar removed"
 msgstr "Avatar poistettu"
@@ -1984,7 +1988,7 @@ msgstr ""
 msgid "Bankruptcy"
 msgstr "Konkurssi"
 
-#: src/components/_user/user/UserHeader.tsx:457
+#: src/components/_user/user/UserHeader.tsx:458
 msgid "Banned"
 msgstr "Kielletty"
 
@@ -2004,8 +2008,8 @@ msgstr "Bannerilahja lähetetty"
 msgid "Banners"
 msgstr "Bannerit"
 
-#: src/components/_user/user/UserHeader.tsx:205
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Bans"
 msgstr "Kiellot"
 
@@ -2102,7 +2106,7 @@ msgstr ""
 msgid "Battlefield Loot"
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:131
+#: src/components/_layout/LayoutMenu.tsx:132
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
@@ -2175,7 +2179,7 @@ msgstr ""
 msgid "Bonus damages"
 msgstr "Bonusvahingot"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:112
 msgid "Boost your production!"
 msgstr "Tehosta tuotantoasi!"
 
@@ -2192,6 +2196,10 @@ msgstr ""
 #: src/components/_military/battle/BattleSystem.tsx:868
 msgid "Bounty cooldown"
 msgstr "Palkkion odotusaika"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:116
+msgid "Bounty earned"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 msgid "Bounty will be available in"
@@ -2230,7 +2238,7 @@ msgstr ""
 msgid "Buff ended"
 msgstr "Buff loppui"
 
-#: src/components/_user/user/UserHeader.tsx:340
+#: src/components/_user/user/UserHeader.tsx:341
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2290,7 +2298,7 @@ msgstr "Osta kohteita"
 msgid "Buy orders"
 msgstr "Osta tilauksia"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:398
+#: src/components/_user/auth/ConnectFromModal.tsx:408
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "Jatkamalla hyväksyt <0>Käyttöehdot</0>."
 
@@ -2409,9 +2417,13 @@ msgstr "CAPTCHA-vahvistus aikakatkaistiin. Nollataan..."
 msgid "Case"
 msgstr "Kotelo"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:94
+#: src/components/_other/tour/tuto.frontConfig.tsx:92
 msgid "Cases contain random items. Click to open it!"
 msgstr "Kotelot sisältävät satunnaisia ​​kohteita. Napsauta avataksesi sen!"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:104
+msgid "Cases opened"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
@@ -2498,7 +2510,7 @@ msgstr ""
 msgid "Change the tax of {0} to"
 msgstr "Muuta {0} veroksi"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:83
+#: src/components/_other/tour/tuto.frontConfig.tsx:82
 msgid "Check your loot!"
 msgstr "Tarkista saalis!"
 
@@ -2527,7 +2539,7 @@ msgstr ""
 msgid "Choose your country"
 msgstr "Valitse maasi"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:146
+#: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Valitse puolesi ja klikkaa käsitelläksesi <0>Vahingot</0>! Jatka lyömistä auttaaksesi joukkuettasi voittamaan."
 
@@ -2535,7 +2547,7 @@ msgstr "Valitse puolesi ja klikkaa käsitelläksesi <0>Vahingot</0>! Jatka lyöm
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:321
+#: src/components/_user/user/UserHeader.tsx:322
 msgid "Citizen since"
 msgstr ""
 
@@ -2561,18 +2573,18 @@ msgid "Civil war"
 msgstr "Sisällissota"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:315
-#: src/components/_user/mission/MissionItem.tsx:265
-#: src/components/_user/mission/MissionsFinishedProgress.tsx:150
+#: src/components/_user/mission/MissionItem.tsx:266
+#: src/components/_user/mission/MissionsFinishedProgress.tsx:141
 msgid "Claim"
 msgstr "Lunasta"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:183
+#: src/components/_other/tour/tuto.frontConfig.tsx:181
 msgid "Claim your rewards!"
 msgstr "Lunasta palkintosi!"
 
-#: src/components/_user/mission/MissionItem.tsx:216
-#: src/components/_user/mission/MissionItem.tsx:265
-#: src/components/_user/mission/MissionsFinishedProgress.tsx:127
+#: src/components/_user/mission/MissionItem.tsx:217
+#: src/components/_user/mission/MissionItem.tsx:266
+#: src/components/_user/mission/MissionsFinishedProgress.tsx:118
 msgid "Claimed"
 msgstr "Lunastettu"
 
@@ -2585,15 +2597,15 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Tyhjennä valinta"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Napsauta useita kertoja lisätäksesi tätä taitoa. Korkeammat taidot = enemmän voimaa!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Napsauta taistelua nähdäksesi mitä tapahtuu ja liity mukaan."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Napsauta maasi keskustelua keskustellaksesi kansalaisten kanssa."
 
@@ -2605,7 +2617,7 @@ msgstr "Napsauta hakeaksesi ja ala ansaita rahaa heti."
 msgid "Click to consume."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:100
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Napsauta nähdäksesi, mitä sisällä on. Saatat saada jotain arvokasta!"
 
@@ -2639,7 +2651,7 @@ msgid "Colonel"
 msgstr "Eversti"
 
 #: src/components/_user/user/UserDropdown.tsx:243
-#: src/pages/user/[userId]/settings.tsx:81
+#: src/pages/user/[userId]/settings.tsx:87
 msgid "Color scheme"
 msgstr "Värimaailma"
 
@@ -2677,11 +2689,11 @@ msgstr "Kommodori"
 msgid "Community"
 msgstr "yhteisössä"
 
-#: src/components/_layout/LayoutMenu.tsx:173
+#: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:244
+#: src/components/_user/user/UserHeader.tsx:245
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:96
+#: src/pages/companies.tsx:97
 msgid "Companies"
 msgstr "Yritykset"
 
@@ -2726,7 +2738,7 @@ msgstr "Yritys nimetty uudelleen!"
 msgid "Company upgraded!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:194
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Suorita tehtäviä päivittäin ansaitaksesi XP ja noustaksesi nopeammin. Napsauta lunastaaksesi!"
 
@@ -2817,7 +2829,7 @@ msgstr "kongressin jäseniä"
 msgid "Connect with Discord"
 msgstr "Yhdistä Discordiin"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:383
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "Connect with email code"
 msgstr "Yhdistä sähköpostikoodilla"
 
@@ -2837,7 +2849,7 @@ msgstr "Valloittaja"
 msgid "Consider giving it to your local moderator"
 msgstr "Harkitse sen antamista paikalliselle moderaattorillesi"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:553
+#: src/components/_user/mission/mission.frontConfig.tsx:552
 msgid "Construct"
 msgstr ""
 
@@ -2888,12 +2900,12 @@ msgstr "Sopimukset"
 msgid "Contracts & Auctions"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:555
-msgid "Contribute to region upgrade constructions <0/> times"
+#: src/components/_user/mission/mission.frontConfig.tsx:554
+msgid "Contribute to constructions <0/> times"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:566
-msgid "Contribute to the resistance of occupied regions <0/> times"
+#: src/components/_user/mission/mission.frontConfig.tsx:564
+msgid "Contribute to resistance <0/> times"
 msgstr ""
 
 #: src/utils/translations.tsx:39
@@ -3044,7 +3056,7 @@ msgstr "Käsityötuote"
 msgid "Create"
 msgstr "Luo"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:370
+#: src/components/_user/mission/mission.frontConfig.tsx:369
 msgid "Create a Company"
 msgstr "Luo yritys"
 
@@ -3054,7 +3066,7 @@ msgstr "Luo yritys"
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:371
+#: src/components/_user/mission/mission.frontConfig.tsx:370
 msgid "Create a new company"
 msgstr "Luo uusi yritys"
 
@@ -3161,7 +3173,7 @@ msgstr "Mukautettu käyttäjänimen fontti"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:203
+#: src/components/_user/mission/MissionsList.tsx:253
 msgid "Daily"
 msgstr "Päivittäin"
 
@@ -3204,7 +3216,7 @@ msgstr "Vitun hyvältä näyttää"
 msgid "Damn you lucky"
 msgstr "Vitun onnekas"
 
-#: src/pages/user/[userId]/settings.tsx:134
+#: src/pages/user/[userId]/settings.tsx:140
 msgid "Danger zone"
 msgstr "Vaaravyöhyke"
 
@@ -3285,7 +3297,7 @@ msgstr "Aiheuttaa joitakin vahinkoja"
 msgid "Debuff ended"
 msgstr "Debuff päättyi"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:349
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3379,7 +3391,7 @@ msgstr "Määrittele maa viholliseksi, jota vastaan ​​voit saada bonusta"
 msgid "Define a sworn enemy"
 msgstr "Määrittele vannoutunut vihollinen"
 
-#: src/pages/user/[userId]/settings.tsx:137
+#: src/pages/user/[userId]/settings.tsx:143
 msgid "Delete account"
 msgstr "Poista tili"
 
@@ -3548,7 +3560,7 @@ msgstr ""
 msgid "Don't forget to drink water"
 msgstr "Älä unohda juoda vettä"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Don't forget to save your skill upgrades."
 msgstr "Älä unohda tallentaa taitopäivityksesi."
 
@@ -3556,11 +3568,11 @@ msgstr "Älä unohda tallentaa taitopäivityksesi."
 msgid "Don't quit now, your luck is buffering"
 msgstr "Älä luovuta nyt, onnesi puskuroi"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:533
+#: src/components/_user/mission/mission.frontConfig.tsx:532
 msgid "Donate"
 msgstr "Lahjoita"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:535
+#: src/components/_user/mission/mission.frontConfig.tsx:534
 msgid "Donate <0/> to MU or Country"
 msgstr ""
 
@@ -3859,7 +3871,7 @@ msgstr "Eettiset kohdat:"
 msgid "Events"
 msgstr "Tapahtumat"
 
-#: src/components/_user/mission/MissionsHeader.tsx:80
+#: src/components/_user/mission/MissionsHeader.tsx:77
 msgid "Every mission you ever completed and claimed"
 msgstr ""
 
@@ -4066,7 +4078,7 @@ msgstr ""
 msgid "Fight skills"
 msgstr "Taistelutaidot"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:144
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Fight!"
 msgstr "Taistele!"
 
@@ -4111,16 +4123,16 @@ msgstr "Rahoita paikallista vastustusta"
 msgid "Finance resistance in <0/>"
 msgstr ""
 
-#: src/pages/companies.tsx:59
+#: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Etsi työpaikka"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:501
+#: src/components/_user/mission/mission.frontConfig.tsx:500
 msgid "Find a Job"
 msgstr "Etsi työpaikka"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:502
+#: src/components/_user/mission/mission.frontConfig.tsx:501
 msgid "Find a job at a company"
 msgstr "Etsi työpaikka yrityksestä"
 
@@ -4235,11 +4247,15 @@ msgstr "Jalokivet"
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
 msgstr "Jalokiviä käytetään ostamaan omaisuutta kaupasta ja lahjoittamaan kannattajakuukausia muille pelaajille"
 
+#: src/components/_user/user/UserRankingsPanel.tsx:110
+msgid "Gems purchased"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
 msgstr "Kenraali"
 
-#: src/components/_user/mission/MissionsList.tsx:270
+#: src/components/_user/mission/MissionsList.tsx:334
 msgid "Generate Missions"
 msgstr "Luo tehtäviä"
 
@@ -4367,7 +4383,7 @@ msgstr "Vilja"
 msgid "Graticule"
 msgstr "Ruudukko"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:176
+#: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Hienoa työtä! Lyö vielä muutaman kerran auttaaksesi puoltasi voittamaan taistelun."
 
@@ -4439,7 +4455,7 @@ msgstr "Grimdark-tarkka-ampuja"
 msgid "Grimdark Tank"
 msgstr "Grimdark tankki"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:33
+#: src/components/_user/user/UserRankingsPanel.tsx:43
 msgid "Ground"
 msgstr "Maa"
 
@@ -4731,10 +4747,10 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:195
+#: src/components/_layout/LayoutUserMenu.tsx:199
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
-#: src/pages/companies.tsx:83
+#: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
@@ -4833,7 +4849,7 @@ msgstr "Työpaikat"
 msgid "Join <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:383
+#: src/components/_user/mission/mission.frontConfig.tsx:382
 msgid "Join a Military Unit"
 msgstr "Liity sotilasyksikköön"
 
@@ -4841,11 +4857,11 @@ msgstr "Liity sotilasyksikköön"
 msgid "Join a military unit to take part"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:479
+#: src/components/_user/mission/mission.frontConfig.tsx:478
 msgid "Join a Party"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:480
+#: src/components/_user/mission/mission.frontConfig.tsx:479
 msgid "Join a political party"
 msgstr ""
 
@@ -4854,7 +4870,7 @@ msgstr ""
 msgid "Join alliance"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:382
+#: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Join MU"
 msgstr "Liity MU:hon"
 
@@ -4866,7 +4882,7 @@ msgstr ""
 msgid "Join this company!"
 msgstr "Liity tähän yritykseen!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Join your country chat!"
 msgstr "Liity maasi chattiin!"
 
@@ -4898,7 +4914,7 @@ msgstr "Vielä yksi… mikä voisi mennä pieleen?"
 msgid "Keep chasing that Mythic"
 msgstr "Jatka sitä myyttiä"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:174
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Keep fighting!"
 msgstr "Jatka taistelua!"
 
@@ -4948,7 +4964,7 @@ msgstr "Kieli"
 msgid "Last"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:357
 msgid "Last connection"
 msgstr ""
 
@@ -4962,7 +4978,7 @@ msgstr "Viimeiset lahjat"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:339
 #: src/components/_user/auth/ConnectFromModal.tsx:358
-#: src/components/_user/auth/ConnectFromModal.tsx:386
+#: src/components/_user/auth/ConnectFromModal.tsx:396
 msgid "Last used"
 msgstr "Viimeksi käytetty"
 
@@ -5089,7 +5105,7 @@ msgstr "Taso {level}"
 msgid "Level too low"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Level up your skills!"
 msgstr "Nosta osaamistasi!"
 
@@ -5131,19 +5147,19 @@ msgstr "Kevyt"
 msgid "Light Ammo"
 msgstr "Kevyt ammus"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:344
+#: src/components/_user/mission/mission.frontConfig.tsx:343
 msgid "Like <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:430
+#: src/components/_user/mission/mission.frontConfig.tsx:429
 msgid "Like <0/> messages"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:342
+#: src/components/_user/mission/mission.frontConfig.tsx:341
 msgid "Like Article"
 msgstr "Kuten artikkeli"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:428
+#: src/components/_user/mission/mission.frontConfig.tsx:427
 msgid "Like Message"
 msgstr "Kuten Viesti"
 
@@ -5214,11 +5230,11 @@ msgid "Long Sword"
 msgstr "Pitkä miekka"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:323
-msgid "Loot <0/> from battles"
+msgid "Loot <0/> in battles"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:333
-msgid "Loot <0/> weapons or equipments from battlefields"
+msgid "Loot <0/> items on battlefield"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:321
@@ -5302,7 +5318,7 @@ msgid "Map icons"
 msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:162
+#: src/components/_layout/LayoutMenu.tsx:163
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5403,7 +5419,7 @@ msgstr "Keskiaikainen teräsnuoli"
 msgid "Medieval Stone Arrow"
 msgstr "Keskiaikainen kivinuoli"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:204
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Tapaa muita pelaajia chatissa. Älä ole ujo, esittele itsesi!"
 
@@ -5485,16 +5501,17 @@ msgstr "Viesti (valinnainen)"
 msgid "Message liked"
 msgstr "Viestistä tykätty"
 
-#: src/components/_user/mission/MissionsHeader.tsx:85
+#: src/components/_user/mission/MissionsHeader.tsx:82
+#: src/components/_user/user/UserRankingsPanel.tsx:86
 msgid "Milestone tiers"
 msgstr ""
 
-#: src/components/_user/mission/MissionsHeader.tsx:90
+#: src/components/_user/mission/MissionsHeader.tsx:87
 msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
-#: src/components/_user/mission/MissionsHeader.tsx:66
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/mission/MissionsHeader.tsx:63
+#: src/components/_user/user/UserHeader.tsx:231
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -5584,17 +5601,18 @@ msgstr "ulkoministeri"
 msgid "Mission tags"
 msgstr ""
 
-#: src/components/_user/mission/MissionsHeader.tsx:59
-#: src/components/_user/mission/MissionsList.tsx:182
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/mission/MissionsHeader.tsx:56
+#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Missions"
 msgstr "Tehtävät"
 
-#: src/components/_user/mission/MissionsHeader.tsx:53
+#: src/components/_user/mission/MissionsHeader.tsx:50
 msgid "Missions & milestones"
 msgstr ""
 
-#: src/components/_user/mission/MissionsHeader.tsx:76
+#: src/components/_user/mission/MissionsHeader.tsx:73
+#: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
 msgstr ""
 
@@ -5627,13 +5645,17 @@ msgid "Money Won"
 msgstr "Rahaa voitettu"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:229
+#: src/components/_user/mission/MissionsList.tsx:279
 msgid "Monthly"
 msgstr "Kuukausittain"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Kuukausittaiset vahingot: <0>{monthlyDamages}</0>"
+
+#: src/components/_user/mission/MissionsList.tsx:311
+msgid "Monthly missions are not available yet"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2170
 msgid "Monthly Missions Reset"
@@ -5667,7 +5689,7 @@ msgstr "Esitysehdotus"
 msgid "Motions"
 msgstr "Liikkeet"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:518
+#: src/components/_user/mission/mission.frontConfig.tsx:517
 msgid "Move a company to another region"
 msgstr "Siirrä yritys toiselle alueelle"
 
@@ -5676,7 +5698,7 @@ msgstr "Siirrä yritys toiselle alueelle"
 msgid "Move company"
 msgstr "Siirrä yritys"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:517
+#: src/components/_user/mission/mission.frontConfig.tsx:516
 msgid "Move Company"
 msgstr "Siirrä yritys"
 
@@ -5692,7 +5714,7 @@ msgstr "Siirrä ylös"
 msgid "Moved to a new company"
 msgstr "Muutti uuteen yritykseen"
 
-#: src/components/_layout/LayoutMenu.tsx:118
+#: src/components/_layout/LayoutMenu.tsx:119
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
@@ -5988,7 +6010,7 @@ msgstr "Mukava"
 msgid "Nice one"
 msgstr "Hieno sellainen"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Nice work!"
 msgstr "Hienoa työtä!"
 
@@ -6113,7 +6135,7 @@ msgstr ""
 msgid "No military units found"
 msgstr "Sotilasyksiköitä ei löytynyt"
 
-#: src/components/_user/mission/MissionsList.tsx:260
+#: src/components/_user/mission/MissionsList.tsx:313
 msgid "No missions available"
 msgstr "Ei tehtäviä saatavilla"
 
@@ -6262,7 +6284,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr ""
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:122
+#: src/pages/user/[userId]/settings.tsx:128
 msgid "Notification preferences"
 msgstr "Ilmoitusasetukset"
 
@@ -6278,11 +6300,11 @@ msgstr "Nyt puhumme!"
 msgid "Number of Donors:"
 msgstr "Luovuttajien määrä:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:497
+#: src/components/_user/mission/mission.frontConfig.tsx:496
 msgid "Obtain a badge"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:496
+#: src/components/_user/mission/mission.frontConfig.tsx:495
 msgid "Obtain a Badge"
 msgstr ""
 
@@ -6383,7 +6405,7 @@ msgstr "Avaa kotelo"
 msgid "Open Cases"
 msgstr "Avoimet kotelot"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:376
+#: src/components/_user/mission/mission.frontConfig.tsx:375
 msgid "Open Chat"
 msgstr "Avaa Chat"
 
@@ -6403,7 +6425,7 @@ msgstr "Avaa se saadaksesi satunnaisen kohteen"
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "Avaa useita <0>Cases</0> samanaikaisesti"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:377
+#: src/components/_user/mission/mission.frontConfig.tsx:376
 msgid "Open the chat"
 msgstr "Avaa chat"
 
@@ -6411,7 +6433,7 @@ msgstr "Avaa chat"
 msgid "Open to all"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:98
+#: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Open your case!"
 msgstr "Avaa tapauksesi!"
 
@@ -6422,6 +6444,10 @@ msgstr "Tiedustelija"
 #: src/components/_layout/LayoutLeftIcons.tsx:208
 msgid "Options"
 msgstr "Vaihtoehdot"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:370
+msgid "or"
+msgstr ""
 
 #: src/components/_military/order/BattleOrderTags.tsx:25
 msgid "Order"
@@ -6683,7 +6709,7 @@ msgstr "Puhelinvahvistus pyydetty"
 msgid "Phone verification required"
 msgstr "Puhelinvahvistus vaaditaan"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:135
 msgid "Pick a fight!"
 msgstr "Haastaa riitaa!"
 
@@ -6818,7 +6844,7 @@ msgid "Presidential elections"
 msgstr "Presidentinvaalit"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
-#: src/pages/user/[userId]/skills.tsx:193
+#: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
 msgstr ""
 
@@ -6864,7 +6890,7 @@ msgid "Probability of landing a critical hit"
 msgstr "Kriittisen osuman osumisen todennäköisyys"
 
 #: src/components/_economy/company/ProduceButton.tsx:142
-#: src/components/_user/mission/mission.frontConfig.tsx:507
+#: src/components/_user/mission/mission.frontConfig.tsx:506
 msgid "Produce"
 msgstr "Tuota"
 
@@ -6872,7 +6898,7 @@ msgstr "Tuota"
 msgid "Produce All"
 msgstr "Tuota kaikki"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:509
+#: src/components/_user/mission/mission.frontConfig.tsx:508
 msgid "Produce items <0/> times"
 msgstr ""
 
@@ -6927,7 +6953,7 @@ msgstr "Profiili"
 
 #: src/components/_layout/LayoutRightIcons.tsx:168
 #: src/components/_layout/MoreButtonNav.tsx:100
-#: src/components/_user/mission/MissionsHeader.tsx:52
+#: src/components/_user/mission/MissionsHeader.tsx:49
 msgid "Progression"
 msgstr ""
 
@@ -7076,91 +7102,91 @@ msgstr ""
 msgid "Raw materials:"
 msgstr "Raaka-aineet:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:409
+#: src/components/_user/mission/mission.frontConfig.tsx:408
 msgid "Reach level 10"
 msgstr "Saavuta taso 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:408
+#: src/components/_user/mission/mission.frontConfig.tsx:407
 msgid "Reach Level 10"
 msgstr "Saavuta taso 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:414
+#: src/components/_user/mission/mission.frontConfig.tsx:413
 msgid "Reach level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:413
+#: src/components/_user/mission/mission.frontConfig.tsx:412
 msgid "Reach Level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:419
+#: src/components/_user/mission/mission.frontConfig.tsx:418
 msgid "Reach level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:418
+#: src/components/_user/mission/mission.frontConfig.tsx:417
 msgid "Reach Level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:424
+#: src/components/_user/mission/mission.frontConfig.tsx:423
 msgid "Reach level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:423
+#: src/components/_user/mission/mission.frontConfig.tsx:422
 msgid "Reach Level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:404
+#: src/components/_user/mission/mission.frontConfig.tsx:403
 msgid "Reach level 5"
 msgstr "Saavuta taso 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:403
+#: src/components/_user/mission/mission.frontConfig.tsx:402
 msgid "Reach Level 5"
 msgstr "Saavuta taso 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:455
+#: src/components/_user/mission/mission.frontConfig.tsx:454
 msgid "Reach military rank 10"
 msgstr "Saavuta sotilasarvo 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:454
+#: src/components/_user/mission/mission.frontConfig.tsx:453
 msgid "Reach Military Rank 10"
 msgstr "Saavuta sotilasarvo 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:460
+#: src/components/_user/mission/mission.frontConfig.tsx:459
 msgid "Reach military rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:459
+#: src/components/_user/mission/mission.frontConfig.tsx:458
 msgid "Reach Military Rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:465
+#: src/components/_user/mission/mission.frontConfig.tsx:464
 msgid "Reach military rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:464
+#: src/components/_user/mission/mission.frontConfig.tsx:463
 msgid "Reach Military Rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:470
+#: src/components/_user/mission/mission.frontConfig.tsx:469
 msgid "Reach military rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:469
+#: src/components/_user/mission/mission.frontConfig.tsx:468
 msgid "Reach Military Rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:450
+#: src/components/_user/mission/mission.frontConfig.tsx:449
 msgid "Reach military rank 5"
 msgstr "Saavuta sotilasarvo 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:449
+#: src/components/_user/mission/mission.frontConfig.tsx:448
 msgid "Reach Military Rank 5"
 msgstr "Saavuta sotilasarvo 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:475
+#: src/components/_user/mission/mission.frontConfig.tsx:474
 msgid "Reach military rank 50"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:474
+#: src/components/_user/mission/mission.frontConfig.tsx:473
 msgid "Reach Military Rank 50"
 msgstr ""
 
@@ -7179,11 +7205,11 @@ msgstr ""
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "Tason {0} saavuttaminen antaa sinulle <0>{nextLevelSkillPoints} taitopisteitä</0>."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:361
+#: src/components/_user/mission/mission.frontConfig.tsx:360
 msgid "Read <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:359
+#: src/components/_user/mission/mission.frontConfig.tsx:358
 msgid "Read Article"
 msgstr "Lue artikkeli"
 
@@ -7191,7 +7217,7 @@ msgstr "Lue artikkeli"
 msgid "Read the article"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Ready for battle!"
 msgstr "Valmiina taisteluun!"
 
@@ -7238,8 +7264,8 @@ msgstr "Vähentää taisteluissa taistelemisen aikana menetettyä terveyttä"
 msgid "Referral link copied to clipboard"
 msgstr "Viittauslinkki kopioitu leikepöydälle"
 
-#: src/components/_user/user/UserHeader.tsx:258
-#: src/components/_user/user/UserRankingsPanel.tsx:50
+#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
@@ -7262,7 +7288,7 @@ msgstr "Viittauskäyttäjätunnus"
 msgid "Refresh every hour"
 msgstr "Päivitä tunnin välein"
 
-#: src/components/_layout/LayoutUserMenu.tsx:246
+#: src/components/_layout/LayoutUserMenu.tsx:251
 msgid "Regen in..."
 msgstr "Regen sisään..."
 
@@ -7378,11 +7404,11 @@ msgstr "Hylkää"
 msgid "Rejected"
 msgstr "Hylätty"
 
-#: src/components/_layout/LayoutUserMenu.tsx:272
+#: src/components/_layout/LayoutUserMenu.tsx:277
 msgid "Remaining buff duration"
 msgstr "Jäljellä oleva buffin kesto"
 
-#: src/components/_layout/LayoutUserMenu.tsx:285
+#: src/components/_layout/LayoutUserMenu.tsx:290
 msgid "Remaining debuff duration"
 msgstr "Jäljellä oleva debuffin kesto"
 
@@ -7498,7 +7524,7 @@ msgstr "Raportoi"
 msgid "Report user"
 msgstr "Ilmoita käyttäjästä"
 
-#: src/components/_user/user/UserHeader.tsx:212
+#: src/components/_user/user/UserHeader.tsx:213
 msgid "Reports"
 msgstr ""
 
@@ -7523,11 +7549,11 @@ msgstr "Pyydä puhelinvahvistus"
 msgid "Requests:"
 msgstr "Pyynnöt:"
 
-#: src/components/_user/mission/MissionItem.tsx:117
+#: src/components/_user/mission/MissionItem.tsx:118
 msgid "Reroll Mission"
 msgstr "Uusintatehtävä"
 
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:216
 msgid "Reset"
 msgstr "Nollaa"
 
@@ -7535,7 +7561,7 @@ msgstr "Nollaa"
 msgid "Reset CAPTCHA"
 msgstr "Nollaa CAPTCHA"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:490
+#: src/components/_user/mission/mission.frontConfig.tsx:489
 msgid "Reset Skills"
 msgstr ""
 
@@ -7543,7 +7569,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "Nollaa Survivor"
 
-#: src/pages/user/[userId]/settings.tsx:117
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Reset tutorials"
 msgstr "Palauta opetusohjelmat"
 
@@ -7551,7 +7577,7 @@ msgstr "Palauta opetusohjelmat"
 msgid "Reset Username"
 msgstr "Palauta käyttäjänimi"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:491
+#: src/components/_user/mission/mission.frontConfig.tsx:490
 msgid "Reset your skills"
 msgstr ""
 
@@ -7560,7 +7586,7 @@ msgid "Reshuffle in"
 msgstr "Järjestä uudelleen"
 
 #: src/components/_military/hit/HitButton.tsx:468
-#: src/components/_user/mission/mission.frontConfig.tsx:564
+#: src/components/_user/mission/mission.frontConfig.tsx:562
 msgid "Resist"
 msgstr "Vastustaa"
 
@@ -7594,7 +7620,7 @@ msgstr "Resurssit jaettu uudelleen"
 msgid "Response to message"
 msgstr "Vastaus viestiin"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:164
+#: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Restore your health!"
 msgstr "Palauta terveytesi!"
 
@@ -7718,22 +7744,22 @@ msgstr "säännöt"
 msgid "Ruling Party"
 msgstr "Hallitseva puolue"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Running low on health?"
 msgstr "Onko terveys loppumassa?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:250
+#: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
 msgstr "Tallenna"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:124
+#: src/components/_other/tour/tuto.frontConfig.tsx:122
 msgid "Save your progress!"
 msgstr "Tallenna edistymisesi!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:200
 msgid "Say hello!"
 msgstr "Sano hei!"
 
@@ -7853,7 +7879,7 @@ msgstr "Myyntihinta:"
 msgid "sells"
 msgstr "myy"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:390
+#: src/components/_user/mission/mission.frontConfig.tsx:389
 msgid "Send <0/> messages"
 msgstr ""
 
@@ -7865,7 +7891,7 @@ msgstr ""
 msgid "Send a message"
 msgstr "Lähetä viesti"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Lähetä viesti suorittaaksesi opetusohjelman. Tervetuloa yhteisöön!"
 
@@ -7877,7 +7903,7 @@ msgstr "Lähetä koodi"
 msgid "Send Gift"
 msgstr "Lähetä lahja"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:388
+#: src/components/_user/mission/mission.frontConfig.tsx:387
 msgid "Send Message"
 msgstr "Lähetä Viesti"
 
@@ -7933,7 +7959,7 @@ msgstr "Aseta järjestys"
 msgid "Set party ethics"
 msgstr "Aseta puolueen etiikka"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:443
+#: src/components/_user/mission/mission.frontConfig.tsx:442
 msgid "Set Profile Picture"
 msgstr "Aseta profiilikuva"
 
@@ -7951,7 +7977,7 @@ msgstr "Aseta maan erikoistuote <0>{0}</0>.<1/>Maan strategiset resurssit <2>Tuo
 msgid "Set the country's specialized production item"
 msgstr "Aseta maan erikoistuote"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:437
+#: src/components/_user/mission/mission.frontConfig.tsx:436
 msgid "Set Username"
 msgstr "Aseta käyttäjätunnus"
 
@@ -7960,17 +7986,17 @@ msgstr "Aseta käyttäjätunnus"
 msgid "Set welcome article"
 msgstr "Aseta tervetuloartikkeli"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:444
+#: src/components/_user/mission/mission.frontConfig.tsx:443
 msgid "Set your profile picture"
 msgstr "Aseta profiilikuvasi"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:438
+#: src/components/_user/mission/mission.frontConfig.tsx:437
 msgid "Set your username"
 msgstr "Aseta käyttäjätunnuksesi"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:264
+#: src/components/_user/user/UserHeader.tsx:265
 msgid "Settings"
 msgstr "Asetukset"
 
@@ -8003,6 +8029,7 @@ msgstr ""
 #: src/components/_social/ArticleTags.tsx:311
 #: src/components/_social/ArticleTags.tsx:369
 #: src/components/_social/ArticleTags.tsx:419
+#: src/components/_user/user/UserRankingsPanel.tsx:162
 msgid "Show more"
 msgstr "Näytä lisää"
 
@@ -8050,11 +8077,11 @@ msgstr "Taitojen päivitys:"
 msgid "Skills"
 msgstr "Taidot"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Taidot tekevät sinusta vahvemman. Tehdään kykyjäsi!"
 
-#: src/pages/user/[userId]/skills.tsx:59
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Taidot pelastettu!"
 
@@ -8091,6 +8118,10 @@ msgstr "Skinit"
 #: src/components/_other/shop/SkinPackModal.tsx:249
 msgid "Skins in this pack"
 msgstr "Skinit tässä pakkauksessa"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:98
+msgid "Skins owned"
+msgstr ""
 
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
@@ -8213,7 +8244,7 @@ msgstr "Alkoi <0/>"
 msgid "Started<0/><1/>"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:242
+#: src/components/_user/mission/MissionsList.tsx:292
 msgid "Starting"
 msgstr "Alkaa"
 
@@ -8243,7 +8274,7 @@ msgstr "Tilastollisesti väärennetty"
 msgid "Stats"
 msgstr "Tilastot"
 
-#: src/components/_layout/LayoutUserMenu.tsx:247
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Stats regenerate every hour"
 msgstr "Tilastot uusiutuvat tunnin välein"
 
@@ -8297,7 +8328,7 @@ msgstr "Tilattu"
 msgid "Subscribed and supported the game <3"
 msgstr "Tilannut ja tukenut peliä <3"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:56
+#: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
 msgstr "Tilaajat"
 
@@ -8339,11 +8370,11 @@ msgstr "Tuki-ominaisuus"
 msgid "Supporter Gift"
 msgstr "Lahja kannattajalle"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:68
+#: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
 msgstr "Tukilahjoja"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:62
+#: src/components/_user/user/UserRankingsPanel.tsx:72
 msgid "Supporter months"
 msgstr "Tukikuukaudet"
 
@@ -8450,7 +8481,7 @@ msgstr ""
 msgid "Terms"
 msgstr "Ehdot"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:425
+#: src/components/_user/auth/ConnectFromModal.tsx:435
 msgid "Terms of Service"
 msgstr "Palveluehdot"
 
@@ -8636,7 +8667,7 @@ msgstr "Tämä edellyttää, että käyttäjä vahvistaa matkapuhelinnumeronsa."
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "On aika taistella maasi puolesta! Liitytään toimintaan."
 
@@ -8810,7 +8841,7 @@ msgstr "Avattuja tapauksia yhteensä"
 msgid "Total damage"
 msgstr ""
 
-#: src/components/_user/user/UserRankingsPanel.tsx:27
+#: src/components/_user/user/UserRankingsPanel.tsx:37
 msgid "Total damages"
 msgstr "Kokonaisvahingot"
 
@@ -8830,7 +8861,7 @@ msgstr ""
 msgid "Total reward"
 msgstr "Kokonaispalkinto"
 
-#: src/components/_user/mission/MissionsHeader.tsx:98
+#: src/components/_user/mission/MissionsHeader.tsx:95
 msgid "Total XP earned from missions and milestones"
 msgstr ""
 
@@ -8896,7 +8927,7 @@ msgstr "Kaupankäyntitapahtuma"
 msgid "Trainee"
 msgstr "Harjoittelija"
 
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:239
 msgid "Transac."
 msgstr "Tapaht."
 
@@ -8937,11 +8968,11 @@ msgstr "Trebuketti"
 msgid "Trooper"
 msgstr "Sotilas"
 
-#: src/pages/user/[userId]/settings.tsx:110
+#: src/pages/user/[userId]/settings.tsx:116
 msgid "Tutorials"
 msgstr "Oppaat"
 
-#: src/pages/user/[userId]/settings.tsx:41
+#: src/pages/user/[userId]/settings.tsx:47
 msgid "Tutorials reseted"
 msgstr "Oppaat palautettu"
 
@@ -9013,7 +9044,7 @@ msgstr "Avaa Tuo kaikki -painike"
 msgid "Unlocked pack"
 msgstr "Avattu pakkaus"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Unmuted <0/>"
 msgstr "Mykistetty <0/>"
 
@@ -9042,7 +9073,7 @@ msgstr "Purkaa vannonut vihollismaa"
 msgid "Update"
 msgstr "Päivitä"
 
-#: src/pages/user/[userId]/settings.tsx:67
+#: src/pages/user/[userId]/settings.tsx:73
 msgid "Update infos"
 msgstr "Päivitä tiedot"
 
@@ -9050,7 +9081,7 @@ msgstr "Päivitä tiedot"
 msgid "Update worker"
 msgstr "Päivitä työntekijä"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:398
+#: src/components/_user/mission/mission.frontConfig.tsx:397
 msgid "Upgrade a company"
 msgstr "Päivitä yritys"
 
@@ -9058,11 +9089,11 @@ msgstr "Päivitä yritys"
 msgid "Upgrade automated engine"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:397
+#: src/components/_user/mission/mission.frontConfig.tsx:396
 msgid "Upgrade Company"
 msgstr "Päivitä yritys"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:523
+#: src/components/_user/mission/mission.frontConfig.tsx:522
 msgid "Upgrade Skills"
 msgstr "Päivitä taitoja"
 
@@ -9074,11 +9105,11 @@ msgstr ""
 msgid "Upgrade to supporter"
 msgstr "Päivitä tukijaksi"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:525
+#: src/components/_user/mission/mission.frontConfig.tsx:524
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
-#: src/pages/user/[userId]/skills.tsx:173
+#: src/pages/user/[userId]/skills.tsx:169
 msgid "Upgrade your skills!"
 msgstr "Päivitä taitojasi!"
 
@@ -9090,11 +9121,11 @@ msgstr "Päivitä taitojasi!"
 msgid "Upgrades"
 msgstr "Päivitykset"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:545
+#: src/components/_user/mission/mission.frontConfig.tsx:544
 msgid "Use <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:543
+#: src/components/_user/mission/mission.frontConfig.tsx:542
 msgid "Use Pills"
 msgstr ""
 
@@ -9102,7 +9133,7 @@ msgstr ""
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "Käytä <0>Yrittäjyyttäsi</0> työskennelläksesi omassa yrityksessäsi ja täytäksesi sen tuotantopalkki."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:166
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Käytä <0>Nälkääsi</0> syödäksesi ruokaa ja täydentääksesi <1>Terveyttäsi</1>. Sitten takaisin taisteluun!"
 
@@ -9205,7 +9236,7 @@ msgid "Username"
 msgstr "Käyttäjätunnus"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:94
+#: src/pages/user/[userId]/settings.tsx:100
 msgid "Username effect"
 msgstr ""
 
@@ -9221,7 +9252,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:88
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Username font"
 msgstr ""
 
@@ -9234,7 +9265,7 @@ msgstr "Käyttäjätunnus poistettu"
 msgid "Users"
 msgstr "Käyttäjät"
 
-#: src/components/_layout/LayoutUserMenu.tsx:298
+#: src/components/_layout/LayoutUserMenu.tsx:303
 msgid "Users online"
 msgstr "Käyttäjiä verkossa"
 
@@ -9357,11 +9388,11 @@ msgstr "Näytä kartalla"
 msgid "Views"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:485
+#: src/components/_user/mission/mission.frontConfig.tsx:484
 msgid "Vote"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:486
+#: src/components/_user/mission/mission.frontConfig.tsx:485
 msgid "Vote in an election"
 msgstr ""
 
@@ -9440,7 +9471,7 @@ msgstr "Aliupseeri"
 msgid "Wars"
 msgstr "Sodat"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:38
+#: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Rikkaus"
@@ -9467,7 +9498,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:216
+#: src/components/_user/mission/MissionsList.tsx:266
 msgid "Weekly"
 msgstr "Viikoittain"
 
@@ -9475,7 +9506,7 @@ msgstr "Viikoittain"
 msgid "Weekly balance"
 msgstr "Viikkosaldo"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:21
+#: src/components/_user/user/UserRankingsPanel.tsx:31
 msgid "Weekly damages"
 msgstr "Viikoittaiset vahingot"
 
@@ -9513,7 +9544,7 @@ msgstr ""
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:156
+#: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Kun <0>Terveys</0> loppuu, avaa tämä valikko palauttaaksesi sen ruoan kanssa."
 
@@ -9521,7 +9552,7 @@ msgstr "Kun <0>Terveys</0> loppuu, avaa tämä valikko palauttaaksesi sen ruoan 
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
 msgstr ""
 
-#: src/pages/companies.tsx:102
+#: src/pages/companies.tsx:103
 msgid "Whole Production"
 msgstr "Koko Tuotanto"
 
@@ -9643,11 +9674,11 @@ msgstr "Wtf onko tämä mahdollista?"
 msgid "X. Punishments and Appeals"
 msgstr ""
 
-#: src/components/_user/user/UserRankingsPanel.tsx:44
+#: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
 msgstr "Kokemuspisteet"
 
-#: src/components/_user/mission/MissionsHeader.tsx:95
+#: src/components/_user/mission/MissionsHeader.tsx:92
 msgid "XP earned"
 msgstr ""
 
@@ -9770,7 +9801,7 @@ msgstr "Lahjoit jollekin tukipakettitilauksen <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Sinut hyväksytään automaattisesti, koska maan väkiluku on alle"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:93
+#: src/components/_other/tour/tuto.frontConfig.tsx:91
 msgid "You have a case!"
 msgstr "Sinulla on tapaus!"
 
@@ -9973,7 +10004,7 @@ msgstr "Sinut nimitettiin maasi varapresidentiksi"
 msgid "You were so close"
 msgstr "Olit niin lähellä"
 
-#: src/pages/user/[userId]/skills.tsx:124
+#: src/pages/user/[userId]/skills.tsx:120
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr ""
 
@@ -9998,7 +10029,7 @@ msgstr "Voitit MU-turnauksen"
 msgid "You worked 100 times"
 msgstr "Työskentelit 100 kertaa"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "You're all set!"
 msgstr "Kaikki on valmista!"
 
@@ -10026,7 +10057,7 @@ msgstr "Olet virallisesti parempi kuin 80 % pelaajista"
 msgid "You're peaking"
 msgstr "Olet huipussaan"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:185
+#: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Olet suorittanut joitakin tehtäviä! Kerätään XP-palkintosi."
 
@@ -10113,7 +10144,7 @@ msgstr "Nykyinen tilauksesi"
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Päivittäiset tehtäväsi on nollattu! Täytä ne ansaitaksesi palkintoja."
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:63
 msgid "Your email"
 msgstr "Sähköpostisi"
 
@@ -10137,7 +10168,7 @@ msgstr "Sinun vihollisesi"
 msgid "Your infos have been saved."
 msgstr "Tietosi on tallennettu."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:85
+#: src/components/_other/tour/tuto.frontConfig.tsx:84
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Varastossasi on kaikki tuotteesi. Katsotaan mitä sinulla on!"
 
@@ -10228,7 +10259,7 @@ msgstr "Palkkasi yrityksessä <0/> muuttui arvosta <1>{0}</1> arvoon <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Viikoittaiset tehtäväsi on nollattu! Täytä ne ansaitaksesi palkintoja."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:370
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "your@email.com"
 msgstr "sinun@sähköposti.fi"
 

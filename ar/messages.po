@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - عمالة منخفضة الأجر (أقل من 0.8x وأعلى من 1.2x من الراتب الطبيعي)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:468
+#: src/components/_user/user/UserHeader.tsx:469
 msgid " - Reason: {0}"
 msgstr " - السبب: {0}"
 
@@ -98,7 +98,7 @@ msgid "{0} days cooldown"
 msgstr "فترة انتظار {0} أيام"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:214
+#: src/pages/user/[userId]/skills.tsx:219
 msgid "{0} Free"
 msgstr "{0} مجاني"
 
@@ -151,7 +151,7 @@ msgstr "سيتم خصم {0}% ضريبة دخل من أجور عمالك."
 msgid "{0}% of invested"
 msgstr "{0}% من الاستثمار"
 
-#: src/components/_user/mission/MissionsList.tsx:185
+#: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "تم إكمال {completedCount}/{totalCount}"
 
@@ -175,7 +175,7 @@ msgstr "{registeredCount} وحدة عسكرية مسجلة"
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} جولة للفوز "
 
-#: src/components/_user/user/SkillUpgrade.tsx:373
+#: src/components/_user/user/SkillUpgrade.tsx:376
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr "{savedPrestigeCount} نقطة (نقاط) هيبة مفعلة على هذه المهارة"
 
@@ -1657,7 +1657,7 @@ msgstr "تم إعادة إنشاء رمز API"
 msgid "API token revoked"
 msgstr "تم إلغاء رمز API"
 
-#: src/pages/user/[userId]/settings.tsx:128
+#: src/pages/user/[userId]/settings.tsx:134
 msgid "API Tokens"
 msgstr "رموز API"
 
@@ -1669,11 +1669,11 @@ msgstr "تسمح رموز API للتطبيقات الخارجية بالوصول
 msgid "App pattern"
 msgstr "نمط التطبيق"
 
-#: src/pages/user/[userId]/settings.tsx:102
+#: src/pages/user/[userId]/settings.tsx:108
 msgid "App settings"
 msgstr "إعدادات التطبيق"
 
-#: src/pages/user/[userId]/settings.tsx:75
+#: src/pages/user/[userId]/settings.tsx:81
 msgid "Appearance"
 msgstr "المظهر"
 
@@ -1743,7 +1743,7 @@ msgstr "هل أنت متأكد أنك تريد إزالة جميع أوامر ا
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr "هل أنت تأكد من أنك تريد إزالة هذا الإعلان؟ ستُحذف تعليقاته أيضاً."
 
-#: src/components/_user/mission/MissionItem.tsx:118
+#: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
 msgstr "هل أنت متأكد أنك تريد إعادة تدوير هذه المهمة؟ سيضيع تقدمك الحالي."
 
@@ -1782,7 +1782,7 @@ msgstr "إكرامية المقال"
 msgid "Article tipped"
 msgstr "تم تلقي إكرامية للمقال"
 
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:253
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "مقالات"
@@ -1931,6 +1931,10 @@ msgstr "محرك آلي"
 msgid "Automated Engine"
 msgstr "محرك آلي"
 
+#: src/components/_user/mission/MissionsList.tsx:322
+msgid "Available now"
+msgstr "متاح الآن"
+
 #: src/components/_user/user/UserDropdown.tsx:148
 msgid "Avatar removed"
 msgstr "تمت إزالة الصورة الرمزية"
@@ -1983,7 +1987,7 @@ msgstr "كرة"
 msgid "Bankruptcy"
 msgstr "إفلاس"
 
-#: src/components/_user/user/UserHeader.tsx:457
+#: src/components/_user/user/UserHeader.tsx:458
 msgid "Banned"
 msgstr "محظور"
 
@@ -2003,8 +2007,8 @@ msgstr "تم إرسال هدية الشعار"
 msgid "Banners"
 msgstr "شعارات"
 
-#: src/components/_user/user/UserHeader.tsx:205
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Bans"
 msgstr "الحظر"
 
@@ -2101,7 +2105,7 @@ msgstr "تكلفة أوامر المعركة للدفاع عن مناطقك ال
 msgid "Battlefield Loot"
 msgstr "غنائم أرض المعركة"
 
-#: src/components/_layout/LayoutMenu.tsx:131
+#: src/components/_layout/LayoutMenu.tsx:132
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
@@ -2174,7 +2178,7 @@ msgstr "عصى عظمية"
 msgid "Bonus damages"
 msgstr "أضرار إضافية"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:112
 msgid "Boost your production!"
 msgstr "عزز إنتاجك!"
 
@@ -2191,6 +2195,10 @@ msgstr "مكافاة"
 #: src/components/_military/battle/BattleSystem.tsx:868
 msgid "Bounty cooldown"
 msgstr "فترة انتظار المكافأة"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:116
+msgid "Bounty earned"
+msgstr "المكافآت المكتسبة"
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 msgid "Bounty will be available in"
@@ -2229,7 +2237,7 @@ msgstr "الميزانية"
 msgid "Buff ended"
 msgstr "انتهى تأثير التعزيز"
 
-#: src/components/_user/user/UserHeader.tsx:340
+#: src/components/_user/user/UserHeader.tsx:341
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "ينتهي التعزيز"
@@ -2289,7 +2297,7 @@ msgstr "شراء عناصر"
 msgid "Buy orders"
 msgstr "أوامر الشراء"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:398
+#: src/components/_user/auth/ConnectFromModal.tsx:408
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
 msgstr "من خلال الاستمرار، فإنك توافق على <0>شروط الخدمة</0> الخاصة بنا."
 
@@ -2408,9 +2416,13 @@ msgstr "انتهت مهلة التحقق من CAPTCHA. جاري إعادة ال�
 msgid "Case"
 msgstr "صندوق"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:94
+#: src/components/_other/tour/tuto.frontConfig.tsx:92
 msgid "Cases contain random items. Click to open it!"
 msgstr "تحتوي الصناديق على عناصر عشوائية. اضغط لفتحها!"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:104
+msgid "Cases opened"
+msgstr "الصناديق المفتوحة"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
@@ -2497,7 +2509,7 @@ msgstr "تغيير اسم التحالف"
 msgid "Change the tax of {0} to"
 msgstr "تغيير ضريبة {0} إلى"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:83
+#: src/components/_other/tour/tuto.frontConfig.tsx:82
 msgid "Check your loot!"
 msgstr "تحقق من غنيمتك!"
 
@@ -2526,7 +2538,7 @@ msgstr "اختر الخط"
 msgid "Choose your country"
 msgstr "اختر دولتك"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:146
+#: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "اختر جانبك واضغط لإلحاق <0>الأضرار</0>! استمر في الضرب لمساعدة فريقك على الفوز."
 
@@ -2534,7 +2546,7 @@ msgstr "اختر جانبك واضغط لإلحاق <0>الأضرار</0>! اس�
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "اختيار عنصر محدد يكلف ضعف الكمية من الفولاذ:"
 
-#: src/components/_user/user/UserHeader.tsx:321
+#: src/components/_user/user/UserHeader.tsx:322
 msgid "Citizen since"
 msgstr "مواطن منذ"
 
@@ -2560,18 +2572,18 @@ msgid "Civil war"
 msgstr "حرب أهلية"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:315
-#: src/components/_user/mission/MissionItem.tsx:265
-#: src/components/_user/mission/MissionsFinishedProgress.tsx:150
+#: src/components/_user/mission/MissionItem.tsx:266
+#: src/components/_user/mission/MissionsFinishedProgress.tsx:141
 msgid "Claim"
 msgstr "مطالبة"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:183
+#: src/components/_other/tour/tuto.frontConfig.tsx:181
 msgid "Claim your rewards!"
 msgstr "طالب بمكافآتك!"
 
-#: src/components/_user/mission/MissionItem.tsx:216
-#: src/components/_user/mission/MissionItem.tsx:265
-#: src/components/_user/mission/MissionsFinishedProgress.tsx:127
+#: src/components/_user/mission/MissionItem.tsx:217
+#: src/components/_user/mission/MissionItem.tsx:266
+#: src/components/_user/mission/MissionsFinishedProgress.tsx:118
 msgid "Claimed"
 msgstr "تمت المطالبة"
 
@@ -2584,15 +2596,15 @@ msgstr "المُستلمة حتى الآن"
 msgid "Clear selection"
 msgstr "مسح التحديد"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "اضغط عدة مرات لزيادة هذه المهارة. مهارات أعلى = قوة أكثر!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Click on a battle to see what's happening and join in."
 msgstr "اضغط على معركة لترى ما يحدث وانضم إليها."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "اضغط على محادثة دولتك للدردشة مع المواطنين الزملاء."
 
@@ -2604,7 +2616,7 @@ msgstr "اضغط للتقديم وابدأ في كسب المال فوراً."
 msgid "Click to consume."
 msgstr "انقر للاستهلاك."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:100
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "اضغط للكشف عما بداخلها. قد تحصل على شيء ثمين!"
 
@@ -2638,7 +2650,7 @@ msgid "Colonel"
 msgstr "عقيد"
 
 #: src/components/_user/user/UserDropdown.tsx:243
-#: src/pages/user/[userId]/settings.tsx:81
+#: src/pages/user/[userId]/settings.tsx:87
 msgid "Color scheme"
 msgstr "نمط الألوان"
 
@@ -2676,11 +2688,11 @@ msgstr "عميد بحري"
 msgid "Community"
 msgstr "مجتمع"
 
-#: src/components/_layout/LayoutMenu.tsx:173
+#: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:244
+#: src/components/_user/user/UserHeader.tsx:245
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:96
+#: src/pages/companies.tsx:97
 msgid "Companies"
 msgstr "الشركات"
 
@@ -2725,7 +2737,7 @@ msgstr "تم إعادة تسمية الشركة!"
 msgid "Company upgraded!"
 msgstr "تم تطوير الشركة"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:194
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "أكمل المهمات يومياً لكسب نقاط الخبرة ورفع المستوى بشكل أسرع, اضغط للمطالبة!"
 
@@ -2816,7 +2828,7 @@ msgstr "أعضاء الكونغرس"
 msgid "Connect with Discord"
 msgstr "الاتصال عبر Discord"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:383
+#: src/components/_user/auth/ConnectFromModal.tsx:393
 msgid "Connect with email code"
 msgstr "تسجيل الدخول عبر رمز البريد الإلكتروني"
 
@@ -2836,7 +2848,7 @@ msgstr "الفاتح"
 msgid "Consider giving it to your local moderator"
 msgstr "فكر في إعطائها للمشرف"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:553
+#: src/components/_user/mission/mission.frontConfig.tsx:552
 msgid "Construct"
 msgstr "بناء"
 
@@ -2887,13 +2899,13 @@ msgstr "العقود"
 msgid "Contracts & Auctions"
 msgstr "العقود والمزادات"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:555
-msgid "Contribute to region upgrade constructions <0/> times"
-msgstr "المساهمة في أعمال ترقية المنطقة <0/> من المرات"
+#: src/components/_user/mission/mission.frontConfig.tsx:554
+msgid "Contribute to constructions <0/> times"
+msgstr "المساهمة في أعمال البناء <0/> من المرات"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:566
-msgid "Contribute to the resistance of occupied regions <0/> times"
-msgstr "المساهمة في مقاومة المناطق المحتلة <0/> من المرات"
+#: src/components/_user/mission/mission.frontConfig.tsx:564
+msgid "Contribute to resistance <0/> times"
+msgstr "المساهمة في المقاومة <0/> من المرات"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -3043,7 +3055,7 @@ msgstr "تصنيع عنصر"
 msgid "Create"
 msgstr "إنشاء"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:370
+#: src/components/_user/mission/mission.frontConfig.tsx:369
 msgid "Create a Company"
 msgstr "إنشاء شركة"
 
@@ -3053,7 +3065,7 @@ msgstr "إنشاء شركة"
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr "إنشاء تحالف جديد باسم <0>{0}</0> مع نظام ألوان <1>{1}</1>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:371
+#: src/components/_user/mission/mission.frontConfig.tsx:370
 msgid "Create a new company"
 msgstr "إنشاء شركة جديدة"
 
@@ -3160,7 +3172,7 @@ msgstr "خط اسم مستخدم مخصص"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "د.  أي شكل من أشكال التمييز، أو العنصرية، أو كره الأجانب، أو معاداة السامية، أو رهاب المثلية، أو رهاب التحول الجنسي، أو خطاب الكراهية ضد اي فئة"
 
-#: src/components/_user/mission/MissionsList.tsx:203
+#: src/components/_user/mission/MissionsList.tsx:253
 msgid "Daily"
 msgstr "يومي"
 
@@ -3203,7 +3215,7 @@ msgstr "تبدو رائعة"
 msgid "Damn you lucky"
 msgstr "أنت محظوظ جداً"
 
-#: src/pages/user/[userId]/settings.tsx:134
+#: src/pages/user/[userId]/settings.tsx:140
 msgid "Danger zone"
 msgstr "منطقة الخطر"
 
@@ -3284,7 +3296,7 @@ msgstr "يسبب بعض الأضرار"
 msgid "Debuff ended"
 msgstr "انتهى تأثير الضعف"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:349
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "ينتهي الاضعاف"
@@ -3378,7 +3390,7 @@ msgstr "تحديد دولة كعدو للحصول على مكافأة ضدها"
 msgid "Define a sworn enemy"
 msgstr "تحديد عدو لدود"
 
-#: src/pages/user/[userId]/settings.tsx:137
+#: src/pages/user/[userId]/settings.tsx:143
 msgid "Delete account"
 msgstr "حذف الحساب"
 
@@ -3547,7 +3559,7 @@ msgstr "مراوغة <0/> من الهجمات"
 msgid "Don't forget to drink water"
 msgstr "لا تنس شرب الماء"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Don't forget to save your skill upgrades."
 msgstr "لا تنس حفظ ترقيات مهاراتك."
 
@@ -3555,11 +3567,11 @@ msgstr "لا تنس حفظ ترقيات مهاراتك."
 msgid "Don't quit now, your luck is buffering"
 msgstr "لا تستسلم الآن، حظك قيد التحميل"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:533
+#: src/components/_user/mission/mission.frontConfig.tsx:532
 msgid "Donate"
 msgstr "تبرع"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:535
+#: src/components/_user/mission/mission.frontConfig.tsx:534
 msgid "Donate <0/> to MU or Country"
 msgstr "التبرع بـ <0/> للوحدة العسكرية أو الدولة"
 
@@ -3858,7 +3870,7 @@ msgstr "نقاط الأخلاقيات:"
 msgid "Events"
 msgstr "الأحداث"
 
-#: src/components/_user/mission/MissionsHeader.tsx:80
+#: src/components/_user/mission/MissionsHeader.tsx:77
 msgid "Every mission you ever completed and claimed"
 msgstr "كل مهمة أكملتها واستلمت مكافأتها"
 
@@ -4065,7 +4077,7 @@ msgstr "قاتل من أجل <0/> في <1/><2/>"
 msgid "Fight skills"
 msgstr "مهارات القتال"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:144
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Fight!"
 msgstr "قتال!"
 
@@ -4110,16 +4122,16 @@ msgstr "تمويل مقاومة محلية"
 msgid "Finance resistance in <0/>"
 msgstr "تمويل المقاومة في <0/>"
 
-#: src/pages/companies.tsx:59
+#: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "البحث عن وظيفة"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:501
+#: src/components/_user/mission/mission.frontConfig.tsx:500
 msgid "Find a Job"
 msgstr "البحث عن وظيفة"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:502
+#: src/components/_user/mission/mission.frontConfig.tsx:501
 msgid "Find a job at a company"
 msgstr "العثور على وظيفة في شركة"
 
@@ -4234,11 +4246,15 @@ msgstr "جواهر"
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
 msgstr "تُستخدم الجواهر لشراء الأصول في المتجر ولإهداء أشهر الدعم للاعبين الآخرين"
 
+#: src/components/_user/user/UserRankingsPanel.tsx:110
+msgid "Gems purchased"
+msgstr "الجواهر المشتراة"
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
 msgstr "جنرال"
 
-#: src/components/_user/mission/MissionsList.tsx:270
+#: src/components/_user/mission/MissionsList.tsx:334
 msgid "Generate Missions"
 msgstr "توليد المهام"
 
@@ -4366,7 +4382,7 @@ msgstr "حبوب"
 msgid "Graticule"
 msgstr "شبكة الإحداثيات"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:176
+#: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "عمل رائع! اضرب بضع مرات أخرى لمساعدة جانبك في الفوز بالمعركة."
 
@@ -4438,7 +4454,7 @@ msgstr "قناصة الظلام القاتم"
 msgid "Grimdark Tank"
 msgstr "دبابة الظلام القاتم"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:33
+#: src/components/_user/user/UserRankingsPanel.tsx:43
 msgid "Ground"
 msgstr "بري"
 
@@ -4730,10 +4746,10 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "ستؤدي الانتهاكات المتعمدة أو المتكررة لهذه السياسة إلى الحظر الدائم."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:195
+#: src/components/_layout/LayoutUserMenu.tsx:199
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
-#: src/pages/companies.tsx:83
+#: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
@@ -4832,7 +4848,7 @@ msgstr "وظائف"
 msgid "Join <0/>"
 msgstr "الانضمام إلى <0/>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:383
+#: src/components/_user/mission/mission.frontConfig.tsx:382
 msgid "Join a Military Unit"
 msgstr "انضم إلى وحدة عسكرية"
 
@@ -4840,11 +4856,11 @@ msgstr "انضم إلى وحدة عسكرية"
 msgid "Join a military unit to take part"
 msgstr "انضم الى وحدة عسكرية لتشارك"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:479
+#: src/components/_user/mission/mission.frontConfig.tsx:478
 msgid "Join a Party"
 msgstr "الانضمام إلى حزب"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:480
+#: src/components/_user/mission/mission.frontConfig.tsx:479
 msgid "Join a political party"
 msgstr "الانضمام إلى حزب سياسي"
 
@@ -4853,7 +4869,7 @@ msgstr "الانضمام إلى حزب سياسي"
 msgid "Join alliance"
 msgstr "الانضمام إلى التحالف"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:382
+#: src/components/_user/mission/mission.frontConfig.tsx:381
 msgid "Join MU"
 msgstr "انضم للوحدة العسكرية (MU)"
 
@@ -4865,7 +4881,7 @@ msgstr "الانضمام إلى العالم"
 msgid "Join this company!"
 msgstr "انضم إلى هذه الشركة!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Join your country chat!"
 msgstr "انضم إلى دردشة بلدك!"
 
@@ -4897,7 +4913,7 @@ msgstr "فقط واحدة أخرى... ماذا يمكن أن يحدث؟"
 msgid "Keep chasing that Mythic"
 msgstr "استمر في مطاردة ذلك العتاد االأسطوري"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:174
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Keep fighting!"
 msgstr "واصل القتال!"
 
@@ -4947,7 +4963,7 @@ msgstr "اللغة"
 msgid "Last"
 msgstr "الأخير"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:357
 msgid "Last connection"
 msgstr "اخر اتصال"
 
@@ -4961,7 +4977,7 @@ msgstr "آخر الهدايا"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:339
 #: src/components/_user/auth/ConnectFromModal.tsx:358
-#: src/components/_user/auth/ConnectFromModal.tsx:386
+#: src/components/_user/auth/ConnectFromModal.tsx:396
 msgid "Last used"
 msgstr "آخر استخدام"
 
@@ -5088,7 +5104,7 @@ msgstr "{level} المستوى"
 msgid "Level too low"
 msgstr "المستوى منخفض جدًا"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Level up your skills!"
 msgstr "ارفع مستوى مهاراتك!"
 
@@ -5130,19 +5146,19 @@ msgstr "فاتح"
 msgid "Light Ammo"
 msgstr "ذخيرة خفيفة"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:344
+#: src/components/_user/mission/mission.frontConfig.tsx:343
 msgid "Like <0/> articles"
 msgstr "الإعجاب بـ <0/> من المقالات"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:430
+#: src/components/_user/mission/mission.frontConfig.tsx:429
 msgid "Like <0/> messages"
 msgstr "الإعجاب بـ <0/> من الرسائل"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:342
+#: src/components/_user/mission/mission.frontConfig.tsx:341
 msgid "Like Article"
 msgstr "الإعجاب بمقال"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:428
+#: src/components/_user/mission/mission.frontConfig.tsx:427
 msgid "Like Message"
 msgstr "الإعجاب برسالة"
 
@@ -5213,12 +5229,12 @@ msgid "Long Sword"
 msgstr "سيف طويل"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:323
-msgid "Loot <0/> from battles"
-msgstr "اغتنم <0/> من المعارك"
+msgid "Loot <0/> in battles"
+msgstr "اغتنم <0/> في المعارك"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:333
-msgid "Loot <0/> weapons or equipments from battlefields"
-msgstr "اغتنم <0/> من الأسلحة أو المعدات من أراضي المعارك"
+msgid "Loot <0/> items on battlefield"
+msgstr "اغتنم <0/> من العناصر في أرض المعركة"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:321
 msgid "Loot Cases"
@@ -5301,7 +5317,7 @@ msgid "Map icons"
 msgstr "ايقونات الخريطة"
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:162
+#: src/components/_layout/LayoutMenu.tsx:163
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5402,7 +5418,7 @@ msgstr "سهم فولاذي للعصور الوسطى"
 msgid "Medieval Stone Arrow"
 msgstr "سهم حجري للعصور الوسطى"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:204
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "التقِ بلاعبين آخرين في الدردشة. لا تكن خجولاً، عرف عن نفسك!"
 
@@ -5484,16 +5500,17 @@ msgstr "الرسالة (اختياري)"
 msgid "Message liked"
 msgstr "تم الإعجاب بالرسالة"
 
-#: src/components/_user/mission/MissionsHeader.tsx:85
+#: src/components/_user/mission/MissionsHeader.tsx:82
+#: src/components/_user/user/UserRankingsPanel.tsx:86
 msgid "Milestone tiers"
 msgstr "فئات الإنجازات"
 
-#: src/components/_user/mission/MissionsHeader.tsx:90
+#: src/components/_user/mission/MissionsHeader.tsx:87
 msgid "Milestone tiers you claimed, across every ladder"
 msgstr "فئات الإنجازات التي استلمتها عبر جميع سلالم التصنيف"
 
-#: src/components/_user/mission/MissionsHeader.tsx:66
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/mission/MissionsHeader.tsx:63
+#: src/components/_user/user/UserHeader.tsx:231
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr "الإنجازات"
@@ -5583,17 +5600,18 @@ msgstr "وزير الخارجية"
 msgid "Mission tags"
 msgstr "علامات المهمة"
 
-#: src/components/_user/mission/MissionsHeader.tsx:59
-#: src/components/_user/mission/MissionsList.tsx:182
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/mission/MissionsHeader.tsx:56
+#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Missions"
 msgstr "المهام"
 
-#: src/components/_user/mission/MissionsHeader.tsx:53
+#: src/components/_user/mission/MissionsHeader.tsx:50
 msgid "Missions & milestones"
 msgstr "المهام والإنجازات"
 
-#: src/components/_user/mission/MissionsHeader.tsx:76
+#: src/components/_user/mission/MissionsHeader.tsx:73
+#: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
 msgstr "المهام المستلمة"
 
@@ -5626,13 +5644,17 @@ msgid "Money Won"
 msgstr "الأموال التي تم ربحها"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:229
+#: src/components/_user/mission/MissionsList.tsx:279
 msgid "Monthly"
 msgstr "شهري"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "الأضرار الشهرية: <0>{monthlyDamages}</0>"
+
+#: src/components/_user/mission/MissionsList.tsx:311
+msgid "Monthly missions are not available yet"
+msgstr "المهام الشهرية غير متوفرة حالياً"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2170
 msgid "Monthly Missions Reset"
@@ -5666,7 +5688,7 @@ msgstr "تم تقديم الاقتراح"
 msgid "Motions"
 msgstr "الاقتراحات"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:518
+#: src/components/_user/mission/mission.frontConfig.tsx:517
 msgid "Move a company to another region"
 msgstr "نقل شركة إلى منطقة أخرى"
 
@@ -5675,7 +5697,7 @@ msgstr "نقل شركة إلى منطقة أخرى"
 msgid "Move company"
 msgstr "نقل الشركة"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:517
+#: src/components/_user/mission/mission.frontConfig.tsx:516
 msgid "Move Company"
 msgstr "نقل الشركة"
 
@@ -5691,7 +5713,7 @@ msgstr "رفع إلى الأعلى"
 msgid "Moved to a new company"
 msgstr "انتقل إلى شركة جديدة"
 
-#: src/components/_layout/LayoutMenu.tsx:118
+#: src/components/_layout/LayoutMenu.tsx:119
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
@@ -5987,7 +6009,7 @@ msgstr "رائع"
 msgid "Nice one"
 msgstr "واحدة جميلة"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Nice work!"
 msgstr "عمل جيد!"
 
@@ -6112,7 +6134,7 @@ msgstr "لا تتوفر إنجازات"
 msgid "No military units found"
 msgstr "لم يتم العثور على وحدات عسكرية"
 
-#: src/components/_user/mission/MissionsList.tsx:260
+#: src/components/_user/mission/MissionsList.tsx:313
 msgid "No missions available"
 msgstr "لا توجد مهام متاحة"
 
@@ -6261,7 +6283,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr "لا يوجد أي اشتباك نشط. شارك في معركة قائمة لبدء جني الأرباح، واحصل على مرتبة متقدمة في الضرر لتأمين مكانك في قائمة الغنائم."
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:122
+#: src/pages/user/[userId]/settings.tsx:128
 msgid "Notification preferences"
 msgstr "تفضيلات الإشعارات"
 
@@ -6277,11 +6299,11 @@ msgstr "الآن نتحدث بجدية!"
 msgid "Number of Donors:"
 msgstr "عدد المتبرعين:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:497
+#: src/components/_user/mission/mission.frontConfig.tsx:496
 msgid "Obtain a badge"
 msgstr "الحصول على شارة"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:496
+#: src/components/_user/mission/mission.frontConfig.tsx:495
 msgid "Obtain a Badge"
 msgstr "الحصول على شارة"
 
@@ -6382,7 +6404,7 @@ msgstr "فتح الصندوق"
 msgid "Open Cases"
 msgstr "فتح الصناديق"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:376
+#: src/components/_user/mission/mission.frontConfig.tsx:375
 msgid "Open Chat"
 msgstr "فتح الدردشة"
 
@@ -6402,7 +6424,7 @@ msgstr "افتحه للحصول على عنصر عشوائي"
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "فتح عدة <0>صناديق</0> في نفس الوقت"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:377
+#: src/components/_user/mission/mission.frontConfig.tsx:376
 msgid "Open the chat"
 msgstr "افتح الدردشة"
 
@@ -6410,7 +6432,7 @@ msgstr "افتح الدردشة"
 msgid "Open to all"
 msgstr "مفتوح للجميع"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:98
+#: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Open your case!"
 msgstr "افتح صندوقك!"
 
@@ -6421,6 +6443,10 @@ msgstr "عميل"
 #: src/components/_layout/LayoutLeftIcons.tsx:208
 msgid "Options"
 msgstr "الإعدادات"
+
+#: src/components/_user/auth/ConnectFromModal.tsx:370
+msgid "or"
+msgstr "أو"
 
 #: src/components/_military/order/BattleOrderTags.tsx:25
 msgid "Order"
@@ -6682,7 +6708,7 @@ msgstr "تم طلب التحقق من الهاتف"
 msgid "Phone verification required"
 msgstr "التحقق من الهاتف مطلوب"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:135
 msgid "Pick a fight!"
 msgstr "ابدأ قتالاً!"
 
@@ -6817,7 +6843,7 @@ msgid "Presidential elections"
 msgstr "انتخابات رئاسية"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
-#: src/pages/user/[userId]/skills.tsx:193
+#: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
 msgstr "الهيبة"
 
@@ -6863,7 +6889,7 @@ msgid "Probability of landing a critical hit"
 msgstr "احتمالية توجيه ضربة حرجة"
 
 #: src/components/_economy/company/ProduceButton.tsx:142
-#: src/components/_user/mission/mission.frontConfig.tsx:507
+#: src/components/_user/mission/mission.frontConfig.tsx:506
 msgid "Produce"
 msgstr "إنتاج"
 
@@ -6871,7 +6897,7 @@ msgstr "إنتاج"
 msgid "Produce All"
 msgstr "إنتاج الكل"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:509
+#: src/components/_user/mission/mission.frontConfig.tsx:508
 msgid "Produce items <0/> times"
 msgstr "أنتج عناصر <0/> من المرات"
 
@@ -6926,7 +6952,7 @@ msgstr "الملف الشخصي"
 
 #: src/components/_layout/LayoutRightIcons.tsx:168
 #: src/components/_layout/MoreButtonNav.tsx:100
-#: src/components/_user/mission/MissionsHeader.tsx:52
+#: src/components/_user/mission/MissionsHeader.tsx:49
 msgid "Progression"
 msgstr "مستوى التقدم"
 
@@ -7075,91 +7101,91 @@ msgstr "المعدل لكل 1000 ضرر"
 msgid "Raw materials:"
 msgstr "المواد الخام:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:409
+#: src/components/_user/mission/mission.frontConfig.tsx:408
 msgid "Reach level 10"
 msgstr "الوصول للمستوى 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:408
+#: src/components/_user/mission/mission.frontConfig.tsx:407
 msgid "Reach Level 10"
 msgstr "الوصول للمستوى 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:414
+#: src/components/_user/mission/mission.frontConfig.tsx:413
 msgid "Reach level 15"
 msgstr "الوصول إلى المستوى 15"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:413
+#: src/components/_user/mission/mission.frontConfig.tsx:412
 msgid "Reach Level 15"
 msgstr "الوصول إلى المستوى 15"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:419
+#: src/components/_user/mission/mission.frontConfig.tsx:418
 msgid "Reach level 20"
 msgstr "الوصول إلى المستوى 20"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:418
+#: src/components/_user/mission/mission.frontConfig.tsx:417
 msgid "Reach Level 20"
 msgstr "الوصول إلى المستوى 20"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:424
+#: src/components/_user/mission/mission.frontConfig.tsx:423
 msgid "Reach level 25"
 msgstr "الوصول إلى المستوى 25"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:423
+#: src/components/_user/mission/mission.frontConfig.tsx:422
 msgid "Reach Level 25"
 msgstr "الوصول إلى المستوى 25"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:404
+#: src/components/_user/mission/mission.frontConfig.tsx:403
 msgid "Reach level 5"
 msgstr "الوصول للمستوى 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:403
+#: src/components/_user/mission/mission.frontConfig.tsx:402
 msgid "Reach Level 5"
 msgstr "الوصول للمستوى 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:455
+#: src/components/_user/mission/mission.frontConfig.tsx:454
 msgid "Reach military rank 10"
 msgstr "الوصول للرتبة العسكرية 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:454
+#: src/components/_user/mission/mission.frontConfig.tsx:453
 msgid "Reach Military Rank 10"
 msgstr "الوصول للرتبة العسكرية 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:460
+#: src/components/_user/mission/mission.frontConfig.tsx:459
 msgid "Reach military rank 20"
 msgstr "الوصول إلى الرتبة العسكرية 20"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:459
+#: src/components/_user/mission/mission.frontConfig.tsx:458
 msgid "Reach Military Rank 20"
 msgstr "الوصول إلى الرتبة العسكرية 20"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:465
+#: src/components/_user/mission/mission.frontConfig.tsx:464
 msgid "Reach military rank 30"
 msgstr "الوصول إلى الرتبة العسكرية 30"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:464
+#: src/components/_user/mission/mission.frontConfig.tsx:463
 msgid "Reach Military Rank 30"
 msgstr "الوصول إلى الرتبة العسكرية 30"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:470
+#: src/components/_user/mission/mission.frontConfig.tsx:469
 msgid "Reach military rank 40"
 msgstr "الوصول إلى الرتبة العسكرية 40"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:469
+#: src/components/_user/mission/mission.frontConfig.tsx:468
 msgid "Reach Military Rank 40"
 msgstr "الوصول إلى الرتبة العسكرية 40"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:450
+#: src/components/_user/mission/mission.frontConfig.tsx:449
 msgid "Reach military rank 5"
 msgstr "الوصول للرتبة العسكرية 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:449
+#: src/components/_user/mission/mission.frontConfig.tsx:448
 msgid "Reach Military Rank 5"
 msgstr "الوصول للرتبة العسكرية 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:475
+#: src/components/_user/mission/mission.frontConfig.tsx:474
 msgid "Reach military rank 50"
 msgstr "الوصول إلى الرتبة العسكرية 50"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:474
+#: src/components/_user/mission/mission.frontConfig.tsx:473
 msgid "Reach Military Rank 50"
 msgstr "الوصول إلى الرتبة العسكرية 50"
 
@@ -7178,11 +7204,11 @@ msgstr "وصل إليها {0}% (<0/>)"
 msgid "Reaching level {0} will give you <0>{nextLevelSkillPoints} Skill Points</0>."
 msgstr "الوصول للمستوى {0} سيمنحك <0>{nextLevelSkillPoints} نقاط مهارة</0>."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:361
+#: src/components/_user/mission/mission.frontConfig.tsx:360
 msgid "Read <0/> articles"
 msgstr "قراءة <0/> من المقالات"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:359
+#: src/components/_user/mission/mission.frontConfig.tsx:358
 msgid "Read Article"
 msgstr "اقرأ المقال"
 
@@ -7190,7 +7216,7 @@ msgstr "اقرأ المقال"
 msgid "Read the article"
 msgstr "اقرأ المقال"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Ready for battle!"
 msgstr "مستعد للمعركة!"
 
@@ -7237,8 +7263,8 @@ msgstr "يقلل الصحة المفقودة عند القتال في المعا
 msgid "Referral link copied to clipboard"
 msgstr "تم نسخ رابط الإحالة إلى الحافظة"
 
-#: src/components/_user/user/UserHeader.tsx:258
-#: src/components/_user/user/UserRankingsPanel.tsx:50
+#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
@@ -7261,7 +7287,7 @@ msgstr "اسم مستخدم المُحيل"
 msgid "Refresh every hour"
 msgstr "تحديث كل ساعة"
 
-#: src/components/_layout/LayoutUserMenu.tsx:246
+#: src/components/_layout/LayoutUserMenu.tsx:251
 msgid "Regen in..."
 msgstr "تجديد في..."
 
@@ -7377,11 +7403,11 @@ msgstr "رفض"
 msgid "Rejected"
 msgstr "مرفوض"
 
-#: src/components/_layout/LayoutUserMenu.tsx:272
+#: src/components/_layout/LayoutUserMenu.tsx:277
 msgid "Remaining buff duration"
 msgstr "مدة التأثير الإيجابي المتبقية"
 
-#: src/components/_layout/LayoutUserMenu.tsx:285
+#: src/components/_layout/LayoutUserMenu.tsx:290
 msgid "Remaining debuff duration"
 msgstr "مدة التأثير السلبي المتبقية"
 
@@ -7497,7 +7523,7 @@ msgstr "إبلاغ"
 msgid "Report user"
 msgstr "الإبلاغ عن مستخدم"
 
-#: src/components/_user/user/UserHeader.tsx:212
+#: src/components/_user/user/UserHeader.tsx:213
 msgid "Reports"
 msgstr "ابلاغات"
 
@@ -7522,11 +7548,11 @@ msgstr "طلب التحقق من الهاتف"
 msgid "Requests:"
 msgstr "الطلبات:"
 
-#: src/components/_user/mission/MissionItem.tsx:117
+#: src/components/_user/mission/MissionItem.tsx:118
 msgid "Reroll Mission"
 msgstr "إعادة سحب المهمة"
 
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:216
 msgid "Reset"
 msgstr "إعادة تعيين المهارات"
 
@@ -7534,7 +7560,7 @@ msgstr "إعادة تعيين المهارات"
 msgid "Reset CAPTCHA"
 msgstr "إعادة تعيين الـ CAPTCHA"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:490
+#: src/components/_user/mission/mission.frontConfig.tsx:489
 msgid "Reset Skills"
 msgstr "إعادة ضبط المهارات"
 
@@ -7542,7 +7568,7 @@ msgstr "إعادة ضبط المهارات"
 msgid "Reset Survivor"
 msgstr "ناجي من اعادة الضبط للعبة"
 
-#: src/pages/user/[userId]/settings.tsx:117
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Reset tutorials"
 msgstr "إعادة تعيين الدروس التعليمية"
 
@@ -7550,7 +7576,7 @@ msgstr "إعادة تعيين الدروس التعليمية"
 msgid "Reset Username"
 msgstr "إعادة تعيين اسم المستخدم"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:491
+#: src/components/_user/mission/mission.frontConfig.tsx:490
 msgid "Reset your skills"
 msgstr "إعادة ضبط مهاراتك"
 
@@ -7559,7 +7585,7 @@ msgid "Reshuffle in"
 msgstr "إعادة الخلط في"
 
 #: src/components/_military/hit/HitButton.tsx:468
-#: src/components/_user/mission/mission.frontConfig.tsx:564
+#: src/components/_user/mission/mission.frontConfig.tsx:562
 msgid "Resist"
 msgstr "قاوم"
 
@@ -7593,7 +7619,7 @@ msgstr "تم إعادة خلط الموارد"
 msgid "Response to message"
 msgstr "رد على رسالة"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:164
+#: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Restore your health!"
 msgstr "استعد صحتك!"
 
@@ -7717,22 +7743,22 @@ msgstr "القواعد"
 msgid "Ruling Party"
 msgstr "الحزب الحاكم"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Running low on health?"
 msgstr "هل تنفد صحتك؟"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:250
+#: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
 msgstr "حفظ"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:124
+#: src/components/_other/tour/tuto.frontConfig.tsx:122
 msgid "Save your progress!"
 msgstr "احفظ تقدمك!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:200
 msgid "Say hello!"
 msgstr "قل مرحباً!"
 
@@ -7852,7 +7878,7 @@ msgstr "سعر البيع:"
 msgid "sells"
 msgstr "يبيع"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:390
+#: src/components/_user/mission/mission.frontConfig.tsx:389
 msgid "Send <0/> messages"
 msgstr "إرسال <0/> من الرسائل"
 
@@ -7864,7 +7890,7 @@ msgstr "إرسال <0/> إلى <1/>"
 msgid "Send a message"
 msgstr "أرسل رسالة"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "أرسل رسالة لإكمال الدرس التعليمي. مرحباً بك في المجتمع!"
 
@@ -7876,7 +7902,7 @@ msgstr "إرسال الرمز"
 msgid "Send Gift"
 msgstr "إرسال هدية"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:388
+#: src/components/_user/mission/mission.frontConfig.tsx:387
 msgid "Send Message"
 msgstr "إرسال رسالة"
 
@@ -7932,7 +7958,7 @@ msgstr "تعيين أمر"
 msgid "Set party ethics"
 msgstr "تعيين أخلاقيات الحزب"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:443
+#: src/components/_user/mission/mission.frontConfig.tsx:442
 msgid "Set Profile Picture"
 msgstr "تعيين صورة الملف الشخصي"
 
@@ -7950,7 +7976,7 @@ msgstr "تعيين عنصر التخصص للدولة إلى <0>{0}</0>.<1/>ست
 msgid "Set the country's specialized production item"
 msgstr "تعيين عنصر الإنتاج المتخصص للدولة"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:437
+#: src/components/_user/mission/mission.frontConfig.tsx:436
 msgid "Set Username"
 msgstr "تعيين اسم المستخدم"
 
@@ -7959,17 +7985,17 @@ msgstr "تعيين اسم المستخدم"
 msgid "Set welcome article"
 msgstr "تعيين مقال ترحيبي"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:444
+#: src/components/_user/mission/mission.frontConfig.tsx:443
 msgid "Set your profile picture"
 msgstr "تعيين صورة ملفك الشخصي"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:438
+#: src/components/_user/mission/mission.frontConfig.tsx:437
 msgid "Set your username"
 msgstr "تعيين اسم المستخدم الخاص بك"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:264
+#: src/components/_user/user/UserHeader.tsx:265
 msgid "Settings"
 msgstr "الإعدادات"
 
@@ -8002,6 +8028,7 @@ msgstr "إظهار كافة المزايدات الـ {0}"
 #: src/components/_social/ArticleTags.tsx:311
 #: src/components/_social/ArticleTags.tsx:369
 #: src/components/_social/ArticleTags.tsx:419
+#: src/components/_user/user/UserRankingsPanel.tsx:162
 msgid "Show more"
 msgstr "عرض المزيد"
 
@@ -8049,11 +8076,11 @@ msgstr "ترقية المهارة:"
 msgid "Skills"
 msgstr "المهارات"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "المهارات تجعلك أقوى. دعنا نعزز قدراتك!"
 
-#: src/pages/user/[userId]/skills.tsx:59
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "تم حفظ المهارات!"
 
@@ -8090,6 +8117,10 @@ msgstr "المظاهر"
 #: src/components/_other/shop/SkinPackModal.tsx:249
 msgid "Skins in this pack"
 msgstr "المظاهر في هذه الحزمة"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:98
+msgid "Skins owned"
+msgstr "المظاهر الممتلكة"
 
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
@@ -8212,7 +8243,7 @@ msgstr "بدأ <0/>"
 msgid "Started<0/><1/>"
 msgstr "بدأت<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:242
+#: src/components/_user/mission/MissionsList.tsx:292
 msgid "Starting"
 msgstr "جاري البدء"
 
@@ -8242,7 +8273,7 @@ msgstr "مزورة إحصائياً"
 msgid "Stats"
 msgstr "الإحصائيات"
 
-#: src/components/_layout/LayoutUserMenu.tsx:247
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Stats regenerate every hour"
 msgstr "تتجدد الإحصائيات كل ساعة"
 
@@ -8296,7 +8327,7 @@ msgstr "مشترك"
 msgid "Subscribed and supported the game <3"
 msgstr "اشترك ودعم اللعبة <3"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:56
+#: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
 msgstr "المشتركون"
 
@@ -8338,11 +8369,11 @@ msgstr "ميزة الداعم"
 msgid "Supporter Gift"
 msgstr "هدية الداعم"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:68
+#: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
 msgstr "هدايا الداعم"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:62
+#: src/components/_user/user/UserRankingsPanel.tsx:72
 msgid "Supporter months"
 msgstr "أشهر الدعم"
 
@@ -8449,7 +8480,7 @@ msgstr "منتهية"
 msgid "Terms"
 msgstr "الشروط"
 
-#: src/components/_user/auth/ConnectFromModal.tsx:425
+#: src/components/_user/auth/ConnectFromModal.tsx:435
 msgid "Terms of Service"
 msgstr "شروط الاستخدام"
 
@@ -8635,7 +8666,7 @@ msgstr "سيتطلب هذا من المستخدم التحقق من رقم ها�
 msgid "Tier {0}"
 msgstr "الفئة {0}"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "حان الوقت للقتال من أجل بلدك! دعنا ننضم إلى المعركة."
 
@@ -8809,7 +8840,7 @@ msgstr "إجمالي الصناديق المفتوحة"
 msgid "Total damage"
 msgstr "الدمج/الضرر الاجمالي"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:27
+#: src/components/_user/user/UserRankingsPanel.tsx:37
 msgid "Total damages"
 msgstr "إجمالي الأضرار"
 
@@ -8829,7 +8860,7 @@ msgstr "الإجمالي <0>{totalMaintenanceCostPerDay}</0> يوميًا"
 msgid "Total reward"
 msgstr "إجمالي المكافأة"
 
-#: src/components/_user/mission/MissionsHeader.tsx:98
+#: src/components/_user/mission/MissionsHeader.tsx:95
 msgid "Total XP earned from missions and milestones"
 msgstr "إجمالي نقاط الخبرة المكتسبة من المهام والإنجازات"
 
@@ -8895,7 +8926,7 @@ msgstr "عملية تداول"
 msgid "Trainee"
 msgstr "متدرب"
 
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:239
 msgid "Transac."
 msgstr "معاملات"
 
@@ -8936,11 +8967,11 @@ msgstr "منجنيق"
 msgid "Trooper"
 msgstr "جندي"
 
-#: src/pages/user/[userId]/settings.tsx:110
+#: src/pages/user/[userId]/settings.tsx:116
 msgid "Tutorials"
 msgstr "الدروس التعليمية"
 
-#: src/pages/user/[userId]/settings.tsx:41
+#: src/pages/user/[userId]/settings.tsx:47
 msgid "Tutorials reseted"
 msgstr "تم إعادة تعيين الدروس التعليمية"
 
@@ -9012,7 +9043,7 @@ msgstr "فتح زر إنتاج الكل"
 msgid "Unlocked pack"
 msgstr "حزمة مفتوحة"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Unmuted <0/>"
 msgstr "إلغاء الكتم <0/>"
 
@@ -9041,7 +9072,7 @@ msgstr "إلغاء تعيين الدولة العدوة اللدود"
 msgid "Update"
 msgstr "تحديث"
 
-#: src/pages/user/[userId]/settings.tsx:67
+#: src/pages/user/[userId]/settings.tsx:73
 msgid "Update infos"
 msgstr "تحديث المعلومات"
 
@@ -9049,7 +9080,7 @@ msgstr "تحديث المعلومات"
 msgid "Update worker"
 msgstr "تحديث العامل"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:398
+#: src/components/_user/mission/mission.frontConfig.tsx:397
 msgid "Upgrade a company"
 msgstr "ترقية شركة"
 
@@ -9057,11 +9088,11 @@ msgstr "ترقية شركة"
 msgid "Upgrade automated engine"
 msgstr "تطوير المحرك الآلي"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:397
+#: src/components/_user/mission/mission.frontConfig.tsx:396
 msgid "Upgrade Company"
 msgstr "ترقية الشركة"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:523
+#: src/components/_user/mission/mission.frontConfig.tsx:522
 msgid "Upgrade Skills"
 msgstr "ترقية المهارات"
 
@@ -9073,11 +9104,11 @@ msgstr "تطوير المخزن"
 msgid "Upgrade to supporter"
 msgstr "الترقية إلى داعم"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:525
+#: src/components/_user/mission/mission.frontConfig.tsx:524
 msgid "Upgrade your skills <0/> times"
 msgstr "ترقية مهاراتك <0/> من المرات"
 
-#: src/pages/user/[userId]/skills.tsx:173
+#: src/pages/user/[userId]/skills.tsx:169
 msgid "Upgrade your skills!"
 msgstr "رقِّ مهاراتك!"
 
@@ -9089,11 +9120,11 @@ msgstr "رقِّ مهاراتك!"
 msgid "Upgrades"
 msgstr "الترقيات"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:545
+#: src/components/_user/mission/mission.frontConfig.tsx:544
 msgid "Use <0/>"
 msgstr "استخدام <0/>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:543
+#: src/components/_user/mission/mission.frontConfig.tsx:542
 msgid "Use Pills"
 msgstr "استخدام حبة الدواء"
 
@@ -9101,7 +9132,7 @@ msgstr "استخدام حبة الدواء"
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "استخدم <0>ريادة الأعمال</0> الخاصة بك للعمل في شركتك الخاصة وملء شريط إنتاجها."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:166
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "استخدم <0>جوعك</0> لتناول الطعام وإعادة ملء <1>صحتك</1>. ثم عد للقتال!"
 
@@ -9204,7 +9235,7 @@ msgid "Username"
 msgstr "اسم المستخدم"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:94
+#: src/pages/user/[userId]/settings.tsx:100
 msgid "Username effect"
 msgstr "تأثير اسم المستخدم"
 
@@ -9220,7 +9251,7 @@ msgstr "تم تحديث تأثير اسم المستخدم"
 msgid "Username effects are a Supporter Plan feature."
 msgstr "تأثيرات اسم المستخدم هي ميزة مخصصة لباقة الداعمين."
 
-#: src/pages/user/[userId]/settings.tsx:88
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Username font"
 msgstr "خط اسم المستخدم"
 
@@ -9233,7 +9264,7 @@ msgstr "تمت إزالة اسم المستخدم"
 msgid "Users"
 msgstr "المستخدمون"
 
-#: src/components/_layout/LayoutUserMenu.tsx:298
+#: src/components/_layout/LayoutUserMenu.tsx:303
 msgid "Users online"
 msgstr "الاعبين المتصلين"
 
@@ -9356,11 +9387,11 @@ msgstr "عرض على الخريطة"
 msgid "Views"
 msgstr "المشاهدات"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:485
+#: src/components/_user/mission/mission.frontConfig.tsx:484
 msgid "Vote"
 msgstr "صوت"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:486
+#: src/components/_user/mission/mission.frontConfig.tsx:485
 msgid "Vote in an election"
 msgstr "صوت في انتخابات"
 
@@ -9439,7 +9470,7 @@ msgstr "مساعد أول"
 msgid "Wars"
 msgstr "حروب"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:38
+#: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "الثروة"
@@ -9466,7 +9497,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "لا يمكن استخدام الأسلحة والذخيرة والعتاد التي تتجاوز هذه الندرة في معارك هذه البطولة."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:216
+#: src/components/_user/mission/MissionsList.tsx:266
 msgid "Weekly"
 msgstr "أسبوعي"
 
@@ -9474,7 +9505,7 @@ msgstr "أسبوعي"
 msgid "Weekly balance"
 msgstr "الرصيد الأسبوعي"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:21
+#: src/components/_user/user/UserRankingsPanel.tsx:31
 msgid "Weekly damages"
 msgstr "الضرر الأسبوعي"
 
@@ -9512,7 +9543,7 @@ msgstr "عند الدفاع عن تمرد، تحصل على مكافأة قتا�
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "عند التمرد, تقوم بنسخ المكافأة الدفاعية القتالية للعدو من ترقيات منطقة التي بيها خندق."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:156
+#: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "عندما تنفد <0>صحتك</0>، افتح هذه القائمة لاستعادتها بالطعام."
 
@@ -9520,7 +9551,7 @@ msgstr "عندما تنفد <0>صحتك</0>، افتح هذه القائمة ل�
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
 msgstr "بينما يُسمح باستخدام أدوات جمع البيانات وعرضها التي تستخدم واجهة برمجة التطبيقات (api) العامة الرسمية، يرجى التواصل مع فريق العمل مباشرة لأي عمليات تطوير أو وصول للبيانات بخلاف ذلك."
 
-#: src/pages/companies.tsx:102
+#: src/pages/companies.tsx:103
 msgid "Whole Production"
 msgstr "كامل الإنتاج"
 
@@ -9642,11 +9673,11 @@ msgstr "تباً هل هذا ممكن؟"
 msgid "X. Punishments and Appeals"
 msgstr ": العقوبات والاستئنافات"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:44
+#: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
 msgstr "نقاط خبرة"
 
-#: src/components/_user/mission/MissionsHeader.tsx:95
+#: src/components/_user/mission/MissionsHeader.tsx:92
 msgid "XP earned"
 msgstr "نقاط الخبرة المكتسبة"
 
@@ -9769,7 +9800,7 @@ msgstr "لقد أهديت اشتراك الداعم لشخص ما <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "سيتم قبولك تلقائياً لأن عدد سكان الدولة أقل من"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:93
+#: src/components/_other/tour/tuto.frontConfig.tsx:91
 msgid "You have a case!"
 msgstr "لديك صندوق!"
 
@@ -9972,7 +10003,7 @@ msgstr "لقد تم تعيينك نائباً لرئيس دولتك"
 msgid "You were so close"
 msgstr "كنت قريباً جداً"
 
-#: src/pages/user/[userId]/skills.tsx:124
+#: src/pages/user/[userId]/skills.tsx:120
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr "ستنخفض إلى المستوى 25 (ستخسر 65,000 نقطة خبرة)، وستحصل على مكافأة خبرة دائمة بنسبة +50% (+10% لكل مستوى هيبة إضافي) ونقطة هيبة، وسيتِم إعادة تعيين مهاراتك مجاناً."
 
@@ -9997,7 +10028,7 @@ msgstr "لقد فزت في بطولة الوحدة العسكرية"
 msgid "You worked 100 times"
 msgstr "لقد عملت 100 مرة"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "You're all set!"
 msgstr "أنت جاهز تماماً!"
 
@@ -10025,7 +10056,7 @@ msgstr "أنت رسمياً أفضل من 80% من اللاعبين"
 msgid "You're peaking"
 msgstr "أنت في القمة"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:185
+#: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "لقد أكملت بعض المهام! دعنا نجمع مكافآت XP الخاصة بك."
 
@@ -10112,7 +10143,7 @@ msgstr "طلبك الحالي"
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "تم إعادة تعيين مهامك اليومية! أكملها لكسب المكافآت."
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:63
 msgid "Your email"
 msgstr "بريدك الإلكتروني"
 
@@ -10136,7 +10167,7 @@ msgstr "أعداؤك"
 msgid "Your infos have been saved."
 msgstr "تم حفظ معلوماتك."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:85
+#: src/components/_other/tour/tuto.frontConfig.tsx:84
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "مخزونك يحتوي على جميع عناصرك, لنرى ما لديك!"
 
@@ -10227,7 +10258,7 @@ msgstr "تغير أجرك في <0/> من <1>{0}</1> إلى <2>{1}</2>"
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "تم إعادة تعيين مهامك الأسبوعية! أكملها لكسب المكافآت."
 
-#: src/components/_user/auth/ConnectFromModal.tsx:370
+#: src/components/_user/auth/ConnectFromModal.tsx:380
 msgid "your@email.com"
 msgstr "your@email.com"
 
