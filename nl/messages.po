@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr "- Laagbetaalde arbeid (minder dan 0,8x en meer dan 1,2x het normale salaris)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:468
+#: src/components/_user/user/UserHeader.tsx:469
 msgid " - Reason: {0}"
 msgstr " - Reden: {0}"
 
@@ -98,7 +98,7 @@ msgid "{0} days cooldown"
 msgstr "{0} dagen afkoelperiode"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:214
+#: src/pages/user/[userId]/skills.tsx:219
 msgid "{0} Free"
 msgstr "{0} Beschikbaar"
 
@@ -151,7 +151,7 @@ msgstr "{0}% inkomstenbelasting wordt afgetrokken van de lonen van je werknemers
 msgid "{0}% of invested"
 msgstr "{0}% van geïnvesteerde hoeveelheid"
 
-#: src/components/_user/mission/MissionsList.tsx:169
+#: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} voltooid"
 
@@ -175,7 +175,7 @@ msgstr "{registeredCount} MEs geregistreerd"
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} Rondes om te winnen "
 
-#: src/components/_user/user/SkillUpgrade.tsx:373
+#: src/components/_user/user/SkillUpgrade.tsx:376
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr "{savedPrestigeCount} prestigepunten gebruikt voor deze vaardigheid"
 
@@ -1657,7 +1657,7 @@ msgstr "API-token is opnieuw gegenereerd"
 msgid "API token revoked"
 msgstr "API-token ingetrokken"
 
-#: src/pages/user/[userId]/settings.tsx:128
+#: src/pages/user/[userId]/settings.tsx:134
 msgid "API Tokens"
 msgstr "API-tokens"
 
@@ -1669,11 +1669,11 @@ msgstr "API-tokens stellen externe applicaties in staat om namens jou toegang te
 msgid "App pattern"
 msgstr "App-patroon"
 
-#: src/pages/user/[userId]/settings.tsx:102
+#: src/pages/user/[userId]/settings.tsx:108
 msgid "App settings"
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:75
+#: src/pages/user/[userId]/settings.tsx:81
 msgid "Appearance"
 msgstr ""
 
@@ -1743,7 +1743,7 @@ msgstr "Weet je zeker dat je alle verkooporders wilt verwijderen?"
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr ""
 
-#: src/components/_user/mission/MissionItem.tsx:113
+#: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
 msgstr "Weet je zeker dat je deze missie wil vervangen? Je huidige voortgang zal verloren gaan."
 
@@ -1782,7 +1782,7 @@ msgstr "Artikel Fooi"
 msgid "Article tipped"
 msgstr "Fooi gegeven aan artikel"
 
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:253
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Artikelen"
@@ -1931,6 +1931,10 @@ msgstr "Geautomatiseerde aandrijving"
 msgid "Automated Engine"
 msgstr "Geautomatiseerde aandrijving"
 
+#: src/components/_user/mission/MissionsList.tsx:322
+msgid "Available now"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:148
 msgid "Avatar removed"
 msgstr "Avatar verwijderd"
@@ -1983,7 +1987,7 @@ msgstr ""
 msgid "Bankruptcy"
 msgstr "Faillissement"
 
-#: src/components/_user/user/UserHeader.tsx:457
+#: src/components/_user/user/UserHeader.tsx:458
 msgid "Banned"
 msgstr "Verbannen"
 
@@ -2003,8 +2007,8 @@ msgstr "Bannergeschenk verzonden"
 msgid "Banners"
 msgstr "Banners"
 
-#: src/components/_user/user/UserHeader.tsx:205
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Bans"
 msgstr "Verbanningen"
 
@@ -2101,7 +2105,7 @@ msgstr ""
 msgid "Battlefield Loot"
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:131
+#: src/components/_layout/LayoutMenu.tsx:132
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
@@ -2174,7 +2178,7 @@ msgstr ""
 msgid "Bonus damages"
 msgstr "Bonusschade"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:112
 msgid "Boost your production!"
 msgstr "Verhoog je productie!"
 
@@ -2191,6 +2195,10 @@ msgstr "Beloning"
 #: src/components/_military/battle/BattleSystem.tsx:868
 msgid "Bounty cooldown"
 msgstr "Beloningsafkoelperiode"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:116
+msgid "Bounty earned"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 msgid "Bounty will be available in"
@@ -2229,7 +2237,7 @@ msgstr "Budget"
 msgid "Buff ended"
 msgstr "Buff afgelopen"
 
-#: src/components/_user/user/UserHeader.tsx:340
+#: src/components/_user/user/UserHeader.tsx:341
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2408,9 +2416,13 @@ msgstr "CAPTCHA-verificatie is verlopen. Wordt gereset..."
 msgid "Case"
 msgstr "Kist"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:94
+#: src/components/_other/tour/tuto.frontConfig.tsx:92
 msgid "Cases contain random items. Click to open it!"
 msgstr "Kisten bevatten willekeurige items. Klik om te openen!"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:104
+msgid "Cases opened"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
@@ -2497,7 +2509,7 @@ msgstr ""
 msgid "Change the tax of {0} to"
 msgstr "Verander de belasting van {0} naar"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:83
+#: src/components/_other/tour/tuto.frontConfig.tsx:82
 msgid "Check your loot!"
 msgstr "Controleer je buit!"
 
@@ -2526,7 +2538,7 @@ msgstr ""
 msgid "Choose your country"
 msgstr "Kies je land"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:146
+#: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Kies je kant en klik om <0>Schade</0> toe te brengen! Blijf aanvallen om je team te helpen winnen."
 
@@ -2534,7 +2546,7 @@ msgstr "Kies je kant en klik om <0>Schade</0> toe te brengen! Blijf aanvallen om
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:321
+#: src/components/_user/user/UserHeader.tsx:322
 msgid "Citizen since"
 msgstr ""
 
@@ -2560,17 +2572,17 @@ msgid "Civil war"
 msgstr "Burgeroorlog"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:315
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:141
 msgid "Claim"
 msgstr "Claim"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:183
+#: src/components/_other/tour/tuto.frontConfig.tsx:181
 msgid "Claim your rewards!"
 msgstr "Claim je beloningen!"
 
-#: src/components/_user/mission/MissionItem.tsx:211
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:217
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:118
 msgid "Claimed"
 msgstr "Geclaimd"
@@ -2584,15 +2596,15 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Selectie verwijderen"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Klik meerdere keren om deze vaardigheid te verhogen. Hogere vaardigheden = meer kracht!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Klik op een gevecht om te zien wat er gebeurt en doe mee."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Klik op het gesprek van je land om met medeburgers te praten."
 
@@ -2604,7 +2616,7 @@ msgstr "Klik om te solliciteren en begin direct geld te verdienen."
 msgid "Click to consume."
 msgstr "Klik om te consumeren."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:100
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Klik om te zien wat erin zit. Misschien krijg je iets waardevols!"
 
@@ -2638,7 +2650,7 @@ msgid "Colonel"
 msgstr "Kolonel"
 
 #: src/components/_user/user/UserDropdown.tsx:243
-#: src/pages/user/[userId]/settings.tsx:81
+#: src/pages/user/[userId]/settings.tsx:87
 msgid "Color scheme"
 msgstr "Kleurenschema"
 
@@ -2676,11 +2688,11 @@ msgstr "Commodore"
 msgid "Community"
 msgstr "Gemeenschap"
 
-#: src/components/_layout/LayoutMenu.tsx:173
+#: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:244
+#: src/components/_user/user/UserHeader.tsx:245
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:96
+#: src/pages/companies.tsx:97
 msgid "Companies"
 msgstr "Bedrijven"
 
@@ -2725,7 +2737,7 @@ msgstr "Bedrijf hernoemd!"
 msgid "Company upgraded!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:194
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Voltooi dagelijks missies om XP te verdienen en sneller een hoger level te bereiken. Klik om te claimen!"
 
@@ -3160,7 +3172,7 @@ msgstr "Aangepaste lettertype voor gebruikersnaam"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. Elke vorm van discriminatie, racisme, xenofobie, antisemitisme, homofobie, transfobie en haatzaaien"
 
-#: src/components/_user/mission/MissionsList.tsx:187
+#: src/components/_user/mission/MissionsList.tsx:253
 msgid "Daily"
 msgstr "Dagelijks"
 
@@ -3203,7 +3215,7 @@ msgstr "Verdomme, ziet er goed uit"
 msgid "Damn you lucky"
 msgstr "Verdomme, jij hebt geluk"
 
-#: src/pages/user/[userId]/settings.tsx:134
+#: src/pages/user/[userId]/settings.tsx:140
 msgid "Danger zone"
 msgstr "Gevarenzone"
 
@@ -3284,7 +3296,7 @@ msgstr "Brengt wat schade toe"
 msgid "Debuff ended"
 msgstr "Debuff afgelopen"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:349
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3378,7 +3390,7 @@ msgstr "Definieer een land als een vijand om er bonus tegen te krijgen"
 msgid "Define a sworn enemy"
 msgstr "Definieer een gezworen vijand"
 
-#: src/pages/user/[userId]/settings.tsx:137
+#: src/pages/user/[userId]/settings.tsx:143
 msgid "Delete account"
 msgstr "Account verwijderen"
 
@@ -3547,7 +3559,7 @@ msgstr ""
 msgid "Don't forget to drink water"
 msgstr "Vergeet geen water te drinken"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Don't forget to save your skill upgrades."
 msgstr "Vergeet niet je vaardigheidsupgrades op te slaan."
 
@@ -4065,7 +4077,7 @@ msgstr "Vecht voor <0/> in<1/><2/>"
 msgid "Fight skills"
 msgstr "Vechtvaardigheden"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:144
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Fight!"
 msgstr "Vecht!"
 
@@ -4110,7 +4122,7 @@ msgstr "Financier een lokaal verzet"
 msgid "Finance resistance in <0/>"
 msgstr "Financier een verzet in <0/>"
 
-#: src/pages/companies.tsx:59
+#: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Zoek een baan"
@@ -4234,11 +4246,15 @@ msgstr "Gems"
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
 msgstr "Gems worden gebruikt om assets in de winkel te kopen en om supporter maanden aan andere spelers te schenken"
 
+#: src/components/_user/user/UserRankingsPanel.tsx:110
+msgid "Gems purchased"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
 msgstr "Generaal"
 
-#: src/components/_user/mission/MissionsList.tsx:254
+#: src/components/_user/mission/MissionsList.tsx:334
 msgid "Generate Missions"
 msgstr "Genereer Missies"
 
@@ -4366,7 +4382,7 @@ msgstr "Graan"
 msgid "Graticule"
 msgstr "Graticule"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:176
+#: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Goed gedaan! Sla nog een paar keer toe om je team te helpen de strijd te winnen."
 
@@ -4438,7 +4454,7 @@ msgstr "Grimdark Sniper"
 msgid "Grimdark Tank"
 msgstr "Grimdark Tank"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:33
+#: src/components/_user/user/UserRankingsPanel.tsx:43
 msgid "Ground"
 msgstr "Grond"
 
@@ -4733,7 +4749,7 @@ msgstr "Opzettelijke of herhaalde schendingen van dit beleid zullen resulteren i
 #: src/components/_layout/LayoutUserMenu.tsx:199
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
-#: src/pages/companies.tsx:83
+#: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
@@ -4865,7 +4881,7 @@ msgstr ""
 msgid "Join this company!"
 msgstr "Sluit je aan bij dit bedrijf!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Join your country chat!"
 msgstr "Sluit je aan bij de chat van je land!"
 
@@ -4897,7 +4913,7 @@ msgstr "Nog één... Wat kan er misgaan?"
 msgid "Keep chasing that Mythic"
 msgstr "Blijf die Mythic achterna jagen"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:174
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Keep fighting!"
 msgstr "Blijf vechten!"
 
@@ -4947,7 +4963,7 @@ msgstr "Taal"
 msgid "Last"
 msgstr "Laatste"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:357
 msgid "Last connection"
 msgstr ""
 
@@ -5088,7 +5104,7 @@ msgstr "Level {level}"
 msgid "Level too low"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Level up your skills!"
 msgstr "Verhoog je vaardigheden!"
 
@@ -5301,7 +5317,7 @@ msgid "Map icons"
 msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:162
+#: src/components/_layout/LayoutMenu.tsx:163
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5402,7 +5418,7 @@ msgstr "Middeleeuwse Stalen Pijl"
 msgid "Medieval Stone Arrow"
 msgstr "Middeleeuwse Stenen Pijl"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:204
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Ontmoet andere spelers in de chat. Wees niet verlegen, stel jezelf voor!"
 
@@ -5485,6 +5501,7 @@ msgid "Message liked"
 msgstr "Bericht leuk gevonden"
 
 #: src/components/_user/mission/MissionsHeader.tsx:82
+#: src/components/_user/user/UserRankingsPanel.tsx:86
 msgid "Milestone tiers"
 msgstr ""
 
@@ -5493,7 +5510,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -5584,8 +5601,8 @@ msgid "Mission tags"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:166
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Missions"
 msgstr "Missies"
 
@@ -5594,6 +5611,7 @@ msgid "Missions & milestones"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:73
+#: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
 msgstr ""
 
@@ -5626,13 +5644,17 @@ msgid "Money Won"
 msgstr "Verdiende geld"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:213
+#: src/components/_user/mission/MissionsList.tsx:279
 msgid "Monthly"
 msgstr "Maandelijks"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Maandelijkse schade: <0>{monthlyDamages}</0>"
+
+#: src/components/_user/mission/MissionsList.tsx:311
+msgid "Monthly missions are not available yet"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2170
 msgid "Monthly Missions Reset"
@@ -5691,7 +5713,7 @@ msgstr "Verplaats naar boven"
 msgid "Moved to a new company"
 msgstr "Verplaatst naar een nieuw bedrijf"
 
-#: src/components/_layout/LayoutMenu.tsx:118
+#: src/components/_layout/LayoutMenu.tsx:119
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
@@ -5987,7 +6009,7 @@ msgstr "Mooi"
 msgid "Nice one"
 msgstr "Mooi gedaan"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Nice work!"
 msgstr "Goed gedaan!"
 
@@ -6112,7 +6134,7 @@ msgstr ""
 msgid "No military units found"
 msgstr "Geen militaire eenheden gevonden"
 
-#: src/components/_user/mission/MissionsList.tsx:244
+#: src/components/_user/mission/MissionsList.tsx:313
 msgid "No missions available"
 msgstr "Geen missies beschikbaar"
 
@@ -6261,7 +6283,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr "Niets is op het spel. Val aan in een lopend gevecht om te beginnen met verdienen en behaal een hoge schade-ranking om een ​​plek in de buitpool te bemachtigen."
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:122
+#: src/pages/user/[userId]/settings.tsx:128
 msgid "Notification preferences"
 msgstr "Meldingsvoorkeuren"
 
@@ -6410,7 +6432,7 @@ msgstr "Open de chat"
 msgid "Open to all"
 msgstr "Open voor iedereen"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:98
+#: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Open your case!"
 msgstr "Open je kist!"
 
@@ -6686,7 +6708,7 @@ msgstr "Telefoonverificatie aangevraagd"
 msgid "Phone verification required"
 msgstr "Telefoonverificatie vereist"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:135
 msgid "Pick a fight!"
 msgstr "Kies een gevecht!"
 
@@ -6821,7 +6843,7 @@ msgid "Presidential elections"
 msgstr "Presidentsverkiezingen"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
-#: src/pages/user/[userId]/skills.tsx:193
+#: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
 msgstr ""
 
@@ -7194,7 +7216,7 @@ msgstr "Lees artikel"
 msgid "Read the article"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Ready for battle!"
 msgstr "Klaar voor de strijd!"
 
@@ -7241,8 +7263,8 @@ msgstr "Vermindert het gezondheidsverlies bij gevechten"
 msgid "Referral link copied to clipboard"
 msgstr "Wervingslink gekopieerd naar klembord"
 
-#: src/components/_user/user/UserHeader.tsx:258
-#: src/components/_user/user/UserRankingsPanel.tsx:50
+#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
@@ -7501,7 +7523,7 @@ msgstr "Rapporteer"
 msgid "Report user"
 msgstr "Rapporteer gebruiker"
 
-#: src/components/_user/user/UserHeader.tsx:212
+#: src/components/_user/user/UserHeader.tsx:213
 msgid "Reports"
 msgstr ""
 
@@ -7526,11 +7548,11 @@ msgstr "Vraag telefoonverificatie aan"
 msgid "Requests:"
 msgstr "Verzoeken:"
 
-#: src/components/_user/mission/MissionItem.tsx:112
+#: src/components/_user/mission/MissionItem.tsx:118
 msgid "Reroll Mission"
 msgstr "Reroll missie"
 
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:216
 msgid "Reset"
 msgstr "Reset"
 
@@ -7546,7 +7568,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "Reset overlevende"
 
-#: src/pages/user/[userId]/settings.tsx:117
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Reset tutorials"
 msgstr "Tutorial resetten"
 
@@ -7597,7 +7619,7 @@ msgstr "Grondstoffen herverdeeld"
 msgid "Response to message"
 msgstr "Reactie op bericht"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:164
+#: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Restore your health!"
 msgstr "Herstel je gezondheid!"
 
@@ -7721,22 +7743,22 @@ msgstr "Regels"
 msgid "Ruling Party"
 msgstr "Regerende Partij"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Running low on health?"
 msgstr "Zit je bijna zonder levenspunten?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:250
+#: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
 msgstr "Opslaan"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:124
+#: src/components/_other/tour/tuto.frontConfig.tsx:122
 msgid "Save your progress!"
 msgstr "Sla je voortgang op!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:200
 msgid "Say hello!"
 msgstr "Zeg hallo!"
 
@@ -7868,7 +7890,7 @@ msgstr ""
 msgid "Send a message"
 msgstr "Stuur een bericht"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Stuur een bericht om de tutorial te voltooien. Welkom in de community!"
 
@@ -7973,7 +7995,7 @@ msgstr "Stel je gebruikersnaam in"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:264
+#: src/components/_user/user/UserHeader.tsx:265
 msgid "Settings"
 msgstr "Instellingen"
 
@@ -8006,6 +8028,7 @@ msgstr "Toon alle {0} biedingen"
 #: src/components/_social/ArticleTags.tsx:311
 #: src/components/_social/ArticleTags.tsx:369
 #: src/components/_social/ArticleTags.tsx:419
+#: src/components/_user/user/UserRankingsPanel.tsx:162
 msgid "Show more"
 msgstr "Laat meer zien"
 
@@ -8053,11 +8076,11 @@ msgstr "Vaardigheidsupgrade:"
 msgid "Skills"
 msgstr "Vaardigheden"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Vaardigheden maken je sterker. Laten we je vaardigheden verbeteren!"
 
-#: src/pages/user/[userId]/skills.tsx:59
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Vaardigheden opgeslagen!"
 
@@ -8094,6 +8117,10 @@ msgstr "Skins"
 #: src/components/_other/shop/SkinPackModal.tsx:249
 msgid "Skins in this pack"
 msgstr "Skins in dit pakket"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:98
+msgid "Skins owned"
+msgstr ""
 
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
@@ -8216,7 +8243,7 @@ msgstr "Begonnen <0/>"
 msgid "Started<0/><1/>"
 msgstr "Begonnen<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:226
+#: src/components/_user/mission/MissionsList.tsx:292
 msgid "Starting"
 msgstr "Start"
 
@@ -8300,7 +8327,7 @@ msgstr "Geabonneerd"
 msgid "Subscribed and supported the game <3"
 msgstr "Geabonneerd en ondersteunde het spel <3"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:56
+#: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
 msgstr "Abonnees"
 
@@ -8342,11 +8369,11 @@ msgstr "Supporterkenmerk"
 msgid "Supporter Gift"
 msgstr "Supporter Geschenk"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:68
+#: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
 msgstr "Schenkingen van supporters"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:62
+#: src/components/_user/user/UserRankingsPanel.tsx:72
 msgid "Supporter months"
 msgstr "Supportermaanden"
 
@@ -8639,7 +8666,7 @@ msgstr "Dit vereist dat de gebruiker zijn mobiele telefoonnummer verifieert."
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Tijd om voor je land te vechten! Laten we meedoen met de actie."
 
@@ -8813,7 +8840,7 @@ msgstr "Totaal aantal geopende kisten"
 msgid "Total damage"
 msgstr ""
 
-#: src/components/_user/user/UserRankingsPanel.tsx:27
+#: src/components/_user/user/UserRankingsPanel.tsx:37
 msgid "Total damages"
 msgstr "Totale schade"
 
@@ -8899,7 +8926,7 @@ msgstr "Handelstransactie"
 msgid "Trainee"
 msgstr "Leerling"
 
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:239
 msgid "Transac."
 msgstr "Transac."
 
@@ -8940,11 +8967,11 @@ msgstr "Trebuchet"
 msgid "Trooper"
 msgstr "Soldaat"
 
-#: src/pages/user/[userId]/settings.tsx:110
+#: src/pages/user/[userId]/settings.tsx:116
 msgid "Tutorials"
 msgstr "Uitleg"
 
-#: src/pages/user/[userId]/settings.tsx:41
+#: src/pages/user/[userId]/settings.tsx:47
 msgid "Tutorials reseted"
 msgstr "Uitleg gereset"
 
@@ -9016,7 +9043,7 @@ msgstr "Ontgrendel Produceer alles-knop"
 msgid "Unlocked pack"
 msgstr "Ontgrendeld pakket"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Unmuted <0/>"
 msgstr "Ontdempt <0/>"
 
@@ -9045,7 +9072,7 @@ msgstr "Maak het gezworen vijandig land ongedaan"
 msgid "Update"
 msgstr "Update"
 
-#: src/pages/user/[userId]/settings.tsx:67
+#: src/pages/user/[userId]/settings.tsx:73
 msgid "Update infos"
 msgstr "Update-informatie"
 
@@ -9081,7 +9108,7 @@ msgstr "Upgrade naar supporter"
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
-#: src/pages/user/[userId]/skills.tsx:173
+#: src/pages/user/[userId]/skills.tsx:169
 msgid "Upgrade your skills!"
 msgstr "Verbeter je vaardigheden!"
 
@@ -9105,7 +9132,7 @@ msgstr ""
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "Gebruik je <0>Ondernemerschap</0> om in je eigen bedrijf te werken en de productiebalk te vullen."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:166
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Gebruik je <0>Honger</0> om voedsel te eten en je <1>Gezondheid</1> aan te vullen. Ga dan weer aan het vechten!"
 
@@ -9208,7 +9235,7 @@ msgid "Username"
 msgstr "Gebruikersnaam"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:94
+#: src/pages/user/[userId]/settings.tsx:100
 msgid "Username effect"
 msgstr ""
 
@@ -9224,7 +9251,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:88
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Username font"
 msgstr ""
 
@@ -9443,7 +9470,7 @@ msgstr "Onderofficier"
 msgid "Wars"
 msgstr "Oorlogen"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:38
+#: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Rijkdom"
@@ -9470,7 +9497,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Wapens, munitie en uitrusting van een hogere zeldzaamheidsgraad dan deze mogen niet worden gebruikt in de gevechten van dit toernooi."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:200
+#: src/components/_user/mission/MissionsList.tsx:266
 msgid "Weekly"
 msgstr "Wekelijks"
 
@@ -9478,7 +9505,7 @@ msgstr "Wekelijks"
 msgid "Weekly balance"
 msgstr "Wekelijkse saldo"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:21
+#: src/components/_user/user/UserRankingsPanel.tsx:31
 msgid "Weekly damages"
 msgstr "Wekelijkse schade"
 
@@ -9516,7 +9543,7 @@ msgstr ""
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "Bij opstand kopieer je de verdedigingsbonus van de Bunker-regio-upgrades (van de vijand)."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:156
+#: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Wanneer je <0>Leven</0> op is, open dan dit menu om het te herstellen met voedsel."
 
@@ -9524,7 +9551,7 @@ msgstr "Wanneer je <0>Leven</0> op is, open dan dit menu om het te herstellen me
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
 msgstr "Hoewel gegevensverzamelings- en weergavetools die de officiële openbare API gebruiken zijn toegestaan, neem voor andere ontwikkeling of gegevenstoegang rechtstreeks contact op met het personeelsteam."
 
-#: src/pages/companies.tsx:102
+#: src/pages/companies.tsx:103
 msgid "Whole Production"
 msgstr "Gehele productie"
 
@@ -9646,7 +9673,7 @@ msgstr "Hoezo is dit in hemelsnaam mogelijk?"
 msgid "X. Punishments and Appeals"
 msgstr "X. Straffen en Beroepsprocedures"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:44
+#: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
 msgstr "Ervaring"
 
@@ -9773,7 +9800,7 @@ msgstr "Je hebt een supporter plan-abonnement aan iemand cadeau gedaan <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Je wordt automatisch goedgekeurd omdat de bevolking van het land lager is dan"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:93
+#: src/components/_other/tour/tuto.frontConfig.tsx:91
 msgid "You have a case!"
 msgstr "Je hebt een kist!"
 
@@ -9976,7 +10003,7 @@ msgstr "Je bent genomineerd als vice-president van je land"
 msgid "You were so close"
 msgstr "Je was zo dichtbij"
 
-#: src/pages/user/[userId]/skills.tsx:124
+#: src/pages/user/[userId]/skills.tsx:120
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr "Je zal 25 levels omlaag gaan (65.000 XP verliezen), maar een prestige punt krijgen en een permanente XP bonus van 50% krijgen (en +10% voor elk level daarna). Je vaardigheden worden gratis teruggezet."
 
@@ -10001,7 +10028,7 @@ msgstr "Je hebt een ME-toernooi gewonnen"
 msgid "You worked 100 times"
 msgstr "Je hebt 100 keer gewerkt"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "You're all set!"
 msgstr "Je bent er klaar voor!"
 
@@ -10029,7 +10056,7 @@ msgstr "Je bent officieel beter dan 80% van de spelers"
 msgid "You're peaking"
 msgstr "Je piekt"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:185
+#: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Je hebt een aantal missies voltooid! Pak je XP beloning!."
 
@@ -10116,7 +10143,7 @@ msgstr "Je huidige bestelling"
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Je dagelijkse missies zijn gereset! Voltooi ze om beloningen te verdienen."
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:63
 msgid "Your email"
 msgstr "Je e-mailadres"
 
@@ -10140,7 +10167,7 @@ msgstr "Je vijanden"
 msgid "Your infos have been saved."
 msgstr "Je gegevens zijn opgeslagen."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:85
+#: src/components/_other/tour/tuto.frontConfig.tsx:84
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Je inventaris bevat al je items. Laat maar zien wat je hebt!"
 

@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:468
+#: src/components/_user/user/UserHeader.tsx:469
 msgid " - Reason: {0}"
 msgstr " - Orsak: {0}"
 
@@ -98,7 +98,7 @@ msgid "{0} days cooldown"
 msgstr "{0} dagars spärrtid"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:214
+#: src/pages/user/[userId]/skills.tsx:219
 msgid "{0} Free"
 msgstr "{0} Kostnadsfria"
 
@@ -151,7 +151,7 @@ msgstr "{0}% inkomstskatt dras från anställdas löner."
 msgid "{0}% of invested"
 msgstr "{0}% av investerat belopp"
 
-#: src/components/_user/mission/MissionsList.tsx:169
+#: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} slutförda"
 
@@ -175,7 +175,7 @@ msgstr ""
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} Ronder för att segra "
 
-#: src/components/_user/user/SkillUpgrade.tsx:373
+#: src/components/_user/user/SkillUpgrade.tsx:376
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr ""
 
@@ -1657,7 +1657,7 @@ msgstr "API-token återskapad"
 msgid "API token revoked"
 msgstr "API-token återkallad"
 
-#: src/pages/user/[userId]/settings.tsx:128
+#: src/pages/user/[userId]/settings.tsx:134
 msgid "API Tokens"
 msgstr "API-tokens"
 
@@ -1669,11 +1669,11 @@ msgstr "API-tokens tillåter externa applikationer att ansluta för din räkning
 msgid "App pattern"
 msgstr "App-mönster"
 
-#: src/pages/user/[userId]/settings.tsx:102
+#: src/pages/user/[userId]/settings.tsx:108
 msgid "App settings"
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:75
+#: src/pages/user/[userId]/settings.tsx:81
 msgid "Appearance"
 msgstr ""
 
@@ -1743,7 +1743,7 @@ msgstr "Är du säker på att du vill ta bort samtliga säljordrar?"
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr ""
 
-#: src/components/_user/mission/MissionItem.tsx:113
+#: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
 msgstr "Är du säker på att du vill generera ett nytt uppdrag? Dina avklarade delmål i uppdraget går förlorade."
 
@@ -1782,7 +1782,7 @@ msgstr "Artikeldricks"
 msgid "Article tipped"
 msgstr "Artikel fick dricks"
 
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:253
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Artiklar"
@@ -1931,6 +1931,10 @@ msgstr "Automatiserad produktion"
 msgid "Automated Engine"
 msgstr "Automatiserad produktion"
 
+#: src/components/_user/mission/MissionsList.tsx:322
+msgid "Available now"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:148
 msgid "Avatar removed"
 msgstr "Profilbild borttagen"
@@ -1983,7 +1987,7 @@ msgstr ""
 msgid "Bankruptcy"
 msgstr "Konkurs"
 
-#: src/components/_user/user/UserHeader.tsx:457
+#: src/components/_user/user/UserHeader.tsx:458
 msgid "Banned"
 msgstr "Avstängd"
 
@@ -2003,8 +2007,8 @@ msgstr "Banergåva skickad"
 msgid "Banners"
 msgstr "Baner"
 
-#: src/components/_user/user/UserHeader.tsx:205
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Bans"
 msgstr "Avstängningar"
 
@@ -2101,7 +2105,7 @@ msgstr ""
 msgid "Battlefield Loot"
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:131
+#: src/components/_layout/LayoutMenu.tsx:132
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
@@ -2174,7 +2178,7 @@ msgstr ""
 msgid "Bonus damages"
 msgstr "Bonusskada"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:112
 msgid "Boost your production!"
 msgstr "Öka din produktion!"
 
@@ -2191,6 +2195,10 @@ msgstr "Prissumma"
 #: src/components/_military/battle/BattleSystem.tsx:868
 msgid "Bounty cooldown"
 msgstr "Spärrtid för prissumma"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:116
+msgid "Bounty earned"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 msgid "Bounty will be available in"
@@ -2229,7 +2237,7 @@ msgstr "Budget"
 msgid "Buff ended"
 msgstr "Förstärkning upphörde"
 
-#: src/components/_user/user/UserHeader.tsx:340
+#: src/components/_user/user/UserHeader.tsx:341
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2408,9 +2416,13 @@ msgstr "CAPTCHA-verifieringen tog för lång tid. Återställer..."
 msgid "Case"
 msgstr "Låda"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:94
+#: src/components/_other/tour/tuto.frontConfig.tsx:92
 msgid "Cases contain random items. Click to open it!"
 msgstr "Lådor innehåller slumpmässiga föremål. Klicka för att öppna!"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:104
+msgid "Cases opened"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
@@ -2497,7 +2509,7 @@ msgstr ""
 msgid "Change the tax of {0} to"
 msgstr "Ändra skatten för {0} till"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:83
+#: src/components/_other/tour/tuto.frontConfig.tsx:82
 msgid "Check your loot!"
 msgstr "Inventera krigsbytet!"
 
@@ -2526,7 +2538,7 @@ msgstr ""
 msgid "Choose your country"
 msgstr "Välj ditt land"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:146
+#: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Välj sida och klicka för att ge <0>skada</0>. Fortsätt anfalla för att hjälpa ditt lag till seger."
 
@@ -2534,7 +2546,7 @@ msgstr "Välj sida och klicka för att ge <0>skada</0>. Fortsätt anfalla för a
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:321
+#: src/components/_user/user/UserHeader.tsx:322
 msgid "Citizen since"
 msgstr ""
 
@@ -2560,17 +2572,17 @@ msgid "Civil war"
 msgstr "Inbördeskrig"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:315
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:141
 msgid "Claim"
 msgstr "Hämta"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:183
+#: src/components/_other/tour/tuto.frontConfig.tsx:181
 msgid "Claim your rewards!"
 msgstr "Hämta dina belöningar."
 
-#: src/components/_user/mission/MissionItem.tsx:211
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:217
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:118
 msgid "Claimed"
 msgstr "Hämtad"
@@ -2584,15 +2596,15 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Rensa val"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Klicka flera gånger för att höja färdigheten. Högre värden innebär mer kraft."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Klicka på en strid för att följa händelseförloppet och delta."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Klicka på ditt lands konversation för att kommunicera med andra medborgare."
 
@@ -2604,7 +2616,7 @@ msgstr "Klicka för att söka tjänsten och börja tjäna valuta omedelbart."
 msgid "Click to consume."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:100
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Klicka för att avslöja innehållet. Du kanske får något riktigt värdefullt!."
 
@@ -2638,7 +2650,7 @@ msgid "Colonel"
 msgstr "Överste"
 
 #: src/components/_user/user/UserDropdown.tsx:243
-#: src/pages/user/[userId]/settings.tsx:81
+#: src/pages/user/[userId]/settings.tsx:87
 msgid "Color scheme"
 msgstr "Färgprofil"
 
@@ -2676,11 +2688,11 @@ msgstr "Kommendör"
 msgid "Community"
 msgstr "Gemenskap"
 
-#: src/components/_layout/LayoutMenu.tsx:173
+#: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:244
+#: src/components/_user/user/UserHeader.tsx:245
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:96
+#: src/pages/companies.tsx:97
 msgid "Companies"
 msgstr "Företag"
 
@@ -2725,7 +2737,7 @@ msgstr "Företaget har döpts om."
 msgid "Company upgraded!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:194
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Slutför dagliga uppdrag för att erhålla erfarenhetspoäng och stiga i nivå. Klicka för att hämta belöning."
 
@@ -3160,7 +3172,7 @@ msgstr "Anpassat typsnitt för användarnamn"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. Varje form av diskriminering, rasism, främlingsfientlighet, antisemitism, homofobi, transfobi och hatretorik"
 
-#: src/components/_user/mission/MissionsList.tsx:187
+#: src/components/_user/mission/MissionsList.tsx:253
 msgid "Daily"
 msgstr "Dagliga"
 
@@ -3203,7 +3215,7 @@ msgstr "Jäklar, det ser bra ut"
 msgid "Damn you lucky"
 msgstr "Vilken jäkla tur du har"
 
-#: src/pages/user/[userId]/settings.tsx:134
+#: src/pages/user/[userId]/settings.tsx:140
 msgid "Danger zone"
 msgstr "Farozon"
 
@@ -3284,7 +3296,7 @@ msgstr "Orsakar en del skada"
 msgid "Debuff ended"
 msgstr "Försvagning upphörde"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:349
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3378,7 +3390,7 @@ msgstr "Ange ett land som fiende för att få bonus mot dem"
 msgid "Define a sworn enemy"
 msgstr "Ange en svuren fiende"
 
-#: src/pages/user/[userId]/settings.tsx:137
+#: src/pages/user/[userId]/settings.tsx:143
 msgid "Delete account"
 msgstr "Radera konto"
 
@@ -3547,7 +3559,7 @@ msgstr ""
 msgid "Don't forget to drink water"
 msgstr "Glöm inte att dricka vatten"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Don't forget to save your skill upgrades."
 msgstr "Glöm inte att spara uppgraderingarna av dina färdigheter."
 
@@ -4065,7 +4077,7 @@ msgstr "Strid för <0/> i<1/><2/>"
 msgid "Fight skills"
 msgstr "Stridsfärdigheter"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:144
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Fight!"
 msgstr "Till Strid!"
 
@@ -4110,7 +4122,7 @@ msgstr "Finansiera lokalt motstånd"
 msgid "Finance resistance in <0/>"
 msgstr "Finansiera motstånd i <0/>"
 
-#: src/pages/companies.tsx:59
+#: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Sök ett arbete"
@@ -4234,11 +4246,15 @@ msgstr "Kristaller"
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
 msgstr "Kristaller används för att köpa tillgångar i butiken och för att skänka supporter-månader till andra spelare"
 
+#: src/components/_user/user/UserRankingsPanel.tsx:110
+msgid "Gems purchased"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
 msgstr "General"
 
-#: src/components/_user/mission/MissionsList.tsx:254
+#: src/components/_user/mission/MissionsList.tsx:334
 msgid "Generate Missions"
 msgstr "Generera uppdrag"
 
@@ -4366,7 +4382,7 @@ msgstr "Spannmål"
 msgid "Graticule"
 msgstr "Gradnät"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:176
+#: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Bra jobbat! Gör några anfall till för att hjälpa din sida att vinna striden."
 
@@ -4438,7 +4454,7 @@ msgstr "Grimdark-prickskyttegevär"
 msgid "Grimdark Tank"
 msgstr "Grimdark-stridsvagn"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:33
+#: src/components/_user/user/UserRankingsPanel.tsx:43
 msgid "Ground"
 msgstr "Terräng"
 
@@ -4733,7 +4749,7 @@ msgstr "Uppsåtliga eller upprepade överträdelser av denna policy leder till p
 #: src/components/_layout/LayoutUserMenu.tsx:199
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
-#: src/pages/companies.tsx:83
+#: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
@@ -4865,7 +4881,7 @@ msgstr ""
 msgid "Join this company!"
 msgstr "Börja vid detta företag!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Join your country chat!"
 msgstr "Gå med i ditt lands chatt!"
 
@@ -4897,7 +4913,7 @@ msgstr "Bara en till... vad kan gå fel?"
 msgid "Keep chasing that Mythic"
 msgstr "Fortsätt jaga den där mytomspunna"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:174
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Keep fighting!"
 msgstr "Fortsätt strida!"
 
@@ -4947,7 +4963,7 @@ msgstr "Språk"
 msgid "Last"
 msgstr "Sista"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:357
 msgid "Last connection"
 msgstr ""
 
@@ -5088,7 +5104,7 @@ msgstr "Nivå {level}"
 msgid "Level too low"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Level up your skills!"
 msgstr "Uppgradera dina färdigheter!"
 
@@ -5301,7 +5317,7 @@ msgid "Map icons"
 msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:162
+#: src/components/_layout/LayoutMenu.tsx:163
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5402,7 +5418,7 @@ msgstr "Medeltida stålpil"
 msgid "Medieval Stone Arrow"
 msgstr "Medeltida stenpil"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:204
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Träffa andra spelare i chatten. Var inte blyg, presentera dig!"
 
@@ -5485,6 +5501,7 @@ msgid "Message liked"
 msgstr "Meddelande gillat"
 
 #: src/components/_user/mission/MissionsHeader.tsx:82
+#: src/components/_user/user/UserRankingsPanel.tsx:86
 msgid "Milestone tiers"
 msgstr ""
 
@@ -5493,7 +5510,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -5584,8 +5601,8 @@ msgid "Mission tags"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:166
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Missions"
 msgstr "Uppdrag"
 
@@ -5594,6 +5611,7 @@ msgid "Missions & milestones"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:73
+#: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
 msgstr ""
 
@@ -5626,13 +5644,17 @@ msgid "Money Won"
 msgstr "Vunnen valuta"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:213
+#: src/components/_user/mission/MissionsList.tsx:279
 msgid "Monthly"
 msgstr "Månadsvis"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Månadsskada: <0>{monthlyDamages}</0>"
+
+#: src/components/_user/mission/MissionsList.tsx:311
+msgid "Monthly missions are not available yet"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2170
 msgid "Monthly Missions Reset"
@@ -5691,7 +5713,7 @@ msgstr "Flytta högst upp"
 msgid "Moved to a new company"
 msgstr "Flyttad till ett nytt företag"
 
-#: src/components/_layout/LayoutMenu.tsx:118
+#: src/components/_layout/LayoutMenu.tsx:119
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
@@ -5987,7 +6009,7 @@ msgstr "Snyggt"
 msgid "Nice one"
 msgstr "Bra där"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Nice work!"
 msgstr "Bra jobbat!"
 
@@ -6112,7 +6134,7 @@ msgstr ""
 msgid "No military units found"
 msgstr "Inga militära förband hittades"
 
-#: src/components/_user/mission/MissionsList.tsx:244
+#: src/components/_user/mission/MissionsList.tsx:313
 msgid "No missions available"
 msgstr "Inga uppdrag tillgängliga"
 
@@ -6261,7 +6283,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr ""
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:122
+#: src/pages/user/[userId]/settings.tsx:128
 msgid "Notification preferences"
 msgstr "Aviseringsinställningar"
 
@@ -6410,7 +6432,7 @@ msgstr "Öppna chatten"
 msgid "Open to all"
 msgstr "Öppen för alla"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:98
+#: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Open your case!"
 msgstr "Öppna din låda!"
 
@@ -6686,7 +6708,7 @@ msgstr "Telefonverifiering begärd"
 msgid "Phone verification required"
 msgstr "Telefonverifiering krävs"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:135
 msgid "Pick a fight!"
 msgstr "Välj en strid!"
 
@@ -6821,7 +6843,7 @@ msgid "Presidential elections"
 msgstr "Statsministerval"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
-#: src/pages/user/[userId]/skills.tsx:193
+#: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
 msgstr ""
 
@@ -7194,7 +7216,7 @@ msgstr "Läs artikel"
 msgid "Read the article"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Ready for battle!"
 msgstr "Redo för strid!"
 
@@ -7241,8 +7263,8 @@ msgstr "Minskar förlust av hälsa i strid"
 msgid "Referral link copied to clipboard"
 msgstr "Värvningslänk kopierad till urklipp"
 
-#: src/components/_user/user/UserHeader.tsx:258
-#: src/components/_user/user/UserRankingsPanel.tsx:50
+#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
@@ -7501,7 +7523,7 @@ msgstr "Rapportera"
 msgid "Report user"
 msgstr "Rapportera användare"
 
-#: src/components/_user/user/UserHeader.tsx:212
+#: src/components/_user/user/UserHeader.tsx:213
 msgid "Reports"
 msgstr ""
 
@@ -7526,11 +7548,11 @@ msgstr "Begär mobilverifiering"
 msgid "Requests:"
 msgstr "Anrop:"
 
-#: src/components/_user/mission/MissionItem.tsx:112
+#: src/components/_user/mission/MissionItem.tsx:118
 msgid "Reroll Mission"
 msgstr "Generera nytt uppdrag"
 
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:216
 msgid "Reset"
 msgstr "Återställ"
 
@@ -7546,7 +7568,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "Överlevare av återställningen"
 
-#: src/pages/user/[userId]/settings.tsx:117
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Reset tutorials"
 msgstr "Återställ guider"
 
@@ -7597,7 +7619,7 @@ msgstr "Resurser omfördelade"
 msgid "Response to message"
 msgstr "Svar på meddelande"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:164
+#: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Restore your health!"
 msgstr "Återställ din hälsa!"
 
@@ -7721,22 +7743,22 @@ msgstr "Regler"
 msgid "Ruling Party"
 msgstr "Regeringsparti"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Running low on health?"
 msgstr "Börjar hälsan ta slut?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:250
+#: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
 msgstr "Spara"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:124
+#: src/components/_other/tour/tuto.frontConfig.tsx:122
 msgid "Save your progress!"
 msgstr "Spara dina framsteg!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:200
 msgid "Say hello!"
 msgstr "Säg hej!"
 
@@ -7868,7 +7890,7 @@ msgstr ""
 msgid "Send a message"
 msgstr "Skicka ett meddelande"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Skicka ett meddelande för att slutföra guiden. Välkommen till gemenskapen!"
 
@@ -7973,7 +7995,7 @@ msgstr "Välj ditt användarnamn"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:264
+#: src/components/_user/user/UserHeader.tsx:265
 msgid "Settings"
 msgstr "Inställningar"
 
@@ -8006,6 +8028,7 @@ msgstr "Visa alla {0} bud"
 #: src/components/_social/ArticleTags.tsx:311
 #: src/components/_social/ArticleTags.tsx:369
 #: src/components/_social/ArticleTags.tsx:419
+#: src/components/_user/user/UserRankingsPanel.tsx:162
 msgid "Show more"
 msgstr "Visa mer"
 
@@ -8053,11 +8076,11 @@ msgstr "Färdighetsuppgradering:"
 msgid "Skills"
 msgstr "Färdigheter"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Färdigheter gör dig starkare. Låt oss boosta dina förmågor!"
 
-#: src/pages/user/[userId]/skills.tsx:59
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Färdigheter sparade!"
 
@@ -8094,6 +8117,10 @@ msgstr "Utseenden"
 #: src/components/_other/shop/SkinPackModal.tsx:249
 msgid "Skins in this pack"
 msgstr "Utseenden i detta paket"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:98
+msgid "Skins owned"
+msgstr ""
 
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
@@ -8216,7 +8243,7 @@ msgstr "Startade <0/>"
 msgid "Started<0/><1/>"
 msgstr "Startade<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:226
+#: src/components/_user/mission/MissionsList.tsx:292
 msgid "Starting"
 msgstr "Inledande"
 
@@ -8300,7 +8327,7 @@ msgstr "Prenumererar"
 msgid "Subscribed and supported the game <3"
 msgstr "Prenumererade och stöttade spelet <3"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:56
+#: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
 msgstr "Prenumeranter"
 
@@ -8342,11 +8369,11 @@ msgstr "Supporterfunktion"
 msgid "Supporter Gift"
 msgstr "Supportergåva"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:68
+#: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
 msgstr "Supportergåvor"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:62
+#: src/components/_user/user/UserRankingsPanel.tsx:72
 msgid "Supporter months"
 msgstr "Supportermånader"
 
@@ -8639,7 +8666,7 @@ msgstr "Detta kräver att användaren verifierar sitt mobilnummer."
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Dags att strida för ditt land! Häng med där det händer."
 
@@ -8813,7 +8840,7 @@ msgstr "Totalt antal öppnade lådor"
 msgid "Total damage"
 msgstr ""
 
-#: src/components/_user/user/UserRankingsPanel.tsx:27
+#: src/components/_user/user/UserRankingsPanel.tsx:37
 msgid "Total damages"
 msgstr "Total skada"
 
@@ -8899,7 +8926,7 @@ msgstr "Handelstransaktion"
 msgid "Trainee"
 msgstr "Aspirant"
 
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:239
 msgid "Transac."
 msgstr "Transakt."
 
@@ -8940,11 +8967,11 @@ msgstr "Blida"
 msgid "Trooper"
 msgstr "Soldat"
 
-#: src/pages/user/[userId]/settings.tsx:110
+#: src/pages/user/[userId]/settings.tsx:116
 msgid "Tutorials"
 msgstr "Guider"
 
-#: src/pages/user/[userId]/settings.tsx:41
+#: src/pages/user/[userId]/settings.tsx:47
 msgid "Tutorials reseted"
 msgstr "Guiderna har återställts"
 
@@ -9016,7 +9043,7 @@ msgstr "Lås upp knappen \"Tillverka alla\""
 msgid "Unlocked pack"
 msgstr "Paket upplåst"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Unmuted <0/>"
 msgstr "Ljudet återställt för <0/>"
 
@@ -9045,7 +9072,7 @@ msgstr "Ta bort svuren fiende-status för landet"
 msgid "Update"
 msgstr "Uppdatera"
 
-#: src/pages/user/[userId]/settings.tsx:67
+#: src/pages/user/[userId]/settings.tsx:73
 msgid "Update infos"
 msgstr "Uppdatera info"
 
@@ -9081,7 +9108,7 @@ msgstr "Uppgradera till supporter"
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
-#: src/pages/user/[userId]/skills.tsx:173
+#: src/pages/user/[userId]/skills.tsx:169
 msgid "Upgrade your skills!"
 msgstr "Uppgradera dina färdigheter!"
 
@@ -9105,7 +9132,7 @@ msgstr ""
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "Använd ditt <0>entreprenörskap</0> för att arbeta i ditt eget företag och fylla dess produktionsmätare."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:166
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Använd din <0>hunger</0> för att äta och återställa din <1>hälsa</1>. Återgå sedan till striden!"
 
@@ -9208,7 +9235,7 @@ msgid "Username"
 msgstr "Användarnamn"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:94
+#: src/pages/user/[userId]/settings.tsx:100
 msgid "Username effect"
 msgstr ""
 
@@ -9224,7 +9251,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:88
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Username font"
 msgstr ""
 
@@ -9443,7 +9470,7 @@ msgstr "Fanjunkare"
 msgid "Wars"
 msgstr "Krig"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:38
+#: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Förmögenhet"
@@ -9470,7 +9497,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:200
+#: src/components/_user/mission/MissionsList.tsx:266
 msgid "Weekly"
 msgstr "Veckovis"
 
@@ -9478,7 +9505,7 @@ msgstr "Veckovis"
 msgid "Weekly balance"
 msgstr "Veckans resultat"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:21
+#: src/components/_user/user/UserRankingsPanel.tsx:31
 msgid "Weekly damages"
 msgstr "Veckoskada"
 
@@ -9516,7 +9543,7 @@ msgstr ""
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:156
+#: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "När din <0>hälsa</0> tar slut, öppna denna meny för att återställa den med mat."
 
@@ -9524,7 +9551,7 @@ msgstr "När din <0>hälsa</0> tar slut, öppna denna meny för att återställa
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
 msgstr "Verktyg för datainsamling och datavisning som använder det officiella publika API:et är tillåtna, men för all annan utveckling eller dataåtkomst ber vi dig kontakta teamet direkt."
 
-#: src/pages/companies.tsx:102
+#: src/pages/companies.tsx:103
 msgid "Whole Production"
 msgstr "Total produktion"
 
@@ -9646,7 +9673,7 @@ msgstr "Wtf, är det här möjligt?"
 msgid "X. Punishments and Appeals"
 msgstr "X. Straff och överklaganden"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:44
+#: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
 msgstr "XP"
 
@@ -9773,7 +9800,7 @@ msgstr "Du skänkte en supporter-prenumeration till någon <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Du kommer att bli automatiskt godkänd eftersom landets befolkning är under"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:93
+#: src/components/_other/tour/tuto.frontConfig.tsx:91
 msgid "You have a case!"
 msgstr "Du har en låda!"
 
@@ -9976,7 +10003,7 @@ msgstr "Du nominerades till vice statsminister för ditt land"
 msgid "You were so close"
 msgstr "Det var nära ögat"
 
-#: src/pages/user/[userId]/skills.tsx:124
+#: src/pages/user/[userId]/skills.tsx:120
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr ""
 
@@ -10001,7 +10028,7 @@ msgstr "Du vann en förbandsturnering"
 msgid "You worked 100 times"
 msgstr "Du arbetade 100 gånger"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "You're all set!"
 msgstr "Du är redo!"
 
@@ -10029,7 +10056,7 @@ msgstr "Du är officiellt bättre än 80 % av spelarna"
 msgid "You're peaking"
 msgstr "Du är på topp"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:185
+#: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Du har slutför några uppdrag! Låt oss hämta dina XP-belöningar."
 
@@ -10116,7 +10143,7 @@ msgstr "Din nuvarande order"
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Dina dagliga uppdrag har återställts! Slutför dem för att tjäna belöningar."
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:63
 msgid "Your email"
 msgstr "Din e-post"
 
@@ -10140,7 +10167,7 @@ msgstr "Dina fiender"
 msgid "Your infos have been saved."
 msgstr "Dina uppgifter har sparats."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:85
+#: src/components/_other/tour/tuto.frontConfig.tsx:84
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ditt förråd rymmer alla dina föremål. Låt oss se vad du har!"
 

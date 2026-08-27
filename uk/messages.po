@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Низькооплачувана робота (нижче за 0,8х та вище за 1,2х від середньої зарплати)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:468
+#: src/components/_user/user/UserHeader.tsx:469
 msgid " - Reason: {0}"
 msgstr " - Причина: {0}"
 
@@ -98,7 +98,7 @@ msgid "{0} days cooldown"
 msgstr "{0} днів кулдауну"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:214
+#: src/pages/user/[userId]/skills.tsx:219
 msgid "{0} Free"
 msgstr "{0} даром"
 
@@ -151,7 +151,7 @@ msgstr "{0}% зарплати робітників буде відрахован
 msgid "{0}% of invested"
 msgstr "{0}% інвестицій"
 
-#: src/components/_user/mission/MissionsList.tsx:169
+#: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} завершено"
 
@@ -175,7 +175,7 @@ msgstr "Підрозділів зареєстровано: {registeredCount}"
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} раундів для перемоги "
 
-#: src/components/_user/user/SkillUpgrade.tsx:373
+#: src/components/_user/user/SkillUpgrade.tsx:376
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr "{savedPrestigeCount} бал(-ів) престижу у цій навичці"
 
@@ -1657,7 +1657,7 @@ msgstr "API токен перестворено"
 msgid "API token revoked"
 msgstr "API токен відкликано"
 
-#: src/pages/user/[userId]/settings.tsx:128
+#: src/pages/user/[userId]/settings.tsx:134
 msgid "API Tokens"
 msgstr "API токени"
 
@@ -1669,11 +1669,11 @@ msgstr "API токени дозволяють зовнішнім застосу�
 msgid "App pattern"
 msgstr "Схема застосунку"
 
-#: src/pages/user/[userId]/settings.tsx:102
+#: src/pages/user/[userId]/settings.tsx:108
 msgid "App settings"
 msgstr "Налаштування застосунку"
 
-#: src/pages/user/[userId]/settings.tsx:75
+#: src/pages/user/[userId]/settings.tsx:81
 msgid "Appearance"
 msgstr "Вигляд"
 
@@ -1743,7 +1743,7 @@ msgstr "Ви впевнені, що хочете видалити усі зам�
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr "Впевнені, що бажаєте вилучити це оголошення? Коментарі буде втрачено."
 
-#: src/components/_user/mission/MissionItem.tsx:113
+#: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
 msgstr "Ви впевнені, що хочете замінити цю місію? Наявний прогрес буде втрачено."
 
@@ -1782,7 +1782,7 @@ msgstr "Чайові статтям"
 msgid "Article tipped"
 msgstr "Залишено чайові"
 
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:253
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Статті"
@@ -1931,6 +1931,10 @@ msgstr "Автоматичний двигун"
 msgid "Automated Engine"
 msgstr "Автоматичний двигун"
 
+#: src/components/_user/mission/MissionsList.tsx:322
+msgid "Available now"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:148
 msgid "Avatar removed"
 msgstr "Аватар прибрано"
@@ -1983,7 +1987,7 @@ msgstr "М'яч"
 msgid "Bankruptcy"
 msgstr "Банкрутство"
 
-#: src/components/_user/user/UserHeader.tsx:457
+#: src/components/_user/user/UserHeader.tsx:458
 msgid "Banned"
 msgstr "Заблокований"
 
@@ -2003,8 +2007,8 @@ msgstr "Подарунковий банер відправлено"
 msgid "Banners"
 msgstr "Банери"
 
-#: src/components/_user/user/UserHeader.tsx:205
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Bans"
 msgstr "Бани"
 
@@ -2101,7 +2105,7 @@ msgstr "Накази на захист ваших рідних регіонів 
 msgid "Battlefield Loot"
 msgstr "Польова здобич"
 
-#: src/components/_layout/LayoutMenu.tsx:131
+#: src/components/_layout/LayoutMenu.tsx:132
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
@@ -2174,7 +2178,7 @@ msgstr "Кістяна булава"
 msgid "Bonus damages"
 msgstr "Бонусна шкода"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:112
 msgid "Boost your production!"
 msgstr "Збільште продуктивність!"
 
@@ -2191,6 +2195,10 @@ msgstr "Винагорода"
 #: src/components/_military/battle/BattleSystem.tsx:868
 msgid "Bounty cooldown"
 msgstr "Затримка винагороди"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:116
+msgid "Bounty earned"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 msgid "Bounty will be available in"
@@ -2229,7 +2237,7 @@ msgstr "Бюджет"
 msgid "Buff ended"
 msgstr "Підсилення скінчилось"
 
-#: src/components/_user/user/UserHeader.tsx:340
+#: src/components/_user/user/UserHeader.tsx:341
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "Підсилення скінчиться"
@@ -2408,9 +2416,13 @@ msgstr "Сплив час підтвердження CAPTCHA. Скидання..
 msgid "Case"
 msgstr "Кейс"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:94
+#: src/components/_other/tour/tuto.frontConfig.tsx:92
 msgid "Cases contain random items. Click to open it!"
 msgstr "Кейси містять випадкові предмети. Натисність аби відкрити!"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:104
+msgid "Cases opened"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
@@ -2497,7 +2509,7 @@ msgstr "Змінити назву альянсу."
 msgid "Change the tax of {0} to"
 msgstr "Встановити податок на {0}:"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:83
+#: src/components/_other/tour/tuto.frontConfig.tsx:82
 msgid "Check your loot!"
 msgstr "Перевірте інвентар!"
 
@@ -2526,7 +2538,7 @@ msgstr "Вибрати шрифт"
 msgid "Choose your country"
 msgstr "Оберіть свою країну"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:146
+#: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Оберіть сторону та натисніть, аби завдати <0>Шкоду</0>! Продовжуйте атакувати, щоб допомогти своїй команді перемогти."
 
@@ -2534,7 +2546,7 @@ msgstr "Оберіть сторону та натисніть, аби завда
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Вибір конкретного предмету збільшує кількість сталі у 2 рази:"
 
-#: src/components/_user/user/UserHeader.tsx:321
+#: src/components/_user/user/UserHeader.tsx:322
 msgid "Citizen since"
 msgstr "Зареєстрований"
 
@@ -2560,17 +2572,17 @@ msgid "Civil war"
 msgstr "Громадянська війна"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:315
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:141
 msgid "Claim"
 msgstr "Отримати"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:183
+#: src/components/_other/tour/tuto.frontConfig.tsx:181
 msgid "Claim your rewards!"
 msgstr "Заберіть свої нагороди!"
 
-#: src/components/_user/mission/MissionItem.tsx:211
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:217
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:118
 msgid "Claimed"
 msgstr "Отримано"
@@ -2584,15 +2596,15 @@ msgstr "Отримано"
 msgid "Clear selection"
 msgstr "Очистити вибір"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Натискайте кілька разів, щоб підвищити цю навичку. Кращі навички = більше сили!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Натисніть на бій, щоб побачити, що відбувається, та приєднатися."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Натисніть на чат своєї країни, щоб спілкуватися з іншими громадянами."
 
@@ -2604,7 +2616,7 @@ msgstr "Натисніть, щоб подати заявку та одразу �
 msgid "Click to consume."
 msgstr "Натисніть, щоб спожити."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:100
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Натисніть, щоб дізнатися, що всередині. Можливо, вам пощастить!"
 
@@ -2638,7 +2650,7 @@ msgid "Colonel"
 msgstr "Полковник"
 
 #: src/components/_user/user/UserDropdown.tsx:243
-#: src/pages/user/[userId]/settings.tsx:81
+#: src/pages/user/[userId]/settings.tsx:87
 msgid "Color scheme"
 msgstr "Колірна схема"
 
@@ -2676,11 +2688,11 @@ msgstr "Коммодор"
 msgid "Community"
 msgstr "Спільнота"
 
-#: src/components/_layout/LayoutMenu.tsx:173
+#: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:244
+#: src/components/_user/user/UserHeader.tsx:245
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:96
+#: src/pages/companies.tsx:97
 msgid "Companies"
 msgstr "Фабрики"
 
@@ -2725,7 +2737,7 @@ msgstr "Фабрику перейменовано!"
 msgid "Company upgraded!"
 msgstr "Фабрику поліпшено!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:194
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Виконуйте місії щодня, щоб отримувати досвід і швидше підвищувати рівень. Натисніть, щоб забрати нагороду!"
 
@@ -3160,7 +3172,7 @@ msgstr "Власний шрифт імені користувача"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "d. Будь-які форми дискримінації, расизму, ксенофобії, антисемітизму, гомофобії, трансфобії та мови ненависті"
 
-#: src/components/_user/mission/MissionsList.tsx:187
+#: src/components/_user/mission/MissionsList.tsx:253
 msgid "Daily"
 msgstr "Щоденні"
 
@@ -3203,7 +3215,7 @@ msgstr "Виглядає просто шикарно"
 msgid "Damn you lucky"
 msgstr "Ого, щасливчик"
 
-#: src/pages/user/[userId]/settings.tsx:134
+#: src/pages/user/[userId]/settings.tsx:140
 msgid "Danger zone"
 msgstr "Небезпечна зона"
 
@@ -3284,7 +3296,7 @@ msgstr "Завдає незначної шкоди"
 msgid "Debuff ended"
 msgstr "Послаблення скінчилось"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:349
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "Послаблення скінчиться"
@@ -3378,7 +3390,7 @@ msgstr "Визначити країну ворогом і отримати бо�
 msgid "Define a sworn enemy"
 msgstr "Визначити заклятого ворога"
 
-#: src/pages/user/[userId]/settings.tsx:137
+#: src/pages/user/[userId]/settings.tsx:143
 msgid "Delete account"
 msgstr "Видалити обліковий запис"
 
@@ -3547,7 +3559,7 @@ msgstr "Ухиліться від <0/> атак"
 msgid "Don't forget to drink water"
 msgstr "Не забувайте пити воду"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Don't forget to save your skill upgrades."
 msgstr "Не забудь зберегти прокачані навички."
 
@@ -4065,7 +4077,7 @@ msgstr "Битись за <0/> у <1/><2/>"
 msgid "Fight skills"
 msgstr "Бойові навички"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:144
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Fight!"
 msgstr "У бій!"
 
@@ -4110,7 +4122,7 @@ msgstr "Профінансувати місцевий спротив"
 msgid "Finance resistance in <0/>"
 msgstr "Профінансувати спротив у <0/>"
 
-#: src/pages/companies.tsx:59
+#: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Знайти роботу"
@@ -4234,11 +4246,15 @@ msgstr "Самоцвіти"
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
 msgstr "Самоцвіти використовуються для купівлі у магазині та дарування підписок іншим гравцям"
 
+#: src/components/_user/user/UserRankingsPanel.tsx:110
+msgid "Gems purchased"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
 msgstr "Генерал"
 
-#: src/components/_user/mission/MissionsList.tsx:254
+#: src/components/_user/mission/MissionsList.tsx:334
 msgid "Generate Missions"
 msgstr "Згенерувати місії"
 
@@ -4366,7 +4382,7 @@ msgstr "Зерно"
 msgid "Graticule"
 msgstr "Координатна сітка"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:176
+#: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Чудова робота! Зроби ще кілька ударів, щоб допомогти своїй стороні перемогти."
 
@@ -4438,7 +4454,7 @@ msgstr "Гримдарк снайперка"
 msgid "Grimdark Tank"
 msgstr "Гримдарк танк"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:33
+#: src/components/_user/user/UserRankingsPanel.tsx:43
 msgid "Ground"
 msgstr "Бали контролю"
 
@@ -4733,7 +4749,7 @@ msgstr "Навмисні або повторювані порушення ціє
 #: src/components/_layout/LayoutUserMenu.tsx:199
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
-#: src/pages/companies.tsx:83
+#: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
@@ -4865,7 +4881,7 @@ msgstr "Стати частиною світу"
 msgid "Join this company!"
 msgstr "Приєднайтесь до цієї фабрики!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Join your country chat!"
 msgstr "Приєднайся до чату своєї країни!"
 
@@ -4897,7 +4913,7 @@ msgstr "Ще один… що може піти не так?"
 msgid "Keep chasing that Mythic"
 msgstr "Продовжуй гнатись за міфіком"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:174
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Keep fighting!"
 msgstr "Продовжуйте битися!"
 
@@ -4947,7 +4963,7 @@ msgstr "Мова"
 msgid "Last"
 msgstr "Останнє"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:357
 msgid "Last connection"
 msgstr "Востаннє в мережі"
 
@@ -5088,7 +5104,7 @@ msgstr "Рівень {level}"
 msgid "Level too low"
 msgstr "Надто низький рівень"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Level up your skills!"
 msgstr "Прокачай свої навички!"
 
@@ -5301,7 +5317,7 @@ msgid "Map icons"
 msgstr "Іконки на мапі"
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:162
+#: src/components/_layout/LayoutMenu.tsx:163
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5402,7 +5418,7 @@ msgstr "Середньовічна стальна стріла"
 msgid "Medieval Stone Arrow"
 msgstr "Середньовічна кам'яна стріла"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:204
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Привітайся у чаті. Не соромся, представся!"
 
@@ -5485,6 +5501,7 @@ msgid "Message liked"
 msgstr "Повідомлення вподобано"
 
 #: src/components/_user/mission/MissionsHeader.tsx:82
+#: src/components/_user/user/UserRankingsPanel.tsx:86
 msgid "Milestone tiers"
 msgstr "Рівні відзнаки"
 
@@ -5493,7 +5510,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr "Рівні відзнак усіх типів, які ви зібрали"
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr "Відзнаки"
@@ -5584,8 +5601,8 @@ msgid "Mission tags"
 msgstr "Ярлики місій"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:166
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Missions"
 msgstr "Місії"
 
@@ -5594,6 +5611,7 @@ msgid "Missions & milestones"
 msgstr "Місії та відзнаки"
 
 #: src/components/_user/mission/MissionsHeader.tsx:73
+#: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
 msgstr "Місій зібрано"
 
@@ -5626,13 +5644,17 @@ msgid "Money Won"
 msgstr "Монет отримано"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:213
+#: src/components/_user/mission/MissionsList.tsx:279
 msgid "Monthly"
 msgstr "За місяць"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Місячна шкода:"
+
+#: src/components/_user/mission/MissionsList.tsx:311
+msgid "Monthly missions are not available yet"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2170
 msgid "Monthly Missions Reset"
@@ -5691,7 +5713,7 @@ msgstr "Перемістити нагору"
 msgid "Moved to a new company"
 msgstr "Переміщено до нової фабрики"
 
-#: src/components/_layout/LayoutMenu.tsx:118
+#: src/components/_layout/LayoutMenu.tsx:119
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
@@ -5987,7 +6009,7 @@ msgstr "Непогано"
 msgid "Nice one"
 msgstr "Гарно"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Nice work!"
 msgstr "Гарна робота!"
 
@@ -6112,7 +6134,7 @@ msgstr "Немає доступних відзнак"
 msgid "No military units found"
 msgstr "Підрозділи не знайдено"
 
-#: src/components/_user/mission/MissionsList.tsx:244
+#: src/components/_user/mission/MissionsList.tsx:313
 msgid "No missions available"
 msgstr "Немає доступних місій"
 
@@ -6261,7 +6283,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr "Ви ще нічого не заробили. Долучайтесь до поточних битв щоб почати заробляти, і втримайте найвищу шкоду, щоб взяти участь у розподілі здобичі."
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:122
+#: src/pages/user/[userId]/settings.tsx:128
 msgid "Notification preferences"
 msgstr "Вподобання щодо сповіщень"
 
@@ -6410,7 +6432,7 @@ msgstr "Відкрийте чат"
 msgid "Open to all"
 msgstr "Відкрито для всіх"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:98
+#: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Open your case!"
 msgstr "Відкрийте свій кейс!"
 
@@ -6686,7 +6708,7 @@ msgstr "Очікується підтвердження телефону"
 msgid "Phone verification required"
 msgstr "Потрібне підтвердження телефону"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:135
 msgid "Pick a fight!"
 msgstr "Вривайся в бій!"
 
@@ -6821,7 +6843,7 @@ msgid "Presidential elections"
 msgstr "Президентські вибори"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
-#: src/pages/user/[userId]/skills.tsx:193
+#: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
 msgstr "Престиж"
 
@@ -7194,7 +7216,7 @@ msgstr "Прочитайте статтю"
 msgid "Read the article"
 msgstr "Прочитати статтю"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Ready for battle!"
 msgstr "Готовий до бою!"
 
@@ -7241,8 +7263,8 @@ msgstr "Знижує втрати здоров'я у битві"
 msgid "Referral link copied to clipboard"
 msgstr "Запрошувальне посилання скопійовано у буфер обміну"
 
-#: src/components/_user/user/UserHeader.tsx:258
-#: src/components/_user/user/UserRankingsPanel.tsx:50
+#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
@@ -7501,7 +7523,7 @@ msgstr "Поскаржитись"
 msgid "Report user"
 msgstr "Поскаржитись"
 
-#: src/components/_user/user/UserHeader.tsx:212
+#: src/components/_user/user/UserHeader.tsx:213
 msgid "Reports"
 msgstr "Скарги"
 
@@ -7526,11 +7548,11 @@ msgstr "Запитати підтвердження телефону"
 msgid "Requests:"
 msgstr "Запити:"
 
-#: src/components/_user/mission/MissionItem.tsx:112
+#: src/components/_user/mission/MissionItem.tsx:118
 msgid "Reroll Mission"
 msgstr "Замінити місію"
 
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:216
 msgid "Reset"
 msgstr "Скинути"
 
@@ -7546,7 +7568,7 @@ msgstr "Скиньте навички"
 msgid "Reset Survivor"
 msgstr "Свідок скидання"
 
-#: src/pages/user/[userId]/settings.tsx:117
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Reset tutorials"
 msgstr "Скинути навчання"
 
@@ -7597,7 +7619,7 @@ msgstr "Зміна розташування ресурсів"
 msgid "Response to message"
 msgstr "Відповідь на повідомлення"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:164
+#: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Restore your health!"
 msgstr "Віднови здоров'я!"
 
@@ -7721,22 +7743,22 @@ msgstr "Правила"
 msgid "Ruling Party"
 msgstr "Правляча партія"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Running low on health?"
 msgstr "Мало здоров'я?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:250
+#: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
 msgstr "Зберегти"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:124
+#: src/components/_other/tour/tuto.frontConfig.tsx:122
 msgid "Save your progress!"
 msgstr "Збережіть свій прогрес!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:200
 msgid "Say hello!"
 msgstr "Привітайтесь!"
 
@@ -7868,7 +7890,7 @@ msgstr "Переказати <0/> до <1/>"
 msgid "Send a message"
 msgstr "Надіслати повідомлення"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Надішліть повідомлення, щоб завершити навчання. Вітаємо у спільноті!"
 
@@ -7973,7 +7995,7 @@ msgstr "Встановість прізвисько"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:264
+#: src/components/_user/user/UserHeader.tsx:265
 msgid "Settings"
 msgstr "Налаштування"
 
@@ -8006,6 +8028,7 @@ msgstr "Показати всі {0} ставок"
 #: src/components/_social/ArticleTags.tsx:311
 #: src/components/_social/ArticleTags.tsx:369
 #: src/components/_social/ArticleTags.tsx:419
+#: src/components/_user/user/UserRankingsPanel.tsx:162
 msgid "Show more"
 msgstr "Більше"
 
@@ -8053,11 +8076,11 @@ msgstr "Поліпшення навички:"
 msgid "Skills"
 msgstr "Навички"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Навички роблять тебе сильнішим. Давай прокачаємо твої можливості!!"
 
-#: src/pages/user/[userId]/skills.tsx:59
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Навички збережені!"
 
@@ -8094,6 +8117,10 @@ msgstr "Скіни"
 #: src/components/_other/shop/SkinPackModal.tsx:249
 msgid "Skins in this pack"
 msgstr "Скіни у цьому наборі"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:98
+msgid "Skins owned"
+msgstr ""
 
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
@@ -8216,7 +8243,7 @@ msgstr "Почалась <0/>"
 msgid "Started<0/><1/>"
 msgstr "Розпочалась<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:226
+#: src/components/_user/mission/MissionsList.tsx:292
 msgid "Starting"
 msgstr "Початкові"
 
@@ -8300,7 +8327,7 @@ msgstr "Підписки"
 msgid "Subscribed and supported the game <3"
 msgstr "Підписався та підтримав гру <3"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:56
+#: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
 msgstr "Підписники"
 
@@ -8342,11 +8369,11 @@ msgstr "Преміум функція"
 msgid "Supporter Gift"
 msgstr "Дарувальник підписок"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:68
+#: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
 msgstr "Подаровані підписки"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:62
+#: src/components/_user/user/UserRankingsPanel.tsx:72
 msgid "Supporter months"
 msgstr "Місяці підписки"
 
@@ -8639,7 +8666,7 @@ msgstr "Це потребуватиме верифікації номеру те
 msgid "Tier {0}"
 msgstr "Рівень {0}"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Час воювати за свою країну! Давай приєднаємось до розваги."
 
@@ -8813,7 +8840,7 @@ msgstr "кейсів відкрито"
 msgid "Total damage"
 msgstr "Загальна шкода"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:27
+#: src/components/_user/user/UserRankingsPanel.tsx:37
 msgid "Total damages"
 msgstr "Загальна шкода"
 
@@ -8899,7 +8926,7 @@ msgstr "Торгівельні транзакції"
 msgid "Trainee"
 msgstr "Курсант"
 
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:239
 msgid "Transac."
 msgstr "Транзакц."
 
@@ -8940,11 +8967,11 @@ msgstr "Требушет"
 msgid "Trooper"
 msgstr "Старший солдат"
 
-#: src/pages/user/[userId]/settings.tsx:110
+#: src/pages/user/[userId]/settings.tsx:116
 msgid "Tutorials"
 msgstr "Навчання"
 
-#: src/pages/user/[userId]/settings.tsx:41
+#: src/pages/user/[userId]/settings.tsx:47
 msgid "Tutorials reseted"
 msgstr "Навчання скинуто"
 
@@ -9016,7 +9043,7 @@ msgstr "Доступ до кнопки Виробити все"
 msgid "Unlocked pack"
 msgstr "Розблокований набір"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Unmuted <0/>"
 msgstr "Буде розмючено <0/>"
 
@@ -9045,7 +9072,7 @@ msgstr "Прибрати заклятого ворога"
 msgid "Update"
 msgstr "Оновити"
 
-#: src/pages/user/[userId]/settings.tsx:67
+#: src/pages/user/[userId]/settings.tsx:73
 msgid "Update infos"
 msgstr "Оновити інфо"
 
@@ -9081,7 +9108,7 @@ msgstr "Станьте підписником"
 msgid "Upgrade your skills <0/> times"
 msgstr "Покращте свої навички <0/> разів"
 
-#: src/pages/user/[userId]/skills.tsx:173
+#: src/pages/user/[userId]/skills.tsx:169
 msgid "Upgrade your skills!"
 msgstr "Поліпшіть свої навички!"
 
@@ -9105,7 +9132,7 @@ msgstr "Використайте пігулки"
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "Використовуйте <0>Підприємливість</0>, щоб працювати на своїй фабриці."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:166
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Використайте <0>Голод</0>, щоб поїсти та відновити <1>Здоров'я</1>, а після цього повертайтесь до бою!"
 
@@ -9208,7 +9235,7 @@ msgid "Username"
 msgstr "Прізвисько"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:94
+#: src/pages/user/[userId]/settings.tsx:100
 msgid "Username effect"
 msgstr "Ефекти прізвиська"
 
@@ -9224,7 +9251,7 @@ msgstr "Ефект прізвиська змінено"
 msgid "Username effects are a Supporter Plan feature."
 msgstr "Ефекти прізвиська доступні власникам підписки."
 
-#: src/pages/user/[userId]/settings.tsx:88
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Username font"
 msgstr "Шрифт прізивська"
 
@@ -9443,7 +9470,7 @@ msgstr "Майстер сержант"
 msgid "Wars"
 msgstr "Війни"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:38
+#: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Багатство"
@@ -9470,7 +9497,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Зброя, набої та спорядження, рідкість яких вища за цю, не можуть бути використані у битвах цього турніру."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:200
+#: src/components/_user/mission/MissionsList.tsx:266
 msgid "Weekly"
 msgstr "Щотижневі"
 
@@ -9478,7 +9505,7 @@ msgstr "Щотижневі"
 msgid "Weekly balance"
 msgstr "Тижневий баланс"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:21
+#: src/components/_user/user/UserRankingsPanel.tsx:31
 msgid "Weekly damages"
 msgstr "Тижнева шкода"
 
@@ -9516,7 +9543,7 @@ msgstr "Захищаючись у повстаннях, отримує дода�
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "Під час повстань ви копіюєте ворожий бойовий бонус від бункеру у цьому регіоні."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:156
+#: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Коли у вас скінчиться <0>Здоров'я</0>, відкрийте це меню та відновіть його їжею."
 
@@ -9524,7 +9551,7 @@ msgstr "Коли у вас скінчиться <0>Здоров'я</0>, відк
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
 msgstr ""
 
-#: src/pages/companies.tsx:102
+#: src/pages/companies.tsx:103
 msgid "Whole Production"
 msgstr "Загальне виробництво"
 
@@ -9646,7 +9673,7 @@ msgstr "WTF, це взагалі можливо?"
 msgid "X. Punishments and Appeals"
 msgstr "X. Покарання та апеляції"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:44
+#: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
 msgstr "XP"
 
@@ -9773,7 +9800,7 @@ msgstr "Ви подарували комусь підписку <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Ви будете автоматично прийняті, бо населення країни менше за"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:93
+#: src/components/_other/tour/tuto.frontConfig.tsx:91
 msgid "You have a case!"
 msgstr "У вас є кейс!"
 
@@ -9976,7 +10003,7 @@ msgstr "Вас було призначено віцепрезидентом ва
 msgid "You were so close"
 msgstr "Ви були так близькі"
 
-#: src/pages/user/[userId]/skills.tsx:124
+#: src/pages/user/[userId]/skills.tsx:120
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr "Ви опуститесь до рівня 25 (65,000 XP буде втрачено), отримаєте бонус +50% до досвіду (+10% за кожен додатковий рівень престижу) та бал престижу, а всі ваші навички буде безкоштовно скинуто."
 
@@ -10001,7 +10028,7 @@ msgstr "Ви перемогли у турнірі між ВП"
 msgid "You worked 100 times"
 msgstr "Ви попрацювали 100 разів"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "You're all set!"
 msgstr "Ви готові!"
 
@@ -10029,7 +10056,7 @@ msgstr "Ви офіційно кращі за 80% гравців"
 msgid "You're peaking"
 msgstr "Ти близький до вершини"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:185
+#: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Ви виконали деякі місії! Зберімо бали досвіду."
 
@@ -10116,7 +10143,7 @@ msgstr "Ваше замовлення"
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Ваші щоденні місії було скинуто! Завершіть їх, аби отримати нагороду."
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:63
 msgid "Your email"
 msgstr "Ваша пошта"
 
@@ -10140,7 +10167,7 @@ msgstr "Ваші вороги"
 msgid "Your infos have been saved."
 msgstr "Ваша інформація була збережена."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:85
+#: src/components/_other/tour/tuto.frontConfig.tsx:84
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ваш інвентар зберігає усі ваші предемти. Погляньмо, що у вас є!"
 
