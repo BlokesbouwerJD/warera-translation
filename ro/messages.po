@@ -32,7 +32,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:468
+#: src/components/_user/user/UserHeader.tsx:469
 msgid " - Reason: {0}"
 msgstr " - Motiv: {0}"
 
@@ -96,7 +96,7 @@ msgid "{0} days cooldown"
 msgstr "{0} zile timp de așteptare"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:214
+#: src/pages/user/[userId]/skills.tsx:219
 msgid "{0} Free"
 msgstr "{0} Gratis"
 
@@ -149,7 +149,7 @@ msgstr "{0}% impozit pe venit va fi reținut din salariile muncitorilor tăi."
 msgid "{0}% of invested"
 msgstr "{0}% din investiție"
 
-#: src/components/_user/mission/MissionsList.tsx:169
+#: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} completate"
 
@@ -173,7 +173,7 @@ msgstr ""
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} Runde pentru victorie"
 
-#: src/components/_user/user/SkillUpgrade.tsx:373
+#: src/components/_user/user/SkillUpgrade.tsx:376
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr ""
 
@@ -1655,7 +1655,7 @@ msgstr "Token API regenerat"
 msgid "API token revoked"
 msgstr "Token API revocat"
 
-#: src/pages/user/[userId]/settings.tsx:128
+#: src/pages/user/[userId]/settings.tsx:134
 msgid "API Tokens"
 msgstr "Tokeni API"
 
@@ -1667,11 +1667,11 @@ msgstr "Tokenii API permit aplicațiilor externe să acceseze API-ul în numele 
 msgid "App pattern"
 msgstr "Textură"
 
-#: src/pages/user/[userId]/settings.tsx:102
+#: src/pages/user/[userId]/settings.tsx:108
 msgid "App settings"
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:75
+#: src/pages/user/[userId]/settings.tsx:81
 msgid "Appearance"
 msgstr ""
 
@@ -1741,7 +1741,7 @@ msgstr "Ești sigur că vrei să elimini toate comenzile de vânzare?"
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr ""
 
-#: src/components/_user/mission/MissionItem.tsx:113
+#: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
 msgstr "Sigur vrei să schimbi misiunea?"
 
@@ -1780,7 +1780,7 @@ msgstr "Sponsorizări articol"
 msgid "Article tipped"
 msgstr "Articol sponsorizat"
 
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:253
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Articole"
@@ -1929,6 +1929,10 @@ msgstr "Motor automat"
 msgid "Automated Engine"
 msgstr "Motor Automat"
 
+#: src/components/_user/mission/MissionsList.tsx:322
+msgid "Available now"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:148
 msgid "Avatar removed"
 msgstr "Avatar șters"
@@ -1981,7 +1985,7 @@ msgstr ""
 msgid "Bankruptcy"
 msgstr "Faliment"
 
-#: src/components/_user/user/UserHeader.tsx:457
+#: src/components/_user/user/UserHeader.tsx:458
 msgid "Banned"
 msgstr "Suspendat"
 
@@ -2001,8 +2005,8 @@ msgstr "Copertă dăruită"
 msgid "Banners"
 msgstr "Coperte"
 
-#: src/components/_user/user/UserHeader.tsx:205
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Bans"
 msgstr "Sancțiuni"
 
@@ -2099,7 +2103,7 @@ msgstr ""
 msgid "Battlefield Loot"
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:131
+#: src/components/_layout/LayoutMenu.tsx:132
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
@@ -2172,7 +2176,7 @@ msgstr ""
 msgid "Bonus damages"
 msgstr "Daune bonus"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:112
 msgid "Boost your production!"
 msgstr "Îmbunătățește-ți producția!"
 
@@ -2189,6 +2193,10 @@ msgstr ""
 #: src/components/_military/battle/BattleSystem.tsx:868
 msgid "Bounty cooldown"
 msgstr "Timp de așteptare recompensă"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:116
+msgid "Bounty earned"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 msgid "Bounty will be available in"
@@ -2227,7 +2235,7 @@ msgstr "Buget"
 msgid "Buff ended"
 msgstr "Buff încheiat"
 
-#: src/components/_user/user/UserHeader.tsx:340
+#: src/components/_user/user/UserHeader.tsx:341
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2406,9 +2414,13 @@ msgstr "Verificarea CAPTCHA a expirat. Resetare..."
 msgid "Case"
 msgstr "Cutie"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:94
+#: src/components/_other/tour/tuto.frontConfig.tsx:92
 msgid "Cases contain random items. Click to open it!"
 msgstr "Cutiile conțin obiecte aleatorii. Deschide-o!"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:104
+msgid "Cases opened"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
@@ -2495,7 +2507,7 @@ msgstr ""
 msgid "Change the tax of {0} to"
 msgstr "Schimbă taxa {0} la"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:83
+#: src/components/_other/tour/tuto.frontConfig.tsx:82
 msgid "Check your loot!"
 msgstr "Vezi ce ai primit!"
 
@@ -2524,7 +2536,7 @@ msgstr ""
 msgid "Choose your country"
 msgstr "Alege-ți țara"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:146
+#: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Alege o parte și apasă pentru a produce <0>Daune</0>! Continua să lupți pentru a ajuta echipa ta să câștige."
 
@@ -2532,7 +2544,7 @@ msgstr "Alege o parte și apasă pentru a produce <0>Daune</0>! Continua să lup
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:321
+#: src/components/_user/user/UserHeader.tsx:322
 msgid "Citizen since"
 msgstr ""
 
@@ -2558,17 +2570,17 @@ msgid "Civil war"
 msgstr "Război civil"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:315
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:141
 msgid "Claim"
 msgstr "Obține răsplata"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:183
+#: src/components/_other/tour/tuto.frontConfig.tsx:181
 msgid "Claim your rewards!"
 msgstr "Revendică-ți recompensele!"
 
-#: src/components/_user/mission/MissionItem.tsx:211
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:217
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:118
 msgid "Claimed"
 msgstr "Răsplătit"
@@ -2582,15 +2594,15 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Deselectează"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Apasă de mai multe ori pentru a crește această competență. Competențe mari = mai multă putere!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Apasă pe o luptă să vezi ce se întâmpla și alătură-te."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Apasă pe conversația țării tale pentru a discuta cu alți cetățeni."
 
@@ -2602,7 +2614,7 @@ msgstr "Apasă să aplici și începe să câștigi bani."
 msgid "Click to consume."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:100
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Apasă să vezi ce e înăuntru! Poate e ceva valoros!"
 
@@ -2636,7 +2648,7 @@ msgid "Colonel"
 msgstr "Colonel"
 
 #: src/components/_user/user/UserDropdown.tsx:243
-#: src/pages/user/[userId]/settings.tsx:81
+#: src/pages/user/[userId]/settings.tsx:87
 msgid "Color scheme"
 msgstr "Culoare"
 
@@ -2674,11 +2686,11 @@ msgstr "Comodor"
 msgid "Community"
 msgstr "Community"
 
-#: src/components/_layout/LayoutMenu.tsx:173
+#: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:244
+#: src/components/_user/user/UserHeader.tsx:245
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:96
+#: src/pages/companies.tsx:97
 msgid "Companies"
 msgstr "Companii"
 
@@ -2723,7 +2735,7 @@ msgstr "Companie redenumită!"
 msgid "Company upgraded!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:194
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Completează misiunile zilnice pentru a câștiga XP și a creșste mai rapid în nivel. Apasă pentru a revendica recompensa!"
 
@@ -3158,7 +3170,7 @@ msgstr "Font personalizat pentru numele utilizatorului"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr ""
 
-#: src/components/_user/mission/MissionsList.tsx:187
+#: src/components/_user/mission/MissionsList.tsx:253
 msgid "Daily"
 msgstr "Zilnice"
 
@@ -3201,7 +3213,7 @@ msgstr "Arată bine, ce să zic"
 msgid "Damn you lucky"
 msgstr "Cât noroc să ai?!"
 
-#: src/pages/user/[userId]/settings.tsx:134
+#: src/pages/user/[userId]/settings.tsx:140
 msgid "Danger zone"
 msgstr "Zona periculoasă"
 
@@ -3282,7 +3294,7 @@ msgstr "Face ceva daune"
 msgid "Debuff ended"
 msgstr "Debuff încheiat"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:349
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3376,7 +3388,7 @@ msgstr "Declară o țară ca și inamic principal pentru a primi daune bonus îm
 msgid "Define a sworn enemy"
 msgstr "Declară un inamic principal"
 
-#: src/pages/user/[userId]/settings.tsx:137
+#: src/pages/user/[userId]/settings.tsx:143
 msgid "Delete account"
 msgstr "Șterge contul"
 
@@ -3545,7 +3557,7 @@ msgstr ""
 msgid "Don't forget to drink water"
 msgstr "Nu uita să bei apă"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Don't forget to save your skill upgrades."
 msgstr "Nu uita să salvezi competențele."
 
@@ -4063,7 +4075,7 @@ msgstr "Luptă pentru <0/> în<1/><2/>"
 msgid "Fight skills"
 msgstr "Competențe de luptă"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:144
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Fight!"
 msgstr "Luptă!"
 
@@ -4108,7 +4120,7 @@ msgstr "Finanțează o revoltă locală"
 msgid "Finance resistance in <0/>"
 msgstr ""
 
-#: src/pages/companies.tsx:59
+#: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Găsește loc de muncă"
@@ -4232,11 +4244,15 @@ msgstr "Diamante"
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
 msgstr "Diamantele sunt folosite pentru a cumpăra resurse cosmetice din magazin și pentru a oferi planuri Susținător altor jucători"
 
+#: src/components/_user/user/UserRankingsPanel.tsx:110
+msgid "Gems purchased"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
 msgstr "General"
 
-#: src/components/_user/mission/MissionsList.tsx:254
+#: src/components/_user/mission/MissionsList.tsx:334
 msgid "Generate Missions"
 msgstr "Generează Misiuni"
 
@@ -4364,7 +4380,7 @@ msgstr "Cereale"
 msgid "Graticule"
 msgstr "Referință"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:176
+#: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Bravo! Mai lovește de câteva ori pentru a ajuta partea ta să câștige lupta."
 
@@ -4436,7 +4452,7 @@ msgstr ""
 msgid "Grimdark Tank"
 msgstr ""
 
-#: src/components/_user/user/UserRankingsPanel.tsx:33
+#: src/components/_user/user/UserRankingsPanel.tsx:43
 msgid "Ground"
 msgstr "Teren"
 
@@ -4731,7 +4747,7 @@ msgstr ""
 #: src/components/_layout/LayoutUserMenu.tsx:199
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
-#: src/pages/companies.tsx:83
+#: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
@@ -4863,7 +4879,7 @@ msgstr ""
 msgid "Join this company!"
 msgstr "Angajează-te aici!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Join your country chat!"
 msgstr "Alătură-te chat-ului țării tale!"
 
@@ -4895,7 +4911,7 @@ msgstr "Doar încă una… ce ar putea merge prost?"
 msgid "Keep chasing that Mythic"
 msgstr "Continuă să cauți Miticul"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:174
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Keep fighting!"
 msgstr "Continuă să lupți!"
 
@@ -4945,7 +4961,7 @@ msgstr "Limbă"
 msgid "Last"
 msgstr "Ultimul"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:357
 msgid "Last connection"
 msgstr ""
 
@@ -5086,7 +5102,7 @@ msgstr "Nivel {level}"
 msgid "Level too low"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Level up your skills!"
 msgstr "Crește-ți competențele!"
 
@@ -5299,7 +5315,7 @@ msgid "Map icons"
 msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:162
+#: src/components/_layout/LayoutMenu.tsx:163
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5400,7 +5416,7 @@ msgstr "Săgeată medievală de oțel"
 msgid "Medieval Stone Arrow"
 msgstr "Săgeată medievală de piatră"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:204
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Cunoaște alți jucători în chat. Nu fi rușinos, prezintă-te!"
 
@@ -5483,6 +5499,7 @@ msgid "Message liked"
 msgstr "Mesaj apreciat"
 
 #: src/components/_user/mission/MissionsHeader.tsx:82
+#: src/components/_user/user/UserRankingsPanel.tsx:86
 msgid "Milestone tiers"
 msgstr ""
 
@@ -5491,7 +5508,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -5582,8 +5599,8 @@ msgid "Mission tags"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:166
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Missions"
 msgstr "Misiuni"
 
@@ -5592,6 +5609,7 @@ msgid "Missions & milestones"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:73
+#: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
 msgstr ""
 
@@ -5624,13 +5642,17 @@ msgid "Money Won"
 msgstr "Bani câștigați"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:213
+#: src/components/_user/mission/MissionsList.tsx:279
 msgid "Monthly"
 msgstr "Lunar"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Daune lunare: <0>{monthlyDamages}</0>"
+
+#: src/components/_user/mission/MissionsList.tsx:311
+msgid "Monthly missions are not available yet"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2170
 msgid "Monthly Missions Reset"
@@ -5689,7 +5711,7 @@ msgstr "Mută în cap de listă"
 msgid "Moved to a new company"
 msgstr "Transferat la o nouă companie"
 
-#: src/components/_layout/LayoutMenu.tsx:118
+#: src/components/_layout/LayoutMenu.tsx:119
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
@@ -5985,7 +6007,7 @@ msgstr "Frumos"
 msgid "Nice one"
 msgstr "Așa da"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Nice work!"
 msgstr "Bravo!"
 
@@ -6110,7 +6132,7 @@ msgstr ""
 msgid "No military units found"
 msgstr "Fără unități militare"
 
-#: src/components/_user/mission/MissionsList.tsx:244
+#: src/components/_user/mission/MissionsList.tsx:313
 msgid "No missions available"
 msgstr "Nu există misiuni disponibile"
 
@@ -6259,7 +6281,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr ""
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:122
+#: src/pages/user/[userId]/settings.tsx:128
 msgid "Notification preferences"
 msgstr "Setări notificări"
 
@@ -6408,7 +6430,7 @@ msgstr "Deschide chatul"
 msgid "Open to all"
 msgstr "Deschisă tuturor"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:98
+#: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Open your case!"
 msgstr "Deschide cutia!"
 
@@ -6684,7 +6706,7 @@ msgstr "Verificare număr de telefon cerută"
 msgid "Phone verification required"
 msgstr "Verificare număr de telefon necesară"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:135
 msgid "Pick a fight!"
 msgstr "Alege o luptă!"
 
@@ -6819,7 +6841,7 @@ msgid "Presidential elections"
 msgstr "Alegeri prezidențiale"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
-#: src/pages/user/[userId]/skills.tsx:193
+#: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
 msgstr ""
 
@@ -7192,7 +7214,7 @@ msgstr "Citește articol"
 msgid "Read the article"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Ready for battle!"
 msgstr "Gata de luptă!"
 
@@ -7239,8 +7261,8 @@ msgstr "Reduce câtă viață pierzi în luptă"
 msgid "Referral link copied to clipboard"
 msgstr "Link recomandare copiat"
 
-#: src/components/_user/user/UserHeader.tsx:258
-#: src/components/_user/user/UserRankingsPanel.tsx:50
+#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
@@ -7499,7 +7521,7 @@ msgstr "Raportează"
 msgid "Report user"
 msgstr "Raportează"
 
-#: src/components/_user/user/UserHeader.tsx:212
+#: src/components/_user/user/UserHeader.tsx:213
 msgid "Reports"
 msgstr ""
 
@@ -7524,11 +7546,11 @@ msgstr "Cere verificare număr telefon"
 msgid "Requests:"
 msgstr "Cereri:"
 
-#: src/components/_user/mission/MissionItem.tsx:112
+#: src/components/_user/mission/MissionItem.tsx:118
 msgid "Reroll Mission"
 msgstr "Schimbă misiunea"
 
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:216
 msgid "Reset"
 msgstr "Reset"
 
@@ -7544,7 +7566,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "Reset Survivor"
 
-#: src/pages/user/[userId]/settings.tsx:117
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Reset tutorials"
 msgstr "Resetează tutorialele"
 
@@ -7595,7 +7617,7 @@ msgstr "Resurse redistribuite"
 msgid "Response to message"
 msgstr "Răspuns la mesaj"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:164
+#: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Restore your health!"
 msgstr "Reîncarcă-ți viața!"
 
@@ -7719,22 +7741,22 @@ msgstr "Reguli"
 msgid "Ruling Party"
 msgstr "Partid guvernant"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Running low on health?"
 msgstr "Nu mai ai viață?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:250
+#: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
 msgstr "Salvează"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:124
+#: src/components/_other/tour/tuto.frontConfig.tsx:122
 msgid "Save your progress!"
 msgstr "Salvează-ți progresul!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:200
 msgid "Say hello!"
 msgstr "Salută!"
 
@@ -7866,7 +7888,7 @@ msgstr ""
 msgid "Send a message"
 msgstr "Trimite un mesaj"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Trimite un mesaj pentru a încheia tutorialul. Bun venit în comunitate!"
 
@@ -7971,7 +7993,7 @@ msgstr "Setează-ți numele de utilizator"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:264
+#: src/components/_user/user/UserHeader.tsx:265
 msgid "Settings"
 msgstr "Setări"
 
@@ -8004,6 +8026,7 @@ msgstr "Arată toate {0} oferte"
 #: src/components/_social/ArticleTags.tsx:311
 #: src/components/_social/ArticleTags.tsx:369
 #: src/components/_social/ArticleTags.tsx:419
+#: src/components/_user/user/UserRankingsPanel.tsx:162
 msgid "Show more"
 msgstr "Mai multe"
 
@@ -8051,11 +8074,11 @@ msgstr "Competență:"
 msgid "Skills"
 msgstr "Competențe"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Competențele te fac mai puternic. Hai să-ți îmbunătățim abilitățile!"
 
-#: src/pages/user/[userId]/skills.tsx:59
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Competențe salvate!"
 
@@ -8092,6 +8115,10 @@ msgstr "Skinuri"
 #: src/components/_other/shop/SkinPackModal.tsx:249
 msgid "Skins in this pack"
 msgstr "Skinuri în pachet"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:98
+msgid "Skins owned"
+msgstr ""
 
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
@@ -8214,7 +8241,7 @@ msgstr "Început <0/>"
 msgid "Started<0/><1/>"
 msgstr "Începută<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:226
+#: src/components/_user/mission/MissionsList.tsx:292
 msgid "Starting"
 msgstr "Inițiere"
 
@@ -8298,7 +8325,7 @@ msgstr "Abonamente"
 msgid "Subscribed and supported the game <3"
 msgstr "Te-ai abonat să susții jocul <3"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:56
+#: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
 msgstr "Abonați"
 
@@ -8340,11 +8367,11 @@ msgstr "Funcție Susținător"
 msgid "Supporter Gift"
 msgstr "Cadou Susținător"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:68
+#: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
 msgstr "Cadouri Susținător"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:62
+#: src/components/_user/user/UserRankingsPanel.tsx:72
 msgid "Supporter months"
 msgstr "Luni Susținător"
 
@@ -8637,7 +8664,7 @@ msgstr "Cere verificarea numărului de telefon mobil al jucătorului."
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Timpul să lupți pentru țara ta! Să ne alăturăm acțiunii."
 
@@ -8811,7 +8838,7 @@ msgstr "Total cutii deschise"
 msgid "Total damage"
 msgstr ""
 
-#: src/components/_user/user/UserRankingsPanel.tsx:27
+#: src/components/_user/user/UserRankingsPanel.tsx:37
 msgid "Total damages"
 msgstr "Daune totale"
 
@@ -8897,7 +8924,7 @@ msgstr "Tranzacție"
 msgid "Trainee"
 msgstr "Stagiar"
 
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:239
 msgid "Transac."
 msgstr "Transac."
 
@@ -8938,11 +8965,11 @@ msgstr "Trebușet"
 msgid "Trooper"
 msgstr "Cavalerist"
 
-#: src/pages/user/[userId]/settings.tsx:110
+#: src/pages/user/[userId]/settings.tsx:116
 msgid "Tutorials"
 msgstr "Tutoriale"
 
-#: src/pages/user/[userId]/settings.tsx:41
+#: src/pages/user/[userId]/settings.tsx:47
 msgid "Tutorials reseted"
 msgstr "Tutoriale resetate"
 
@@ -9014,7 +9041,7 @@ msgstr "Deblochează butonul Produce tot"
 msgid "Unlocked pack"
 msgstr "Pachet deblocat"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Unmuted <0/>"
 msgstr "Dezamuțit <0/>"
 
@@ -9043,7 +9070,7 @@ msgstr "Elimină inamicul principal al țării"
 msgid "Update"
 msgstr "Schimbă"
 
-#: src/pages/user/[userId]/settings.tsx:67
+#: src/pages/user/[userId]/settings.tsx:73
 msgid "Update infos"
 msgstr "Actualizază informațiile"
 
@@ -9079,7 +9106,7 @@ msgstr "Devino Susținător"
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
-#: src/pages/user/[userId]/skills.tsx:173
+#: src/pages/user/[userId]/skills.tsx:169
 msgid "Upgrade your skills!"
 msgstr "Crește competențele!"
 
@@ -9103,7 +9130,7 @@ msgstr ""
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "Folosește-ți <0>Antreprenoriatul</0> pentru a lucra în propria companie și a-i umple bara de producție."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:166
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Folosește-ți din <0>Foame</0> pentru a consuma alimente și a-ți reîncărca <1>Viața</1>. Apoi, înapoi la luptă!"
 
@@ -9206,7 +9233,7 @@ msgid "Username"
 msgstr "Nume de utilizator"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:94
+#: src/pages/user/[userId]/settings.tsx:100
 msgid "Username effect"
 msgstr ""
 
@@ -9222,7 +9249,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:88
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Username font"
 msgstr ""
 
@@ -9441,7 +9468,7 @@ msgstr "Plutonier"
 msgid "Wars"
 msgstr "Războaie"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:38
+#: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Avere"
@@ -9468,7 +9495,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:200
+#: src/components/_user/mission/MissionsList.tsx:266
 msgid "Weekly"
 msgstr "Săptămânale"
 
@@ -9476,7 +9503,7 @@ msgstr "Săptămânale"
 msgid "Weekly balance"
 msgstr "Balanță săptămânală"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:21
+#: src/components/_user/user/UserRankingsPanel.tsx:31
 msgid "Weekly damages"
 msgstr "Daune săptămânale"
 
@@ -9514,7 +9541,7 @@ msgstr ""
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:156
+#: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Când nu mai ai <0>Viață</0>, deschide acest meniu pentru a o reîncărca cu alimente."
 
@@ -9522,7 +9549,7 @@ msgstr "Când nu mai ai <0>Viață</0>, deschide acest meniu pentru a o reîncă
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
 msgstr ""
 
-#: src/pages/companies.tsx:102
+#: src/pages/companies.tsx:103
 msgid "Whole Production"
 msgstr "Producție completă"
 
@@ -9644,7 +9671,7 @@ msgstr "Ce naiba, cum e asta posibil?"
 msgid "X. Punishments and Appeals"
 msgstr ""
 
-#: src/components/_user/user/UserRankingsPanel.tsx:44
+#: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
 msgstr "XP"
 
@@ -9771,7 +9798,7 @@ msgstr "Ai dăruit un Plan Suținător unui jucător <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Vei fi aprobat automat, deoarece populația acestei țări este sub"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:93
+#: src/components/_other/tour/tuto.frontConfig.tsx:91
 msgid "You have a case!"
 msgstr "Ai o cutie!"
 
@@ -9974,7 +10001,7 @@ msgstr "Ai fost nominalizat vicepreședintele țării"
 msgid "You were so close"
 msgstr "Erai așa de aproape"
 
-#: src/pages/user/[userId]/skills.tsx:124
+#: src/pages/user/[userId]/skills.tsx:120
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr ""
 
@@ -9999,7 +10026,7 @@ msgstr "Ai câștigat un turneu pe UM"
 msgid "You worked 100 times"
 msgstr "Ai muncit de 100 de ori"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "You're all set!"
 msgstr "Toate bune!"
 
@@ -10027,7 +10054,7 @@ msgstr "Oficial ești mai bun decât 80% din jucători"
 msgid "You're peaking"
 msgstr "Ești la apogeul norocului tău"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:185
+#: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Ai completat câteva misiuni! Să colectăm recompensele."
 
@@ -10114,7 +10141,7 @@ msgstr "Comanda ta actuală"
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Misiunile tale zilnice au fost resetate! Completează-le pentru a câștiga recompense."
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:63
 msgid "Your email"
 msgstr "Adresa ta de email"
 
@@ -10138,7 +10165,7 @@ msgstr "Inamicii tăi"
 msgid "Your infos have been saved."
 msgstr "Informațiile au fost salvate."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:85
+#: src/components/_other/tour/tuto.frontConfig.tsx:84
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Inventarul tău conține toate obiectele tale. Să vedem ce ai în el!"
 

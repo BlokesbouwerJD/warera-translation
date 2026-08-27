@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Потплаћени рад (испод 0.8x и изнад 1.2x нормалне плате)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:468
+#: src/components/_user/user/UserHeader.tsx:469
 msgid " - Reason: {0}"
 msgstr " - Разлог: {0}"
 
@@ -98,7 +98,7 @@ msgid "{0} days cooldown"
 msgstr "Период чекања: {0} дана"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:214
+#: src/pages/user/[userId]/skills.tsx:219
 msgid "{0} Free"
 msgstr "{0} Бесплатно"
 
@@ -151,7 +151,7 @@ msgstr "{0}% пореза на приход ће бити одузето од п
 msgid "{0}% of invested"
 msgstr "{0}% од уложеног"
 
-#: src/components/_user/mission/MissionsList.tsx:169
+#: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} завршено"
 
@@ -175,7 +175,7 @@ msgstr "{registeredCount} регистрованих ВЈ"
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} рунди до победе "
 
-#: src/components/_user/user/SkillUpgrade.tsx:373
+#: src/components/_user/user/SkillUpgrade.tsx:376
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr "{savedPrestigeCount} активних поена престижа на овој вештини"
 
@@ -1657,7 +1657,7 @@ msgstr "API токен регенерисан"
 msgid "API token revoked"
 msgstr "API токен укинут"
 
-#: src/pages/user/[userId]/settings.tsx:128
+#: src/pages/user/[userId]/settings.tsx:134
 msgid "API Tokens"
 msgstr "API токени"
 
@@ -1669,11 +1669,11 @@ msgstr "API токени омогућавају спољним апликаци�
 msgid "App pattern"
 msgstr "Шаблон апликације"
 
-#: src/pages/user/[userId]/settings.tsx:102
+#: src/pages/user/[userId]/settings.tsx:108
 msgid "App settings"
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:75
+#: src/pages/user/[userId]/settings.tsx:81
 msgid "Appearance"
 msgstr ""
 
@@ -1743,7 +1743,7 @@ msgstr "Да ли сте сигурни да желите да уклоните 
 msgid "Are you sure you want to remove this announcement? Its comments will be deleted too."
 msgstr "Да ли си сигуран да желиш да уклониш ово обавештење? Биће обрисани и његови коментари."
 
-#: src/components/_user/mission/MissionItem.tsx:113
+#: src/components/_user/mission/MissionItem.tsx:119
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
 msgstr "Да ли сте сигурни да желите да поново генеришете ову мисију? Ваш тренутни напредак ће бити изгубљен."
 
@@ -1782,7 +1782,7 @@ msgstr "Напојница за чланак"
 msgid "Article tipped"
 msgstr "Напојница дата"
 
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:253
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Чланци"
@@ -1931,6 +1931,10 @@ msgstr "Аутоматизовани механизам"
 msgid "Automated Engine"
 msgstr "Аутоматизовани механизам"
 
+#: src/components/_user/mission/MissionsList.tsx:322
+msgid "Available now"
+msgstr ""
+
 #: src/components/_user/user/UserDropdown.tsx:148
 msgid "Avatar removed"
 msgstr "Аватар уклоњен"
@@ -1983,7 +1987,7 @@ msgstr "Лопта"
 msgid "Bankruptcy"
 msgstr "Банкрот"
 
-#: src/components/_user/user/UserHeader.tsx:457
+#: src/components/_user/user/UserHeader.tsx:458
 msgid "Banned"
 msgstr "Банован"
 
@@ -2003,8 +2007,8 @@ msgstr "Поклон банер послат"
 msgid "Banners"
 msgstr "Банери"
 
-#: src/components/_user/user/UserHeader.tsx:205
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/UserHeader.tsx:206
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Bans"
 msgstr "Банови"
 
@@ -2101,7 +2105,7 @@ msgstr "Наређења за одбрану твојих матичних ре�
 msgid "Battlefield Loot"
 msgstr ""
 
-#: src/components/_layout/LayoutMenu.tsx:131
+#: src/components/_layout/LayoutMenu.tsx:132
 #: src/components/_military/battle/BattlesHeader.tsx:22
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
@@ -2174,7 +2178,7 @@ msgstr "Коштана батина"
 msgid "Bonus damages"
 msgstr "Бонус штета"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:112
 msgid "Boost your production!"
 msgstr "Појачај своју производњу!"
 
@@ -2191,6 +2195,10 @@ msgstr "Награда"
 #: src/components/_military/battle/BattleSystem.tsx:868
 msgid "Bounty cooldown"
 msgstr "Период чекања за награду"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:116
+msgid "Bounty earned"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:844
 msgid "Bounty will be available in"
@@ -2229,7 +2237,7 @@ msgstr "Буџет"
 msgid "Buff ended"
 msgstr "Ојачање завршено"
 
-#: src/components/_user/user/UserHeader.tsx:340
+#: src/components/_user/user/UserHeader.tsx:341
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "Ојачање истиче"
@@ -2408,9 +2416,13 @@ msgstr "CAPTCHA верификација је истекла. Ресетујем
 msgid "Case"
 msgstr "Сандуче"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:94
+#: src/components/_other/tour/tuto.frontConfig.tsx:92
 msgid "Cases contain random items. Click to open it!"
 msgstr "Сандучад садрже насумичне предмете. Кликни да отвориш!"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:104
+msgid "Cases opened"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:92
 msgid "Catapult"
@@ -2497,7 +2509,7 @@ msgstr "Промени назив савеза."
 msgid "Change the tax of {0} to"
 msgstr "Промени порез за {0} на"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:83
+#: src/components/_other/tour/tuto.frontConfig.tsx:82
 msgid "Check your loot!"
 msgstr "Провери свој плен!"
 
@@ -2526,7 +2538,7 @@ msgstr ""
 msgid "Choose your country"
 msgstr "Изабери своју земљу"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:146
+#: src/components/_other/tour/tuto.frontConfig.tsx:144
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Изабери страну и кликни да нанесеш <0>штету</0>! Настави да удараш да помогнеш свом тиму да победи."
 
@@ -2534,7 +2546,7 @@ msgstr "Изабери страну и кликни да нанесеш <0>шт�
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Бирање одређеног предмета кошта ×2 челика:"
 
-#: src/components/_user/user/UserHeader.tsx:321
+#: src/components/_user/user/UserHeader.tsx:322
 msgid "Citizen since"
 msgstr "Држављанин од"
 
@@ -2560,17 +2572,17 @@ msgid "Civil war"
 msgstr "Грађански рат"
 
 #: src/components/_user/milestone/MilestoneItem.tsx:315
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:141
 msgid "Claim"
 msgstr "Преузми"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:183
+#: src/components/_other/tour/tuto.frontConfig.tsx:181
 msgid "Claim your rewards!"
 msgstr "Преузми своје награде!"
 
-#: src/components/_user/mission/MissionItem.tsx:211
-#: src/components/_user/mission/MissionItem.tsx:260
+#: src/components/_user/mission/MissionItem.tsx:217
+#: src/components/_user/mission/MissionItem.tsx:266
 #: src/components/_user/mission/MissionsFinishedProgress.tsx:118
 msgid "Claimed"
 msgstr "Преузето"
@@ -2584,15 +2596,15 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Поништи избор"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Кликни више пута да повећаш ову вештину. Веће вештине = више моћи!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:137
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Кликни на битку да видиш шта се дешава и придружи се."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Кликни на разговор твоје земље да ћаскаш са суграђанима."
 
@@ -2604,7 +2616,7 @@ msgstr "Кликни да се пријавиш и почнеш да зарађ�
 msgid "Click to consume."
 msgstr "Кликни да попијеш."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:100
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Кликни да откријеш шта је унутра. Можда добијеш нешто вредно!"
 
@@ -2638,7 +2650,7 @@ msgid "Colonel"
 msgstr "Пуковник"
 
 #: src/components/_user/user/UserDropdown.tsx:243
-#: src/pages/user/[userId]/settings.tsx:81
+#: src/pages/user/[userId]/settings.tsx:87
 msgid "Color scheme"
 msgstr "Шема боја"
 
@@ -2676,11 +2688,11 @@ msgstr "Комодор"
 msgid "Community"
 msgstr "Заједница"
 
-#: src/components/_layout/LayoutMenu.tsx:173
+#: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:244
+#: src/components/_user/user/UserHeader.tsx:245
 #: src/components/_user/user/WealthPanel.tsx:42
-#: src/pages/companies.tsx:96
+#: src/pages/companies.tsx:97
 msgid "Companies"
 msgstr "Компаније"
 
@@ -2725,7 +2737,7 @@ msgstr "Компанија преименована!"
 msgid "Company upgraded!"
 msgstr "Компанија надограђена!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:194
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Завршавај мисије сваког дана да зарадиш искуство и брже напредујеш. Кликни за преузимање!"
 
@@ -3160,7 +3172,7 @@ msgstr "Прилагођен фонт корисничког имена"
 msgid "d. Any form of discrimination, racism, xenophobia, antisemitism, homophobia, transphobia and hate speech"
 msgstr "д. Сваки облик дискриминације, расизма, ксенофобије, антисемитизма, хомофобије, трансфобије и говора мржње"
 
-#: src/components/_user/mission/MissionsList.tsx:187
+#: src/components/_user/mission/MissionsList.tsx:253
 msgid "Daily"
 msgstr "Дневне"
 
@@ -3203,7 +3215,7 @@ msgstr "Дођавола, изгледа добро"
 msgid "Damn you lucky"
 msgstr "Дођавола, срећниче"
 
-#: src/pages/user/[userId]/settings.tsx:134
+#: src/pages/user/[userId]/settings.tsx:140
 msgid "Danger zone"
 msgstr "Опасна зона"
 
@@ -3284,7 +3296,7 @@ msgstr "Наноси нешто штете"
 msgid "Debuff ended"
 msgstr "Ослабљење завршено"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:349
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "Ослабљење истиче"
@@ -3378,7 +3390,7 @@ msgstr "Дефиниши земљу као непријатеља да доби�
 msgid "Define a sworn enemy"
 msgstr "Дефиниши заклетог непријатеља"
 
-#: src/pages/user/[userId]/settings.tsx:137
+#: src/pages/user/[userId]/settings.tsx:143
 msgid "Delete account"
 msgstr "Обриши налог"
 
@@ -3547,7 +3559,7 @@ msgstr ""
 msgid "Don't forget to drink water"
 msgstr "Не заборави да пијеш воду"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Don't forget to save your skill upgrades."
 msgstr "Не заборави да сачуваш надоградње вештина."
 
@@ -4065,7 +4077,7 @@ msgstr "Бори се за <0/> у<1/><2/>"
 msgid "Fight skills"
 msgstr "Борилачке вештине"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:144
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Fight!"
 msgstr "Бори се!"
 
@@ -4110,7 +4122,7 @@ msgstr "Финансирај локални отпор"
 msgid "Finance resistance in <0/>"
 msgstr "Финансирај отпор у <0/>"
 
-#: src/pages/companies.tsx:59
+#: src/pages/companies.tsx:60
 #: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Пронађи посао"
@@ -4234,11 +4246,15 @@ msgstr "Драгуљи"
 msgid "Gems are used to buy assets in the shop and to gift supporter months to other players"
 msgstr "Драгуљи се користе за куповину предмета у продавници и за поклањање месеци претплате подржаваоца другим играчима"
 
+#: src/components/_user/user/UserRankingsPanel.tsx:110
+msgid "Gems purchased"
+msgstr ""
+
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:148
 msgid "General"
 msgstr "Генерал"
 
-#: src/components/_user/mission/MissionsList.tsx:254
+#: src/components/_user/mission/MissionsList.tsx:334
 msgid "Generate Missions"
 msgstr "Генериши мисије"
 
@@ -4366,7 +4382,7 @@ msgstr "Жито"
 msgid "Graticule"
 msgstr "Координатна мрежа"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:176
+#: src/components/_other/tour/tuto.frontConfig.tsx:174
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Одличан посао! Удари још неколико пута да помогнеш својој страни да победи."
 
@@ -4438,7 +4454,7 @@ msgstr "Гримдарк снајпер"
 msgid "Grimdark Tank"
 msgstr "Гримдарк тенк"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:33
+#: src/components/_user/user/UserRankingsPanel.tsx:43
 msgid "Ground"
 msgstr "Земља"
 
@@ -4733,7 +4749,7 @@ msgstr "Намерно или поновљено кршење ове полит�
 #: src/components/_layout/LayoutUserMenu.tsx:199
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
-#: src/pages/companies.tsx:83
+#: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
 #: src/pages/user/[userId]/account.tsx:20
@@ -4865,7 +4881,7 @@ msgstr "Придружи се свету"
 msgid "Join this company!"
 msgstr "Запосли се у овој компанији!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Join your country chat!"
 msgstr "Придружи се разговору своје земље!"
 
@@ -4897,7 +4913,7 @@ msgstr "Само још једна... шта може поћи по злу?"
 msgid "Keep chasing that Mythic"
 msgstr "Настави да јуриш митску опрему"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:174
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Keep fighting!"
 msgstr "Настави да се бориш!"
 
@@ -4947,7 +4963,7 @@ msgstr "Језик"
 msgid "Last"
 msgstr "Последње"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:357
 msgid "Last connection"
 msgstr "Последња активност"
 
@@ -5088,7 +5104,7 @@ msgstr "Ниво {level}"
 msgid "Level too low"
 msgstr "Ниво пренизак"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:105
 msgid "Level up your skills!"
 msgstr "Надогради своје вештине!"
 
@@ -5301,7 +5317,7 @@ msgid "Map icons"
 msgstr "Иконе мапе"
 
 #: src/components/_economy/market/MarketHeader.tsx:38
-#: src/components/_layout/LayoutMenu.tsx:162
+#: src/components/_layout/LayoutMenu.tsx:163
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5402,7 +5418,7 @@ msgstr "Средњовековна челична стрела"
 msgid "Medieval Stone Arrow"
 msgstr "Средњовековна камена стрела"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:204
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Упознај друге играче у разговору. Не стиди се, представи се!"
 
@@ -5485,6 +5501,7 @@ msgid "Message liked"
 msgstr "Порука лајкована"
 
 #: src/components/_user/mission/MissionsHeader.tsx:82
+#: src/components/_user/user/UserRankingsPanel.tsx:86
 msgid "Milestone tiers"
 msgstr ""
 
@@ -5493,7 +5510,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -5584,8 +5601,8 @@ msgid "Mission tags"
 msgstr "Ознаке мисија"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
-#: src/components/_user/mission/MissionsList.tsx:166
-#: src/components/_user/user/UserHeader.tsx:223
+#: src/components/_user/mission/MissionsList.tsx:232
+#: src/components/_user/user/UserHeader.tsx:224
 msgid "Missions"
 msgstr "Мисије"
 
@@ -5594,6 +5611,7 @@ msgid "Missions & milestones"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:73
+#: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
 msgstr ""
 
@@ -5626,13 +5644,17 @@ msgid "Money Won"
 msgstr "Новац освојен"
 
 #: src/components/_military/mu/MuMemberList.tsx:191
-#: src/components/_user/mission/MissionsList.tsx:213
+#: src/components/_user/mission/MissionsList.tsx:279
 msgid "Monthly"
 msgstr "Месечно"
 
 #: src/components/_military/mu/MuLevel.tsx:107
 msgid "Monthly damages: <0>{monthlyDamages}</0>"
 msgstr "Месечна штета: <0>{monthlyDamages}</0>"
+
+#: src/components/_user/mission/MissionsList.tsx:311
+msgid "Monthly missions are not available yet"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2170
 msgid "Monthly Missions Reset"
@@ -5691,7 +5713,7 @@ msgstr "Премести на врх"
 msgid "Moved to a new company"
 msgstr "Премештен у нову компанију"
 
-#: src/components/_layout/LayoutMenu.tsx:118
+#: src/components/_layout/LayoutMenu.tsx:119
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
@@ -5987,7 +6009,7 @@ msgstr "Лепо"
 msgid "Nice one"
 msgstr "Добар добар"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Nice work!"
 msgstr "Сјајно урађено!"
 
@@ -6112,7 +6134,7 @@ msgstr ""
 msgid "No military units found"
 msgstr "Нису пронађене војне јединице"
 
-#: src/components/_user/mission/MissionsList.tsx:244
+#: src/components/_user/mission/MissionsList.tsx:313
 msgid "No missions available"
 msgstr "Нема доступних мисија"
 
@@ -6261,7 +6283,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr "Тренутно ништа није у игри. Удари у текућој бици да почнеш да зарађујеш и заузми једно од водећих места по нанетој штети да уђеш у расподелу њеног фонда плена."
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:122
+#: src/pages/user/[userId]/settings.tsx:128
 msgid "Notification preferences"
 msgstr "Поставке обавештења"
 
@@ -6410,7 +6432,7 @@ msgstr "Отвори ћаскање"
 msgid "Open to all"
 msgstr "Отворено за све"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:98
+#: src/components/_other/tour/tuto.frontConfig.tsx:96
 msgid "Open your case!"
 msgstr "Отвори своје сандуче!"
 
@@ -6686,7 +6708,7 @@ msgstr "Захтевана је верификација телефона"
 msgid "Phone verification required"
 msgstr "Потребна је верификација телефона"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:135
 msgid "Pick a fight!"
 msgstr "Започни борбу!"
 
@@ -6821,7 +6843,7 @@ msgid "Presidential elections"
 msgstr "Председнички избори"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
-#: src/pages/user/[userId]/skills.tsx:193
+#: src/pages/user/[userId]/skills.tsx:189
 msgid "Prestige"
 msgstr "Престиж"
 
@@ -7194,7 +7216,7 @@ msgstr "Прочитај чланак"
 msgid "Read the article"
 msgstr "Прочитај чланак"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Ready for battle!"
 msgstr "Спреман за битку!"
 
@@ -7241,8 +7263,8 @@ msgstr "Смањује губитак здравља током борбе у б
 msgid "Referral link copied to clipboard"
 msgstr "Реферал линк копиран у клипборд"
 
-#: src/components/_user/user/UserHeader.tsx:258
-#: src/components/_user/user/UserRankingsPanel.tsx:50
+#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
 msgid "Referrals"
@@ -7501,7 +7523,7 @@ msgstr "Пријави"
 msgid "Report user"
 msgstr "Пријави корисника"
 
-#: src/components/_user/user/UserHeader.tsx:212
+#: src/components/_user/user/UserHeader.tsx:213
 msgid "Reports"
 msgstr "Пријаве"
 
@@ -7526,11 +7548,11 @@ msgstr "Захтевај верификацију телефона"
 msgid "Requests:"
 msgstr "Захтеви:"
 
-#: src/components/_user/mission/MissionItem.tsx:112
+#: src/components/_user/mission/MissionItem.tsx:118
 msgid "Reroll Mission"
 msgstr "Замени мисију"
 
-#: src/pages/user/[userId]/skills.tsx:211
+#: src/pages/user/[userId]/skills.tsx:216
 msgid "Reset"
 msgstr "Ресетуј"
 
@@ -7546,7 +7568,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "Преживео ресет"
 
-#: src/pages/user/[userId]/settings.tsx:117
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Reset tutorials"
 msgstr "Ресетуј водиче"
 
@@ -7597,7 +7619,7 @@ msgstr "Ресурси премештени"
 msgid "Response to message"
 msgstr "Одговор на поруку"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:164
+#: src/components/_other/tour/tuto.frontConfig.tsx:162
 msgid "Restore your health!"
 msgstr "Обнови своје здравље!"
 
@@ -7721,22 +7743,22 @@ msgstr "Правила"
 msgid "Ruling Party"
 msgstr "Владајућа странка"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:152
 msgid "Running low on health?"
 msgstr "Понестаје ти здравља?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:250
+#: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
 msgstr "Сачувај"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:124
+#: src/components/_other/tour/tuto.frontConfig.tsx:122
 msgid "Save your progress!"
 msgstr "Сачувај свој напредак!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:200
 msgid "Say hello!"
 msgstr "Реци здраво!"
 
@@ -7868,7 +7890,7 @@ msgstr "Пошаљи <0/> ка <1/>"
 msgid "Send a message"
 msgstr "Пошаљи поруку"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:220
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Пошаљи поруку да завршиш водич. Добродошао у заједницу!"
 
@@ -7973,7 +7995,7 @@ msgstr "Постави своје корисничко име"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:264
+#: src/components/_user/user/UserHeader.tsx:265
 msgid "Settings"
 msgstr "Подешавања"
 
@@ -8006,6 +8028,7 @@ msgstr "Прикажи свих {0} понуда"
 #: src/components/_social/ArticleTags.tsx:311
 #: src/components/_social/ArticleTags.tsx:369
 #: src/components/_social/ArticleTags.tsx:419
+#: src/components/_user/user/UserRankingsPanel.tsx:162
 msgid "Show more"
 msgstr "Прикажи више"
 
@@ -8053,11 +8076,11 @@ msgstr "Надоградња вештина:"
 msgid "Skills"
 msgstr "Вештине"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Вештине те чине јачим. Хајде да појачамо твоје способности!"
 
-#: src/pages/user/[userId]/skills.tsx:59
+#: src/pages/user/[userId]/skills.tsx:55
 msgid "Skills saved!"
 msgstr "Вештине сачуване!"
 
@@ -8094,6 +8117,10 @@ msgstr "Скинови"
 #: src/components/_other/shop/SkinPackModal.tsx:249
 msgid "Skins in this pack"
 msgstr "Скинови у овом пакету"
+
+#: src/components/_user/user/UserRankingsPanel.tsx:98
+msgid "Skins owned"
+msgstr ""
 
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
@@ -8216,7 +8243,7 @@ msgstr "Започето <0/>"
 msgid "Started<0/><1/>"
 msgstr "Почело<0/><1/>"
 
-#: src/components/_user/mission/MissionsList.tsx:226
+#: src/components/_user/mission/MissionsList.tsx:292
 msgid "Starting"
 msgstr "Почетничке"
 
@@ -8300,7 +8327,7 @@ msgstr "Претплаћен"
 msgid "Subscribed and supported the game <3"
 msgstr "Претплатио се и подржао игру <3"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:56
+#: src/components/_user/user/UserRankingsPanel.tsx:66
 msgid "Subscribers"
 msgstr "Претплатници"
 
@@ -8342,11 +8369,11 @@ msgstr "Функција подржаваоца"
 msgid "Supporter Gift"
 msgstr "Поклон подржаваоца"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:68
+#: src/components/_user/user/UserRankingsPanel.tsx:78
 msgid "Supporter gifts"
 msgstr "Поклони подржаваоца"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:62
+#: src/components/_user/user/UserRankingsPanel.tsx:72
 msgid "Supporter months"
 msgstr "Месеци подршке"
 
@@ -8639,7 +8666,7 @@ msgstr "Ово ће захтевати од корисника да потврд
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Време је да се бориш за своју државу! Придружи се акцији."
 
@@ -8813,7 +8840,7 @@ msgstr "Укупно отворених сандучића"
 msgid "Total damage"
 msgstr "Укупна штета"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:27
+#: src/components/_user/user/UserRankingsPanel.tsx:37
 msgid "Total damages"
 msgstr "Укупна штета"
 
@@ -8899,7 +8926,7 @@ msgstr "Трговинска трансакција"
 msgid "Trainee"
 msgstr "Обученик"
 
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:239
 msgid "Transac."
 msgstr "Трансак."
 
@@ -8940,11 +8967,11 @@ msgstr "Требуше"
 msgid "Trooper"
 msgstr "Војник"
 
-#: src/pages/user/[userId]/settings.tsx:110
+#: src/pages/user/[userId]/settings.tsx:116
 msgid "Tutorials"
 msgstr "Водичи"
 
-#: src/pages/user/[userId]/settings.tsx:41
+#: src/pages/user/[userId]/settings.tsx:47
 msgid "Tutorials reseted"
 msgstr "Водичи су ресетовани"
 
@@ -9016,7 +9043,7 @@ msgstr "Откључај дугме „Произведи све“"
 msgid "Unlocked pack"
 msgstr "Пакет откључан"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Unmuted <0/>"
 msgstr "Укинуто утишавање <0/>"
 
@@ -9045,7 +9072,7 @@ msgstr "Поништи статус заклетог непријатеља"
 msgid "Update"
 msgstr "Ажурирај"
 
-#: src/pages/user/[userId]/settings.tsx:67
+#: src/pages/user/[userId]/settings.tsx:73
 msgid "Update infos"
 msgstr "Ажурирај информације"
 
@@ -9081,7 +9108,7 @@ msgstr "Постани подржавалац"
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
-#: src/pages/user/[userId]/skills.tsx:173
+#: src/pages/user/[userId]/skills.tsx:169
 msgid "Upgrade your skills!"
 msgstr "Надогради своје вештине!"
 
@@ -9105,7 +9132,7 @@ msgstr ""
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "Користи своје <0>предузетништво</0> да радиш у својој компанији и попуниш њену производну траку."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:166
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Користи своју <0>глад</0> да поједеш храну и допуниш своје <1>здравље</1>. Затим се врати у борбу!"
 
@@ -9208,7 +9235,7 @@ msgid "Username"
 msgstr "Корисничко име"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:94
+#: src/pages/user/[userId]/settings.tsx:100
 msgid "Username effect"
 msgstr ""
 
@@ -9224,7 +9251,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:88
+#: src/pages/user/[userId]/settings.tsx:94
 msgid "Username font"
 msgstr ""
 
@@ -9443,7 +9470,7 @@ msgstr "Заставник"
 msgid "Wars"
 msgstr "Ратови"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:38
+#: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
 msgstr "Богатство"
@@ -9470,7 +9497,7 @@ msgid "Weapons, ammo and gear above this rarity cannot be used in this tournamen
 msgstr "Оружје, муниција и опрема изнад ове реткости не могу се користити у биткама овог турнира."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
-#: src/components/_user/mission/MissionsList.tsx:200
+#: src/components/_user/mission/MissionsList.tsx:266
 msgid "Weekly"
 msgstr "Недељне"
 
@@ -9478,7 +9505,7 @@ msgstr "Недељне"
 msgid "Weekly balance"
 msgstr "Недељни биланс"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:21
+#: src/components/_user/user/UserRankingsPanel.tsx:31
 msgid "Weekly damages"
 msgstr "Недељна штета"
 
@@ -9516,7 +9543,7 @@ msgstr "При одбрани буне, добијаш додатних <0>{0}</
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "При дизању буне, копираш непријатељев одбрамбени бонус у бици од надоградњи региона Бункер."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:156
+#: src/components/_other/tour/tuto.frontConfig.tsx:154
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Када потрошиш своје <0>здравље</0>, отвори овај мени да га обновиш храном."
 
@@ -9524,7 +9551,7 @@ msgstr "Када потрошиш своје <0>здравље</0>, отвори
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
 msgstr "Иако су алати за прикупљање и приказивање података који користе званични јавни API дозвољени, за било какав други развој или приступ подацима, молимо вас да директно контактирате тим администрације."
 
-#: src/pages/companies.tsx:102
+#: src/pages/companies.tsx:103
 msgid "Whole Production"
 msgstr "Цела производња"
 
@@ -9646,7 +9673,7 @@ msgstr "Како је ово могуће?"
 msgid "X. Punishments and Appeals"
 msgstr "X. Казне и жалбе"
 
-#: src/components/_user/user/UserRankingsPanel.tsx:44
+#: src/components/_user/user/UserRankingsPanel.tsx:54
 msgid "XP"
 msgstr "XP"
 
@@ -9773,7 +9800,7 @@ msgstr "Поклонио си некоме претплату подржавао
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Биће ти аутоматски одобрена пријава зато што је популација земље испод"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:93
+#: src/components/_other/tour/tuto.frontConfig.tsx:91
 msgid "You have a case!"
 msgstr "Добио си сандуче!"
 
@@ -9976,7 +10003,7 @@ msgstr "Номинован си за потпредседника своје з�
 msgid "You were so close"
 msgstr "Био си баш близу"
 
-#: src/pages/user/[userId]/skills.tsx:124
+#: src/pages/user/[userId]/skills.tsx:120
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr "Пашћеш на 25. ниво (изгубићеш 65.000 XP-а), добићеш трајни XP бонус од +50% (+10% за сваки додатни ниво престижа) и поен престижа, а вештине ће ти бити бесплатно ресетоване."
 
@@ -10001,7 +10028,7 @@ msgstr "Освојио си турнир ВЈ"
 msgid "You worked 100 times"
 msgstr "Радио си 100 пута"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "You're all set!"
 msgstr "Све је спремно!"
 
@@ -10029,7 +10056,7 @@ msgstr "Званично си бољи од 80% играча"
 msgid "You're peaking"
 msgstr "Достижеш врхунац"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:185
+#: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Завршио си неке мисије! Хајде да преузмеш своје награде искуства."
 
@@ -10116,7 +10143,7 @@ msgstr "Твој тренутни налог"
 msgid "Your daily missions have been reset! Complete them to earn rewards."
 msgstr "Твоје дневне мисије су ресетоване! Заврши их да зарадиш награде."
 
-#: src/pages/user/[userId]/settings.tsx:57
+#: src/pages/user/[userId]/settings.tsx:63
 msgid "Your email"
 msgstr "Твој имејл"
 
@@ -10140,7 +10167,7 @@ msgstr "Твоји непријатељи"
 msgid "Your infos have been saved."
 msgstr "Твоје информације су сачуване."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:85
+#: src/components/_other/tour/tuto.frontConfig.tsx:84
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Твој инвентар садржи све твоје предмете. Хајде да видимо шта имаш!"
 
