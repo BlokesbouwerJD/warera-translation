@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} завершено"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} бал(-ів) престижу у цій навичці ({savedPrestigeCount} збережено, заблоковано до наступного скидання)"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr "{prestigeLevel} балів престижу"
 
@@ -204,7 +204,7 @@ msgstr "/день"
 msgid "+{hiddenBattles} more battles"
 msgstr "+ще {hiddenBattles} битв"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent}% XP"
 
@@ -1354,7 +1354,7 @@ msgstr "Акаунти, створені виключно для отриман�
 msgid "Actions"
 msgstr "Дії"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr "активовано"
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "Навмисні або повторювані порушення цієї політики призведуть до постійного бану."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "У <0/> розпочався праймериз"
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Вставте посилання на статтю з вашою програмою, або залиште поле пустим."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr "Зупинено на максимальному рівні"
 
@@ -6847,7 +6847,7 @@ msgstr "Президентські вибори"
 msgid "Prestige"
 msgstr "Престиж"
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "Підвищіть престиж щоб втратити рівні та активувати бонус до досвіду."
 
@@ -7287,7 +7287,7 @@ msgstr "Прізвисько запрошувача"
 msgid "Refresh every hour"
 msgstr "Оновлюється кожну годину"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Відновлення через..."
 
@@ -7403,11 +7403,11 @@ msgstr "Відхилити"
 msgid "Rejected"
 msgstr "Відхилено"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Залишковий час підсилення"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Залишковий час послаблення"
 
@@ -8273,7 +8273,7 @@ msgstr "Статистично неможливо"
 msgid "Stats"
 msgstr "Статистика"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "Атрибути відновлюются кожну годину"
 
@@ -8864,6 +8864,11 @@ msgstr "Загальна нагорода"
 msgid "Total XP earned from missions and milestones"
 msgstr "Загальна сума досвіду, отримана з місій та відзнак"
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "Прізвисько прибрано"
 msgid "Users"
 msgstr "Користувачі"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Користувачів в мережі"
 

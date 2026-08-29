@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} įvykdyta"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "Šiam įgūdžiui skirta prestižo taškų: {draftPrestigeCount} (išsaugota: {savedPrestigeCount}, užrakinta iki atstatymo)"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr "Prestižo Taškai: {prestigeLevel}"
 
@@ -204,7 +204,7 @@ msgstr "/dieną"
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} mūšių"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent}% XP"
 
@@ -1354,7 +1354,7 @@ msgstr "Paskyros, sukurtos vien tam, kad duotų naudos žaidėjui, grupei, karin
 msgid "Actions"
 msgstr "Veiksmai"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr "įjungta"
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "Tyčiniai arba pasikartojantys šios politikos pažeidimai užtrauks nuolatinį blokavimą."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "<0/> jau galima balsuoti partijos pirminiuose rinkimuose"
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Įklijuok savo rinkimų kampanijos straipsnio nuorodą arba palik tuščią."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr "Pristabdyta pasiekus didžiausią lygį"
 
@@ -6847,7 +6847,7 @@ msgstr "Prezidento rinkimai"
 msgid "Prestige"
 msgstr "Prestižas"
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "Atlik prestižą, kad numestum lygius ir vėl įjungtum XP bonusą."
 
@@ -7287,7 +7287,7 @@ msgstr "Kvietėjo naudotojo vardas"
 msgid "Refresh every hour"
 msgstr "Atnaujinti kas valandą"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Atsistatys po..."
 
@@ -7403,11 +7403,11 @@ msgstr "Atmesti"
 msgid "Rejected"
 msgstr "Atmestas"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Likęs Buff'o laikas"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Likęs Debuff'o laikas"
 
@@ -8273,7 +8273,7 @@ msgstr "Statistiškai suklastota"
 msgid "Stats"
 msgstr "Statistika"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "Statistika atsikuria kas valandą"
 
@@ -8864,6 +8864,11 @@ msgstr "Bendras atlygis"
 msgid "Total XP earned from missions and milestones"
 msgstr "Iš viso XP, uždirbta iš misijų ir etapų"
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "Naudotojo vardas pašalintas"
 msgid "Users"
 msgstr "Žaidėjai"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Prisijungę žaidėjai"
 

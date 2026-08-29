@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} completadas"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} ponto(s) de prestígio nesta habilidade ({savedPrestigeCount} atribuído(s), indisponível(eis) até redistribuir as habilidades)"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr "{prestigeLevel} Pontos de Prestígio"
 
@@ -204,7 +204,7 @@ msgstr "/dia"
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} mais batalhas"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent}% de bónus de XP"
 
@@ -1354,7 +1354,7 @@ msgstr "Contas criadas com o propósito de beneficiar um jogador, grupo, unidade
 msgid "Actions"
 msgstr "Ações"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr "ativado"
 
@@ -2899,13 +2899,13 @@ msgstr "Contratos"
 msgid "Contracts & Auctions"
 msgstr "Contratos & Leilões"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:555
-msgid "Contribute to region upgrade constructions <0/> times"
-msgstr "Contribute to region upgrade constructions <0>{count}</0> times"
+#: src/components/_user/mission/mission.frontConfig.tsx:554
+msgid "Contribute to constructions <0/> times"
+msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:566
-msgid "Contribute to the resistance of occupied regions <0/> times"
-msgstr "Contribui para a resistência de regiões ocupadas <0/> vezes"
+#: src/components/_user/mission/mission.frontConfig.tsx:564
+msgid "Contribute to resistance <0/> times"
+msgstr ""
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "As infrações intencionais ou reiteradas desta política resultarão em suspensão permanente."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -5229,12 +5229,12 @@ msgid "Long Sword"
 msgstr "Espada Longa"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:323
-msgid "Loot <0/> from battles"
-msgstr "Obtém <0/> recompensas de batalhas"
+msgid "Loot <0/> in battles"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:333
-msgid "Loot <0/> weapons or equipments from battlefields"
-msgstr "btém <0/> armas ou equipamentos de batalha"
+msgid "Loot <0/> items on battlefield"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:321
 msgid "Loot Cases"
@@ -6652,7 +6652,7 @@ msgstr "A votação para as eleições primárias dos partidos está aberta em <
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Cole um link para o seu artigo de campanha, ou deixe vazio."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr "No nível máximo"
 
@@ -6847,7 +6847,7 @@ msgstr "Eleições presidenciais"
 msgid "Prestige"
 msgstr "Prestígio"
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "Escolha o prestígio para descer de nível e obter um bónus de XP maior."
 
@@ -7287,7 +7287,7 @@ msgstr "Nome de utilizador do indicador"
 msgid "Refresh every hour"
 msgstr "Atualiza de hora a hora"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Regenera em..."
 
@@ -7403,11 +7403,11 @@ msgstr "Contra"
 msgid "Rejected"
 msgstr "Rejeitada"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Duração restante do buff"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Duração restante do debuff"
 
@@ -8273,7 +8273,7 @@ msgstr "Estatisticamente manipulado"
 msgid "Stats"
 msgstr "Estatísticas"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "Atributos regeneram a cada hora"
 
@@ -8864,6 +8864,11 @@ msgstr "Recompensa total"
 msgid "Total XP earned from missions and milestones"
 msgstr "XP total ganha em missões e marcos"
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "Nome de utilizador removido"
 msgid "Users"
 msgstr "Utilizadores"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Utilizadores online"
 

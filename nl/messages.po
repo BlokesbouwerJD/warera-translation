@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} voltooid"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} prestigepunten voor deze vaardigheid, waarvan{savedPrestigeCount} vergrendeld tot reset"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr "{prestigeLevel} Prestigepunten"
 
@@ -204,7 +204,7 @@ msgstr "/dag"
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} gevechten"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent}% XP"
 
@@ -1354,7 +1354,7 @@ msgstr "Accounts die uitsluitend zijn gemaakt om een speler, groep, militaire ee
 msgid "Actions"
 msgstr "Acties"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr "geactiveerd"
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "Opzettelijke of herhaalde schendingen van dit beleid zullen resulteren in een permanente ban."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "De stemming voor de voorverkiezingen in <0/> is nu geopend."
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Plak een link naar je campagneartikel, of laat het leeg."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr "Gepauzeerd op het maximale level"
 
@@ -6847,7 +6847,7 @@ msgstr "Verkiezingen voor het premierschap"
 msgid "Prestige"
 msgstr "Prestige"
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "Prestige om levels te laten zakken en je XP-bonus opnieuw te activeren."
 
@@ -7287,7 +7287,7 @@ msgstr "Gebruikersnaam van werver"
 msgid "Refresh every hour"
 msgstr "Vernieuwt elk uur"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Regenereerd in..."
 
@@ -7403,11 +7403,11 @@ msgstr "Weigeren"
 msgid "Rejected"
 msgstr "Afgewezen"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Resterende buffduur"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Resterende duur van de debuff"
 
@@ -8273,7 +8273,7 @@ msgstr "Statistisch gemanipuleerd"
 msgid "Stats"
 msgstr "Statistieken"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "Statistieken regenereren elk uur"
 
@@ -8864,6 +8864,11 @@ msgstr "Totale beloning"
 msgid "Total XP earned from missions and milestones"
 msgstr "Totale XP verdiend met missies en mijlpalen"
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "Gebruikersnaam verwijderd"
 msgid "Users"
 msgstr "Gebruikers"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Gebruikers online"
 

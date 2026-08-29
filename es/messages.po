@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} completadas"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr "/día"
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} batallas más"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
 
@@ -1354,7 +1354,7 @@ msgstr "Las cuentas creadas únicamente para beneficiar a un jugador, grupo, uni
 msgid "Actions"
 msgstr "Acciones"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr ""
 
@@ -1871,7 +1871,6 @@ msgid "Attack"
 msgstr "Ataque"
 
 #: src/components/_user/user/MilitaryRank.tsx:111
-#, fuzzy
 msgid "Attack bonus:"
 msgstr "Bonus de ataque:"
 
@@ -3769,7 +3768,6 @@ msgid "Enchanted Trousers"
 msgstr "Pantalones encantados"
 
 #: src/components/_political/law/law.frontConfig.tsx:307
-#, fuzzy
 msgid "End an existing defensive pact with another country"
 msgstr "Poner fin a un pacto defensivo existente con otro país"
 
@@ -4748,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "Las infracciones intencionales o reiteradas de esta política resultarán en una prohibición permanente."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6654,7 +6652,7 @@ msgstr "La votación para las elecciones primarias del partido ya está abierta 
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Pega un enlace a tu artículo de campaña, o déjalo vacío."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr ""
 
@@ -6849,7 +6847,7 @@ msgstr "Elecciones presidenciales"
 msgid "Prestige"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr ""
 
@@ -7289,7 +7287,7 @@ msgstr "Nombre de usuario del recomendador"
 msgid "Refresh every hour"
 msgstr "Actualizar cada hora"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Regenera en..."
 
@@ -7405,11 +7403,11 @@ msgstr "En contra"
 msgid "Rejected"
 msgstr "Rechazada"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Duración restante del buff"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Duración restante del debuff"
 
@@ -8275,7 +8273,7 @@ msgstr "Estadísticamente manipulado"
 msgid "Stats"
 msgstr "Estadísticas"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "Las estadísticas se regeneran cada hora"
 
@@ -8866,6 +8864,11 @@ msgstr "Recompensa total"
 msgid "Total XP earned from missions and milestones"
 msgstr ""
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9266,7 +9269,7 @@ msgstr "Nombre de usuario eliminado"
 msgid "Users"
 msgstr "Usuarios"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Usuarios conectados"
 

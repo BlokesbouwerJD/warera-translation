@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} 已完成"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr "/天"
 msgid "+{hiddenBattles} more battles"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
 
@@ -1354,7 +1354,7 @@ msgstr "仅为使某位玩家、团体、军团或国家获益而创建的账号
 msgid "Actions"
 msgstr "行动"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr ""
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "故意或反复违反本政策将导致永久封禁。"
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "<0/> 的政党初选投票现已开放"
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "贴上一个连结至你的宣传文章或留空。"
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr ""
 
@@ -6847,7 +6847,7 @@ msgstr "总统选举"
 msgid "Prestige"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr ""
 
@@ -7287,7 +7287,7 @@ msgstr "推荐人用户名称"
 msgid "Refresh every hour"
 msgstr "每小时更新"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "恢复于..."
 
@@ -7403,11 +7403,11 @@ msgstr "反对"
 msgid "Rejected"
 msgstr "已否决"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "剩余增益时长"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "剩余减益时长"
 
@@ -8273,7 +8273,7 @@ msgstr "爆率被暗改过吧"
 msgid "Stats"
 msgstr "数据"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "数据每小时刷新"
 
@@ -8864,6 +8864,11 @@ msgstr "总奖励"
 msgid "Total XP earned from missions and milestones"
 msgstr ""
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "用户名已删除"
 msgid "Users"
 msgstr "用户"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "在线用户"
 

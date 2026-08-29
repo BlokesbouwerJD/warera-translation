@@ -160,7 +160,7 @@ msgstr "{completedCount}/{totalCount} הושלם"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} נקודות פרסטיז׳ במיומנות זו ({savedPrestigeCount} נשמרו, נעולות עד לאיפוס)"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr "{prestigeLevel} נקודות פרסטיז׳"
 
@@ -205,7 +205,7 @@ msgstr "/יום"
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} קרבות נוספים"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent}% XP"
 
@@ -1355,7 +1355,7 @@ msgstr "חשבונות שנוצרו אך ורק לטובת שחקן, קבוצה,
 msgid "Actions"
 msgstr "פעולות"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr "מופעל"
 
@@ -4747,7 +4747,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "הפרות מכוונות או חוזרות של מדיניות זו תגרום לאיסור קבוע."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6653,7 +6653,7 @@ msgstr "ההצבעה בבחירות המקדימות של המפלגה פתוח�
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "הדבק קישור למאמר מסע הפרסום שלך, או השאר ריק."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr "מושהה ברמה המקסימלית"
 
@@ -6848,7 +6848,7 @@ msgstr "בחירות לנשיאות"
 msgid "Prestige"
 msgstr "פרסטיז׳"
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "בצע פרסטיז׳ כדי לרדת ברמות ולהפעיל מחדש את בונוס נקודות הניסיון שלך."
 
@@ -7288,7 +7288,7 @@ msgstr "שם משתמש מפנה"
 msgid "Refresh every hour"
 msgstr "רענן כל שעה"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "ריגן ב..."
 
@@ -7404,11 +7404,11 @@ msgstr "לדחות"
 msgid "Rejected"
 msgstr "נדחה"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "משך הבאף שנותר"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "משך הדיבאף שנותר"
 
@@ -8274,7 +8274,7 @@ msgstr "מזויפת סטטיסטית"
 msgid "Stats"
 msgstr "סטטיסטיקות"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "הסטטיסטיקה מתחדשת כל שעה"
 
@@ -8865,6 +8865,11 @@ msgstr "תגמול כולל"
 msgid "Total XP earned from missions and milestones"
 msgstr ""
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9265,7 +9270,7 @@ msgstr "שם המשתמש הוסר"
 msgid "Users"
 msgstr "משתמשים"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "משתמשים מחוברים"
 

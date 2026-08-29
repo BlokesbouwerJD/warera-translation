@@ -159,7 +159,7 @@ msgstr "تم إكمال {completedCount}/{totalCount}"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} نقطة (نقاط) هيبة على هذه المهارة ({savedPrestigeCount} محفوظة، ومقفلة حتى إعادة التعيين)"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr "{prestigeLevel} نقطة هيبة"
 
@@ -204,7 +204,7 @@ msgstr "/يوم"
 msgid "+{hiddenBattles} more battles"
 msgstr "معارك أكثر"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent}% خبرة"
 
@@ -1354,7 +1354,7 @@ msgstr "لا يُسمح بالحسابات التي يتم إنشاؤها لغر
 msgid "Actions"
 msgstr "الإجراءات"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr "مُفعّل"
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "ستؤدي الانتهاكات المتعمدة أو المتكررة لهذه السياسة إلى الحظر الدائم."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "التصويت في الانتخابات التمهيدية للحزب �
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "ألصق رابطاً لمقال حملتك الانتخابية، أو اتركه فارغاً."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr "متوقف عند المستوى الأقصى"
 
@@ -6847,7 +6847,7 @@ msgstr "انتخابات رئاسية"
 msgid "Prestige"
 msgstr "الهيبة"
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "نفّذ الهيبة لإنقاص مستواك وإعادة تفعيل مكافأة الخبرة."
 
@@ -7287,7 +7287,7 @@ msgstr "اسم مستخدم المُحيل"
 msgid "Refresh every hour"
 msgstr "تحديث كل ساعة"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "تجديد في..."
 
@@ -7403,11 +7403,11 @@ msgstr "رفض"
 msgid "Rejected"
 msgstr "مرفوض"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "مدة التأثير الإيجابي المتبقية"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "مدة التأثير السلبي المتبقية"
 
@@ -8273,7 +8273,7 @@ msgstr "مزورة إحصائياً"
 msgid "Stats"
 msgstr "الإحصائيات"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "تتجدد الإحصائيات كل ساعة"
 
@@ -8864,6 +8864,11 @@ msgstr "إجمالي المكافأة"
 msgid "Total XP earned from missions and milestones"
 msgstr "إجمالي نقاط الخبرة المكتسبة من المهام والإنجازات"
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "تمت إزالة اسم المستخدم"
 msgid "Users"
 msgstr "المستخدمون"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "الاعبين المتصلين"
 

@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} terminées"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} point(s) de prestige sur cette compétence ({savedPrestigeCount} sauvegardé(s), verrouillé(s) jusqu'à la réinitialisation)"
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr "{prestigeLevel} Points de prestige"
 
@@ -204,7 +204,7 @@ msgstr "/jour"
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} batailles supplémentaires"
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr "+{xpBonusPercent} % d'EXP"
 
@@ -1354,7 +1354,7 @@ msgstr "Les comptes créés uniquement pour bénéficier à un joueur, un groupe
 msgid "Actions"
 msgstr "Actions"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr "activé"
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "Les violations intentionnelles ou répétées de cette politique entraîneront une interdiction permanente."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "Le vote pour la primaire du parti sera ouvert dans <0/>"
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Colles un lien vers ton article de campagne, ou laisses vide."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr "Arrêté au niveau max"
 
@@ -6847,7 +6847,7 @@ msgstr "Élections présidentielles"
 msgid "Prestige"
 msgstr "Prestige"
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "Passes au niveau de prestige supérieur pour réactiver ton bonus d'EXP."
 
@@ -7287,7 +7287,7 @@ msgstr "Nom d'utilisateur du parrain"
 msgid "Refresh every hour"
 msgstr "Actualiser chaque heure"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Régénération dans..."
 
@@ -7403,11 +7403,11 @@ msgstr "Contre"
 msgid "Rejected"
 msgstr "Rejetée"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Durée restante du bonus"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Durée restante du malus"
 
@@ -8273,7 +8273,7 @@ msgstr "Statistiquement truqué"
 msgid "Stats"
 msgstr "Statistiques"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "Les statistiques se régénèrent toutes les heures"
 
@@ -8864,6 +8864,11 @@ msgstr "Récompense totale"
 msgid "Total XP earned from missions and milestones"
 msgstr "EXP totale gagnée grâce aux missions et aux paliers"
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "Nom d'utilisateur supprimé"
 msgid "Users"
 msgstr "Joueurs"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Utilisateurs en ligne"
 

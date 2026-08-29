@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} tamamlandı"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr "/gün"
 msgid "+{hiddenBattles} more battles"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
 
@@ -1354,7 +1354,7 @@ msgstr "Yalnızca bir oyuncuya, gruba, askeri birliğe veya ülkeye fayda sağla
 msgid "Actions"
 msgstr "Faaliyetler"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr ""
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "Bu politikanın kasıtlı veya tekrarlanan ihlalleri kalıcı yasakla sonuçlanacaktır."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "<0/> bölgesinde Parti Ön Seçimi oylaması başladı"
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Kampanya makalenize bir link yapıştırın veya boş bırakın."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr ""
 
@@ -6847,7 +6847,7 @@ msgstr "Başkanlık seçimleri"
 msgid "Prestige"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr ""
 
@@ -7287,7 +7287,7 @@ msgstr "Davet eden kullanıcı adı"
 msgid "Refresh every hour"
 msgstr "Her saat yenile"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Yenilenme..."
 
@@ -7403,11 +7403,11 @@ msgstr "Reddet"
 msgid "Rejected"
 msgstr "Reddedildi"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Kalan buff süresi"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Kalan debuff süresi"
 
@@ -8273,7 +8273,7 @@ msgstr "İstatistiksel olarak hileli"
 msgid "Stats"
 msgstr "İstatistikler"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "İstatistikler her saat yenilenir"
 
@@ -8864,6 +8864,11 @@ msgstr "Toplam ödül"
 msgid "Total XP earned from missions and milestones"
 msgstr ""
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "Kullanıcı adı kaldırıldı"
 msgid "Users"
 msgstr "Kullanıcılar"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Çevrimiçi kullanıcılar"
 

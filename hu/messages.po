@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} teljesítve"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr "/nap"
 msgid "+{hiddenBattles} more battles"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
 
@@ -1354,7 +1354,7 @@ msgstr "A kizárólag egy játékos, csoport, katonai egység vagy ország előn
 msgid "Actions"
 msgstr "Műveletek"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr ""
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "Ezen szabályzat szándékos vagy ismételt megsértése végleges kitiltást eredményez."
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "Az előválasztási szavazás most nyitva van itt: <0/>"
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "Illeszd be a kampánycikked linkjét, vagy hagyd üresen."
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr ""
 
@@ -6847,7 +6847,7 @@ msgstr "Elnökválasztások"
 msgid "Prestige"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr ""
 
@@ -7287,7 +7287,7 @@ msgstr "Ajánló felhasználóneve"
 msgid "Refresh every hour"
 msgstr "Frissítés óránként"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "Reg. ..."
 
@@ -7403,11 +7403,11 @@ msgstr "Elutasít"
 msgid "Rejected"
 msgstr "Elutasítva"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "Hátralevő buff időtartam"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "Hátralevő debuff időtartam"
 
@@ -8273,7 +8273,7 @@ msgstr "Statisztikailag manipulált"
 msgid "Stats"
 msgstr "Statisztikák"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "A statisztikák óránként újraképződnek"
 
@@ -8864,6 +8864,11 @@ msgstr "Összes jutalom"
 msgid "Total XP earned from missions and milestones"
 msgstr ""
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "Felhasználónév eltávolítva"
 msgid "Users"
 msgstr "Felhasználók"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "Játékosok online"
 

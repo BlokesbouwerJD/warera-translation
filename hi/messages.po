@@ -159,7 +159,7 @@ msgstr "{completedCount}/{totalCount} पूर्ण हुए"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:143
+#: src/components/_user/user/Level.tsx:153
 msgid "{prestigeLevel} Prestige Points"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr "दिन"
 msgid "+{hiddenBattles} more battles"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:152
+#: src/components/_user/user/Level.tsx:162
 msgid "+{xpBonusPercent}% XP"
 msgstr ""
 
@@ -1354,7 +1354,7 @@ msgstr "केवल किसी खिलाड़ी, समूह, सैन
 msgid "Actions"
 msgstr "कार्यवाही"
 
-#: src/components/_user/user/Level.tsx:160
+#: src/components/_user/user/Level.tsx:170
 msgid "activated"
 msgstr ""
 
@@ -4746,7 +4746,7 @@ msgid "Intentional or repeated violations of this policy will result in a perman
 msgstr "इस नीति का जानबूझकर या बार-बार उल्लंघन करने पर स्थायी प्रतिबंध लगाया जाएगा।"
 
 #: src/components/_layout/LayoutMenu.tsx:92
-#: src/components/_layout/LayoutUserMenu.tsx:199
+#: src/components/_layout/LayoutUserMenu.tsx:149
 #: src/components/_user/user/MyAvatar.tsx:35
 #: src/components/_user/user/UserHeader.tsx:179
 #: src/pages/companies.tsx:84
@@ -6652,7 +6652,7 @@ msgstr "<0/> में दल प्राथमिक चुनाव के �
 msgid "Paste a link to your campaign article, or leave empty."
 msgstr "अपने चुनाव अभियान लेख का लिंक पेस्ट करें, या खाली छोड़ दें।"
 
-#: src/components/_user/user/Level.tsx:156
+#: src/components/_user/user/Level.tsx:166
 msgid "Paused at max level"
 msgstr ""
 
@@ -6847,7 +6847,7 @@ msgstr "राष्ट्रपति चुनाव"
 msgid "Prestige"
 msgstr ""
 
-#: src/components/_user/user/Level.tsx:167
+#: src/components/_user/user/Level.tsx:177
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr ""
 
@@ -7287,7 +7287,7 @@ msgstr "रेफर करने वाले का उपयोगकर्�
 msgid "Refresh every hour"
 msgstr "हर घंटे रीफ्रेश करें"
 
-#: src/components/_layout/LayoutUserMenu.tsx:251
+#: src/components/_layout/LayoutUserMenu.tsx:200
 msgid "Regen in..."
 msgstr "पुनर्जनन होगा..."
 
@@ -7403,11 +7403,11 @@ msgstr "अस्वीकार करें"
 msgid "Rejected"
 msgstr "अस्वीकृत"
 
-#: src/components/_layout/LayoutUserMenu.tsx:277
+#: src/components/_layout/LayoutUserMenu.tsx:226
 msgid "Remaining buff duration"
 msgstr "शेष बफ अवधि"
 
-#: src/components/_layout/LayoutUserMenu.tsx:290
+#: src/components/_layout/LayoutUserMenu.tsx:239
 msgid "Remaining debuff duration"
 msgstr "शेष डिबफ अवधि"
 
@@ -8273,7 +8273,7 @@ msgstr "सांख्यिकीय रूप से धांधली क�
 msgid "Stats"
 msgstr "आँकड़े"
 
-#: src/components/_layout/LayoutUserMenu.tsx:252
+#: src/components/_layout/LayoutUserMenu.tsx:201
 msgid "Stats regenerate every hour"
 msgstr "आँकड़े हर घंटे पुनः उत्पन्न होते हैं"
 
@@ -8864,6 +8864,11 @@ msgstr "कुल पुरस्कार"
 msgid "Total XP earned from missions and milestones"
 msgstr ""
 
+#. placeholder {0}: leveling.totalXp ?? 0
+#: src/components/_user/user/Level.tsx:137
+msgid "Total XP earned: <0>{0}</0>"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillValue.tsx:245
@@ -9264,7 +9269,7 @@ msgstr "उपयोगकर्ता नाम हटाया गया"
 msgid "Users"
 msgstr "उपयोगकर्ता"
 
-#: src/components/_layout/LayoutUserMenu.tsx:303
+#: src/components/_layout/LayoutUserMenu.tsx:252
 msgid "Users online"
 msgstr "ऑनलाइन उपयोगकर्ता"
 
