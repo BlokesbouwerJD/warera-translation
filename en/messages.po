@@ -110,7 +110,7 @@ msgid "{0} active citizens required"
 msgstr "{0} active citizens required"
 
 #. placeholder {0}: formatKm(homeDistanceKm)
-#: src/components/_layout/LayoutMapUserMenu.tsx:142
+#: src/components/_layout/LayoutMapUserMenu.tsx:147
 msgid "{0} away"
 msgstr "{0} away"
 
@@ -163,6 +163,11 @@ msgstr "{0}'s Companies"
 msgid "{0}/{1} active"
 msgstr "{0}/{1} active"
 
+#. placeholder {0}: userMapLootConfig.lootChancePercent
+#: src/components/_layout/LayoutMapUserMenu.tsx:220
+msgid "{0}% base chance, plus your Luck skill"
+msgstr "{0}% base chance, plus your Luck skill"
+
 #. placeholder {0}: companyCountry.taxes.income
 #: src/components/_economy/company/CompanyTags.tsx:50
 msgid "{0}% income tax will be deducted from earnings when working in this company."
@@ -193,10 +198,6 @@ msgstr "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCoun
 #: src/components/_user/user/UserForm.tsx:102
 msgid "{freeChangesLeft, plural, one {# free change left} other {# free changes left}}"
 msgstr "{freeChangesLeft, plural, one {# free change left} other {# free changes left}}"
-
-#: src/components/_layout/LayoutMapUserMenu.tsx:176
-msgid "{lootCount}/{maxLoots} cases on the map"
-msgstr "{lootCount}/{maxLoots} cases on the map"
 
 #: src/components/_political/map/MapMenu.tsx:598
 msgid "{moveCases, plural, one {# region away} other {# regions away}}"
@@ -231,11 +232,7 @@ msgstr "{score}/{0} Rounds"
 msgid "{slotCount} slots"
 msgstr "{slotCount} slots"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:198
-msgid "{spawnChancePercent}% chance"
-msgstr "{spawnChancePercent}% chance"
-
-#: src/components/_layout/LayoutMapUserMenu.tsx:75
+#: src/components/_layout/LayoutMapUserMenu.tsx:76
 msgid "{value} km"
 msgstr "{value} km"
 
@@ -2017,7 +2014,7 @@ msgstr "At the end of the timer <0>{actualTickPoints}</0> will be assigned to th
 msgid "At war with"
 msgstr "At war with"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:218
+#: src/components/_layout/LayoutMapUserMenu.tsx:242
 msgid "Atlas"
 msgstr "Atlas"
 
@@ -2089,7 +2086,7 @@ msgstr "Automated engine"
 msgid "Automated Engine"
 msgstr "Automated Engine"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:138
+#: src/components/_layout/LayoutMapUserMenu.tsx:143
 msgid "Available in"
 msgstr "Available in"
 
@@ -2124,7 +2121,7 @@ msgstr "b. Revealing personal information or doxxing (such as names or addresses
 msgid "Baby Boomer"
 msgstr "Baby Boomer"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:158
+#: src/components/_layout/LayoutMapUserMenu.tsx:163
 msgid "Back to home region"
 msgstr "Back to home region"
 
@@ -4577,7 +4574,7 @@ msgstr "Focus construction"
 msgid "Focus construction here"
 msgstr "Focus construction here"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:148
+#: src/components/_layout/LayoutMapUserMenu.tsx:153
 msgid "Focus on you"
 msgstr "Focus on you"
 
@@ -6416,7 +6413,7 @@ msgstr "Nationality"
 msgid "Nationality updated"
 msgstr "Nationality updated"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:167
+#: src/components/_layout/LayoutMapUserMenu.tsx:172
 msgid "Nearest wooden case"
 msgstr "Nearest wooden case"
 
@@ -6566,10 +6563,6 @@ msgstr "News"
 msgid "Next"
 msgstr "Next"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:192
-msgid "Next case roll in"
-msgstr "Next case roll in"
-
 #: src/components/_other/upgrade/UpgradesGridSummary.tsx:226
 msgid "Next hourly cost"
 msgstr "Next hourly cost"
@@ -6708,7 +6701,7 @@ msgstr "No donations yet"
 msgid "No ground ranking yet."
 msgstr "No ground ranking yet."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:133
+#: src/components/_layout/LayoutMapUserMenu.tsx:138
 msgid "No home region set"
 msgstr "No home region set"
 
@@ -8853,9 +8846,9 @@ msgstr "Skins owned"
 msgid "Skip Tutorial"
 msgstr "Skip Tutorial"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:196
-msgid "Skipped, you already hold {maxLoots}"
-msgstr "Skipped, you already hold {maxLoots}"
+#: src/components/_layout/LayoutMapUserMenu.tsx:223
+msgid "Skipped"
+msgstr "Skipped"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:260
 msgid "Sling Stones"
@@ -9325,6 +9318,10 @@ msgstr "The revolution in <0/> has been suppressed. The government remains in po
 msgid "The revolution in <0/> has succeeded! The government has been overthrown."
 msgstr "The revolution in <0/> has succeeded! The government has been overthrown."
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:219
+msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
+msgstr "The roll is skipped while you hold {maxLoots} uncollected cases"
+
 #: src/pages/region/[regionId]/index.tsx:116
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "The strategic resource will be reshuffled in the following amount of time."
@@ -9447,6 +9444,10 @@ msgstr "Time to fight for your country! Let's join the action."
 #: src/components/_other/tour/tuto.frontConfig.tsx:45
 msgid "Time to produce!"
 msgstr "Time to produce!"
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:209
+msgid "Time until the next case roll"
+msgstr "Time until the next case roll"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:17
 msgid "Tiny Pixel"
@@ -9815,6 +9816,10 @@ msgstr "UI"
 #: src/components/_user/user/UserDropdown.tsx:311
 msgid "Unblock (show content)"
 msgstr "Unblock (show content)"
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:200
+msgid "Uncollected cases waiting on the map, out of {maxLoots}"
+msgstr "Uncollected cases waiting on the map, out of {maxLoots}"
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
@@ -10478,6 +10483,10 @@ msgstr "Wooden Case"
 msgid "Wooden case collected!"
 msgstr "Wooden case collected!"
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:192
+msgid "Wooden cases"
+msgstr "Wooden cases"
+
 #: src/components/_other/shop/skin.frontConfig.tsx:251
 msgid "Wooden Self Bow"
 msgstr "Wooden Self Bow"
@@ -10578,7 +10587,7 @@ msgstr "You are a lucky bastard"
 msgid "You are already congress member of another country. Resign first."
 msgstr "You are already congress member of another country. Resign first."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:135
+#: src/components/_layout/LayoutMapUserMenu.tsx:140
 msgid "You are already home"
 msgstr "You are already home"
 
@@ -11193,10 +11202,10 @@ msgstr "your@email.com"
 msgid "Yours"
 msgstr "Yours"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:145
+#: src/components/_layout/LayoutLeftIcons.tsx:147
 msgid "Zoom in"
 msgstr "Zoom in"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:153
+#: src/components/_layout/LayoutLeftIcons.tsx:155
 msgid "Zoom out"
 msgstr "Zoom out"

@@ -110,7 +110,7 @@ msgid "{0} active citizens required"
 msgstr "Потрібно {0} активних громадян"
 
 #. placeholder {0}: formatKm(homeDistanceKm)
-#: src/components/_layout/LayoutMapUserMenu.tsx:142
+#: src/components/_layout/LayoutMapUserMenu.tsx:147
 msgid "{0} away"
 msgstr ""
 
@@ -163,6 +163,11 @@ msgstr "Фабрики {0}"
 msgid "{0}/{1} active"
 msgstr "{0}/{1} активні"
 
+#. placeholder {0}: userMapLootConfig.lootChancePercent
+#: src/components/_layout/LayoutMapUserMenu.tsx:220
+msgid "{0}% base chance, plus your Luck skill"
+msgstr ""
+
 #. placeholder {0}: companyCountry.taxes.income
 #: src/components/_economy/company/CompanyTags.tsx:50
 msgid "{0}% income tax will be deducted from earnings when working in this company."
@@ -192,10 +197,6 @@ msgstr ""
 
 #: src/components/_user/user/UserForm.tsx:102
 msgid "{freeChangesLeft, plural, one {# free change left} other {# free changes left}}"
-msgstr ""
-
-#: src/components/_layout/LayoutMapUserMenu.tsx:176
-msgid "{lootCount}/{maxLoots} cases on the map"
 msgstr ""
 
 #: src/components/_political/map/MapMenu.tsx:598
@@ -231,11 +232,7 @@ msgstr "{score}/{0} раундів"
 msgid "{slotCount} slots"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:198
-msgid "{spawnChancePercent}% chance"
-msgstr ""
-
-#: src/components/_layout/LayoutMapUserMenu.tsx:75
+#: src/components/_layout/LayoutMapUserMenu.tsx:76
 msgid "{value} km"
 msgstr ""
 
@@ -2017,7 +2014,7 @@ msgstr "Коли таймер дійде нуля, <0>{actualTickPoints}</0> б�
 msgid "At war with"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:218
+#: src/components/_layout/LayoutMapUserMenu.tsx:242
 msgid "Atlas"
 msgstr ""
 
@@ -2089,7 +2086,7 @@ msgstr "Автоматичний двигун"
 msgid "Automated Engine"
 msgstr "Автоматичний двигун"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:138
+#: src/components/_layout/LayoutMapUserMenu.tsx:143
 msgid "Available in"
 msgstr ""
 
@@ -2124,7 +2121,7 @@ msgstr "b. Розкриття особистої інформації або д�
 msgid "Baby Boomer"
 msgstr "Бейбібумер"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:158
+#: src/components/_layout/LayoutMapUserMenu.tsx:163
 msgid "Back to home region"
 msgstr ""
 
@@ -4577,7 +4574,7 @@ msgstr ""
 msgid "Focus construction here"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:148
+#: src/components/_layout/LayoutMapUserMenu.tsx:153
 msgid "Focus on you"
 msgstr ""
 
@@ -6416,7 +6413,7 @@ msgstr ""
 msgid "Nationality updated"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:167
+#: src/components/_layout/LayoutMapUserMenu.tsx:172
 msgid "Nearest wooden case"
 msgstr ""
 
@@ -6566,10 +6563,6 @@ msgstr "Новини"
 msgid "Next"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:192
-msgid "Next case roll in"
-msgstr ""
-
 #: src/components/_other/upgrade/UpgradesGridSummary.tsx:226
 msgid "Next hourly cost"
 msgstr ""
@@ -6708,7 +6701,7 @@ msgstr "Пожертв ще немає"
 msgid "No ground ranking yet."
 msgstr "Рейтингу за балами контролю ще немає."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:133
+#: src/components/_layout/LayoutMapUserMenu.tsx:138
 msgid "No home region set"
 msgstr ""
 
@@ -8853,8 +8846,8 @@ msgstr ""
 msgid "Skip Tutorial"
 msgstr "Пропустити навчання"
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:196
-msgid "Skipped, you already hold {maxLoots}"
+#: src/components/_layout/LayoutMapUserMenu.tsx:223
+msgid "Skipped"
 msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:260
@@ -9325,6 +9318,10 @@ msgstr "Революцію у <0/> було придушено. Уряд втр�
 msgid "The revolution in <0/> has succeeded! The government has been overthrown."
 msgstr "Революція у <0/> зазнала успіху! Уряд було скинуто."
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:219
+msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
+msgstr ""
+
 #: src/pages/region/[regionId]/index.tsx:116
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Час, через який стратегічні ресурси змінять розташування."
@@ -9447,6 +9444,10 @@ msgstr "Час воювати за свою країну! Давай приєд�
 #: src/components/_other/tour/tuto.frontConfig.tsx:45
 msgid "Time to produce!"
 msgstr "Час виробляти!"
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:209
+msgid "Time until the next case roll"
+msgstr ""
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:17
 msgid "Tiny Pixel"
@@ -9815,6 +9816,10 @@ msgstr ""
 #: src/components/_user/user/UserDropdown.tsx:311
 msgid "Unblock (show content)"
 msgstr "Розблокувати (показати контент)"
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:200
+msgid "Uncollected cases waiting on the map, out of {maxLoots}"
+msgstr ""
 
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
@@ -10478,6 +10483,10 @@ msgstr ""
 msgid "Wooden case collected!"
 msgstr ""
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:192
+msgid "Wooden cases"
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:251
 msgid "Wooden Self Bow"
 msgstr ""
@@ -10578,7 +10587,7 @@ msgstr "Ти бляха везучий"
 msgid "You are already congress member of another country. Resign first."
 msgstr "Ви вже є парламентарем іншої держави. Спочатку подайте у відставку."
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:135
+#: src/components/_layout/LayoutMapUserMenu.tsx:140
 msgid "You are already home"
 msgstr ""
 
@@ -11193,10 +11202,10 @@ msgstr "ваш@email.com"
 msgid "Yours"
 msgstr "Ваші"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:145
+#: src/components/_layout/LayoutLeftIcons.tsx:147
 msgid "Zoom in"
 msgstr ""
 
-#: src/components/_layout/LayoutLeftIcons.tsx:153
+#: src/components/_layout/LayoutLeftIcons.tsx:155
 msgid "Zoom out"
 msgstr ""
