@@ -110,6 +110,11 @@ msgstr "{0} ja liittolaiset"
 msgid "{0} active citizens required"
 msgstr "Tarvitaan {0} aktiivista kansalaista"
 
+#. placeholder {0}: formatKm(homeDistanceKm)
+#: src/components/_layout/LayoutMapUserMenu.tsx:142
+msgid "{0} away"
+msgstr ""
+
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:488
 msgid "{0} bought your item offer"
@@ -190,6 +195,10 @@ msgstr ""
 msgid "{freeChangesLeft, plural, one {# free change left} other {# free changes left}}"
 msgstr ""
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:176
+msgid "{lootCount}/{maxLoots} cases on the map"
+msgstr ""
+
 #: src/components/_political/map/MapMenu.tsx:598
 msgid "{moveCases, plural, one {# region away} other {# regions away}}"
 msgstr ""
@@ -221,6 +230,14 @@ msgstr "{score}/{0} kierrosta"
 
 #: src/components/_political/region/UpgradeList.tsx:208
 msgid "{slotCount} slots"
+msgstr ""
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:198
+msgid "{spawnChancePercent}% chance"
+msgstr ""
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:75
+msgid "{value} km"
 msgstr ""
 
 #: src/components/_common/GameRules.tsx:153
@@ -2001,6 +2018,10 @@ msgstr "Ajastimen lopussa <0>{actualTickPoints}</0> jaetaan sille puolelle, joll
 msgid "At war with"
 msgstr ""
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:218
+msgid "Atlas"
+msgstr ""
+
 #: src/components/_military/hit/HitButton.tsx:569
 #: src/components/_political/map/MapMenu.tsx:393
 #: src/components/_user/user/skills.frontConfig.tsx:45
@@ -2069,6 +2090,10 @@ msgstr "Automaattinen moottori"
 msgid "Automated Engine"
 msgstr "Automatisoitu Moottori"
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:138
+msgid "Available in"
+msgstr ""
+
 #: src/components/_user/mission/MissionsList.tsx:322
 msgid "Available now"
 msgstr ""
@@ -2099,6 +2124,10 @@ msgstr ""
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:176
 msgid "Baby Boomer"
 msgstr "Babyboomeri"
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:158
+msgid "Back to home region"
+msgstr ""
 
 #: src/components/_layout/LayoutOptions.tsx:170
 msgid "Background pattern"
@@ -4549,6 +4578,10 @@ msgstr ""
 msgid "Focus construction here"
 msgstr ""
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:148
+msgid "Focus on you"
+msgstr ""
+
 #: src/components/_political/region/SetResistanceFocusModal.tsx:88
 #: src/components/_political/region/SetResistanceFocusModal.tsx:139
 msgid "Focus resistance"
@@ -5790,7 +5823,7 @@ msgstr "Hallinto"
 msgid "map"
 msgstr "kartta"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:157
+#: src/components/_layout/LayoutMapOptions.tsx:82
 #: src/components/_layout/LayoutOptions.tsx:106
 msgid "Map"
 msgstr ""
@@ -6194,7 +6227,7 @@ msgstr ""
 msgid "Monthly:"
 msgstr "Kuukausittain:"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:227
+#: src/components/_layout/LayoutLeftIcons.tsx:224
 #: src/components/_layout/MoreButtonNav.tsx:191
 msgid "More"
 msgstr "Lisää"
@@ -6384,6 +6417,10 @@ msgstr ""
 msgid "Nationality updated"
 msgstr ""
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:167
+msgid "Nearest wooden case"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:56
 msgid "Need a job?"
 msgstr "Tarvitsetko työtä?"
@@ -6530,6 +6567,10 @@ msgstr "Uutiset"
 msgid "Next"
 msgstr ""
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:192
+msgid "Next case roll in"
+msgstr ""
+
 #: src/components/_other/upgrade/UpgradesGridSummary.tsx:226
 msgid "Next hourly cost"
 msgstr ""
@@ -6667,6 +6708,10 @@ msgstr "Ei lahjoituksia vielä"
 #: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Ei vielä maasijaa."
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:133
+msgid "No home region set"
+msgstr ""
 
 #: src/components/_user/kits/KitsPopover.tsx:130
 msgid "No kits yet - add one to quick-equip a full loadout."
@@ -7019,7 +7064,7 @@ msgstr "Avaa tapauksesi!"
 msgid "Operative"
 msgstr "Tiedustelija"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:208
+#: src/components/_layout/LayoutLeftIcons.tsx:205
 msgid "Options"
 msgstr "Vaihtoehdot"
 
@@ -8398,7 +8443,7 @@ msgstr "Kierroksia voitettu"
 msgid "Rounds Won"
 msgstr "Voitetut kierrokset"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:218
+#: src/components/_layout/LayoutLeftIcons.tsx:215
 #: src/components/_user/auth/WelcomeModal.tsx:170
 msgid "Rules"
 msgstr "säännöt"
@@ -8808,6 +8853,10 @@ msgstr ""
 #: src/components/_other/tour/TutorialStep.tsx:185
 msgid "Skip Tutorial"
 msgstr "Ohita opetusohjelma"
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:196
+msgid "Skipped, you already hold {maxLoots}"
+msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:260
 msgid "Sling Stones"
@@ -10530,6 +10579,10 @@ msgstr "Olet onnekas paskiainen"
 msgid "You are already congress member of another country. Resign first."
 msgstr "Olet jo toisen maan kongressin jäsen. Irtisanoudu ensin."
 
+#: src/components/_layout/LayoutMapUserMenu.tsx:135
+msgid "You are already home"
+msgstr ""
+
 #: src/pages/country/[countryId]/index.tsx:109
 msgid "You are already president of another country. Resign first."
 msgstr "Olet jo toisen maan presidentti. Irtisanoudu ensin."
@@ -11141,10 +11194,10 @@ msgstr "sinun@sähköposti.fi"
 msgid "Yours"
 msgstr "Sinun"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:134
+#: src/components/_layout/LayoutLeftIcons.tsx:145
 msgid "Zoom in"
 msgstr ""
 
-#: src/components/_layout/LayoutLeftIcons.tsx:142
+#: src/components/_layout/LayoutLeftIcons.tsx:153
 msgid "Zoom out"
 msgstr ""
