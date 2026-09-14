@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - 低薪勞工（低於正常薪資之80%或高於20%）"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:475
+#: src/components/_user/user/UserHeader.tsx:476
 msgid " - Reason: {0}"
 msgstr " - 原因: {0}"
 
@@ -196,7 +196,7 @@ msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount
 msgstr "{draftPrestigeCount} 聲望點數在此技能（{savedPrestigeCount} 已儲存，鎖定直到重置）"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:572
+#: src/components/_political/map/MapMenu.tsx:570
 msgid "{moveCases, plural, one {# region away} other {# regions away}}"
 msgstr ""
 
@@ -552,6 +552,10 @@ msgstr ""
 msgid "<0/> max hunger for every member of the unit."
 msgstr ""
 
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
+msgid "<0/> max stamina, so you travel further and recover it faster."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
 msgstr "<0/> 提及了你 <1/>"
@@ -611,7 +615,7 @@ msgstr "<0/> 回應了你的訊息 {0}"
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr "<0/> 在 <1/>{0} 回覆了你的訊息"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:477
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:478
 msgid "<0/> scraps when you dismantle an item."
 msgstr ""
 
@@ -740,11 +744,6 @@ msgstr "<0>{0}</0> 因為 <1/> 佔領了至少一塊 <2/> 地區"
 #. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:198
 msgid "<0>{0}</0> cheaper travel for your citizens, between regions held by your country or your alliance.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
-#. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
-msgid "<0>{0}</0> cheaper travel, in stamina and in oil alike."
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
@@ -1449,7 +1448,7 @@ msgstr "訪問戰爭"
 #: src/components/_military/mu/MuHeader.tsx:162
 #: src/components/_political/country/CountryHeader.tsx:94
 #: src/components/_political/party/PartyHeader.tsx:117
-#: src/components/_user/user/UserHeader.tsx:187
+#: src/components/_user/user/UserHeader.tsx:188
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1705,7 +1704,7 @@ msgstr "阿爾法測試員"
 msgid "Ammo"
 msgstr "子彈"
 
-#: src/components/_user/user/SkillValue.tsx:166
+#: src/components/_user/user/SkillValue.tsx:173
 msgid "Ammo:"
 msgstr "子彈："
 
@@ -1917,7 +1916,7 @@ msgstr "文章小費"
 msgid "Article tipped"
 msgstr "文章已給小費"
 
-#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserHeader.tsx:260
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "文章"
@@ -2142,7 +2141,7 @@ msgstr "球"
 msgid "Bankruptcy"
 msgstr "破產"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Banned"
 msgstr "已停權"
 
@@ -2162,8 +2161,8 @@ msgstr "已送出橫幅禮物"
 msgid "Banners"
 msgstr "橫幅"
 
-#: src/components/_user/user/UserHeader.tsx:212
-#: src/components/_user/user/UserHeader.tsx:278
+#: src/components/_user/user/UserHeader.tsx:213
+#: src/components/_user/user/UserHeader.tsx:279
 msgid "Bans"
 msgstr "用戶紀錄"
 
@@ -2368,7 +2367,7 @@ msgstr "麵包"
 msgid "Break defensive pact"
 msgstr "打破共同防禦條約"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:491
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:492
 msgid "Break room"
 msgstr "休息室"
 
@@ -2392,7 +2391,7 @@ msgstr "預算"
 msgid "Buff ended"
 msgstr "加成已結束"
 
-#: src/components/_user/user/UserHeader.tsx:347
+#: src/components/_user/user/UserHeader.tsx:348
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "加成結束"
@@ -2405,7 +2404,7 @@ msgstr "加成即將到期"
 msgid "Buff started"
 msgstr "加成已開始"
 
-#: src/components/_user/user/SkillValue.tsx:198
+#: src/components/_user/user/SkillValue.tsx:205
 msgid "Buffs:"
 msgstr "加成："
 
@@ -2754,7 +2753,7 @@ msgstr "選邊後點擊來造成<0>傷害</0>！持續攻擊來為你的隊伍�
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "選擇特定的物品花費兩倍的鋼"
 
-#: src/components/_user/user/UserHeader.tsx:328
+#: src/components/_user/user/UserHeader.tsx:329
 msgid "Citizen since"
 msgstr "加入自從"
 
@@ -2846,7 +2845,7 @@ msgstr "點擊以選擇提案"
 msgid "Climate"
 msgstr "氣候"
 
-#: ../__ui/src/components/Modal/Modal.tsx:385
+#: ../__ui/src/components/Modal/Modal.tsx:386
 #: ../__ui/src/components/Modal/ModalOld.tsx:249
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
@@ -2860,7 +2859,7 @@ msgstr "克洛維斯矛頭"
 msgid "Cold af"
 msgstr "冷死了"
 
-#: src/components/_political/map/MapMenu.tsx:631
+#: src/components/_political/map/MapMenu.tsx:630
 msgid "Collect"
 msgstr ""
 
@@ -2872,7 +2871,7 @@ msgstr ""
 msgid "Collect Cases on the Map"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:613
+#: src/components/_political/map/MapMenu.tsx:611
 msgid "Collect the wooden case lying on this region"
 msgstr ""
 
@@ -2921,8 +2920,8 @@ msgstr "社群"
 
 #: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_political/region/RegionHeader.tsx:119
-#: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:251
+#: src/components/_user/user/MyAvatar.tsx:55
+#: src/components/_user/user/UserHeader.tsx:252
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:97
 msgid "Companies"
@@ -3109,6 +3108,7 @@ msgstr ""
 msgid "Construction payout"
 msgstr ""
 
+#: src/components/_economy/market/MarketHeader.tsx:27
 #: src/pages/market/constructions.tsx:13
 msgid "Constructions"
 msgstr ""
@@ -3261,6 +3261,10 @@ msgstr "國家"
 #: src/components/_political/party/PartyHeader.tsx:84
 msgid "Country"
 msgstr "國家"
+
+#: src/components/_user/user/SkillUpgradeBonusRows.tsx:44
+msgid "Country buildings:"
+msgstr ""
 
 #: src/components/_other/upgrade/UpgradeCostDetails.tsx:39
 msgid "country citizens"
@@ -3607,12 +3611,12 @@ msgstr "造成一些傷害"
 msgid "Debuff ended"
 msgstr "減益已結束"
 
-#: src/components/_user/user/UserHeader.tsx:355
+#: src/components/_user/user/UserHeader.tsx:356
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "減益結束"
 
-#: src/components/_user/user/SkillValue.tsx:230
+#: src/components/_user/user/SkillValue.tsx:237
 msgid "Debuffs:"
 msgstr "減益："
 
@@ -3922,9 +3926,14 @@ msgstr "閃避"
 msgid "Dodge <0/> attacks"
 msgstr "閃躲 <0/> 攻擊"
 
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/MyAvatar.tsx:48
+#: src/components/_user/user/UserHeader.tsx:195
 #: src/pages/user/[userId]/domain.tsx:22
 msgid "Domain"
+msgstr ""
+
+#: src/components/_user/user/SkillUpgradeBonusRows.tsx:56
+msgid "Domain buildings:"
 msgstr ""
 
 #: src/components/_user/domain/DomainUpgradeList.tsx:101
@@ -4073,7 +4082,7 @@ msgstr "編輯另一個命令"
 msgid "Effect applies to the whole country. Maintenance scales with the country's average development."
 msgstr ""
 
-#: src/components/_user/user/SkillValue.tsx:260
+#: src/components/_user/user/SkillValue.tsx:267
 msgid "Effective:"
 msgstr "效果："
 
@@ -4211,11 +4220,12 @@ msgstr "創業能力"
 msgid "Equipment"
 msgstr "裝備"
 
-#: src/components/_user/user/SkillValue.tsx:103
+#: src/components/_user/user/SkillBar.tsx:47
+#: src/components/_user/user/SkillValue.tsx:104
 msgid "Equipment:"
 msgstr "裝備："
 
-#: src/components/_economy/market/MarketHeader.tsx:20
+#: src/components/_economy/market/MarketHeader.tsx:21
 msgid "Equipments"
 msgstr "裝備"
 
@@ -5048,7 +5058,7 @@ msgstr "幫你的國家攻擊，同時位於政府內的話，獲得之獎金為
 #: src/components/_political/country/CountryHeader.tsx:81
 #: src/components/_political/party/PartyHeader.tsx:99
 #: src/components/_political/region/RegionHeader.tsx:59
-#: src/components/_user/user/UserHeader.tsx:173
+#: src/components/_user/user/UserHeader.tsx:174
 msgid "Home"
 msgstr "主頁"
 
@@ -5217,8 +5227,8 @@ msgstr "故意或重複的違反條例會導致永久停權。"
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_layout/LayoutUserMenu.tsx:150
-#: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:179
+#: src/components/_user/user/MyAvatar.tsx:36
+#: src/components/_user/user/UserHeader.tsx:180
 #: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -5317,7 +5327,7 @@ msgstr "工作職缺"
 msgid "Job offers"
 msgstr "工作職缺"
 
-#: src/components/_economy/market/MarketHeader.tsx:26
+#: src/components/_economy/market/MarketHeader.tsx:33
 #: src/components/_political/region/RegionHeader.tsx:65
 msgid "Jobs"
 msgstr "工作"
@@ -5441,7 +5451,7 @@ msgstr "語言"
 msgid "Last"
 msgstr "最後"
 
-#: src/components/_user/user/UserHeader.tsx:363
+#: src/components/_user/user/UserHeader.tsx:364
 msgid "Last connection"
 msgstr "最近連線"
 
@@ -5666,7 +5676,7 @@ msgstr "食物使用上限"
 msgid "Limit reached"
 msgstr "已達到上限"
 
-#: src/components/_user/user/SkillValue.tsx:118
+#: src/components/_user/user/SkillValue.tsx:119
 msgid "Limited:"
 msgstr "限制："
 
@@ -5724,7 +5734,7 @@ msgstr ""
 msgid "Locked, reset your skills to reassign"
 msgstr "已上鎖，重置你的技能以重新分配"
 
-#: src/components/_user/user/MyAvatar.tsx:60
+#: src/components/_user/user/MyAvatar.tsx:67
 msgid "Logout"
 msgstr "登出"
 
@@ -5830,7 +5840,7 @@ msgstr "地圖深淺"
 msgid "Map icons"
 msgstr "地圖圖示"
 
-#: src/components/_economy/market/MarketHeader.tsx:38
+#: src/components/_economy/market/MarketHeader.tsx:45
 #: src/components/_layout/LayoutMenu.tsx:163
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:268
 #: src/pages/country/[countryId]/account.tsx:31
@@ -5878,7 +5888,7 @@ msgstr "最大可容納 <0>{0}</0> 位成員。"
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:495
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:496
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "最大可容納 <0>{0}</0> 位員工。{1}"
 
@@ -6082,7 +6092,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr "你已領取的里程碑級別，橫跨所有階段"
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:237
+#: src/components/_user/user/UserHeader.tsx:238
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr "里程碑"
@@ -6114,7 +6124,7 @@ msgstr "軍階"
 msgid "Military Rank Up!"
 msgstr "軍階提升！"
 
-#: src/components/_user/user/SkillValue.tsx:214
+#: src/components/_user/user/SkillValue.tsx:221
 msgid "Military rank:"
 msgstr "軍階："
 
@@ -6131,6 +6141,10 @@ msgstr "軍團"
 #: src/components/_social/announcement/AnnouncementModal.tsx:49
 msgid "Military unit announcement"
 msgstr "軍團公告"
+
+#: src/components/_user/user/SkillUpgradeBonusRows.tsx:50
+msgid "Military unit buildings:"
+msgstr ""
 
 #: src/components/_military/mu/MuFormModal.tsx:44
 msgid "Military unit created"
@@ -6180,7 +6194,7 @@ msgstr "任務標籤"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
 #: src/components/_user/mission/MissionsList.tsx:232
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 msgid "Missions"
 msgstr "任務"
 
@@ -6300,7 +6314,7 @@ msgstr "移動公司"
 msgid "Move the company"
 msgstr "移動公司"
 
-#: src/components/_political/map/MapMenu.tsx:614
+#: src/components/_political/map/MapMenu.tsx:612
 msgid "Move to this region to collect its wooden case"
 msgstr ""
 
@@ -7132,7 +7146,7 @@ msgstr "結果"
 msgid "Overall"
 msgstr "全面"
 
-#: src/components/_user/user/SkillValue.tsx:182
+#: src/components/_user/user/SkillValue.tsx:189
 msgid "Overflow:"
 msgstr "已溢出："
 
@@ -7505,7 +7519,7 @@ msgstr "聲望"
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "飛升以降低等級並重新使經驗紅利作用"
 
-#: src/components/_user/user/SkillValue.tsx:72
+#: src/components/_user/user/SkillValue.tsx:73
 msgid "Prestige:"
 msgstr "聲望："
 
@@ -7600,7 +7614,7 @@ msgstr "僅限專家"
 msgid "Professionals only (5+ rep)"
 msgstr "僅限專家（名聲 5 以上）"
 
-#: src/components/_user/user/MyAvatar.tsx:29
+#: src/components/_user/user/MyAvatar.tsx:30
 msgid "Profile"
 msgstr "個人檔案"
 
@@ -7912,7 +7926,7 @@ msgstr "降低戰鬥中損失的生命值"
 msgid "Referral link copied to clipboard"
 msgstr "邀請連結已複製到剪貼簿"
 
-#: src/components/_user/user/UserHeader.tsx:265
+#: src/components/_user/user/UserHeader.tsx:266
 #: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -8192,7 +8206,7 @@ msgstr "舉報"
 msgid "Report user"
 msgstr "舉報用戶"
 
-#: src/components/_user/user/UserHeader.tsx:219
+#: src/components/_user/user/UserHeader.tsx:220
 msgid "Reports"
 msgstr "舉報"
 
@@ -8441,7 +8455,7 @@ msgstr "這詐騙吧"
 msgid "Scraps"
 msgstr "廢料"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:473
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:474
 msgid "Scrapyard"
 msgstr ""
 
@@ -8678,8 +8692,8 @@ msgid "Set your username"
 msgstr "設置你的用戶名稱"
 
 #: src/components/_military/mu/MuHeader.tsx:192
-#: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/MyAvatar.tsx:61
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Settings"
 msgstr "設定"
 
@@ -8754,12 +8768,13 @@ msgstr "技能紅利"
 msgid "Skill issue?"
 msgstr "技術問題？"
 
-#: src/components/_user/user/SkillValue.tsx:59
+#: src/components/_user/user/SkillBar.tsx:31
+#: src/components/_user/user/SkillValue.tsx:60
 msgid "Skill upgrade:"
 msgstr "技能升級："
 
-#: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:200
+#: src/components/_user/user/MyAvatar.tsx:42
+#: src/components/_user/user/UserHeader.tsx:201
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "技能"
@@ -8880,7 +8895,7 @@ msgid "Spendings"
 msgstr "支出"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points."
+msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points, only by building a Garage on your domain."
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
@@ -9636,7 +9651,8 @@ msgstr "總計從任務及里程碑賺取之經驗"
 
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
-#: src/components/_user/user/SkillValue.tsx:245
+#: src/components/_user/user/SkillBar.tsx:59
+#: src/components/_user/user/SkillValue.tsx:252
 msgid "Total:"
 msgstr "總和："
 
@@ -9667,7 +9683,7 @@ msgstr "錦標賽中遭淘汰"
 msgid "Tournament Ended"
 msgstr "錦標賽已結束"
 
-#: src/components/_user/user/SkillValue.tsx:146
+#: src/components/_user/user/SkillValue.tsx:147
 msgid "Tournament reward:"
 msgstr "錦標賽獎勵："
 
@@ -9700,7 +9716,7 @@ msgstr "訓練兵"
 msgid "Training Grounds"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:245
+#: src/components/_user/user/UserHeader.tsx:246
 msgid "Transac."
 msgstr "交易紀錄"
 
@@ -9859,7 +9875,7 @@ msgstr ""
 msgid "Unlocks at level {unlockLevel}."
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:471
+#: src/components/_user/user/UserHeader.tsx:472
 msgid "Unmuted <0/>"
 msgstr "對 <0/> 解除禁言"
 
@@ -10304,7 +10320,8 @@ msgstr "資產"
 msgid "Weapon"
 msgstr "武器"
 
-#: src/components/_user/user/SkillValue.tsx:88
+#: src/components/_user/user/SkillBar.tsx:38
+#: src/components/_user/user/SkillValue.tsx:89
 msgid "Weapon:"
 msgstr "武器："
 
@@ -10554,7 +10571,7 @@ msgstr "你已是其他國家的總統了，請先卸任。"
 msgid "You are already vice president of another country. Resign first."
 msgstr "你已是其他國家的副總統了，請先卸任。"
 
-#: src/components/_political/map/MapMenu.tsx:656
+#: src/components/_political/map/MapMenu.tsx:655
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
 msgstr "你在這裡"
@@ -11078,7 +11095,7 @@ msgstr "你的軍團已登記此次的錦標賽"
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
 msgstr "你的軍湍需要擁有足夠的金錢以支付出價同意費用。費用僅會在贏得競標時扣除，並在合約完成時退還。"
 
-#: src/components/_economy/market/MarketHeader.tsx:14
+#: src/components/_economy/market/MarketHeader.tsx:15
 msgid "Your offers"
 msgstr "你的訂單"
 
