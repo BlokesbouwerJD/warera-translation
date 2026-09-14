@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Raspon plaća radne snage (treba biti u rasponu od 0.8x do 1.2x normalne plaće)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:475
+#: src/components/_user/user/UserHeader.tsx:476
 msgid " - Reason: {0}"
 msgstr " - Razlog: {0}"
 
@@ -196,7 +196,7 @@ msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount
 msgstr "{draftPrestigeCount} poen/a prestiža u ovoj vještini ({savedPrestigeCount} spremljeno, zaključano do restarta vještina)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:572
+#: src/components/_political/map/MapMenu.tsx:570
 msgid "{moveCases, plural, one {# region away} other {# regions away}}"
 msgstr "{moveCases, plural, one {# regiju udaljena} other {# regije udaljena}}"
 
@@ -552,6 +552,10 @@ msgstr "<0/> maks. energije"
 msgid "<0/> max hunger for every member of the unit."
 msgstr "<0/> maks. apetit za svakog člana vojne jedinice."
 
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
+msgid "<0/> max stamina, so you travel further and recover it faster."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
 msgstr "<0/> te je spomenuo <1/>"
@@ -611,7 +615,7 @@ msgstr "<0/> јe odgovorio na vašu poruku {0}"
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr "<0/> je odgovorio na vašu poruku u <1/>{0}"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:477
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:478
 msgid "<0/> scraps when you dismantle an item."
 msgstr "<0/> ostataka kada rastavite predmet"
 
@@ -741,11 +745,6 @@ msgstr "<0>{0}</0> јer <1/> okupira naјmanje јednu regiju države <2/>"
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:198
 msgid "<0>{0}</0> cheaper travel for your citizens, between regions held by your country or your alliance.<1/>Unique: one per country, on a core region only."
 msgstr "<0>{0}</0> jeftinija putovanja za građane države za sve okupirane regije kao i za građane iz savezničkih država.<1/>Specijalna građevina koja se može graditi jednom i samo u izvornim regijama države."
-
-#. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
-msgid "<0>{0}</0> cheaper travel, in stamina and in oil alike."
-msgstr "<0>{0}</0> jeftinija putovanja, oboje u kondiciji i petrolu."
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #. placeholder {1}: (levelConfig.stats.defenseBonus || 0) / 2
@@ -1449,7 +1448,7 @@ msgstr "Pogledaј rat"
 #: src/components/_military/mu/MuHeader.tsx:162
 #: src/components/_political/country/CountryHeader.tsx:94
 #: src/components/_political/party/PartyHeader.tsx:117
-#: src/components/_user/user/UserHeader.tsx:187
+#: src/components/_user/user/UserHeader.tsx:188
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1917,7 +1916,7 @@ msgstr "Transakcije napojnica"
 msgid "Article tipped"
 msgstr "Primljena napojnica"
 
-#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserHeader.tsx:260
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Članci"
@@ -2142,7 +2141,7 @@ msgstr "Lopta"
 msgid "Bankruptcy"
 msgstr "Bankrot"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Banned"
 msgstr "Korisnik izopćen"
 
@@ -2162,8 +2161,8 @@ msgstr "Slanje baner poklona"
 msgid "Banners"
 msgstr "Baneri"
 
-#: src/components/_user/user/UserHeader.tsx:212
-#: src/components/_user/user/UserHeader.tsx:278
+#: src/components/_user/user/UserHeader.tsx:213
+#: src/components/_user/user/UserHeader.tsx:279
 msgid "Bans"
 msgstr "Banovi"
 
@@ -2368,7 +2367,7 @@ msgstr "Kruh"
 msgid "Break defensive pact"
 msgstr "Poništi obrambeni pakt"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:491
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:492
 msgid "Break room"
 msgstr "Soba za odmor"
 
@@ -2392,7 +2391,7 @@ msgstr "Budžet"
 msgid "Buff ended"
 msgstr "Kraj Buff-a"
 
-#: src/components/_user/user/UserHeader.tsx:347
+#: src/components/_user/user/UserHeader.tsx:348
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "Buff završava"
@@ -2754,7 +2753,7 @@ msgstr "Izaberite stranu u bitki za koju želite nanijeti <0>Štetu</0>. Pobjedn
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Izbor specifičnog predmeta košta ×2 čelika:"
 
-#: src/components/_user/user/UserHeader.tsx:328
+#: src/components/_user/user/UserHeader.tsx:329
 msgid "Citizen since"
 msgstr "Korisnik/ca od"
 
@@ -2846,7 +2845,7 @@ msgstr "Kliknite da biste izabrali prijedlog"
 msgid "Climate"
 msgstr "Klima"
 
-#: ../__ui/src/components/Modal/Modal.tsx:385
+#: ../__ui/src/components/Modal/Modal.tsx:386
 #: ../__ui/src/components/Modal/ModalOld.tsx:249
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
@@ -2860,7 +2859,7 @@ msgstr "Kameni Šiljak"
 msgid "Cold af"
 msgstr "Ne gleda zima što je suknja bila."
 
-#: src/components/_political/map/MapMenu.tsx:631
+#: src/components/_political/map/MapMenu.tsx:629
 msgid "Collect"
 msgstr "Pokupite"
 
@@ -2872,7 +2871,7 @@ msgstr "Pokupite <0/> na mapi"
 msgid "Collect Cases on the Map"
 msgstr "Pokupite Kutije na mapi"
 
-#: src/components/_political/map/MapMenu.tsx:613
+#: src/components/_political/map/MapMenu.tsx:611
 msgid "Collect the wooden case lying on this region"
 msgstr "Pokupi drvenu kutiju u ovoj regiji"
 
@@ -2921,8 +2920,8 @@ msgstr "Zaјednica"
 
 #: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_political/region/RegionHeader.tsx:119
-#: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:251
+#: src/components/_user/user/MyAvatar.tsx:55
+#: src/components/_user/user/UserHeader.tsx:252
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:97
 msgid "Companies"
@@ -3109,6 +3108,7 @@ msgstr "Fokus izgradnje od <0/>"
 msgid "Construction payout"
 msgstr "Plaća gradilišta"
 
+#: src/components/_economy/market/MarketHeader.tsx:27
 #: src/pages/market/constructions.tsx:13
 msgid "Constructions"
 msgstr "Gradilišta"
@@ -3607,7 +3607,7 @@ msgstr "Nanosi nešto štete"
 msgid "Debuff ended"
 msgstr "Završetak Debuff-a"
 
-#: src/components/_user/user/UserHeader.tsx:355
+#: src/components/_user/user/UserHeader.tsx:356
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "Debuff završava"
@@ -3922,7 +3922,8 @@ msgstr "Manevar"
 msgid "Dodge <0/> attacks"
 msgstr "Izbjegnite <0/> napada"
 
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/MyAvatar.tsx:48
+#: src/components/_user/user/UserHeader.tsx:195
 #: src/pages/user/[userId]/domain.tsx:22
 msgid "Domain"
 msgstr "Posjed"
@@ -4215,7 +4216,7 @@ msgstr "Oprema"
 msgid "Equipment:"
 msgstr "Oprema:"
 
-#: src/components/_economy/market/MarketHeader.tsx:20
+#: src/components/_economy/market/MarketHeader.tsx:21
 msgid "Equipments"
 msgstr "Oprema"
 
@@ -5048,7 +5049,7 @@ msgstr "Udaraј za svoјu država dok vlada daјe {0}% efikasnost plijena."
 #: src/components/_political/country/CountryHeader.tsx:81
 #: src/components/_political/party/PartyHeader.tsx:99
 #: src/components/_political/region/RegionHeader.tsx:59
-#: src/components/_user/user/UserHeader.tsx:173
+#: src/components/_user/user/UserHeader.tsx:174
 msgid "Home"
 msgstr "Početna"
 
@@ -5217,8 +5218,8 @@ msgstr "Namjerno ili ponovljeno kršenje ovih pravila rezultirati će trajnim iz
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_layout/LayoutUserMenu.tsx:150
-#: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:179
+#: src/components/_user/user/MyAvatar.tsx:36
+#: src/components/_user/user/UserHeader.tsx:180
 #: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -5317,7 +5318,7 @@ msgstr "Ponuda zaposlenja"
 msgid "Job offers"
 msgstr "Ponude zaposlenja"
 
-#: src/components/_economy/market/MarketHeader.tsx:26
+#: src/components/_economy/market/MarketHeader.tsx:33
 #: src/components/_political/region/RegionHeader.tsx:65
 msgid "Jobs"
 msgstr "Poslovi"
@@ -5441,7 +5442,7 @@ msgstr "Јezik"
 msgid "Last"
 msgstr "Zadnji"
 
-#: src/components/_user/user/UserHeader.tsx:363
+#: src/components/_user/user/UserHeader.tsx:364
 msgid "Last connection"
 msgstr "Zadnje viđen/a"
 
@@ -5724,7 +5725,7 @@ msgstr "Zaključani slot"
 msgid "Locked, reset your skills to reassign"
 msgstr "Zaključano, resetiraj svoje vještine za prepraspodjelu"
 
-#: src/components/_user/user/MyAvatar.tsx:60
+#: src/components/_user/user/MyAvatar.tsx:67
 msgid "Logout"
 msgstr "Odјavi se"
 
@@ -5830,7 +5831,7 @@ msgstr "Akcent Mape"
 msgid "Map icons"
 msgstr "Ikone mape"
 
-#: src/components/_economy/market/MarketHeader.tsx:38
+#: src/components/_economy/market/MarketHeader.tsx:45
 #: src/components/_layout/LayoutMenu.tsx:163
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:268
 #: src/pages/country/[countryId]/account.tsx:31
@@ -5878,7 +5879,7 @@ msgstr "Maksimum <0>{0}</0> članova."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:495
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:496
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Maksimum <0>{0}</0> radnika.{1}"
 
@@ -6082,7 +6083,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr "Sve preuzete etape ciljeva"
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:237
+#: src/components/_user/user/UserHeader.tsx:238
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr "Ciljevi"
@@ -6180,7 +6181,7 @@ msgstr "Oznake misija"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
 #: src/components/_user/mission/MissionsList.tsx:232
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 msgid "Missions"
 msgstr "Misiјe"
 
@@ -6300,7 +6301,7 @@ msgstr "Preselite kompaniјu"
 msgid "Move the company"
 msgstr "Preselite kompaniјu"
 
-#: src/components/_political/map/MapMenu.tsx:614
+#: src/components/_political/map/MapMenu.tsx:612
 msgid "Move to this region to collect its wooden case"
 msgstr "Idite u ovu regiju da pokupite drvenu kutiju"
 
@@ -7600,7 +7601,7 @@ msgstr "Samo Profesionalci"
 msgid "Professionals only (5+ rep)"
 msgstr "Samo profesionalci (5+ reputacija)"
 
-#: src/components/_user/user/MyAvatar.tsx:29
+#: src/components/_user/user/MyAvatar.tsx:30
 msgid "Profile"
 msgstr "Profil"
 
@@ -7912,7 +7913,7 @@ msgstr "Smanjuјe gubitak zdravlja u bitkama."
 msgid "Referral link copied to clipboard"
 msgstr "Referral link kopiran u međuspremnik"
 
-#: src/components/_user/user/UserHeader.tsx:265
+#: src/components/_user/user/UserHeader.tsx:266
 #: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -8192,7 +8193,7 @@ msgstr "Prijavi"
 msgid "Report user"
 msgstr "Priјavi korisnika"
 
-#: src/components/_user/user/UserHeader.tsx:219
+#: src/components/_user/user/UserHeader.tsx:220
 msgid "Reports"
 msgstr "Prijave"
 
@@ -8441,7 +8442,7 @@ msgstr "Prevara! Džaba vam novci moji sinovci."
 msgid "Scraps"
 msgstr "Ostaci"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:473
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:474
 msgid "Scrapyard"
 msgstr "Odlagalište"
 
@@ -8678,8 +8679,8 @@ msgid "Set your username"
 msgstr "Postavite svoјe korisničko ime"
 
 #: src/components/_military/mu/MuHeader.tsx:192
-#: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/MyAvatar.tsx:61
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Settings"
 msgstr "Podešavanja"
 
@@ -8758,8 +8759,8 @@ msgstr "Manjak vještina?"
 msgid "Skill upgrade:"
 msgstr "Razina vještine:"
 
-#: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:200
+#: src/components/_user/user/MyAvatar.tsx:42
+#: src/components/_user/user/UserHeader.tsx:201
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Vještine"
@@ -8880,8 +8881,8 @@ msgid "Spendings"
 msgstr "Troškovi"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points."
-msgstr "Troši se tijekom putovanja: 10 poena za svaku prijeđenu susjednu regiju. Put u regiju koje ne može pokriti kondicija dodatno se naplaćuje petrolejom."
+msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points, only by building a Garage on your domain."
+msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
@@ -9700,7 +9701,7 @@ msgstr "Pripravnik"
 msgid "Training Grounds"
 msgstr "Teretana"
 
-#: src/components/_user/user/UserHeader.tsx:245
+#: src/components/_user/user/UserHeader.tsx:246
 msgid "Transac."
 msgstr "Transak."
 
@@ -9859,7 +9860,7 @@ msgstr "Otključava se pri"
 msgid "Unlocks at level {unlockLevel}."
 msgstr "Otključava se na {unlockLevel} razini."
 
-#: src/components/_user/user/UserHeader.tsx:471
+#: src/components/_user/user/UserHeader.tsx:472
 msgid "Unmuted <0/>"
 msgstr "Utišavanje se ukida <0/>"
 
@@ -10554,7 +10555,7 @@ msgstr "Već si predsjednik druge države. Prvo podnesite ostavku na trenutnoj p
 msgid "You are already vice president of another country. Resign first."
 msgstr "Već si potpredsjednik druge države. Prvo podnesite ostavku na trenutnoj poziciji."
 
-#: src/components/_political/map/MapMenu.tsx:656
+#: src/components/_political/map/MapMenu.tsx:654
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
 msgstr "Ti si ovdje"
@@ -11078,7 +11079,7 @@ msgstr "Vaša VJ je već prijavljena za ovaj turnir"
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
 msgstr "Vaša VJ mora imati dovoljno sredstava da pokrije naknadu za prihvaćanje ponude. Isplata se odbija ako pobijedite i vraća se po završetku ugovora."
 
-#: src/components/_economy/market/MarketHeader.tsx:14
+#: src/components/_economy/market/MarketHeader.tsx:15
 msgid "Your offers"
 msgstr "Vaše ponude"
 

@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Mažo apmokėjimo darbas (mažiau nei 0.8x ir daugiau nei 1.2x normalaus atlyginimo)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:475
+#: src/components/_user/user/UserHeader.tsx:476
 msgid " - Reason: {0}"
 msgstr " - Priežastis: {0}"
 
@@ -196,7 +196,7 @@ msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount
 msgstr "Šiam įgūdžiui skirta prestižo taškų: {draftPrestigeCount} (išsaugota: {savedPrestigeCount}, užrakinta iki atstatymo)"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:572
+#: src/components/_political/map/MapMenu.tsx:570
 msgid "{moveCases, plural, one {# region away} other {# regions away}}"
 msgstr ""
 
@@ -552,6 +552,10 @@ msgstr ""
 msgid "<0/> max hunger for every member of the unit."
 msgstr ""
 
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
+msgid "<0/> max stamina, so you travel further and recover it faster."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
 msgstr "<0/> paminėjo tave <1/>"
@@ -611,7 +615,7 @@ msgstr "<0/> atsakė į tavo žinutę {0}"
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr "<0/> atsakė į tavo žinutę kanale <1/>{0}"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:477
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:478
 msgid "<0/> scraps when you dismantle an item."
 msgstr ""
 
@@ -740,11 +744,6 @@ msgstr "<0>{0}</0>, nes <1/> okupuoja bent vieną iš <2/> regionų"
 #. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:198
 msgid "<0>{0}</0> cheaper travel for your citizens, between regions held by your country or your alliance.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
-#. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
-msgid "<0>{0}</0> cheaper travel, in stamina and in oil alike."
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
@@ -1449,7 +1448,7 @@ msgstr "Atverti karą"
 #: src/components/_military/mu/MuHeader.tsx:162
 #: src/components/_political/country/CountryHeader.tsx:94
 #: src/components/_political/party/PartyHeader.tsx:117
-#: src/components/_user/user/UserHeader.tsx:187
+#: src/components/_user/user/UserHeader.tsx:188
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
@@ -1917,7 +1916,7 @@ msgstr "Arbatpinigiai už Straipsnį"
 msgid "Article tipped"
 msgstr "Straipsnis paremtas"
 
-#: src/components/_user/user/UserHeader.tsx:259
+#: src/components/_user/user/UserHeader.tsx:260
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Straipsniai"
@@ -2142,7 +2141,7 @@ msgstr "Kamuolys"
 msgid "Bankruptcy"
 msgstr "Bankrotas"
 
-#: src/components/_user/user/UserHeader.tsx:464
+#: src/components/_user/user/UserHeader.tsx:465
 msgid "Banned"
 msgstr "Užblokuotas"
 
@@ -2162,8 +2161,8 @@ msgstr "Banerio dovana išsiųsta"
 msgid "Banners"
 msgstr "Baneriai"
 
-#: src/components/_user/user/UserHeader.tsx:212
-#: src/components/_user/user/UserHeader.tsx:278
+#: src/components/_user/user/UserHeader.tsx:213
+#: src/components/_user/user/UserHeader.tsx:279
 msgid "Bans"
 msgstr "Blokavimai"
 
@@ -2368,7 +2367,7 @@ msgstr "Duona"
 msgid "Break defensive pact"
 msgstr "Nutraukti gynybinį paktą"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:491
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:492
 msgid "Break room"
 msgstr "Poilsio kambarys"
 
@@ -2392,7 +2391,7 @@ msgstr "Biudžetas"
 msgid "Buff ended"
 msgstr "Buff'as baigėsi"
 
-#: src/components/_user/user/UserHeader.tsx:347
+#: src/components/_user/user/UserHeader.tsx:348
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "Buff'as baigsis"
@@ -2754,7 +2753,7 @@ msgstr "Pasirink savo pusę ir spausk, kad darytum <0>žalą</0>! Smūgiuok toli
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Konkrečios įrangos pasirinkimas kainuoja ×2 plieno:"
 
-#: src/components/_user/user/UserHeader.tsx:328
+#: src/components/_user/user/UserHeader.tsx:329
 msgid "Citizen since"
 msgstr "Pilietis nuo"
 
@@ -2846,7 +2845,7 @@ msgstr "Spustelėk, kad pasirinktum pasiūlymą"
 msgid "Climate"
 msgstr "Klimatas"
 
-#: ../__ui/src/components/Modal/Modal.tsx:385
+#: ../__ui/src/components/Modal/Modal.tsx:386
 #: ../__ui/src/components/Modal/ModalOld.tsx:249
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
@@ -2860,7 +2859,7 @@ msgstr "Kloviso Antgalis"
 msgid "Cold af"
 msgstr "Žiauriai šalta"
 
-#: src/components/_political/map/MapMenu.tsx:631
+#: src/components/_political/map/MapMenu.tsx:629
 msgid "Collect"
 msgstr ""
 
@@ -2872,7 +2871,7 @@ msgstr ""
 msgid "Collect Cases on the Map"
 msgstr ""
 
-#: src/components/_political/map/MapMenu.tsx:613
+#: src/components/_political/map/MapMenu.tsx:611
 msgid "Collect the wooden case lying on this region"
 msgstr ""
 
@@ -2921,8 +2920,8 @@ msgstr "Bendruomenė"
 
 #: src/components/_layout/LayoutMenu.tsx:174
 #: src/components/_political/region/RegionHeader.tsx:119
-#: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:251
+#: src/components/_user/user/MyAvatar.tsx:55
+#: src/components/_user/user/UserHeader.tsx:252
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:97
 msgid "Companies"
@@ -3109,6 +3108,7 @@ msgstr ""
 msgid "Construction payout"
 msgstr ""
 
+#: src/components/_economy/market/MarketHeader.tsx:27
 #: src/pages/market/constructions.tsx:13
 msgid "Constructions"
 msgstr ""
@@ -3607,7 +3607,7 @@ msgstr "Padaro šiek tiek žalos"
 msgid "Debuff ended"
 msgstr "Debuff'as baigėsi"
 
-#: src/components/_user/user/UserHeader.tsx:355
+#: src/components/_user/user/UserHeader.tsx:356
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "Debuff'as baigsis"
@@ -3922,7 +3922,8 @@ msgstr "Išsisukimas"
 msgid "Dodge <0/> attacks"
 msgstr "Išsisuk nuo <0/> atakų"
 
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/MyAvatar.tsx:48
+#: src/components/_user/user/UserHeader.tsx:195
 #: src/pages/user/[userId]/domain.tsx:22
 msgid "Domain"
 msgstr ""
@@ -4215,7 +4216,7 @@ msgstr "Įranga"
 msgid "Equipment:"
 msgstr "Įranga:"
 
-#: src/components/_economy/market/MarketHeader.tsx:20
+#: src/components/_economy/market/MarketHeader.tsx:21
 msgid "Equipments"
 msgstr "Įranga"
 
@@ -5048,7 +5049,7 @@ msgstr "Kovodamas už savo šalį būdamas valdžioje gauni {0}% premijos efekty
 #: src/components/_political/country/CountryHeader.tsx:81
 #: src/components/_political/party/PartyHeader.tsx:99
 #: src/components/_political/region/RegionHeader.tsx:59
-#: src/components/_user/user/UserHeader.tsx:173
+#: src/components/_user/user/UserHeader.tsx:174
 msgid "Home"
 msgstr "Pradžia"
 
@@ -5217,8 +5218,8 @@ msgstr "Tyčiniai arba pasikartojantys šios politikos pažeidimai užtrauks nuo
 
 #: src/components/_layout/LayoutMenu.tsx:92
 #: src/components/_layout/LayoutUserMenu.tsx:150
-#: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:179
+#: src/components/_user/user/MyAvatar.tsx:36
+#: src/components/_user/user/UserHeader.tsx:180
 #: src/pages/companies.tsx:84
 #: src/pages/country/[countryId]/account.tsx:25
 #: src/pages/market/index.tsx:56
@@ -5317,7 +5318,7 @@ msgstr "Darbo pasiūlymas"
 msgid "Job offers"
 msgstr "Darbo pasiūlymai"
 
-#: src/components/_economy/market/MarketHeader.tsx:26
+#: src/components/_economy/market/MarketHeader.tsx:33
 #: src/components/_political/region/RegionHeader.tsx:65
 msgid "Jobs"
 msgstr "Darbai"
@@ -5441,7 +5442,7 @@ msgstr "Kalba"
 msgid "Last"
 msgstr "Paskutinis"
 
-#: src/components/_user/user/UserHeader.tsx:363
+#: src/components/_user/user/UserHeader.tsx:364
 msgid "Last connection"
 msgstr "Paskutinis prisijungimas"
 
@@ -5724,7 +5725,7 @@ msgstr ""
 msgid "Locked, reset your skills to reassign"
 msgstr "Užrakinta – atstatyk įgūdžius, kad perskirstytum"
 
-#: src/components/_user/user/MyAvatar.tsx:60
+#: src/components/_user/user/MyAvatar.tsx:67
 msgid "Logout"
 msgstr "Atsijungti"
 
@@ -5830,7 +5831,7 @@ msgstr "Žemėlapio Akcentas"
 msgid "Map icons"
 msgstr "Žemėlapio piktogramos"
 
-#: src/components/_economy/market/MarketHeader.tsx:38
+#: src/components/_economy/market/MarketHeader.tsx:45
 #: src/components/_layout/LayoutMenu.tsx:163
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:268
 #: src/pages/country/[countryId]/account.tsx:31
@@ -5878,7 +5879,7 @@ msgstr "Daugiausia <0>{0}</0> narių."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:495
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:496
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Daugiausia <0>{0}</0> darbuotojų.{1}"
 
@@ -6082,7 +6083,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr "Tavo atsiimtos etapų pakopos visose kategorijose"
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:237
+#: src/components/_user/user/UserHeader.tsx:238
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr "Etapai"
@@ -6180,7 +6181,7 @@ msgstr "Misijų žymos"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
 #: src/components/_user/mission/MissionsList.tsx:232
-#: src/components/_user/user/UserHeader.tsx:230
+#: src/components/_user/user/UserHeader.tsx:231
 msgid "Missions"
 msgstr "Misijos"
 
@@ -6300,7 +6301,7 @@ msgstr "Perkelti Įmonę"
 msgid "Move the company"
 msgstr "Perkelti įmonę"
 
-#: src/components/_political/map/MapMenu.tsx:614
+#: src/components/_political/map/MapMenu.tsx:612
 msgid "Move to this region to collect its wooden case"
 msgstr ""
 
@@ -7600,7 +7601,7 @@ msgstr "Tik Profesionalams"
 msgid "Professionals only (5+ rep)"
 msgstr "Tik profesionalams (5+ rep.)"
 
-#: src/components/_user/user/MyAvatar.tsx:29
+#: src/components/_user/user/MyAvatar.tsx:30
 msgid "Profile"
 msgstr "Profilis"
 
@@ -7912,7 +7913,7 @@ msgstr "Sumažina per mūšius prarandamą sveikatos kiekį"
 msgid "Referral link copied to clipboard"
 msgstr "Rekomendacijos nuoroda nukopijuota į iškarpinę"
 
-#: src/components/_user/user/UserHeader.tsx:265
+#: src/components/_user/user/UserHeader.tsx:266
 #: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -8192,7 +8193,7 @@ msgstr "Pranešti"
 msgid "Report user"
 msgstr "Pranešti apie žaidėją"
 
-#: src/components/_user/user/UserHeader.tsx:219
+#: src/components/_user/user/UserHeader.tsx:220
 msgid "Reports"
 msgstr "Ataskaitos"
 
@@ -8441,7 +8442,7 @@ msgstr "Scamas"
 msgid "Scraps"
 msgstr "Metalo laužas"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:473
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:474
 msgid "Scrapyard"
 msgstr ""
 
@@ -8678,8 +8679,8 @@ msgid "Set your username"
 msgstr "Nustatyk savo naudotojo vardą"
 
 #: src/components/_military/mu/MuHeader.tsx:192
-#: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:271
+#: src/components/_user/user/MyAvatar.tsx:61
+#: src/components/_user/user/UserHeader.tsx:272
 msgid "Settings"
 msgstr "Nustatymai"
 
@@ -8758,8 +8759,8 @@ msgstr "Įgūdžių trūksta?"
 msgid "Skill upgrade:"
 msgstr "Įgūdžio tobulinimas:"
 
-#: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:200
+#: src/components/_user/user/MyAvatar.tsx:42
+#: src/components/_user/user/UserHeader.tsx:201
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Įgūdžiai"
@@ -8880,7 +8881,7 @@ msgid "Spendings"
 msgstr "Išlaidos"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points."
+msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points, only by building a Garage on your domain."
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
@@ -9700,7 +9701,7 @@ msgstr "Stažuotojas"
 msgid "Training Grounds"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:245
+#: src/components/_user/user/UserHeader.tsx:246
 msgid "Transac."
 msgstr "Oper."
 
@@ -9859,7 +9860,7 @@ msgstr ""
 msgid "Unlocks at level {unlockLevel}."
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:471
+#: src/components/_user/user/UserHeader.tsx:472
 msgid "Unmuted <0/>"
 msgstr "Atitildytas <0/>"
 
@@ -10554,7 +10555,7 @@ msgstr "Jau esi kitos šalies prezidentas. Pirmiausia atsistatydink."
 msgid "You are already vice president of another country. Resign first."
 msgstr "Jau esi kitos šalies viceprezidentas. Pirmiausia atsistatydink."
 
-#: src/components/_political/map/MapMenu.tsx:656
+#: src/components/_political/map/MapMenu.tsx:654
 #: src/components/_user/milestone/MilestoneTiersModal.tsx:96
 msgid "You are here"
 msgstr "Tu esi čia"
@@ -11078,7 +11079,7 @@ msgstr "Tavo MU užregistruotas šiam turnyrui"
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
 msgstr "Tavo MU turi turėti pakankamai pinigų priėmimo mokesčiui padengti, kad galėtų atlikti statymą. Mokestis atskaitomas tik laimėjus ir grąžinamas įvykdžius kontraktą."
 
-#: src/components/_economy/market/MarketHeader.tsx:14
+#: src/components/_economy/market/MarketHeader.tsx:15
 msgid "Your offers"
 msgstr "Tavo pasiūlymai"
 
