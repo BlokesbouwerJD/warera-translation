@@ -170,13 +170,13 @@ msgstr "{completedCount}/{totalCount} suoritettu"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_layout/LayoutMapUserMenu.tsx:167
-#: src/components/_political/map/MapMenu.tsx:570
-msgid "{moveCases, plural, one {# region away} other {# regions away}}"
-msgstr ""
-
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
+msgstr ""
+
+#: src/components/_layout/LayoutMapUserMenu.tsx:167
+#: src/components/_political/map/MapMenu.tsx:570
+msgid "{regionsAway, plural, one {# region away} other {# regions away}}"
 msgstr ""
 
 #: src/pages/events/index.tsx:97
@@ -6606,7 +6606,7 @@ msgstr ""
 msgid "Only your core regions generate development income."
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:494
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:542
 msgid "Open"
 msgstr "Avaa"
 
@@ -6614,8 +6614,8 @@ msgstr "Avaa"
 msgid "Open <0/>"
 msgstr ""
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:120
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:514
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:130
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:562
 msgid "Open case"
 msgstr "Avaa kotelo"
 
@@ -8446,7 +8446,7 @@ msgid "Spendings"
 msgstr "Kulut"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
+msgid "Spent when moving on the map: 10 points per region crossed. A trip your stamina can't cover is paid in oil instead. It refills 10 points an hour and cannot be raised with skill points."
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
@@ -9129,7 +9129,7 @@ msgstr "kokonais-"
 msgid "Total"
 msgstr "Kokonais"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:452
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:490
 msgid "Total cases opened"
 msgstr "Avattuja tapauksia yhteensä"
 
@@ -9263,14 +9263,6 @@ msgstr "Kääntäjä"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:574
 msgid "Travel"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:607
-msgid "Travel <0/> km on the map"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:605
-msgid "Travel Distance"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:576
