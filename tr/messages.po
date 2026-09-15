@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Düşük ücretli emek (normal maaşın 0,8 katından düşük ve 1,2 katından yüksek)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:476
+#: src/components/_user/user/UserHeader.tsx:470
 msgid " - Reason: {0}"
 msgstr " - Sebep: {0}"
 
@@ -63,28 +63,6 @@ msgstr "- Bu bölgeyi savunmak <0>{0}</0> ceza alacak."
 #: src/pages/region/[regionId]/index.tsx:191
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- Gelişme geliri %50 azaltıldı:<0>{0}</0>."
-
-#: src/components/_political/region/MoveButton.tsx:107
-msgid "-{reductionPercent}%"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:121
-#: src/components/_political/region/UpgradeList.tsx:245
-#: src/components/_user/domain/DomainUpgradeList.tsx:194
-msgid "({freeSlotCount} free slots)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:192
-msgid "({scalePct}% of country dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:196
-msgid "({scalePct}% of region dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:194
-msgid "({scalePct}% of region population)"
-msgstr ""
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:246
@@ -174,7 +152,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "Bu şirkette çalışırken kazançlardan %{0} gelir vergisi kesilecek."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:205
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:155
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "İşçilerinizin maaşlarından %{0} gelir vergisi kesilecektir."
 
@@ -186,10 +164,6 @@ msgstr "Yatırımın %{0} kadarı"
 #: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} tamamlandı"
-
-#: src/components/_other/upgrade/Upgrade.tsx:344
-msgid "{destroyRefundPercent}% of what was invested"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:267
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
@@ -225,10 +199,6 @@ msgstr ""
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Tur"
 
-#: src/components/_political/region/UpgradeList.tsx:205
-msgid "{slotCount} slots"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
 msgstr ""
@@ -245,18 +215,9 @@ msgstr "*Kullanıcı setin bazı parçalarına zaten sahipse, fiyat düşürüle
 msgid "*May burn"
 msgstr "*Alev alabilir"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:213
-msgid "/ action"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:184
 #: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "/gün"
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:186
-msgid "/h"
-msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
@@ -276,10 +237,6 @@ msgstr "<0/> <1/> için katılım başvurusunda bulundu."
 #: src/components/_economy/workOffer/WorkOfferList.tsx:116
 msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/>, <1>{0}</1> maaşla.{1}"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:436
-msgid "<0/> attack."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:54
 msgid "<0/> banned <1/> from the conversation"
@@ -536,25 +493,9 @@ msgstr "<0/> mesajını beğendi <1/>"
 msgid "<0/> liked your message in <1/><2/>"
 msgstr "<0/>, <1/><2/> içindeki mesajını beğendi"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:450
-msgid "<0/> loot chance."
-msgstr ""
-
 #: src/components/_political/event/event.frontConfig.tsx:247
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> <1/> ile barış yaptı"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:422
-msgid "<0/> max energy."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:406
-msgid "<0/> max hunger for every member of the unit."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
-msgid "<0/> max stamina, so you travel further and recover it faster."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
@@ -568,17 +509,9 @@ msgstr "<0/>, <1/><2/> içinde senden bahsetti"
 msgid "<0/> paid fee"
 msgstr "<0/> ücret ödedi"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:392
-msgid "<0/> precision for every member of the unit."
-msgstr ""
-
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> Öncelik hakkı <1/> sonra sona erecek"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:229
-msgid "<0/> production for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:296
 msgid "<0/> proposed a mutual defensive pact to your country."
@@ -614,10 +547,6 @@ msgstr "<0/> mesajına yanıt verdi {0}"
 #: src/components/_user/notification/notification.frontConfig.tsx:858
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr "<0/>, <1/>{0} içindeki mesajına yanıt verdi"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:478
-msgid "<0/> scraps when you dismantle an item."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:163
 msgid "<0/> started, vote for your favorite candidate"
@@ -694,7 +623,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "<0/> öncelik hakkı <1/> içinde sona erecek"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:184
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:63
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Saatlik direniş artışı"
 
@@ -721,9 +650,8 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr "<1/> ülkesinin baş düşmanına karşı <0>{0}</0>"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#. placeholder {1}: (levelConfig.stats.attackBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:166
-msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/><2>{1}</2> Attack bonus when allied country attack in this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
+msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
 msgstr ""
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
@@ -741,15 +669,9 @@ msgstr "<1/> <2/> kaybettiği için <0>{0}</0>"
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<1/> <2/> bölgelerinden en az birini işgal ettiği için <0>{0}</0>"
 
-#. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:198
-msgid "<0>{0}</0> cheaper travel for your citizens, between regions held by your country or your alliance.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
-#. placeholder {1}: (levelConfig.stats.defenseBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:148
-msgid "<0>{0}</0> Defense bonus when citizen defend this region.<1/><2>{1}</2> Defense bonus when allied country defend this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
 msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
@@ -780,12 +702,12 @@ msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr "<1/> ile yapılan savunma paktından <0>{0}</0>"
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:188
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:138
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "Tarımcılık İlkeleri'nden <0>{0}</0> maden yatağı bonusu."
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:178
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:128
 msgid "<0>{0}</0> from deposit resources."
 msgstr "Maden yataklarından <0>{0}</0> bonus"
 
@@ -805,7 +727,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "Ülken için savaşırken <0>{0}</0> bonus"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:118
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "Sanayicilik İlkesi uzmanlık bonusundan <0>{0}</0>."
 
@@ -815,7 +737,7 @@ msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<1/>'ın savaş emirlerinden <0>{0}</0>"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:158
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:108
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "Stratejik kaynak üretim bonusundan <0>{0}</0>."
 
@@ -824,18 +746,13 @@ msgstr "Stratejik kaynak üretim bonusundan <0>{0}</0>."
 msgid "<0>{0}</0> ground are required to win a round, points are gained every tick"
 msgstr "Bir tur kazanmak için <0>{0}</0> toprak gerekli, puanlar her tikte kazanılır"
 
-#. placeholder {0}: levelConfig.stats.skillBonuses?.health ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:215
-msgid "<0>{0}</0> max health for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1621
 msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> <1/>'a iade edildi."
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:353
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:86
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Depolama kapasitesi"
 
@@ -860,10 +777,6 @@ msgstr "Tarımcı İlke kaynak yatağı bonusundan <0>{ethicDepositBonus}</0>"
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "Sanayici İlke uzmanlık bonusundan <0>{ethicSpecializationBonus}</0>"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:326
-msgid "<0>{prodBonus}</0> production for every company in this region."
-msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
@@ -1470,7 +1383,7 @@ msgstr "Faaliyetler"
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:47
 #: src/components/_user/user/Level.tsx:193
 #: src/pages/events/index.tsx:148
-#: src/utils/translations.tsx:278
+#: src/utils/translations.tsx:276
 msgid "Active"
 msgstr "Aktif"
 
@@ -1491,10 +1404,6 @@ msgstr "Aktif Vatandaşlar"
 msgid "Active citizens (citizenship of this country, active and level {0}+)"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:121
-msgid "Active companies in this region"
-msgstr ""
-
 #: src/pages/region/[regionId]/index.tsx:212
 msgid "Active construction"
 msgstr "Aktif inşaat"
@@ -1510,10 +1419,6 @@ msgstr "Aktif savaşlar"
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:179
 msgid "Activity"
 msgstr "Aktivite"
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Add money"
-msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:59
 msgid "Add User"
@@ -1559,24 +1464,14 @@ msgstr "Geliştirilmiş Miğfer"
 msgid "Advanced Pants"
 msgstr "Geliştirilmiş Pantolon"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:85
-msgid "Affects this region only. Maintenance scales with the region's development."
-msgstr ""
-
 #: src/components/_political/party/party.frontConfig.tsx:355
 #: src/components/_political/party/party.frontConfig.tsx:372
 msgid "Agrarian"
 msgstr "Tarımcılık"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:194
-msgid "Airport"
-msgstr ""
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:133
+#: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
-#: src/components/_political/region/CreateUpgradeModal.tsx:254
 msgid "All"
 msgstr "Tümü"
 
@@ -1678,8 +1573,8 @@ msgstr "İttifak yasaları"
 msgid "Alliance name"
 msgstr "İttifak adı"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:100
-#: src/components/_military/battle/ActiveBattlesList.tsx:154
+#: src/components/_military/battle/ActiveBattlesList.tsx:101
+#: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "Müttefikler"
 
@@ -1724,11 +1619,6 @@ msgstr "Yönetebileceğiniz <0>İşçi</0> sayısı. Ve günlük işe alım limi
 #: src/components/_user/user/skills.frontConfig.tsx:123
 msgid "Amount of companies you can own"
 msgstr "Sahip olabileceğin şirket sayısı"
-
-#: src/components/_economy/company/CompanyFormModal.tsx:112
-#: src/components/_economy/company/MoveCompanyForm.tsx:69
-msgid "An active company in one of your country's regions pays income tax to it: building at home makes your country grow."
-msgstr ""
 
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1601
@@ -1775,10 +1665,6 @@ msgstr "Terörle Mücadele Paketi"
 msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
 msgstr "Bu kuralları aşmaya yönelik her türlü girişim, paylaşım statüsünün kaldırılmasına, para cezalarına ve geçici veya kalıcı yasaklara yol açabilir."
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:223
-msgid "Anyone located in the region can spend <0>{cost}</0> to add about <1>{points}</1> construction points. Points scale with your attack (gear excluded) and can land a critical hit, and every contribution can loot a case. When the bar is full, the upgrade levels up."
-msgstr ""
-
 #: src/components/_user/apiToken/ApiTokenList.tsx:40
 msgid "API token created"
 msgstr "API tokenı oluşturuldu"
@@ -1791,7 +1677,7 @@ msgstr "API tokenı yeniden oluşturuldu"
 msgid "API token revoked"
 msgstr "API Token'ı iptal edildi"
 
-#: src/pages/user/[userId]/settings.tsx:138
+#: src/pages/user/[userId]/settings.tsx:141
 msgid "API Tokens"
 msgstr "API Token'ları"
 
@@ -1799,11 +1685,11 @@ msgstr "API Token'ları"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API tokenleri harici uygulamaların sizin adınıza API'ye erişmesine izin verir. Tokenı <0>X-API-Key</0> başlığında kullanın. Her jetonun dakikada 200 istek limiti vardır."
 
-#: src/components/_layout/LayoutOptions.tsx:289
+#: src/components/_layout/LayoutOptions.tsx:317
 msgid "App pattern"
 msgstr "Uygulama deseni"
 
-#: src/pages/user/[userId]/settings.tsx:112
+#: src/pages/user/[userId]/settings.tsx:115
 msgid "App settings"
 msgstr ""
 
@@ -1825,7 +1711,7 @@ msgstr ""
 msgid "Apply"
 msgstr "Başvur"
 
-#: src/utils/translations.tsx:281
+#: src/utils/translations.tsx:279
 msgid "Approved"
 msgstr "Onaylandı"
 
@@ -1916,7 +1802,7 @@ msgstr "Makale Bahşişi"
 msgid "Article tipped"
 msgstr "Makaleye bahşiş verildi"
 
-#: src/components/_user/user/UserHeader.tsx:260
+#: src/components/_user/user/UserHeader.tsx:254
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Makaleler"
@@ -2047,7 +1933,7 @@ msgstr "Kimlik doğrulama başarısız. Lütfen tekrar deneyin."
 msgid "Auto approval"
 msgstr "Otomatik onay"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:238
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Eşya kırıldığında otomatik donat"
@@ -2065,7 +1951,7 @@ msgid "Automated engine"
 msgstr "Otomatik makine"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:339
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:74
 msgid "Automated Engine"
 msgstr "Otomatik Makine"
 
@@ -2081,20 +1967,12 @@ msgstr ""
 msgid "Avatar removed"
 msgstr "Avatar kaldırıldı"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:178
-msgid "Average construction points for one contribution ({cost} energy), before the random spread and critical hits."
-msgstr ""
-
 #: src/components/_political/alliance/AllianceHeader.tsx:83
 #: src/components/_political/country/CountryHeader.tsx:242
 #: src/components/_political/country/CountryHeader.tsx:247
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr "Ortalama gelişim"
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:198
-msgid "Average money for one contribution, at <0>{payoutRate}</0> per 1000 construction points. It follows the points you actually roll."
-msgstr ""
 
 #: src/components/_common/GameRules.tsx:244
 msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
@@ -2108,7 +1986,7 @@ msgstr "Baby Boomer"
 msgid "Back to home region"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:170
+#: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
 msgstr ""
 
@@ -2141,7 +2019,7 @@ msgstr ""
 msgid "Bankruptcy"
 msgstr "İflas"
 
-#: src/components/_user/user/UserHeader.tsx:465
+#: src/components/_user/user/UserHeader.tsx:459
 msgid "Banned"
 msgstr "Yasaklandı"
 
@@ -2161,8 +2039,8 @@ msgstr "Banner hediyesi gönderildi"
 msgid "Banners"
 msgstr "Bannerlar"
 
-#: src/components/_user/user/UserHeader.tsx:213
-#: src/components/_user/user/UserHeader.tsx:279
+#: src/components/_user/user/UserHeader.tsx:207
+#: src/components/_user/user/UserHeader.tsx:273
 msgid "Bans"
 msgstr "Yasaklanmalar"
 
@@ -2255,7 +2133,7 @@ msgstr "Çekirdek bölgelerinizi ve isyanları savunmak için savaş emirleri ü
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "Çekirdek bölgelerinizi ve isyanları savunmak için savaş emirleri <0>{0}</0> daha az maliyetlidir."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:334
+#: src/components/_user/mission/mission.frontConfig.tsx:333
 msgid "Battlefield Loot"
 msgstr ""
 
@@ -2269,11 +2147,11 @@ msgstr ""
 msgid "Battles"
 msgstr "Cepheler"
 
-#: src/components/_layout/LayoutOptions.tsx:126
+#: src/components/_layout/LayoutOptions.tsx:125
 msgid "Battles on layout"
 msgstr "Arayüzde savaşları göster"
 
-#: src/components/_layout/LayoutOptions.tsx:121
+#: src/components/_layout/LayoutOptions.tsx:120
 msgid "Battles on map"
 msgstr "Haritada cepheleri göster"
 
@@ -2290,7 +2168,7 @@ msgstr "Galip Gelinen Cepheler"
 msgid "Become a Candidate"
 msgstr "Aday Ol"
 
-#: src/components/_layout/LayoutOptions.tsx:242
+#: src/components/_layout/LayoutOptions.tsx:258
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "En iyi"
@@ -2303,7 +2181,7 @@ msgstr "Hiç yoktan iyidir, değil mi?"
 msgid "Bid"
 msgstr "Teklif ver"
 
-#: src/components/_political/region/RegionHeader.tsx:142
+#: src/components/_political/region/RegionHeader.tsx:133
 msgid "Biome"
 msgstr ""
 
@@ -2319,7 +2197,7 @@ msgstr "Engelle (yazdığı herşeyi gizle)"
 msgid "Blue Staff"
 msgstr "Mavi Asa"
 
-#: src/components/_layout/LayoutOptions.tsx:162
+#: src/components/_layout/LayoutOptions.tsx:167
 msgid "Blur"
 msgstr "Bulanık"
 
@@ -2367,7 +2245,7 @@ msgstr "Ekmek"
 msgid "Break defensive pact"
 msgstr "Savunma paktını boz"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:492
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:119
 msgid "Break room"
 msgstr "İşci odası"
 
@@ -2391,7 +2269,7 @@ msgstr "Bütçe"
 msgid "Buff ended"
 msgstr "Buff sona erdi"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:342
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2412,12 +2290,6 @@ msgstr "Güçlendirmeler:"
 msgid "Bug finder"
 msgstr "Hata Bulucu"
 
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:66
-#: src/components/_political/region/CreateUpgradeModal.tsx:144
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:68
-msgid "Build"
-msgstr ""
-
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Build a company"
 msgstr "Şirket kur"
@@ -2427,48 +2299,11 @@ msgstr "Şirket kur"
 msgid "Build a military unit"
 msgstr "Askeri birlik kur"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:118
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:108
-#: src/components/_political/region/CreateUpgradeModal.tsx:243
-#: src/components/_political/region/UpgradeList.tsx:242
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:107
-#: src/components/_user/domain/DomainUpgradeList.tsx:191
-msgid "Build an upgrade"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:151
-msgid "Build cost"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:527
-msgid "Build or level up a building on your domain"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:134
 msgid "Build the military unit"
 msgstr "Askeri birliği kur"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:128
-msgid "Build this one before the front moves..."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:72
-msgid "Build this one first."
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:525
-msgid "Build your domain"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:151
-msgid "Building is done with bare hands: your weapon, equipment and ammo do not count. Attack, critical chance and critical damages."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:148
-msgid "Building stats"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:144
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
 msgstr "Korugan"
 
@@ -2481,11 +2316,11 @@ msgstr "<0/> satın al"
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr "<1/>'dan <0/> bölgesini <2>{0}</2> karşılığında satın al"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:192
+#: src/components/_user/mission/mission.frontConfig.tsx:191
 msgid "Buy for <0/> money on market"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:190
+#: src/components/_user/mission/mission.frontConfig.tsx:189
 msgid "Buy Items"
 msgstr "Eşya Satın Al"
 
@@ -2520,9 +2355,7 @@ msgid "Campaign Article Link (optional)"
 msgstr "Kampanya Makale Linki (opsiyonel)"
 
 #: src/components/_military/order/BattleOrderList.tsx:207
-#: src/components/_other/upgrade/UpgradeGrid.tsx:113
 #: src/components/_political/election/CandidateFormModal.tsx:84
-#: src/components/_political/region/UpgradeList.tsx:144
 msgid "Cancel"
 msgstr "İptal Et"
 
@@ -2545,21 +2378,13 @@ msgstr "Sözleşmeyi İptal Et"
 msgid "Cancel Mercenary Contract"
 msgstr "Paralı Asker Sözleşmesini İptal Et"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:251
-msgid "Cancel payout"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:258
-msgid "Cancel the payout?"
-msgstr ""
-
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
 #: src/pages/events/index.tsx:156
-#: src/utils/translations.tsx:273
+#: src/utils/translations.tsx:271
 msgid "Cancelled"
 msgstr "İptal Edildi"
 
-#: src/utils/translations.tsx:274
+#: src/utils/translations.tsx:272
 msgid "Cancelled by admin"
 msgstr "Yönetici tarafından iptal edildi"
 
@@ -2595,7 +2420,7 @@ msgstr "Uzmanlaşacak emtia seçemez / uzmanlık işe yaramaz"
 msgid "Capital"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Capital of"
 msgstr ""
 
@@ -2753,7 +2578,7 @@ msgstr "Tarafını seç ve <0>Hasar</0> vermek için tıkla! Takımının kazanm
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Belirli bir eşya seçmek ×2 çelik maliyetlidir:"
 
-#: src/components/_user/user/UserHeader.tsx:329
+#: src/components/_user/user/UserHeader.tsx:323
 msgid "Citizen since"
 msgstr ""
 
@@ -2765,11 +2590,6 @@ msgstr "Vatandaşlar"
 #: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Vatandaşlar müttefikler için savaşırken veya baş düşmana karşı bonus alır"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:40
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:47
-msgid "citizens present"
-msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:131
 msgid "Citizenship"
@@ -2846,7 +2666,6 @@ msgid "Climate"
 msgstr "İklim"
 
 #: ../__ui/src/components/Modal/Modal.tsx:386
-#: ../__ui/src/components/Modal/ModalOld.tsx:249
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Kapat"
@@ -2863,11 +2682,11 @@ msgstr "Dondurucu soğuk"
 msgid "Collect"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:595
+#: src/components/_user/mission/mission.frontConfig.tsx:586
 msgid "Collect <0/> on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:593
+#: src/components/_user/mission/mission.frontConfig.tsx:584
 msgid "Collect Cases on the Map"
 msgstr ""
 
@@ -2892,7 +2711,7 @@ msgstr ""
 msgid "Color schemes are a Supporter Plan feature."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:194
+#: src/components/_layout/LayoutOptions.tsx:199
 msgid "Colorblind mode"
 msgstr "Renk körü modu"
 
@@ -2919,9 +2738,8 @@ msgid "Community"
 msgstr "Topluluk"
 
 #: src/components/_layout/LayoutMenu.tsx:174
-#: src/components/_political/region/RegionHeader.tsx:119
 #: src/components/_user/user/MyAvatar.tsx:55
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:246
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:97
 msgid "Companies"
@@ -2952,7 +2770,7 @@ msgstr "Şirket devre dışı bırakıldı!"
 msgid "Company enabled!"
 msgstr "Şirket etkinleştirildi!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:57
+#: src/components/_economy/company/MoveCompanyForm.tsx:56
 msgid "Company moved"
 msgstr "Şirket taşındı"
 
@@ -2974,7 +2792,7 @@ msgstr "XP kazanmak ve daha hızlı seviye atlamak için günlük görevleri tam
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
 #: src/components/_user/milestone/MilestoneItem.tsx:327
-#: src/utils/translations.tsx:276
+#: src/utils/translations.tsx:274
 msgid "Completed"
 msgstr "Tamamlandı"
 
@@ -3079,37 +2897,11 @@ msgstr "Fatih"
 msgid "Consider giving it to your local moderator"
 msgstr "Yerel moderatörüne vermeyi düşün."
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:255
-#: src/components/_user/mission/mission.frontConfig.tsx:563
+#: src/components/_user/mission/mission.frontConfig.tsx:554
 msgid "Construct"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:85
-#: src/components/_other/upgradeConstruction/ConstructionFocusSection.tsx:23
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:220
-msgid "Construction"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:248
-msgid "Construction Contributors"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:230
-msgid "Construction focus"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:61
-msgid "Construction focused by <0/>"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:67
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:150
-msgid "Construction payout"
-msgstr ""
-
 #: src/components/_economy/market/MarketHeader.tsx:27
-#: src/pages/market/constructions.tsx:13
 msgid "Constructions"
 msgstr ""
 
@@ -3127,7 +2919,7 @@ msgstr "Savaşlarda dövüşürken tüketilir"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Tüketmek {0}s boyunca <0>Saldırı</0> gücünü artırır.<1/> Sonra {1}s boyunca aynı miktarda azalır"
 
-#: src/components/_layout/LayoutOptions.tsx:131
+#: src/components/_layout/LayoutOptions.tsx:130
 msgid "Contextual borders"
 msgstr "Değişken sınırlar"
 
@@ -3160,25 +2952,16 @@ msgstr "Sözleşmeler"
 msgid "Contracts & Auctions"
 msgstr "Sözleşmeler ve Açık Artırmalar"
 
-#: src/components/_political/contribution/ContributionPanel.tsx:233
-msgid "Contribute"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:565
+#: src/components/_user/mission/mission.frontConfig.tsx:556
 msgid "Contribute to constructions <0/> times"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:575
+#: src/components/_user/mission/mission.frontConfig.tsx:566
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:203
-msgid "Contribute to the construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:93
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:195
-msgid "Contributing to a construction paid by your own government gives {govPercent}% payout efficiency."
+#: src/components/_political/region/ResistanceFocusItem.tsx:203
+msgid "Contribute to the resistance"
 msgstr ""
 
 #: src/utils/translations.tsx:39
@@ -3214,7 +2997,7 @@ msgstr "Bu jetonu şimdi kopyalayın. Tekrar göremeyeceksiniz! <0>X-API-Key</0>
 msgid "Core development"
 msgstr "Çekirdek gelişim"
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Core region of"
 msgstr ""
 
@@ -3225,14 +3008,6 @@ msgstr "Çekirdek bölgeler"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:46
 msgid "Corporal"
 msgstr "Onbaşı"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:418
-msgid "Cottage"
-msgstr ""
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
-msgid "Council Member"
-msgstr "Konsey Üyesi"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:132
 msgid "Council member to remove"
@@ -3262,16 +3037,8 @@ msgstr "Ülkeler"
 msgid "Country"
 msgstr "Ülke"
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:44
+#: src/components/_user/user/SkillUpgradeBonusRows.tsx:46
 msgid "Country buildings:"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:39
-msgid "country citizens"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:46
-msgid "country dev"
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:395
@@ -3327,17 +3094,12 @@ msgstr "Ülke Turnuvası Kazananı"
 msgid "Country wars"
 msgstr "Ülke savaşları"
 
-#. placeholder {0}: Math.round(coveredPoints)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:138
-msgid "Covers <0>{0}</0> construction points"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:210
+#: src/components/_user/mission/mission.frontConfig.tsx:209
 #: src/pages/user/[userId]/inventory.tsx:41
 msgid "Craft"
 msgstr "Üret"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:212
+#: src/components/_user/mission/mission.frontConfig.tsx:211
 msgid "Craft <0/> items"
 msgstr ""
 
@@ -3350,7 +3112,7 @@ msgstr "Eşya Üret"
 msgid "Create"
 msgstr "Oluştur"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:372
+#: src/components/_user/mission/mission.frontConfig.tsx:371
 msgid "Create a Company"
 msgstr "Şirket Kur"
 
@@ -3360,7 +3122,7 @@ msgstr "Şirket Kur"
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr "<0>{0}</0> adında ve <1>{1}</1> renk şemasında yeni bir ittifak oluştur."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:373
+#: src/components/_user/mission/mission.frontConfig.tsx:372
 msgid "Create a new company"
 msgstr "Yeni şirket kur"
 
@@ -3417,11 +3179,11 @@ msgstr "Kritik şansı"
 msgid "Crit. damages"
 msgstr "Kritik hasar"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:281
+#: src/components/_user/mission/mission.frontConfig.tsx:280
 msgid "Critical Hit"
 msgstr "Kritik Vuruş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:606
+#: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
 msgstr ""
 
@@ -3475,14 +3237,6 @@ msgstr "d. Her türlü ayrımcılık, ırkçılık, yabancı düşmanlığı, an
 msgid "Daily"
 msgstr "Günlük"
 
-#: src/components/_other/upgrade/UpgradeListItem.tsx:165
-msgid "Daily cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:185
-msgid "Daily income"
-msgstr ""
-
 #: src/components/_political/alliance/AllianceMemberRow.tsx:59
 #: src/components/_political/law/LawTypeSelect.tsx:188
 msgid "Daily maintenance"
@@ -3491,14 +3245,6 @@ msgstr "Günlük bakım ücreti"
 #: src/components/_user/notification/notification.frontConfig.tsx:2164
 msgid "Daily Missions Reset"
 msgstr "Günlük Görevler Sıfırlandı"
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:194
-msgid "Daily production"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:206
-msgid "Daily upkeep"
-msgstr ""
 
 #: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
@@ -3530,7 +3276,7 @@ msgstr "Güzel duruyor ha"
 msgid "Damn you lucky"
 msgstr "Çok şanslısın"
 
-#: src/pages/user/[userId]/settings.tsx:158
+#: src/pages/user/[userId]/settings.tsx:161
 msgid "Danger zone"
 msgstr "Tehlikeli bölge"
 
@@ -3547,19 +3293,19 @@ msgstr "Karanlık Çağ"
 msgid "Dark Era Pack"
 msgstr "Karanlık Çağ Paketi"
 
-#: src/components/_layout/LayoutOptions.tsx:153
+#: src/components/_layout/LayoutOptions.tsx:152
 msgid "Dark map"
 msgstr "Koyu harita modu"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:152
+#: src/components/_user/mission/mission.frontConfig.tsx:151
 msgid "Deal <0/> for allies or your country"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:132
+#: src/components/_user/mission/mission.frontConfig.tsx:131
 msgid "Deal <0/> in battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:142
+#: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Deal <0/> on country/mu orders"
 msgstr ""
 
@@ -3575,15 +3321,15 @@ msgstr "Askeri rütbenizi artırmak ve saldırı bonusları açmak için savaşl
 msgid "Deal damage in battles with your MU members to level up each month and earn rewards. Resets on the 1st of each month."
 msgstr "Her ay seviye atlamak ve ödüller kazanmak için MU üyelerinizle birlikte savaşlarda hasar verin. Her ayın 1'inde sıfırlanır."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:130
+#: src/components/_user/mission/mission.frontConfig.tsx:129
 msgid "Deal Damages"
 msgstr "Hasar Ver"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:150
+#: src/components/_user/mission/mission.frontConfig.tsx:149
 msgid "Deal Damages for Allies or Country"
 msgstr "Müttefiklerin veya Ülken için Hasar Ver"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:140
+#: src/components/_user/mission/mission.frontConfig.tsx:139
 msgid "Deal Damages on Orders"
 msgstr "Verilen Emirlerde Hasar Ver"
 
@@ -3611,7 +3357,7 @@ msgstr "Birazcık hasar verir"
 msgid "Debuff ended"
 msgstr "Debuff sona erdi"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:350
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3705,7 +3451,7 @@ msgstr "Karşısında ek bonus almak için bir ülkeyi baş düşman olarak beli
 msgid "Define a sworn enemy"
 msgstr "Baş düşmanı belirle"
 
-#: src/pages/user/[userId]/settings.tsx:161
+#: src/pages/user/[userId]/settings.tsx:164
 msgid "Delete account"
 msgstr "Hesabı sil"
 
@@ -3755,7 +3501,7 @@ msgstr "Yatak kaynağı"
 msgid "Deposit resources"
 msgstr "Kaynak yatakları"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:140
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:90
 msgid "Deposit will be depleted in"
 msgstr "Maden yatağı tükenecek"
 
@@ -3785,14 +3531,6 @@ msgstr "Açıklama güncellendi!"
 #: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "İmha Et"
-
-#: src/components/_other/upgrade/Upgrade.tsx:333
-msgid "Destruct refund"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:368
-msgid "Destruct refund ({destroyRefundPercent}%):"
-msgstr ""
 
 #: src/components/_layout/map.frontConfig.tsx:37
 #: src/components/_political/region/RegionHeader.tsx:83
@@ -3848,11 +3586,11 @@ msgstr ""
 msgid "Diesel Sports Sedan"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:304
+#: src/components/_user/mission/mission.frontConfig.tsx:303
 msgid "Diminish <0/> received damages with <1>Armor</1> in battles"
 msgstr "Savaşlarda <1>Zırh</1> ile <0/> alınan hasarı azalt"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:302
+#: src/components/_user/mission/mission.frontConfig.tsx:301
 msgid "Diminish Received Damages"
 msgstr "Alınan Hasarı Azalt"
 
@@ -3882,12 +3620,12 @@ msgstr "Devre Dışı"
 msgid "Disbanded"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:200
+#: src/components/_user/mission/mission.frontConfig.tsx:199
 #: src/pages/user/[userId]/inventory.tsx:52
 msgid "Dismantle"
 msgstr "Parçala"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:202
+#: src/components/_user/mission/mission.frontConfig.tsx:201
 msgid "Dismantle <0/> items"
 msgstr ""
 
@@ -3916,28 +3654,18 @@ msgstr "Dağıtıldı"
 msgid "Do you even know what luck is?"
 msgstr "Fakirin yüzü gülmedi"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:292
+#: src/components/_user/mission/mission.frontConfig.tsx:291
 #: src/components/_user/user/skills.frontConfig.tsx:158
 #: src/components/_user/user/skills.frontConfig.tsx:159
 msgid "Dodge"
 msgstr "Savuşturma"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:294
+#: src/components/_user/mission/mission.frontConfig.tsx:293
 msgid "Dodge <0/> attacks"
 msgstr ""
 
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:195
-#: src/pages/user/[userId]/domain.tsx:22
 msgid "Domain"
-msgstr ""
-
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:56
-msgid "Domain buildings:"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:101
-msgid "Domain slots"
 msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:55
@@ -3952,11 +3680,11 @@ msgstr "Beceri yükseltmelerini kaydetmeyi unutma."
 msgid "Don't quit now, your luck is buffering"
 msgstr "Şimdi bırakma, şansın dönüyor"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:543
+#: src/components/_user/mission/mission.frontConfig.tsx:534
 msgid "Donate"
 msgstr "Bağış yap"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:545
+#: src/components/_user/mission/mission.frontConfig.tsx:536
 msgid "Donate <0/> to MU or Country"
 msgstr ""
 
@@ -3977,7 +3705,7 @@ msgstr "Bağış Tablosu"
 msgid "Donations"
 msgstr "Bağışlar"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:374
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:106
 msgid "Dormitories"
 msgstr "Yatakhaneler"
 
@@ -4005,24 +3733,24 @@ msgstr ""
 msgid "Earn <0/> in total"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:160
+#: src/components/_user/mission/mission.frontConfig.tsx:159
 msgid "Eat"
 msgstr "Ye"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:172
-#: src/components/_user/mission/mission.frontConfig.tsx:182
+#: src/components/_user/mission/mission.frontConfig.tsx:171
+#: src/components/_user/mission/mission.frontConfig.tsx:181
 msgid "Eat <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:162
+#: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "Eat <0/> food items"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:170
+#: src/components/_user/mission/mission.frontConfig.tsx:169
 msgid "Eat Cooked Fish"
 msgstr "Pişmiş Balık Ye"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:180
+#: src/components/_user/mission/mission.frontConfig.tsx:179
 msgid "Eat Steak"
 msgstr "Biftek Ye"
 
@@ -4042,10 +3770,6 @@ msgstr "Ekonomik beceriler"
 msgid "Economy & Companies"
 msgstr " Ekonomi ve Şirketler"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-msgid "Edit construction focus"
-msgstr ""
-
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
 msgstr ""
@@ -4058,12 +3782,16 @@ msgstr "Açıklamayı düzenle"
 msgid "Edit Description"
 msgstr "Açıklamayı Düzenle"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:123
+#: src/components/_political/region/RegionResistance.tsx:137
 msgid "Edit focus message"
 msgstr ""
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
+msgstr ""
+
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+msgid "Edit resistance focus"
 msgstr ""
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
@@ -4076,10 +3804,6 @@ msgstr ""
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:490
 msgid "Editing another order"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
-msgid "Effect applies to the whole country. Maintenance scales with the country's average development."
 msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:267
@@ -4182,8 +3906,8 @@ msgstr "Sona Erdi"
 msgid "Ended <0/>"
 msgstr "<0/> sona erdi"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:106
-#: src/components/_military/battle/ActiveBattlesList.tsx:161
+#: src/components/_military/battle/ActiveBattlesList.tsx:107
+#: src/components/_military/battle/ActiveBattlesList.tsx:162
 msgid "Enemies"
 msgstr "Düşmanlar"
 
@@ -4212,7 +3936,7 @@ msgid "Entrepreneurship"
 msgstr "Girişimcilik"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
-#: src/components/_layout/LayoutOptions.tsx:219
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -4237,18 +3961,10 @@ msgstr "Hata"
 msgid "Estimated benefit per"
 msgstr "Tahmini yüzdelik kâr"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:175
-msgid "Estimated construction"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:475
 #: src/components/_military/battle/BattleSystem.tsx:512
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Tüm tikler kazanılırsa bu tarafın mevcut turu kazanması için tahmini minimum süre."
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:195
-msgid "Estimated payout"
-msgstr ""
 
 #: src/components/_economy/company/CompanyHeader.tsx:41
 msgid "Estimated value"
@@ -4276,10 +3992,6 @@ msgstr "Etik Puanları"
 msgid "Events"
 msgstr "Etkinlik"
 
-#: src/pages/market/constructions.tsx:16
-msgid "Every construction site in the world, best paying first. Move to the region and spend energy to earn the country's payout per construction point."
-msgstr ""
-
 #: src/components/_user/mission/MissionsHeader.tsx:77
 msgid "Every mission you ever completed and claimed"
 msgstr ""
@@ -4299,7 +4011,7 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:277
+#: src/utils/translations.tsx:275
 msgid "Expired"
 msgstr "Süresi Doldu"
 
@@ -4452,8 +4164,8 @@ msgstr "Çiftçi Bıçağı"
 msgid "Farmer Pants"
 msgstr "Çiftçi Pantolonu"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:168
+#: src/components/_military/battle/ActiveBattlesList.tsx:89
+#: src/components/_military/battle/ActiveBattlesList.tsx:169
 msgid "Favorites"
 msgstr "Favoriler"
 
@@ -4537,11 +4249,11 @@ msgstr "<0/> bölgesinde direniş finanse et"
 msgid "Find a job"
 msgstr "İş bul"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:503
+#: src/components/_user/mission/mission.frontConfig.tsx:502
 msgid "Find a Job"
 msgstr "İş Bul"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:504
+#: src/components/_user/mission/mission.frontConfig.tsx:503
 msgid "Find a job at a company"
 msgstr "Bir şirkette iş bul"
 
@@ -4575,7 +4287,7 @@ msgstr "Hükümetten kovuldu"
 msgid "Fish"
 msgstr "Balık"
 
-#: src/components/_layout/LayoutOptions.tsx:143
+#: src/components/_layout/LayoutOptions.tsx:142
 msgid "Flags"
 msgstr "Bayraklar"
 
@@ -4583,24 +4295,24 @@ msgstr "Bayraklar"
 msgid "Flail"
 msgstr "Topuzlu Gürz"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
-msgid "Focus construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:139
-msgid "Focus construction here"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:181
 msgid "Focus on you"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:259
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
+msgid "Focus resistance"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:152
+msgid "Focus resistance here"
+msgstr ""
+
+#: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
 msgstr "Yazı tipi"
 
-#: src/components/_layout/LayoutOptions.tsx:271
+#: src/components/_layout/LayoutOptions.tsx:295
 msgid "Font size"
 msgstr "Yazı boyutu"
 
@@ -4669,10 +4381,6 @@ msgstr "Görevlerini tamamlayarak <0>XP</0> kazan!"
 msgid "Game supporter"
 msgstr "Oyun Destekçisi"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:460
-msgid "Garage"
-msgstr ""
-
 #: src/pages/shop/index.tsx:141
 msgid "Gems"
 msgstr "Mücevherler"
@@ -4694,7 +4402,7 @@ msgid "Generate Missions"
 msgstr "Görevler Oluştur"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:343
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:77
 msgid "Generates <0>{0}</0>/day"
 msgstr "Günde <0>{0}</0> üretir"
 
@@ -4751,38 +4459,11 @@ msgid "Giveaway Won!"
 msgstr "Çekiliş Kazanıldı!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:365
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:97
 msgid "Gives <0>{0}</0>"
 msgstr "<0>{0}</0> verir"
 
-#. placeholder {0}: Math.round(percent * 100)
-#. placeholder {1}: Math.round(regionAverageLevel ?? 0)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:275
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>, scaled by its residents' average level of {1})"
-msgstr ""
-
-#. placeholder {0}: Math.round(percent * 100)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:249
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>)"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:313
-msgid "Gives daily income of <0/> (<1/> per active company here × {regionCompanyCount})"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:258
-msgid "Gives daily income of <0/> of this region <1>Development</1>"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:293
-msgid "Gives daily income of <0/> of this region <1>Development</1>, scaled by how experienced its residents are."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:320
-msgid "Gives daily income of <0/> per active company built in this region."
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:109
+#: src/components/_layout/LayoutOptions.tsx:108
 msgid "Globe (experimental)"
 msgstr "Küre (deneysel)"
 
@@ -4820,13 +4501,11 @@ msgstr "Hükümet"
 msgid "Government announcement"
 msgstr "Hükümet duyurusu"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:240
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
 msgid "Government Member"
 msgstr "Hükümet Üyesi"
 
 #: src/components/_military/battle/BattleSystem.tsx:818
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:91
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:193
 msgid "Government penalty"
 msgstr "Hükümet cezası"
 
@@ -4842,7 +4521,7 @@ msgstr ""
 msgid "Grain"
 msgstr "Tahıl"
 
-#: src/components/_layout/LayoutOptions.tsx:116
+#: src/components/_layout/LayoutOptions.tsx:115
 msgid "Graticule"
 msgstr "Paralel ve meridyenler"
 
@@ -4994,7 +4673,7 @@ msgstr "Hamster Tankı"
 msgid "Hard Worker"
 msgstr "Çok Çalışan"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:361
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
 msgid "Headquarters"
 msgstr "Garnizon"
 
@@ -5012,7 +4691,7 @@ msgstr "Ağır Mermi"
 msgid "Helmet"
 msgstr "Miğfer"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:273
+#: src/components/_user/mission/mission.frontConfig.tsx:272
 msgid "Help <0/> MU members"
 msgstr ""
 
@@ -5020,7 +4699,7 @@ msgstr ""
 msgid "Help for Mu"
 msgstr "AB içi Yardım"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:271
+#: src/components/_user/mission/mission.frontConfig.tsx:270
 msgid "Help MU Members"
 msgstr "AB Üyelerine Yardım Et"
 
@@ -5036,11 +4715,11 @@ msgstr "Yüksek Komutan"
 msgid "History"
 msgstr "Geçmiş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:120
+#: src/components/_user/mission/mission.frontConfig.tsx:119
 msgid "Hit"
 msgstr "Ateş et"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:122
+#: src/components/_user/mission/mission.frontConfig.tsx:121
 msgid "Hit <0/> times in battles"
 msgstr ""
 
@@ -5061,18 +4740,6 @@ msgstr "Hükümetteyken kendi ülken için vurmak %{0} ödül verimliliği sağl
 #: src/components/_user/user/UserHeader.tsx:174
 msgid "Home"
 msgstr "Ana Sayfa"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:211
-msgid "Hospital"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeListItem.tsx:167
-msgid "Hourly cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:208
-msgid "Hourly upkeep"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:30
 msgid "How many times have you seen this message already?"
@@ -5187,7 +4854,7 @@ msgid "Income tax"
 msgstr "Gelir vergisi"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:204
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:154
 msgid "Income Tax"
 msgstr "Gelir Vergisi"
 
@@ -5199,10 +4866,6 @@ msgstr "Artır"
 #: src/components/_political/unrest/UnrestPanel.tsx:109
 msgid "Increase unrest"
 msgstr "Huzursuzluğu artır"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:304
-msgid "Industrial Park"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:374
 msgid "Industrialism vs Agrarianism"
@@ -5238,14 +4901,6 @@ msgstr "Bu politikanın kasıtlı veya tekrarlanan ihlalleri kalıcı yasakla so
 #: src/pages/user/[userId]/inventory.tsx:31
 msgid "Inventory"
 msgstr "Envanter"
-
-#: src/components/_other/upgrade/Upgrade.tsx:319
-msgid "Invested"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:359
-msgid "Invested:"
-msgstr ""
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:162
 msgid "Invitations"
@@ -5336,7 +4991,7 @@ msgstr "İşler"
 msgid "Join <0/>"
 msgstr "<0/> ittifakına katıl"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:385
+#: src/components/_user/mission/mission.frontConfig.tsx:384
 msgid "Join a Military Unit"
 msgstr "Askeri Birliğe Katıl"
 
@@ -5344,11 +4999,11 @@ msgstr "Askeri Birliğe Katıl"
 msgid "Join a military unit to take part"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:481
+#: src/components/_user/mission/mission.frontConfig.tsx:480
 msgid "Join a Party"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:482
+#: src/components/_user/mission/mission.frontConfig.tsx:481
 msgid "Join a political party"
 msgstr ""
 
@@ -5357,7 +5012,7 @@ msgstr ""
 msgid "Join alliance"
 msgstr "İttifaka katıl"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:384
+#: src/components/_user/mission/mission.frontConfig.tsx:383
 msgid "Join MU"
 msgstr "AB'ye Katıl"
 
@@ -5438,11 +5093,11 @@ msgstr "Bıçak"
 msgid "Knives do not accept ammo"
 msgstr "Bıçaklar ile mermi kullanılamaz"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:283
+#: src/components/_user/mission/mission.frontConfig.tsx:282
 msgid "Land <0/> critical hits"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:212
+#: src/components/_layout/LayoutOptions.tsx:221
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Dil"
@@ -5451,7 +5106,7 @@ msgstr "Dil"
 msgid "Last"
 msgstr "Son"
 
-#: src/components/_user/user/UserHeader.tsx:364
+#: src/components/_user/user/UserHeader.tsx:358
 msgid "Last connection"
 msgstr ""
 
@@ -5558,10 +5213,6 @@ msgstr "Hükümetten ayrıl"
 msgid "Leave the alliance your country belongs to"
 msgstr "Ülkenizin ait olduğu ittifaktan ayrılın"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:179
-msgid "left"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
 msgstr "Efsane Görüldü!"
@@ -5586,10 +5237,6 @@ msgstr "Efsanevi Miğfer"
 msgid "Legendary Pants"
 msgstr "Efsanevi Pantolon"
 
-#: src/components/_other/upgrade/UpgradeSlotCard.tsx:175
-msgid "Level"
-msgstr ""
-
 #. placeholder {0}: leveling.level + 1
 #: src/components/_user/user/Level.tsx:123
 msgid "Level {0} reward"
@@ -5597,7 +5244,6 @@ msgstr ""
 
 #: src/components/_military/mu/MuLevel.tsx:64
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:89
-#: src/components/_user/domain/DomainUpgradeList.tsx:158
 msgid "Level {level}"
 msgstr "Seviye {level}"
 
@@ -5648,19 +5294,19 @@ msgstr "Açık"
 msgid "Light Ammo"
 msgstr "Hafif Mermi"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:346
+#: src/components/_user/mission/mission.frontConfig.tsx:345
 msgid "Like <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:432
+#: src/components/_user/mission/mission.frontConfig.tsx:431
 msgid "Like <0/> messages"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:344
+#: src/components/_user/mission/mission.frontConfig.tsx:343
 msgid "Like Article"
 msgstr "Makaleyi Beğen"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:430
+#: src/components/_user/mission/mission.frontConfig.tsx:429
 msgid "Like Message"
 msgstr "Mesajı Beğen"
 
@@ -5680,7 +5326,7 @@ msgstr ""
 msgid "Limited:"
 msgstr "Sınırlı:"
 
-#: src/components/_layout/LayoutOptions.tsx:301
+#: src/components/_layout/LayoutOptions.tsx:331
 msgid "Line"
 msgstr "Çizgi"
 
@@ -5714,21 +5360,9 @@ msgstr "Yükleniyor {status}..."
 msgid "Loading..."
 msgstr "Yükleniyor..."
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
-msgid "Local"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:111
 msgid "Location"
 msgstr "Konum"
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:163
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:166
-#: src/components/_political/region/UpgradeList.tsx:266
-#: src/components/_political/region/UpgradesGrid.tsx:220
-#: src/components/_user/domain/DomainUpgradeList.tsx:214
-msgid "Locked slot"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:289
 msgid "Locked, reset your skills to reassign"
@@ -5742,15 +5376,15 @@ msgstr "Çıkış Yap"
 msgid "Long Sword"
 msgstr "Uzun Kılıç"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:326
+#: src/components/_user/mission/mission.frontConfig.tsx:325
 msgid "Loot <0/> in battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:336
+#: src/components/_user/mission/mission.frontConfig.tsx:335
 msgid "Loot <0/> items on battlefield"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:324
+#: src/components/_user/mission/mission.frontConfig.tsx:323
 msgid "Loot Cases"
 msgstr "Ganimetleri Topla"
 
@@ -5787,11 +5421,6 @@ msgstr "Şans sonunda maaş bordrosunda"
 msgid "Lvl"
 msgstr ""
 
-#. placeholder {0}: construction.targetLevel
-#: src/components/_other/upgradeConstruction/ConstructionListItem.tsx:57
-msgid "Lvl {0}"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:191
 msgid "Mage Robe"
 msgstr "Büyücü Cübbesi"
@@ -5799,10 +5428,6 @@ msgstr "Büyücü Cübbesi"
 #: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "Bakım maliyeti"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:103
-msgid "Maintenance scales with the number of citizens present in the region."
-msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:96
 msgid "Major"
@@ -5813,7 +5438,7 @@ msgid "Make <0/> the new alliance leader. The leader can edit the alliance avata
 msgstr "<0/> kişisini yeni ittifak lideri yapın. Lider, ittifak avatarını ve renk şemasını doğrudan düzenleyebilir."
 
 #: src/components/_user/premium/PremiumActions.tsx:84
-#: src/pages/user/[userId]/settings.tsx:152
+#: src/pages/user/[userId]/settings.tsx:155
 msgid "Manage Subscription"
 msgstr "Aboneliği Yönet"
 
@@ -5827,7 +5452,7 @@ msgid "map"
 msgstr "harita"
 
 #: src/components/_layout/LayoutMapOptions.tsx:82
-#: src/components/_layout/LayoutOptions.tsx:106
+#: src/components/_layout/LayoutOptions.tsx:105
 msgid "Map"
 msgstr "Harita"
 
@@ -5836,13 +5461,12 @@ msgstr "Harita"
 msgid "Map Accent"
 msgstr "Harita Aksanı"
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Map icons"
 msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:45
 #: src/components/_layout/LayoutMenu.tsx:163
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:268
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5871,24 +5495,19 @@ msgstr "Maksimum seviyeye ulaşıldı!"
 msgid "Max rarity"
 msgstr ""
 
-#. placeholder {0}: maxRate.toFixed(2)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:147
-msgid "Max rate: {0} money per 1000 construction points. The pool leaves your treasury now and comes back if you cancel it or when the construction is done."
-msgstr ""
-
 #: src/components/_economy/company/CompanyDropdown.tsx:222
 #: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr "Maksimum!"
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:378
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
 msgid "Maximum of <0>{0}</0> members."
 msgstr "Maksimum <0>{0}</0> üye."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:496
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:122
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Maksimum <0>{0}</0> işçi.{1}"
 
@@ -6022,7 +5641,7 @@ msgstr ""
 msgid "Mercenary Reputation"
 msgstr "Paralı Asker İtibarı"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:123
+#: src/components/_political/region/SetResistanceFocusModal.tsx:120
 msgid "Message"
 msgstr ""
 
@@ -6092,7 +5711,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:232
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -6101,7 +5720,7 @@ msgstr ""
 msgid "Military & Battles"
 msgstr "Asker ve Savaşlar"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:162
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "Askeri üs"
 
@@ -6142,10 +5761,6 @@ msgstr "Askeri Birlik"
 msgid "Military unit announcement"
 msgstr ""
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:50
-msgid "Military unit buildings:"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:44
 msgid "Military unit created"
 msgstr "Askeri birlik oluşturuldu"
@@ -6158,12 +5773,6 @@ msgstr "Askeri birlikler"
 #: src/components/_military/battle/BattleCountrySide.tsx:93
 msgid "Military Units"
 msgstr "Askeri Birlikler"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:170
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:191
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:236
-msgid "min"
-msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:293
 msgid "Min reached"
@@ -6188,13 +5797,13 @@ msgstr "Ekonomi Bakanı"
 msgid "Minister of Foreign Affairs"
 msgstr "Dışişleri Bakanı"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:207
 msgid "Mission tags"
 msgstr "Görev etiketleri"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
 #: src/components/_user/mission/MissionsList.tsx:232
-#: src/components/_user/user/UserHeader.tsx:231
+#: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Görevler"
 
@@ -6215,21 +5824,9 @@ msgstr "Cep telefonu numarası"
 msgid "Money"
 msgstr "Nakit"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Money added"
-msgstr ""
-
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:135
 msgid "Money earned from mercenary contracts."
 msgstr "Paralı asker sözleşmelerinden kazanılan para."
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:125
-msgid "Money per 1000 construction points"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:126
-msgid "Money per 1k points"
-msgstr ""
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money ranking"
@@ -6292,25 +5889,25 @@ msgstr "Önerge sunuldu"
 msgid "Motions"
 msgstr "Önergeler"
 
-#: src/components/_political/region/MoveButton.tsx:117
-#: src/components/_political/region/MoveButton.tsx:129
+#: src/components/_political/region/MoveButton.tsx:103
+#: src/components/_political/region/MoveButton.tsx:115
 msgid "Move"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:520
+#: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
 msgstr "Şirketi başka bir bölgeye taşı"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:187
-#: src/components/_economy/company/MoveCompanyForm.tsx:66
+#: src/components/_economy/company/MoveCompanyForm.tsx:65
 msgid "Move company"
 msgstr "Şirketi taşı"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:519
+#: src/components/_user/mission/mission.frontConfig.tsx:518
 msgid "Move Company"
 msgstr "Şirketi Taşı"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:98
+#: src/components/_economy/company/MoveCompanyForm.tsx:91
 msgid "Move the company"
 msgstr "Şirketi taşı"
 
@@ -6373,10 +5970,6 @@ msgstr ""
 msgid "MU Tournament Winner"
 msgstr "AB Turnuvası Kazananı"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
-msgid "My alliance"
-msgstr ""
-
 #: src/components/_military/battle/LootSummaryCard.tsx:135
 msgid "My battle loot"
 msgstr "Savaş ganimetlerin"
@@ -6388,10 +5981,6 @@ msgstr "Botum, Script, vb."
 #: src/pages/user/[userId]/companies.tsx:84
 msgid "My Companies"
 msgstr "Şirketlerim"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:95
-msgid "My country"
-msgstr ""
 
 #. placeholder {0}: milestone.tier
 #: src/components/_user/milestone/MilestoneItem.tsx:134
@@ -6430,10 +6019,6 @@ msgstr "Mistik mi?! Hesabın kutsanmış"
 #: src/components/_political/party/PartyFormModal.tsx:97
 msgid "Name"
 msgstr "İsim"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
-msgid "National"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:424
 msgid "National battle orders cost double."
@@ -6527,7 +6112,7 @@ msgstr "Yeni iş teklifi"
 msgid "New leader"
 msgstr "Yeni lider"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:86
+#: src/components/_economy/company/MoveCompanyForm.tsx:79
 msgid "New location"
 msgstr "Yeni konum"
 
@@ -6605,10 +6190,6 @@ msgstr "Haberler"
 msgid "Next"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:226
-msgid "Next hourly cost"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:18
 msgid "Next one will be a tank"
 msgstr "Sonraki tank olacak"
@@ -6624,14 +6205,6 @@ msgstr ""
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
 msgstr "Sonraki ödül"
-
-#: src/components/_political/region/UpgradeList.tsx:283
-msgid "Next slot unlocks at {unlockDevelopment} development"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:219
-msgid "Next slot unlocks at level {unlockLevel}"
-msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Next tick"
@@ -6654,7 +6227,7 @@ msgstr "Aferin lan"
 msgid "Nice work!"
 msgstr "Güzel iş!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:194
+#: src/components/_military/battle/ActiveBattlesList.tsx:201
 msgid "No active battles"
 msgstr "Aktif savaş yok"
 
@@ -6714,12 +6287,7 @@ msgstr "Vatandaş yok"
 msgid "No congress members"
 msgstr "Meclis üyesi yok"
 
-#: src/components/_other/upgradeConstruction/AllConstructionList.tsx:28
-#: src/components/_other/upgradeConstruction/ConstructionList.tsx:40
-msgid "No construction in progress"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:275
+#: src/components/_political/contribution/ContributionList.tsx:225
 msgid "No contributions yet"
 msgstr "Henüz katkı yok"
 
@@ -6832,10 +6400,6 @@ msgstr "Şimdilik davet edilen kimse yok"
 msgid "No referrer yet"
 msgstr "Davetçi belirlenmedi"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:119
-msgid "No region to recommend for this filter"
-msgstr ""
-
 #: src/components/_user/user/UserEquippedSkins.tsx:139
 msgid "No skins equipped"
 msgstr "Giyilen kostüm yok"
@@ -6937,7 +6501,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr ""
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:132
+#: src/pages/user/[userId]/settings.tsx:135
 msgid "Notification preferences"
 msgstr "Bildirim Tercihleri"
 
@@ -6953,15 +6517,15 @@ msgstr "Daha yeni başlıyoruz"
 msgid "Number of Donors:"
 msgstr "Bağışçı sayısı:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:499
+#: src/components/_user/mission/mission.frontConfig.tsx:498
 msgid "Obtain a badge"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:498
+#: src/components/_user/mission/mission.frontConfig.tsx:497
 msgid "Obtain a Badge"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:127
+#: src/components/_political/region/RegionHeader.tsx:118
 msgid "Occupied by"
 msgstr ""
 
@@ -7025,10 +6589,6 @@ msgstr ""
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Sadece destekçiler harcama ve gelir dökümünü görebilir."
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:167
-msgid "Only the company owner can unlock this slot."
-msgstr ""
-
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:168
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr ""
@@ -7045,7 +6605,7 @@ msgstr "Yalnızca çekirdek bölgeleriniz gelişim geliri üretir."
 msgid "Open"
 msgstr "Aç"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:232
+#: src/components/_user/mission/mission.frontConfig.tsx:231
 msgid "Open <0/>"
 msgstr ""
 
@@ -7058,11 +6618,11 @@ msgstr "Kasa aç"
 msgid "Open Case"
 msgstr "Kasa Aç"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:230
+#: src/components/_user/mission/mission.frontConfig.tsx:229
 msgid "Open Cases"
 msgstr "Kasaları Aç"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:378
+#: src/components/_user/mission/mission.frontConfig.tsx:377
 msgid "Open Chat"
 msgstr "Sohbeti Aç"
 
@@ -7082,7 +6642,7 @@ msgstr "Rastgele bir eşya almak için aç"
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "Aynı anda birden fazla <0>Kasa</0> aç"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:379
+#: src/components/_user/mission/mission.frontConfig.tsx:378
 msgid "Open the chat"
 msgstr "Sohbeti aç"
 
@@ -7110,7 +6670,7 @@ msgstr ""
 msgid "Order"
 msgstr "Emir"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:82
+#: src/components/_military/battle/ActiveBattlesList.tsx:83
 msgid "Orders"
 msgstr "Emirler"
 
@@ -7131,7 +6691,7 @@ msgstr ""
 msgid "Origin"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:118
+#: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
 msgstr "Diğer"
@@ -7183,7 +6743,7 @@ msgstr "<0/>'ın sahipliği <1/>'dan <2/>'a devredildi"
 msgid "Ownership transferred successfully"
 msgstr "Sahiplik başarıyla devredildi"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:180
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:60
 msgid "Pacification Center"
 msgstr "Barışlaştırma Merkezi"
 
@@ -7218,11 +6778,11 @@ msgstr "Kağıt"
 msgid "Participants"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:243
+#: src/components/_user/mission/mission.frontConfig.tsx:242
 msgid "Participate in <0/> battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:241
+#: src/components/_user/mission/mission.frontConfig.tsx:240
 msgid "Participate in Battle"
 msgstr "Savaşa Katıl"
 
@@ -7319,7 +6879,6 @@ msgid "Payment successful! Thanks for supporting the game <3"
 msgstr "Ödeme başarılı! Oyunu desteklediğin için teşekkürler <3"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:163
 msgid "Payout"
 msgstr "Ödeme"
 
@@ -7327,7 +6886,7 @@ msgstr "Ödeme"
 msgid "Peace made"
 msgstr "Barış yapıldı"
 
-#: src/utils/translations.tsx:279
+#: src/utils/translations.tsx:277
 msgid "Pending"
 msgstr "Beklemede"
 
@@ -7430,18 +6989,19 @@ msgstr "Siyaset ve Hükümet"
 msgid "Popular Article"
 msgstr "Popüler Makale"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_political/region/RegionHeader.tsx:96
+#: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:98
+msgid "Population (currently here)"
 msgstr ""
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
 msgstr "Duyuru yayınla"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:225
-msgid "Power Plant"
-msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:144
 #: src/components/_user/user/skills.frontConfig.tsx:145
@@ -7527,7 +7087,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:443
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:453
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7557,7 +7117,7 @@ msgid "Probability of landing a critical hit"
 msgstr "Kritik vuruş yapma olasılığı"
 
 #: src/components/_economy/company/ProduceButton.tsx:142
-#: src/components/_user/mission/mission.frontConfig.tsx:509
+#: src/components/_user/mission/mission.frontConfig.tsx:508
 msgid "Produce"
 msgstr "Üret"
 
@@ -7565,7 +7125,7 @@ msgstr "Üret"
 msgid "Produce All"
 msgstr "Hepsini Üret"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:511
+#: src/components/_user/mission/mission.frontConfig.tsx:510
 msgid "Produce items <0/> times"
 msgstr ""
 
@@ -7589,7 +7149,7 @@ msgid "Production"
 msgstr "Üretim"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:153
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Üretim bonusu"
@@ -7713,6 +7273,14 @@ msgstr "Cezalar ve gerekçeleri, kullanıcı profillerinde görünür. Oyuncular
 msgid "Purple Staff"
 msgstr "Mor Değnek"
 
+#: src/components/_political/region/SetResistanceFocusModal.tsx:125
+msgid "Push the resistance here before they dig in..."
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:201
+msgid "Push the resistance here first."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:35
 msgid "Put yourself to work!"
 msgstr "İşe başla!"
@@ -7769,91 +7337,91 @@ msgstr "1K hasar başına oran"
 msgid "Raw materials:"
 msgstr "Hammaddeler:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:411
+#: src/components/_user/mission/mission.frontConfig.tsx:410
 msgid "Reach level 10"
 msgstr "10. seviyeye ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:410
+#: src/components/_user/mission/mission.frontConfig.tsx:409
 msgid "Reach Level 10"
 msgstr "10. Seviyeye Ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:416
+#: src/components/_user/mission/mission.frontConfig.tsx:415
 msgid "Reach level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:415
+#: src/components/_user/mission/mission.frontConfig.tsx:414
 msgid "Reach Level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:421
+#: src/components/_user/mission/mission.frontConfig.tsx:420
 msgid "Reach level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:420
+#: src/components/_user/mission/mission.frontConfig.tsx:419
 msgid "Reach Level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:426
+#: src/components/_user/mission/mission.frontConfig.tsx:425
 msgid "Reach level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:425
+#: src/components/_user/mission/mission.frontConfig.tsx:424
 msgid "Reach Level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:406
+#: src/components/_user/mission/mission.frontConfig.tsx:405
 msgid "Reach level 5"
 msgstr "5. seviyeye ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:405
+#: src/components/_user/mission/mission.frontConfig.tsx:404
 msgid "Reach Level 5"
 msgstr "5. Seviyeye Ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:457
+#: src/components/_user/mission/mission.frontConfig.tsx:456
 msgid "Reach military rank 10"
 msgstr "10. askeri rütbeye ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:456
+#: src/components/_user/mission/mission.frontConfig.tsx:455
 msgid "Reach Military Rank 10"
 msgstr "10. Askeri Rütbeye Ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:462
+#: src/components/_user/mission/mission.frontConfig.tsx:461
 msgid "Reach military rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:461
+#: src/components/_user/mission/mission.frontConfig.tsx:460
 msgid "Reach Military Rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:467
+#: src/components/_user/mission/mission.frontConfig.tsx:466
 msgid "Reach military rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:466
+#: src/components/_user/mission/mission.frontConfig.tsx:465
 msgid "Reach Military Rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:472
+#: src/components/_user/mission/mission.frontConfig.tsx:471
 msgid "Reach military rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:471
+#: src/components/_user/mission/mission.frontConfig.tsx:470
 msgid "Reach Military Rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:452
+#: src/components/_user/mission/mission.frontConfig.tsx:451
 msgid "Reach military rank 5"
 msgstr "5. askeri rütbeye ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:451
+#: src/components/_user/mission/mission.frontConfig.tsx:450
 msgid "Reach Military Rank 5"
 msgstr "5. Askeri Rütbeye Ulaş"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:477
+#: src/components/_user/mission/mission.frontConfig.tsx:476
 msgid "Reach military rank 50"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:476
+#: src/components/_user/mission/mission.frontConfig.tsx:475
 msgid "Reach Military Rank 50"
 msgstr ""
 
@@ -7867,11 +7435,11 @@ msgstr ""
 msgid "Reached by {0}% (<0/>)"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:363
+#: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "Read <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:361
+#: src/components/_user/mission/mission.frontConfig.tsx:360
 msgid "Read Article"
 msgstr "Makaleyi Oku"
 
@@ -7906,7 +7474,7 @@ msgstr "Tarif"
 msgid "Recipient"
 msgstr "Alıcı"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:76
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:68
 msgid "Recommended regions"
 msgstr "Önerilen bölgeler"
 
@@ -7926,7 +7494,7 @@ msgstr "Savaşlarda dövüşürken kaybedilen sağlığı azaltır"
 msgid "Referral link copied to clipboard"
 msgstr "Davet linki panoya kopyalandı"
 
-#: src/components/_user/user/UserHeader.tsx:266
+#: src/components/_user/user/UserHeader.tsx:260
 #: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7976,10 +7544,6 @@ msgstr "Bölge"
 msgid "Region buy offer"
 msgstr "Bölge satın alma teklifi"
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:45
-msgid "region dev"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2078
 msgid "Region is revolting!"
 msgstr "Bölgede isyan çıktı!"
@@ -7990,14 +7554,6 @@ msgstr "Bölge özgürlüğüne kavuştu"
 
 #: src/components/_political/region/RegionHeader.tsx:47
 msgid "Region of"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:38
-msgid "region residents"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:98
-msgid "Region slots"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:110
@@ -8017,7 +7573,7 @@ msgstr "bölgeler"
 msgid "Regions"
 msgstr "Bölgeler"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:604
+#: src/components/_user/mission/mission.frontConfig.tsx:595
 msgid "Regions Crossed"
 msgstr ""
 
@@ -8078,7 +7634,7 @@ msgid "Reject"
 msgstr "Reddet"
 
 #: src/components/_political/law/GenericLawStatus.tsx:42
-#: src/utils/translations.tsx:280
+#: src/utils/translations.tsx:278
 msgid "Rejected"
 msgstr "Reddedildi"
 
@@ -8145,7 +7701,7 @@ msgstr "Açıklamayı Kaldır"
 msgid "Remove enemy"
 msgstr "Düşmanı kaldır"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:129
+#: src/components/_political/region/RegionResistance.tsx:143
 msgid "Remove focus"
 msgstr ""
 
@@ -8206,7 +7762,7 @@ msgstr "Rapor Et"
 msgid "Report user"
 msgstr "Kullanıcıyı bildir"
 
-#: src/components/_user/user/UserHeader.tsx:220
+#: src/components/_user/user/UserHeader.tsx:214
 msgid "Reports"
 msgstr "Raporlar"
 
@@ -8243,7 +7799,7 @@ msgstr "Sıfırla"
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA'yı Sıfırla"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:492
+#: src/components/_user/mission/mission.frontConfig.tsx:491
 msgid "Reset Skills"
 msgstr ""
 
@@ -8251,7 +7807,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "Sıfırlama Hayatta Kalanı"
 
-#: src/pages/user/[userId]/settings.tsx:127
+#: src/pages/user/[userId]/settings.tsx:130
 msgid "Reset tutorials"
 msgstr "Eğitimleri sıfırla"
 
@@ -8259,7 +7815,7 @@ msgstr "Eğitimleri sıfırla"
 msgid "Reset Username"
 msgstr "Kullanıcı Adını Sıfırla"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:493
+#: src/components/_user/mission/mission.frontConfig.tsx:492
 msgid "Reset your skills"
 msgstr ""
 
@@ -8267,24 +7823,42 @@ msgstr ""
 msgid "Reshuffle in"
 msgstr "Yeniden dağıtım"
 
+#: src/components/_political/region/RegionHeader.tsx:88
+msgid "Residents"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:90
+msgid "Residents (home here)"
+msgstr ""
+
 #: src/components/_military/hit/HitButton.tsx:468
-#: src/components/_user/mission/mission.frontConfig.tsx:573
+#: src/components/_user/mission/mission.frontConfig.tsx:564
 msgid "Resist"
 msgstr "Diren"
 
+#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
 msgstr "Direniş"
 
-#: src/components/_political/contribution/ContributionList.tsx:246
+#: src/components/_political/contribution/ContributionList.tsx:198
 msgid "Resistance Contributors"
 msgstr "Huzursuzluğa Katkıda Bulunanlar"
+
+#: src/components/_political/region/ResistanceFocusItem.tsx:229
+msgid "Resistance focus"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:190
+msgid "Resistance focused by <0/>"
+msgstr ""
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
 msgstr "{regionName} için direniş {score}"
 
-#: src/components/_political/region/RegionTooltip.tsx:101
+#: src/components/_political/region/RegionTooltip.tsx:98
 msgid "Resource"
 msgstr ""
 
@@ -8350,7 +7924,7 @@ msgstr "Haklar"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "Parayı geri al (MU/kullanıcılardan tüm ödemeleri geri al ve tam havuzu ülkeye iade et)"
 
-#: src/utils/translations.tsx:275
+#: src/utils/translations.tsx:273
 msgid "Rolled back by admin"
 msgstr "Yönetici tarafından geri alındı"
 
@@ -8431,9 +8005,7 @@ msgid "Running low on health?"
 msgstr "Sağlık mı azalıyor?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
-#: src/components/_other/upgrade/UpgradeGrid.tsx:122
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_political/region/UpgradeList.tsx:153
 #: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
@@ -8454,10 +8026,6 @@ msgstr "Dolandırıldın"
 #: src/utils/translations.tsx:40
 msgid "Scraps"
 msgstr "Hurda"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:474
-msgid "Scrapyard"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:75
 msgid "Screenshot or it didn't happen"
@@ -8530,11 +8098,11 @@ msgid "Select skin"
 msgstr "Görünüm seç"
 
 #: src/components/_economy/work/WorkChart.tsx:224
-#: src/components/_user/mission/mission.frontConfig.tsx:86
+#: src/components/_user/mission/mission.frontConfig.tsx:85
 msgid "Self Work"
 msgstr "Kendi İşin"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:88
+#: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
 msgstr ""
 
@@ -8542,7 +8110,7 @@ msgstr ""
 msgid "Sell company?"
 msgstr "Şirketi sat?"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:222
+#: src/components/_user/mission/mission.frontConfig.tsx:221
 msgid "Sell for <0/> money on market"
 msgstr ""
 
@@ -8550,7 +8118,7 @@ msgstr ""
 msgid "Sell it, you need to buy more cases to gamble!"
 msgstr "Sat şunu, açmak için daha fazla kasa lazım!"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:220
+#: src/components/_user/mission/mission.frontConfig.tsx:219
 msgid "Sell Items"
 msgstr "Eşya Sat"
 
@@ -8567,7 +8135,7 @@ msgstr "Satış fiyatı:"
 msgid "sells"
 msgstr "satıyor"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:392
+#: src/components/_user/mission/mission.frontConfig.tsx:391
 msgid "Send <0/> messages"
 msgstr ""
 
@@ -8591,7 +8159,7 @@ msgstr "Kodu Gönder"
 msgid "Send Gift"
 msgstr "Hediye Gönder"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:390
+#: src/components/_user/mission/mission.frontConfig.tsx:389
 msgid "Send Message"
 msgstr "Mesaj Gönder"
 
@@ -8625,10 +8193,6 @@ msgstr "Ülken için bir karşılama makalesi ayarla<0/>"
 msgid "Set bounty"
 msgstr "Ödül belirle"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Set construction payout"
-msgstr ""
-
 #: src/components/_political/law/law.frontConfig.tsx:544
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
@@ -8651,12 +8215,7 @@ msgstr "Emir ver"
 msgid "Set party ethics"
 msgstr "Parti ilkelerini belirle"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Set payout"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:445
+#: src/components/_user/mission/mission.frontConfig.tsx:444
 msgid "Set Profile Picture"
 msgstr "Profil Fotoğrafı Ayarla"
 
@@ -8674,7 +8233,7 @@ msgstr "Ülkenin özel eşyasını <0>{0}</0> olarak ayarla.<1/>Ülke stratejik 
 msgid "Set the country's specialized production item"
 msgstr "Ülkenin özel üretim eşyasını ayarla"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:439
+#: src/components/_user/mission/mission.frontConfig.tsx:438
 msgid "Set Username"
 msgstr "Kullanıcı Adı Ayarla"
 
@@ -8683,17 +8242,17 @@ msgstr "Kullanıcı Adı Ayarla"
 msgid "Set welcome article"
 msgstr "Karşılama makalesi ayarla"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:446
+#: src/components/_user/mission/mission.frontConfig.tsx:445
 msgid "Set your profile picture"
 msgstr "Profil fotoğrafını ayarla"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:440
+#: src/components/_user/mission/mission.frontConfig.tsx:439
 msgid "Set your username"
 msgstr "Kullanıcı adını ayarla"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:61
-#: src/components/_user/user/UserHeader.tsx:272
+#: src/components/_user/user/UserHeader.tsx:266
 msgid "Settings"
 msgstr "Ayarlar"
 
@@ -8703,10 +8262,6 @@ msgstr ""
 
 #: src/components/_user/user/UserEffectSelector.tsx:56
 msgid "Shine"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:388
-msgid "Shooting Range"
 msgstr ""
 
 #: src/components/_layout/LayoutRightIcons.tsx:184
@@ -8774,7 +8329,7 @@ msgid "Skill upgrade:"
 msgstr "Beceri yükseltmesi:"
 
 #: src/components/_user/user/MyAvatar.tsx:42
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:195
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Beceriler"
@@ -8837,16 +8392,7 @@ msgstr ""
 msgid "Sling Stones"
 msgstr "Sapan Taşları"
 
-#: src/components/_user/domain/DomainUpgradeList.tsx:161
-msgid "slot {slot}"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:95
-#: src/components/_user/domain/DomainUpgradeList.tsx:98
-msgid "Slots"
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:207
+#: src/components/_layout/LayoutOptions.tsx:212
 msgid "Small GIFs"
 msgstr ""
 
@@ -8862,7 +8408,7 @@ msgstr "Sosyal ve Mesajlar"
 msgid "Some of your companies are disabled."
 msgstr "Bazı şirketlerin devre dışı."
 
-#: src/components/_layout/LayoutOptions.tsx:178
+#: src/components/_layout/LayoutOptions.tsx:183
 msgid "Sound effects"
 msgstr "Ses efektleri"
 
@@ -8895,7 +8441,7 @@ msgid "Spendings"
 msgstr "Harcamalar"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points, only by building a Garage on your domain."
+msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
@@ -9015,16 +8561,12 @@ msgstr "Biftek"
 msgid "Steel"
 msgstr "Çelik"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:402
-msgid "Stockpile"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:245
 msgid "Stone Maul"
 msgstr "Taş Tokmak"
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:349
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
 msgid "Storage"
 msgstr "Depolama"
 
@@ -9111,7 +8653,7 @@ msgid "Supporter plan"
 msgstr "Destekçi planı"
 
 #: src/components/_user/modals/PremiumModal.tsx:31
-#: src/pages/user/[userId]/settings.tsx:145
+#: src/pages/user/[userId]/settings.tsx:148
 msgid "Supporter Plan"
 msgstr "Destekçi Planı"
 
@@ -9157,7 +8699,7 @@ msgstr "Sistem isyanı"
 msgid "Take control"
 msgstr "Kontrolü ele al"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:112
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "Maden kaynaklarını hesaba kat"
 
@@ -9182,10 +8724,6 @@ msgstr "Hedef bölge"
 msgid "Target user"
 msgstr "Hedef kullanıcı"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:242
-msgid "Tax Office"
-msgstr ""
-
 #: src/components/_political/law/LawFormModal.tsx:251
 msgid "Tax type"
 msgstr "Vergi türü"
@@ -9204,8 +8742,8 @@ msgstr ""
 msgid "Teams"
 msgstr ""
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:124
-msgid "Tell your citizens why this construction comes first"
+#: src/components/_political/region/SetResistanceFocusModal.tsx:121
+msgid "Tell your citizens why this region comes first"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
@@ -9222,7 +8760,7 @@ msgstr "Şartlar"
 msgid "Terms of Service"
 msgstr "Hizmet Şartları"
 
-#: src/components/_layout/LayoutOptions.tsx:312
+#: src/components/_layout/LayoutOptions.tsx:342
 msgid "Texture"
 msgstr "Doku"
 
@@ -9342,11 +8880,6 @@ msgstr "Bu ülkenin cumhurbaşkanı veya aktif meclis üyesi yok, kontrolü ele 
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "Bu ülke Fanatik Emperyalist: bakanları olamaz, yalnızca bir cumhurbaşkanı ve başkan yardımcısı olabilir. Bakan adaylıkları reddedilecektir."
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:70
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:153
-msgid "This country pays <0>{rate}</0> per 1000 construction points you contribute. <1>{pool}</1> left in the pool."
-msgstr ""
-
 #: src/components/_political/map/MapLibreErrorBoundary.tsx:64
 msgid "This device can't display the map"
 msgstr ""
@@ -9421,10 +8954,6 @@ msgstr "Bu, kullanıcının cep telefonu numarasını doğrulamasını gerektire
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:227
-msgid "Time left before the next upkeep charge"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Ülken için savaşma zamanı! Aksiyona katılalım."
@@ -9497,11 +9026,11 @@ msgstr "Tiny Pixel Keskin Nişancısı"
 msgid "Tiny Pixel Tank"
 msgstr "Tiny Pixel Tankı"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:315
+#: src/components/_user/mission/mission.frontConfig.tsx:314
 msgid "Tip <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:313
+#: src/components/_user/mission/mission.frontConfig.tsx:312
 msgid "Tip Article"
 msgstr "Makaleye Bahşiş Ver"
 
@@ -9576,11 +9105,6 @@ msgstr "Ayın en iyi hediye verenleri"
 msgid "Top of the hill"
 msgstr "Zirveye Çıktın"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Top up payout"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:672
 msgid "total"
 msgstr "toplam"
@@ -9604,10 +9128,6 @@ msgstr "Toplam"
 msgid "Total cases opened"
 msgstr "Toplam açılan sandık"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:252
-msgid "Total daily cost"
-msgstr ""
-
 #: src/components/_military/tournament/TournamentTeamTooltip.tsx:92
 msgid "Total damage"
 msgstr ""
@@ -9620,16 +9140,7 @@ msgstr "Toplam hasar"
 msgid "Total Donated:"
 msgstr "Toplam bağış:"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:215
-msgid "Total hourly cost"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:132
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Total money"
-msgstr ""
-
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:497
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:507
 msgid "Total of <0/>"
 msgstr "<0/>'in Toplamı"
 
@@ -9656,8 +9167,8 @@ msgstr ""
 msgid "Total:"
 msgstr "Toplam:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:175
+#: src/components/_military/battle/ActiveBattlesList.tsx:77
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -9712,11 +9223,7 @@ msgstr "Ticaret işlemi"
 msgid "Trainee"
 msgstr "Stajyer"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:432
-msgid "Training Grounds"
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:246
+#: src/components/_user/user/UserHeader.tsx:240
 msgid "Transac."
 msgstr "İşlem."
 
@@ -9749,19 +9256,19 @@ msgstr "Şirkete transfer et (isteğe bağlı)"
 msgid "Translator"
 msgstr "Çevirmen"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:583
+#: src/components/_user/mission/mission.frontConfig.tsx:574
 msgid "Travel"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:616
+#: src/components/_user/mission/mission.frontConfig.tsx:607
 msgid "Travel <0/> km on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:614
+#: src/components/_user/mission/mission.frontConfig.tsx:605
 msgid "Travel Distance"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:585
+#: src/components/_user/mission/mission.frontConfig.tsx:576
 msgid "Travel to another region <0/> times"
 msgstr ""
 
@@ -9773,7 +9280,7 @@ msgstr "Mancınık"
 msgid "Trooper"
 msgstr "Asker"
 
-#: src/pages/user/[userId]/settings.tsx:120
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Tutorials"
 msgstr "Eğitimler"
 
@@ -9789,7 +9296,7 @@ msgstr ""
 msgid "Tyrannosaurus Rex"
 msgstr "Tyrannosaurus Rex"
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:161
 msgid "UI"
 msgstr "UI"
 
@@ -9849,33 +9356,11 @@ msgstr "Hepsine Yardım Et butonunu aç"
 msgid "Unlock Produce all button"
 msgstr "Hepsini Üret butonunu aç"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:175
-msgid "Unlock slot {slot}"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:170
-msgid "Unlock the previous slot first."
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:166
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:169
-msgid "Unlock this slot for {cost} concrete."
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:1998
 msgid "Unlocked pack"
 msgstr "Kilidi açılmış paket"
 
-#: src/components/_political/region/UpgradeList.tsx:272
-#: src/components/_political/region/UpgradesGrid.tsx:226
-msgid "Unlocks at"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:215
-msgid "Unlocks at level {unlockLevel}."
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:472
+#: src/components/_user/user/UserHeader.tsx:466
 msgid "Unmuted <0/>"
 msgstr "<0/> susturması kaldırıldı"
 
@@ -9887,7 +9372,7 @@ msgstr "Gerçek dışı. Bu olmaz"
 msgid "Unrest"
 msgstr "Huzursuzluk"
 
-#: src/components/_political/contribution/ContributionList.tsx:250
+#: src/components/_political/contribution/ContributionList.tsx:200
 msgid "Unrest Contributors"
 msgstr "Huzursuzluğa Katkıda Bulunanlar"
 
@@ -9904,7 +9389,7 @@ msgstr "Baş düşmanın olan ülkeyi kaldır"
 msgid "Update"
 msgstr "Güncelle"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
 msgid "Update focus"
 msgstr ""
 
@@ -9916,7 +9401,7 @@ msgstr "Bilgileri güncelle"
 msgid "Update worker"
 msgstr "İşçiyi yönet"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:400
+#: src/components/_user/mission/mission.frontConfig.tsx:399
 msgid "Upgrade a company"
 msgstr "Şirketi yükselt"
 
@@ -9924,11 +9409,11 @@ msgstr "Şirketi yükselt"
 msgid "Upgrade automated engine"
 msgstr "Otomatik motoru yükselt"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:399
+#: src/components/_user/mission/mission.frontConfig.tsx:398
 msgid "Upgrade Company"
 msgstr "Şirketi Yükselt"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:533
+#: src/components/_user/mission/mission.frontConfig.tsx:524
 msgid "Upgrade Skills"
 msgstr "Becerileri Yükselt"
 
@@ -9940,7 +9425,7 @@ msgstr "Depolamayı yükselt"
 msgid "Upgrade to supporter"
 msgstr "Destekçi ol"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:535
+#: src/components/_user/mission/mission.frontConfig.tsx:526
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
@@ -9950,17 +9435,17 @@ msgstr "Becerilerini geliştir!"
 
 #: src/components/_economy/company/CompanyTooltip.tsx:98
 #: src/components/_military/mu/MuTooltip.tsx:96
-#: src/components/_political/region/RegionTooltip.tsx:117
+#: src/components/_political/region/RegionTooltip.tsx:114
 #: src/pages/company/[companyId]/index.tsx:94
 #: src/pages/region/[regionId]/index.tsx:144
 msgid "Upgrades"
 msgstr "Yükseltmeler"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:555
+#: src/components/_user/mission/mission.frontConfig.tsx:546
 msgid "Use <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:553
+#: src/components/_user/mission/mission.frontConfig.tsx:544
 msgid "Use Pills"
 msgstr ""
 
@@ -10071,7 +9556,7 @@ msgid "Username"
 msgstr "Kullanıcı Adı"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:104
+#: src/pages/user/[userId]/settings.tsx:106
 msgid "Username effect"
 msgstr ""
 
@@ -10087,7 +9572,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:98
+#: src/pages/user/[userId]/settings.tsx:99
 msgid "Username font"
 msgstr ""
 
@@ -10197,7 +9682,7 @@ msgstr "Doğrula"
 msgid "Verifying you're human..."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:186
+#: src/components/_layout/LayoutOptions.tsx:191
 msgid "Vibrations"
 msgstr ""
 
@@ -10223,11 +9708,11 @@ msgstr "Haritada göster"
 msgid "Views"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:487
+#: src/components/_user/mission/mission.frontConfig.tsx:486
 msgid "Vote"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:488
+#: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "Vote in an election"
 msgstr ""
 
@@ -10306,10 +9791,6 @@ msgstr "Asteğmen"
 msgid "Wars"
 msgstr "Savaşlar"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:446
-msgid "Watchtower"
-msgstr ""
-
 #: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
@@ -10371,10 +9852,6 @@ msgstr "War Era'ya Hoş Geldin!"
 msgid "Welcome to your economy!"
 msgstr "Ekonomine hoş geldin!"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:259
-msgid "What is left of the pool goes back to your country. A payout cannot be cancelled in its first minute."
-msgstr ""
-
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr ""
@@ -10425,8 +9902,8 @@ msgstr "bonusla birlikte"
 msgid "with bonus + fidelity"
 msgstr "sadakat ve bonusla"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:112
-#: src/components/_military/battle/ActiveBattlesList.tsx:147
+#: src/components/_military/battle/ActiveBattlesList.tsx:113
+#: src/components/_military/battle/ActiveBattlesList.tsx:148
 msgid "With bounty"
 msgstr "Ödülle"
 
@@ -10464,11 +9941,11 @@ msgid "Woolly Mammoth"
 msgstr "Yünlü Mamut"
 
 #: src/components/_economy/company/WorkButton.tsx:247
-#: src/components/_user/mission/mission.frontConfig.tsx:103
+#: src/components/_user/mission/mission.frontConfig.tsx:102
 msgid "Work"
 msgstr "Çalış"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:105
+#: src/components/_user/mission/mission.frontConfig.tsx:104
 msgid "Work <0/> times for an employer"
 msgstr ""
 
@@ -10504,7 +9981,7 @@ msgstr "Başlarken başkaları için çalışmak para kazanmanın harika bir yol
 msgid "World <0/>"
 msgstr "Dünya <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:254
+#: src/components/_layout/LayoutOptions.tsx:270
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "En kötü"
@@ -10592,10 +10069,6 @@ msgstr "Katılmıyorsun"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
 msgstr "Çok yeteneklisin!"
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
-msgid "You are/were a council member, sharing ideas and feedback to improve the game <3"
-msgstr "Oyunu geliştirmek için fikirler ve geri bildirimler paylaşan bir konsey üyesisin/üyesiydin <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:149
 msgid "You are/were a part of the staff and helped the game to grow <3"
@@ -10750,7 +10223,7 @@ msgstr "Aday olmak için en az {0} seviyesinde olmalısınız."
 
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
-#: src/components/_political/region/RegionResistance.tsx:120
+#: src/components/_political/region/RegionResistance.tsx:223
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "Katkıda bulunabilmek için en az {0} seviyesinde olmalısınız."
@@ -10759,11 +10232,6 @@ msgstr "Katkıda bulunabilmek için en az {0} seviyesinde olmalısınız."
 #: src/components/_political/election/Election.tsx:226
 msgid "You must be at least level {0} to vote."
 msgstr "Oy kullanmak için en az {0} seviyesinde olmalısınız."
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:120
-#: src/components/_political/contribution/ContributionPanel.tsx:152
-msgid "You must be at least level {minLevel} to contribute."
-msgstr ""
 
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
@@ -10862,7 +10330,7 @@ msgstr "Ülkenin cumhurbaşkanı seçildin"
 msgid "You were here at the beginning of War Era"
 msgstr "Savaş Çağının başında buradaydın"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:242
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "You were nominated as a government member of a country"
 msgstr "Bir ülkenin hükümet üyesi olarak aday gösterildin"
 
@@ -10973,21 +10441,21 @@ msgstr "\"{0}\" adlı bannerınız onaylandı ve artık mağazada mevcut! Sizin 
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Buff etkileriniz 1 saatten kısa bir süre içinde sona erecek. Debuff aşaması yakında başlayacak."
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:99
-msgid "Your citizens will see this construction in <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:96
+msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "Vatandaşlığın değişecek"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:140
+#: src/components/_military/battle/ActiveBattlesList.tsx:141
 #: src/pages/index.tsx:135
 msgid "Your country"
 msgstr "Ülken"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:109
-msgid "Your country already focuses a construction in <0/>. Setting this one releases it."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:106
+msgid "Your country already focuses <0/>. Setting this one releases it."
 msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
@@ -11042,8 +10510,8 @@ msgstr "İşvereniniz <0/>'daki maaşınızı <1>{0}</1>'dan <2>{1}</2>'e düş�
 msgid "Your enemies"
 msgstr "Düşmanların"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:234
-msgid "Your government asks you to build this one first."
+#: src/components/_political/region/ResistanceFocusItem.tsx:233
+msgid "Your government asks you to push the resistance here."
 msgstr ""
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
@@ -11102,10 +10570,6 @@ msgstr "Tekliflerin"
 #: src/components/_political/party/PartyFormModal.tsx:96
 msgid "Your party name"
 msgstr "Siyasal parti ismin"
-
-#: src/pages/user/[userId]/domain.tsx:25
-msgid "Your personal estate. Buildings here work wherever you are, and there are fewer slots than buildings: pick the ones that fit how you play."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1000
 msgid "Your premium subscription has been activated!"

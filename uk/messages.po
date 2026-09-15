@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - Низькооплачувана робота (нижче за 0,8х та вище за 1,2х від середньої зарплати)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:476
+#: src/components/_user/user/UserHeader.tsx:470
 msgid " - Reason: {0}"
 msgstr " - Причина: {0}"
 
@@ -63,28 +63,6 @@ msgstr "- Штраф при захисті цього регіону склад�
 #: src/pages/region/[regionId]/index.tsx:191
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- Дохід від розвитку зменшено на 50%:<0>{0}</0>."
-
-#: src/components/_political/region/MoveButton.tsx:107
-msgid "-{reductionPercent}%"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:121
-#: src/components/_political/region/UpgradeList.tsx:245
-#: src/components/_user/domain/DomainUpgradeList.tsx:194
-msgid "({freeSlotCount} free slots)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:192
-msgid "({scalePct}% of country dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:196
-msgid "({scalePct}% of region dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:194
-msgid "({scalePct}% of region population)"
-msgstr ""
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:246
@@ -174,7 +152,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% податку буде відраховано з зарплати при роботі на цій фабриці."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:205
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:155
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% зарплати робітників буде відраховано у вигляді податку."
 
@@ -186,10 +164,6 @@ msgstr "{0}% інвестицій"
 #: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} завершено"
-
-#: src/components/_other/upgrade/Upgrade.tsx:344
-msgid "{destroyRefundPercent}% of what was invested"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:267
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
@@ -225,10 +199,6 @@ msgstr "{savedPrestigeCount} бал(-ів) престижу у цій навич
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} раундів"
 
-#: src/components/_political/region/UpgradeList.tsx:205
-msgid "{slotCount} slots"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
 msgstr ""
@@ -245,18 +215,9 @@ msgstr "*Якщо гравець вже володіє частиною набо
 msgid "*May burn"
 msgstr "*Може згоріти"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:213
-msgid "/ action"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:184
 #: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "/день"
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:186
-msgid "/h"
-msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
@@ -276,10 +237,6 @@ msgstr "<0/> подав заявку на приєднання до <1/>"
 #: src/components/_economy/workOffer/WorkOfferList.tsx:116
 msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/> з зарплатою <1>{0}</1>.{1}"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:436
-msgid "<0/> attack."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:54
 msgid "<0/> banned <1/> from the conversation"
@@ -536,25 +493,9 @@ msgstr "<0/> вподобав ваше повідомлення <1/>"
 msgid "<0/> liked your message in <1/><2/>"
 msgstr "<0/> вподобав ваше повідомлення у <1/><2/>"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:450
-msgid "<0/> loot chance."
-msgstr ""
-
 #: src/components/_political/event/event.frontConfig.tsx:247
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> уклала мир з <1/>"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:422
-msgid "<0/> max energy."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:406
-msgid "<0/> max hunger for every member of the unit."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
-msgid "<0/> max stamina, so you travel further and recover it faster."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
@@ -568,17 +509,9 @@ msgstr "<0/> згадав вас у <1/><2/>"
 msgid "<0/> paid fee"
 msgstr "<0/> сплатили завдаток"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:392
-msgid "<0/> precision for every member of the unit."
-msgstr ""
-
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
 msgstr "Пріоритет <0/> закінчується через <1/>"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:229
-msgid "<0/> production for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:296
 msgid "<0/> proposed a mutual defensive pact to your country."
@@ -614,10 +547,6 @@ msgstr "<0/> відповів на ваше повідомлення {0}"
 #: src/components/_user/notification/notification.frontConfig.tsx:858
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr "<0/> відповів на ваше повідомлення у <1/>{0}"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:478
-msgid "<0/> scraps when you dismantle an item."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:163
 msgid "<0/> started, vote for your favorite candidate"
@@ -694,7 +623,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "Пріоритет <0/> закінчується через <1/>"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:184
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:63
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> до росту спротиву щогодини"
 
@@ -721,9 +650,8 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr "<0>{0}</0> проти ворога держави <1/>"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#. placeholder {1}: (levelConfig.stats.attackBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:166
-msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/><2>{1}</2> Attack bonus when allied country attack in this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
+msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
 msgstr ""
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
@@ -741,15 +669,9 @@ msgstr "<0>{0}</0> оскільки держава <1/> втратила <2/>"
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<0>{0}</0> оскільки <1/> окуповує щонайменше один регіон держави <2/>"
 
-#. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:198
-msgid "<0>{0}</0> cheaper travel for your citizens, between regions held by your country or your alliance.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
-#. placeholder {1}: (levelConfig.stats.defenseBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:148
-msgid "<0>{0}</0> Defense bonus when citizen defend this region.<1/><2>{1}</2> Defense bonus when allied country defend this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
 msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
@@ -780,12 +702,12 @@ msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr "<0>{0}</0> через договір про захист з <1/>"
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:188
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:138
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> через бонус аграризму."
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:178
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:128
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> від покладу ресурсу."
 
@@ -805,7 +727,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> через боротьбу за свою державу"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:118
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> через бонус індустріалізму."
 
@@ -815,7 +737,7 @@ msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> через наказ <1/>"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:158
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:108
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> через виробничий бонус стратегічного ресурсу."
 
@@ -824,18 +746,13 @@ msgstr "<0>{0}</0> через виробничий бонус стратегіч
 msgid "<0>{0}</0> ground are required to win a round, points are gained every tick"
 msgstr "<0>{0}</0> контролю потрібно для перемоги у раунді, бали нараховуються кожен такт"
 
-#. placeholder {0}: levelConfig.stats.skillBonuses?.health ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:215
-msgid "<0>{0}</0> max health for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1621
 msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> повернуто до <1/>."
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:353
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:86
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> місткості складу"
 
@@ -860,10 +777,6 @@ msgstr "<0>{ethicDepositBonus}</0> через бонус аграризму де
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<0>{ethicSpecializationBonus}</0> через бонус індустріалізму держави <1/>."
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:326
-msgid "<0>{prodBonus}</0> production for every company in this region."
-msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
@@ -1470,7 +1383,7 @@ msgstr "Дії"
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:47
 #: src/components/_user/user/Level.tsx:193
 #: src/pages/events/index.tsx:148
-#: src/utils/translations.tsx:278
+#: src/utils/translations.tsx:276
 msgid "Active"
 msgstr "Активно"
 
@@ -1491,10 +1404,6 @@ msgstr "Активні громадяни"
 msgid "Active citizens (citizenship of this country, active and level {0}+)"
 msgstr "Активні громадяни (громадяни цієї держави, активні і рівень {0}+)"
 
-#: src/components/_political/region/RegionHeader.tsx:121
-msgid "Active companies in this region"
-msgstr ""
-
 #: src/pages/region/[regionId]/index.tsx:212
 msgid "Active construction"
 msgstr "Активне будівництво"
@@ -1510,10 +1419,6 @@ msgstr "Активні війни"
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:179
 msgid "Activity"
 msgstr "Актиність"
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Add money"
-msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:59
 msgid "Add User"
@@ -1559,24 +1464,14 @@ msgstr "Поліпшений шолом"
 msgid "Advanced Pants"
 msgstr "Поліпшені штани"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:85
-msgid "Affects this region only. Maintenance scales with the region's development."
-msgstr ""
-
 #: src/components/_political/party/party.frontConfig.tsx:355
 #: src/components/_political/party/party.frontConfig.tsx:372
 msgid "Agrarian"
 msgstr "Аграризм"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:194
-msgid "Airport"
-msgstr ""
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:133
+#: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
-#: src/components/_political/region/CreateUpgradeModal.tsx:254
 msgid "All"
 msgstr "Усі"
 
@@ -1678,8 +1573,8 @@ msgstr "Закони альянсу"
 msgid "Alliance name"
 msgstr "Назва альянсу"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:100
-#: src/components/_military/battle/ActiveBattlesList.tsx:154
+#: src/components/_military/battle/ActiveBattlesList.tsx:101
+#: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "Союзники"
 
@@ -1724,11 +1619,6 @@ msgstr "Кількість <0>Робітників</0>, якими ви може
 #: src/components/_user/user/skills.frontConfig.tsx:123
 msgid "Amount of companies you can own"
 msgstr "Кількість фабрик, якими ви можете володіти"
-
-#: src/components/_economy/company/CompanyFormModal.tsx:112
-#: src/components/_economy/company/MoveCompanyForm.tsx:69
-msgid "An active company in one of your country's regions pays income tax to it: building at home makes your country grow."
-msgstr ""
 
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1601
@@ -1775,10 +1665,6 @@ msgstr "Набір антитерориста"
 msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
 msgstr "Будь-які спроби обійти ці правила можуть призвести до скасування статусу спільного використання, штрафів, тимчасових або постійних банів."
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:223
-msgid "Anyone located in the region can spend <0>{cost}</0> to add about <1>{points}</1> construction points. Points scale with your attack (gear excluded) and can land a critical hit, and every contribution can loot a case. When the bar is full, the upgrade levels up."
-msgstr ""
-
 #: src/components/_user/apiToken/ApiTokenList.tsx:40
 msgid "API token created"
 msgstr "API токен створено"
@@ -1791,7 +1677,7 @@ msgstr "API токен перестворено"
 msgid "API token revoked"
 msgstr "API токен відкликано"
 
-#: src/pages/user/[userId]/settings.tsx:138
+#: src/pages/user/[userId]/settings.tsx:141
 msgid "API Tokens"
 msgstr "API токени"
 
@@ -1799,11 +1685,11 @@ msgstr "API токени"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API токени дозволяють зовнішнім застосункам отримати доступ до API від вашого імені. Вкажіть токен у заголовку <0>X-API-Key</0>. Кожен токен має обмеження частоти, яке становить 200 запитів на хвилину."
 
-#: src/components/_layout/LayoutOptions.tsx:289
+#: src/components/_layout/LayoutOptions.tsx:317
 msgid "App pattern"
 msgstr "Схема застосунку"
 
-#: src/pages/user/[userId]/settings.tsx:112
+#: src/pages/user/[userId]/settings.tsx:115
 msgid "App settings"
 msgstr "Налаштування застосунку"
 
@@ -1825,7 +1711,7 @@ msgstr "Заявки"
 msgid "Apply"
 msgstr "Подати заявку"
 
-#: src/utils/translations.tsx:281
+#: src/utils/translations.tsx:279
 msgid "Approved"
 msgstr "Схвалено"
 
@@ -1916,7 +1802,7 @@ msgstr "Чайові статтям"
 msgid "Article tipped"
 msgstr "Залишено чайові"
 
-#: src/components/_user/user/UserHeader.tsx:260
+#: src/components/_user/user/UserHeader.tsx:254
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "Статті"
@@ -2047,7 +1933,7 @@ msgstr "Аутентифікацію провалено. Спробуйте зн
 msgid "Auto approval"
 msgstr "Автоматичне схвалення"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:238
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "Замінювати зламаний предмет"
@@ -2065,7 +1951,7 @@ msgid "Automated engine"
 msgstr "Автоматичний двигун"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:339
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:74
 msgid "Automated Engine"
 msgstr "Автоматичний двигун"
 
@@ -2081,20 +1967,12 @@ msgstr "Доступно зараз"
 msgid "Avatar removed"
 msgstr "Аватар прибрано"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:178
-msgid "Average construction points for one contribution ({cost} energy), before the random spread and critical hits."
-msgstr ""
-
 #: src/components/_political/alliance/AllianceHeader.tsx:83
 #: src/components/_political/country/CountryHeader.tsx:242
 #: src/components/_political/country/CountryHeader.tsx:247
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr "Середній розвиток"
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:198
-msgid "Average money for one contribution, at <0>{payoutRate}</0> per 1000 construction points. It follows the points you actually roll."
-msgstr ""
 
 #: src/components/_common/GameRules.tsx:244
 msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
@@ -2108,7 +1986,7 @@ msgstr "Бейбібумер"
 msgid "Back to home region"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:170
+#: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
 msgstr "Фоновий візерунок"
 
@@ -2141,7 +2019,7 @@ msgstr "М'яч"
 msgid "Bankruptcy"
 msgstr "Банкрутство"
 
-#: src/components/_user/user/UserHeader.tsx:465
+#: src/components/_user/user/UserHeader.tsx:459
 msgid "Banned"
 msgstr "Заблокований"
 
@@ -2161,8 +2039,8 @@ msgstr "Подарунковий банер відправлено"
 msgid "Banners"
 msgstr "Банери"
 
-#: src/components/_user/user/UserHeader.tsx:213
-#: src/components/_user/user/UserHeader.tsx:279
+#: src/components/_user/user/UserHeader.tsx:207
+#: src/components/_user/user/UserHeader.tsx:273
 msgid "Bans"
 msgstr "Бани"
 
@@ -2255,7 +2133,7 @@ msgstr "Накази на захист ваших рідних регіонів 
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "Накази на захист ваших рідних регіонів та повстань коштують на <0>{0}</0> менше."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:334
+#: src/components/_user/mission/mission.frontConfig.tsx:333
 msgid "Battlefield Loot"
 msgstr "Польова здобич"
 
@@ -2269,11 +2147,11 @@ msgstr "Польова здобич"
 msgid "Battles"
 msgstr "Битви"
 
-#: src/components/_layout/LayoutOptions.tsx:126
+#: src/components/_layout/LayoutOptions.tsx:125
 msgid "Battles on layout"
 msgstr "Битви"
 
-#: src/components/_layout/LayoutOptions.tsx:121
+#: src/components/_layout/LayoutOptions.tsx:120
 msgid "Battles on map"
 msgstr "Битви на мапі"
 
@@ -2290,7 +2168,7 @@ msgstr "Битв виграно"
 msgid "Become a Candidate"
 msgstr "Стати кандидатом"
 
-#: src/components/_layout/LayoutOptions.tsx:242
+#: src/components/_layout/LayoutOptions.tsx:258
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "Краще"
@@ -2303,7 +2181,7 @@ msgstr "Краще ніж нічого, еге ж?"
 msgid "Bid"
 msgstr "Ставка"
 
-#: src/components/_political/region/RegionHeader.tsx:142
+#: src/components/_political/region/RegionHeader.tsx:133
 msgid "Biome"
 msgstr "Біом"
 
@@ -2319,7 +2197,7 @@ msgstr "Заблокувати (приховати контент)"
 msgid "Blue Staff"
 msgstr "Синій посох"
 
-#: src/components/_layout/LayoutOptions.tsx:162
+#: src/components/_layout/LayoutOptions.tsx:167
 msgid "Blur"
 msgstr "Розмиття"
 
@@ -2367,7 +2245,7 @@ msgstr "Хліб"
 msgid "Break defensive pact"
 msgstr "Розірвати договір про захист"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:492
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:119
 msgid "Break room"
 msgstr "Кімната відпочинку"
 
@@ -2391,7 +2269,7 @@ msgstr "Бюджет"
 msgid "Buff ended"
 msgstr "Підсилення скінчилось"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:342
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "Підсилення скінчиться"
@@ -2412,12 +2290,6 @@ msgstr "Підсилення:"
 msgid "Bug finder"
 msgstr "Шукач багів"
 
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:66
-#: src/components/_political/region/CreateUpgradeModal.tsx:144
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:68
-msgid "Build"
-msgstr ""
-
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Build a company"
 msgstr "Побудувати фабрику"
@@ -2427,48 +2299,11 @@ msgstr "Побудувати фабрику"
 msgid "Build a military unit"
 msgstr "Побудувати підрозділ"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:118
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:108
-#: src/components/_political/region/CreateUpgradeModal.tsx:243
-#: src/components/_political/region/UpgradeList.tsx:242
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:107
-#: src/components/_user/domain/DomainUpgradeList.tsx:191
-msgid "Build an upgrade"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:151
-msgid "Build cost"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:527
-msgid "Build or level up a building on your domain"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:134
 msgid "Build the military unit"
 msgstr "Побудувати підрозділ"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:128
-msgid "Build this one before the front moves..."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:72
-msgid "Build this one first."
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:525
-msgid "Build your domain"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:151
-msgid "Building is done with bare hands: your weapon, equipment and ammo do not count. Attack, critical chance and critical damages."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:148
-msgid "Building stats"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:144
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
 msgstr "Бункер"
 
@@ -2481,11 +2316,11 @@ msgstr "Купити <0/>"
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr "Купити <0/> у <1/> за <2>{0}</2>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:192
+#: src/components/_user/mission/mission.frontConfig.tsx:191
 msgid "Buy for <0/> money on market"
 msgstr "Накупіть на <0/> монет на ринку"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:190
+#: src/components/_user/mission/mission.frontConfig.tsx:189
 msgid "Buy Items"
 msgstr "Купіть предмети"
 
@@ -2520,9 +2355,7 @@ msgid "Campaign Article Link (optional)"
 msgstr "Посилання на статтю з програмою (за бажанням)"
 
 #: src/components/_military/order/BattleOrderList.tsx:207
-#: src/components/_other/upgrade/UpgradeGrid.tsx:113
 #: src/components/_political/election/CandidateFormModal.tsx:84
-#: src/components/_political/region/UpgradeList.tsx:144
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -2545,21 +2378,13 @@ msgstr "Скасувати контракт"
 msgid "Cancel Mercenary Contract"
 msgstr "Скасувати найманський контракт"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:251
-msgid "Cancel payout"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:258
-msgid "Cancel the payout?"
-msgstr ""
-
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
 #: src/pages/events/index.tsx:156
-#: src/utils/translations.tsx:273
+#: src/utils/translations.tsx:271
 msgid "Cancelled"
 msgstr "Скасовано"
 
-#: src/utils/translations.tsx:274
+#: src/utils/translations.tsx:272
 msgid "Cancelled by admin"
 msgstr "Скасовано адміном"
 
@@ -2595,7 +2420,7 @@ msgstr "Неможна вибирати предмет спеціалізаці�
 msgid "Capital"
 msgstr "Столиця"
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Capital of"
 msgstr "Столиця"
 
@@ -2753,7 +2578,7 @@ msgstr "Оберіть сторону та натисніть, аби завда
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "Вибір конкретного предмету збільшує кількість сталі у 2 рази:"
 
-#: src/components/_user/user/UserHeader.tsx:329
+#: src/components/_user/user/UserHeader.tsx:323
 msgid "Citizen since"
 msgstr "Зареєстрований"
 
@@ -2765,11 +2590,6 @@ msgstr "Громадяни"
 #: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Громадяни отримують бойовий бонус, воюючи на боці союзників або проти заклятого ворога"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:40
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:47
-msgid "citizens present"
-msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:131
 msgid "Citizenship"
@@ -2846,7 +2666,6 @@ msgid "Climate"
 msgstr "Клімат"
 
 #: ../__ui/src/components/Modal/Modal.tsx:386
-#: ../__ui/src/components/Modal/ModalOld.tsx:249
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "Закрити"
@@ -2863,11 +2682,11 @@ msgstr "Холодно капєц"
 msgid "Collect"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:595
+#: src/components/_user/mission/mission.frontConfig.tsx:586
 msgid "Collect <0/> on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:593
+#: src/components/_user/mission/mission.frontConfig.tsx:584
 msgid "Collect Cases on the Map"
 msgstr ""
 
@@ -2892,7 +2711,7 @@ msgstr "Колірну схему оновлено"
 msgid "Color schemes are a Supporter Plan feature."
 msgstr "Колірні схеми доступні власникам підписки."
 
-#: src/components/_layout/LayoutOptions.tsx:194
+#: src/components/_layout/LayoutOptions.tsx:199
 msgid "Colorblind mode"
 msgstr "Режим для дальтоніків"
 
@@ -2919,9 +2738,8 @@ msgid "Community"
 msgstr "Спільнота"
 
 #: src/components/_layout/LayoutMenu.tsx:174
-#: src/components/_political/region/RegionHeader.tsx:119
 #: src/components/_user/user/MyAvatar.tsx:55
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:246
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:97
 msgid "Companies"
@@ -2952,7 +2770,7 @@ msgstr "Фабрику зупинено!"
 msgid "Company enabled!"
 msgstr "Фабрику запущено!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:57
+#: src/components/_economy/company/MoveCompanyForm.tsx:56
 msgid "Company moved"
 msgstr "Фабрику переміщено"
 
@@ -2974,7 +2792,7 @@ msgstr "Виконуйте місії щодня, щоб отримувати д
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
 #: src/components/_user/milestone/MilestoneItem.tsx:327
-#: src/utils/translations.tsx:276
+#: src/utils/translations.tsx:274
 msgid "Completed"
 msgstr "Виконано"
 
@@ -3079,37 +2897,11 @@ msgstr "Завойовник"
 msgid "Consider giving it to your local moderator"
 msgstr "Розгляньте можливість подарувати це локальному модератору"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:255
-#: src/components/_user/mission/mission.frontConfig.tsx:563
+#: src/components/_user/mission/mission.frontConfig.tsx:554
 msgid "Construct"
 msgstr "Будувати"
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:85
-#: src/components/_other/upgradeConstruction/ConstructionFocusSection.tsx:23
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:220
-msgid "Construction"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:248
-msgid "Construction Contributors"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:230
-msgid "Construction focus"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:61
-msgid "Construction focused by <0/>"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:67
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:150
-msgid "Construction payout"
-msgstr ""
-
 #: src/components/_economy/market/MarketHeader.tsx:27
-#: src/pages/market/constructions.tsx:13
 msgid "Constructions"
 msgstr ""
 
@@ -3127,7 +2919,7 @@ msgstr "Витрачається під час боїв"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Використання підвищує вашу <0>Атаку</0> на {0} год.<1/> Після цього знижує її на таку ж величину впродовж {1} год"
 
-#: src/components/_layout/LayoutOptions.tsx:131
+#: src/components/_layout/LayoutOptions.tsx:130
 msgid "Contextual borders"
 msgstr "Контекстні кордони"
 
@@ -3160,25 +2952,16 @@ msgstr "Контракти"
 msgid "Contracts & Auctions"
 msgstr "Контракти та аукціони"
 
-#: src/components/_political/contribution/ContributionPanel.tsx:233
-msgid "Contribute"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:565
+#: src/components/_user/mission/mission.frontConfig.tsx:556
 msgid "Contribute to constructions <0/> times"
 msgstr "Долучіться до побудови <0/> разів"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:575
+#: src/components/_user/mission/mission.frontConfig.tsx:566
 msgid "Contribute to resistance <0/> times"
 msgstr "Посприяйте спротиву <0/> разів"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:203
-msgid "Contribute to the construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:93
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:195
-msgid "Contributing to a construction paid by your own government gives {govPercent}% payout efficiency."
+#: src/components/_political/region/ResistanceFocusItem.tsx:203
+msgid "Contribute to the resistance"
 msgstr ""
 
 #: src/utils/translations.tsx:39
@@ -3214,7 +2997,7 @@ msgstr "Скопіюйте цей токен зараз, ви більше не 
 msgid "Core development"
 msgstr "Початковий розвиток"
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Core region of"
 msgstr "Національний регіон"
 
@@ -3225,14 +3008,6 @@ msgstr "Національні регіони"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:46
 msgid "Corporal"
 msgstr "Капрал"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:418
-msgid "Cottage"
-msgstr ""
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
-msgid "Council Member"
-msgstr "Радник"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:132
 msgid "Council member to remove"
@@ -3262,16 +3037,8 @@ msgstr "Держави"
 msgid "Country"
 msgstr "Держава"
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:44
+#: src/components/_user/user/SkillUpgradeBonusRows.tsx:46
 msgid "Country buildings:"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:39
-msgid "country citizens"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:46
-msgid "country dev"
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:395
@@ -3327,17 +3094,12 @@ msgstr "Переможець міждержавного турніру"
 msgid "Country wars"
 msgstr "Війни держави"
 
-#. placeholder {0}: Math.round(coveredPoints)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:138
-msgid "Covers <0>{0}</0> construction points"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:210
+#: src/components/_user/mission/mission.frontConfig.tsx:209
 #: src/pages/user/[userId]/inventory.tsx:41
 msgid "Craft"
 msgstr "Створити"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:212
+#: src/components/_user/mission/mission.frontConfig.tsx:211
 msgid "Craft <0/> items"
 msgstr "Створіть <0/> предметів"
 
@@ -3350,7 +3112,7 @@ msgstr "Створення предметів"
 msgid "Create"
 msgstr "Створити"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:372
+#: src/components/_user/mission/mission.frontConfig.tsx:371
 msgid "Create a Company"
 msgstr "Створіть фабрику"
 
@@ -3360,7 +3122,7 @@ msgstr "Створіть фабрику"
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr "Створити новий альянс <0>{0}</0> з колірною схемою <1>{1}</1>."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:373
+#: src/components/_user/mission/mission.frontConfig.tsx:372
 msgid "Create a new company"
 msgstr "Створіть нову фабрику"
 
@@ -3417,11 +3179,11 @@ msgstr "Шанс крит. влучання"
 msgid "Crit. damages"
 msgstr "Шкода крит. влучання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:281
+#: src/components/_user/mission/mission.frontConfig.tsx:280
 msgid "Critical Hit"
 msgstr "Критичне влучання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:606
+#: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
 msgstr ""
 
@@ -3475,14 +3237,6 @@ msgstr "d. Будь-які форми дискримінації, расизму
 msgid "Daily"
 msgstr "Щоденні"
 
-#: src/components/_other/upgrade/UpgradeListItem.tsx:165
-msgid "Daily cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:185
-msgid "Daily income"
-msgstr ""
-
 #: src/components/_political/alliance/AllianceMemberRow.tsx:59
 #: src/components/_political/law/LawTypeSelect.tsx:188
 msgid "Daily maintenance"
@@ -3491,14 +3245,6 @@ msgstr "Щоденне утримання"
 #: src/components/_user/notification/notification.frontConfig.tsx:2164
 msgid "Daily Missions Reset"
 msgstr "Скидання щоденних місій"
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:194
-msgid "Daily production"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:206
-msgid "Daily upkeep"
-msgstr ""
 
 #: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
@@ -3530,7 +3276,7 @@ msgstr "Виглядає просто шикарно"
 msgid "Damn you lucky"
 msgstr "Ого, щасливчик"
 
-#: src/pages/user/[userId]/settings.tsx:158
+#: src/pages/user/[userId]/settings.tsx:161
 msgid "Danger zone"
 msgstr "Небезпечна зона"
 
@@ -3547,19 +3293,19 @@ msgstr "Dark Era"
 msgid "Dark Era Pack"
 msgstr "Набір Dark Era"
 
-#: src/components/_layout/LayoutOptions.tsx:153
+#: src/components/_layout/LayoutOptions.tsx:152
 msgid "Dark map"
 msgstr "Темна мапа"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:152
+#: src/components/_user/mission/mission.frontConfig.tsx:151
 msgid "Deal <0/> for allies or your country"
 msgstr "Завдайте <0/> за союзників або вашу державу"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:132
+#: src/components/_user/mission/mission.frontConfig.tsx:131
 msgid "Deal <0/> in battles"
 msgstr "Завдайте <0/> у битвах"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:142
+#: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Deal <0/> on country/mu orders"
 msgstr "Завдайте <0/> за наказами держави/підрозділу"
 
@@ -3575,15 +3321,15 @@ msgstr "Завдавайте шкоди в боях, щоб підвищуват
 msgid "Deal damage in battles with your MU members to level up each month and earn rewards. Resets on the 1st of each month."
 msgstr "Завдавайте шкоду у битвах, щоб кожного місяця підвищувати рівень підрозділу та заробляти нагороди. Скидається 1-го числа кожного місяця. "
 
-#: src/components/_user/mission/mission.frontConfig.tsx:130
+#: src/components/_user/mission/mission.frontConfig.tsx:129
 msgid "Deal Damages"
 msgstr "Завдайте шкоди"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:150
+#: src/components/_user/mission/mission.frontConfig.tsx:149
 msgid "Deal Damages for Allies or Country"
 msgstr "Завдайте шкоди за союзників або країну"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:140
+#: src/components/_user/mission/mission.frontConfig.tsx:139
 msgid "Deal Damages on Orders"
 msgstr "Завдайте шкоди за наказами"
 
@@ -3611,7 +3357,7 @@ msgstr "Завдає незначної шкоди"
 msgid "Debuff ended"
 msgstr "Послаблення скінчилось"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:350
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "Послаблення скінчиться"
@@ -3705,7 +3451,7 @@ msgstr "Визначити країну ворогом і отримати бо�
 msgid "Define a sworn enemy"
 msgstr "Визначити заклятого ворога"
 
-#: src/pages/user/[userId]/settings.tsx:161
+#: src/pages/user/[userId]/settings.tsx:164
 msgid "Delete account"
 msgstr "Видалити обліковий запис"
 
@@ -3755,7 +3501,7 @@ msgstr "Ресурс покладу"
 msgid "Deposit resources"
 msgstr "Поклади ресурсів"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:140
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:90
 msgid "Deposit will be depleted in"
 msgstr "Поклад буде вичерпано через"
 
@@ -3785,14 +3531,6 @@ msgstr "Опис оновлено!"
 #: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "Знищити"
-
-#: src/components/_other/upgrade/Upgrade.tsx:333
-msgid "Destruct refund"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:368
-msgid "Destruct refund ({destroyRefundPercent}%):"
-msgstr ""
 
 #: src/components/_layout/map.frontConfig.tsx:37
 #: src/components/_political/region/RegionHeader.tsx:83
@@ -3848,11 +3586,11 @@ msgstr ""
 msgid "Diesel Sports Sedan"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:304
+#: src/components/_user/mission/mission.frontConfig.tsx:303
 msgid "Diminish <0/> received damages with <1>Armor</1> in battles"
 msgstr "Зменшіть <0/> шкоди у битві завдяки <1>Захисту</1>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:302
+#: src/components/_user/mission/mission.frontConfig.tsx:301
 msgid "Diminish Received Damages"
 msgstr "Зменшіть отриману шкоду"
 
@@ -3882,12 +3620,12 @@ msgstr "Зупинено"
 msgid "Disbanded"
 msgstr "Розпущено"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:200
+#: src/components/_user/mission/mission.frontConfig.tsx:199
 #: src/pages/user/[userId]/inventory.tsx:52
 msgid "Dismantle"
 msgstr "Розібрати"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:202
+#: src/components/_user/mission/mission.frontConfig.tsx:201
 msgid "Dismantle <0/> items"
 msgstr "Розберіть <0/> предметів"
 
@@ -3916,28 +3654,18 @@ msgstr "Розподілено"
 msgid "Do you even know what luck is?"
 msgstr "Ти взагалі знаєш, що таке удача?"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:292
+#: src/components/_user/mission/mission.frontConfig.tsx:291
 #: src/components/_user/user/skills.frontConfig.tsx:158
 #: src/components/_user/user/skills.frontConfig.tsx:159
 msgid "Dodge"
 msgstr "Ухилення"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:294
+#: src/components/_user/mission/mission.frontConfig.tsx:293
 msgid "Dodge <0/> attacks"
 msgstr "Ухиліться від <0/> атак"
 
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:195
-#: src/pages/user/[userId]/domain.tsx:22
 msgid "Domain"
-msgstr ""
-
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:56
-msgid "Domain buildings:"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:101
-msgid "Domain slots"
 msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:55
@@ -3952,11 +3680,11 @@ msgstr "Не забудь зберегти прокачані навички."
 msgid "Don't quit now, your luck is buffering"
 msgstr "Не переставай відкривати, удача накопичується"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:543
+#: src/components/_user/mission/mission.frontConfig.tsx:534
 msgid "Donate"
 msgstr "Пожертвувати"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:545
+#: src/components/_user/mission/mission.frontConfig.tsx:536
 msgid "Donate <0/> to MU or Country"
 msgstr "Пожертвуйте <0/> до підрозділу або держави"
 
@@ -3977,7 +3705,7 @@ msgstr "Огляд пожертв"
 msgid "Donations"
 msgstr "Пожертви"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:374
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:106
 msgid "Dormitories"
 msgstr "Казарми"
 
@@ -4005,24 +3733,24 @@ msgstr "Кожен бал престижу дає еквівалент {skillBon
 msgid "Earn <0/> in total"
 msgstr "Отримайте <0/>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:160
+#: src/components/_user/mission/mission.frontConfig.tsx:159
 msgid "Eat"
 msgstr "Їсти"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:172
-#: src/components/_user/mission/mission.frontConfig.tsx:182
+#: src/components/_user/mission/mission.frontConfig.tsx:171
+#: src/components/_user/mission/mission.frontConfig.tsx:181
 msgid "Eat <0/>"
 msgstr "З'їжте <0/>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:162
+#: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "Eat <0/> food items"
 msgstr "З'їжте <0/> одиниць їжі"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:170
+#: src/components/_user/mission/mission.frontConfig.tsx:169
 msgid "Eat Cooked Fish"
 msgstr "З’їжте смажену рибу"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:180
+#: src/components/_user/mission/mission.frontConfig.tsx:179
 msgid "Eat Steak"
 msgstr "З’їжте стейк"
 
@@ -4042,10 +3770,6 @@ msgstr "Економічні навички"
 msgid "Economy & Companies"
 msgstr "Економіка та фабрики"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-msgid "Edit construction focus"
-msgstr ""
-
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
 msgstr "Редагувати державний наказ"
@@ -4058,13 +3782,17 @@ msgstr "Редагувати опис"
 msgid "Edit Description"
 msgstr "Редагувати опис"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:123
+#: src/components/_political/region/RegionResistance.tsx:137
 msgid "Edit focus message"
 msgstr ""
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
 msgstr "Редагувати наказ підрозділу"
+
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+msgid "Edit resistance focus"
+msgstr ""
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -4077,10 +3805,6 @@ msgstr "Редагування існуючого наказу"
 #: src/components/_military/battle/SetOrderFormModal.tsx:490
 msgid "Editing another order"
 msgstr "Редагування іншого наказу"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
-msgid "Effect applies to the whole country. Maintenance scales with the country's average development."
-msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:267
 msgid "Effective:"
@@ -4182,8 +3906,8 @@ msgstr "Завершено"
 msgid "Ended <0/>"
 msgstr "Завершилась <0/>"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:106
-#: src/components/_military/battle/ActiveBattlesList.tsx:161
+#: src/components/_military/battle/ActiveBattlesList.tsx:107
+#: src/components/_military/battle/ActiveBattlesList.tsx:162
 msgid "Enemies"
 msgstr "Вороги"
 
@@ -4212,7 +3936,7 @@ msgid "Entrepreneurship"
 msgstr "Підприємливість"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
-#: src/components/_layout/LayoutOptions.tsx:219
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -4237,18 +3961,10 @@ msgstr "Помилка"
 msgid "Estimated benefit per"
 msgstr "Очікуваний прибуток"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:175
-msgid "Estimated construction"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:475
 #: src/components/_military/battle/BattleSystem.tsx:512
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "Приблизний час, через який ця сторона здобуде перемогу в раунді, якщо переможе у всіх наступних тактах."
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:195
-msgid "Estimated payout"
-msgstr ""
 
 #: src/components/_economy/company/CompanyHeader.tsx:41
 msgid "Estimated value"
@@ -4276,10 +3992,6 @@ msgstr "Бали принципів:"
 msgid "Events"
 msgstr "Події"
 
-#: src/pages/market/constructions.tsx:16
-msgid "Every construction site in the world, best paying first. Move to the region and spend energy to earn the country's payout per construction point."
-msgstr ""
-
 #: src/components/_user/mission/MissionsHeader.tsx:77
 msgid "Every mission you ever completed and claimed"
 msgstr "Кожна місія, яку ви завершили і зібрали"
@@ -4299,7 +4011,7 @@ msgstr "Досвід"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:277
+#: src/utils/translations.tsx:275
 msgid "Expired"
 msgstr "Прострочено"
 
@@ -4452,8 +4164,8 @@ msgstr "Фермерський ніж"
 msgid "Farmer Pants"
 msgstr "Фермерські штани"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:168
+#: src/components/_military/battle/ActiveBattlesList.tsx:89
+#: src/components/_military/battle/ActiveBattlesList.tsx:169
 msgid "Favorites"
 msgstr "Обране"
 
@@ -4537,11 +4249,11 @@ msgstr "Профінансувати спротив у <0/>"
 msgid "Find a job"
 msgstr "Знайти роботу"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:503
+#: src/components/_user/mission/mission.frontConfig.tsx:502
 msgid "Find a Job"
 msgstr "Знайти роботу"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:504
+#: src/components/_user/mission/mission.frontConfig.tsx:503
 msgid "Find a job at a company"
 msgstr "Влаштуйтесь на роботу на фабриці"
 
@@ -4575,7 +4287,7 @@ msgstr "Звільнено з уряду"
 msgid "Fish"
 msgstr "Риба"
 
-#: src/components/_layout/LayoutOptions.tsx:143
+#: src/components/_layout/LayoutOptions.tsx:142
 msgid "Flags"
 msgstr "Прапори"
 
@@ -4583,24 +4295,24 @@ msgstr "Прапори"
 msgid "Flail"
 msgstr "Обушок"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
-msgid "Focus construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:139
-msgid "Focus construction here"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:181
 msgid "Focus on you"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:259
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
+msgid "Focus resistance"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:152
+msgid "Focus resistance here"
+msgstr ""
+
+#: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
 msgstr "Шрифт"
 
-#: src/components/_layout/LayoutOptions.tsx:271
+#: src/components/_layout/LayoutOptions.tsx:295
 msgid "Font size"
 msgstr "Розмір шрифту"
 
@@ -4669,10 +4381,6 @@ msgstr "Отримуй <0>XP</0> виконуючи місії!"
 msgid "Game supporter"
 msgstr "Підтримувач гри"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:460
-msgid "Garage"
-msgstr ""
-
 #: src/pages/shop/index.tsx:141
 msgid "Gems"
 msgstr "Самоцвіти"
@@ -4694,7 +4402,7 @@ msgid "Generate Missions"
 msgstr "Згенерувати місії"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:343
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:77
 msgid "Generates <0>{0}</0>/day"
 msgstr "Створює <0>{0}</0>/день"
 
@@ -4751,38 +4459,11 @@ msgid "Giveaway Won!"
 msgstr "Виграш у розіграші!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:365
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:97
 msgid "Gives <0>{0}</0>"
 msgstr "Дає <0>{0}</0>"
 
-#. placeholder {0}: Math.round(percent * 100)
-#. placeholder {1}: Math.round(regionAverageLevel ?? 0)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:275
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>, scaled by its residents' average level of {1})"
-msgstr ""
-
-#. placeholder {0}: Math.round(percent * 100)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:249
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>)"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:313
-msgid "Gives daily income of <0/> (<1/> per active company here × {regionCompanyCount})"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:258
-msgid "Gives daily income of <0/> of this region <1>Development</1>"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:293
-msgid "Gives daily income of <0/> of this region <1>Development</1>, scaled by how experienced its residents are."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:320
-msgid "Gives daily income of <0/> per active company built in this region."
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:109
+#: src/components/_layout/LayoutOptions.tsx:108
 msgid "Globe (experimental)"
 msgstr "Глобус (експериментально)"
 
@@ -4820,13 +4501,11 @@ msgstr "Уряд"
 msgid "Government announcement"
 msgstr "Урядове оголошення"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:240
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
 msgid "Government Member"
 msgstr "Урядовець"
 
 #: src/components/_military/battle/BattleSystem.tsx:818
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:91
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:193
 msgid "Government penalty"
 msgstr "Урядовий штраф"
 
@@ -4842,7 +4521,7 @@ msgstr "Градієнт"
 msgid "Grain"
 msgstr "Зерно"
 
-#: src/components/_layout/LayoutOptions.tsx:116
+#: src/components/_layout/LayoutOptions.tsx:115
 msgid "Graticule"
 msgstr "Координатна сітка"
 
@@ -4994,7 +4673,7 @@ msgstr "Хамстер-танк"
 msgid "Hard Worker"
 msgstr "Трудяга"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:361
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
 msgid "Headquarters"
 msgstr "Штаб"
 
@@ -5012,7 +4691,7 @@ msgstr "Важкі набої"
 msgid "Helmet"
 msgstr "Шолом"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:273
+#: src/components/_user/mission/mission.frontConfig.tsx:272
 msgid "Help <0/> MU members"
 msgstr "Допоможіть <0/> учасникам підрозділу"
 
@@ -5020,7 +4699,7 @@ msgstr "Допоможіть <0/> учасникам підрозділу"
 msgid "Help for Mu"
 msgstr "Допомога для ВП"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:271
+#: src/components/_user/mission/mission.frontConfig.tsx:270
 msgid "Help MU Members"
 msgstr "Допоможіть бійцям ВП"
 
@@ -5036,11 +4715,11 @@ msgstr "Вищий командувач"
 msgid "History"
 msgstr "Історія"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:120
+#: src/components/_user/mission/mission.frontConfig.tsx:119
 msgid "Hit"
 msgstr "Удар"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:122
+#: src/components/_user/mission/mission.frontConfig.tsx:121
 msgid "Hit <0/> times in battles"
 msgstr "Завдайте <0/> ударів у боях"
 
@@ -5061,18 +4740,6 @@ msgstr "Поки ви урядовець, удари за вашу держав�
 #: src/components/_user/user/UserHeader.tsx:174
 msgid "Home"
 msgstr "Головна"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:211
-msgid "Hospital"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeListItem.tsx:167
-msgid "Hourly cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:208
-msgid "Hourly upkeep"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:30
 msgid "How many times have you seen this message already?"
@@ -5187,7 +4854,7 @@ msgid "Income tax"
 msgstr "Податок на дохід"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:204
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:154
 msgid "Income Tax"
 msgstr "Податок на дохід"
 
@@ -5199,10 +4866,6 @@ msgstr "Збільшити"
 #: src/components/_political/unrest/UnrestPanel.tsx:109
 msgid "Increase unrest"
 msgstr "Збільшити заворушення"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:304
-msgid "Industrial Park"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:374
 msgid "Industrialism vs Agrarianism"
@@ -5238,14 +4901,6 @@ msgstr "Навмисні або повторювані порушення ціє
 #: src/pages/user/[userId]/inventory.tsx:31
 msgid "Inventory"
 msgstr "Інвентар"
-
-#: src/components/_other/upgrade/Upgrade.tsx:319
-msgid "Invested"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:359
-msgid "Invested:"
-msgstr ""
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:162
 msgid "Invitations"
@@ -5336,7 +4991,7 @@ msgstr "Роботи"
 msgid "Join <0/>"
 msgstr "Приєднатись до <0/>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:385
+#: src/components/_user/mission/mission.frontConfig.tsx:384
 msgid "Join a Military Unit"
 msgstr "Приєднайтесь до військового підрозділу"
 
@@ -5344,11 +4999,11 @@ msgstr "Приєднайтесь до військового підрозділ�
 msgid "Join a military unit to take part"
 msgstr "Приєднайтесь до підрозділу щоб взяти участь"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:481
+#: src/components/_user/mission/mission.frontConfig.tsx:480
 msgid "Join a Party"
 msgstr "Приєднайтесь до партії"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:482
+#: src/components/_user/mission/mission.frontConfig.tsx:481
 msgid "Join a political party"
 msgstr "Приєднайтесь до політичної партії"
 
@@ -5357,7 +5012,7 @@ msgstr "Приєднайтесь до політичної партії"
 msgid "Join alliance"
 msgstr "Приєднатись до альянсу"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:384
+#: src/components/_user/mission/mission.frontConfig.tsx:383
 msgid "Join MU"
 msgstr "Приєднайтесь до ВП"
 
@@ -5438,11 +5093,11 @@ msgstr "Ніж"
 msgid "Knives do not accept ammo"
 msgstr "Ножі не використовують набої"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:283
+#: src/components/_user/mission/mission.frontConfig.tsx:282
 msgid "Land <0/> critical hits"
 msgstr "Завдайте <0/> критичних ударів"
 
-#: src/components/_layout/LayoutOptions.tsx:212
+#: src/components/_layout/LayoutOptions.tsx:221
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "Мова"
@@ -5451,7 +5106,7 @@ msgstr "Мова"
 msgid "Last"
 msgstr "Останнє"
 
-#: src/components/_user/user/UserHeader.tsx:364
+#: src/components/_user/user/UserHeader.tsx:358
 msgid "Last connection"
 msgstr "Востаннє в мережі"
 
@@ -5558,10 +5213,6 @@ msgstr "Вийти з уряду"
 msgid "Leave the alliance your country belongs to"
 msgstr "Покинути альянс, до якого належить ваша держава"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:179
-msgid "left"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
 msgstr "Помічено легенду!"
@@ -5586,10 +5237,6 @@ msgstr "Легендарний шолом"
 msgid "Legendary Pants"
 msgstr "Легендарні штани"
 
-#: src/components/_other/upgrade/UpgradeSlotCard.tsx:175
-msgid "Level"
-msgstr ""
-
 #. placeholder {0}: leveling.level + 1
 #: src/components/_user/user/Level.tsx:123
 msgid "Level {0} reward"
@@ -5597,7 +5244,6 @@ msgstr ""
 
 #: src/components/_military/mu/MuLevel.tsx:64
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:89
-#: src/components/_user/domain/DomainUpgradeList.tsx:158
 msgid "Level {level}"
 msgstr "Рівень {level}"
 
@@ -5648,19 +5294,19 @@ msgstr "Світлий"
 msgid "Light Ammo"
 msgstr "Легкі набої"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:346
+#: src/components/_user/mission/mission.frontConfig.tsx:345
 msgid "Like <0/> articles"
 msgstr "Вподобайте <0/> статей"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:432
+#: src/components/_user/mission/mission.frontConfig.tsx:431
 msgid "Like <0/> messages"
 msgstr "Вподобайте <0/> повідомлень"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:344
+#: src/components/_user/mission/mission.frontConfig.tsx:343
 msgid "Like Article"
 msgstr "Вподобайте статтю"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:430
+#: src/components/_user/mission/mission.frontConfig.tsx:429
 msgid "Like Message"
 msgstr "Вподобайте повідомлення"
 
@@ -5680,7 +5326,7 @@ msgstr "Досягнуто ліміту"
 msgid "Limited:"
 msgstr "Обмежено:"
 
-#: src/components/_layout/LayoutOptions.tsx:301
+#: src/components/_layout/LayoutOptions.tsx:331
 msgid "Line"
 msgstr "Лінії"
 
@@ -5714,21 +5360,9 @@ msgstr "Завантаження {status}..."
 msgid "Loading..."
 msgstr "Завантаження..."
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
-msgid "Local"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:111
 msgid "Location"
 msgstr "Розташування"
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:163
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:166
-#: src/components/_political/region/UpgradeList.tsx:266
-#: src/components/_political/region/UpgradesGrid.tsx:220
-#: src/components/_user/domain/DomainUpgradeList.tsx:214
-msgid "Locked slot"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:289
 msgid "Locked, reset your skills to reassign"
@@ -5742,15 +5376,15 @@ msgstr "Вийти"
 msgid "Long Sword"
 msgstr "Довгий меч"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:326
+#: src/components/_user/mission/mission.frontConfig.tsx:325
 msgid "Loot <0/> in battles"
 msgstr "Отримайте <0/> з битв"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:336
+#: src/components/_user/mission/mission.frontConfig.tsx:335
 msgid "Loot <0/> items on battlefield"
 msgstr "Отримайте <0/> предметів з битви"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:324
+#: src/components/_user/mission/mission.frontConfig.tsx:323
 msgid "Loot Cases"
 msgstr "Отримайте кейси"
 
@@ -5787,11 +5421,6 @@ msgstr "Нарешті удача на правильному боці"
 msgid "Lvl"
 msgstr "Рів."
 
-#. placeholder {0}: construction.targetLevel
-#: src/components/_other/upgradeConstruction/ConstructionListItem.tsx:57
-msgid "Lvl {0}"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:191
 msgid "Mage Robe"
 msgstr "Плащ мага"
@@ -5799,10 +5428,6 @@ msgstr "Плащ мага"
 #: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "Вартість забезпечення"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:103
-msgid "Maintenance scales with the number of citizens present in the region."
-msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:96
 msgid "Major"
@@ -5813,7 +5438,7 @@ msgid "Make <0/> the new alliance leader. The leader can edit the alliance avata
 msgstr "Зробити <0/> новим лідером альянсу. Лідер може редагувати аватар альянсу та колірну схему напряму."
 
 #: src/components/_user/premium/PremiumActions.tsx:84
-#: src/pages/user/[userId]/settings.tsx:152
+#: src/pages/user/[userId]/settings.tsx:155
 msgid "Manage Subscription"
 msgstr "Керування підпискою"
 
@@ -5827,7 +5452,7 @@ msgid "map"
 msgstr "карти"
 
 #: src/components/_layout/LayoutMapOptions.tsx:82
-#: src/components/_layout/LayoutOptions.tsx:106
+#: src/components/_layout/LayoutOptions.tsx:105
 msgid "Map"
 msgstr "Мапа"
 
@@ -5836,13 +5461,12 @@ msgstr "Мапа"
 msgid "Map Accent"
 msgstr "Відтінок мапи"
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Map icons"
 msgstr "Іконки на мапі"
 
 #: src/components/_economy/market/MarketHeader.tsx:45
 #: src/components/_layout/LayoutMenu.tsx:163
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:268
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5871,24 +5495,19 @@ msgstr "Досягнуто максимального рівня!"
 msgid "Max rarity"
 msgstr "Макс. рідкість"
 
-#. placeholder {0}: maxRate.toFixed(2)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:147
-msgid "Max rate: {0} money per 1000 construction points. The pool leaves your treasury now and comes back if you cancel it or when the construction is done."
-msgstr ""
-
 #: src/components/_economy/company/CompanyDropdown.tsx:222
 #: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr "Максимум!"
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:378
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
 msgid "Maximum of <0>{0}</0> members."
 msgstr "Максимум <0>{0}</0> бійців."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:496
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:122
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Максимум <0>{0}</0> робітників.{1}"
 
@@ -6022,7 +5641,7 @@ msgstr "Найманська репутація"
 msgid "Mercenary Reputation"
 msgstr "Найманська репутація"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:123
+#: src/components/_political/region/SetResistanceFocusModal.tsx:120
 msgid "Message"
 msgstr ""
 
@@ -6092,7 +5711,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr "Рівні відзнак усіх типів, які ви зібрали"
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:232
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr "Відзнаки"
@@ -6101,7 +5720,7 @@ msgstr "Відзнаки"
 msgid "Military & Battles"
 msgstr "Військо та битви"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:162
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "Військова база"
 
@@ -6142,10 +5761,6 @@ msgstr "Військовий підрозділ"
 msgid "Military unit announcement"
 msgstr "Оголошення підрозділу"
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:50
-msgid "Military unit buildings:"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:44
 msgid "Military unit created"
 msgstr "Підрозділ створено"
@@ -6158,12 +5773,6 @@ msgstr "Військові підрозділи"
 #: src/components/_military/battle/BattleCountrySide.tsx:93
 msgid "Military Units"
 msgstr "Військові підрозділи"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:170
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:191
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:236
-msgid "min"
-msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:293
 msgid "Min reached"
@@ -6188,13 +5797,13 @@ msgstr "Міністр економіки"
 msgid "Minister of Foreign Affairs"
 msgstr "Міністр закордонних справ"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:207
 msgid "Mission tags"
 msgstr "Ярлики місій"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
 #: src/components/_user/mission/MissionsList.tsx:232
-#: src/components/_user/user/UserHeader.tsx:231
+#: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "Місії"
 
@@ -6215,21 +5824,9 @@ msgstr "Номер мобільного телефону"
 msgid "Money"
 msgstr "Кошти"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Money added"
-msgstr ""
-
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:135
 msgid "Money earned from mercenary contracts."
 msgstr "Монети, отримані з наймитських контрактів."
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:125
-msgid "Money per 1000 construction points"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:126
-msgid "Money per 1k points"
-msgstr ""
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money ranking"
@@ -6292,25 +5889,25 @@ msgstr "Резолюцію запропоновано"
 msgid "Motions"
 msgstr "Резолюції"
 
-#: src/components/_political/region/MoveButton.tsx:117
-#: src/components/_political/region/MoveButton.tsx:129
+#: src/components/_political/region/MoveButton.tsx:103
+#: src/components/_political/region/MoveButton.tsx:115
 msgid "Move"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:520
+#: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
 msgstr "Перемістіть фабрику в інший регіон"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:187
-#: src/components/_economy/company/MoveCompanyForm.tsx:66
+#: src/components/_economy/company/MoveCompanyForm.tsx:65
 msgid "Move company"
 msgstr "Перемістити фабрику"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:519
+#: src/components/_user/mission/mission.frontConfig.tsx:518
 msgid "Move Company"
 msgstr "Перемістіть фабрику"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:98
+#: src/components/_economy/company/MoveCompanyForm.tsx:91
 msgid "Move the company"
 msgstr "Перемістити фабрику"
 
@@ -6373,10 +5970,6 @@ msgstr "Турнір між підрозділами"
 msgid "MU Tournament Winner"
 msgstr "Переможець турніру між ВП"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
-msgid "My alliance"
-msgstr ""
-
 #: src/components/_military/battle/LootSummaryCard.tsx:135
 msgid "My battle loot"
 msgstr "Моя бойова здобич"
@@ -6388,10 +5981,6 @@ msgstr "Мій бот, Скрипт тощо."
 #: src/pages/user/[userId]/companies.tsx:84
 msgid "My Companies"
 msgstr "Мої фабрики"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:95
-msgid "My country"
-msgstr ""
 
 #. placeholder {0}: milestone.tier
 #: src/components/_user/milestone/MilestoneItem.tsx:134
@@ -6430,10 +6019,6 @@ msgstr "Міфік?! Твій акаунт просочений потужніс
 #: src/components/_political/party/PartyFormModal.tsx:97
 msgid "Name"
 msgstr "Назва"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
-msgid "National"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:424
 msgid "National battle orders cost double."
@@ -6527,7 +6112,7 @@ msgstr "Нова вакансія"
 msgid "New leader"
 msgstr "Новий лідер"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:86
+#: src/components/_economy/company/MoveCompanyForm.tsx:79
 msgid "New location"
 msgstr "Нова локація"
 
@@ -6605,10 +6190,6 @@ msgstr "Новини"
 msgid "Next"
 msgstr "Наступна"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:226
-msgid "Next hourly cost"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:18
 msgid "Next one will be a tank"
 msgstr "У наступному буде танк..."
@@ -6624,14 +6205,6 @@ msgstr "Наступний бал коштує"
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
 msgstr "Наступна нагорода"
-
-#: src/components/_political/region/UpgradeList.tsx:283
-msgid "Next slot unlocks at {unlockDevelopment} development"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:219
-msgid "Next slot unlocks at level {unlockLevel}"
-msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Next tick"
@@ -6654,7 +6227,7 @@ msgstr "Гарно"
 msgid "Nice work!"
 msgstr "Гарна робота!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:194
+#: src/components/_military/battle/ActiveBattlesList.tsx:201
 msgid "No active battles"
 msgstr "Активних битв немає"
 
@@ -6714,12 +6287,7 @@ msgstr "Громадян немає"
 msgid "No congress members"
 msgstr "Парламентарів немає"
 
-#: src/components/_other/upgradeConstruction/AllConstructionList.tsx:28
-#: src/components/_other/upgradeConstruction/ConstructionList.tsx:40
-msgid "No construction in progress"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:275
+#: src/components/_political/contribution/ContributionList.tsx:225
 msgid "No contributions yet"
 msgstr "Пожертв ще немає"
 
@@ -6832,10 +6400,6 @@ msgstr "Запрошень ще немає"
 msgid "No referrer yet"
 msgstr "Запрошувача ще немає"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:119
-msgid "No region to recommend for this filter"
-msgstr ""
-
 #: src/components/_user/user/UserEquippedSkins.tsx:139
 msgid "No skins equipped"
 msgstr "Ніякі скіни не одягнуто"
@@ -6937,7 +6501,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr "Ви ще нічого не заробили. Долучайтесь до поточних битв щоб почати заробляти, і втримайте найвищу шкоду, щоб взяти участь у розподілі здобичі."
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:132
+#: src/pages/user/[userId]/settings.tsx:135
 msgid "Notification preferences"
 msgstr "Вподобання щодо сповіщень"
 
@@ -6953,15 +6517,15 @@ msgstr "Оце інша справа!"
 msgid "Number of Donors:"
 msgstr "Кількість донорів:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:499
+#: src/components/_user/mission/mission.frontConfig.tsx:498
 msgid "Obtain a badge"
 msgstr "Отримайте медаль"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:498
+#: src/components/_user/mission/mission.frontConfig.tsx:497
 msgid "Obtain a Badge"
 msgstr "Отримайте медаль"
 
-#: src/components/_political/region/RegionHeader.tsx:127
+#: src/components/_political/region/RegionHeader.tsx:118
 msgid "Occupied by"
 msgstr "Окуповано"
 
@@ -7025,10 +6589,6 @@ msgstr "Лише власник та командери підрозділу м�
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Тільки підписники можуть бачити розбір їх витрат та доходів."
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:167
-msgid "Only the company owner can unlock this slot."
-msgstr ""
-
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:168
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr "Лише уряд або власник/командер підрозділу цієї держави може зареєструвати її"
@@ -7045,7 +6605,7 @@ msgstr "Лише ваші національні регіони створюют
 msgid "Open"
 msgstr "Відкрити"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:232
+#: src/components/_user/mission/mission.frontConfig.tsx:231
 msgid "Open <0/>"
 msgstr "Відкрийте <0/>"
 
@@ -7058,11 +6618,11 @@ msgstr "Відкрити кейс"
 msgid "Open Case"
 msgstr "Відкриття кейсів"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:230
+#: src/components/_user/mission/mission.frontConfig.tsx:229
 msgid "Open Cases"
 msgstr "Відкрийте кейси"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:378
+#: src/components/_user/mission/mission.frontConfig.tsx:377
 msgid "Open Chat"
 msgstr "Відкрийте чат"
 
@@ -7082,7 +6642,7 @@ msgstr "Відкрий, щоб отримати предмет"
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "Відкривайте декілька <0>Кейсів</0> одночасно"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:379
+#: src/components/_user/mission/mission.frontConfig.tsx:378
 msgid "Open the chat"
 msgstr "Відкрийте чат"
 
@@ -7110,7 +6670,7 @@ msgstr "або"
 msgid "Order"
 msgstr "Наказ"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:82
+#: src/components/_military/battle/ActiveBattlesList.tsx:83
 msgid "Orders"
 msgstr "Накази"
 
@@ -7131,7 +6691,7 @@ msgstr "Накази держави <0/>"
 msgid "Origin"
 msgstr "Рідна"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:118
+#: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
 msgstr "Інше"
@@ -7183,7 +6743,7 @@ msgstr "Володіння <0/> було передано від <1/> до <2/>"
 msgid "Ownership transferred successfully"
 msgstr "Право власності успішно передано"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:180
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:60
 msgid "Pacification Center"
 msgstr "Центр умиротворення"
 
@@ -7218,11 +6778,11 @@ msgstr "Папір"
 msgid "Participants"
 msgstr "Учасники"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:243
+#: src/components/_user/mission/mission.frontConfig.tsx:242
 msgid "Participate in <0/> battles"
 msgstr "Візьміть участь у <0/> битвах"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:241
+#: src/components/_user/mission/mission.frontConfig.tsx:240
 msgid "Participate in Battle"
 msgstr "Візьміть участь у битві"
 
@@ -7319,7 +6879,6 @@ msgid "Payment successful! Thanks for supporting the game <3"
 msgstr "Успішна оплата! Дякую за підтримку гри <3"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:163
 msgid "Payout"
 msgstr "Виплата"
 
@@ -7327,7 +6886,7 @@ msgstr "Виплата"
 msgid "Peace made"
 msgstr "Укладено мир"
 
-#: src/utils/translations.tsx:279
+#: src/utils/translations.tsx:277
 msgid "Pending"
 msgstr "Обробляється"
 
@@ -7430,18 +6989,19 @@ msgstr "Політика та уряд"
 msgid "Popular Article"
 msgstr "Популярна стаття"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_political/region/RegionHeader.tsx:96
+#: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:98
+msgid "Population (currently here)"
 msgstr ""
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
 msgstr "Опублікувати оголошення"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:225
-msgid "Power Plant"
-msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:144
 #: src/components/_user/user/skills.frontConfig.tsx:145
@@ -7527,7 +7087,7 @@ msgstr "Престиж:"
 msgid "Prestige!"
 msgstr "Престиж!"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:443
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:453
 msgid "Price auto-matches existing orders"
 msgstr "Ціна автоматично відповідає існуючим замовленням"
 
@@ -7557,7 +7117,7 @@ msgid "Probability of landing a critical hit"
 msgstr "Шанс завдати критичного удару"
 
 #: src/components/_economy/company/ProduceButton.tsx:142
-#: src/components/_user/mission/mission.frontConfig.tsx:509
+#: src/components/_user/mission/mission.frontConfig.tsx:508
 msgid "Produce"
 msgstr "Виробити"
 
@@ -7565,7 +7125,7 @@ msgstr "Виробити"
 msgid "Produce All"
 msgstr "Виробити все"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:511
+#: src/components/_user/mission/mission.frontConfig.tsx:510
 msgid "Produce items <0/> times"
 msgstr "Виробіть продукцію <0/> разів"
 
@@ -7589,7 +7149,7 @@ msgid "Production"
 msgstr "Виробництво"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:153
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Бонус до виробництва"
@@ -7713,6 +7273,14 @@ msgstr ""
 msgid "Purple Staff"
 msgstr "Фіолетовий посох"
 
+#: src/components/_political/region/SetResistanceFocusModal.tsx:125
+msgid "Push the resistance here before they dig in..."
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:201
+msgid "Push the resistance here first."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:35
 msgid "Put yourself to work!"
 msgstr "Почни працювати!"
@@ -7769,91 +7337,91 @@ msgstr "Ставка за 1К шкоди"
 msgid "Raw materials:"
 msgstr "Сировина:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:411
+#: src/components/_user/mission/mission.frontConfig.tsx:410
 msgid "Reach level 10"
 msgstr "Досягніть 10-го рівню"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:410
+#: src/components/_user/mission/mission.frontConfig.tsx:409
 msgid "Reach Level 10"
 msgstr "Досягніть 10-го рівню"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:416
+#: src/components/_user/mission/mission.frontConfig.tsx:415
 msgid "Reach level 15"
 msgstr "Досягніть 15-го рівня"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:415
+#: src/components/_user/mission/mission.frontConfig.tsx:414
 msgid "Reach Level 15"
 msgstr "Досягніть 15-го рівня"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:421
+#: src/components/_user/mission/mission.frontConfig.tsx:420
 msgid "Reach level 20"
 msgstr "Досягніть 20-го рівня"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:420
+#: src/components/_user/mission/mission.frontConfig.tsx:419
 msgid "Reach Level 20"
 msgstr "Досягніть 20-го рівня"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:426
+#: src/components/_user/mission/mission.frontConfig.tsx:425
 msgid "Reach level 25"
 msgstr "Досягніть 25-го рівня"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:425
+#: src/components/_user/mission/mission.frontConfig.tsx:424
 msgid "Reach Level 25"
 msgstr "Досягніть 25-го рівня"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:406
+#: src/components/_user/mission/mission.frontConfig.tsx:405
 msgid "Reach level 5"
 msgstr "Досягніть п'ятого рівню"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:405
+#: src/components/_user/mission/mission.frontConfig.tsx:404
 msgid "Reach Level 5"
 msgstr "Досягніть п'ятого рівню"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:457
+#: src/components/_user/mission/mission.frontConfig.tsx:456
 msgid "Reach military rank 10"
 msgstr "Досягніть 10-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:456
+#: src/components/_user/mission/mission.frontConfig.tsx:455
 msgid "Reach Military Rank 10"
 msgstr "Досягніть 10-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:462
+#: src/components/_user/mission/mission.frontConfig.tsx:461
 msgid "Reach military rank 20"
 msgstr "Досягніть 20-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:461
+#: src/components/_user/mission/mission.frontConfig.tsx:460
 msgid "Reach Military Rank 20"
 msgstr "Досягніть 20-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:467
+#: src/components/_user/mission/mission.frontConfig.tsx:466
 msgid "Reach military rank 30"
 msgstr "Досягніть 30-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:466
+#: src/components/_user/mission/mission.frontConfig.tsx:465
 msgid "Reach Military Rank 30"
 msgstr "Досягніть 30-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:472
+#: src/components/_user/mission/mission.frontConfig.tsx:471
 msgid "Reach military rank 40"
 msgstr "Досягніть 40-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:471
+#: src/components/_user/mission/mission.frontConfig.tsx:470
 msgid "Reach Military Rank 40"
 msgstr "Досягніть 40-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:452
+#: src/components/_user/mission/mission.frontConfig.tsx:451
 msgid "Reach military rank 5"
 msgstr "Досягніть п'ятого військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:451
+#: src/components/_user/mission/mission.frontConfig.tsx:450
 msgid "Reach Military Rank 5"
 msgstr "Досягніть п'ятого військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:477
+#: src/components/_user/mission/mission.frontConfig.tsx:476
 msgid "Reach military rank 50"
 msgstr "Досягніть 50-го військового звання"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:476
+#: src/components/_user/mission/mission.frontConfig.tsx:475
 msgid "Reach Military Rank 50"
 msgstr "Досягніть 50-го військового звання"
 
@@ -7867,11 +7435,11 @@ msgstr "Досягли"
 msgid "Reached by {0}% (<0/>)"
 msgstr "Досягли {0}% (<0/>)"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:363
+#: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "Read <0/> articles"
 msgstr "Прочитайте <0/> статей"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:361
+#: src/components/_user/mission/mission.frontConfig.tsx:360
 msgid "Read Article"
 msgstr "Прочитайте статтю"
 
@@ -7906,7 +7474,7 @@ msgstr "Рецепт"
 msgid "Recipient"
 msgstr "Отримувач"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:76
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:68
 msgid "Recommended regions"
 msgstr "Рекомендовані регіони"
 
@@ -7926,7 +7494,7 @@ msgstr "Знижує втрати здоров'я у битві"
 msgid "Referral link copied to clipboard"
 msgstr "Запрошувальне посилання скопійовано у буфер обміну"
 
-#: src/components/_user/user/UserHeader.tsx:266
+#: src/components/_user/user/UserHeader.tsx:260
 #: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7976,10 +7544,6 @@ msgstr "Регіон"
 msgid "Region buy offer"
 msgstr "Пропозиція купити регіон"
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:45
-msgid "region dev"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2078
 msgid "Region is revolting!"
 msgstr "Регіон повстає!"
@@ -7991,14 +7555,6 @@ msgstr "Регіон звільнено"
 #: src/components/_political/region/RegionHeader.tsx:47
 msgid "Region of"
 msgstr "Регіон"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:38
-msgid "region residents"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:98
-msgid "Region slots"
-msgstr ""
 
 #: src/components/_political/event/EventList.tsx:110
 msgid "Region transfer"
@@ -8017,7 +7573,7 @@ msgstr "регіонів"
 msgid "Regions"
 msgstr "Регіони"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:604
+#: src/components/_user/mission/mission.frontConfig.tsx:595
 msgid "Regions Crossed"
 msgstr ""
 
@@ -8078,7 +7634,7 @@ msgid "Reject"
 msgstr "Відхилити"
 
 #: src/components/_political/law/GenericLawStatus.tsx:42
-#: src/utils/translations.tsx:280
+#: src/utils/translations.tsx:278
 msgid "Rejected"
 msgstr "Відхилено"
 
@@ -8145,7 +7701,7 @@ msgstr "Прибрати опис"
 msgid "Remove enemy"
 msgstr "Прибрати ворога"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:129
+#: src/components/_political/region/RegionResistance.tsx:143
 msgid "Remove focus"
 msgstr ""
 
@@ -8206,7 +7762,7 @@ msgstr "Поскаржитись"
 msgid "Report user"
 msgstr "Поскаржитись"
 
-#: src/components/_user/user/UserHeader.tsx:220
+#: src/components/_user/user/UserHeader.tsx:214
 msgid "Reports"
 msgstr "Скарги"
 
@@ -8243,7 +7799,7 @@ msgstr "Скинути"
 msgid "Reset CAPTCHA"
 msgstr "Скинути CAPTCHA"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:492
+#: src/components/_user/mission/mission.frontConfig.tsx:491
 msgid "Reset Skills"
 msgstr "Скиньте навички"
 
@@ -8251,7 +7807,7 @@ msgstr "Скиньте навички"
 msgid "Reset Survivor"
 msgstr "Свідок скидання"
 
-#: src/pages/user/[userId]/settings.tsx:127
+#: src/pages/user/[userId]/settings.tsx:130
 msgid "Reset tutorials"
 msgstr "Скинути навчання"
 
@@ -8259,7 +7815,7 @@ msgstr "Скинути навчання"
 msgid "Reset Username"
 msgstr "Скинути прізвисько"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:493
+#: src/components/_user/mission/mission.frontConfig.tsx:492
 msgid "Reset your skills"
 msgstr "Скиньте свої навички"
 
@@ -8267,24 +7823,42 @@ msgstr "Скиньте свої навички"
 msgid "Reshuffle in"
 msgstr "Змінить розташування через"
 
+#: src/components/_political/region/RegionHeader.tsx:88
+msgid "Residents"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:90
+msgid "Residents (home here)"
+msgstr ""
+
 #: src/components/_military/hit/HitButton.tsx:468
-#: src/components/_user/mission/mission.frontConfig.tsx:573
+#: src/components/_user/mission/mission.frontConfig.tsx:564
 msgid "Resist"
 msgstr "Опір"
 
+#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
 msgstr "Спротив"
 
-#: src/components/_political/contribution/ContributionList.tsx:246
+#: src/components/_political/contribution/ContributionList.tsx:198
 msgid "Resistance Contributors"
 msgstr "Сприячі спротиву"
+
+#: src/components/_political/region/ResistanceFocusItem.tsx:229
+msgid "Resistance focus"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:190
+msgid "Resistance focused by <0/>"
+msgstr ""
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
 msgstr "Повстання за {regionName} {score}"
 
-#: src/components/_political/region/RegionTooltip.tsx:101
+#: src/components/_political/region/RegionTooltip.tsx:98
 msgid "Resource"
 msgstr "Ресурс"
 
@@ -8350,7 +7924,7 @@ msgstr "Права"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr ""
 
-#: src/utils/translations.tsx:275
+#: src/utils/translations.tsx:273
 msgid "Rolled back by admin"
 msgstr "Скасовано адміном"
 
@@ -8431,9 +8005,7 @@ msgid "Running low on health?"
 msgstr "Мало здоров'я?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
-#: src/components/_other/upgrade/UpgradeGrid.tsx:122
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_political/region/UpgradeList.tsx:153
 #: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
@@ -8454,10 +8026,6 @@ msgstr "Заскамлений"
 #: src/utils/translations.tsx:40
 msgid "Scraps"
 msgstr "Брухт"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:474
-msgid "Scrapyard"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:75
 msgid "Screenshot or it didn't happen"
@@ -8530,11 +8098,11 @@ msgid "Select skin"
 msgstr "Виберіть скін"
 
 #: src/components/_economy/work/WorkChart.tsx:224
-#: src/components/_user/mission/mission.frontConfig.tsx:86
+#: src/components/_user/mission/mission.frontConfig.tsx:85
 msgid "Self Work"
 msgstr "Самостійна робота"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:88
+#: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
 msgstr "Попрацюйте <0/> разів у своїй фабриці"
 
@@ -8542,7 +8110,7 @@ msgstr "Попрацюйте <0/> разів у своїй фабриці"
 msgid "Sell company?"
 msgstr "Продати фабрику?"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:222
+#: src/components/_user/mission/mission.frontConfig.tsx:221
 msgid "Sell for <0/> money on market"
 msgstr "Продайте товару на <0/> монет"
 
@@ -8550,7 +8118,7 @@ msgstr "Продайте товару на <0/> монет"
 msgid "Sell it, you need to buy more cases to gamble!"
 msgstr "Давай продавай, тобі треба гроші на нові кейси!"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:220
+#: src/components/_user/mission/mission.frontConfig.tsx:219
 msgid "Sell Items"
 msgstr "Продайте предмети"
 
@@ -8567,7 +8135,7 @@ msgstr "Ціна продажу:"
 msgid "sells"
 msgstr "продає"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:392
+#: src/components/_user/mission/mission.frontConfig.tsx:391
 msgid "Send <0/> messages"
 msgstr "Надішліть <0/> повідомлень"
 
@@ -8591,7 +8159,7 @@ msgstr "Надіслати код"
 msgid "Send Gift"
 msgstr "Надіслати подарунок"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:390
+#: src/components/_user/mission/mission.frontConfig.tsx:389
 msgid "Send Message"
 msgstr "Надішліть повідомлення"
 
@@ -8625,10 +8193,6 @@ msgstr "Встановити вітальну статтю для країни<0
 msgid "Set bounty"
 msgstr "Встановити винагороду"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Set construction payout"
-msgstr ""
-
 #: src/components/_political/law/law.frontConfig.tsx:544
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
@@ -8651,12 +8215,7 @@ msgstr "Встановити наказ"
 msgid "Set party ethics"
 msgstr "Встановити принципи"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Set payout"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:445
+#: src/components/_user/mission/mission.frontConfig.tsx:444
 msgid "Set Profile Picture"
 msgstr "Встановити фото профілю"
 
@@ -8674,7 +8233,7 @@ msgstr "Встановити спеціалізацію держави <0>{0}</0
 msgid "Set the country's specialized production item"
 msgstr "Встановити спеціалізацію держави"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:439
+#: src/components/_user/mission/mission.frontConfig.tsx:438
 msgid "Set Username"
 msgstr "Встановість прізвисько"
 
@@ -8683,17 +8242,17 @@ msgstr "Встановість прізвисько"
 msgid "Set welcome article"
 msgstr "Встановити вітальну статтю"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:446
+#: src/components/_user/mission/mission.frontConfig.tsx:445
 msgid "Set your profile picture"
 msgstr "Встановість фото профілю"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:440
+#: src/components/_user/mission/mission.frontConfig.tsx:439
 msgid "Set your username"
 msgstr "Встановість прізвисько"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:61
-#: src/components/_user/user/UserHeader.tsx:272
+#: src/components/_user/user/UserHeader.tsx:266
 msgid "Settings"
 msgstr "Налаштування"
 
@@ -8704,10 +8263,6 @@ msgstr "Відсоток актвиних гравців, що досягли к
 #: src/components/_user/user/UserEffectSelector.tsx:56
 msgid "Shine"
 msgstr "Сіяння"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:388
-msgid "Shooting Range"
-msgstr ""
 
 #: src/components/_layout/LayoutRightIcons.tsx:184
 #: src/components/_layout/MoreButtonNav.tsx:70
@@ -8774,7 +8329,7 @@ msgid "Skill upgrade:"
 msgstr "Поліпшення навички:"
 
 #: src/components/_user/user/MyAvatar.tsx:42
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:195
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "Навички"
@@ -8837,16 +8392,7 @@ msgstr ""
 msgid "Sling Stones"
 msgstr "Камінці для пращі"
 
-#: src/components/_user/domain/DomainUpgradeList.tsx:161
-msgid "slot {slot}"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:95
-#: src/components/_user/domain/DomainUpgradeList.tsx:98
-msgid "Slots"
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:207
+#: src/components/_layout/LayoutOptions.tsx:212
 msgid "Small GIFs"
 msgstr "Маленькі GIF"
 
@@ -8862,7 +8408,7 @@ msgstr "Спілкування та повідомлення"
 msgid "Some of your companies are disabled."
 msgstr "Деякі з ваших фабрик зупинені."
 
-#: src/components/_layout/LayoutOptions.tsx:178
+#: src/components/_layout/LayoutOptions.tsx:183
 msgid "Sound effects"
 msgstr "Звукові ефекти"
 
@@ -8895,7 +8441,7 @@ msgid "Spendings"
 msgstr "Витрати"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points, only by building a Garage on your domain."
+msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
@@ -9015,16 +8561,12 @@ msgstr "Стейк"
 msgid "Steel"
 msgstr "Сталь"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:402
-msgid "Stockpile"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:245
 msgid "Stone Maul"
 msgstr "Кам'яна киянка"
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:349
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
 msgid "Storage"
 msgstr "Склад"
 
@@ -9111,7 +8653,7 @@ msgid "Supporter plan"
 msgstr "План підписки"
 
 #: src/components/_user/modals/PremiumModal.tsx:31
-#: src/pages/user/[userId]/settings.tsx:145
+#: src/pages/user/[userId]/settings.tsx:148
 msgid "Supporter Plan"
 msgstr "План підписки"
 
@@ -9157,7 +8699,7 @@ msgstr "Системне повстання"
 msgid "Take control"
 msgstr "Захопити владу"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:112
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "Враховувати поклади"
 
@@ -9182,10 +8724,6 @@ msgstr "Цільовий регіон"
 msgid "Target user"
 msgstr "Цільовий гравець"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:242
-msgid "Tax Office"
-msgstr ""
-
 #: src/components/_political/law/LawFormModal.tsx:251
 msgid "Tax type"
 msgstr "Тип податку"
@@ -9204,8 +8742,8 @@ msgstr "Команда {0}"
 msgid "Teams"
 msgstr "Команди"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:124
-msgid "Tell your citizens why this construction comes first"
+#: src/components/_political/region/SetResistanceFocusModal.tsx:121
+msgid "Tell your citizens why this region comes first"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
@@ -9222,7 +8760,7 @@ msgstr "Умови"
 msgid "Terms of Service"
 msgstr "Умови використання"
 
-#: src/components/_layout/LayoutOptions.tsx:312
+#: src/components/_layout/LayoutOptions.tsx:342
 msgid "Texture"
 msgstr "Текстура"
 
@@ -9342,11 +8880,6 @@ msgstr "Ця держава не має активного президента 
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "Ця держава є фанатично імперіалістською: вона не може мати міністрів, лише президента та віцепрезидента. Призначення міністрів буде відхилено."
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:70
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:153
-msgid "This country pays <0>{rate}</0> per 1000 construction points you contribute. <1>{pool}</1> left in the pool."
-msgstr ""
-
 #: src/components/_political/map/MapLibreErrorBoundary.tsx:64
 msgid "This device can't display the map"
 msgstr ""
@@ -9421,10 +8954,6 @@ msgstr "Це потребуватиме верифікації номеру те
 msgid "Tier {0}"
 msgstr "Рівень {0}"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:227
-msgid "Time left before the next upkeep charge"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Час воювати за свою країну! Давай приєднаємось до розваги."
@@ -9497,11 +9026,11 @@ msgstr "Піксельна снайперка"
 msgid "Tiny Pixel Tank"
 msgstr "Піксельний танк"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:315
+#: src/components/_user/mission/mission.frontConfig.tsx:314
 msgid "Tip <0/> articles"
 msgstr "Залиште чайові <0/> статтям"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:313
+#: src/components/_user/mission/mission.frontConfig.tsx:312
 msgid "Tip Article"
 msgstr "Залишити чайові"
 
@@ -9576,11 +9105,6 @@ msgstr "Найбільші дарувальники цього місяця"
 msgid "Top of the hill"
 msgstr "Король гори"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Top up payout"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:672
 msgid "total"
 msgstr "всього"
@@ -9604,10 +9128,6 @@ msgstr "Всього"
 msgid "Total cases opened"
 msgstr "кейсів відкрито"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:252
-msgid "Total daily cost"
-msgstr ""
-
 #: src/components/_military/tournament/TournamentTeamTooltip.tsx:92
 msgid "Total damage"
 msgstr "Загальна шкода"
@@ -9620,16 +9140,7 @@ msgstr "Загальна шкода"
 msgid "Total Donated:"
 msgstr "Всього пожертвувано:"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:215
-msgid "Total hourly cost"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:132
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Total money"
-msgstr ""
-
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:497
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:507
 msgid "Total of <0/>"
 msgstr "Всього <0/>"
 
@@ -9656,8 +9167,8 @@ msgstr "Загальна сума досвіду, отримана з місій
 msgid "Total:"
 msgstr "Всього:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:175
+#: src/components/_military/battle/ActiveBattlesList.tsx:77
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -9712,11 +9223,7 @@ msgstr "Торгівельні транзакції"
 msgid "Trainee"
 msgstr "Курсант"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:432
-msgid "Training Grounds"
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:246
+#: src/components/_user/user/UserHeader.tsx:240
 msgid "Transac."
 msgstr "Транзакц."
 
@@ -9749,19 +9256,19 @@ msgstr "Змінити фабрику (опціонально)"
 msgid "Translator"
 msgstr "Перекладач"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:583
+#: src/components/_user/mission/mission.frontConfig.tsx:574
 msgid "Travel"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:616
+#: src/components/_user/mission/mission.frontConfig.tsx:607
 msgid "Travel <0/> km on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:614
+#: src/components/_user/mission/mission.frontConfig.tsx:605
 msgid "Travel Distance"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:585
+#: src/components/_user/mission/mission.frontConfig.tsx:576
 msgid "Travel to another region <0/> times"
 msgstr ""
 
@@ -9773,7 +9280,7 @@ msgstr "Требушет"
 msgid "Trooper"
 msgstr "Старший солдат"
 
-#: src/pages/user/[userId]/settings.tsx:120
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Tutorials"
 msgstr "Навчання"
 
@@ -9789,7 +9296,7 @@ msgstr "Тип"
 msgid "Tyrannosaurus Rex"
 msgstr "Тираннозавр рекс"
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:161
 msgid "UI"
 msgstr "Інтерфейс"
 
@@ -9849,33 +9356,11 @@ msgstr "Доступ до кнопки Допомогти всім"
 msgid "Unlock Produce all button"
 msgstr "Доступ до кнопки Виробити все"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:175
-msgid "Unlock slot {slot}"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:170
-msgid "Unlock the previous slot first."
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:166
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:169
-msgid "Unlock this slot for {cost} concrete."
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:1998
 msgid "Unlocked pack"
 msgstr "Розблокований набір"
 
-#: src/components/_political/region/UpgradeList.tsx:272
-#: src/components/_political/region/UpgradesGrid.tsx:226
-msgid "Unlocks at"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:215
-msgid "Unlocks at level {unlockLevel}."
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:472
+#: src/components/_user/user/UserHeader.tsx:466
 msgid "Unmuted <0/>"
 msgstr "Буде розмючено <0/>"
 
@@ -9887,7 +9372,7 @@ msgstr "Неймовірно. Цього не могло статись"
 msgid "Unrest"
 msgstr "Заворушення"
 
-#: src/components/_political/contribution/ContributionList.tsx:250
+#: src/components/_political/contribution/ContributionList.tsx:200
 msgid "Unrest Contributors"
 msgstr "Сприячі заворушенням"
 
@@ -9904,7 +9389,7 @@ msgstr "Прибрати заклятого ворога"
 msgid "Update"
 msgstr "Оновити"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
 msgid "Update focus"
 msgstr ""
 
@@ -9916,7 +9401,7 @@ msgstr "Оновити інфо"
 msgid "Update worker"
 msgstr "Оновити робітника"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:400
+#: src/components/_user/mission/mission.frontConfig.tsx:399
 msgid "Upgrade a company"
 msgstr "Поліпшіть фабрику"
 
@@ -9924,11 +9409,11 @@ msgstr "Поліпшіть фабрику"
 msgid "Upgrade automated engine"
 msgstr "Поліпшити автоматичний двигун"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:399
+#: src/components/_user/mission/mission.frontConfig.tsx:398
 msgid "Upgrade Company"
 msgstr "Поліпшіть фабрику"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:533
+#: src/components/_user/mission/mission.frontConfig.tsx:524
 msgid "Upgrade Skills"
 msgstr "Поліпшіть навички"
 
@@ -9940,7 +9425,7 @@ msgstr "Поліпшити склад"
 msgid "Upgrade to supporter"
 msgstr "Станьте підписником"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:535
+#: src/components/_user/mission/mission.frontConfig.tsx:526
 msgid "Upgrade your skills <0/> times"
 msgstr "Покращте свої навички <0/> разів"
 
@@ -9950,17 +9435,17 @@ msgstr "Поліпшіть свої навички!"
 
 #: src/components/_economy/company/CompanyTooltip.tsx:98
 #: src/components/_military/mu/MuTooltip.tsx:96
-#: src/components/_political/region/RegionTooltip.tsx:117
+#: src/components/_political/region/RegionTooltip.tsx:114
 #: src/pages/company/[companyId]/index.tsx:94
 #: src/pages/region/[regionId]/index.tsx:144
 msgid "Upgrades"
 msgstr "Поліпшення"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:555
+#: src/components/_user/mission/mission.frontConfig.tsx:546
 msgid "Use <0/>"
 msgstr "Використайте <0/>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:553
+#: src/components/_user/mission/mission.frontConfig.tsx:544
 msgid "Use Pills"
 msgstr "Використайте пігулки"
 
@@ -10071,7 +9556,7 @@ msgid "Username"
 msgstr "Прізвисько"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:104
+#: src/pages/user/[userId]/settings.tsx:106
 msgid "Username effect"
 msgstr "Ефекти прізвиська"
 
@@ -10087,7 +9572,7 @@ msgstr "Ефект прізвиська змінено"
 msgid "Username effects are a Supporter Plan feature."
 msgstr "Ефекти прізвиська доступні власникам підписки."
 
-#: src/pages/user/[userId]/settings.tsx:98
+#: src/pages/user/[userId]/settings.tsx:99
 msgid "Username font"
 msgstr "Шрифт прізивська"
 
@@ -10197,7 +9682,7 @@ msgstr "Підтвердити"
 msgid "Verifying you're human..."
 msgstr "Підтверджуємо, що ви людина..."
 
-#: src/components/_layout/LayoutOptions.tsx:186
+#: src/components/_layout/LayoutOptions.tsx:191
 msgid "Vibrations"
 msgstr "Вібрації"
 
@@ -10223,11 +9708,11 @@ msgstr "Побачити на мапі"
 msgid "Views"
 msgstr "Перегляди"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:487
+#: src/components/_user/mission/mission.frontConfig.tsx:486
 msgid "Vote"
 msgstr "Проголосуйте"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:488
+#: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "Vote in an election"
 msgstr "Проголосуйте на виборах"
 
@@ -10306,10 +9791,6 @@ msgstr "Майстер сержант"
 msgid "Wars"
 msgstr "Війни"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:446
-msgid "Watchtower"
-msgstr ""
-
 #: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
@@ -10371,10 +9852,6 @@ msgstr "Вітаємо у War Era!"
 msgid "Welcome to your economy!"
 msgstr "Ласкаво просимо до вашої економіки!"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:259
-msgid "What is left of the pool goes back to your country. A payout cannot be cancelled in its first minute."
-msgstr ""
-
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr ""
@@ -10425,8 +9902,8 @@ msgstr "з бонусом"
 msgid "with bonus + fidelity"
 msgstr "з бонусом + вірністю"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:112
-#: src/components/_military/battle/ActiveBattlesList.tsx:147
+#: src/components/_military/battle/ActiveBattlesList.tsx:113
+#: src/components/_military/battle/ActiveBattlesList.tsx:148
 msgid "With bounty"
 msgstr "З винагородою"
 
@@ -10464,11 +9941,11 @@ msgid "Woolly Mammoth"
 msgstr "Шерстяний мамут"
 
 #: src/components/_economy/company/WorkButton.tsx:247
-#: src/components/_user/mission/mission.frontConfig.tsx:103
+#: src/components/_user/mission/mission.frontConfig.tsx:102
 msgid "Work"
 msgstr "Працювати"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:105
+#: src/components/_user/mission/mission.frontConfig.tsx:104
 msgid "Work <0/> times for an employer"
 msgstr "Попрацюйте на роботодавця <0/> разів"
 
@@ -10504,7 +9981,7 @@ msgstr "Праця на інших це чудовий спосіб зароби
 msgid "World <0/>"
 msgstr "Світ <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:254
+#: src/components/_layout/LayoutOptions.tsx:270
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "Гірше"
@@ -10592,10 +10069,6 @@ msgstr "Ви не бере участь"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
 msgstr "Ти дуже здібний!"
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
-msgid "You are/were a council member, sharing ideas and feedback to improve the game <3"
-msgstr "Ви є/були радником, і поліпшували гру, ділячись ідеями та думками <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:149
 msgid "You are/were a part of the staff and helped the game to grow <3"
@@ -10750,7 +10223,7 @@ msgstr "Досягніть {0} рівня, щоб подати кандидат�
 
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
-#: src/components/_political/region/RegionResistance.tsx:120
+#: src/components/_political/region/RegionResistance.tsx:223
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "Досягніть {0} рівня, щоб сприяти."
@@ -10759,11 +10232,6 @@ msgstr "Досягніть {0} рівня, щоб сприяти."
 #: src/components/_political/election/Election.tsx:226
 msgid "You must be at least level {0} to vote."
 msgstr "Досягніть {0}, щоб голосувати."
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:120
-#: src/components/_political/contribution/ContributionPanel.tsx:152
-msgid "You must be at least level {minLevel} to contribute."
-msgstr ""
 
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
@@ -10862,7 +10330,7 @@ msgstr "Вас було обрано президентом вашої держ�
 msgid "You were here at the beginning of War Era"
 msgstr "Ви стояли біля витоків War Era"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:242
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "You were nominated as a government member of a country"
 msgstr "Вас було призначено урядовцем держави"
 
@@ -10973,21 +10441,21 @@ msgstr "Ваш банер \"{0}\" був прийнятий, і тепер до�
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Ваше підсилення скінчиться менш ніж за годину. Невдовзі почнеться фаза послаблення."
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:99
-msgid "Your citizens will see this construction in <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:96
+msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "Ваше громадянство зміниться"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:140
+#: src/components/_military/battle/ActiveBattlesList.tsx:141
 #: src/pages/index.tsx:135
 msgid "Your country"
 msgstr "Ваша держава"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:109
-msgid "Your country already focuses a construction in <0/>. Setting this one releases it."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:106
+msgid "Your country already focuses <0/>. Setting this one releases it."
 msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
@@ -11042,8 +10510,8 @@ msgstr "Ваш роботодавець хоче зменшити вашу за�
 msgid "Your enemies"
 msgstr "Ваші вороги"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:234
-msgid "Your government asks you to build this one first."
+#: src/components/_political/region/ResistanceFocusItem.tsx:233
+msgid "Your government asks you to push the resistance here."
 msgstr ""
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
@@ -11102,10 +10570,6 @@ msgstr "Ваші замовлення"
 #: src/components/_political/party/PartyFormModal.tsx:96
 msgid "Your party name"
 msgstr "Назва вашої партії"
-
-#: src/pages/user/[userId]/domain.tsx:25
-msgid "Your personal estate. Buildings here work wherever you are, and there are fewer slots than buildings: pick the ones that fit how you play."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1000
 msgid "Your premium subscription has been activated!"

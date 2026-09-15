@@ -34,7 +34,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - कम वेतन वाला श्रम (सामान्य वेतन के 0.8x से कम या 1.2x से अधिक)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:476
+#: src/components/_user/user/UserHeader.tsx:470
 msgid " - Reason: {0}"
 msgstr " - कारण: {0}"
 
@@ -63,28 +63,6 @@ msgstr "- इस क्षेत्र की रक्षा करने प�
 #: src/pages/region/[regionId]/index.tsx:191
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- विकास आय में 50% की कमी कर दी गई है: <0>{0}</0>।"
-
-#: src/components/_political/region/MoveButton.tsx:107
-msgid "-{reductionPercent}%"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:121
-#: src/components/_political/region/UpgradeList.tsx:245
-#: src/components/_user/domain/DomainUpgradeList.tsx:194
-msgid "({freeSlotCount} free slots)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:192
-msgid "({scalePct}% of country dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:196
-msgid "({scalePct}% of region dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:194
-msgid "({scalePct}% of region population)"
-msgstr ""
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:246
@@ -174,7 +152,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "इस कंपनी में कार्य करने पर आपकी आय से {0}% आयकर काटा जाएगा।"
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:205
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:155
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "आपके कर्मचारियों के वेतन से {0}% आयकर काटा जाएगा।"
 
@@ -186,10 +164,6 @@ msgstr "निवेशित राशि का {0}%"
 #: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} पूर्ण हुए"
-
-#: src/components/_other/upgrade/Upgrade.tsx:344
-msgid "{destroyRefundPercent}% of what was invested"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:267
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
@@ -225,10 +199,6 @@ msgstr ""
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} राउंड"
 
-#: src/components/_political/region/UpgradeList.tsx:205
-msgid "{slotCount} slots"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
 msgstr ""
@@ -245,18 +215,9 @@ msgstr "*यदि उपयोगकर्ता के पास पहले 
 msgid "*May burn"
 msgstr "*जल सकता है"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:213
-msgid "/ action"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:184
 #: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "दिन"
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:186
-msgid "/h"
-msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
@@ -276,10 +237,6 @@ msgstr "<0/> ने <1/> में शामिल होने के लिए
 #: src/components/_economy/workOffer/WorkOfferList.tsx:116
 msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/> ने <1>{0}</1> वेतन पर कार्यभार ग्रहण किया।{1}"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:436
-msgid "<0/> attack."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:54
 msgid "<0/> banned <1/> from the conversation"
@@ -536,25 +493,9 @@ msgstr "<0/> को आपका संदेश <1/> पसंद आया।"
 msgid "<0/> liked your message in <1/><2/>"
 msgstr "<0/> को <1/><2/> में आपका संदेश पसंद आया।"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:450
-msgid "<0/> loot chance."
-msgstr ""
-
 #: src/components/_political/event/event.frontConfig.tsx:247
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> ने <1/> के साथ शांति स्थापित की।"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:422
-msgid "<0/> max energy."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:406
-msgid "<0/> max hunger for every member of the unit."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
-msgid "<0/> max stamina, so you travel further and recover it faster."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
@@ -568,17 +509,9 @@ msgstr "<0/> ने <1/><2/> में आपका उल्लेख किय
 msgid "<0/> paid fee"
 msgstr "<0/> ने शुल्क का भुगतान किया।"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:392
-msgid "<0/> precision for every member of the unit."
-msgstr ""
-
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> की प्राथमिकता <1/> में समाप्त होगी।"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:229
-msgid "<0/> production for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:296
 msgid "<0/> proposed a mutual defensive pact to your country."
@@ -614,10 +547,6 @@ msgstr "<0/> ने आपके संदेश {0} का उत्तर द�
 #: src/components/_user/notification/notification.frontConfig.tsx:858
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr "<0/> ने <1/> में आपके संदेश {0} का उत्तर दिया।"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:478
-msgid "<0/> scraps when you dismantle an item."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:163
 msgid "<0/> started, vote for your favorite candidate"
@@ -694,7 +623,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "<0/> की प्राथमिकता <1/> में समाप्त होगी।"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:184
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:63
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "प्रति घंटा प्रतिरोध वृद्धि <0>-{0}%</0>"
 
@@ -721,9 +650,8 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr "<1/> के शत्रु के विरुद्ध <0>{0}</0>"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#. placeholder {1}: (levelConfig.stats.attackBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:166
-msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/><2>{1}</2> Attack bonus when allied country attack in this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
+msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
 msgstr ""
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
@@ -741,15 +669,9 @@ msgstr "<0>{0}</0> क्योंकि <1/> ने <2/> खो दिया"
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<0>{0}</0> क्योंकि <1/> ने <2/> के कम से कम एक क्षेत्र पर कब्ज़ा कर रखा है"
 
-#. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:198
-msgid "<0>{0}</0> cheaper travel for your citizens, between regions held by your country or your alliance.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
-#. placeholder {1}: (levelConfig.stats.defenseBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:148
-msgid "<0>{0}</0> Defense bonus when citizen defend this region.<1/><2>{1}</2> Defense bonus when allied country defend this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
 msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
@@ -780,12 +702,12 @@ msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr ""
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:188
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:138
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "कृषि नैतिकता जमा बोनस से <0>{0}</0>"
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:178
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:128
 msgid "<0>{0}</0> from deposit resources."
 msgstr "जमा संसाधनों से <0>{0}</0>"
 
@@ -805,7 +727,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "अपने देश के लिए लड़ने से <0>{0}</0>"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:118
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "औद्योगिक नैतिकता विशेषज्ञता बोनस से <0>{0}</0>"
 
@@ -815,7 +737,7 @@ msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<1/> के आदेशों से <0>{0}</0>"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:158
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:108
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "रणनीतिक संसाधन उत्पादन बोनस से <0>{0}</0>"
 
@@ -824,18 +746,13 @@ msgstr "रणनीतिक संसाधन उत्पादन बोन
 msgid "<0>{0}</0> ground are required to win a round, points are gained every tick"
 msgstr "एक राउंड जीतने के लिए <0>{0}</0> ग्राउंड आवश्यक हैं, प्रत्येक टिक पर अंक प्राप्त होते हैं"
 
-#. placeholder {0}: levelConfig.stats.skillBonuses?.health ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:215
-msgid "<0>{0}</0> max health for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1621
 msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> <1/> को वापस कर दिया गया।"
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:353
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:86
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> भंडारण क्षमता"
 
@@ -860,10 +777,6 @@ msgstr "<1/> कृषि नैतिकता जमा बोनस से <0
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<1/> औद्योगिक नैतिकता विशेषज्ञता बोनस से <0>{ethicSpecializationBonus}</0>"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:326
-msgid "<0>{prodBonus}</0> production for every company in this region."
-msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
@@ -1470,7 +1383,7 @@ msgstr "कार्यवाही"
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:47
 #: src/components/_user/user/Level.tsx:193
 #: src/pages/events/index.tsx:148
-#: src/utils/translations.tsx:278
+#: src/utils/translations.tsx:276
 msgid "Active"
 msgstr "सक्रिय"
 
@@ -1491,10 +1404,6 @@ msgstr "सक्रिय नागरिक"
 msgid "Active citizens (citizenship of this country, active and level {0}+)"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:121
-msgid "Active companies in this region"
-msgstr ""
-
 #: src/pages/region/[regionId]/index.tsx:212
 msgid "Active construction"
 msgstr "सक्रिय निर्माण"
@@ -1510,10 +1419,6 @@ msgstr "सक्रिय युद्ध"
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:179
 msgid "Activity"
 msgstr "गतिविधि"
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Add money"
-msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:59
 msgid "Add User"
@@ -1559,24 +1464,14 @@ msgstr "उन्नत हेलमेट"
 msgid "Advanced Pants"
 msgstr "उन्नत पैंट"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:85
-msgid "Affects this region only. Maintenance scales with the region's development."
-msgstr ""
-
 #: src/components/_political/party/party.frontConfig.tsx:355
 #: src/components/_political/party/party.frontConfig.tsx:372
 msgid "Agrarian"
 msgstr "कृषिवादी"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:194
-msgid "Airport"
-msgstr ""
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:133
+#: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
-#: src/components/_political/region/CreateUpgradeModal.tsx:254
 msgid "All"
 msgstr "सभी"
 
@@ -1678,8 +1573,8 @@ msgstr ""
 msgid "Alliance name"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:100
-#: src/components/_military/battle/ActiveBattlesList.tsx:154
+#: src/components/_military/battle/ActiveBattlesList.tsx:101
+#: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "सहयोगी"
 
@@ -1724,11 +1619,6 @@ msgstr "आप जितने <0>कर्मचारियों</0> का �
 #: src/components/_user/user/skills.frontConfig.tsx:123
 msgid "Amount of companies you can own"
 msgstr "आपके स्वामित्व वाली कंपनियों की संख्या"
-
-#: src/components/_economy/company/CompanyFormModal.tsx:112
-#: src/components/_economy/company/MoveCompanyForm.tsx:69
-msgid "An active company in one of your country's regions pays income tax to it: building at home makes your country grow."
-msgstr ""
 
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1601
@@ -1775,10 +1665,6 @@ msgstr ""
 msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
 msgstr "इन नियमों को दरकिनार करने का कोई भी प्रयास साझा स्थिति हटाने, जुर्माने तथा अस्थायी या स्थायी प्रतिबंध का कारण बन सकता है।"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:223
-msgid "Anyone located in the region can spend <0>{cost}</0> to add about <1>{points}</1> construction points. Points scale with your attack (gear excluded) and can land a critical hit, and every contribution can loot a case. When the bar is full, the upgrade levels up."
-msgstr ""
-
 #: src/components/_user/apiToken/ApiTokenList.tsx:40
 msgid "API token created"
 msgstr "API टोकन बनाया गया"
@@ -1791,7 +1677,7 @@ msgstr "API टोकन पुनः उत्पन्न किया गय�
 msgid "API token revoked"
 msgstr "API टोकन निरस्त किया गया"
 
-#: src/pages/user/[userId]/settings.tsx:138
+#: src/pages/user/[userId]/settings.tsx:141
 msgid "API Tokens"
 msgstr "API टोकन"
 
@@ -1799,11 +1685,11 @@ msgstr "API टोकन"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "API टोकन बाहरी अनुप्रयोगों को आपकी ओर से API तक पहुँचने की अनुमति देते हैं। टोकन को <0>X-API-Key</0> हेडर में उपयोग करें। प्रत्येक टोकन की सीमा प्रति मिनट 200 अनुरोध है।"
 
-#: src/components/_layout/LayoutOptions.tsx:289
+#: src/components/_layout/LayoutOptions.tsx:317
 msgid "App pattern"
 msgstr "ऐप पैटर्न"
 
-#: src/pages/user/[userId]/settings.tsx:112
+#: src/pages/user/[userId]/settings.tsx:115
 msgid "App settings"
 msgstr ""
 
@@ -1825,7 +1711,7 @@ msgstr ""
 msgid "Apply"
 msgstr "आवेदन करें"
 
-#: src/utils/translations.tsx:281
+#: src/utils/translations.tsx:279
 msgid "Approved"
 msgstr "स्वीकृत"
 
@@ -1916,7 +1802,7 @@ msgstr "लेख टिप"
 msgid "Article tipped"
 msgstr "लेख को टिप दी गई"
 
-#: src/components/_user/user/UserHeader.tsx:260
+#: src/components/_user/user/UserHeader.tsx:254
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "लेख"
@@ -2047,7 +1933,7 @@ msgstr "प्रमाणीकरण विफल रहा। कृपया
 msgid "Auto approval"
 msgstr "स्वचालित स्वीकृति"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:238
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "वस्तु टूटने पर स्वचालित रूप से सुसज्जित करें"
@@ -2065,7 +1951,7 @@ msgid "Automated engine"
 msgstr "स्वचालित इंजन"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:339
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:74
 msgid "Automated Engine"
 msgstr "स्वचालित इंजन"
 
@@ -2081,19 +1967,11 @@ msgstr ""
 msgid "Avatar removed"
 msgstr "अवतार हटा दिया गया"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:178
-msgid "Average construction points for one contribution ({cost} energy), before the random spread and critical hits."
-msgstr ""
-
 #: src/components/_political/alliance/AllianceHeader.tsx:83
 #: src/components/_political/country/CountryHeader.tsx:242
 #: src/components/_political/country/CountryHeader.tsx:247
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:198
-msgid "Average money for one contribution, at <0>{payoutRate}</0> per 1000 construction points. It follows the points you actually roll."
 msgstr ""
 
 #: src/components/_common/GameRules.tsx:244
@@ -2108,7 +1986,7 @@ msgstr "बेबी बूमर"
 msgid "Back to home region"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:170
+#: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
 msgstr ""
 
@@ -2141,7 +2019,7 @@ msgstr ""
 msgid "Bankruptcy"
 msgstr "दिवालियापन"
 
-#: src/components/_user/user/UserHeader.tsx:465
+#: src/components/_user/user/UserHeader.tsx:459
 msgid "Banned"
 msgstr "प्रतिबंधित"
 
@@ -2161,8 +2039,8 @@ msgstr "बैनर उपहार भेजा गया"
 msgid "Banners"
 msgstr "बैनर"
 
-#: src/components/_user/user/UserHeader.tsx:213
-#: src/components/_user/user/UserHeader.tsx:279
+#: src/components/_user/user/UserHeader.tsx:207
+#: src/components/_user/user/UserHeader.tsx:273
 msgid "Bans"
 msgstr "प्रतिबंध"
 
@@ -2255,7 +2133,7 @@ msgstr ""
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:334
+#: src/components/_user/mission/mission.frontConfig.tsx:333
 msgid "Battlefield Loot"
 msgstr ""
 
@@ -2269,11 +2147,11 @@ msgstr ""
 msgid "Battles"
 msgstr "युद्ध"
 
-#: src/components/_layout/LayoutOptions.tsx:126
+#: src/components/_layout/LayoutOptions.tsx:125
 msgid "Battles on layout"
 msgstr "लेआउट पर युद्ध"
 
-#: src/components/_layout/LayoutOptions.tsx:121
+#: src/components/_layout/LayoutOptions.tsx:120
 msgid "Battles on map"
 msgstr "मानचित्र पर युद्ध"
 
@@ -2290,7 +2168,7 @@ msgstr "जीते गए युद्ध"
 msgid "Become a Candidate"
 msgstr "उम्मीदवार बनें"
 
-#: src/components/_layout/LayoutOptions.tsx:242
+#: src/components/_layout/LayoutOptions.tsx:258
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "सर्वश्रेष्ठ"
@@ -2303,7 +2181,7 @@ msgstr "कुछ न होने से तो बेहतर है, है 
 msgid "Bid"
 msgstr "बोली"
 
-#: src/components/_political/region/RegionHeader.tsx:142
+#: src/components/_political/region/RegionHeader.tsx:133
 msgid "Biome"
 msgstr ""
 
@@ -2319,7 +2197,7 @@ msgstr "ब्लॉक करें (सामग्री छिपाएँ)"
 msgid "Blue Staff"
 msgstr "नीला दंड"
 
-#: src/components/_layout/LayoutOptions.tsx:162
+#: src/components/_layout/LayoutOptions.tsx:167
 msgid "Blur"
 msgstr "धुंधलापन"
 
@@ -2367,7 +2245,7 @@ msgstr "रोटी"
 msgid "Break defensive pact"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:492
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:119
 msgid "Break room"
 msgstr "विश्राम कक्ष"
 
@@ -2391,7 +2269,7 @@ msgstr "बजट"
 msgid "Buff ended"
 msgstr "बफ़ समाप्त हुआ"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:342
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr ""
@@ -2412,12 +2290,6 @@ msgstr "बफ़्स:"
 msgid "Bug finder"
 msgstr "बग खोजकर्ता"
 
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:66
-#: src/components/_political/region/CreateUpgradeModal.tsx:144
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:68
-msgid "Build"
-msgstr ""
-
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Build a company"
 msgstr "कंपनी बनाएँ"
@@ -2427,48 +2299,11 @@ msgstr "कंपनी बनाएँ"
 msgid "Build a military unit"
 msgstr "सैन्य इकाई बनाएँ"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:118
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:108
-#: src/components/_political/region/CreateUpgradeModal.tsx:243
-#: src/components/_political/region/UpgradeList.tsx:242
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:107
-#: src/components/_user/domain/DomainUpgradeList.tsx:191
-msgid "Build an upgrade"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:151
-msgid "Build cost"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:527
-msgid "Build or level up a building on your domain"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:134
 msgid "Build the military unit"
 msgstr "सैन्य इकाई का निर्माण करें"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:128
-msgid "Build this one before the front moves..."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:72
-msgid "Build this one first."
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:525
-msgid "Build your domain"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:151
-msgid "Building is done with bare hands: your weapon, equipment and ammo do not count. Attack, critical chance and critical damages."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:148
-msgid "Building stats"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:144
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
 msgstr "बंकर"
 
@@ -2481,11 +2316,11 @@ msgstr "<0/> खरीदें"
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr "<1/> से <0/> को <2>{0}</2> में खरीदें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:192
+#: src/components/_user/mission/mission.frontConfig.tsx:191
 msgid "Buy for <0/> money on market"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:190
+#: src/components/_user/mission/mission.frontConfig.tsx:189
 msgid "Buy Items"
 msgstr "वस्तुएँ खरीदें"
 
@@ -2520,9 +2355,7 @@ msgid "Campaign Article Link (optional)"
 msgstr "अभियान लेख लिंक (वैकल्पिक)"
 
 #: src/components/_military/order/BattleOrderList.tsx:207
-#: src/components/_other/upgrade/UpgradeGrid.tsx:113
 #: src/components/_political/election/CandidateFormModal.tsx:84
-#: src/components/_political/region/UpgradeList.tsx:144
 msgid "Cancel"
 msgstr "रद्द करें"
 
@@ -2545,21 +2378,13 @@ msgstr "अनुबंध रद्द करें"
 msgid "Cancel Mercenary Contract"
 msgstr "भाड़े के सैनिक का अनुबंध रद्द करें"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:251
-msgid "Cancel payout"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:258
-msgid "Cancel the payout?"
-msgstr ""
-
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
 #: src/pages/events/index.tsx:156
-#: src/utils/translations.tsx:273
+#: src/utils/translations.tsx:271
 msgid "Cancelled"
 msgstr "रद्द किया गया"
 
-#: src/utils/translations.tsx:274
+#: src/utils/translations.tsx:272
 msgid "Cancelled by admin"
 msgstr "प्रशासक द्वारा रद्द किया गया"
 
@@ -2595,7 +2420,7 @@ msgstr "विशेषज्ञता उत्पाद नहीं चुन
 msgid "Capital"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Capital of"
 msgstr ""
 
@@ -2753,7 +2578,7 @@ msgstr "अपना पक्ष चुनें और <0>डैमेज</0> 
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr ""
 
-#: src/components/_user/user/UserHeader.tsx:329
+#: src/components/_user/user/UserHeader.tsx:323
 msgid "Citizen since"
 msgstr ""
 
@@ -2765,11 +2590,6 @@ msgstr "नागरिक"
 #: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "नागरिकों को सहयोगियों के लिए लड़ते समय या शपथबद्ध शत्रु के विरुद्ध लड़ते समय बोनस मिलता है"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:40
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:47
-msgid "citizens present"
-msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:131
 msgid "Citizenship"
@@ -2846,7 +2666,6 @@ msgid "Climate"
 msgstr "जलवायु"
 
 #: ../__ui/src/components/Modal/Modal.tsx:386
-#: ../__ui/src/components/Modal/ModalOld.tsx:249
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "बंद करें"
@@ -2863,11 +2682,11 @@ msgstr "बेहद ठंडा"
 msgid "Collect"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:595
+#: src/components/_user/mission/mission.frontConfig.tsx:586
 msgid "Collect <0/> on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:593
+#: src/components/_user/mission/mission.frontConfig.tsx:584
 msgid "Collect Cases on the Map"
 msgstr ""
 
@@ -2892,7 +2711,7 @@ msgstr ""
 msgid "Color schemes are a Supporter Plan feature."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:194
+#: src/components/_layout/LayoutOptions.tsx:199
 msgid "Colorblind mode"
 msgstr ""
 
@@ -2919,9 +2738,8 @@ msgid "Community"
 msgstr "समुदाय"
 
 #: src/components/_layout/LayoutMenu.tsx:174
-#: src/components/_political/region/RegionHeader.tsx:119
 #: src/components/_user/user/MyAvatar.tsx:55
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:246
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:97
 msgid "Companies"
@@ -2952,7 +2770,7 @@ msgstr "कंपनी निष्क्रिय कर दी गई!"
 msgid "Company enabled!"
 msgstr "कंपनी सक्रिय कर दी गई!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:57
+#: src/components/_economy/company/MoveCompanyForm.tsx:56
 msgid "Company moved"
 msgstr "कंपनी स्थानांतरित की गई"
 
@@ -2974,7 +2792,7 @@ msgstr "XP कमाने और तेजी से स्तर बढ़ा�
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
 #: src/components/_user/milestone/MilestoneItem.tsx:327
-#: src/utils/translations.tsx:276
+#: src/utils/translations.tsx:274
 msgid "Completed"
 msgstr "पूर्ण"
 
@@ -3079,37 +2897,11 @@ msgstr "विजेता"
 msgid "Consider giving it to your local moderator"
 msgstr "इसे अपने स्थानीय मॉडरेटर को देने पर विचार करें"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:255
-#: src/components/_user/mission/mission.frontConfig.tsx:563
+#: src/components/_user/mission/mission.frontConfig.tsx:554
 msgid "Construct"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:85
-#: src/components/_other/upgradeConstruction/ConstructionFocusSection.tsx:23
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:220
-msgid "Construction"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:248
-msgid "Construction Contributors"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:230
-msgid "Construction focus"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:61
-msgid "Construction focused by <0/>"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:67
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:150
-msgid "Construction payout"
-msgstr ""
-
 #: src/components/_economy/market/MarketHeader.tsx:27
-#: src/pages/market/constructions.tsx:13
 msgid "Constructions"
 msgstr ""
 
@@ -3127,7 +2919,7 @@ msgstr "युद्ध में लड़ते समय उपयोग ह�
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "इसे उपयोग करने पर आपका <0>आक्रमण</0> {0} घंटे तक बढ़ जाता है।<1/> उसके बाद अगले {1} घंटे तक उतनी ही मात्रा में घट जाता है।"
 
-#: src/components/_layout/LayoutOptions.tsx:131
+#: src/components/_layout/LayoutOptions.tsx:130
 msgid "Contextual borders"
 msgstr "प्रासंगिक सीमाएँ"
 
@@ -3160,25 +2952,16 @@ msgstr "अनुबंध"
 msgid "Contracts & Auctions"
 msgstr "अनुबंध और नीलामियाँ"
 
-#: src/components/_political/contribution/ContributionPanel.tsx:233
-msgid "Contribute"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:565
+#: src/components/_user/mission/mission.frontConfig.tsx:556
 msgid "Contribute to constructions <0/> times"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:575
+#: src/components/_user/mission/mission.frontConfig.tsx:566
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:203
-msgid "Contribute to the construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:93
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:195
-msgid "Contributing to a construction paid by your own government gives {govPercent}% payout efficiency."
+#: src/components/_political/region/ResistanceFocusItem.tsx:203
+msgid "Contribute to the resistance"
 msgstr ""
 
 #: src/utils/translations.tsx:39
@@ -3214,7 +2997,7 @@ msgstr "इस टोकन को अभी कॉपी करें। आप
 msgid "Core development"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Core region of"
 msgstr ""
 
@@ -3225,14 +3008,6 @@ msgstr "मुख्य क्षेत्र"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:46
 msgid "Corporal"
 msgstr "कॉर्पोरल"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:418
-msgid "Cottage"
-msgstr ""
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
-msgid "Council Member"
-msgstr "परिषद सदस्य"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:132
 msgid "Council member to remove"
@@ -3262,16 +3037,8 @@ msgstr "देश"
 msgid "Country"
 msgstr "देश"
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:44
+#: src/components/_user/user/SkillUpgradeBonusRows.tsx:46
 msgid "Country buildings:"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:39
-msgid "country citizens"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:46
-msgid "country dev"
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:395
@@ -3327,17 +3094,12 @@ msgstr "देश टूर्नामेंट विजेता"
 msgid "Country wars"
 msgstr "देश के युद्ध"
 
-#. placeholder {0}: Math.round(coveredPoints)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:138
-msgid "Covers <0>{0}</0> construction points"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:210
+#: src/components/_user/mission/mission.frontConfig.tsx:209
 #: src/pages/user/[userId]/inventory.tsx:41
 msgid "Craft"
 msgstr "निर्माण करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:212
+#: src/components/_user/mission/mission.frontConfig.tsx:211
 msgid "Craft <0/> items"
 msgstr ""
 
@@ -3350,7 +3112,7 @@ msgstr "वस्तु निर्माण"
 msgid "Create"
 msgstr "बनाएँ"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:372
+#: src/components/_user/mission/mission.frontConfig.tsx:371
 msgid "Create a Company"
 msgstr "एक कंपनी बनाएँ"
 
@@ -3360,7 +3122,7 @@ msgstr "एक कंपनी बनाएँ"
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:373
+#: src/components/_user/mission/mission.frontConfig.tsx:372
 msgid "Create a new company"
 msgstr "नई कंपनी बनाएँ"
 
@@ -3417,11 +3179,11 @@ msgstr "क्रिटिकल हिट की संभावना"
 msgid "Crit. damages"
 msgstr "क्रिटिकल क्षति"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:281
+#: src/components/_user/mission/mission.frontConfig.tsx:280
 msgid "Critical Hit"
 msgstr "क्रिटिकल हिट"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:606
+#: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
 msgstr ""
 
@@ -3475,14 +3237,6 @@ msgstr "d. किसी भी प्रकार का भेदभाव, न
 msgid "Daily"
 msgstr "दैनिक"
 
-#: src/components/_other/upgrade/UpgradeListItem.tsx:165
-msgid "Daily cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:185
-msgid "Daily income"
-msgstr ""
-
 #: src/components/_political/alliance/AllianceMemberRow.tsx:59
 #: src/components/_political/law/LawTypeSelect.tsx:188
 msgid "Daily maintenance"
@@ -3491,14 +3245,6 @@ msgstr "दैनिक रखरखाव"
 #: src/components/_user/notification/notification.frontConfig.tsx:2164
 msgid "Daily Missions Reset"
 msgstr "दैनिक मिशन रीसेट"
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:194
-msgid "Daily production"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:206
-msgid "Daily upkeep"
-msgstr ""
 
 #: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
@@ -3530,7 +3276,7 @@ msgstr "वाह, यह तो शानदार दिखता है"
 msgid "Damn you lucky"
 msgstr "वाह, आपकी किस्मत तो कमाल की है"
 
-#: src/pages/user/[userId]/settings.tsx:158
+#: src/pages/user/[userId]/settings.tsx:161
 msgid "Danger zone"
 msgstr "खतरे का क्षेत्र"
 
@@ -3547,19 +3293,19 @@ msgstr "अंधकार युग"
 msgid "Dark Era Pack"
 msgstr "अंधकार युग पैक"
 
-#: src/components/_layout/LayoutOptions.tsx:153
+#: src/components/_layout/LayoutOptions.tsx:152
 msgid "Dark map"
 msgstr "गहरा मानचित्र"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:152
+#: src/components/_user/mission/mission.frontConfig.tsx:151
 msgid "Deal <0/> for allies or your country"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:132
+#: src/components/_user/mission/mission.frontConfig.tsx:131
 msgid "Deal <0/> in battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:142
+#: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Deal <0/> on country/mu orders"
 msgstr ""
 
@@ -3575,15 +3321,15 @@ msgstr "अपनी सैन्य रैंक बढ़ाने और आ�
 msgid "Deal damage in battles with your MU members to level up each month and earn rewards. Resets on the 1st of each month."
 msgstr "हर महीने स्तर बढ़ाने और पुरस्कार पाने के लिए अपनी सैन्य इकाई के सदस्यों के साथ युद्धों में नुकसान पहुँचाएँ। यह प्रत्येक महीने की पहली तारीख को रीसेट होता है।"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:130
+#: src/components/_user/mission/mission.frontConfig.tsx:129
 msgid "Deal Damages"
 msgstr "नुकसान पहुँचाएँ"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:150
+#: src/components/_user/mission/mission.frontConfig.tsx:149
 msgid "Deal Damages for Allies or Country"
 msgstr "सहयोगियों या अपने देश के लिए नुकसान पहुँचाएँ"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:140
+#: src/components/_user/mission/mission.frontConfig.tsx:139
 msgid "Deal Damages on Orders"
 msgstr "आदेशों के अनुसार नुकसान पहुँचाएँ"
 
@@ -3611,7 +3357,7 @@ msgstr "कुछ नुकसान पहुँचाता है"
 msgid "Debuff ended"
 msgstr "डीबफ़ समाप्त हुआ"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:350
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr ""
@@ -3705,7 +3451,7 @@ msgstr "बोनस प्राप्त करने के लिए कि�
 msgid "Define a sworn enemy"
 msgstr "एक शपथबद्ध शत्रु घोषित करें"
 
-#: src/pages/user/[userId]/settings.tsx:161
+#: src/pages/user/[userId]/settings.tsx:164
 msgid "Delete account"
 msgstr "खाता हटाएँ"
 
@@ -3755,7 +3501,7 @@ msgstr "भंडार संसाधन"
 msgid "Deposit resources"
 msgstr "भंडार संसाधन"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:140
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:90
 msgid "Deposit will be depleted in"
 msgstr "भंडार समाप्त होगा"
 
@@ -3785,14 +3531,6 @@ msgstr "विवरण अपडेट कर दिया गया!"
 #: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "नष्ट करें"
-
-#: src/components/_other/upgrade/Upgrade.tsx:333
-msgid "Destruct refund"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:368
-msgid "Destruct refund ({destroyRefundPercent}%):"
-msgstr ""
 
 #: src/components/_layout/map.frontConfig.tsx:37
 #: src/components/_political/region/RegionHeader.tsx:83
@@ -3848,11 +3586,11 @@ msgstr ""
 msgid "Diesel Sports Sedan"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:304
+#: src/components/_user/mission/mission.frontConfig.tsx:303
 msgid "Diminish <0/> received damages with <1>Armor</1> in battles"
 msgstr "युद्धों में <1>कवच</1> की सहायता से प्राप्त <0/> नुकसान को कम करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:302
+#: src/components/_user/mission/mission.frontConfig.tsx:301
 msgid "Diminish Received Damages"
 msgstr "प्राप्त नुकसान कम करें"
 
@@ -3882,12 +3620,12 @@ msgstr "निष्क्रिय"
 msgid "Disbanded"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:200
+#: src/components/_user/mission/mission.frontConfig.tsx:199
 #: src/pages/user/[userId]/inventory.tsx:52
 msgid "Dismantle"
 msgstr "विघटित करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:202
+#: src/components/_user/mission/mission.frontConfig.tsx:201
 msgid "Dismantle <0/> items"
 msgstr ""
 
@@ -3916,28 +3654,18 @@ msgstr "वितरित"
 msgid "Do you even know what luck is?"
 msgstr "क्या आपको पता भी है कि किस्मत क्या होती है?"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:292
+#: src/components/_user/mission/mission.frontConfig.tsx:291
 #: src/components/_user/user/skills.frontConfig.tsx:158
 #: src/components/_user/user/skills.frontConfig.tsx:159
 msgid "Dodge"
 msgstr "बचाव"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:294
+#: src/components/_user/mission/mission.frontConfig.tsx:293
 msgid "Dodge <0/> attacks"
 msgstr ""
 
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:195
-#: src/pages/user/[userId]/domain.tsx:22
 msgid "Domain"
-msgstr ""
-
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:56
-msgid "Domain buildings:"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:101
-msgid "Domain slots"
 msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:55
@@ -3952,11 +3680,11 @@ msgstr "अपने कौशल उन्नयन सहेजना न भ�
 msgid "Don't quit now, your luck is buffering"
 msgstr "अभी हार मत मानो, आपकी किस्मत लोड हो रही है"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:543
+#: src/components/_user/mission/mission.frontConfig.tsx:534
 msgid "Donate"
 msgstr "दान करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:545
+#: src/components/_user/mission/mission.frontConfig.tsx:536
 msgid "Donate <0/> to MU or Country"
 msgstr ""
 
@@ -3977,7 +3705,7 @@ msgstr "दान सारांश"
 msgid "Donations"
 msgstr "दान"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:374
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:106
 msgid "Dormitories"
 msgstr "छात्रावास"
 
@@ -4005,24 +3733,24 @@ msgstr ""
 msgid "Earn <0/> in total"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:160
+#: src/components/_user/mission/mission.frontConfig.tsx:159
 msgid "Eat"
 msgstr "खाएँ"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:172
-#: src/components/_user/mission/mission.frontConfig.tsx:182
+#: src/components/_user/mission/mission.frontConfig.tsx:171
+#: src/components/_user/mission/mission.frontConfig.tsx:181
 msgid "Eat <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:162
+#: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "Eat <0/> food items"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:170
+#: src/components/_user/mission/mission.frontConfig.tsx:169
 msgid "Eat Cooked Fish"
 msgstr "पकी हुई मछली खाएँ"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:180
+#: src/components/_user/mission/mission.frontConfig.tsx:179
 msgid "Eat Steak"
 msgstr "स्टेक खाएँ"
 
@@ -4042,10 +3770,6 @@ msgstr "आर्थिक कौशल"
 msgid "Economy & Companies"
 msgstr "अर्थव्यवस्था और कंपनियाँ"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-msgid "Edit construction focus"
-msgstr ""
-
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
 msgstr ""
@@ -4058,12 +3782,16 @@ msgstr "विवरण संपादित करें"
 msgid "Edit Description"
 msgstr "विवरण संपादित करें"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:123
+#: src/components/_political/region/RegionResistance.tsx:137
 msgid "Edit focus message"
 msgstr ""
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
+msgstr ""
+
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+msgid "Edit resistance focus"
 msgstr ""
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
@@ -4076,10 +3804,6 @@ msgstr ""
 
 #: src/components/_military/battle/SetOrderFormModal.tsx:490
 msgid "Editing another order"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
-msgid "Effect applies to the whole country. Maintenance scales with the country's average development."
 msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:267
@@ -4182,8 +3906,8 @@ msgstr "समाप्त"
 msgid "Ended <0/>"
 msgstr "<0/> समाप्त हुआ"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:106
-#: src/components/_military/battle/ActiveBattlesList.tsx:161
+#: src/components/_military/battle/ActiveBattlesList.tsx:107
+#: src/components/_military/battle/ActiveBattlesList.tsx:162
 msgid "Enemies"
 msgstr "शत्रु"
 
@@ -4212,7 +3936,7 @@ msgid "Entrepreneurship"
 msgstr "उद्यमिता"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
-#: src/components/_layout/LayoutOptions.tsx:219
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -4237,18 +3961,10 @@ msgstr "त्रुटि"
 msgid "Estimated benefit per"
 msgstr "प्रति अनुमानित लाभ"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:175
-msgid "Estimated construction"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:475
 #: src/components/_military/battle/BattleSystem.tsx:512
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "यदि सभी टिक जीते जाएँ, तो इस पक्ष के लिए वर्तमान राउंड जीतने का अनुमानित न्यूनतम समय।"
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:195
-msgid "Estimated payout"
-msgstr ""
 
 #: src/components/_economy/company/CompanyHeader.tsx:41
 msgid "Estimated value"
@@ -4276,10 +3992,6 @@ msgstr "विचारधारा अंक:"
 msgid "Events"
 msgstr "घटनाएँ"
 
-#: src/pages/market/constructions.tsx:16
-msgid "Every construction site in the world, best paying first. Move to the region and spend energy to earn the country's payout per construction point."
-msgstr ""
-
 #: src/components/_user/mission/MissionsHeader.tsx:77
 msgid "Every mission you ever completed and claimed"
 msgstr ""
@@ -4299,7 +4011,7 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:277
+#: src/utils/translations.tsx:275
 msgid "Expired"
 msgstr "समाप्त"
 
@@ -4452,8 +4164,8 @@ msgstr "किसान का चाकू"
 msgid "Farmer Pants"
 msgstr "किसान की पैंट"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:168
+#: src/components/_military/battle/ActiveBattlesList.tsx:89
+#: src/components/_military/battle/ActiveBattlesList.tsx:169
 msgid "Favorites"
 msgstr "पसंदीदा"
 
@@ -4537,11 +4249,11 @@ msgstr "<0/> में प्रतिरोध को वित्तपोष�
 msgid "Find a job"
 msgstr "नौकरी खोजें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:503
+#: src/components/_user/mission/mission.frontConfig.tsx:502
 msgid "Find a Job"
 msgstr "नौकरी खोजें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:504
+#: src/components/_user/mission/mission.frontConfig.tsx:503
 msgid "Find a job at a company"
 msgstr "किसी कंपनी में नौकरी खोजें"
 
@@ -4575,7 +4287,7 @@ msgstr "सरकार से बर्खास्त किया गया"
 msgid "Fish"
 msgstr "मछली"
 
-#: src/components/_layout/LayoutOptions.tsx:143
+#: src/components/_layout/LayoutOptions.tsx:142
 msgid "Flags"
 msgstr "झंडे"
 
@@ -4583,24 +4295,24 @@ msgstr "झंडे"
 msgid "Flail"
 msgstr "फ्लेल"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
-msgid "Focus construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:139
-msgid "Focus construction here"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:181
 msgid "Focus on you"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:259
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
+msgid "Focus resistance"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:152
+msgid "Focus resistance here"
+msgstr ""
+
+#: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
 msgstr "फ़ॉन्ट"
 
-#: src/components/_layout/LayoutOptions.tsx:271
+#: src/components/_layout/LayoutOptions.tsx:295
 msgid "Font size"
 msgstr "फ़ॉन्ट आकार"
 
@@ -4669,10 +4381,6 @@ msgstr "अपने मिशन पूरे करके <0>XP</0> प्र�
 msgid "Game supporter"
 msgstr "गेम समर्थक"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:460
-msgid "Garage"
-msgstr ""
-
 #: src/pages/shop/index.tsx:141
 msgid "Gems"
 msgstr "रत्न"
@@ -4694,7 +4402,7 @@ msgid "Generate Missions"
 msgstr "मिशन उत्पन्न करें"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:343
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:77
 msgid "Generates <0>{0}</0>/day"
 msgstr "प्रति दिन <0>{0}</0> उत्पन्न करता है"
 
@@ -4751,38 +4459,11 @@ msgid "Giveaway Won!"
 msgstr "गिवअवे जीत लिया!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:365
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:97
 msgid "Gives <0>{0}</0>"
 msgstr "<0>{0}</0> प्रदान करता है"
 
-#. placeholder {0}: Math.round(percent * 100)
-#. placeholder {1}: Math.round(regionAverageLevel ?? 0)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:275
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>, scaled by its residents' average level of {1})"
-msgstr ""
-
-#. placeholder {0}: Math.round(percent * 100)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:249
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>)"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:313
-msgid "Gives daily income of <0/> (<1/> per active company here × {regionCompanyCount})"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:258
-msgid "Gives daily income of <0/> of this region <1>Development</1>"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:293
-msgid "Gives daily income of <0/> of this region <1>Development</1>, scaled by how experienced its residents are."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:320
-msgid "Gives daily income of <0/> per active company built in this region."
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:109
+#: src/components/_layout/LayoutOptions.tsx:108
 msgid "Globe (experimental)"
 msgstr "ग्लोब (प्रायोगिक)"
 
@@ -4820,13 +4501,11 @@ msgstr "सरकार"
 msgid "Government announcement"
 msgstr ""
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:240
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
 msgid "Government Member"
 msgstr "सरकारी सदस्य"
 
 #: src/components/_military/battle/BattleSystem.tsx:818
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:91
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:193
 msgid "Government penalty"
 msgstr "सरकारी दंड"
 
@@ -4842,7 +4521,7 @@ msgstr ""
 msgid "Grain"
 msgstr "अनाज"
 
-#: src/components/_layout/LayoutOptions.tsx:116
+#: src/components/_layout/LayoutOptions.tsx:115
 msgid "Graticule"
 msgstr "ग्रैटिक्यूल"
 
@@ -4994,7 +4673,7 @@ msgstr "हैम्स्टर टैंक"
 msgid "Hard Worker"
 msgstr "मेहनती कार्यकर्ता"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:361
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
 msgid "Headquarters"
 msgstr "मुख्यालय"
 
@@ -5012,7 +4691,7 @@ msgstr "भारी गोला-बारूद"
 msgid "Helmet"
 msgstr "हेलमेट"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:273
+#: src/components/_user/mission/mission.frontConfig.tsx:272
 msgid "Help <0/> MU members"
 msgstr ""
 
@@ -5020,7 +4699,7 @@ msgstr ""
 msgid "Help for Mu"
 msgstr "MU के लिए सहायता"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:271
+#: src/components/_user/mission/mission.frontConfig.tsx:270
 msgid "Help MU Members"
 msgstr "MU सदस्यों की सहायता करें"
 
@@ -5036,11 +4715,11 @@ msgstr "उच्च कमांडर"
 msgid "History"
 msgstr "इतिहास"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:120
+#: src/components/_user/mission/mission.frontConfig.tsx:119
 msgid "Hit"
 msgstr "प्रहार"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:122
+#: src/components/_user/mission/mission.frontConfig.tsx:121
 msgid "Hit <0/> times in battles"
 msgstr ""
 
@@ -5061,18 +4740,6 @@ msgstr "सरकार में रहते हुए अपने देश 
 #: src/components/_user/user/UserHeader.tsx:174
 msgid "Home"
 msgstr "मुखपृष्ठ"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:211
-msgid "Hospital"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeListItem.tsx:167
-msgid "Hourly cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:208
-msgid "Hourly upkeep"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:30
 msgid "How many times have you seen this message already?"
@@ -5187,7 +4854,7 @@ msgid "Income tax"
 msgstr "आयकर"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:204
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:154
 msgid "Income Tax"
 msgstr "आयकर"
 
@@ -5199,10 +4866,6 @@ msgstr "बढ़ाएँ"
 #: src/components/_political/unrest/UnrestPanel.tsx:109
 msgid "Increase unrest"
 msgstr "अशांति बढ़ाएँ"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:304
-msgid "Industrial Park"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:374
 msgid "Industrialism vs Agrarianism"
@@ -5238,14 +4901,6 @@ msgstr "इस नीति का जानबूझकर या बार-ब
 #: src/pages/user/[userId]/inventory.tsx:31
 msgid "Inventory"
 msgstr "इन्वेंटरी"
-
-#: src/components/_other/upgrade/Upgrade.tsx:319
-msgid "Invested"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:359
-msgid "Invested:"
-msgstr ""
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:162
 msgid "Invitations"
@@ -5336,7 +4991,7 @@ msgstr "नौकरियाँ"
 msgid "Join <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:385
+#: src/components/_user/mission/mission.frontConfig.tsx:384
 msgid "Join a Military Unit"
 msgstr "किसी सैन्य इकाई में शामिल हों"
 
@@ -5344,11 +4999,11 @@ msgstr "किसी सैन्य इकाई में शामिल ह�
 msgid "Join a military unit to take part"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:481
+#: src/components/_user/mission/mission.frontConfig.tsx:480
 msgid "Join a Party"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:482
+#: src/components/_user/mission/mission.frontConfig.tsx:481
 msgid "Join a political party"
 msgstr ""
 
@@ -5357,7 +5012,7 @@ msgstr ""
 msgid "Join alliance"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:384
+#: src/components/_user/mission/mission.frontConfig.tsx:383
 msgid "Join MU"
 msgstr "MU में शामिल हों"
 
@@ -5438,11 +5093,11 @@ msgstr "चाकू"
 msgid "Knives do not accept ammo"
 msgstr "चाकुओं में गोला-बारूद का उपयोग नहीं होता"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:283
+#: src/components/_user/mission/mission.frontConfig.tsx:282
 msgid "Land <0/> critical hits"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:212
+#: src/components/_layout/LayoutOptions.tsx:221
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "भाषा"
@@ -5451,7 +5106,7 @@ msgstr "भाषा"
 msgid "Last"
 msgstr "अंतिम"
 
-#: src/components/_user/user/UserHeader.tsx:364
+#: src/components/_user/user/UserHeader.tsx:358
 msgid "Last connection"
 msgstr ""
 
@@ -5558,10 +5213,6 @@ msgstr "सरकार छोड़ें"
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:179
-msgid "left"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
 msgstr "दिग्गज दिखाई दिया!"
@@ -5586,10 +5237,6 @@ msgstr "पौराणिक हेलमेट"
 msgid "Legendary Pants"
 msgstr "पौराणिक पैंट"
 
-#: src/components/_other/upgrade/UpgradeSlotCard.tsx:175
-msgid "Level"
-msgstr ""
-
 #. placeholder {0}: leveling.level + 1
 #: src/components/_user/user/Level.tsx:123
 msgid "Level {0} reward"
@@ -5597,7 +5244,6 @@ msgstr ""
 
 #: src/components/_military/mu/MuLevel.tsx:64
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:89
-#: src/components/_user/domain/DomainUpgradeList.tsx:158
 msgid "Level {level}"
 msgstr "स्तर {level}"
 
@@ -5648,19 +5294,19 @@ msgstr "हल्का"
 msgid "Light Ammo"
 msgstr "हल्का गोला-बारूद"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:346
+#: src/components/_user/mission/mission.frontConfig.tsx:345
 msgid "Like <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:432
+#: src/components/_user/mission/mission.frontConfig.tsx:431
 msgid "Like <0/> messages"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:344
+#: src/components/_user/mission/mission.frontConfig.tsx:343
 msgid "Like Article"
 msgstr "लेख पसंद करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:430
+#: src/components/_user/mission/mission.frontConfig.tsx:429
 msgid "Like Message"
 msgstr "संदेश पसंद करें"
 
@@ -5680,7 +5326,7 @@ msgstr ""
 msgid "Limited:"
 msgstr "सीमित:"
 
-#: src/components/_layout/LayoutOptions.tsx:301
+#: src/components/_layout/LayoutOptions.tsx:331
 msgid "Line"
 msgstr "रेखा"
 
@@ -5714,21 +5360,9 @@ msgstr "{status} लोड हो रहा है..."
 msgid "Loading..."
 msgstr "लोड हो रहा है..."
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
-msgid "Local"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:111
 msgid "Location"
 msgstr "स्थान"
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:163
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:166
-#: src/components/_political/region/UpgradeList.tsx:266
-#: src/components/_political/region/UpgradesGrid.tsx:220
-#: src/components/_user/domain/DomainUpgradeList.tsx:214
-msgid "Locked slot"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:289
 msgid "Locked, reset your skills to reassign"
@@ -5742,15 +5376,15 @@ msgstr "लॉगआउट"
 msgid "Long Sword"
 msgstr "लंबी तलवार"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:326
+#: src/components/_user/mission/mission.frontConfig.tsx:325
 msgid "Loot <0/> in battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:336
+#: src/components/_user/mission/mission.frontConfig.tsx:335
 msgid "Loot <0/> items on battlefield"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:324
+#: src/components/_user/mission/mission.frontConfig.tsx:323
 msgid "Loot Cases"
 msgstr "लूट केस"
 
@@ -5787,11 +5421,6 @@ msgstr "आखिरकार किस्मत भी अब वेतन प�
 msgid "Lvl"
 msgstr ""
 
-#. placeholder {0}: construction.targetLevel
-#: src/components/_other/upgradeConstruction/ConstructionListItem.tsx:57
-msgid "Lvl {0}"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:191
 msgid "Mage Robe"
 msgstr "जादूगर का चोगा"
@@ -5799,10 +5428,6 @@ msgstr "जादूगर का चोगा"
 #: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "रखरखाव लागत"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:103
-msgid "Maintenance scales with the number of citizens present in the region."
-msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:96
 msgid "Major"
@@ -5813,7 +5438,7 @@ msgid "Make <0/> the new alliance leader. The leader can edit the alliance avata
 msgstr ""
 
 #: src/components/_user/premium/PremiumActions.tsx:84
-#: src/pages/user/[userId]/settings.tsx:152
+#: src/pages/user/[userId]/settings.tsx:155
 msgid "Manage Subscription"
 msgstr "सदस्यता प्रबंधित करें"
 
@@ -5827,7 +5452,7 @@ msgid "map"
 msgstr "मानचित्र"
 
 #: src/components/_layout/LayoutMapOptions.tsx:82
-#: src/components/_layout/LayoutOptions.tsx:106
+#: src/components/_layout/LayoutOptions.tsx:105
 msgid "Map"
 msgstr "मानचित्र"
 
@@ -5836,13 +5461,12 @@ msgstr "मानचित्र"
 msgid "Map Accent"
 msgstr "मानचित्र उच्चारण रंग"
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Map icons"
 msgstr ""
 
 #: src/components/_economy/market/MarketHeader.tsx:45
 #: src/components/_layout/LayoutMenu.tsx:163
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:268
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5871,24 +5495,19 @@ msgstr "अधिकतम स्तर प्राप्त हो गया!"
 msgid "Max rarity"
 msgstr ""
 
-#. placeholder {0}: maxRate.toFixed(2)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:147
-msgid "Max rate: {0} money per 1000 construction points. The pool leaves your treasury now and comes back if you cancel it or when the construction is done."
-msgstr ""
-
 #: src/components/_economy/company/CompanyDropdown.tsx:222
 #: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:378
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
 msgid "Maximum of <0>{0}</0> members."
 msgstr "अधिकतम <0>{0}</0> सदस्य।"
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:496
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:122
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "अधिकतम <0>{0}</0> कर्मचारी।{1}"
 
@@ -6022,7 +5641,7 @@ msgstr ""
 msgid "Mercenary Reputation"
 msgstr "भाड़े के सैनिकों की प्रतिष्ठा"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:123
+#: src/components/_political/region/SetResistanceFocusModal.tsx:120
 msgid "Message"
 msgstr ""
 
@@ -6092,7 +5711,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:232
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -6101,7 +5720,7 @@ msgstr ""
 msgid "Military & Battles"
 msgstr "सैन्य एवं युद्ध"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:162
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "सैन्य अड्डा"
 
@@ -6142,10 +5761,6 @@ msgstr "सैन्य इकाई"
 msgid "Military unit announcement"
 msgstr ""
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:50
-msgid "Military unit buildings:"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:44
 msgid "Military unit created"
 msgstr "सैन्य इकाई बनाई गई"
@@ -6158,12 +5773,6 @@ msgstr "सैन्य इकाइयाँ"
 #: src/components/_military/battle/BattleCountrySide.tsx:93
 msgid "Military Units"
 msgstr "सैन्य इकाइयाँ"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:170
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:191
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:236
-msgid "min"
-msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:293
 msgid "Min reached"
@@ -6188,13 +5797,13 @@ msgstr "अर्थव्यवस्था मंत्री"
 msgid "Minister of Foreign Affairs"
 msgstr "विदेश मंत्री"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:207
 msgid "Mission tags"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
 #: src/components/_user/mission/MissionsList.tsx:232
-#: src/components/_user/user/UserHeader.tsx:231
+#: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "मिशन"
 
@@ -6215,21 +5824,9 @@ msgstr "मोबाइल फ़ोन नंबर"
 msgid "Money"
 msgstr "धन"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Money added"
-msgstr ""
-
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:135
 msgid "Money earned from mercenary contracts."
 msgstr "भाड़े के सैनिकों के अनुबंधों से अर्जित धन।"
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:125
-msgid "Money per 1000 construction points"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:126
-msgid "Money per 1k points"
-msgstr ""
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money ranking"
@@ -6292,25 +5889,25 @@ msgstr "प्रस्ताव प्रस्तुत किया गया
 msgid "Motions"
 msgstr "प्रस्ताव"
 
-#: src/components/_political/region/MoveButton.tsx:117
-#: src/components/_political/region/MoveButton.tsx:129
+#: src/components/_political/region/MoveButton.tsx:103
+#: src/components/_political/region/MoveButton.tsx:115
 msgid "Move"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:520
+#: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
 msgstr "किसी कंपनी को दूसरे क्षेत्र में स्थानांतरित करें"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:187
-#: src/components/_economy/company/MoveCompanyForm.tsx:66
+#: src/components/_economy/company/MoveCompanyForm.tsx:65
 msgid "Move company"
 msgstr "कंपनी स्थानांतरित करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:519
+#: src/components/_user/mission/mission.frontConfig.tsx:518
 msgid "Move Company"
 msgstr "कंपनी स्थानांतरित करें"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:98
+#: src/components/_economy/company/MoveCompanyForm.tsx:91
 msgid "Move the company"
 msgstr "कंपनी को स्थानांतरित करें"
 
@@ -6373,10 +5970,6 @@ msgstr ""
 msgid "MU Tournament Winner"
 msgstr "MU टूर्नामेंट विजेता"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
-msgid "My alliance"
-msgstr ""
-
 #: src/components/_military/battle/LootSummaryCard.tsx:135
 msgid "My battle loot"
 msgstr "मेरी युद्ध लूट"
@@ -6388,10 +5981,6 @@ msgstr "मेरा बॉट, स्क्रिप्ट आदि"
 #: src/pages/user/[userId]/companies.tsx:84
 msgid "My Companies"
 msgstr "मेरी कंपनियाँ"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:95
-msgid "My country"
-msgstr ""
 
 #. placeholder {0}: milestone.tier
 #: src/components/_user/milestone/MilestoneItem.tsx:134
@@ -6430,10 +6019,6 @@ msgstr "मिथिक?! आपका खाता धन्य है"
 #: src/components/_political/party/PartyFormModal.tsx:97
 msgid "Name"
 msgstr "नाम"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
-msgid "National"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:424
 msgid "National battle orders cost double."
@@ -6527,7 +6112,7 @@ msgstr "नया नौकरी प्रस्ताव"
 msgid "New leader"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:86
+#: src/components/_economy/company/MoveCompanyForm.tsx:79
 msgid "New location"
 msgstr "नया स्थान"
 
@@ -6605,10 +6190,6 @@ msgstr "समाचार"
 msgid "Next"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:226
-msgid "Next hourly cost"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:18
 msgid "Next one will be a tank"
 msgstr "अगला टैंक होगा"
@@ -6624,14 +6205,6 @@ msgstr ""
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
 msgstr "अगला पुरस्कार"
-
-#: src/components/_political/region/UpgradeList.tsx:283
-msgid "Next slot unlocks at {unlockDevelopment} development"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:219
-msgid "Next slot unlocks at level {unlockLevel}"
-msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Next tick"
@@ -6654,7 +6227,7 @@ msgstr "बहुत बढ़िया"
 msgid "Nice work!"
 msgstr "बहुत अच्छा काम!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:194
+#: src/components/_military/battle/ActiveBattlesList.tsx:201
 msgid "No active battles"
 msgstr "कोई सक्रिय युद्ध नहीं"
 
@@ -6714,12 +6287,7 @@ msgstr "कोई नागरिक नहीं"
 msgid "No congress members"
 msgstr "कोई कांग्रेस सदस्य नहीं"
 
-#: src/components/_other/upgradeConstruction/AllConstructionList.tsx:28
-#: src/components/_other/upgradeConstruction/ConstructionList.tsx:40
-msgid "No construction in progress"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:275
+#: src/components/_political/contribution/ContributionList.tsx:225
 msgid "No contributions yet"
 msgstr "अभी तक कोई योगदान नहीं"
 
@@ -6832,10 +6400,6 @@ msgstr "अभी तक कोई रेफरल नहीं"
 msgid "No referrer yet"
 msgstr "अभी तक कोई रेफरर नहीं"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:119
-msgid "No region to recommend for this filter"
-msgstr ""
-
 #: src/components/_user/user/UserEquippedSkins.tsx:139
 msgid "No skins equipped"
 msgstr "कोई स्किन सुसज्जित नहीं है"
@@ -6937,7 +6501,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr ""
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:132
+#: src/pages/user/[userId]/settings.tsx:135
 msgid "Notification preferences"
 msgstr "सूचना प्राथमिकताएँ"
 
@@ -6953,15 +6517,15 @@ msgstr "अब बात बनी!"
 msgid "Number of Donors:"
 msgstr "दाताओं की संख्या:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:499
+#: src/components/_user/mission/mission.frontConfig.tsx:498
 msgid "Obtain a badge"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:498
+#: src/components/_user/mission/mission.frontConfig.tsx:497
 msgid "Obtain a Badge"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:127
+#: src/components/_political/region/RegionHeader.tsx:118
 msgid "Occupied by"
 msgstr ""
 
@@ -7025,10 +6589,6 @@ msgstr ""
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "केवल समर्थक ही अपने खर्च और आय का विवरण देख सकते हैं।"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:167
-msgid "Only the company owner can unlock this slot."
-msgstr ""
-
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:168
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr ""
@@ -7045,7 +6605,7 @@ msgstr ""
 msgid "Open"
 msgstr "खोलें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:232
+#: src/components/_user/mission/mission.frontConfig.tsx:231
 msgid "Open <0/>"
 msgstr ""
 
@@ -7058,11 +6618,11 @@ msgstr "केस खोलें"
 msgid "Open Case"
 msgstr "केस खोलें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:230
+#: src/components/_user/mission/mission.frontConfig.tsx:229
 msgid "Open Cases"
 msgstr "केस खोलें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:378
+#: src/components/_user/mission/mission.frontConfig.tsx:377
 msgid "Open Chat"
 msgstr "चैट खोलें"
 
@@ -7082,7 +6642,7 @@ msgstr "यादृच्छिक वस्तु पाने के लि�
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "एक ही समय में कई <0>केस</0> खोलें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:379
+#: src/components/_user/mission/mission.frontConfig.tsx:378
 msgid "Open the chat"
 msgstr "चैट खोलें"
 
@@ -7110,7 +6670,7 @@ msgstr ""
 msgid "Order"
 msgstr "आदेश"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:82
+#: src/components/_military/battle/ActiveBattlesList.tsx:83
 msgid "Orders"
 msgstr "आदेश"
 
@@ -7131,7 +6691,7 @@ msgstr ""
 msgid "Origin"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:118
+#: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
 msgstr "अन्य"
@@ -7183,7 +6743,7 @@ msgstr "<0/> का स्वामित्व <1/> से <2/> को स्�
 msgid "Ownership transferred successfully"
 msgstr "स्वामित्व सफलतापूर्वक स्थानांतरित किया गया"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:180
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:60
 msgid "Pacification Center"
 msgstr "शांतिकरण केंद्र"
 
@@ -7218,11 +6778,11 @@ msgstr ""
 msgid "Participants"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:243
+#: src/components/_user/mission/mission.frontConfig.tsx:242
 msgid "Participate in <0/> battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:241
+#: src/components/_user/mission/mission.frontConfig.tsx:240
 msgid "Participate in Battle"
 msgstr "युद्ध में भाग लें"
 
@@ -7319,7 +6879,6 @@ msgid "Payment successful! Thanks for supporting the game <3"
 msgstr "भुगतान सफल! खेल का समर्थन करने के लिए धन्यवाद <3"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:163
 msgid "Payout"
 msgstr "भुगतान"
 
@@ -7327,7 +6886,7 @@ msgstr "भुगतान"
 msgid "Peace made"
 msgstr "शांति स्थापित हुई"
 
-#: src/utils/translations.tsx:279
+#: src/utils/translations.tsx:277
 msgid "Pending"
 msgstr "लंबित"
 
@@ -7430,17 +6989,18 @@ msgstr "राजनीति और सरकार"
 msgid "Popular Article"
 msgstr "लोकप्रिय लेख"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_political/region/RegionHeader.tsx:96
+#: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:98
+msgid "Population (currently here)"
 msgstr ""
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:225
-msgid "Power Plant"
 msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:144
@@ -7527,7 +7087,7 @@ msgstr ""
 msgid "Prestige!"
 msgstr ""
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:443
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:453
 msgid "Price auto-matches existing orders"
 msgstr ""
 
@@ -7557,7 +7117,7 @@ msgid "Probability of landing a critical hit"
 msgstr "क्रिटिकल हिट लगने की संभावना"
 
 #: src/components/_economy/company/ProduceButton.tsx:142
-#: src/components/_user/mission/mission.frontConfig.tsx:509
+#: src/components/_user/mission/mission.frontConfig.tsx:508
 msgid "Produce"
 msgstr "उत्पादन करें"
 
@@ -7565,7 +7125,7 @@ msgstr "उत्पादन करें"
 msgid "Produce All"
 msgstr "सभी का उत्पादन करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:511
+#: src/components/_user/mission/mission.frontConfig.tsx:510
 msgid "Produce items <0/> times"
 msgstr ""
 
@@ -7589,7 +7149,7 @@ msgid "Production"
 msgstr "उत्पादन"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:153
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "उत्पादन बोनस"
@@ -7713,6 +7273,14 @@ msgstr "दंड और उनके कारण उपयोगकर्त�
 msgid "Purple Staff"
 msgstr "बैंगनी स्टाफ"
 
+#: src/components/_political/region/SetResistanceFocusModal.tsx:125
+msgid "Push the resistance here before they dig in..."
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:201
+msgid "Push the resistance here first."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:35
 msgid "Put yourself to work!"
 msgstr "खुद को काम पर लगाइए!"
@@ -7769,91 +7337,91 @@ msgstr "प्रति 1K क्षति दर"
 msgid "Raw materials:"
 msgstr "कच्चा माल:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:411
+#: src/components/_user/mission/mission.frontConfig.tsx:410
 msgid "Reach level 10"
 msgstr "स्तर 10 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:410
+#: src/components/_user/mission/mission.frontConfig.tsx:409
 msgid "Reach Level 10"
 msgstr "स्तर 10 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:416
+#: src/components/_user/mission/mission.frontConfig.tsx:415
 msgid "Reach level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:415
+#: src/components/_user/mission/mission.frontConfig.tsx:414
 msgid "Reach Level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:421
+#: src/components/_user/mission/mission.frontConfig.tsx:420
 msgid "Reach level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:420
+#: src/components/_user/mission/mission.frontConfig.tsx:419
 msgid "Reach Level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:426
+#: src/components/_user/mission/mission.frontConfig.tsx:425
 msgid "Reach level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:425
+#: src/components/_user/mission/mission.frontConfig.tsx:424
 msgid "Reach Level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:406
+#: src/components/_user/mission/mission.frontConfig.tsx:405
 msgid "Reach level 5"
 msgstr "स्तर 5 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:405
+#: src/components/_user/mission/mission.frontConfig.tsx:404
 msgid "Reach Level 5"
 msgstr "स्तर 5 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:457
+#: src/components/_user/mission/mission.frontConfig.tsx:456
 msgid "Reach military rank 10"
 msgstr "सैन्य रैंक 10 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:456
+#: src/components/_user/mission/mission.frontConfig.tsx:455
 msgid "Reach Military Rank 10"
 msgstr "सैन्य रैंक 10 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:462
+#: src/components/_user/mission/mission.frontConfig.tsx:461
 msgid "Reach military rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:461
+#: src/components/_user/mission/mission.frontConfig.tsx:460
 msgid "Reach Military Rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:467
+#: src/components/_user/mission/mission.frontConfig.tsx:466
 msgid "Reach military rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:466
+#: src/components/_user/mission/mission.frontConfig.tsx:465
 msgid "Reach Military Rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:472
+#: src/components/_user/mission/mission.frontConfig.tsx:471
 msgid "Reach military rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:471
+#: src/components/_user/mission/mission.frontConfig.tsx:470
 msgid "Reach Military Rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:452
+#: src/components/_user/mission/mission.frontConfig.tsx:451
 msgid "Reach military rank 5"
 msgstr "सैन्य रैंक 5 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:451
+#: src/components/_user/mission/mission.frontConfig.tsx:450
 msgid "Reach Military Rank 5"
 msgstr "सैन्य रैंक 5 तक पहुँचें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:477
+#: src/components/_user/mission/mission.frontConfig.tsx:476
 msgid "Reach military rank 50"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:476
+#: src/components/_user/mission/mission.frontConfig.tsx:475
 msgid "Reach Military Rank 50"
 msgstr ""
 
@@ -7867,11 +7435,11 @@ msgstr ""
 msgid "Reached by {0}% (<0/>)"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:363
+#: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "Read <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:361
+#: src/components/_user/mission/mission.frontConfig.tsx:360
 msgid "Read Article"
 msgstr "लेख पढ़ें"
 
@@ -7906,7 +7474,7 @@ msgstr "रेसिपी"
 msgid "Recipient"
 msgstr "प्राप्तकर्ता"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:76
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:68
 msgid "Recommended regions"
 msgstr "अनुशंसित क्षेत्र"
 
@@ -7926,7 +7494,7 @@ msgstr "युद्धों में लड़ते समय स्वा�
 msgid "Referral link copied to clipboard"
 msgstr "रेफरल लिंक क्लिपबोर्ड में कॉपी कर दिया गया"
 
-#: src/components/_user/user/UserHeader.tsx:266
+#: src/components/_user/user/UserHeader.tsx:260
 #: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7976,10 +7544,6 @@ msgstr "क्षेत्र"
 msgid "Region buy offer"
 msgstr "क्षेत्र खरीद प्रस्ताव"
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:45
-msgid "region dev"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2078
 msgid "Region is revolting!"
 msgstr "क्षेत्र विद्रोह कर रहा है!"
@@ -7990,14 +7554,6 @@ msgstr "क्षेत्र मुक्त किया गया"
 
 #: src/components/_political/region/RegionHeader.tsx:47
 msgid "Region of"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:38
-msgid "region residents"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:98
-msgid "Region slots"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:110
@@ -8017,7 +7573,7 @@ msgstr "क्षेत्र"
 msgid "Regions"
 msgstr "क्षेत्र"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:604
+#: src/components/_user/mission/mission.frontConfig.tsx:595
 msgid "Regions Crossed"
 msgstr ""
 
@@ -8078,7 +7634,7 @@ msgid "Reject"
 msgstr "अस्वीकार करें"
 
 #: src/components/_political/law/GenericLawStatus.tsx:42
-#: src/utils/translations.tsx:280
+#: src/utils/translations.tsx:278
 msgid "Rejected"
 msgstr "अस्वीकृत"
 
@@ -8145,7 +7701,7 @@ msgstr "विवरण हटाएँ"
 msgid "Remove enemy"
 msgstr "शत्रु हटाएँ"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:129
+#: src/components/_political/region/RegionResistance.tsx:143
 msgid "Remove focus"
 msgstr ""
 
@@ -8206,7 +7762,7 @@ msgstr "रिपोर्ट"
 msgid "Report user"
 msgstr "उपयोगकर्ता की रिपोर्ट करें"
 
-#: src/components/_user/user/UserHeader.tsx:220
+#: src/components/_user/user/UserHeader.tsx:214
 msgid "Reports"
 msgstr "रिपोर्ट्स"
 
@@ -8243,7 +7799,7 @@ msgstr "रीसेट"
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA रीसेट करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:492
+#: src/components/_user/mission/mission.frontConfig.tsx:491
 msgid "Reset Skills"
 msgstr ""
 
@@ -8251,7 +7807,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "रीसेट सर्वाइवर"
 
-#: src/pages/user/[userId]/settings.tsx:127
+#: src/pages/user/[userId]/settings.tsx:130
 msgid "Reset tutorials"
 msgstr "ट्यूटोरियल रीसेट करें"
 
@@ -8259,7 +7815,7 @@ msgstr "ट्यूटोरियल रीसेट करें"
 msgid "Reset Username"
 msgstr "उपयोगकर्ता नाम रीसेट करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:493
+#: src/components/_user/mission/mission.frontConfig.tsx:492
 msgid "Reset your skills"
 msgstr ""
 
@@ -8267,24 +7823,42 @@ msgstr ""
 msgid "Reshuffle in"
 msgstr "पुनर्वितरण होगा"
 
+#: src/components/_political/region/RegionHeader.tsx:88
+msgid "Residents"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:90
+msgid "Residents (home here)"
+msgstr ""
+
 #: src/components/_military/hit/HitButton.tsx:468
-#: src/components/_user/mission/mission.frontConfig.tsx:573
+#: src/components/_user/mission/mission.frontConfig.tsx:564
 msgid "Resist"
 msgstr "प्रतिरोध करें"
 
+#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
 msgstr "प्रतिरोध"
 
-#: src/components/_political/contribution/ContributionList.tsx:246
+#: src/components/_political/contribution/ContributionList.tsx:198
 msgid "Resistance Contributors"
 msgstr "प्रतिरोध योगदानकर्ता"
+
+#: src/components/_political/region/ResistanceFocusItem.tsx:229
+msgid "Resistance focus"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:190
+msgid "Resistance focused by <0/>"
+msgstr ""
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
 msgstr "{regionName} के लिए प्रतिरोध {score}"
 
-#: src/components/_political/region/RegionTooltip.tsx:101
+#: src/components/_political/region/RegionTooltip.tsx:98
 msgid "Resource"
 msgstr ""
 
@@ -8350,7 +7924,7 @@ msgstr "अधिकार"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "धन वापसी (MU/उपयोगकर्ताओं से सभी भुगतान वापस लें और पूरा पूल देश को लौटाएँ)"
 
-#: src/utils/translations.tsx:275
+#: src/utils/translations.tsx:273
 msgid "Rolled back by admin"
 msgstr "एडमिन द्वारा वापस लिया गया"
 
@@ -8431,9 +8005,7 @@ msgid "Running low on health?"
 msgstr "स्वास्थ्य कम हो रहा है?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
-#: src/components/_other/upgrade/UpgradeGrid.tsx:122
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_political/region/UpgradeList.tsx:153
 #: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
@@ -8454,10 +8026,6 @@ msgstr "ठगा गया"
 #: src/utils/translations.tsx:40
 msgid "Scraps"
 msgstr "कबाड़"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:474
-msgid "Scrapyard"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:75
 msgid "Screenshot or it didn't happen"
@@ -8530,11 +8098,11 @@ msgid "Select skin"
 msgstr "स्किन चुनें"
 
 #: src/components/_economy/work/WorkChart.tsx:224
-#: src/components/_user/mission/mission.frontConfig.tsx:86
+#: src/components/_user/mission/mission.frontConfig.tsx:85
 msgid "Self Work"
 msgstr "स्वयं कार्य"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:88
+#: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
 msgstr ""
 
@@ -8542,7 +8110,7 @@ msgstr ""
 msgid "Sell company?"
 msgstr "कंपनी बेचें?"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:222
+#: src/components/_user/mission/mission.frontConfig.tsx:221
 msgid "Sell for <0/> money on market"
 msgstr ""
 
@@ -8550,7 +8118,7 @@ msgstr ""
 msgid "Sell it, you need to buy more cases to gamble!"
 msgstr "इसे बेच दो, जुआ खेलने के लिए और केस खरीदने होंगे!"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:220
+#: src/components/_user/mission/mission.frontConfig.tsx:219
 msgid "Sell Items"
 msgstr "वस्तुएँ बेचें"
 
@@ -8567,7 +8135,7 @@ msgstr "बिक्री मूल्य:"
 msgid "sells"
 msgstr "बेचता है"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:392
+#: src/components/_user/mission/mission.frontConfig.tsx:391
 msgid "Send <0/> messages"
 msgstr ""
 
@@ -8591,7 +8159,7 @@ msgstr "कोड भेजें"
 msgid "Send Gift"
 msgstr "उपहार भेजें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:390
+#: src/components/_user/mission/mission.frontConfig.tsx:389
 msgid "Send Message"
 msgstr "संदेश भेजें"
 
@@ -8625,10 +8193,6 @@ msgstr "अपने देश के लिए स्वागत लेख स
 msgid "Set bounty"
 msgstr "इनाम निर्धारित करें"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Set construction payout"
-msgstr ""
-
 #: src/components/_political/law/law.frontConfig.tsx:544
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
@@ -8651,12 +8215,7 @@ msgstr "आदेश निर्धारित करें"
 msgid "Set party ethics"
 msgstr "पार्टी नैतिकता निर्धारित करें"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Set payout"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:445
+#: src/components/_user/mission/mission.frontConfig.tsx:444
 msgid "Set Profile Picture"
 msgstr "प्रोफ़ाइल चित्र सेट करें"
 
@@ -8674,7 +8233,7 @@ msgstr "देश की विशेषीकृत वस्तु <0>{0}</0> 
 msgid "Set the country's specialized production item"
 msgstr "देश की विशेषीकृत उत्पादन वस्तु निर्धारित करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:439
+#: src/components/_user/mission/mission.frontConfig.tsx:438
 msgid "Set Username"
 msgstr "उपयोगकर्ता नाम सेट करें"
 
@@ -8683,17 +8242,17 @@ msgstr "उपयोगकर्ता नाम सेट करें"
 msgid "Set welcome article"
 msgstr "स्वागत लेख सेट करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:446
+#: src/components/_user/mission/mission.frontConfig.tsx:445
 msgid "Set your profile picture"
 msgstr "अपना प्रोफ़ाइल चित्र सेट करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:440
+#: src/components/_user/mission/mission.frontConfig.tsx:439
 msgid "Set your username"
 msgstr "अपना उपयोगकर्ता नाम सेट करें"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:61
-#: src/components/_user/user/UserHeader.tsx:272
+#: src/components/_user/user/UserHeader.tsx:266
 msgid "Settings"
 msgstr "सेटिंग्स"
 
@@ -8703,10 +8262,6 @@ msgstr ""
 
 #: src/components/_user/user/UserEffectSelector.tsx:56
 msgid "Shine"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:388
-msgid "Shooting Range"
 msgstr ""
 
 #: src/components/_layout/LayoutRightIcons.tsx:184
@@ -8774,7 +8329,7 @@ msgid "Skill upgrade:"
 msgstr "कौशल उन्नयन:"
 
 #: src/components/_user/user/MyAvatar.tsx:42
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:195
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "कौशल"
@@ -8837,16 +8392,7 @@ msgstr ""
 msgid "Sling Stones"
 msgstr "गुलेल के पत्थर"
 
-#: src/components/_user/domain/DomainUpgradeList.tsx:161
-msgid "slot {slot}"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:95
-#: src/components/_user/domain/DomainUpgradeList.tsx:98
-msgid "Slots"
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:207
+#: src/components/_layout/LayoutOptions.tsx:212
 msgid "Small GIFs"
 msgstr ""
 
@@ -8862,7 +8408,7 @@ msgstr "सामाजिक और संदेश"
 msgid "Some of your companies are disabled."
 msgstr "आपकी कुछ कंपनियाँ निष्क्रिय हैं।"
 
-#: src/components/_layout/LayoutOptions.tsx:178
+#: src/components/_layout/LayoutOptions.tsx:183
 msgid "Sound effects"
 msgstr "ध्वनि प्रभाव"
 
@@ -8895,7 +8441,7 @@ msgid "Spendings"
 msgstr "खर्च"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points, only by building a Garage on your domain."
+msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
@@ -9015,16 +8561,12 @@ msgstr "स्टेक"
 msgid "Steel"
 msgstr "इस्पात"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:402
-msgid "Stockpile"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:245
 msgid "Stone Maul"
 msgstr "पत्थर का गदा"
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:349
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
 msgid "Storage"
 msgstr "भंडारण"
 
@@ -9111,7 +8653,7 @@ msgid "Supporter plan"
 msgstr "समर्थक योजना"
 
 #: src/components/_user/modals/PremiumModal.tsx:31
-#: src/pages/user/[userId]/settings.tsx:145
+#: src/pages/user/[userId]/settings.tsx:148
 msgid "Supporter Plan"
 msgstr "समर्थक योजना"
 
@@ -9157,7 +8699,7 @@ msgstr "सिस्टम विद्रोह"
 msgid "Take control"
 msgstr "नियंत्रण संभालें"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:112
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "जमाओं को ध्यान में रखें"
 
@@ -9182,10 +8724,6 @@ msgstr "लक्षित क्षेत्र"
 msgid "Target user"
 msgstr "लक्षित उपयोगकर्ता"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:242
-msgid "Tax Office"
-msgstr ""
-
 #: src/components/_political/law/LawFormModal.tsx:251
 msgid "Tax type"
 msgstr "कर का प्रकार"
@@ -9204,8 +8742,8 @@ msgstr ""
 msgid "Teams"
 msgstr ""
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:124
-msgid "Tell your citizens why this construction comes first"
+#: src/components/_political/region/SetResistanceFocusModal.tsx:121
+msgid "Tell your citizens why this region comes first"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
@@ -9222,7 +8760,7 @@ msgstr "शर्तें"
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
 
-#: src/components/_layout/LayoutOptions.tsx:312
+#: src/components/_layout/LayoutOptions.tsx:342
 msgid "Texture"
 msgstr "बनावट"
 
@@ -9342,11 +8880,6 @@ msgstr "इस देश में कोई राष्ट्रपति य�
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr ""
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:70
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:153
-msgid "This country pays <0>{rate}</0> per 1000 construction points you contribute. <1>{pool}</1> left in the pool."
-msgstr ""
-
 #: src/components/_political/map/MapLibreErrorBoundary.tsx:64
 msgid "This device can't display the map"
 msgstr ""
@@ -9421,10 +8954,6 @@ msgstr "इसके लिए उपयोगकर्ता को अपन�
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:227
-msgid "Time left before the next upkeep charge"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "अपने देश के लिए लड़ने का समय आ गया है! चलो कार्रवाई में शामिल हों।"
@@ -9497,11 +9026,11 @@ msgstr "टाइनी पिक्सेल स्नाइपर"
 msgid "Tiny Pixel Tank"
 msgstr "टाइनी पिक्सेल टैंक"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:315
+#: src/components/_user/mission/mission.frontConfig.tsx:314
 msgid "Tip <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:313
+#: src/components/_user/mission/mission.frontConfig.tsx:312
 msgid "Tip Article"
 msgstr "लेख को टिप दें"
 
@@ -9576,11 +9105,6 @@ msgstr "महीने के शीर्ष उपहारदाता"
 msgid "Top of the hill"
 msgstr "पहाड़ी का शिखर"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Top up payout"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:672
 msgid "total"
 msgstr "कुल"
@@ -9604,10 +9128,6 @@ msgstr "कुल"
 msgid "Total cases opened"
 msgstr "कुल खोले गए केस"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:252
-msgid "Total daily cost"
-msgstr ""
-
 #: src/components/_military/tournament/TournamentTeamTooltip.tsx:92
 msgid "Total damage"
 msgstr ""
@@ -9620,16 +9140,7 @@ msgstr "कुल क्षति"
 msgid "Total Donated:"
 msgstr "कुल दान:"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:215
-msgid "Total hourly cost"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:132
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Total money"
-msgstr ""
-
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:497
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:507
 msgid "Total of <0/>"
 msgstr ""
 
@@ -9656,8 +9167,8 @@ msgstr ""
 msgid "Total:"
 msgstr "कुल:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:175
+#: src/components/_military/battle/ActiveBattlesList.tsx:77
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -9712,11 +9223,7 @@ msgstr "व्यापार लेन-देन"
 msgid "Trainee"
 msgstr "प्रशिक्षु"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:432
-msgid "Training Grounds"
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:246
+#: src/components/_user/user/UserHeader.tsx:240
 msgid "Transac."
 msgstr "लेन-देन"
 
@@ -9749,19 +9256,19 @@ msgstr "कंपनी में स्थानांतरण (वैकल�
 msgid "Translator"
 msgstr "अनुवादक"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:583
+#: src/components/_user/mission/mission.frontConfig.tsx:574
 msgid "Travel"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:616
+#: src/components/_user/mission/mission.frontConfig.tsx:607
 msgid "Travel <0/> km on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:614
+#: src/components/_user/mission/mission.frontConfig.tsx:605
 msgid "Travel Distance"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:585
+#: src/components/_user/mission/mission.frontConfig.tsx:576
 msgid "Travel to another region <0/> times"
 msgstr ""
 
@@ -9773,7 +9280,7 @@ msgstr "ट्रेबुशे"
 msgid "Trooper"
 msgstr "सैनिक"
 
-#: src/pages/user/[userId]/settings.tsx:120
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Tutorials"
 msgstr "ट्यूटोरियल"
 
@@ -9789,7 +9296,7 @@ msgstr ""
 msgid "Tyrannosaurus Rex"
 msgstr "टायरैनोसॉरस रेक्स"
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:161
 msgid "UI"
 msgstr "यूआई"
 
@@ -9849,33 +9356,11 @@ msgstr "सभी की सहायता बटन अनलॉक करे�
 msgid "Unlock Produce all button"
 msgstr "सभी उत्पादन बटन अनलॉक करें"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:175
-msgid "Unlock slot {slot}"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:170
-msgid "Unlock the previous slot first."
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:166
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:169
-msgid "Unlock this slot for {cost} concrete."
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:1998
 msgid "Unlocked pack"
 msgstr "अनलॉक किया गया पैक"
 
-#: src/components/_political/region/UpgradeList.tsx:272
-#: src/components/_political/region/UpgradesGrid.tsx:226
-msgid "Unlocks at"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:215
-msgid "Unlocks at level {unlockLevel}."
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:472
+#: src/components/_user/user/UserHeader.tsx:466
 msgid "Unmuted <0/>"
 msgstr "<0/> का म्यूट हटाया गया"
 
@@ -9887,7 +9372,7 @@ msgstr "अविश्वसनीय। ऐसा नहीं होता"
 msgid "Unrest"
 msgstr "अशांति"
 
-#: src/components/_political/contribution/ContributionList.tsx:250
+#: src/components/_political/contribution/ContributionList.tsx:200
 msgid "Unrest Contributors"
 msgstr "अशांति योगदानकर्ता"
 
@@ -9904,7 +9389,7 @@ msgstr "शपथ लिए हुए शत्रु देश को हटा
 msgid "Update"
 msgstr "अपडेट"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
 msgid "Update focus"
 msgstr ""
 
@@ -9916,7 +9401,7 @@ msgstr "जानकारी अपडेट करें"
 msgid "Update worker"
 msgstr "कर्मचारी अपडेट करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:400
+#: src/components/_user/mission/mission.frontConfig.tsx:399
 msgid "Upgrade a company"
 msgstr "कंपनी अपग्रेड करें"
 
@@ -9924,11 +9409,11 @@ msgstr "कंपनी अपग्रेड करें"
 msgid "Upgrade automated engine"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:399
+#: src/components/_user/mission/mission.frontConfig.tsx:398
 msgid "Upgrade Company"
 msgstr "कंपनी अपग्रेड करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:533
+#: src/components/_user/mission/mission.frontConfig.tsx:524
 msgid "Upgrade Skills"
 msgstr "कौशल अपग्रेड करें"
 
@@ -9940,7 +9425,7 @@ msgstr ""
 msgid "Upgrade to supporter"
 msgstr "समर्थक योजना में अपग्रेड करें"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:535
+#: src/components/_user/mission/mission.frontConfig.tsx:526
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
@@ -9950,17 +9435,17 @@ msgstr "अपने कौशल अपग्रेड करें!"
 
 #: src/components/_economy/company/CompanyTooltip.tsx:98
 #: src/components/_military/mu/MuTooltip.tsx:96
-#: src/components/_political/region/RegionTooltip.tsx:117
+#: src/components/_political/region/RegionTooltip.tsx:114
 #: src/pages/company/[companyId]/index.tsx:94
 #: src/pages/region/[regionId]/index.tsx:144
 msgid "Upgrades"
 msgstr "अपग्रेड"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:555
+#: src/components/_user/mission/mission.frontConfig.tsx:546
 msgid "Use <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:553
+#: src/components/_user/mission/mission.frontConfig.tsx:544
 msgid "Use Pills"
 msgstr ""
 
@@ -10071,7 +9556,7 @@ msgid "Username"
 msgstr "उपयोगकर्ता नाम"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:104
+#: src/pages/user/[userId]/settings.tsx:106
 msgid "Username effect"
 msgstr ""
 
@@ -10087,7 +9572,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:98
+#: src/pages/user/[userId]/settings.tsx:99
 msgid "Username font"
 msgstr ""
 
@@ -10197,7 +9682,7 @@ msgstr "सत्यापित करें"
 msgid "Verifying you're human..."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:186
+#: src/components/_layout/LayoutOptions.tsx:191
 msgid "Vibrations"
 msgstr ""
 
@@ -10223,11 +9708,11 @@ msgstr "मानचित्र पर देखें"
 msgid "Views"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:487
+#: src/components/_user/mission/mission.frontConfig.tsx:486
 msgid "Vote"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:488
+#: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "Vote in an election"
 msgstr ""
 
@@ -10306,10 +9791,6 @@ msgstr "वारंट अधिकारी"
 msgid "Wars"
 msgstr "युद्ध"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:446
-msgid "Watchtower"
-msgstr ""
-
 #: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
@@ -10371,10 +9852,6 @@ msgstr "War Era में आपका स्वागत है!"
 msgid "Welcome to your economy!"
 msgstr "आपकी अर्थव्यवस्था में आपका स्वागत है!"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:259
-msgid "What is left of the pool goes back to your country. A payout cannot be cancelled in its first minute."
-msgstr ""
-
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr ""
@@ -10425,8 +9902,8 @@ msgstr "बोनस सहित"
 msgid "with bonus + fidelity"
 msgstr "बोनस + निष्ठा बोनस सहित"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:112
-#: src/components/_military/battle/ActiveBattlesList.tsx:147
+#: src/components/_military/battle/ActiveBattlesList.tsx:113
+#: src/components/_military/battle/ActiveBattlesList.tsx:148
 msgid "With bounty"
 msgstr "इनाम सहित"
 
@@ -10464,11 +9941,11 @@ msgid "Woolly Mammoth"
 msgstr "ऊनी मैमथ"
 
 #: src/components/_economy/company/WorkButton.tsx:247
-#: src/components/_user/mission/mission.frontConfig.tsx:103
+#: src/components/_user/mission/mission.frontConfig.tsx:102
 msgid "Work"
 msgstr "कार्य"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:105
+#: src/components/_user/mission/mission.frontConfig.tsx:104
 msgid "Work <0/> times for an employer"
 msgstr ""
 
@@ -10504,7 +9981,7 @@ msgstr "शुरुआत में दूसरों के लिए का�
 msgid "World <0/>"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:254
+#: src/components/_layout/LayoutOptions.tsx:270
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "सबसे खराब"
@@ -10592,10 +10069,6 @@ msgstr "आप भाग नहीं ले रहे हैं"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
 msgstr "आप बहुत कुशल हैं!"
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
-msgid "You are/were a council member, sharing ideas and feedback to improve the game <3"
-msgstr "आप परिषद सदस्य हैं/थे और आपने खेल को बेहतर बनाने के लिए सुझाव एवं प्रतिक्रिया साझा की <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:149
 msgid "You are/were a part of the staff and helped the game to grow <3"
@@ -10750,7 +10223,7 @@ msgstr ""
 
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
-#: src/components/_political/region/RegionResistance.tsx:120
+#: src/components/_political/region/RegionResistance.tsx:223
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "योगदान देने के लिए आपका स्तर कम से कम {0} होना चाहिए।"
@@ -10758,11 +10231,6 @@ msgstr "योगदान देने के लिए आपका स्त�
 #. placeholder {0}: gameConfig.election.voteMinLevel
 #: src/components/_political/election/Election.tsx:226
 msgid "You must be at least level {0} to vote."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:120
-#: src/components/_political/contribution/ContributionPanel.tsx:152
-msgid "You must be at least level {minLevel} to contribute."
 msgstr ""
 
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
@@ -10862,7 +10330,7 @@ msgstr "आप अपने देश के राष्ट्रपति क�
 msgid "You were here at the beginning of War Era"
 msgstr "आप War Era की शुरुआत से यहाँ थे"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:242
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "You were nominated as a government member of a country"
 msgstr "आपको किसी देश की सरकार के सदस्य के रूप में नामित किया गया"
 
@@ -10973,21 +10441,21 @@ msgstr "आपका बैनर \"{0}\" स्वीकार कर लिय
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "आपके बफ़ 1 घंटे से कम समय में समाप्त हो जाएंगे। डिबफ़ चरण जल्द शुरू होगा।"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:99
-msgid "Your citizens will see this construction in <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:96
+msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "आपकी नागरिकता बदलने वाली है"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:140
+#: src/components/_military/battle/ActiveBattlesList.tsx:141
 #: src/pages/index.tsx:135
 msgid "Your country"
 msgstr "आपका देश"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:109
-msgid "Your country already focuses a construction in <0/>. Setting this one releases it."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:106
+msgid "Your country already focuses <0/>. Setting this one releases it."
 msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
@@ -11042,8 +10510,8 @@ msgstr "आपका नियोक्ता <0/> में आपका वे
 msgid "Your enemies"
 msgstr "आपके शत्रु"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:234
-msgid "Your government asks you to build this one first."
+#: src/components/_political/region/ResistanceFocusItem.tsx:233
+msgid "Your government asks you to push the resistance here."
 msgstr ""
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
@@ -11102,10 +10570,6 @@ msgstr "आपके प्रस्ताव"
 #: src/components/_political/party/PartyFormModal.tsx:96
 msgid "Your party name"
 msgstr "आपकी पार्टी का नाम"
-
-#: src/pages/user/[userId]/domain.tsx:25
-msgid "Your personal estate. Buildings here work wherever you are, and there are fewer slots than buildings: pick the ones that fit how you play."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1000
 msgid "Your premium subscription has been activated!"

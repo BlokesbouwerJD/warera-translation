@@ -35,7 +35,7 @@ msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr " - עבודה בשכר נמוך (פחות מפי 0.8 ומעלה פי 1.2 מהשכר הרגיל)"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:476
+#: src/components/_user/user/UserHeader.tsx:470
 msgid " - Reason: {0}"
 msgstr " - סיבה: {0}"
 
@@ -64,28 +64,6 @@ msgstr "- הגנה על אזור זה תהיה בעלת מאלוס של <0>{0}</
 #: src/pages/region/[regionId]/index.tsx:191
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- ההכנסה מפיתוח מופחתת ב-50%:<0>{0}</0>."
-
-#: src/components/_political/region/MoveButton.tsx:107
-msgid "-{reductionPercent}%"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:121
-#: src/components/_political/region/UpgradeList.tsx:245
-#: src/components/_user/domain/DomainUpgradeList.tsx:194
-msgid "({freeSlotCount} free slots)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:192
-msgid "({scalePct}% of country dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:196
-msgid "({scalePct}% of region dev)"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:194
-msgid "({scalePct}% of region population)"
-msgstr ""
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:246
@@ -175,7 +153,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% מס הכנסה ינוכה מהרווחים בעת עבודה בחברה זו."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:205
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:155
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% מס הכנסה ינוכה משכר העובדים שלך."
 
@@ -187,10 +165,6 @@ msgstr "{0}% מההשקעה"
 #: src/components/_user/mission/MissionsList.tsx:235
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} הושלם"
-
-#: src/components/_other/upgrade/Upgrade.tsx:344
-msgid "{destroyRefundPercent}% of what was invested"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:267
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
@@ -226,10 +200,6 @@ msgstr "{savedPrestigeCount} נקודות פרסטיז׳ פעילות במיומ
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} סיבובים"
 
-#: src/components/_political/region/UpgradeList.tsx:205
-msgid "{slotCount} slots"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
 msgid "{value} km"
 msgstr ""
@@ -246,18 +216,9 @@ msgstr "*אם למשתמש כבר יש חלקים מהסט, המחיר יופח�
 msgid "*May burn"
 msgstr "*עלול להישרף"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:213
-msgid "/ action"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:184
 #: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "/יום"
-
-#: src/components/_other/upgrade/UpgradeCardContent.tsx:186
-msgid "/h"
-msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
@@ -277,10 +238,6 @@ msgstr "<0/> ביקש להצטרף ל-<1/>"
 #: src/components/_economy/workOffer/WorkOfferList.tsx:116
 msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/> בשכר <1>{0}</1>.{1}"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:436
-msgid "<0/> attack."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:54
 msgid "<0/> banned <1/> from the conversation"
@@ -537,25 +494,9 @@ msgstr "<0/> אהב את ההודעה שלך <1/>"
 msgid "<0/> liked your message in <1/><2/>"
 msgstr "<0/> אהב את ההודעה שלך ב-<1/><2/>"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:450
-msgid "<0/> loot chance."
-msgstr ""
-
 #: src/components/_political/event/event.frontConfig.tsx:247
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> עשה שלום עם <1/>"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:422
-msgid "<0/> max energy."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:406
-msgid "<0/> max hunger for every member of the unit."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:464
-msgid "<0/> max stamina, so you travel further and recover it faster."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1220
 msgid "<0/> mentioned you <1/>"
@@ -569,17 +510,9 @@ msgstr "<0/> הזכיר אותך ב-<1/><2/>"
 msgid "<0/> paid fee"
 msgstr "<0/> בתשלום"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:392
-msgid "<0/> precision for every member of the unit."
-msgstr ""
-
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> העדיפות מסתיימת ב-<1/>"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:229
-msgid "<0/> production for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:296
 msgid "<0/> proposed a mutual defensive pact to your country."
@@ -615,10 +548,6 @@ msgstr "<0/> הגיב להודעה שלך {0}"
 #: src/components/_user/notification/notification.frontConfig.tsx:858
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr "<0/> הגיב להודעה שלך ב-<1/>{0}"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:478
-msgid "<0/> scraps when you dismantle an item."
-msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:163
 msgid "<0/> started, vote for your favorite candidate"
@@ -695,7 +624,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "<0/>עדיפות מסתיימת ב<1/>"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:184
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:63
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> צמיחת התנגדות לשעה"
 
@@ -722,9 +651,8 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr "<0>{0}</0> נגד האויב של <1/>"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#. placeholder {1}: (levelConfig.stats.attackBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:166
-msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/><2>{1}</2> Attack bonus when allied country attack in this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
+msgid "<0>{0}</0> Attack bonus when attacking from this region.<1/>Citizens get the full bonus, allied countries get half."
 msgstr ""
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
@@ -742,15 +670,9 @@ msgstr "<0>{0}</0> כי <1/> איבד את <2/>"
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<0>{0}</0> כי <1/> תופס לפחות אחד מהאזורים <2/>"
 
-#. placeholder {0}: levelConfig.stats.moveCostReductionPercent ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:198
-msgid "<0>{0}</0> cheaper travel for your citizens, between regions held by your country or your alliance.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
-#. placeholder {1}: (levelConfig.stats.defenseBonus || 0) / 2
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:148
-msgid "<0>{0}</0> Defense bonus when citizen defend this region.<1/><2>{1}</2> Defense bonus when allied country defend this region."
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
 msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
@@ -781,12 +703,12 @@ msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr "<0>{0}</0> מברית הגנה עם <1/>"
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:188
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:138
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> מבונוס מרבץ לאתיקה אגררית."
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:178
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:128
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> ממשאבי מרבץ."
 
@@ -806,7 +728,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> מלחימה למען המדינה שלך"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:118
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> מבונוס התמחות באתיקה של תעשיינים."
 
@@ -816,7 +738,7 @@ msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> מפקודות של <1/>"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:158
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:108
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> מבונוס ייצור משאבים אסטרטגיים."
 
@@ -825,18 +747,13 @@ msgstr "<0>{0}</0> מבונוס ייצור משאבים אסטרטגיים."
 msgid "<0>{0}</0> ground are required to win a round, points are gained every tick"
 msgstr "<0>{0}</0> קרקע נדרשים כדי לנצח בסיבוב, נקודות מתקבלות בכל סימון"
 
-#. placeholder {0}: levelConfig.stats.skillBonuses?.health ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:215
-msgid "<0>{0}</0> max health for every citizen of your country.<1/>Unique: one per country, on a core region only."
-msgstr ""
-
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1621
 msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> חזר ל-<1/>."
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:353
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:86
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> קיבולת אחסון"
 
@@ -861,10 +778,6 @@ msgstr "<0>{ethicDepositBonus}</0> מ-<1/> בונוס מרבץ לאתיקה אג
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
 msgstr "<0>{ethicSpecializationBonus}</0> מ-<1/> בונוס התמחות באתיקה של תעשיינים."
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:326
-msgid "<0>{prodBonus}</0> production for every company in this region."
-msgstr ""
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
@@ -1471,7 +1384,7 @@ msgstr "פעולות"
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:47
 #: src/components/_user/user/Level.tsx:193
 #: src/pages/events/index.tsx:148
-#: src/utils/translations.tsx:278
+#: src/utils/translations.tsx:276
 msgid "Active"
 msgstr "פעיל"
 
@@ -1492,10 +1405,6 @@ msgstr "אזרחים פעילים"
 msgid "Active citizens (citizenship of this country, active and level {0}+)"
 msgstr "אזרחים פעילים (אזרחות במדינה זו, פעילים ומרמה {0}+)"
 
-#: src/components/_political/region/RegionHeader.tsx:121
-msgid "Active companies in this region"
-msgstr ""
-
 #: src/pages/region/[regionId]/index.tsx:212
 msgid "Active construction"
 msgstr "בנייה פעילה"
@@ -1511,10 +1420,6 @@ msgstr "מלחמות פעילות"
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:179
 msgid "Activity"
 msgstr "פעילות"
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Add money"
-msgstr ""
 
 #: src/components/_user/user/FamilyGroup.tsx:59
 msgid "Add User"
@@ -1560,24 +1465,14 @@ msgstr "קסדה מתקדמת"
 msgid "Advanced Pants"
 msgstr "מכנסיים מתקדמים"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:85
-msgid "Affects this region only. Maintenance scales with the region's development."
-msgstr ""
-
 #: src/components/_political/party/party.frontConfig.tsx:355
 #: src/components/_political/party/party.frontConfig.tsx:372
 msgid "Agrarian"
 msgstr "חקלאי"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:194
-msgid "Airport"
-msgstr ""
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:133
+#: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
-#: src/components/_political/region/CreateUpgradeModal.tsx:254
 msgid "All"
 msgstr "הכל"
 
@@ -1679,8 +1574,8 @@ msgstr "חוקי ברית"
 msgid "Alliance name"
 msgstr "שם הברית"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:100
-#: src/components/_military/battle/ActiveBattlesList.tsx:154
+#: src/components/_military/battle/ActiveBattlesList.tsx:101
+#: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "בעלות ברית"
 
@@ -1725,11 +1620,6 @@ msgstr "כמות של <0>עובדים</0> שאתה יכול לנהל. ומגבל
 #: src/components/_user/user/skills.frontConfig.tsx:123
 msgid "Amount of companies you can own"
 msgstr "כמות החברות שאתה יכול להחזיק"
-
-#: src/components/_economy/company/CompanyFormModal.tsx:112
-#: src/components/_economy/company/MoveCompanyForm.tsx:69
-msgid "An active company in one of your country's regions pays income tax to it: building at home makes your country grow."
-msgstr ""
 
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1601
@@ -1776,10 +1666,6 @@ msgstr "חבילת אנטי טרור"
 msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
 msgstr "כל ניסיון לעקוף כללים אלה עלול לגרום להסרת סטטוס השיתוף, קנסות ואיסורים זמניים או קבועים."
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:223
-msgid "Anyone located in the region can spend <0>{cost}</0> to add about <1>{points}</1> construction points. Points scale with your attack (gear excluded) and can land a critical hit, and every contribution can loot a case. When the bar is full, the upgrade levels up."
-msgstr ""
-
 #: src/components/_user/apiToken/ApiTokenList.tsx:40
 msgid "API token created"
 msgstr "נוצר אסימון API"
@@ -1792,7 +1678,7 @@ msgstr "אסימון API נוצר מחדש"
 msgid "API token revoked"
 msgstr "אסימון API בוטל"
 
-#: src/pages/user/[userId]/settings.tsx:138
+#: src/pages/user/[userId]/settings.tsx:141
 msgid "API Tokens"
 msgstr "אסימוני API"
 
@@ -1800,11 +1686,11 @@ msgstr "אסימוני API"
 msgid "API tokens allow external applications to access the API on your behalf. Use the token in the <0>X-API-Key</0> header. Each token has a rate limit of 200 requests per minute."
 msgstr "אסימוני API מאפשרים ליישומים חיצוניים לגשת ל-API בשמך. השתמש באסימון בכותרת <0>X-API-Key</0>. לכל אסימון יש מגבלת קצב של 200 בקשות לדקה."
 
-#: src/components/_layout/LayoutOptions.tsx:289
+#: src/components/_layout/LayoutOptions.tsx:317
 msgid "App pattern"
 msgstr "דפוס אפליקציה"
 
-#: src/pages/user/[userId]/settings.tsx:112
+#: src/pages/user/[userId]/settings.tsx:115
 msgid "App settings"
 msgstr ""
 
@@ -1826,7 +1712,7 @@ msgstr "בקשות"
 msgid "Apply"
 msgstr "הגש בקשה"
 
-#: src/utils/translations.tsx:281
+#: src/utils/translations.tsx:279
 msgid "Approved"
 msgstr "מאושר"
 
@@ -1917,7 +1803,7 @@ msgstr "טיפ למאמר"
 msgid "Article tipped"
 msgstr "טיפ למאמר התקבל"
 
-#: src/components/_user/user/UserHeader.tsx:260
+#: src/components/_user/user/UserHeader.tsx:254
 #: src/pages/user/[userId]/index.tsx:224
 msgid "Articles"
 msgstr "מאמרים"
@@ -2048,7 +1934,7 @@ msgstr "האימות נכשל. אנא נסה שוב."
 msgid "Auto approval"
 msgstr "אישור אוטומטי"
 
-#: src/components/_layout/LayoutOptions.tsx:222
+#: src/components/_layout/LayoutOptions.tsx:238
 #: src/components/_user/kits/KitsPopover.tsx:220
 msgid "Auto-equip when item breaks"
 msgstr "הצטיידות אוטומטית כאשר פריט נשבר"
@@ -2066,7 +1952,7 @@ msgid "Automated engine"
 msgstr "מנוע אוטומטי"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:339
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:74
 msgid "Automated Engine"
 msgstr "מנוע אוטומטי"
 
@@ -2082,20 +1968,12 @@ msgstr ""
 msgid "Avatar removed"
 msgstr "האווטאר הוסר"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:178
-msgid "Average construction points for one contribution ({cost} energy), before the random spread and critical hits."
-msgstr ""
-
 #: src/components/_political/alliance/AllianceHeader.tsx:83
 #: src/components/_political/country/CountryHeader.tsx:242
 #: src/components/_political/country/CountryHeader.tsx:247
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr "התפתחות ממוצעת"
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:198
-msgid "Average money for one contribution, at <0>{payoutRate}</0> per 1000 construction points. It follows the points you actually roll."
-msgstr ""
 
 #: src/components/_common/GameRules.tsx:244
 msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
@@ -2109,7 +1987,7 @@ msgstr "בייבי בומר"
 msgid "Back to home region"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:170
+#: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
 msgstr ""
 
@@ -2142,7 +2020,7 @@ msgstr "כדור"
 msgid "Bankruptcy"
 msgstr "פשיטת רגל"
 
-#: src/components/_user/user/UserHeader.tsx:465
+#: src/components/_user/user/UserHeader.tsx:459
 msgid "Banned"
 msgstr "חסום"
 
@@ -2162,8 +2040,8 @@ msgstr "מתנת באנר נשלחה"
 msgid "Banners"
 msgstr "באנרים"
 
-#: src/components/_user/user/UserHeader.tsx:213
-#: src/components/_user/user/UserHeader.tsx:279
+#: src/components/_user/user/UserHeader.tsx:207
+#: src/components/_user/user/UserHeader.tsx:273
 msgid "Bans"
 msgstr "חסימות"
 
@@ -2256,7 +2134,7 @@ msgstr "פקודות קרב להגנה על אזורי הליבה שלך ומר�
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "פקודות קרב להגנה על אזורי הליבה שלך ומרידות עולות <0>{0}</0> פחות."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:334
+#: src/components/_user/mission/mission.frontConfig.tsx:333
 msgid "Battlefield Loot"
 msgstr ""
 
@@ -2270,11 +2148,11 @@ msgstr ""
 msgid "Battles"
 msgstr "קרבות"
 
-#: src/components/_layout/LayoutOptions.tsx:126
+#: src/components/_layout/LayoutOptions.tsx:125
 msgid "Battles on layout"
 msgstr "קרבות על פריסה"
 
-#: src/components/_layout/LayoutOptions.tsx:121
+#: src/components/_layout/LayoutOptions.tsx:120
 msgid "Battles on map"
 msgstr "קרבות על המפה"
 
@@ -2291,7 +2169,7 @@ msgstr "קרבות שנוצחו"
 msgid "Become a Candidate"
 msgstr "הפוך למועמד"
 
-#: src/components/_layout/LayoutOptions.tsx:242
+#: src/components/_layout/LayoutOptions.tsx:258
 #: src/components/_user/kits/KitsPopover.tsx:244
 msgid "Best"
 msgstr "טוב ביותר"
@@ -2304,7 +2182,7 @@ msgstr "עדיף מכלום, נכון?"
 msgid "Bid"
 msgstr "הצעת מחיר"
 
-#: src/components/_political/region/RegionHeader.tsx:142
+#: src/components/_political/region/RegionHeader.tsx:133
 msgid "Biome"
 msgstr "ביומה"
 
@@ -2320,7 +2198,7 @@ msgstr "חסום (הסתר תוכן)"
 msgid "Blue Staff"
 msgstr "מטה כחול"
 
-#: src/components/_layout/LayoutOptions.tsx:162
+#: src/components/_layout/LayoutOptions.tsx:167
 msgid "Blur"
 msgstr "לטשטש"
 
@@ -2368,7 +2246,7 @@ msgstr "לחם"
 msgid "Break defensive pact"
 msgstr "שבור ברית הגנה"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:492
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:119
 msgid "Break room"
 msgstr "חדר הפסקה"
 
@@ -2392,7 +2270,7 @@ msgstr "תקציב"
 msgid "Buff ended"
 msgstr "באף הסתיים"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:342
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "Buff ends"
 msgstr "באף מסתיים"
@@ -2413,12 +2291,6 @@ msgstr "באפים:"
 msgid "Bug finder"
 msgstr "מאתר באגים"
 
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:66
-#: src/components/_political/region/CreateUpgradeModal.tsx:144
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:68
-msgid "Build"
-msgstr ""
-
 #: src/components/_economy/company/CompanyList.tsx:178
 msgid "Build a company"
 msgstr "בנה חברה"
@@ -2428,48 +2300,11 @@ msgstr "בנה חברה"
 msgid "Build a military unit"
 msgstr "לבנות יחידה צבאית"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:118
-#: src/components/_economy/company/CreateCompanyUpgradeModal.tsx:108
-#: src/components/_political/region/CreateUpgradeModal.tsx:243
-#: src/components/_political/region/UpgradeList.tsx:242
-#: src/components/_user/domain/CreateDomainUpgradeModal.tsx:107
-#: src/components/_user/domain/DomainUpgradeList.tsx:191
-msgid "Build an upgrade"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:151
-msgid "Build cost"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:527
-msgid "Build or level up a building on your domain"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:134
 msgid "Build the military unit"
 msgstr "בנה את היחידה הצבאית"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:128
-msgid "Build this one before the front moves..."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:72
-msgid "Build this one first."
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:525
-msgid "Build your domain"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:151
-msgid "Building is done with bare hands: your weapon, equipment and ammo do not count. Attack, critical chance and critical damages."
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:148
-msgid "Building stats"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:144
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:31
 msgid "Bunker"
 msgstr "בונקר"
 
@@ -2482,11 +2317,11 @@ msgstr "קנה <0/>"
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr "קנה <0/> מ-<1/> עבור <2>{0}</2>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:192
+#: src/components/_user/mission/mission.frontConfig.tsx:191
 msgid "Buy for <0/> money on market"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:190
+#: src/components/_user/mission/mission.frontConfig.tsx:189
 msgid "Buy Items"
 msgstr "קנה פריטים"
 
@@ -2521,9 +2356,7 @@ msgid "Campaign Article Link (optional)"
 msgstr "קישור למאמר בקמפיין (אופציונלי)"
 
 #: src/components/_military/order/BattleOrderList.tsx:207
-#: src/components/_other/upgrade/UpgradeGrid.tsx:113
 #: src/components/_political/election/CandidateFormModal.tsx:84
-#: src/components/_political/region/UpgradeList.tsx:144
 msgid "Cancel"
 msgstr "לבטל"
 
@@ -2546,21 +2379,13 @@ msgstr "בטל חוזה"
 msgid "Cancel Mercenary Contract"
 msgstr "ביטול חוזה שכיר חרב"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:251
-msgid "Cancel payout"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:258
-msgid "Cancel the payout?"
-msgstr ""
-
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
 #: src/pages/events/index.tsx:156
-#: src/utils/translations.tsx:273
+#: src/utils/translations.tsx:271
 msgid "Cancelled"
 msgstr "בוטלה"
 
-#: src/utils/translations.tsx:274
+#: src/utils/translations.tsx:272
 msgid "Cancelled by admin"
 msgstr "בוטל על ידי מנהל המערכת"
 
@@ -2596,7 +2421,7 @@ msgstr "לא ניתן לבחור טובת התמחות / אין תועלת מה�
 msgid "Capital"
 msgstr "בירה"
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Capital of"
 msgstr "בירת"
 
@@ -2754,7 +2579,7 @@ msgstr "בחר את הצד שלך ולחץ כדי לגרום <0>נזק</0>! המ
 msgid "Choosing a specific item costs ×2 steel:"
 msgstr "בחירת פריט ספציפי עולה פי 2 פלדה:"
 
-#: src/components/_user/user/UserHeader.tsx:329
+#: src/components/_user/user/UserHeader.tsx:323
 msgid "Citizen since"
 msgstr "אזרח מאז"
 
@@ -2766,11 +2591,6 @@ msgstr "אזרחים"
 #: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "אזרחים מקבלים בונוס כאשר הם נלחמים למען בעלי ברית, או נגד האויב המושבע"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:40
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:47
-msgid "citizens present"
-msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:131
 msgid "Citizenship"
@@ -2847,7 +2667,6 @@ msgid "Climate"
 msgstr "אקלים"
 
 #: ../__ui/src/components/Modal/Modal.tsx:386
-#: ../__ui/src/components/Modal/ModalOld.tsx:249
 #: src/components/_political/map/MapMenu.tsx:212
 msgid "Close"
 msgstr "לסגור"
@@ -2864,11 +2683,11 @@ msgstr "קר בטירוף"
 msgid "Collect"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:595
+#: src/components/_user/mission/mission.frontConfig.tsx:586
 msgid "Collect <0/> on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:593
+#: src/components/_user/mission/mission.frontConfig.tsx:584
 msgid "Collect Cases on the Map"
 msgstr ""
 
@@ -2893,7 +2712,7 @@ msgstr ""
 msgid "Color schemes are a Supporter Plan feature."
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:194
+#: src/components/_layout/LayoutOptions.tsx:199
 msgid "Colorblind mode"
 msgstr "מצב עיוורון צבעים"
 
@@ -2920,9 +2739,8 @@ msgid "Community"
 msgstr "קהילה"
 
 #: src/components/_layout/LayoutMenu.tsx:174
-#: src/components/_political/region/RegionHeader.tsx:119
 #: src/components/_user/user/MyAvatar.tsx:55
-#: src/components/_user/user/UserHeader.tsx:252
+#: src/components/_user/user/UserHeader.tsx:246
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:97
 msgid "Companies"
@@ -2953,7 +2771,7 @@ msgstr "החברה מושבתת!"
 msgid "Company enabled!"
 msgstr "החברה מופעלת!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:57
+#: src/components/_economy/company/MoveCompanyForm.tsx:56
 msgid "Company moved"
 msgstr "החברה עברה"
 
@@ -2975,7 +2793,7 @@ msgstr "השלם משימות מדי יום כדי להרוויח XP ולעלו�
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
 #: src/components/_user/milestone/MilestoneItem.tsx:327
-#: src/utils/translations.tsx:276
+#: src/utils/translations.tsx:274
 msgid "Completed"
 msgstr "הושלם"
 
@@ -3080,37 +2898,11 @@ msgstr "כובש"
 msgid "Consider giving it to your local moderator"
 msgstr "שקול לתת אותו למנחה המקומי שלך"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:255
-#: src/components/_user/mission/mission.frontConfig.tsx:563
+#: src/components/_user/mission/mission.frontConfig.tsx:554
 msgid "Construct"
 msgstr "בנה"
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:85
-#: src/components/_other/upgradeConstruction/ConstructionFocusSection.tsx:23
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:220
-msgid "Construction"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:248
-msgid "Construction Contributors"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:230
-msgid "Construction focus"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:61
-msgid "Construction focused by <0/>"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:67
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:150
-msgid "Construction payout"
-msgstr ""
-
 #: src/components/_economy/market/MarketHeader.tsx:27
-#: src/pages/market/constructions.tsx:13
 msgid "Constructions"
 msgstr ""
 
@@ -3128,7 +2920,7 @@ msgstr "נצרך בעת לחימה בקרבות"
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "צריכתו מגדילה את ה-<0>Attack</0> שלך במהלך {0}h.<1/> ואז הקטן את אותה הכמות במהלך {1}h"
 
-#: src/components/_layout/LayoutOptions.tsx:131
+#: src/components/_layout/LayoutOptions.tsx:130
 msgid "Contextual borders"
 msgstr "גבולות הקשרים"
 
@@ -3161,25 +2953,16 @@ msgstr "חוזים"
 msgid "Contracts & Auctions"
 msgstr "חוזים ומכירות פומביות"
 
-#: src/components/_political/contribution/ContributionPanel.tsx:233
-msgid "Contribute"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:565
+#: src/components/_user/mission/mission.frontConfig.tsx:556
 msgid "Contribute to constructions <0/> times"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:575
+#: src/components/_user/mission/mission.frontConfig.tsx:566
 msgid "Contribute to resistance <0/> times"
 msgstr ""
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:203
-msgid "Contribute to the construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:93
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:195
-msgid "Contributing to a construction paid by your own government gives {govPercent}% payout efficiency."
+#: src/components/_political/region/ResistanceFocusItem.tsx:203
+msgid "Contribute to the resistance"
 msgstr ""
 
 #: src/utils/translations.tsx:39
@@ -3215,7 +2998,7 @@ msgstr "העתק את האסימון הזה עכשיו. אתה לא תוכל ל�
 msgid "Core development"
 msgstr "התפתחות ליבה"
 
-#: src/components/_political/region/RegionHeader.tsx:134
+#: src/components/_political/region/RegionHeader.tsx:125
 msgid "Core region of"
 msgstr "אזור ליבה של"
 
@@ -3226,14 +3009,6 @@ msgstr "אזורי ליבה"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:46
 msgid "Corporal"
 msgstr "רב״ט"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:418
-msgid "Cottage"
-msgstr ""
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
-msgid "Council Member"
-msgstr "חבר מועצה"
 
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:132
 msgid "Council member to remove"
@@ -3263,16 +3038,8 @@ msgstr "מדינות"
 msgid "Country"
 msgstr "מדינה"
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:44
+#: src/components/_user/user/SkillUpgradeBonusRows.tsx:46
 msgid "Country buildings:"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:39
-msgid "country citizens"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:46
-msgid "country dev"
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:395
@@ -3328,17 +3095,12 @@ msgstr "זוכה טורניר המדינה"
 msgid "Country wars"
 msgstr "מלחמות מדינות"
 
-#. placeholder {0}: Math.round(coveredPoints)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:138
-msgid "Covers <0>{0}</0> construction points"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:210
+#: src/components/_user/mission/mission.frontConfig.tsx:209
 #: src/pages/user/[userId]/inventory.tsx:41
 msgid "Craft"
 msgstr "יצירה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:212
+#: src/components/_user/mission/mission.frontConfig.tsx:211
 msgid "Craft <0/> items"
 msgstr ""
 
@@ -3351,7 +3113,7 @@ msgstr "פריט מלאכה"
 msgid "Create"
 msgstr "ליצור"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:372
+#: src/components/_user/mission/mission.frontConfig.tsx:371
 msgid "Create a Company"
 msgstr "צור חברה"
 
@@ -3361,7 +3123,7 @@ msgstr "צור חברה"
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr "צור ברית חדשה בשם <0>{0}</0> עם ערכת צבעים <1>{1}</1>."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:373
+#: src/components/_user/mission/mission.frontConfig.tsx:372
 msgid "Create a new company"
 msgstr "צור חברה חדשה"
 
@@ -3418,11 +3180,11 @@ msgstr "סיכוי קריטי"
 msgid "Crit. damages"
 msgstr "נזק קריטי"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:281
+#: src/components/_user/mission/mission.frontConfig.tsx:280
 msgid "Critical Hit"
 msgstr "מכה קריטית"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:606
+#: src/components/_user/mission/mission.frontConfig.tsx:597
 msgid "Cross <0/> regions on the map"
 msgstr ""
 
@@ -3476,14 +3238,6 @@ msgstr "ד. כל צורה של אפליה, גזענות, שנאת זרים, אנ
 msgid "Daily"
 msgstr "יומי"
 
-#: src/components/_other/upgrade/UpgradeListItem.tsx:165
-msgid "Daily cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:185
-msgid "Daily income"
-msgstr ""
-
 #: src/components/_political/alliance/AllianceMemberRow.tsx:59
 #: src/components/_political/law/LawTypeSelect.tsx:188
 msgid "Daily maintenance"
@@ -3492,14 +3246,6 @@ msgstr "תחזוקה יומית"
 #: src/components/_user/notification/notification.frontConfig.tsx:2164
 msgid "Daily Missions Reset"
 msgstr "איפוס משימות יומיות"
-
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:194
-msgid "Daily production"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:206
-msgid "Daily upkeep"
-msgstr ""
 
 #: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
@@ -3531,7 +3277,7 @@ msgstr "לעזאזל נראה טוב"
 msgid "Damn you lucky"
 msgstr "לעזאזל אתה בר מזל"
 
-#: src/pages/user/[userId]/settings.tsx:158
+#: src/pages/user/[userId]/settings.tsx:161
 msgid "Danger zone"
 msgstr "אזור סכנה"
 
@@ -3548,19 +3294,19 @@ msgstr "עידן אפל"
 msgid "Dark Era Pack"
 msgstr "חבילת עידן אפל"
 
-#: src/components/_layout/LayoutOptions.tsx:153
+#: src/components/_layout/LayoutOptions.tsx:152
 msgid "Dark map"
 msgstr "מפה אפלה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:152
+#: src/components/_user/mission/mission.frontConfig.tsx:151
 msgid "Deal <0/> for allies or your country"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:132
+#: src/components/_user/mission/mission.frontConfig.tsx:131
 msgid "Deal <0/> in battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:142
+#: src/components/_user/mission/mission.frontConfig.tsx:141
 msgid "Deal <0/> on country/mu orders"
 msgstr ""
 
@@ -3576,15 +3322,15 @@ msgstr "עשה נזק בקרבות כדי להגדיל את הדרגה הצבא�
 msgid "Deal damage in battles with your MU members to level up each month and earn rewards. Resets on the 1st of each month."
 msgstr "עשה נזק בקרבות עם חברי ה-MU שלך כדי לעלות רמות בכל חודש ולהרוויח פרסים. מתאפס ב-1 בכל חודש."
 
-#: src/components/_user/mission/mission.frontConfig.tsx:130
+#: src/components/_user/mission/mission.frontConfig.tsx:129
 msgid "Deal Damages"
 msgstr "גרימת נזק"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:150
+#: src/components/_user/mission/mission.frontConfig.tsx:149
 msgid "Deal Damages for Allies or Country"
 msgstr "גרימת נזק לבעלי ברית או למדינה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:140
+#: src/components/_user/mission/mission.frontConfig.tsx:139
 msgid "Deal Damages on Orders"
 msgstr "גרימת נזק בפקודות"
 
@@ -3612,7 +3358,7 @@ msgstr "גורם לכמה נזקים"
 msgid "Debuff ended"
 msgstr "דיבאף הסתיים"
 
-#: src/components/_user/user/UserHeader.tsx:356
+#: src/components/_user/user/UserHeader.tsx:350
 #: src/components/_user/user/UserTooltip.tsx:149
 msgid "Debuff ends"
 msgstr "דיבאף מסתיים"
@@ -3706,7 +3452,7 @@ msgstr "הגדירו מדינה כאויב שאפשר לקבל נגדה בונו
 msgid "Define a sworn enemy"
 msgstr "הגדירו אויב מושבע"
 
-#: src/pages/user/[userId]/settings.tsx:161
+#: src/pages/user/[userId]/settings.tsx:164
 msgid "Delete account"
 msgstr "מחק חשבון"
 
@@ -3756,7 +3502,7 @@ msgstr "משאב מרבץ"
 msgid "Deposit resources"
 msgstr "משאבי מרבץ"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:140
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:90
 msgid "Deposit will be depleted in"
 msgstr "המרבץ יתרוקן ב"
 
@@ -3786,14 +3532,6 @@ msgstr "התיאור עודכן!"
 #: src/components/_economy/company/CompanyDropdown.tsx:312
 msgid "Destruct"
 msgstr "הרס"
-
-#: src/components/_other/upgrade/Upgrade.tsx:333
-msgid "Destruct refund"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:368
-msgid "Destruct refund ({destroyRefundPercent}%):"
-msgstr ""
 
 #: src/components/_layout/map.frontConfig.tsx:37
 #: src/components/_political/region/RegionHeader.tsx:83
@@ -3849,11 +3587,11 @@ msgstr ""
 msgid "Diesel Sports Sedan"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:304
+#: src/components/_user/mission/mission.frontConfig.tsx:303
 msgid "Diminish <0/> received damages with <1>Armor</1> in battles"
 msgstr "הקטנת <0/> קיבלה נזקים עם <1>שריון</1> בקרבות"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:302
+#: src/components/_user/mission/mission.frontConfig.tsx:301
 msgid "Diminish Received Damages"
 msgstr "הפחת נזקים שהתקבלו"
 
@@ -3883,12 +3621,12 @@ msgstr "מושבת"
 msgid "Disbanded"
 msgstr "פורקה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:200
+#: src/components/_user/mission/mission.frontConfig.tsx:199
 #: src/pages/user/[userId]/inventory.tsx:52
 msgid "Dismantle"
 msgstr "לפרק"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:202
+#: src/components/_user/mission/mission.frontConfig.tsx:201
 msgid "Dismantle <0/> items"
 msgstr ""
 
@@ -3917,28 +3655,18 @@ msgstr "מופץ"
 msgid "Do you even know what luck is?"
 msgstr "אתה בכלל יודע מה זה מזל?"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:292
+#: src/components/_user/mission/mission.frontConfig.tsx:291
 #: src/components/_user/user/skills.frontConfig.tsx:158
 #: src/components/_user/user/skills.frontConfig.tsx:159
 msgid "Dodge"
 msgstr "להתחמק"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:294
+#: src/components/_user/mission/mission.frontConfig.tsx:293
 msgid "Dodge <0/> attacks"
 msgstr ""
 
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:195
-#: src/pages/user/[userId]/domain.tsx:22
 msgid "Domain"
-msgstr ""
-
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:56
-msgid "Domain buildings:"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:101
-msgid "Domain slots"
 msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:55
@@ -3953,11 +3681,11 @@ msgstr "אל תשכח לשמור את שדרוגי המיומנות שלך."
 msgid "Don't quit now, your luck is buffering"
 msgstr "אל תתפטר עכשיו, המזל שלך נטען"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:543
+#: src/components/_user/mission/mission.frontConfig.tsx:534
 msgid "Donate"
 msgstr "לתרום"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:545
+#: src/components/_user/mission/mission.frontConfig.tsx:536
 msgid "Donate <0/> to MU or Country"
 msgstr ""
 
@@ -3978,7 +3706,7 @@ msgstr "סיכום תרומות"
 msgid "Donations"
 msgstr "תרומות"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:374
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:106
 msgid "Dormitories"
 msgstr "מעונות"
 
@@ -4006,24 +3734,24 @@ msgstr "כל נקודת פרסטיז׳ מעניקה את המקבילה של {sk
 msgid "Earn <0/> in total"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:160
+#: src/components/_user/mission/mission.frontConfig.tsx:159
 msgid "Eat"
 msgstr "לאכול"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:172
-#: src/components/_user/mission/mission.frontConfig.tsx:182
+#: src/components/_user/mission/mission.frontConfig.tsx:171
+#: src/components/_user/mission/mission.frontConfig.tsx:181
 msgid "Eat <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:162
+#: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "Eat <0/> food items"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:170
+#: src/components/_user/mission/mission.frontConfig.tsx:169
 msgid "Eat Cooked Fish"
 msgstr "לאכול דגים מבושלים"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:180
+#: src/components/_user/mission/mission.frontConfig.tsx:179
 msgid "Eat Steak"
 msgstr "תאכל סטייק"
 
@@ -4043,10 +3771,6 @@ msgstr "כישורים כלכליים"
 msgid "Economy & Companies"
 msgstr "כלכלה וחברות"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-msgid "Edit construction focus"
-msgstr ""
-
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:140
 msgid "Edit country order"
 msgstr "ערוך פקודת מדינה"
@@ -4059,13 +3783,17 @@ msgstr "ערוך תיאור"
 msgid "Edit Description"
 msgstr "ערוך תיאור"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:123
+#: src/components/_political/region/RegionResistance.tsx:137
 msgid "Edit focus message"
 msgstr ""
 
 #: src/components/_military/battle/BattleOrderActionsDropdown.tsx:149
 msgid "Edit MU order"
 msgstr "ערוך פקודת יחידה צבאית"
+
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+msgid "Edit resistance focus"
+msgstr ""
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:154
 msgid "Edit worker"
@@ -4078,10 +3806,6 @@ msgstr "עריכת פקודה קיימת"
 #: src/components/_military/battle/SetOrderFormModal.tsx:490
 msgid "Editing another order"
 msgstr "עריכת פקודה אחרת"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
-msgid "Effect applies to the whole country. Maintenance scales with the country's average development."
-msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:267
 msgid "Effective:"
@@ -4183,8 +3907,8 @@ msgstr "הסתיים"
 msgid "Ended <0/>"
 msgstr "הסתיים <0/>"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:106
-#: src/components/_military/battle/ActiveBattlesList.tsx:161
+#: src/components/_military/battle/ActiveBattlesList.tsx:107
+#: src/components/_military/battle/ActiveBattlesList.tsx:162
 msgid "Enemies"
 msgstr "אויבים"
 
@@ -4213,7 +3937,7 @@ msgid "Entrepreneurship"
 msgstr "יזמות"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:56
-#: src/components/_layout/LayoutOptions.tsx:219
+#: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:81
 #: src/pages/user/[userId]/index.tsx:100
@@ -4238,18 +3962,10 @@ msgstr "שגיאה"
 msgid "Estimated benefit per"
 msgstr "הטבה משוערת לכל"
 
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:175
-msgid "Estimated construction"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:475
 #: src/components/_military/battle/BattleSystem.tsx:512
 msgid "Estimated minimum time for this side to win the current round if all ticks are won."
 msgstr "זמן מינימלי משוער עבור צד זה כדי לנצח את הסיבוב הנוכחי אם כל הסימונים מנצחים."
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:195
-msgid "Estimated payout"
-msgstr ""
 
 #: src/components/_economy/company/CompanyHeader.tsx:41
 msgid "Estimated value"
@@ -4277,10 +3993,6 @@ msgstr "נקודות אתיקה:"
 msgid "Events"
 msgstr "אירועים"
 
-#: src/pages/market/constructions.tsx:16
-msgid "Every construction site in the world, best paying first. Move to the region and spend energy to earn the country's payout per construction point."
-msgstr ""
-
 #: src/components/_user/mission/MissionsHeader.tsx:77
 msgid "Every mission you ever completed and claimed"
 msgstr ""
@@ -4300,7 +4012,7 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:277
+#: src/utils/translations.tsx:275
 msgid "Expired"
 msgstr "פג תוקף"
 
@@ -4453,8 +4165,8 @@ msgstr "סכין איכר"
 msgid "Farmer Pants"
 msgstr "מכנסי איכר"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:88
-#: src/components/_military/battle/ActiveBattlesList.tsx:168
+#: src/components/_military/battle/ActiveBattlesList.tsx:89
+#: src/components/_military/battle/ActiveBattlesList.tsx:169
 msgid "Favorites"
 msgstr "מועדפים"
 
@@ -4538,11 +4250,11 @@ msgstr "לממן התנגדות ב<0/>"
 msgid "Find a job"
 msgstr "מצא עבודה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:503
+#: src/components/_user/mission/mission.frontConfig.tsx:502
 msgid "Find a Job"
 msgstr "מצא עבודה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:504
+#: src/components/_user/mission/mission.frontConfig.tsx:503
 msgid "Find a job at a company"
 msgstr "מצא עבודה בחברה"
 
@@ -4576,7 +4288,7 @@ msgstr "פוטר מהממשלה"
 msgid "Fish"
 msgstr "דג"
 
-#: src/components/_layout/LayoutOptions.tsx:143
+#: src/components/_layout/LayoutOptions.tsx:142
 msgid "Flags"
 msgstr "דגלים"
 
@@ -4584,24 +4296,24 @@ msgstr "דגלים"
 msgid "Flail"
 msgstr "אלת שרשרת"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:91
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
-msgid "Focus construction"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:139
-msgid "Focus construction here"
-msgstr ""
-
 #: src/components/_layout/LayoutMapUserMenu.tsx:181
 msgid "Focus on you"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:259
+#: src/components/_political/region/SetResistanceFocusModal.tsx:88
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
+msgid "Focus resistance"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:152
+msgid "Focus resistance here"
+msgstr ""
+
+#: src/components/_layout/LayoutOptions.tsx:278
 msgid "Font"
 msgstr "גופן"
 
-#: src/components/_layout/LayoutOptions.tsx:271
+#: src/components/_layout/LayoutOptions.tsx:295
 msgid "Font size"
 msgstr "גודל גופן"
 
@@ -4670,10 +4382,6 @@ msgstr "הרווח <0>Xp</0> על ידי סיום המשימות שלך!"
 msgid "Game supporter"
 msgstr "תומך משחק"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:460
-msgid "Garage"
-msgstr ""
-
 #: src/pages/shop/index.tsx:141
 msgid "Gems"
 msgstr "אבני חן"
@@ -4695,7 +4403,7 @@ msgid "Generate Missions"
 msgstr "צור משימות"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:343
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:77
 msgid "Generates <0>{0}</0>/day"
 msgstr "מייצר <0>{0}</0> ליום"
 
@@ -4752,38 +4460,11 @@ msgid "Giveaway Won!"
 msgstr "המתנה זכתה!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:365
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:97
 msgid "Gives <0>{0}</0>"
 msgstr "נותן <0>{0}</0>"
 
-#. placeholder {0}: Math.round(percent * 100)
-#. placeholder {1}: Math.round(regionAverageLevel ?? 0)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:275
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>, scaled by its residents' average level of {1})"
-msgstr ""
-
-#. placeholder {0}: Math.round(percent * 100)
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:249
-msgid "Gives daily income of <0/> ({0}% of this region <1>Development</1>)"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:313
-msgid "Gives daily income of <0/> (<1/> per active company here × {regionCompanyCount})"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:258
-msgid "Gives daily income of <0/> of this region <1>Development</1>"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:293
-msgid "Gives daily income of <0/> of this region <1>Development</1>, scaled by how experienced its residents are."
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:320
-msgid "Gives daily income of <0/> per active company built in this region."
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:109
+#: src/components/_layout/LayoutOptions.tsx:108
 msgid "Globe (experimental)"
 msgstr "גלובוס (ניסיוני)"
 
@@ -4821,13 +4502,11 @@ msgstr "ממשלה"
 msgid "Government announcement"
 msgstr "הודעת ממשלה"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:240
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:229
 msgid "Government Member"
 msgstr "חבר ממשלה"
 
 #: src/components/_military/battle/BattleSystem.tsx:818
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:91
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:193
 msgid "Government penalty"
 msgstr "עונש ממשלתי"
 
@@ -4843,7 +4522,7 @@ msgstr ""
 msgid "Grain"
 msgstr "תבואה"
 
-#: src/components/_layout/LayoutOptions.tsx:116
+#: src/components/_layout/LayoutOptions.tsx:115
 msgid "Graticule"
 msgstr "גרטיקולה"
 
@@ -4995,7 +4674,7 @@ msgstr "טנק אוגר"
 msgid "Hard Worker"
 msgstr "עובד קשה"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:361
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:94
 msgid "Headquarters"
 msgstr "מטה"
 
@@ -5013,7 +4692,7 @@ msgstr "תחמושת כבדה"
 msgid "Helmet"
 msgstr "קסדה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:273
+#: src/components/_user/mission/mission.frontConfig.tsx:272
 msgid "Help <0/> MU members"
 msgstr ""
 
@@ -5021,7 +4700,7 @@ msgstr ""
 msgid "Help for Mu"
 msgstr "עזרה עבור מו"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:271
+#: src/components/_user/mission/mission.frontConfig.tsx:270
 msgid "Help MU Members"
 msgstr "עזרו לחברי MU"
 
@@ -5037,11 +4716,11 @@ msgstr "מפקד בכיר"
 msgid "History"
 msgstr "היסטוריה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:120
+#: src/components/_user/mission/mission.frontConfig.tsx:119
 msgid "Hit"
 msgstr "פגיעה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:122
+#: src/components/_user/mission/mission.frontConfig.tsx:121
 msgid "Hit <0/> times in battles"
 msgstr ""
 
@@ -5062,18 +4741,6 @@ msgstr "פגיעה עבור המדינה שלך בזמן הממשל נותן י�
 #: src/components/_user/user/UserHeader.tsx:174
 msgid "Home"
 msgstr "בית"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:211
-msgid "Hospital"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeListItem.tsx:167
-msgid "Hourly cost"
-msgstr ""
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:208
-msgid "Hourly upkeep"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:30
 msgid "How many times have you seen this message already?"
@@ -5188,7 +4855,7 @@ msgid "Income tax"
 msgstr "מס הכנסה"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:204
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:154
 msgid "Income Tax"
 msgstr "מס הכנסה"
 
@@ -5200,10 +4867,6 @@ msgstr "להגדיל"
 #: src/components/_political/unrest/UnrestPanel.tsx:109
 msgid "Increase unrest"
 msgstr "להגביר את אי השקט"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:304
-msgid "Industrial Park"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:374
 msgid "Industrialism vs Agrarianism"
@@ -5239,14 +4902,6 @@ msgstr "הפרות מכוונות או חוזרות של מדיניות זו ת�
 #: src/pages/user/[userId]/inventory.tsx:31
 msgid "Inventory"
 msgstr "מלאי"
-
-#: src/components/_other/upgrade/Upgrade.tsx:319
-msgid "Invested"
-msgstr ""
-
-#: src/components/_other/upgrade/Upgrade.tsx:359
-msgid "Invested:"
-msgstr ""
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:162
 msgid "Invitations"
@@ -5337,7 +4992,7 @@ msgstr "משרות"
 msgid "Join <0/>"
 msgstr "הצטרף ל-<0/>"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:385
+#: src/components/_user/mission/mission.frontConfig.tsx:384
 msgid "Join a Military Unit"
 msgstr "הצטרף ליחידה צבאית"
 
@@ -5345,11 +5000,11 @@ msgstr "הצטרף ליחידה צבאית"
 msgid "Join a military unit to take part"
 msgstr "הצטרף ליחידה צבאית כדי להשתתף"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:481
+#: src/components/_user/mission/mission.frontConfig.tsx:480
 msgid "Join a Party"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:482
+#: src/components/_user/mission/mission.frontConfig.tsx:481
 msgid "Join a political party"
 msgstr ""
 
@@ -5358,7 +5013,7 @@ msgstr ""
 msgid "Join alliance"
 msgstr "הצטרף לברית"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:384
+#: src/components/_user/mission/mission.frontConfig.tsx:383
 msgid "Join MU"
 msgstr "הצטרף ליחידה"
 
@@ -5439,11 +5094,11 @@ msgstr "סכין"
 msgid "Knives do not accept ammo"
 msgstr "סכינים לא מקבלים תחמושת"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:283
+#: src/components/_user/mission/mission.frontConfig.tsx:282
 msgid "Land <0/> critical hits"
 msgstr ""
 
-#: src/components/_layout/LayoutOptions.tsx:212
+#: src/components/_layout/LayoutOptions.tsx:221
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Language"
 msgstr "שפה"
@@ -5452,7 +5107,7 @@ msgstr "שפה"
 msgid "Last"
 msgstr "אחרון"
 
-#: src/components/_user/user/UserHeader.tsx:364
+#: src/components/_user/user/UserHeader.tsx:358
 msgid "Last connection"
 msgstr "החיבור האחרון"
 
@@ -5559,10 +5214,6 @@ msgstr "עזוב את הממשלה"
 msgid "Leave the alliance your country belongs to"
 msgstr "עזוב את הברית שהמדינה שלך שייכת אליה"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:179
-msgid "left"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
 msgstr "אגדה זוהתה!"
@@ -5587,10 +5238,6 @@ msgstr "קסדה אגדית"
 msgid "Legendary Pants"
 msgstr "מכנסיים אגדיים"
 
-#: src/components/_other/upgrade/UpgradeSlotCard.tsx:175
-msgid "Level"
-msgstr ""
-
 #. placeholder {0}: leveling.level + 1
 #: src/components/_user/user/Level.tsx:123
 msgid "Level {0} reward"
@@ -5598,7 +5245,6 @@ msgstr ""
 
 #: src/components/_military/mu/MuLevel.tsx:64
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:89
-#: src/components/_user/domain/DomainUpgradeList.tsx:158
 msgid "Level {level}"
 msgstr "רמה {level}"
 
@@ -5649,19 +5295,19 @@ msgstr "בהיר"
 msgid "Light Ammo"
 msgstr "תחמושת קלה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:346
+#: src/components/_user/mission/mission.frontConfig.tsx:345
 msgid "Like <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:432
+#: src/components/_user/mission/mission.frontConfig.tsx:431
 msgid "Like <0/> messages"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:344
+#: src/components/_user/mission/mission.frontConfig.tsx:343
 msgid "Like Article"
 msgstr "לייק למאמר"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:430
+#: src/components/_user/mission/mission.frontConfig.tsx:429
 msgid "Like Message"
 msgstr "לייק להודעה"
 
@@ -5681,7 +5327,7 @@ msgstr "הגבלה הושגה"
 msgid "Limited:"
 msgstr "מוגבל:"
 
-#: src/components/_layout/LayoutOptions.tsx:301
+#: src/components/_layout/LayoutOptions.tsx:331
 msgid "Line"
 msgstr "קו"
 
@@ -5715,21 +5361,9 @@ msgstr "טוען {status}..."
 msgid "Loading..."
 msgstr "טעינה..."
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
-msgid "Local"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:111
 msgid "Location"
 msgstr "מקום"
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:163
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:166
-#: src/components/_political/region/UpgradeList.tsx:266
-#: src/components/_political/region/UpgradesGrid.tsx:220
-#: src/components/_user/domain/DomainUpgradeList.tsx:214
-msgid "Locked slot"
-msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:289
 msgid "Locked, reset your skills to reassign"
@@ -5743,15 +5377,15 @@ msgstr "התנתק"
 msgid "Long Sword"
 msgstr "חרב ארוכה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:326
+#: src/components/_user/mission/mission.frontConfig.tsx:325
 msgid "Loot <0/> in battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:336
+#: src/components/_user/mission/mission.frontConfig.tsx:335
 msgid "Loot <0/> items on battlefield"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:324
+#: src/components/_user/mission/mission.frontConfig.tsx:323
 msgid "Loot Cases"
 msgstr "תיבות שלל"
 
@@ -5788,11 +5422,6 @@ msgstr "המזל סוף סוף נמצא בשכר"
 msgid "Lvl"
 msgstr "רמה"
 
-#. placeholder {0}: construction.targetLevel
-#: src/components/_other/upgradeConstruction/ConstructionListItem.tsx:57
-msgid "Lvl {0}"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:191
 msgid "Mage Robe"
 msgstr "חלוק הקוסם"
@@ -5800,10 +5429,6 @@ msgstr "חלוק הקוסם"
 #: src/components/_political/law/Law.tsx:121
 msgid "Maintenance cost"
 msgstr "עלות תחזוקה"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:103
-msgid "Maintenance scales with the number of citizens present in the region."
-msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:96
 msgid "Major"
@@ -5814,7 +5439,7 @@ msgid "Make <0/> the new alliance leader. The leader can edit the alliance avata
 msgstr "הפוך את <0/> למנהיג הברית החדש. המנהיג יכול לערוך ישירות את התמונה וערכת הצבעים של הברית."
 
 #: src/components/_user/premium/PremiumActions.tsx:84
-#: src/pages/user/[userId]/settings.tsx:152
+#: src/pages/user/[userId]/settings.tsx:155
 msgid "Manage Subscription"
 msgstr "ניהול מנוי"
 
@@ -5828,7 +5453,7 @@ msgid "map"
 msgstr "מפה"
 
 #: src/components/_layout/LayoutMapOptions.tsx:82
-#: src/components/_layout/LayoutOptions.tsx:106
+#: src/components/_layout/LayoutOptions.tsx:105
 msgid "Map"
 msgstr "מפה"
 
@@ -5837,13 +5462,12 @@ msgstr "מפה"
 msgid "Map Accent"
 msgstr "גוון מפה"
 
-#: src/components/_layout/LayoutOptions.tsx:148
+#: src/components/_layout/LayoutOptions.tsx:147
 msgid "Map icons"
 msgstr "סמלי מפה"
 
 #: src/components/_economy/market/MarketHeader.tsx:45
 #: src/components/_layout/LayoutMenu.tsx:163
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:268
 #: src/pages/country/[countryId]/account.tsx:31
 #: src/pages/party/[partyId]/account.tsx:24
 #: src/pages/user/[userId]/account.tsx:26
@@ -5872,24 +5496,19 @@ msgstr "הגיעה לרמה המקסימלית!"
 msgid "Max rarity"
 msgstr "נדירות מקסימלית"
 
-#. placeholder {0}: maxRate.toFixed(2)
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:147
-msgid "Max rate: {0} money per 1000 construction points. The pool leaves your treasury now and comes back if you cancel it or when the construction is done."
-msgstr ""
-
 #: src/components/_economy/company/CompanyDropdown.tsx:222
 #: src/components/_economy/company/CompanyDropdown.tsx:240
 msgid "Maxed!"
 msgstr "במקסימום!"
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:378
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:109
 msgid "Maximum of <0>{0}</0> members."
 msgstr "מקסימום <0>{0}</0> חברים."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:496
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:122
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "מקסימום <0>{0}</0> עובדים.{1}"
 
@@ -6023,7 +5642,7 @@ msgstr "רפוטציה של שכיר חרב"
 msgid "Mercenary Reputation"
 msgstr "רפוטציה שכיר חרב"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:123
+#: src/components/_political/region/SetResistanceFocusModal.tsx:120
 msgid "Message"
 msgstr ""
 
@@ -6093,7 +5712,7 @@ msgid "Milestone tiers you claimed, across every ladder"
 msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:63
-#: src/components/_user/user/UserHeader.tsx:238
+#: src/components/_user/user/UserHeader.tsx:232
 #: src/pages/user/[userId]/milestones.tsx:20
 msgid "Milestones"
 msgstr ""
@@ -6102,7 +5721,7 @@ msgstr ""
 msgid "Military & Battles"
 msgstr "צבא וקרבות"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:162
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "בסיס צבאי"
 
@@ -6143,10 +5762,6 @@ msgstr "יחידה צבאית"
 msgid "Military unit announcement"
 msgstr "הודעת יחידה צבאית"
 
-#: src/components/_user/user/SkillUpgradeBonusRows.tsx:50
-msgid "Military unit buildings:"
-msgstr ""
-
 #: src/components/_military/mu/MuFormModal.tsx:44
 msgid "Military unit created"
 msgstr "יחידה צבאית נוצרה"
@@ -6159,12 +5774,6 @@ msgstr "יחידות צבאיות"
 #: src/components/_military/battle/BattleCountrySide.tsx:93
 msgid "Military Units"
 msgstr "יחידות צבאיות"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:170
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:191
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:236
-msgid "min"
-msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:293
 msgid "Min reached"
@@ -6189,13 +5798,13 @@ msgstr "שר הכלכלה"
 msgid "Minister of Foreign Affairs"
 msgstr "שר החוץ"
 
-#: src/components/_layout/LayoutOptions.tsx:202
+#: src/components/_layout/LayoutOptions.tsx:207
 msgid "Mission tags"
 msgstr "תגיות משימות"
 
 #: src/components/_user/mission/MissionsHeader.tsx:56
 #: src/components/_user/mission/MissionsList.tsx:232
-#: src/components/_user/user/UserHeader.tsx:231
+#: src/components/_user/user/UserHeader.tsx:225
 msgid "Missions"
 msgstr "משימות"
 
@@ -6216,21 +5825,9 @@ msgstr "מספר טלפון נייד"
 msgid "Money"
 msgstr "כסף"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Money added"
-msgstr ""
-
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:135
 msgid "Money earned from mercenary contracts."
 msgstr "כסף שהרוויח מחוזי שכירי חרב."
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:125
-msgid "Money per 1000 construction points"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:126
-msgid "Money per 1k points"
-msgstr ""
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:134
 msgid "Money ranking"
@@ -6293,25 +5890,25 @@ msgstr "הצעה הוצעה"
 msgid "Motions"
 msgstr "הצעות"
 
-#: src/components/_political/region/MoveButton.tsx:117
-#: src/components/_political/region/MoveButton.tsx:129
+#: src/components/_political/region/MoveButton.tsx:103
+#: src/components/_political/region/MoveButton.tsx:115
 msgid "Move"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:520
+#: src/components/_user/mission/mission.frontConfig.tsx:519
 msgid "Move a company to another region"
 msgstr "העבר חברה לאזור אחר"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:187
-#: src/components/_economy/company/MoveCompanyForm.tsx:66
+#: src/components/_economy/company/MoveCompanyForm.tsx:65
 msgid "Move company"
 msgstr "העברת חברה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:519
+#: src/components/_user/mission/mission.frontConfig.tsx:518
 msgid "Move Company"
 msgstr "חברת העברות"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:98
+#: src/components/_economy/company/MoveCompanyForm.tsx:91
 msgid "Move the company"
 msgstr "תעביר את החברה"
 
@@ -6374,10 +5971,6 @@ msgstr "טורניר יחידות צבאיות"
 msgid "MU Tournament Winner"
 msgstr "זוכה טורניר MU"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
-msgid "My alliance"
-msgstr ""
-
 #: src/components/_military/battle/LootSummaryCard.tsx:135
 msgid "My battle loot"
 msgstr "שלל הקרב שלי"
@@ -6389,10 +5982,6 @@ msgstr "הבוט שלי, סקריפט וכו׳."
 #: src/pages/user/[userId]/companies.tsx:84
 msgid "My Companies"
 msgstr "החברות שלי"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:95
-msgid "My country"
-msgstr ""
 
 #. placeholder {0}: milestone.tier
 #: src/components/_user/milestone/MilestoneItem.tsx:134
@@ -6431,10 +6020,6 @@ msgstr "מיתולוגי?! חשבונך מבורך"
 #: src/components/_political/party/PartyFormModal.tsx:97
 msgid "Name"
 msgstr "שם"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
-msgid "National"
-msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:424
 msgid "National battle orders cost double."
@@ -6528,7 +6113,7 @@ msgstr "הצעת עבודה חדשה"
 msgid "New leader"
 msgstr "מנהיג חדש"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:86
+#: src/components/_economy/company/MoveCompanyForm.tsx:79
 msgid "New location"
 msgstr "מיקום חדש"
 
@@ -6606,10 +6191,6 @@ msgstr "חדשות"
 msgid "Next"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:226
-msgid "Next hourly cost"
-msgstr ""
-
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:18
 msgid "Next one will be a tank"
 msgstr "הבא יהיה טנק"
@@ -6625,14 +6206,6 @@ msgstr "הנקודה הבאה עולה"
 #: src/components/_military/mu/MuLevel.tsx:97
 msgid "Next reward"
 msgstr "הפרס הבא"
-
-#: src/components/_political/region/UpgradeList.tsx:283
-msgid "Next slot unlocks at {unlockDevelopment} development"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:219
-msgid "Next slot unlocks at level {unlockLevel}"
-msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:618
 msgid "Next tick"
@@ -6655,7 +6228,7 @@ msgstr "נחמד אחד"
 msgid "Nice work!"
 msgstr "עבודה יפה!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:194
+#: src/components/_military/battle/ActiveBattlesList.tsx:201
 msgid "No active battles"
 msgstr "אין קרבות פעילים"
 
@@ -6715,12 +6288,7 @@ msgstr "אין אזרחים"
 msgid "No congress members"
 msgstr "אין חברי קונגרס"
 
-#: src/components/_other/upgradeConstruction/AllConstructionList.tsx:28
-#: src/components/_other/upgradeConstruction/ConstructionList.tsx:40
-msgid "No construction in progress"
-msgstr ""
-
-#: src/components/_political/contribution/ContributionList.tsx:275
+#: src/components/_political/contribution/ContributionList.tsx:225
 msgid "No contributions yet"
 msgstr "עדיין אין תרומות"
 
@@ -6833,10 +6401,6 @@ msgstr "עדיין אין הפניות"
 msgid "No referrer yet"
 msgstr "עדיין אין מפנה"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:119
-msgid "No region to recommend for this filter"
-msgstr ""
-
 #: src/components/_user/user/UserEquippedSkins.tsx:139
 msgid "No skins equipped"
 msgstr "אין סקינים מצוידים"
@@ -6938,7 +6502,7 @@ msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a to
 msgstr "אין כרגע כלום במשחק. הכה בקרב מתמשך כדי להתחיל להרוויח, והשג דירוג נזק גבוה כדי לתפוס מקום במאגר השלל שלו."
 
 #: src/pages/notifications.tsx:38
-#: src/pages/user/[userId]/settings.tsx:132
+#: src/pages/user/[userId]/settings.tsx:135
 msgid "Notification preferences"
 msgstr "העדפות הודעות"
 
@@ -6954,15 +6518,15 @@ msgstr "עכשיו אנחנו מדברים!"
 msgid "Number of Donors:"
 msgstr "מספר תורמים:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:499
+#: src/components/_user/mission/mission.frontConfig.tsx:498
 msgid "Obtain a badge"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:498
+#: src/components/_user/mission/mission.frontConfig.tsx:497
 msgid "Obtain a Badge"
 msgstr ""
 
-#: src/components/_political/region/RegionHeader.tsx:127
+#: src/components/_political/region/RegionHeader.tsx:118
 msgid "Occupied by"
 msgstr "כבוש על ידי"
 
@@ -7026,10 +6590,6 @@ msgstr "רק בעלי/מפקדי יחידה צבאית יכולים לרשום �
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "רק תומכים יכולים לראות את פירוט ההוצאות וההכנסות שלהם."
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:167
-msgid "Only the company owner can unlock this slot."
-msgstr ""
-
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:168
 msgid "Only the government, or an owner/commander of an MU of this country, can register it"
 msgstr "רק הממשלה, או בעל/מפקד של יחידה צבאית של מדינה זו, יכולים לרשום אותה"
@@ -7046,7 +6606,7 @@ msgstr "רק אזורי הליבה שלך מייצרים הכנסת התפתחו
 msgid "Open"
 msgstr "לפתוח"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:232
+#: src/components/_user/mission/mission.frontConfig.tsx:231
 msgid "Open <0/>"
 msgstr ""
 
@@ -7059,11 +6619,11 @@ msgstr "פתח תיבה"
 msgid "Open Case"
 msgstr "פתח תיבה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:230
+#: src/components/_user/mission/mission.frontConfig.tsx:229
 msgid "Open Cases"
 msgstr "תיבות פתוחות"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:378
+#: src/components/_user/mission/mission.frontConfig.tsx:377
 msgid "Open Chat"
 msgstr "פתח את צ׳אט"
 
@@ -7083,7 +6643,7 @@ msgstr "פתח אותו כדי לקבל פריט אקראי"
 msgid "Open multiple <0>Cases</0> at same time"
 msgstr "פתח מספר <0>תיבות</0> בו-זמנית"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:379
+#: src/components/_user/mission/mission.frontConfig.tsx:378
 msgid "Open the chat"
 msgstr "פתח את הצ׳אט"
 
@@ -7111,7 +6671,7 @@ msgstr ""
 msgid "Order"
 msgstr "פקודה"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:82
+#: src/components/_military/battle/ActiveBattlesList.tsx:83
 msgid "Orders"
 msgstr "פקודות"
 
@@ -7132,7 +6692,7 @@ msgstr "פקודות של <0/>"
 msgid "Origin"
 msgstr "מקור"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:118
+#: src/components/_military/battle/ActiveBattlesList.tsx:119
 #: src/components/_user/notification/notificationPrefs.categories.ts:161
 msgid "Other"
 msgstr "אחר"
@@ -7184,7 +6744,7 @@ msgstr "הבעלות על <0/> הועברה מ<1/> ל<2/>"
 msgid "Ownership transferred successfully"
 msgstr "הבעלות הועברה בהצלחה"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:180
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:60
 msgid "Pacification Center"
 msgstr "מרכז פסיפיקציה"
 
@@ -7219,11 +6779,11 @@ msgstr "נייר"
 msgid "Participants"
 msgstr "משתתפים"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:243
+#: src/components/_user/mission/mission.frontConfig.tsx:242
 msgid "Participate in <0/> battles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:241
+#: src/components/_user/mission/mission.frontConfig.tsx:240
 msgid "Participate in Battle"
 msgstr "השתתף בקרב"
 
@@ -7320,7 +6880,6 @@ msgid "Payment successful! Thanks for supporting the game <3"
 msgstr "התשלום הצליח! תודה על התמיכה במשחק <3"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:186
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:163
 msgid "Payout"
 msgstr "תשלום"
 
@@ -7328,7 +6887,7 @@ msgstr "תשלום"
 msgid "Peace made"
 msgstr "עשה שלום"
 
-#: src/utils/translations.tsx:279
+#: src/utils/translations.tsx:277
 msgid "Pending"
 msgstr "תלוי ועומד"
 
@@ -7431,18 +6990,19 @@ msgstr "פוליטיקה וממשל"
 msgid "Popular Article"
 msgstr "מאמר פופולרי"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_political/region/RegionHeader.tsx:96
+#: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:98
+msgid "Population (currently here)"
 msgstr ""
 
 #: src/components/_social/announcement/AnnouncementFormModal.tsx:21
 #: src/components/_social/announcement/AnnouncementList.tsx:48
 msgid "Post announcement"
 msgstr "פרסם הודעה"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:225
-msgid "Power Plant"
-msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:144
 #: src/components/_user/user/skills.frontConfig.tsx:145
@@ -7528,7 +7088,7 @@ msgstr "פרסטיז׳:"
 msgid "Prestige!"
 msgstr "פרסטיז׳!"
 
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:443
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:453
 msgid "Price auto-matches existing orders"
 msgstr "המחיר מתאים אוטומטית להזמנות קיימות"
 
@@ -7558,7 +7118,7 @@ msgid "Probability of landing a critical hit"
 msgstr "הסתברות להנחית מכה קריטית"
 
 #: src/components/_economy/company/ProduceButton.tsx:142
-#: src/components/_user/mission/mission.frontConfig.tsx:509
+#: src/components/_user/mission/mission.frontConfig.tsx:508
 msgid "Produce"
 msgstr "תוצרת"
 
@@ -7566,7 +7126,7 @@ msgstr "תוצרת"
 msgid "Produce All"
 msgstr "הפק הכל"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:511
+#: src/components/_user/mission/mission.frontConfig.tsx:510
 msgid "Produce items <0/> times"
 msgstr ""
 
@@ -7590,7 +7150,7 @@ msgid "Production"
 msgstr "הפקה"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:153
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "בונוס הפקה"
@@ -7714,6 +7274,14 @@ msgstr "עונשים, יחד עם ההיגיון שלהם, גלויים בפרו
 msgid "Purple Staff"
 msgstr "מטה סגול"
 
+#: src/components/_political/region/SetResistanceFocusModal.tsx:125
+msgid "Push the resistance here before they dig in..."
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:201
+msgid "Push the resistance here first."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:35
 msgid "Put yourself to work!"
 msgstr "שים את עצמך לעבודה!"
@@ -7770,91 +7338,91 @@ msgstr "שיעור לכל נזק של 1K"
 msgid "Raw materials:"
 msgstr "חומרי גלם:"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:411
+#: src/components/_user/mission/mission.frontConfig.tsx:410
 msgid "Reach level 10"
 msgstr "להגיע לרמה 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:410
+#: src/components/_user/mission/mission.frontConfig.tsx:409
 msgid "Reach Level 10"
 msgstr "להגיע לרמה 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:416
+#: src/components/_user/mission/mission.frontConfig.tsx:415
 msgid "Reach level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:415
+#: src/components/_user/mission/mission.frontConfig.tsx:414
 msgid "Reach Level 15"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:421
+#: src/components/_user/mission/mission.frontConfig.tsx:420
 msgid "Reach level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:420
+#: src/components/_user/mission/mission.frontConfig.tsx:419
 msgid "Reach Level 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:426
+#: src/components/_user/mission/mission.frontConfig.tsx:425
 msgid "Reach level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:425
+#: src/components/_user/mission/mission.frontConfig.tsx:424
 msgid "Reach Level 25"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:406
+#: src/components/_user/mission/mission.frontConfig.tsx:405
 msgid "Reach level 5"
 msgstr "להגיע לרמה 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:405
+#: src/components/_user/mission/mission.frontConfig.tsx:404
 msgid "Reach Level 5"
 msgstr "להגיע לרמה 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:457
+#: src/components/_user/mission/mission.frontConfig.tsx:456
 msgid "Reach military rank 10"
 msgstr "להגיע לדרגה צבאית 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:456
+#: src/components/_user/mission/mission.frontConfig.tsx:455
 msgid "Reach Military Rank 10"
 msgstr "להגיע לדרגה צבאית 10"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:462
+#: src/components/_user/mission/mission.frontConfig.tsx:461
 msgid "Reach military rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:461
+#: src/components/_user/mission/mission.frontConfig.tsx:460
 msgid "Reach Military Rank 20"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:467
+#: src/components/_user/mission/mission.frontConfig.tsx:466
 msgid "Reach military rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:466
+#: src/components/_user/mission/mission.frontConfig.tsx:465
 msgid "Reach Military Rank 30"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:472
+#: src/components/_user/mission/mission.frontConfig.tsx:471
 msgid "Reach military rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:471
+#: src/components/_user/mission/mission.frontConfig.tsx:470
 msgid "Reach Military Rank 40"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:452
+#: src/components/_user/mission/mission.frontConfig.tsx:451
 msgid "Reach military rank 5"
 msgstr "להגיע לדרגה צבאית 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:451
+#: src/components/_user/mission/mission.frontConfig.tsx:450
 msgid "Reach Military Rank 5"
 msgstr "להגיע לדרגה צבאית 5"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:477
+#: src/components/_user/mission/mission.frontConfig.tsx:476
 msgid "Reach military rank 50"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:476
+#: src/components/_user/mission/mission.frontConfig.tsx:475
 msgid "Reach Military Rank 50"
 msgstr ""
 
@@ -7868,11 +7436,11 @@ msgstr ""
 msgid "Reached by {0}% (<0/>)"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:363
+#: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "Read <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:361
+#: src/components/_user/mission/mission.frontConfig.tsx:360
 msgid "Read Article"
 msgstr "קרא מאמר"
 
@@ -7907,7 +7475,7 @@ msgstr "מתכון"
 msgid "Recipient"
 msgstr "מקבל"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:76
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:68
 msgid "Recommended regions"
 msgstr "אזורים מומלצים"
 
@@ -7927,7 +7495,7 @@ msgstr "מפחית בריאות שאבדה בעת לחימה בקרבות"
 msgid "Referral link copied to clipboard"
 msgstr "קישור ההפניה הועתק ללוח"
 
-#: src/components/_user/user/UserHeader.tsx:266
+#: src/components/_user/user/UserHeader.tsx:260
 #: src/components/_user/user/UserRankingsPanel.tsx:60
 #: src/pages/user/[userId]/index.tsx:235
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -7977,10 +7545,6 @@ msgstr "אזור"
 msgid "Region buy offer"
 msgstr "הצעת רכישה באזור"
 
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:45
-msgid "region dev"
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:2078
 msgid "Region is revolting!"
 msgstr "האזור מתקומם!"
@@ -7992,14 +7556,6 @@ msgstr "אזור שוחרר"
 #: src/components/_political/region/RegionHeader.tsx:47
 msgid "Region of"
 msgstr "אזור של"
-
-#: src/components/_other/upgrade/UpgradeCostDetails.tsx:38
-msgid "region residents"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:98
-msgid "Region slots"
-msgstr ""
 
 #: src/components/_political/event/EventList.tsx:110
 msgid "Region transfer"
@@ -8018,7 +7574,7 @@ msgstr "אזורים"
 msgid "Regions"
 msgstr "אזורים"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:604
+#: src/components/_user/mission/mission.frontConfig.tsx:595
 msgid "Regions Crossed"
 msgstr ""
 
@@ -8079,7 +7635,7 @@ msgid "Reject"
 msgstr "לדחות"
 
 #: src/components/_political/law/GenericLawStatus.tsx:42
-#: src/utils/translations.tsx:280
+#: src/utils/translations.tsx:278
 msgid "Rejected"
 msgstr "נדחה"
 
@@ -8146,7 +7702,7 @@ msgstr "הסר תיאור"
 msgid "Remove enemy"
 msgstr "הסר אויב"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocus.tsx:129
+#: src/components/_political/region/RegionResistance.tsx:143
 msgid "Remove focus"
 msgstr ""
 
@@ -8207,7 +7763,7 @@ msgstr "דווח"
 msgid "Report user"
 msgstr "דווח על משתמש"
 
-#: src/components/_user/user/UserHeader.tsx:220
+#: src/components/_user/user/UserHeader.tsx:214
 msgid "Reports"
 msgstr "דוחות"
 
@@ -8244,7 +7800,7 @@ msgstr "אפס"
 msgid "Reset CAPTCHA"
 msgstr "אפס את ה-CAPTCHA"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:492
+#: src/components/_user/mission/mission.frontConfig.tsx:491
 msgid "Reset Skills"
 msgstr ""
 
@@ -8252,7 +7808,7 @@ msgstr ""
 msgid "Reset Survivor"
 msgstr "אפס את הישרדות"
 
-#: src/pages/user/[userId]/settings.tsx:127
+#: src/pages/user/[userId]/settings.tsx:130
 msgid "Reset tutorials"
 msgstr "אפס מדריכים"
 
@@ -8260,7 +7816,7 @@ msgstr "אפס מדריכים"
 msgid "Reset Username"
 msgstr "אפס את שם המשתמש"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:493
+#: src/components/_user/mission/mission.frontConfig.tsx:492
 msgid "Reset your skills"
 msgstr ""
 
@@ -8268,24 +7824,42 @@ msgstr ""
 msgid "Reshuffle in"
 msgstr "יעורבב ב"
 
+#: src/components/_political/region/RegionHeader.tsx:88
+msgid "Residents"
+msgstr ""
+
+#: src/components/_political/region/RegionHeader.tsx:90
+msgid "Residents (home here)"
+msgstr ""
+
 #: src/components/_military/hit/HitButton.tsx:468
-#: src/components/_user/mission/mission.frontConfig.tsx:573
+#: src/components/_user/mission/mission.frontConfig.tsx:564
 msgid "Resist"
 msgstr "להתנגד"
 
+#: src/components/_political/region/ResistanceFocusItem.tsx:92
+#: src/components/_political/region/ResistanceFocusSection.tsx:25
 #: src/pages/region/[regionId]/index.tsx:125
 msgid "Resistance"
 msgstr "התנגדות"
 
-#: src/components/_political/contribution/ContributionList.tsx:246
+#: src/components/_political/contribution/ContributionList.tsx:198
 msgid "Resistance Contributors"
 msgstr "תורמי התנגדות"
+
+#: src/components/_political/region/ResistanceFocusItem.tsx:229
+msgid "Resistance focus"
+msgstr ""
+
+#: src/components/_political/region/RegionResistance.tsx:190
+msgid "Resistance focused by <0/>"
+msgstr ""
 
 #: src/components/_military/battle/BattleName.tsx:155
 msgid "Resistance for {regionName} {score}"
 msgstr "התנגדות עבור {regionName} {score}"
 
-#: src/components/_political/region/RegionTooltip.tsx:101
+#: src/components/_political/region/RegionTooltip.tsx:98
 msgid "Resource"
 msgstr "משאב"
 
@@ -8351,7 +7925,7 @@ msgstr "זכויות"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "החזר כספי (קבל בחזרה את כל התשלומים מ-MU/משתמשים והחזר כספי מלא למדינה)"
 
-#: src/utils/translations.tsx:275
+#: src/utils/translations.tsx:273
 msgid "Rolled back by admin"
 msgstr "הוחזר על ידי אדמין"
 
@@ -8432,9 +8006,7 @@ msgid "Running low on health?"
 msgstr "חסר לבריאות?"
 
 #: src/components/_military/order/BattleOrderList.tsx:217
-#: src/components/_other/upgrade/UpgradeGrid.tsx:122
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_political/region/UpgradeList.tsx:153
 #: src/components/_user/auth/WelcomeModal.tsx:182
 #: src/pages/user/[userId]/skills.tsx:247
 msgid "Save"
@@ -8455,10 +8027,6 @@ msgstr "הונאה"
 #: src/utils/translations.tsx:40
 msgid "Scraps"
 msgstr "שאריות"
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:474
-msgid "Scrapyard"
-msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:75
 msgid "Screenshot or it didn't happen"
@@ -8531,11 +8099,11 @@ msgid "Select skin"
 msgstr "בחר סקין"
 
 #: src/components/_economy/work/WorkChart.tsx:224
-#: src/components/_user/mission/mission.frontConfig.tsx:86
+#: src/components/_user/mission/mission.frontConfig.tsx:85
 msgid "Self Work"
 msgstr "עבודה עצמית"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:88
+#: src/components/_user/mission/mission.frontConfig.tsx:87
 msgid "Self work <0/> times in your companies"
 msgstr ""
 
@@ -8543,7 +8111,7 @@ msgstr ""
 msgid "Sell company?"
 msgstr "למכור חברה?"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:222
+#: src/components/_user/mission/mission.frontConfig.tsx:221
 msgid "Sell for <0/> money on market"
 msgstr ""
 
@@ -8551,7 +8119,7 @@ msgstr ""
 msgid "Sell it, you need to buy more cases to gamble!"
 msgstr "תמכור את זה, אתה צריך לקנות עוד תיבות כדי להמר!"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:220
+#: src/components/_user/mission/mission.frontConfig.tsx:219
 msgid "Sell Items"
 msgstr "למכור פריטים"
 
@@ -8568,7 +8136,7 @@ msgstr "מחיר מכירה:"
 msgid "sells"
 msgstr "מוכר"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:392
+#: src/components/_user/mission/mission.frontConfig.tsx:391
 msgid "Send <0/> messages"
 msgstr ""
 
@@ -8592,7 +8160,7 @@ msgstr "שלח קוד"
 msgid "Send Gift"
 msgstr "שלח מתנה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:390
+#: src/components/_user/mission/mission.frontConfig.tsx:389
 msgid "Send Message"
 msgstr "שלח הודעה"
 
@@ -8626,10 +8194,6 @@ msgstr "הגדר מאמר ברוכים הבאים למדינה שלך<0/>"
 msgid "Set bounty"
 msgstr "הגדר באונטי"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Set construction payout"
-msgstr ""
-
 #: src/components/_political/law/law.frontConfig.tsx:544
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
@@ -8652,12 +8216,7 @@ msgstr "קבע פקודה"
 msgid "Set party ethics"
 msgstr "קבע את האתיקה של המפלגה"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:171
-msgid "Set payout"
-msgstr ""
-
-#: src/components/_user/mission/mission.frontConfig.tsx:445
+#: src/components/_user/mission/mission.frontConfig.tsx:444
 msgid "Set Profile Picture"
 msgstr "הגדר תמונת פרופיל"
 
@@ -8675,7 +8234,7 @@ msgstr "הגדר את הפריט המיוחד של המדינה ל-<0>{0}</0>.<1
 msgid "Set the country's specialized production item"
 msgstr "הגדר את פריט הייצור המיוחד של המדינה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:439
+#: src/components/_user/mission/mission.frontConfig.tsx:438
 msgid "Set Username"
 msgstr "הגדר שם משתמש"
 
@@ -8684,17 +8243,17 @@ msgstr "הגדר שם משתמש"
 msgid "Set welcome article"
 msgstr "הגדר מאמר ברוכים הבאים"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:446
+#: src/components/_user/mission/mission.frontConfig.tsx:445
 msgid "Set your profile picture"
 msgstr "הגדר את תמונת הפרופיל שלך"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:440
+#: src/components/_user/mission/mission.frontConfig.tsx:439
 msgid "Set your username"
 msgstr "הגדר את שם המשתמש שלך"
 
 #: src/components/_military/mu/MuHeader.tsx:192
 #: src/components/_user/user/MyAvatar.tsx:61
-#: src/components/_user/user/UserHeader.tsx:272
+#: src/components/_user/user/UserHeader.tsx:266
 msgid "Settings"
 msgstr "הגדרות"
 
@@ -8704,10 +8263,6 @@ msgstr ""
 
 #: src/components/_user/user/UserEffectSelector.tsx:56
 msgid "Shine"
-msgstr ""
-
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:388
-msgid "Shooting Range"
 msgstr ""
 
 #: src/components/_layout/LayoutRightIcons.tsx:184
@@ -8775,7 +8330,7 @@ msgid "Skill upgrade:"
 msgstr "שדרוג מיומנות:"
 
 #: src/components/_user/user/MyAvatar.tsx:42
-#: src/components/_user/user/UserHeader.tsx:201
+#: src/components/_user/user/UserHeader.tsx:195
 #: src/pages/user/[userId]/index.tsx:173
 msgid "Skills"
 msgstr "מיומנויות"
@@ -8838,16 +8393,7 @@ msgstr ""
 msgid "Sling Stones"
 msgstr "אבני קלע"
 
-#: src/components/_user/domain/DomainUpgradeList.tsx:161
-msgid "slot {slot}"
-msgstr ""
-
-#: src/components/_political/region/UpgradeList.tsx:95
-#: src/components/_user/domain/DomainUpgradeList.tsx:98
-msgid "Slots"
-msgstr ""
-
-#: src/components/_layout/LayoutOptions.tsx:207
+#: src/components/_layout/LayoutOptions.tsx:212
 msgid "Small GIFs"
 msgstr "GIF קטנים"
 
@@ -8863,7 +8409,7 @@ msgstr "חברתי והודעות"
 msgid "Some of your companies are disabled."
 msgstr "חלק מהחברות שלך מושבתות."
 
-#: src/components/_layout/LayoutOptions.tsx:178
+#: src/components/_layout/LayoutOptions.tsx:183
 msgid "Sound effects"
 msgstr "אפקטים קוליים"
 
@@ -8896,7 +8442,7 @@ msgid "Spendings"
 msgstr "הוצאות"
 
 #: src/components/_user/user/skills.frontConfig.tsx:98
-msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It cannot be upgraded with skill points, only by building a Garage on your domain."
+msgid "Spent when moving on the map: 10 points per case crossed. Cases your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
 msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:230
@@ -9016,16 +8562,12 @@ msgstr "סטייק"
 msgid "Steel"
 msgstr "פלדה"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:402
-msgid "Stockpile"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:245
 msgid "Stone Maul"
 msgstr "מקבת אבן"
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:349
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
 msgid "Storage"
 msgstr "אחסון"
 
@@ -9112,7 +8654,7 @@ msgid "Supporter plan"
 msgstr "תוכנית תומכים"
 
 #: src/components/_user/modals/PremiumModal.tsx:31
-#: src/pages/user/[userId]/settings.tsx:145
+#: src/pages/user/[userId]/settings.tsx:148
 msgid "Supporter Plan"
 msgstr "תוכנית תומכים"
 
@@ -9158,7 +8700,7 @@ msgstr "מרד מערכת"
 msgid "Take control"
 msgstr "להשתלט"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:112
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "קח בחשבון מרבצים"
 
@@ -9183,10 +8725,6 @@ msgstr "אזור היעד"
 msgid "Target user"
 msgstr "משתמש יעד"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:242
-msgid "Tax Office"
-msgstr ""
-
 #: src/components/_political/law/LawFormModal.tsx:251
 msgid "Tax type"
 msgstr "סוג מס"
@@ -9205,8 +8743,8 @@ msgstr "קבוצה {0}"
 msgid "Teams"
 msgstr "קבוצות"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:124
-msgid "Tell your citizens why this construction comes first"
+#: src/components/_political/region/SetResistanceFocusModal.tsx:121
+msgid "Tell your citizens why this region comes first"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:140
@@ -9223,7 +8761,7 @@ msgstr "תנאים"
 msgid "Terms of Service"
 msgstr "תנאים והגבלות"
 
-#: src/components/_layout/LayoutOptions.tsx:312
+#: src/components/_layout/LayoutOptions.tsx:342
 msgid "Texture"
 msgstr "מרקם"
 
@@ -9343,11 +8881,6 @@ msgstr "למדינה הזו אין נשיא או חבר קונגרס פעיל, �
 msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
 msgstr "מדינה זו היא אימפריאליסטית קנאית: אין לה שרים, רק נשיא וסגן נשיא. מינויי שרים יידחו."
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:70
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:153
-msgid "This country pays <0>{rate}</0> per 1000 construction points you contribute. <1>{pool}</1> left in the pool."
-msgstr ""
-
 #: src/components/_political/map/MapLibreErrorBoundary.tsx:64
 msgid "This device can't display the map"
 msgstr ""
@@ -9422,10 +8955,6 @@ msgstr "זה ידרוש מהמשתמש לאמת את מספר הטלפון הנ�
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:227
-msgid "Time left before the next upkeep charge"
-msgstr ""
-
 #: src/components/_other/tour/tuto.frontConfig.tsx:130
 msgid "Time to fight for your country! Let's join the action."
 msgstr "הגיע הזמן להילחם למען המדינה שלך! בואו נצטרף לפעולה."
@@ -9498,11 +9027,11 @@ msgstr "פיקסל צלף זעיר"
 msgid "Tiny Pixel Tank"
 msgstr "טנק פיקסל זעיר"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:315
+#: src/components/_user/mission/mission.frontConfig.tsx:314
 msgid "Tip <0/> articles"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:313
+#: src/components/_user/mission/mission.frontConfig.tsx:312
 msgid "Tip Article"
 msgstr "מאמר טיפ"
 
@@ -9577,11 +9106,6 @@ msgstr "נותני המתנות המובילים של החודש"
 msgid "Top of the hill"
 msgstr "ראש הגבעה"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:245
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:113
-msgid "Top up payout"
-msgstr ""
-
 #: src/components/_military/battle/BattleSystem.tsx:672
 msgid "total"
 msgstr "סך הכל"
@@ -9605,10 +9129,6 @@ msgstr "סך הכל"
 msgid "Total cases opened"
 msgstr "סך כל התיבות שנפתחו"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:252
-msgid "Total daily cost"
-msgstr ""
-
 #: src/components/_military/tournament/TournamentTeamTooltip.tsx:92
 msgid "Total damage"
 msgstr "נזק כולל"
@@ -9621,16 +9141,7 @@ msgstr "סך הנזקים"
 msgid "Total Donated:"
 msgstr "סך התרומות:"
 
-#: src/components/_other/upgrade/UpgradesGridSummary.tsx:215
-msgid "Total hourly cost"
-msgstr ""
-
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:132
-#: src/components/_other/upgradeConstruction/ConstructionPayoutFormModal.tsx:133
-msgid "Total money"
-msgstr ""
-
-#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:497
+#: src/components/_economy/itemTrading/ItemTradingOrderFormModal.tsx:507
 msgid "Total of <0/>"
 msgstr "סך הכל <0/>"
 
@@ -9657,8 +9168,8 @@ msgstr ""
 msgid "Total:"
 msgstr "סך הכל:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:76
-#: src/components/_military/battle/ActiveBattlesList.tsx:175
+#: src/components/_military/battle/ActiveBattlesList.tsx:77
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:65
 #: src/pages/events/index.tsx:190
 msgid "Tournament"
@@ -9713,11 +9224,7 @@ msgstr "עסקת מסחר"
 msgid "Trainee"
 msgstr "חניך"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:432
-msgid "Training Grounds"
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:246
+#: src/components/_user/user/UserHeader.tsx:240
 msgid "Transac."
 msgstr "עסק׳"
 
@@ -9750,19 +9257,19 @@ msgstr "העברה לחברה (לא חובה)"
 msgid "Translator"
 msgstr "מתורגמן"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:583
+#: src/components/_user/mission/mission.frontConfig.tsx:574
 msgid "Travel"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:616
+#: src/components/_user/mission/mission.frontConfig.tsx:607
 msgid "Travel <0/> km on the map"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:614
+#: src/components/_user/mission/mission.frontConfig.tsx:605
 msgid "Travel Distance"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:585
+#: src/components/_user/mission/mission.frontConfig.tsx:576
 msgid "Travel to another region <0/> times"
 msgstr ""
 
@@ -9774,7 +9281,7 @@ msgstr "טרבושה"
 msgid "Trooper"
 msgstr "טרופר"
 
-#: src/pages/user/[userId]/settings.tsx:120
+#: src/pages/user/[userId]/settings.tsx:123
 msgid "Tutorials"
 msgstr "הדרכות"
 
@@ -9790,7 +9297,7 @@ msgstr "סוג"
 msgid "Tyrannosaurus Rex"
 msgstr "טירנוזאורוס רקס"
 
-#: src/components/_layout/LayoutOptions.tsx:159
+#: src/components/_layout/LayoutOptions.tsx:161
 msgid "UI"
 msgstr "ממשק משתמש"
 
@@ -9850,33 +9357,11 @@ msgstr "בטל את הנעילה של כפתור עזרה הכל"
 msgid "Unlock Produce all button"
 msgstr "בטל את הנעילה של כפתור הפק הכל"
 
-#: src/components/_economy/company/CompanyUpgradeList.tsx:175
-msgid "Unlock slot {slot}"
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:170
-msgid "Unlock the previous slot first."
-msgstr ""
-
-#: src/components/_economy/company/CompanyUpgradeList.tsx:166
-#: src/components/_economy/company/CompanyUpgradesGrid.tsx:169
-msgid "Unlock this slot for {cost} concrete."
-msgstr ""
-
 #: src/components/_user/notification/notification.frontConfig.tsx:1998
 msgid "Unlocked pack"
 msgstr "החבילה נפתחה"
 
-#: src/components/_political/region/UpgradeList.tsx:272
-#: src/components/_political/region/UpgradesGrid.tsx:226
-msgid "Unlocks at"
-msgstr ""
-
-#: src/components/_user/domain/DomainUpgradeList.tsx:215
-msgid "Unlocks at level {unlockLevel}."
-msgstr ""
-
-#: src/components/_user/user/UserHeader.tsx:472
+#: src/components/_user/user/UserHeader.tsx:466
 msgid "Unmuted <0/>"
 msgstr "בוטלה השתקה <0/>"
 
@@ -9888,7 +9373,7 @@ msgstr "דמיוני. זה לא קורה"
 msgid "Unrest"
 msgstr "אי שקט"
 
-#: src/components/_political/contribution/ContributionList.tsx:250
+#: src/components/_political/contribution/ContributionList.tsx:200
 msgid "Unrest Contributors"
 msgstr "תורמים לתסיסה"
 
@@ -9905,7 +9390,7 @@ msgstr "בטל את מדינת האויב המושבעת"
 msgid "Update"
 msgstr "עדכן"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:141
+#: src/components/_political/region/SetResistanceFocusModal.tsx:139
 msgid "Update focus"
 msgstr ""
 
@@ -9917,7 +9402,7 @@ msgstr "עדכן מידע"
 msgid "Update worker"
 msgstr "עדכן עובד"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:400
+#: src/components/_user/mission/mission.frontConfig.tsx:399
 msgid "Upgrade a company"
 msgstr "שדרג חברה"
 
@@ -9925,11 +9410,11 @@ msgstr "שדרג חברה"
 msgid "Upgrade automated engine"
 msgstr "שדרג מנוע אוטומטי"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:399
+#: src/components/_user/mission/mission.frontConfig.tsx:398
 msgid "Upgrade Company"
 msgstr "שדרג חברה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:533
+#: src/components/_user/mission/mission.frontConfig.tsx:524
 msgid "Upgrade Skills"
 msgstr "שדרוג מיומנויות"
 
@@ -9941,7 +9426,7 @@ msgstr "שדרג אחסון"
 msgid "Upgrade to supporter"
 msgstr "שדרג לתומך"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:535
+#: src/components/_user/mission/mission.frontConfig.tsx:526
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
@@ -9951,17 +9436,17 @@ msgstr "שדרג את הכישורים שלך!"
 
 #: src/components/_economy/company/CompanyTooltip.tsx:98
 #: src/components/_military/mu/MuTooltip.tsx:96
-#: src/components/_political/region/RegionTooltip.tsx:117
+#: src/components/_political/region/RegionTooltip.tsx:114
 #: src/pages/company/[companyId]/index.tsx:94
 #: src/pages/region/[regionId]/index.tsx:144
 msgid "Upgrades"
 msgstr "שדרוגים"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:555
+#: src/components/_user/mission/mission.frontConfig.tsx:546
 msgid "Use <0/>"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:553
+#: src/components/_user/mission/mission.frontConfig.tsx:544
 msgid "Use Pills"
 msgstr ""
 
@@ -10072,7 +9557,7 @@ msgid "Username"
 msgstr "שם משתמש"
 
 #: src/components/_user/user/UserDropdown.tsx:261
-#: src/pages/user/[userId]/settings.tsx:104
+#: src/pages/user/[userId]/settings.tsx:106
 msgid "Username effect"
 msgstr ""
 
@@ -10088,7 +9573,7 @@ msgstr ""
 msgid "Username effects are a Supporter Plan feature."
 msgstr ""
 
-#: src/pages/user/[userId]/settings.tsx:98
+#: src/pages/user/[userId]/settings.tsx:99
 msgid "Username font"
 msgstr ""
 
@@ -10198,7 +9683,7 @@ msgstr "תאמת"
 msgid "Verifying you're human..."
 msgstr "מוודא שאתה אנושי..."
 
-#: src/components/_layout/LayoutOptions.tsx:186
+#: src/components/_layout/LayoutOptions.tsx:191
 msgid "Vibrations"
 msgstr ""
 
@@ -10224,11 +9709,11 @@ msgstr "צפה במפה"
 msgid "Views"
 msgstr "צפיות"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:487
+#: src/components/_user/mission/mission.frontConfig.tsx:486
 msgid "Vote"
 msgstr ""
 
-#: src/components/_user/mission/mission.frontConfig.tsx:488
+#: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "Vote in an election"
 msgstr ""
 
@@ -10307,10 +9792,6 @@ msgstr "רב-נגד"
 msgid "Wars"
 msgstr "מלחמות"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:446
-msgid "Watchtower"
-msgstr ""
-
 #: src/components/_user/user/UserRankingsPanel.tsx:48
 #: src/pages/user/[userId]/index.tsx:137
 msgid "Wealth"
@@ -10372,10 +9853,6 @@ msgstr "ברוכים הבאים לעידן המלחמה!"
 msgid "Welcome to your economy!"
 msgstr "ברוך הבא לכלכלה שלך!"
 
-#: src/components/_other/upgradeConstruction/ConstructionPayout.tsx:259
-msgid "What is left of the pool goes back to your country. A payout cannot be cancelled in its first minute."
-msgstr ""
-
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr "מה שהקרבות שאתה נלחם בהם שילמו לך עד כה (מכות, נזק, תיבות, באונטי וכסף מחוזים), בתוספת פריטי מאגר השלל שאתה כרגע בתור עבורם. פריטי המאגר עדיין לא זכית בהם: הם עוקבים אחרי דירוג הנזק ושייכים לך רק לאחר חלוקת המאגר."
@@ -10426,8 +9903,8 @@ msgstr "עם בונוס"
 msgid "with bonus + fidelity"
 msgstr "עם בונוס + נאמנות"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:112
-#: src/components/_military/battle/ActiveBattlesList.tsx:147
+#: src/components/_military/battle/ActiveBattlesList.tsx:113
+#: src/components/_military/battle/ActiveBattlesList.tsx:148
 msgid "With bounty"
 msgstr "עם באונטי"
 
@@ -10465,11 +9942,11 @@ msgid "Woolly Mammoth"
 msgstr "ממותה צמרירית"
 
 #: src/components/_economy/company/WorkButton.tsx:247
-#: src/components/_user/mission/mission.frontConfig.tsx:103
+#: src/components/_user/mission/mission.frontConfig.tsx:102
 msgid "Work"
 msgstr "עבודה"
 
-#: src/components/_user/mission/mission.frontConfig.tsx:105
+#: src/components/_user/mission/mission.frontConfig.tsx:104
 msgid "Work <0/> times for an employer"
 msgstr ""
 
@@ -10505,7 +9982,7 @@ msgstr "עבודה עבור אחרים היא דרך מצוינת להרוויח
 msgid "World <0/>"
 msgstr "עולם <0/>"
 
-#: src/components/_layout/LayoutOptions.tsx:254
+#: src/components/_layout/LayoutOptions.tsx:270
 #: src/components/_user/kits/KitsPopover.tsx:258
 msgid "Worst"
 msgstr "גרוע ביותר"
@@ -10593,10 +10070,6 @@ msgstr "אתה לא משתתף"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:53
 msgid "You are very skilled!"
 msgstr "אתה מאוד מיומן!"
-
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
-msgid "You are/were a council member, sharing ideas and feedback to improve the game <3"
-msgstr "אתה/היית חבר מועצה, משתף רעיונות ומשוב לשיפור המשחק <3"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:149
 msgid "You are/were a part of the staff and helped the game to grow <3"
@@ -10751,7 +10224,7 @@ msgstr "עליך להיות לפחות ברמה {0} כדי להיות מועמד
 
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
-#: src/components/_political/region/RegionResistance.tsx:120
+#: src/components/_political/region/RegionResistance.tsx:223
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "עליך להיות לפחות ברמה {0} כדי לתרום."
@@ -10760,11 +10233,6 @@ msgstr "עליך להיות לפחות ברמה {0} כדי לתרום."
 #: src/components/_political/election/Election.tsx:226
 msgid "You must be at least level {0} to vote."
 msgstr "עליך להיות לפחות ברמה {0} כדי להצביע."
-
-#: src/components/_other/upgradeConstruction/ConstructionPanel.tsx:120
-#: src/components/_political/contribution/ContributionPanel.tsx:152
-msgid "You must be at least level {minLevel} to contribute."
-msgstr ""
 
 #: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
@@ -10863,7 +10331,7 @@ msgstr "אתה נבחרת לנשיא המדינה שלך"
 msgid "You were here at the beginning of War Era"
 msgstr "היית כאן בתחילת עידן המלחמה"
 
-#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:242
+#: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:231
 msgid "You were nominated as a government member of a country"
 msgstr "היית מועמד כחבר ממשלה של מדינה"
 
@@ -10974,21 +10442,21 @@ msgstr "הבאנר שלך ״{0}״ התקבל וזמין כעת בחנות! הו�
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "הבאפ(ים) שלך יפוג תוך פחות משעה. שלב הדיבאף יתחיל בקרוב."
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:99
-msgid "Your citizens will see this construction in <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:96
+msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
 msgstr ""
 
 #: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "אזרחותך עומדת להשתנות"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:140
+#: src/components/_military/battle/ActiveBattlesList.tsx:141
 #: src/pages/index.tsx:135
 msgid "Your country"
 msgstr "המדינה שלך"
 
-#: src/components/_other/upgradeConstruction/SetConstructionFocusModal.tsx:109
-msgid "Your country already focuses a construction in <0/>. Setting this one releases it."
+#: src/components/_political/region/SetResistanceFocusModal.tsx:106
+msgid "Your country already focuses <0/>. Setting this one releases it."
 msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:109
@@ -11043,8 +10511,8 @@ msgstr "המעסיק שלך רוצה להפחית את השכר שלך ב-<0/> �
 msgid "Your enemies"
 msgstr "האויבים שלך"
 
-#: src/components/_other/upgradeConstruction/ConstructionFocusItem.tsx:234
-msgid "Your government asks you to build this one first."
+#: src/components/_political/region/ResistanceFocusItem.tsx:233
+msgid "Your government asks you to push the resistance here."
 msgstr ""
 
 #: src/components/_user/auth/WelcomeModal.tsx:80
@@ -11103,10 +10571,6 @@ msgstr "ההצעות שלך"
 #: src/components/_political/party/PartyFormModal.tsx:96
 msgid "Your party name"
 msgstr "שם המפלגה שלך"
-
-#: src/pages/user/[userId]/domain.tsx:25
-msgid "Your personal estate. Buildings here work wherever you are, and there are fewer slots than buildings: pick the ones that fit how you play."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1000
 msgid "Your premium subscription has been activated!"
